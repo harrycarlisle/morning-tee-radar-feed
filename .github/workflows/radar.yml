@@ -1,4 +1,4 @@
-name: Morning Tee Radar
+name: radar.yml
 
 on:
   schedule:
@@ -12,32 +12,35 @@ jobs:
   run-radar:
     runs-on: ubuntu-latest
 
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      AUTO_PUBLISH: "true"
+      GITHUB_TOKEN: ${{ github.token }}
+      GITHUB_OWNER: ${{ github.repository_owner }}
+      GITHUB_REPO: morning-tee-radar-feed
+      GITHUB_BRANCH: main
+      GITHUB_RADAR_PATH: latest-radar.json
+
     steps:
-      - name: Check out repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
-      - name: Run radar checker
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-          AUTO_PUBLISH: "true"
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_OWNER: ${{ github.repository_owner }}
-          GITHUB_REPO: morning-tee-radar-feed
-          GITHUB_BRANCH: main
-          GITHUB_RADAR_PATH: latest-radar.json
+      - name: Sync latest repo state
+        run: git pull --rebase
+
+      - name: Run radar
         run: node reddit-checker.js
 
-      - name: Save seen posts
+      - name: Commit seen posts
         run: |
           git config user.name "Morning Tee Radar Bot"
           git config user.email "actions@github.com"
-          git pull --rebase
           git add seen-posts.json
           git diff --cached --quiet || git commit -m "Update seen radar posts"
           git push
