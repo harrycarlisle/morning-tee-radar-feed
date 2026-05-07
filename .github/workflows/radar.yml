@@ -1,0 +1,42 @@
+name: Morning Tee Radar
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run radar checker
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          AUTO_PUBLISH: "true"
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO: morning-tee-radar-feed
+          GITHUB_BRANCH: main
+          GITHUB_RADAR_PATH: latest-radar.json
+        run: node reddit-checker.js
+
+      - name: Save seen posts
+        run: |
+          git config user.name "Morning Tee Radar Bot"
+          git config user.email "actions@github.com"
+          git pull --rebase
+          git add seen-posts.json
+          git diff --cached --quiet || git commit -m "Update seen radar posts"
+          git push
