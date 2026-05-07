@@ -1121,10 +1121,32 @@ function buildNextRadarJson(currentJson, item) {
   };
 }
 
+function backfillRadarImages(radarJson) {
+  return {
+    ...radarJson,
+    today: attachImagesToRadarArray(radarJson.today || []),
+    alsoMoving: attachImagesToRadarArray(radarJson.alsoMoving || []),
+    golfInternet: attachImagesToRadarArray(radarJson.golfInternet || []),
+    checking: radarJson.checking ? attachImageIfMissing(radarJson.checking) : radarJson.checking
+  };
+}
+
+function radarJsonChanged(before, after) {
+  return JSON.stringify(before) !== JSON.stringify(after);
+}
+
 async function autoPublishToGitHub(item) {
   const current = await getRadarFileFromGitHub();
 
   if (storyAlreadyOnRadar(current.json, item)) {
+    const backfilledJson = backfillRadarImages(current.json);
+
+    if (radarJsonChanged(current.json, backfilledJson)) {
+      await updateRadarFileOnGitHub(backfilledJson, current.sha, "Backfill radar images");
+      console.log("[Publish] Story already on radar, but missing images were backfilled.");
+      return true;
+    }
+
     console.log("[Publish] Story is already on radar. Skipping GitHub update.");
     return false;
   }
