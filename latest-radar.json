@@ -1,16 +1,17 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T18:58:03.819Z",
+  "updatedAt": "2026-05-07T16:59:55.698Z",
   "today": [
     {
       "time": "Just now",
       "status": "Confirmed",
-      "signal": "RSS",
+      "signal": "LIV future",
       "category": "LIV",
       "title": "Bryson DeChambeau Puts Responsibility on PGA Tour Pros for His Reinstatement Amid LIV Golf-PIF Split",
       "summary": "A tournament-week golf story is moving across the radar.",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-puts-responsibility-pga-161150384.html",
-      "source": "Yahoo Golf"
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-points-fingers-pga-153031592.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/Bryson%20Dechambeau.png"
     },
     {
       "time": "Just now",
@@ -32,9 +33,7 @@
       "url": "https://www.golfchannel.com/pga-tour/news/truist-championship-2026-round-1-tee-times-pairings-how-to-watch",
       "source": "Golf Channel",
       "image": "https://morningteeradarfeed.netlify.app/images/rory%20mcilroy.jpg"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -45,7 +44,9 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-points-fingers-pga-153031592.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/Bryson%20Dechambeau.png"
-    },
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "status": "Confirmed",
