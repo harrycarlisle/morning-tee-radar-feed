@@ -514,9 +514,125 @@ function attachImagesToRadarArray(items) {
   return Array.isArray(items) ? items.map(attachImageIfMissing) : [];
 }
 
+function formatTimeLabel(value) {
+  const timestamp = Date.parse(value);
+
+  if (Number.isNaN(timestamp)) {
+    return "Earlier";
+  }
+
+  const diffMinutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60000));
+
+  if (diffMinutes < 2) return "Just now";
+  if (diffMinutes < 60) return `${diffMinutes} min ago`;
+
+  const diffHours = Math.floor(diffMinutes / 60);
+
+  if (diffHours === 1) return "1 hour ago";
+  if (diffHours < 24) return `${diffHours} hours ago`;
+
+  const diffDays = Math.floor(diffHours / 24);
+
+  if (diffDays === 1) return "Yesterday";
+  if (diffDays < 7) return `${diffDays} days ago`;
+
+  return "Earlier";
+}
+
+function getSourceTimestampIso(item, fallbackMinutesAgo) {
+  if (!item) {
+    return new Date().toISOString();
+  }
+
+  const possibleValues = [
+    item.timestamp,
+    item.createdAt,
+    item.created_at,
+    item.publishedAt,
+    item.published_at,
+    item.approvedAt,
+    item.approved_at,
+    item.updatedAt,
+    item.updated_at,
+    item.date,
+    item.isoDate
+  ];
+
+  for (const value of possibleValues) {
+    if (value === null || value === undefined || value === "") continue;
+
+    if (value instanceof Date && !Number.isNaN(value.getTime())) {
+      return value.toISOString();
+    }
+
+    if (typeof value === "number") {
+      const asMs = value < 10000000000 ? value * 1000 : value;
+      const date = new Date(asMs);
+
+      if (!Number.isNaN(date.getTime())) {
+        return date.toISOString();
+      }
+    }
+
+    if (typeof value === "string") {
+      const numericValue = Number(value);
+
+      if (!Number.isNaN(numericValue) && value.trim() !== "") {
+        const asMs = numericValue < 10000000000 ? numericValue * 1000 : numericValue;
+        const date = new Date(asMs);
+
+        if (!Number.isNaN(date.getTime())) {
+          return date.toISOString();
+        }
+      }
+
+      const parsed = Date.parse(value);
+
+      if (!Number.isNaN(parsed)) {
+        return new Date(parsed).toISOString();
+      }
+    }
+  }
+
+  if (typeof item.ageHours === "number" && !Number.isNaN(item.ageHours)) {
+    return new Date(Date.now() - item.ageHours * 3600000).toISOString();
+  }
+
+  const fallback = typeof fallbackMinutesAgo === "number" && fallbackMinutesAgo > 0
+    ? fallbackMinutesAgo
+    : 0;
+
+  return new Date(Date.now() - fallback * 60000).toISOString();
+}
+
+function addDisplayTime(item, fallbackMinutesAgo) {
+  if (!item) return item;
+
+  const timestamp = getSourceTimestampIso(item, fallbackMinutesAgo);
+
+  return {
+    ...item,
+    timestamp,
+    time: formatTimeLabel(timestamp)
+  };
+}
+
+function addDisplayTimesToRadarArray(items, startOffsetMinutes) {
+  if (!Array.isArray(items)) return [];
+
+  return items.map((item, index) => {
+    const fallbackMinutesAgo = (startOffsetMinutes || 0) + index * 37;
+    return addDisplayTime(item, fallbackMinutesAgo);
+  });
+}
+
 function buildRadarItem(item) {
+  const timestamp = getSourceTimestampIso(item, 0);
+
   const radarItem = {
-    time: "Just now",
+    time: formatTimeLabel(timestamp),
+    timestamp,
+    approvedAt: new Date().toISOString(),
     status: item.sourceType === "Leaderboard" ? "Live" : item.sourceType === "RSS" ? "Confirmed" : "Trending",
     signal: item.sourceType,
     category: inferCategory(item),
@@ -1216,12 +1332,18 @@ function buildNextRadarJson(currentJson, item) {
   const oldLive = existingToday[0] || null;
   const restToday = existingToday.slice(1);
 
-  const nextToday = attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3));
+  const nextToday = addDisplayTimesToRadarArray(
+    attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3)),
+    0
+  );
 
-  const nextAlsoMoving = attachImagesToRadarArray([
-    ...(oldLive ? [oldLive] : []),
-    ...existingAlsoMoving
-  ].slice(0, 8));
+  const nextAlsoMoving = addDisplayTimesToRadarArray(
+    attachImagesToRadarArray([
+      ...(oldLive ? [oldLive] : []),
+      ...existingAlsoMoving
+    ].slice(0, 8)),
+    35
+  );
 
   return {
     ...currentJson,
@@ -1230,16 +1352,28 @@ function buildNextRadarJson(currentJson, item) {
     today: nextToday,
     alsoMoving: nextAlsoMoving,
     checking: currentJson.checking || buildCheckingItem(item),
-    golfInternet: attachImagesToRadarArray(currentJson.golfInternet || [])
+    golfInternet: addDisplayTimesToRadarArray(
+      attachImagesToRadarArray(currentJson.golfInternet || []),
+      90
+    )
   };
 }
 
 function backfillRadarImages(radarJson) {
   return {
     ...radarJson,
-    today: attachImagesToRadarArray(radarJson.today || []),
-    alsoMoving: attachImagesToRadarArray(radarJson.alsoMoving || []),
-    golfInternet: attachImagesToRadarArray(radarJson.golfInternet || []),
+    today: addDisplayTimesToRadarArray(
+      attachImagesToRadarArray(radarJson.today || []),
+      0
+    ),
+    alsoMoving: addDisplayTimesToRadarArray(
+      attachImagesToRadarArray(radarJson.alsoMoving || []),
+      35
+    ),
+    golfInternet: addDisplayTimesToRadarArray(
+      attachImagesToRadarArray(radarJson.golfInternet || []),
+      90
+    ),
     checking: radarJson.checking ? attachImageIfMissing(radarJson.checking) : radarJson.checking
   };
 }
