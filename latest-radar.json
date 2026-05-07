@@ -1,7 +1,20 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T21:11:16.043Z",
+  "updatedAt": "2026-05-07T21:15:20.441Z",
   "today": [
+    {
+      "time": "Just now",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA CHAMPIONSHIP '26: A growing list of stars converge on Aronimink for PGA",
+      "summary": "In the 32 days between Rory McIlroy holding off Scottie Scheffler to win another Masters and the start of the PGA Championship, golf no longer seems to be a two-man show.",
+      "url": "https://sports.yahoo.com/articles/pga-championship-26-growing-list-205356469.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "status": "Live",
@@ -46,9 +59,7 @@
           "thru": "12"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Just now",
       "status": "Live",
@@ -158,17 +169,6 @@
       "url": "https://sports.yahoo.com/articles/cam-young-calls-pga-tour-110000682.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/cameron-young.png"
-    },
-    {
-      "time": "Just now",
-      "status": "Trending",
-      "signal": "LIV future",
-      "category": "LIV",
-      "title": "Thomas Pieters says he was ready to retire if LIV folded",
-      "summary": "Pieters said he was ready to retire if LIV disappeared quickly, adding that a PGA Tour return was not something he wanted.",
-      "url": "https://ca.sports.yahoo.com/news/liv-player-ready-retire-never-223024017.html",
-      "source": "Yahoo Sports",
-      "image": "https://morningteeradarfeed.netlify.app/images/thomas-pieters.png"
     }
   ],
   "weekRadar": [
