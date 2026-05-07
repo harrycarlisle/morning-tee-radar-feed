@@ -24,6 +24,7 @@ jobs:
       - name: Run radar checker
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
           AUTO_PUBLISH: "true"
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_OWNER: ${{ github.repository_owner }}
