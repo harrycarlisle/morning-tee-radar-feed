@@ -1,7 +1,20 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T20:45:55.207Z",
+  "updatedAt": "2026-05-07T20:49:16.906Z",
   "today": [
+    {
+      "time": "Just now",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Dan Rapaport suggests Bryson DeChambeau has made a mistake with his latest comments, ‘he is off the mark’",
+      "summary": "Bryson DeChambeau certainly isn’t afraid to speak his mind, as proven by his latest comments on the PGA Tour.",
+      "url": "https://sports.yahoo.com/articles/dan-rapaport-suggests-bryson-dechambeau-193000819.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -11,9 +24,7 @@
       "summary": "LIV Golf seem to have all sorts of issues right now, with their future completely uncertain.",
       "url": "https://sports.yahoo.com/articles/liv-golfer-once-recorded-seven-174500430.html",
       "source": "Yahoo Golf"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -90,16 +101,6 @@
       "url": "https://www.forbes.com/sites/break80/2026/05/05/jon-rahm-settles-dispute-with-dp-world-tour/",
       "source": "Forbes",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Just now",
-      "status": "Trending",
-      "signal": "Global tours",
-      "category": "JAPAN TOUR",
-      "title": "LIV players are showing up across global tours",
-      "summary": "Morning Tee is watching whether more LIV players use starts on the DP World Tour, Asian Tour, and Japan Golf Tour.",
-      "url": "https://www.livgolf.com/news/liv-golf-watch-puig-mckibbin-smylie-dp-world-tour-asian-tour-japan-tour-2026",
-      "source": "LIV Golf"
     }
   ],
   "checking": {
