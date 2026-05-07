@@ -1,7 +1,54 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T20:49:16.906Z",
+  "updatedAt": "2026-05-07T20:56:47.282Z",
   "today": [
+    {
+      "time": "Just now",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads Truist Championship at -6",
+      "summary": "Sungjae Im is -6 today and -6 overall through 8*. Closest chasers: Matt McCarty (-5), Kristoffer Reitan (-4), Tommy Fleetwood (-4).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-6",
+          "thru": "8*"
+        },
+        {
+          "pos": "2",
+          "name": "Matt McCarty",
+          "score": "-5",
+          "thru": "12*"
+        },
+        {
+          "pos": "T3",
+          "name": "Kristoffer Reitan",
+          "score": "-4",
+          "thru": "16*"
+        },
+        {
+          "pos": "T3",
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "15*"
+        },
+        {
+          "pos": "T5",
+          "name": "Harris English",
+          "score": "-3",
+          "thru": "13"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -12,9 +59,7 @@
       "url": "https://sports.yahoo.com/articles/dan-rapaport-suggests-bryson-dechambeau-193000819.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -90,17 +135,6 @@
       "url": "https://www.golfdigest.com/story/bryson-dechambeau-liv-golf-ends-pga-tour-2026",
       "source": "Golf Digest",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Just now",
-      "status": "Confirmed",
-      "signal": "Ryder Cup eligibility",
-      "category": "DP TOUR",
-      "title": "Jon Rahm keeps his Ryder Cup path open",
-      "summary": "Rahm’s DP World Tour agreement appears to keep his eligibility path open for Europe in 2027.",
-      "url": "https://www.forbes.com/sites/break80/2026/05/05/jon-rahm-settles-dispute-with-dp-world-tour/",
-      "source": "Forbes",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "checking": {
