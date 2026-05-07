@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: morning-tee-radar
+  cancel-in-progress: false
+
 jobs:
   run-radar:
     runs-on: ubuntu-latest
@@ -41,6 +45,13 @@ jobs:
         run: |
           git config user.name "Morning Tee Radar Bot"
           git config user.email "actions@github.com"
+
           git add seen-posts.json
           git diff --cached --quiet || git commit -m "Update seen radar posts"
-          git push
+
+          git pull --rebase
+
+          git push || {
+            git pull --rebase
+            git push
+          }
