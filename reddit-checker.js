@@ -725,9 +725,24 @@ async function fetchCurrentTournament() {
     throw new Error(`Schedule request failed: ${response.status} ${body}`);
   }
 
-  const data = await response.json();
-  const schedule = Array.isArray(data.schedule) ? data.schedule : [];
-  const now = new Date();
+ const data = await response.json();
+
+console.log("[Leaderboard] Schedule response keys:", Object.keys(data));
+
+const schedule =
+  Array.isArray(data.schedule) ? data.schedule :
+  Array.isArray(data.tournaments) ? data.tournaments :
+  Array.isArray(data.events) ? data.events :
+  Array.isArray(data.data) ? data.data :
+  [];
+
+console.log("[Leaderboard] Schedule count:", schedule.length);
+console.log("[Leaderboard] First 5 schedule items:");
+schedule.slice(0, 5).forEach((event) => {
+  console.log(JSON.stringify(event, null, 2));
+});
+
+const now = new Date();
 
   const currentEvents = schedule.filter((event) => {
     const start = new Date(event.date && event.date.start);
@@ -742,6 +757,22 @@ async function fetchCurrentTournament() {
 
     return now >= start && now < endPlusOneDay;
   });
+
+  console.log("[Leaderboard] Current event candidates:", currentEvents.length);
+currentEvents.forEach((event) => {
+  console.log(JSON.stringify({
+    name: event.name,
+    tournamentName: event.tournamentName,
+    tournId: event.tournId,
+    id: event.id,
+    start: event.date && event.date.start,
+    end: event.date && event.date.end,
+    rawDate: event.date,
+    purse: event.purse,
+    fedexCupPoints: event.fedexCupPoints,
+    format: event.format
+  }, null, 2));
+});
 
   if (!currentEvents.length) return null;
 
