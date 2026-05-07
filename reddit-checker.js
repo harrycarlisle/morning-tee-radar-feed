@@ -17,10 +17,11 @@ const LIVE_GOLF_YEAR = new Date().getFullYear().toString();
 const SEEN_FILE = "seen-posts.json";
 const FEED_BASE_URL = "https://morningteeradarfeed.netlify.app";
 
-const REDDIT_SOURCES = [
-  { name: "r/golf", subreddit: "golf" },
-  { name: "r/progolf", subreddit: "progolf" }
-];
+/*
+  Reddit is temporarily disabled because GitHub Actions is getting 403s
+  from Reddit. Turn this back on later once Reddit access is fixed.
+*/
+const REDDIT_SOURCES = [];
 
 const RSS_FEEDS = [
   {
@@ -682,6 +683,80 @@ async function fetchRssItems() {
   return allItems;
 }
 
+function parseApiDate(value) {
+  if (!value) return null;
+
+  if (value instanceof Date) {
+    return Number.isNaN(value.getTime()) ? null : value;
+  }
+
+  if (typeof value === "string" || typeof value === "number") {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? null : date;
+  }
+
+  if (value.$date && value.$date.$numberLong) {
+    const date = new Date(Number(value.$date.$numberLong));
+    return Number.isNaN(date.getTime()) ? null : date;
+  }
+
+  if (value.$numberLong) {
+    const date = new Date(Number(value.$numberLong));
+    return Number.isNaN(date.getTime()) ? null : date;
+  }
+
+  return null;
+}
+
+function parseApiNumber(value) {
+  if (value === null || value === undefined) return 0;
+
+  if (typeof value === "number") return value;
+
+  if (typeof value === "string") {
+    const parsed = Number(value);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  if (value.$numberInt) {
+    const parsed = Number(value.$numberInt);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  if (value.$numberLong) {
+    const parsed = Number(value.$numberLong);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  return 0;
+}
+
+function getLeaderboardRows(leaderboardData) {
+  if (!leaderboardData) return [];
+
+  if (Array.isArray(leaderboardData.leaderboardRows)) {
+    return leaderboardData.leaderboardRows;
+  }
+
+  if (leaderboardData.leaderboard && Array.isArray(leaderboardData.leaderboard.leaderboardRows)) {
+    return leaderboardData.leaderboard.leaderboardRows;
+  }
+
+  if (leaderboardData.data && Array.isArray(leaderboardData.data.leaderboardRows)) {
+    return leaderboardData.data.leaderboardRows;
+  }
+
+  if (
+    leaderboardData.data &&
+    leaderboardData.data.leaderboard &&
+    Array.isArray(leaderboardData.data.leaderboard.leaderboardRows)
+  ) {
+    return leaderboardData.data.leaderboard.leaderboardRows;
+  }
+
+  return [];
+}
+
 function getEasternNowParts() {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
@@ -701,7 +776,16 @@ function getEasternNowParts() {
 }
 
 function shouldCheckLeaderboardNow() {
-  return Boolean(RAPIDAPI_KEY);
+  if (!RAPIDAPI_KEY) return false;
+
+  if (process.env.FORCE_LEADERBOARD_CHECK === "true") return true;
+  if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") return true;
+
+  const { weekday, minute } = getEasternNowParts();
+
+  if (minute !== 0) return false;
+
+  return ["Thu", "Fri", "Sat", "Sun"].includes(weekday);
 }
 
 function rapidApiHeaders() {
@@ -725,30 +809,26 @@ async function fetchCurrentTournament() {
     throw new Error(`Schedule request failed: ${response.status} ${body}`);
   }
 
- const data = await response.json();
+  const data = await response.json();
 
-console.log("[Leaderboard] Schedule response keys:", Object.keys(data));
+  console.log("[Leaderboard] Schedule response keys:", Object.keys(data));
 
-const schedule =
-  Array.isArray(data.schedule) ? data.schedule :
-  Array.isArray(data.tournaments) ? data.tournaments :
-  Array.isArray(data.events) ? data.events :
-  Array.isArray(data.data) ? data.data :
-  [];
+  const schedule =
+    Array.isArray(data.schedule) ? data.schedule :
+    Array.isArray(data.tournaments) ? data.tournaments :
+    Array.isArray(data.events) ? data.events :
+    Array.isArray(data.data) ? data.data :
+    [];
 
-console.log("[Leaderboard] Schedule count:", schedule.length);
-console.log("[Leaderboard] First 5 schedule items:");
-schedule.slice(0, 5).forEach((event) => {
-  console.log(JSON.stringify(event, null, 2));
-});
+  console.log("[Leaderboard] Schedule count:", schedule.length);
 
-const now = new Date();
+  const now = new Date();
 
   const currentEvents = schedule.filter((event) => {
-    const start = new Date(event.date && event.date.start);
-    const end = new Date(event.date && event.date.end);
+    const start = parseApiDate(event.date && event.date.start);
+    const end = parseApiDate(event.date && event.date.end);
 
-    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
+    if (!start || !end) {
       return false;
     }
 
@@ -759,20 +839,20 @@ const now = new Date();
   });
 
   console.log("[Leaderboard] Current event candidates:", currentEvents.length);
-currentEvents.forEach((event) => {
-  console.log(JSON.stringify({
-    name: event.name,
-    tournamentName: event.tournamentName,
-    tournId: event.tournId,
-    id: event.id,
-    start: event.date && event.date.start,
-    end: event.date && event.date.end,
-    rawDate: event.date,
-    purse: event.purse,
-    fedexCupPoints: event.fedexCupPoints,
-    format: event.format
-  }, null, 2));
-});
+
+  currentEvents.forEach((event) => {
+    console.log(JSON.stringify({
+      name: event.name,
+      tournamentName: event.tournamentName,
+      tournId: event.tournId,
+      id: event.id,
+      start: parseApiDate(event.date && event.date.start),
+      end: parseApiDate(event.date && event.date.end),
+      purse: parseApiNumber(event.purse),
+      fedexCupPoints: parseApiNumber(event.fedexCupPoints),
+      format: event.format
+    }, null, 2));
+  });
 
   if (!currentEvents.length) return null;
 
@@ -780,10 +860,10 @@ currentEvents.forEach((event) => {
   const candidates = strokeEvents.length ? strokeEvents : currentEvents;
 
   return candidates.sort((a, b) => {
-    const purseA = Number(a.purse || 0);
-    const purseB = Number(b.purse || 0);
-    const fedexA = Number(a.fedexCupPoints || 0);
-    const fedexB = Number(b.fedexCupPoints || 0);
+    const purseA = parseApiNumber(a.purse);
+    const purseB = parseApiNumber(b.purse);
+    const fedexA = parseApiNumber(a.fedexCupPoints);
+    const fedexB = parseApiNumber(b.fedexCupPoints);
 
     return (purseB + fedexB * 10000) - (purseA + fedexA * 10000);
   })[0];
@@ -829,9 +909,7 @@ function positionNumber(position) {
 }
 
 function buildLeaderboardItem(tournament, leaderboardData) {
-  const rows = Array.isArray(leaderboardData.leaderboardRows)
-    ? leaderboardData.leaderboardRows.filter(isActiveLeaderboardRow)
-    : [];
+  const rows = getLeaderboardRows(leaderboardData).filter(isActiveLeaderboardRow);
 
   if (!rows.length) return null;
 
@@ -901,9 +979,19 @@ async function fetchLeaderboardItems() {
     console.log(`[Leaderboard] Current tournament: ${tournament.name} (${tournament.tournId})`);
 
     const leaderboard = await fetchLeaderboardForTournament(tournament);
+    const leaderboardRows = getLeaderboardRows(leaderboard);
+
+    console.log("[Leaderboard] Response keys:", Object.keys(leaderboard || {}));
+    console.log("[Leaderboard] Row count:", leaderboardRows.length);
+
     const item = buildLeaderboardItem(tournament, leaderboard);
 
-    return item ? [item] : [];
+    if (!item) {
+      console.log("[Leaderboard] No publishable leaderboard item found.");
+      return [];
+    }
+
+    return [item];
   } catch (error) {
     console.error("[Leaderboard] Failed", error);
     return [];
