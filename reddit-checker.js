@@ -15,6 +15,7 @@ const PGA_ORG_ID = "1";
 const LIVE_GOLF_YEAR = new Date().getFullYear().toString();
 
 const SEEN_FILE = "seen-posts.json";
+const FEED_BASE_URL = "https://morningteeradarfeed.netlify.app";
 
 const REDDIT_SOURCES = [
   { name: "r/golf", subreddit: "golf" },
@@ -28,10 +29,68 @@ const RSS_FEEDS = [
   }
 ];
 
-function isTournamentWindow() {
-  const day = new Date().getDay();
-  return day === 0 || day === 4 || day === 5 || day === 6;
-}
+const PLAYER_IMAGE_MAP = [
+  {
+    terms: ["brooks koepka", "koepka"],
+    image: "/images/brooks-koepka.png"
+  },
+  {
+    terms: ["bryson dechambeau", "bryson", "dechambeau"],
+    image: "/images/bryson-dechambeau.png"
+  },
+  {
+    terms: ["cameron young", "cam young"],
+    image: "/images/cameron-young.png"
+  },
+  {
+    terms: ["jon rahm", "rahm"],
+    image: "/images/jon-rahm.png"
+  },
+  {
+    terms: ["jon rahm bryson dechambeau cam smith", "rahm bryson cam smith", "cam smith"],
+    image: "/images/jon-rahm-bryson-dechambeau-cam-smith.png"
+  },
+  {
+    terms: ["jordan spieth", "spieth"],
+    image: "/images/jordan-spieth.png"
+  },
+  {
+    terms: ["justin rose", "rose"],
+    image: "/images/justin-rose.png"
+  },
+  {
+    terms: ["lando norris"],
+    image: "/images/lando-norris.png"
+  },
+  {
+    terms: ["phil mickelson", "mickelson"],
+    image: "/images/phil-mickelson.png"
+  },
+  {
+    terms: ["rory mcilroy", "rory", "mcilroy"],
+    image: "/images/rory-mcilroy.png"
+  },
+  {
+    terms: ["scottie scheffler", "scheffler"],
+    image: "/images/scottie-scheffler.png"
+  },
+  {
+    terms: ["ted scott", "tedd scott", "scheffler caddie", "scottie scheffler's caddie"],
+    image: "/images/ted-scott.png"
+  },
+  {
+    terms: ["thomas pieters", "pieters"],
+    image: "/images/thomas-pieters.png"
+  },
+  {
+    terms: ["tommy fleetwood and scottie scheffler", "fleetwood scheffler"],
+    image: "/images/tommy-fleetwood-and-scottie-scheffler.png"
+  },
+  {
+    terms: ["tommy fleetwood", "fleetwood"],
+    image: "/images/tommy-fleetwood.png"
+  }
+];
 
 const TOURNAMENT_TERMS = [
   "leaderboard",
@@ -75,7 +134,7 @@ const IMPORTANT_TERMS = [
   "tiger",
   "woods",
   "rory",
-  "mcIlroy",
+  "mcilroy",
   "scheffler",
   "bryson",
   "dechambeau",
@@ -102,10 +161,6 @@ const IMPORTANT_TERMS = [
   "truist",
   "genesis",
   "pebble beach",
-  "waste management",
-  "wm phoenix",
-  "netflix",
-  "full swing",
   "youtube",
   "good good",
   "bob does sports",
@@ -130,7 +185,6 @@ const IMPORTANT_TERMS = [
   "record",
   "wins",
   "winner",
-  "odds",
   "tee times",
   "featured group"
 ];
@@ -231,6 +285,19 @@ function isIgnored(text) {
   return includesAny(text, IGNORE_TERMS);
 }
 
+function getAgeHoursFromDate(date) {
+  if (!date || Number.isNaN(date.getTime())) {
+    return null;
+  }
+
+  return (Date.now() - date.getTime()) / 3600000;
+}
+
+function isTournamentWindow() {
+  const day = new Date().getDay();
+  return day === 0 || day === 4 || day === 5 || day === 6;
+}
+
 function getTournamentScoreBoost(item) {
   if (!isTournamentWindow()) return 0;
 
@@ -245,7 +312,7 @@ function getTournamentScoreBoost(item) {
 
   const bigNames = [
     "rory",
-    "mcIlroy",
+    "mcilroy",
     "scheffler",
     "bryson",
     "dechambeau",
@@ -283,7 +350,7 @@ function scoreNewsItem(item) {
   const matchedTerms = getMatchedTerms(text);
 
   let score = matchedTerms.length * 10;
-  const title = item.title.toLowerCase();
+  const title = String(item.title || "").toLowerCase();
 
   if (title.includes("liv")) score += 15;
   if (title.includes("rory")) score += 12;
@@ -311,14 +378,6 @@ function scoreNewsItem(item) {
     matchedTerms,
     tournamentBoost
   };
-}
-
-function getAgeHoursFromDate(date) {
-  if (!date || Number.isNaN(date.getTime())) {
-    return null;
-  }
-
-  return (Date.now() - date.getTime()) / 3600000;
 }
 
 function inferCategory(item) {
@@ -398,8 +457,64 @@ function cleanSummary(item) {
   return sentence.length > 190 ? `${sentence.slice(0, 187)}...` : sentence;
 }
 
-function buildRadarItem(item) {
+function isLeaderboardRadarItem(item) {
+  const signal = String(item && item.signal || "").toLowerCase();
+  const status = String(item && item.status || "").toLowerCase();
+  const sourceType = String(item && item.sourceType || "").toLowerCase();
+
+  return (
+    sourceType === "leaderboard" ||
+    signal.includes("leaderboard") ||
+    status === "live" ||
+    Array.isArray(item && item.leaders)
+  );
+}
+
+function getImageForItem(item) {
+  if (!item) return "";
+
+  const haystack = [
+    item.title,
+    item.summary,
+    item.category,
+    item.source,
+    item.sourceName,
+    item.signal
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  const match = PLAYER_IMAGE_MAP.find((entry) => {
+    return entry.terms.some((term) => haystack.includes(term.toLowerCase()));
+  });
+
+  return match ? FEED_BASE_URL + match.image : "";
+}
+
+function attachImageIfMissing(item) {
+  if (!item || item.image) return item;
+
+  if (isLeaderboardRadarItem(item)) {
+    return item;
+  }
+
+  const image = getImageForItem(item);
+
+  if (!image) return item;
+
   return {
+    ...item,
+    image
+  };
+}
+
+function attachImagesToRadarArray(items) {
+  return Array.isArray(items) ? items.map(attachImageIfMissing) : [];
+}
+
+function buildRadarItem(item) {
+  const radarItem = {
     time: "Just now",
     status: item.sourceType === "Leaderboard" ? "Live" : item.sourceType === "RSS" ? "Confirmed" : "Trending",
     signal: item.sourceType,
@@ -409,10 +524,22 @@ function buildRadarItem(item) {
     url: item.url,
     source: item.sourceName
   };
+
+  if (item.sourceType === "Leaderboard") {
+    return {
+      ...radarItem,
+      tournament: item.tournament || item.tournamentName || "PGA TOUR",
+      liveLabel: "Live coverage",
+      visualSubtitle: "Live coverage",
+      leaders: Array.isArray(item.leaders) ? item.leaders : []
+    };
+  }
+
+  return attachImageIfMissing(radarItem);
 }
 
 function buildCheckingItem(item) {
-  return {
+  return attachImageIfMissing({
     status: "Verifying",
     signal: item.sourceType || "Radar",
     category: inferCategory(item),
@@ -420,7 +547,7 @@ function buildCheckingItem(item) {
     summary: cleanSummary(item),
     url: item.url,
     source: item.sourceName
-  };
+  });
 }
 
 async function sendDiscordAlert(item, published) {
@@ -442,9 +569,9 @@ async function sendDiscordAlert(item, published) {
 
   const message = {
     username: "Morning Tee Radar",
-    content: `🚨 Morning Tee Radar
+    content: `Morning Tee Radar
 
-**${item.title}**
+${item.title}
 
 Source: ${item.sourceName}
 Type: ${item.sourceType}
@@ -502,6 +629,7 @@ async function fetchRedditItems() {
           title: post.title,
           summary: `${post.ups} upvotes · ${post.num_comments} comments · ${Math.round(upvotesPerHour)} upvotes/hour`,
           url: `https://reddit.com${post.permalink}`,
+          image: post.thumbnail && String(post.thumbnail).startsWith("http") ? post.thumbnail : "",
           ageHours,
           reddit: {
             ups: post.ups,
@@ -608,8 +736,8 @@ async function fetchCurrentTournament() {
   const now = new Date();
 
   const currentEvents = schedule.filter((event) => {
-    const start = new Date(event.date?.start);
-    const end = new Date(event.date?.end);
+    const start = new Date(event.date && event.date.start);
+    const end = new Date(event.date && event.date.end);
 
     if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
       return false;
@@ -696,6 +824,17 @@ function buildLeaderboardItem(tournament, leaderboardData) {
     ? leader.currentRoundScore
     : null;
 
+  const leaders = sorted.slice(0, 5).map((row) => {
+    const rowThru = row.thru && row.thru !== "-" ? row.thru : row.currentHole || "";
+
+    return {
+      pos: String(row.position || ""),
+      name: playerName(row),
+      score: String(row.total || ""),
+      thru: String(rowThru || "")
+    };
+  });
+
   const chasersText = chasers.length
     ? `Closest chasers: ${chasers.map((row) => `${playerName(row)} (${row.total})`).join(", ")}.`
     : "";
@@ -708,9 +847,11 @@ function buildLeaderboardItem(tournament, leaderboardData) {
     id: `leaderboard:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.thru}:${leader.currentRound}`,
     sourceType: "Leaderboard",
     sourceName: "Live Golf Data",
+    tournament: tournament.name || "PGA TOUR",
     title: `${leaderName} leads ${tournament.name} at ${leaderScore}`,
     summary: `${todayText} ${chasersText}`.trim(),
     url: "https://www.pgatour.com/leaderboard",
+    leaders,
     ageHours: 0,
     score: 999,
     matchedTerms: ["leaderboard", tournament.name],
@@ -962,12 +1103,12 @@ function buildNextRadarJson(currentJson, item) {
   const oldLive = existingToday[0] || null;
   const restToday = existingToday.slice(1);
 
-  const nextToday = [nextLive, ...restToday].slice(0, 3);
+  const nextToday = attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3));
 
-  const nextAlsoMoving = [
+  const nextAlsoMoving = attachImagesToRadarArray([
     ...(oldLive ? [oldLive] : []),
     ...existingAlsoMoving
-  ].slice(0, 8);
+  ].slice(0, 8));
 
   return {
     ...currentJson,
@@ -975,7 +1116,8 @@ function buildNextRadarJson(currentJson, item) {
     updatedAt: new Date().toISOString(),
     today: nextToday,
     alsoMoving: nextAlsoMoving,
-    checking: currentJson.checking || buildCheckingItem(item)
+    checking: currentJson.checking || buildCheckingItem(item),
+    golfInternet: attachImagesToRadarArray(currentJson.golfInternet || [])
   };
 }
 
