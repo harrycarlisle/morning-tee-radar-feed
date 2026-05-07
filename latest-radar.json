@@ -3,17 +3,63 @@
   "updatedAt": "2026-05-07T16:59:55.698Z",
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "title": "Rory McIlroy leads Truist Championship at -8",
+      "summary": "Rory McIlroy is -3 today and -8 overall through 13. Closest chasers: Scottie Scheffler at -7, Xander Schauffele at -6, and Ludvig Åberg at -6.",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Rory McIlroy",
+          "score": "-8",
+          "thru": "13"
+        },
+        {
+          "pos": "2",
+          "name": "Scottie Scheffler",
+          "score": "-7",
+          "thru": "12"
+        },
+        {
+          "pos": "T3",
+          "name": "Xander Schauffele",
+          "score": "-6",
+          "thru": "11"
+        },
+        {
+          "pos": "T3",
+          "name": "Ludvig Åberg",
+          "score": "-6",
+          "thru": "10"
+        },
+        {
+          "pos": "5",
+          "name": "Collin Morikawa",
+          "score": "-5",
+          "thru": "9"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "YOUTUBE",
       "title": "Bryson DeChambeau Points Fingers at PGA Tour Over Stringent Policy Amid Uncertain LIV Golf Future",
-      "summary": "With 2.",
+      "summary": "Bryson DeChambeau criticized the PGA Tour’s policies while his long-term LIV Golf future remains uncertain.",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-points-fingers-pga-153031592.html",
-      "source": "Yahoo Golf"
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/Bryson%20Dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "Just now",
       "status": "Confirmed",
       "signal": "Truist tee time",
       "category": "PGA TOUR",
@@ -23,29 +69,30 @@
       "source": "Golf Channel"
     },
     {
-      "time": "2 hours ago",
+      "time": "Just now",
       "status": "Confirmed",
       "signal": "Truist tee time",
       "category": "PGA TOUR",
       "title": "Rory starts at 11:33 with Fitzpatrick and Rose",
       "summary": "Rory McIlroy starts Round 1 at 11:33 a.m. EDT on Tee No. 10 with Matt Fitzpatrick and Justin Rose.",
       "url": "https://www.golfchannel.com/pga-tour/news/truist-championship-2026-round-1-tee-times-pairings-how-to-watch",
-      "source": "Golf Channel"
+      "source": "Golf Channel",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory%20mcilroy.jpg"
     }
   ],
   "alsoMoving": [
     {
-      "time": "5 hours ago",
+      "time": "Just now",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "PGA TOUR",
       "title": "Cam Young calls for the PGA Tour to make rule change after he was penalized",
-      "summary": "Cam Young was penalized during the final round of the Cadillac Championship on Sunday after he was deemed to have caused his ball to move in the fairway on the second hole.",
+      "summary": "Cam Young was penalized after officials ruled he caused his ball to move in the fairway, and he wants the PGA Tour to reconsider how those situations are handled.",
       "url": "https://sports.yahoo.com/articles/cam-young-calls-pga-tour-110000682.html",
       "source": "Yahoo Golf"
     },
     {
-      "time": "33 minutes ago",
+      "time": "Just now",
       "status": "Trending",
       "signal": "LIV future",
       "category": "LIV",
@@ -56,17 +103,18 @@
       "image": "https://morningteeradarfeed.netlify.app/images/thomas-pieters.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "Just now",
       "status": "Trending",
       "signal": "YouTube angle",
       "category": "YOUTUBE",
       "title": "Bryson says YouTube could become his focus if LIV folds",
       "summary": "DeChambeau says YouTube could become a serious path if LIV collapses or his tour future changes.",
       "url": "https://www.golfdigest.com/story/bryson-dechambeau-liv-golf-ends-pga-tour-2026",
-      "source": "Golf Digest"
+      "source": "Golf Digest",
+      "image": "https://morningteeradarfeed.netlify.app/images/Bryson%20Dechambeau.png"
     },
     {
-      "time": "Yesterday",
+      "time": "Just now",
       "status": "Confirmed",
       "signal": "Ryder Cup eligibility",
       "category": "DP TOUR",
@@ -76,7 +124,7 @@
       "source": "Forbes"
     },
     {
-      "time": "Yesterday",
+      "time": "Just now",
       "status": "Trending",
       "signal": "Global tours",
       "category": "JAPAN TOUR",
@@ -99,5 +147,6 @@
       "mediaCoverage": "Watching",
       "playerTourPost": "Confirmed"
     }
-  }
+  },
+  "golfInternet": []
 }
