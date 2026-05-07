@@ -9,6 +9,11 @@ const GITHUB_REPO = process.env.GITHUB_REPO;
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 const GITHUB_RADAR_PATH = process.env.GITHUB_RADAR_PATH || "latest-radar.json";
 
+const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
+const RAPIDAPI_HOST = "live-golf-data.p.rapidapi.com";
+const PGA_ORG_ID = "1";
+const LIVE_GOLF_YEAR = new Date().getFullYear().toString();
+
 const SEEN_FILE = "seen-posts.json";
 
 const REDDIT_SOURCES = [
@@ -266,6 +271,14 @@ function getTournamentScoreBoost(item) {
 }
 
 function scoreNewsItem(item) {
+  if (item.sourceType === "Leaderboard") {
+    return {
+      score: 999,
+      matchedTerms: ["leaderboard"],
+      tournamentBoost: 45
+    };
+  }
+
   const text = `${item.title} ${item.summary || ""}`;
   const matchedTerms = getMatchedTerms(text);
 
@@ -308,21 +321,10 @@ function getAgeHoursFromDate(date) {
   return (Date.now() - date.getTime()) / 3600000;
 }
 
-function getRelativeTime(item) {
-  if (item.ageHours === null || item.ageHours === undefined) {
-    return "Moments ago";
-  }
-
-  if (item.ageHours < 0.25) return "Just now";
-  if (item.ageHours < 1) return `${Math.max(1, Math.round(item.ageHours * 60))} minutes ago`;
-  if (item.ageHours < 2) return "1 hour ago";
-  if (item.ageHours < 24) return `${Math.round(item.ageHours)} hours ago`;
-
-  return "Earlier";
-}
-
 function inferCategory(item) {
   const text = `${item.title} ${item.summary || ""} ${item.sourceName || ""}`.toLowerCase();
+
+  if (item.sourceType === "Leaderboard") return "PGA TOUR";
 
   if (
     text.includes("youtube") ||
@@ -337,6 +339,7 @@ function inferCategory(item) {
   if (text.includes("dp world")) return "DP TOUR";
   if (text.includes("japan")) return "JAPAN TOUR";
   if (text.includes("lpga") || text.includes("nelly korda")) return "LPGA";
+
   if (
     text.includes("pga tour") ||
     text.includes("truist") ||
@@ -360,30 +363,45 @@ function cleanSummary(item) {
   const title = String(item.title || "");
   const summary = String(item.summary || "");
 
-  if (item.sourceType === "Reddit") {
-    return summary || "A golf story is picking up attention on Reddit.";
+  if (item.sourceType === "Leaderboard") {
+    return summary || "The live leaderboard is moving.";
   }
 
-  const clean = summary.replace(/\s+/g, " ").trim();
+  if (item.sourceType === "Reddit") {
+    return summary || "A golf post is picking up attention online.";
+  }
 
-  if (!clean) {
-    return "A golf story is moving quickly across the golf internet.";
+  const clean = summary
+    .replace(/\s+/g, " ")
+    .replace(/^with\s+\d+\.?$/i, "")
+    .replace(/^watch:?$/i, "")
+    .replace(/^read more\.?$/i, "")
+    .replace(/^click here.*$/i, "")
+    .replace(/^subscribe.*$/i, "")
+    .trim();
+
+  const badSummary =
+    !clean ||
+    clean.length < 40 ||
+    clean.toLowerCase() === title.toLowerCase() ||
+    /^with\s+\d+\.?$/i.test(clean);
+
+  if (badSummary) {
+    return isTournamentWindow()
+      ? "A tournament-week golf story is moving across the radar."
+      : "A golf story is picking up attention across the golf news cycle.";
   }
 
   const firstSentence = clean.match(/^.*?[.!?](\s|$)/);
   const sentence = firstSentence ? firstSentence[0].trim() : clean;
-
-  if (sentence.toLowerCase() === title.toLowerCase()) {
-    return "The story is gaining attention as tournament-week traffic picks up.";
-  }
 
   return sentence.length > 190 ? `${sentence.slice(0, 187)}...` : sentence;
 }
 
 function buildRadarItem(item) {
   return {
-    time: getRelativeTime(item),
-    status: item.sourceType === "RSS" ? "Confirmed" : "Trending",
+    time: "Just now",
+    status: item.sourceType === "Leaderboard" ? "Live" : item.sourceType === "RSS" ? "Confirmed" : "Trending",
     signal: item.sourceType,
     category: inferCategory(item),
     title: cleanTitle(item.title),
@@ -536,6 +554,196 @@ async function fetchRssItems() {
   return allItems;
 }
 
+function getEasternNowParts() {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "short",
+    hour: "numeric",
+    minute: "numeric",
+    hour12: false
+  }).formatToParts(new Date());
+
+  const get = (type) => parts.find((part) => part.type === type)?.value;
+
+  return {
+    weekday: get("weekday"),
+    hour: Number(get("hour")),
+    minute: Number(get("minute"))
+  };
+}
+
+function shouldCheckLeaderboardNow() {
+  if (!RAPIDAPI_KEY) return false;
+
+  const { weekday, minute } = getEasternNowParts();
+
+  if (minute !== 0) return false;
+
+  return ["Thu", "Fri", "Sat", "Sun"].includes(weekday);
+}
+
+function rapidApiHeaders() {
+  return {
+    "Content-Type": "application/json",
+    "x-rapidapi-host": RAPIDAPI_HOST,
+    "x-rapidapi-key": RAPIDAPI_KEY
+  };
+}
+
+async function fetchCurrentTournament() {
+  const url = `https://${RAPIDAPI_HOST}/schedule?orgId=${PGA_ORG_ID}&year=${LIVE_GOLF_YEAR}`;
+
+  const response = await fetch(url, {
+    method: "GET",
+    headers: rapidApiHeaders()
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Schedule request failed: ${response.status} ${body}`);
+  }
+
+  const data = await response.json();
+  const schedule = Array.isArray(data.schedule) ? data.schedule : [];
+  const now = new Date();
+
+  const currentEvents = schedule.filter((event) => {
+    const start = new Date(event.date?.start);
+    const end = new Date(event.date?.end);
+
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
+      return false;
+    }
+
+    const endPlusOneDay = new Date(end);
+    endPlusOneDay.setUTCDate(endPlusOneDay.getUTCDate() + 1);
+
+    return now >= start && now < endPlusOneDay;
+  });
+
+  if (!currentEvents.length) return null;
+
+  const strokeEvents = currentEvents.filter((event) => event.format === "stroke");
+  const candidates = strokeEvents.length ? strokeEvents : currentEvents;
+
+  return candidates.sort((a, b) => {
+    const purseA = Number(a.purse || 0);
+    const purseB = Number(b.purse || 0);
+    const fedexA = Number(a.fedexCupPoints || 0);
+    const fedexB = Number(b.fedexCupPoints || 0);
+
+    return (purseB + fedexB * 10000) - (purseA + fedexA * 10000);
+  })[0];
+}
+
+async function fetchLeaderboardForTournament(tournament) {
+  const url = `https://${RAPIDAPI_HOST}/leaderboard?orgId=${PGA_ORG_ID}&tournId=${tournament.tournId}&year=${LIVE_GOLF_YEAR}`;
+
+  const response = await fetch(url, {
+    method: "GET",
+    headers: rapidApiHeaders()
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Leaderboard request failed: ${response.status} ${body}`);
+  }
+
+  return response.json();
+}
+
+function playerName(row) {
+  return `${row.firstName || ""} ${row.lastName || ""}`.trim();
+}
+
+function isActiveLeaderboardRow(row) {
+  const status = String(row.status || "").toLowerCase();
+  const position = String(row.position || "").toLowerCase();
+
+  return (
+    status !== "cut" &&
+    status !== "wd" &&
+    position !== "cut" &&
+    position !== "wd" &&
+    row.total &&
+    row.position
+  );
+}
+
+function positionNumber(position) {
+  const value = Number(String(position || "").replace("T", ""));
+  return Number.isNaN(value) ? 999 : value;
+}
+
+function buildLeaderboardItem(tournament, leaderboardData) {
+  const rows = Array.isArray(leaderboardData.leaderboardRows)
+    ? leaderboardData.leaderboardRows.filter(isActiveLeaderboardRow)
+    : [];
+
+  if (!rows.length) return null;
+
+  const sorted = rows.slice().sort((a, b) => {
+    return positionNumber(a.position) - positionNumber(b.position);
+  });
+
+  const leader = sorted[0];
+  const chasers = sorted.slice(1, 4);
+
+  const leaderName = playerName(leader);
+  const leaderScore = leader.total || "";
+  const thru = leader.thru && leader.thru !== "-" ? leader.thru : "the course";
+  const today = leader.currentRoundScore && leader.currentRoundScore !== "-"
+    ? leader.currentRoundScore
+    : null;
+
+  const chasersText = chasers.length
+    ? `Closest chasers: ${chasers.map((row) => `${playerName(row)} (${row.total})`).join(", ")}.`
+    : "";
+
+  const todayText = today
+    ? `${leaderName} is ${today} today and ${leaderScore} overall through ${thru}.`
+    : `${leaderName} is ${leaderScore} overall through ${thru}.`;
+
+  return {
+    id: `leaderboard:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.thru}:${leader.currentRound}`,
+    sourceType: "Leaderboard",
+    sourceName: "Live Golf Data",
+    title: `${leaderName} leads ${tournament.name} at ${leaderScore}`,
+    summary: `${todayText} ${chasersText}`.trim(),
+    url: "https://www.pgatour.com/leaderboard",
+    ageHours: 0,
+    score: 999,
+    matchedTerms: ["leaderboard", tournament.name],
+    tournamentBoost: 45
+  };
+}
+
+async function fetchLeaderboardItems() {
+  if (!shouldCheckLeaderboardNow()) {
+    console.log("[Leaderboard] Skipped. Outside leaderboard check window.");
+    return [];
+  }
+
+  try {
+    const tournament = await fetchCurrentTournament();
+
+    if (!tournament) {
+      console.log("[Leaderboard] No current tournament found.");
+      return [];
+    }
+
+    console.log(`[Leaderboard] Current tournament: ${tournament.name} (${tournament.tournId})`);
+
+    const leaderboard = await fetchLeaderboardForTournament(tournament);
+    const item = buildLeaderboardItem(tournament, leaderboard);
+
+    return item ? [item] : [];
+  } catch (error) {
+    console.error("[Leaderboard] Failed", error);
+    return [];
+  }
+}
+
 function filterCandidates(items, seenPosts) {
   return items
     .map((item) => {
@@ -553,6 +761,10 @@ function filterCandidates(items, seenPosts) {
     .filter((item) => {
       if (seenPosts.has(item.id)) return false;
       if (item.ignored) return false;
+
+      if (item.sourceType === "Leaderboard") {
+        return true;
+      }
 
       if (item.sourceType === "Reddit") {
         const text = `${item.title} ${item.summary || ""}`.toLowerCase();
@@ -728,10 +940,15 @@ function storyAlreadyOnRadar(radarJson, item) {
   const allStories = [
     ...(Array.isArray(radarJson.today) ? radarJson.today : []),
     ...(Array.isArray(radarJson.alsoMoving) ? radarJson.alsoMoving : []),
+    ...(Array.isArray(radarJson.golfInternet) ? radarJson.golfInternet : []),
     radarJson.checking
   ].filter(Boolean);
 
   return allStories.some((story) => {
+    if (item.sourceType === "Leaderboard" && story.signal === "Leaderboard") {
+      return story.title === item.title && story.summary === item.summary;
+    }
+
     return story.url && item.url && story.url === item.url;
   });
 }
@@ -788,13 +1005,14 @@ async function checkRadar() {
 
   const seenPosts = loadSeenPosts();
 
+  const leaderboardItems = await fetchLeaderboardItems();
   const redditItems = await fetchRedditItems();
   const rssItems = await fetchRssItems();
 
-  const allItems = [...redditItems, ...rssItems];
+  const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
   const candidates = filterCandidates(allItems, seenPosts);
 
-  console.log(`[Radar] Checked ${redditItems.length} Reddit posts and ${rssItems.length} RSS items.`);
+  console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts and ${rssItems.length} RSS items.`);
   console.log(`[Radar] Candidates found: ${candidates.length}`);
 
   if (candidates.length === 0) {
