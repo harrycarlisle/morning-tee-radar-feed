@@ -1,7 +1,54 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T20:56:47.282Z",
+  "updatedAt": "2026-05-07T21:11:16.043Z",
   "today": [
+    {
+      "time": "Just now",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads Truist Championship at -6",
+      "summary": "Sungjae Im is -6 today and -6 overall through 9*. Closest chasers: Kristoffer Reitan (-5), Matt McCarty (-5), Tommy Fleetwood (-4).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-6",
+          "thru": "9*"
+        },
+        {
+          "pos": "T2",
+          "name": "Kristoffer Reitan",
+          "score": "-5",
+          "thru": "17*"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt McCarty",
+          "score": "-5",
+          "thru": "13*"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "15*"
+        },
+        {
+          "pos": "T4",
+          "name": "David Lipsky",
+          "score": "-4",
+          "thru": "12"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "status": "Live",
@@ -46,9 +93,7 @@
           "thru": "13"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Just now",
       "status": "Confirmed",
@@ -124,17 +169,6 @@
       "url": "https://ca.sports.yahoo.com/news/liv-player-ready-retire-never-223024017.html",
       "source": "Yahoo Sports",
       "image": "https://morningteeradarfeed.netlify.app/images/thomas-pieters.png"
-    },
-    {
-      "time": "Just now",
-      "status": "Trending",
-      "signal": "YouTube angle",
-      "category": "YOUTUBE",
-      "title": "Bryson says YouTube could become his focus if LIV folds",
-      "summary": "DeChambeau says YouTube could become a serious path if LIV collapses or his tour future changes.",
-      "url": "https://www.golfdigest.com/story/bryson-dechambeau-liv-golf-ends-pga-tour-2026",
-      "source": "Golf Digest",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
