@@ -701,13 +701,7 @@ function getEasternNowParts() {
 }
 
 function shouldCheckLeaderboardNow() {
-  if (!RAPIDAPI_KEY) return false;
-
-  const { weekday, minute } = getEasternNowParts();
-
-  if (minute !== 0) return false;
-
-  return ["Thu", "Fri", "Sat", "Sun"].includes(weekday);
+  return Boolean(RAPIDAPI_KEY);
 }
 
 function rapidApiHeaders() {
