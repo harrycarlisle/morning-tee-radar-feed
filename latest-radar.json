@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-07T21:15:20.441Z",
+  "updatedAt": "2026-05-07T22:32:57.091Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "1 hour ago",
+      "timestamp": "2026-05-07T21:30:00.000Z",
+      "approvedAt": "2026-05-07T22:32:57.090Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau and Jon Rahm have already blown their chance of becoming all-time golfing greats",
+      "summary": "LIV Golf could bear witness to an exodus in the very near future, and many eyes are rightfully on what will happen to Bryson DeChambeau and Jon Rahm.",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-already-213000560.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "35 min ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "PGA TOUR",
@@ -11,12 +26,11 @@
       "summary": "In the 32 days between Rory McIlroy holding off Scottie Scheffler to win another Masters and the start of the PGA Championship, golf no longer seems to be a two-man show.",
       "url": "https://sports.yahoo.com/articles/pga-championship-26-growing-list-205356469.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "timestamp": "2026-05-07T21:57:57.091Z"
+    },
     {
-      "time": "Just now",
+      "time": "1 hour ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -58,10 +72,11 @@
           "score": "-4",
           "thru": "12"
         }
-      ]
+      ],
+      "timestamp": "2026-05-07T21:20:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "1 hour ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -103,10 +118,11 @@
           "score": "-3",
           "thru": "13"
         }
-      ]
+      ],
+      "timestamp": "2026-05-07T20:43:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "2 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
@@ -114,20 +130,22 @@
       "summary": "Bryson DeChambeau certainly isn’t afraid to speak his mind, as proven by his latest comments on the PGA Tour.",
       "url": "https://sports.yahoo.com/articles/dan-rapaport-suggests-bryson-dechambeau-193000819.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-07T20:06:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "3 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
       "title": "LIV golfer who once recorded a seven-stroke PGA Tour win blasts leadership for ‘poor communication’",
       "summary": "LIV Golf seem to have all sorts of issues right now, with their future completely uncertain.",
       "url": "https://sports.yahoo.com/articles/liv-golfer-once-recorded-seven-174500430.html",
-      "source": "Yahoo Golf"
+      "source": "Yahoo Golf",
+      "timestamp": "2026-05-07T19:29:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "3 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
@@ -135,10 +153,11 @@
       "summary": "Kevin Kisner has reacted to the comments Bryson DeChambeau made about the PGA Tour this week as he also shared what the LIV Golf star was like inside the Ryder Cup team room.",
       "url": "https://sports.yahoo.com/articles/kevin-kisner-discloses-bryson-dechambeau-183000288.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-07T18:52:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "4 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
@@ -146,10 +165,11 @@
       "summary": "A tournament-week golf story is moving across the radar.",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-puts-responsibility-pga-161150384.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-07T18:15:57.091Z"
     },
     {
-      "time": "Just now",
+      "time": "4 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
@@ -157,18 +177,8 @@
       "summary": "Jon Rahm is back in the mix with the European Tour after paying a $3 million penalty.",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-ends-rift-jon-184340312.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Just now",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Cam Young calls for the PGA Tour to make rule change after he was penalized",
-      "summary": "Cam Young was penalized after officials ruled he caused his ball to move in the fairway, and he wants the PGA Tour to reconsider how those situations are handled.",
-      "url": "https://sports.yahoo.com/articles/cam-young-calls-pga-tour-110000682.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/cameron-young.png"
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
+      "timestamp": "2026-05-07T17:38:57.091Z"
     }
   ],
   "weekRadar": [
