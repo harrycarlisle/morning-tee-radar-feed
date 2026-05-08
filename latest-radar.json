@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T14:21:28.393Z",
+  "updatedAt": "2026-05-08T15:57:10.292Z",
   "today": [
     {
-      "time": "51 min ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-05-08T14:27:46.000Z",
+      "approvedAt": "2026-05-08T15:57:10.292Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 PGA Championship more than just Scottie Scheffler vs. Rory McIlroy",
+      "summary": "In the 32 days between Rory McIlroy holding off Scottie Scheffler to win another Masters and the start of the PGA Championship, golf no longer seems to be a two-man show.",
+      "url": "https://sports.yahoo.com/articles/2026-pga-championship-more-just-142746990.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-08T13:30:00.000Z",
       "approvedAt": "2026-05-08T14:21:28.392Z",
       "status": "Confirmed",
@@ -13,11 +28,9 @@
       "summary": "Round one of the Truist Championship might not have seen the biggest names rise to the top of the leaderboard, but it definitely had its fair share of oddities.",
       "url": "https://sports.yahoo.com/articles/happened-first-round-truist-championship-133000120.html",
       "source": "Yahoo Golf"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-08T09:00:00.000Z",
       "approvedAt": "2026-05-08T12:18:35.383Z",
       "status": "Confirmed",
@@ -29,7 +42,7 @@
       "source": "Yahoo Golf"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-08T01:48:28.000Z",
       "approvedAt": "2026-05-08T11:04:51.233Z",
       "status": "Confirmed",
@@ -42,7 +55,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-08T00:18:24.000Z",
       "approvedAt": "2026-05-08T09:50:48.907Z",
       "status": "Confirmed",
@@ -55,7 +68,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-07T22:21:35.000Z",
       "approvedAt": "2026-05-08T08:05:00.514Z",
       "status": "Confirmed",
@@ -68,7 +81,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-08T00:02:08.000Z",
       "approvedAt": "2026-05-08T06:17:06.002Z",
       "status": "Confirmed",
@@ -81,7 +94,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-08T00:49:49.000Z",
       "approvedAt": "2026-05-08T04:30:11.534Z",
       "status": "Confirmed",
@@ -94,7 +107,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-07T23:50:36.000Z",
       "approvedAt": "2026-05-08T01:23:47.569Z",
       "status": "Confirmed",
@@ -105,53 +118,6 @@
       "url": "https://sports.yahoo.com/articles/lucas-herbert-64-leads-liv-235036762.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-05-08T00:55:44.115Z",
-      "approvedAt": "2026-05-08T00:55:44.115Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Matt McCarty leads Truist Championship at -8",
-      "summary": "Matt McCarty is -8 today and -8 overall through F*. Closest chasers: Sungjae Im (-7), Kristoffer Reitan (-5), Nick Taylor (-5).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Matt McCarty",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "2",
-          "name": "Sungjae Im",
-          "score": "-7",
-          "thru": "17*"
-        },
-        {
-          "pos": "T3",
-          "name": "Kristoffer Reitan",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Nick Taylor",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Harry Hall",
-          "score": "-5",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
