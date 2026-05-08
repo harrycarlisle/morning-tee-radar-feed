@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T01:23:47.569Z",
+  "updatedAt": "2026-05-08T04:30:11.535Z",
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-08T00:49:49.000Z",
+      "approvedAt": "2026-05-08T04:30:11.534Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Matt McCarty holds 1-shot lead at Quail Hollow as Rory McIlroy struggles to make birdies in return",
+      "summary": "McCarty followed up four straight top 25 finishes on the PGA Tour with nine birdies at Quail Hollow to shoot an 8-under 63 on Thursday at the Truist Championship before the round was call...",
+      "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-004949634.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-07T23:50:36.000Z",
       "approvedAt": "2026-05-08T01:23:47.569Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/lucas-herbert-64-leads-liv-235036762.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "28 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T00:55:44.115Z",
       "approvedAt": "2026-05-08T00:55:44.115Z",
       "status": "Live",
@@ -65,7 +78,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-07T22:56:50.000Z",
       "approvedAt": "2026-05-07T23:33:28.517Z",
       "status": "Confirmed",
@@ -78,7 +91,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-07T21:30:00.000Z",
       "approvedAt": "2026-05-07T22:32:57.090Z",
       "status": "Confirmed",
@@ -91,7 +104,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "PGA TOUR",
@@ -103,7 +116,7 @@
       "timestamp": "2026-05-07T21:57:57.091Z"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -149,7 +162,7 @@
       "timestamp": "2026-05-07T21:20:57.091Z"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -195,7 +208,7 @@
       "timestamp": "2026-05-07T20:43:57.091Z"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "LIV",
@@ -205,17 +218,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-05-07T20:06:57.091Z"
-    },
-    {
-      "time": "5 hours ago",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "LIV golfer who once recorded a seven-stroke PGA Tour win blasts leadership for ‘poor communication’",
-      "summary": "LIV Golf seem to have all sorts of issues right now, with their future completely uncertain.",
-      "url": "https://sports.yahoo.com/articles/liv-golfer-once-recorded-seven-174500430.html",
-      "source": "Yahoo Golf",
-      "timestamp": "2026-05-07T19:29:57.091Z"
     }
   ],
   "weekRadar": [
