@@ -1,9 +1,58 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T15:57:10.292Z",
+  "updatedAt": "2026-05-08T17:00:37.058Z",
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-05-08T17:00:37.056Z",
+      "approvedAt": "2026-05-08T17:00:37.056Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Matt McCarty leads Truist Championship at -8",
+      "summary": "Matt McCarty is -8 overall through the course. Closest chasers: Sungjae Im (-7), Sepp Straka (-6), Michael Kim (-5).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Matt McCarty",
+          "score": "-8",
+          "thru": "[object Object]"
+        },
+        {
+          "pos": "2",
+          "name": "Sungjae Im",
+          "score": "-7",
+          "thru": "5"
+        },
+        {
+          "pos": "3",
+          "name": "Sepp Straka",
+          "score": "-6",
+          "thru": "6*"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Kim",
+          "score": "-5",
+          "thru": "7*"
+        },
+        {
+          "pos": "T4",
+          "name": "David Lipsky",
+          "score": "-5",
+          "thru": "8*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-08T14:27:46.000Z",
       "approvedAt": "2026-05-08T15:57:10.292Z",
       "status": "Confirmed",
@@ -14,11 +63,9 @@
       "url": "https://sports.yahoo.com/articles/2026-pga-championship-more-just-142746990.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T13:30:00.000Z",
       "approvedAt": "2026-05-08T14:21:28.392Z",
       "status": "Confirmed",
@@ -27,10 +74,11 @@
       "title": "What happened in the first round of the Truist Championship which hasn’t been seen for seven years on the PGA Tour",
       "summary": "Round one of the Truist Championship might not have seen the biggest names rise to the top of the leaderboard, but it definitely had its fair share of oddities.",
       "url": "https://sports.yahoo.com/articles/happened-first-round-truist-championship-133000120.html",
-      "source": "Yahoo Golf"
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-08T09:00:00.000Z",
       "approvedAt": "2026-05-08T12:18:35.383Z",
       "status": "Confirmed",
@@ -39,10 +87,11 @@
       "title": "Luke Donald says how Seve Ballesteros has helped him as Ryder Cup captain in tribute to the legend",
       "summary": "15-years on from his passing, and Seve Ballesteros’ legacy is still threaded through the fabric of European golf.",
       "url": "https://sports.yahoo.com/articles/luke-donald-says-seve-ballesteros-090000119.html",
-      "source": "Yahoo Golf"
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-08T01:48:28.000Z",
       "approvedAt": "2026-05-08T11:04:51.233Z",
       "status": "Confirmed",
@@ -55,7 +104,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-08T00:18:24.000Z",
       "approvedAt": "2026-05-08T09:50:48.907Z",
       "status": "Confirmed",
@@ -68,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-07T22:21:35.000Z",
       "approvedAt": "2026-05-08T08:05:00.514Z",
       "status": "Confirmed",
@@ -81,7 +130,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-08T00:02:08.000Z",
       "approvedAt": "2026-05-08T06:17:06.002Z",
       "status": "Confirmed",
@@ -94,7 +143,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-08T00:49:49.000Z",
       "approvedAt": "2026-05-08T04:30:11.534Z",
       "status": "Confirmed",
@@ -105,19 +154,6 @@
       "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-004949634.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-05-07T23:50:36.000Z",
-      "approvedAt": "2026-05-08T01:23:47.569Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Lucas Herbert with a 64 leads LIV Golf Virginia. Rahm and DeChambeau are 5 behind",
-      "summary": "Lucas Herbert had seven birdies to go along with an eagle, leading to an 8-under 64 at Trump National and a two-shot lead in LIV Golf Virginia on Thursday.",
-      "url": "https://sports.yahoo.com/articles/lucas-herbert-64-leads-liv-235036762.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
