@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:58:18.385Z",
+  "updatedAt": "2026-05-08T18:45:32.831Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "4 hours ago",
+      "timestamp": "2026-05-08T14:22:45.000Z",
+      "approvedAt": "2026-05-08T18:45:32.830Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA Tour changing social media rules in possible Bryson DeChambeau temptation",
+      "summary": "This might catch Bryson DeChambeau's attention.",
+      "url": "https://sports.yahoo.com/articles/pga-tour-changing-social-media-142245003.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "49 min ago",
       "timestamp": "2026-05-08T17:55:55.664Z",
       "approvedAt": "2026-05-08T17:55:55.664Z",
       "status": "Live",
@@ -48,11 +63,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-08T12:20:21.000Z",
       "approvedAt": "2026-05-08T17:47:28.236Z",
       "status": "Confirmed",
@@ -65,7 +78,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T17:43:44.240Z",
       "approvedAt": "2026-05-08T17:43:44.240Z",
       "status": "Live",
@@ -112,7 +125,7 @@
       ]
     },
     {
-      "time": "22 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T17:33:35.945Z",
       "approvedAt": "2026-05-08T17:33:35.945Z",
       "status": "Live",
@@ -159,7 +172,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-08T13:56:44.000Z",
       "approvedAt": "2026-05-08T17:15:45.971Z",
       "status": "Confirmed",
@@ -172,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T15:29:46.000Z",
       "approvedAt": "2026-05-08T17:14:25.912Z",
       "status": "Confirmed",
@@ -185,7 +198,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-08T13:02:34.000Z",
       "approvedAt": "2026-05-08T17:04:20.285Z",
       "status": "Confirmed",
@@ -198,7 +211,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "55 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -243,19 +256,6 @@
           "thru": "8*"
         }
       ]
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-05-08T14:27:46.000Z",
-      "approvedAt": "2026-05-08T15:57:10.292Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 PGA Championship more than just Scottie Scheffler vs. Rory McIlroy",
-      "summary": "In the 32 days between Rory McIlroy holding off Scottie Scheffler to win another Masters and the start of the PGA Championship, golf no longer seems to be a two-man show.",
-      "url": "https://sports.yahoo.com/articles/2026-pga-championship-more-just-142746990.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "47 min ago",
       "timestamp": "2026-05-08T17:58:18.160Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -305,7 +305,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T17:21:18.160Z",
       "status": "Trending",
       "signal": "Reddit find",
