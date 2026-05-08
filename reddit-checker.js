@@ -1287,6 +1287,25 @@ function playerName(row) {
   return `${row.firstName || ""} ${row.lastName || ""}`.trim();
 }
 
+function cleanLeaderboardValue(value) {
+  if (value === null || value === undefined) return "";
+
+  if (typeof value === "string" || typeof value === "number") {
+    return String(value);
+  }
+
+  if (typeof value === "object") {
+    if (value.$numberInt) return String(value.$numberInt);
+    if (value.$numberLong) return String(value.$numberLong);
+    if (value.displayValue) return String(value.displayValue);
+    if (value.value) return String(value.value);
+    if (value.thru) return String(value.thru);
+    if (value.currentHole) return String(value.currentHole);
+  }
+
+  return "";
+}
+
 function isActiveLeaderboardRow(row) {
   const status = String(row.status || "").toLowerCase();
   const position = String(row.position || "").toLowerCase();
@@ -1320,13 +1339,15 @@ function buildLeaderboardItem(tournament, leaderboardData) {
 
   const leaderName = playerName(leader);
   const leaderScore = leader.total || "";
-  const thru = leader.thru && leader.thru !== "-" ? leader.thru : "the course";
+  const leaderThruValue = cleanLeaderboardValue(leader.thru || leader.currentHole);
+  const thru = leaderThruValue && leaderThruValue !== "-" ? leaderThruValue : "the course";
   const today = leader.currentRoundScore && leader.currentRoundScore !== "-"
     ? leader.currentRoundScore
     : null;
 
   const leaders = sorted.slice(0, 5).map((row) => {
-    const rowThru = row.thru && row.thru !== "-" ? row.thru : row.currentHole || "";
+    const rowThruValue = cleanLeaderboardValue(row.thru || row.currentHole);
+    const rowThru = rowThruValue && rowThruValue !== "-" ? rowThruValue : "";
 
     return {
       pos: String(row.position || ""),
