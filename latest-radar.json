@@ -1,9 +1,23 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T11:04:51.234Z",
+  "updatedAt": "2026-05-08T12:18:35.384Z",
   "today": [
     {
-      "time": "9 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-08T09:00:00.000Z",
+      "approvedAt": "2026-05-08T12:18:35.383Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Luke Donald says how Seve Ballesteros has helped him as Ryder Cup captain in tribute to the legend",
+      "summary": "15-years on from his passing, and Seve Ballesteros’ legacy is still threaded through the fabric of European golf.",
+      "url": "https://sports.yahoo.com/articles/luke-donald-says-seve-ballesteros-090000119.html",
+      "source": "Yahoo Golf"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-05-08T01:48:28.000Z",
       "approvedAt": "2026-05-08T11:04:51.233Z",
       "status": "Confirmed",
@@ -14,11 +28,9 @@
       "url": "https://sports.yahoo.com/articles/2026-truist-championship-friday-tee-014828323.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-08T00:18:24.000Z",
       "approvedAt": "2026-05-08T09:50:48.907Z",
       "status": "Confirmed",
@@ -31,7 +43,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-07T22:21:35.000Z",
       "approvedAt": "2026-05-08T08:05:00.514Z",
       "status": "Confirmed",
@@ -44,7 +56,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-08T00:02:08.000Z",
       "approvedAt": "2026-05-08T06:17:06.002Z",
       "status": "Confirmed",
@@ -57,7 +69,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-08T00:49:49.000Z",
       "approvedAt": "2026-05-08T04:30:11.534Z",
       "status": "Confirmed",
@@ -70,7 +82,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-07T23:50:36.000Z",
       "approvedAt": "2026-05-08T01:23:47.569Z",
       "status": "Confirmed",
@@ -83,7 +95,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-08T00:55:44.115Z",
       "approvedAt": "2026-05-08T00:55:44.115Z",
       "status": "Live",
@@ -130,7 +142,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-07T22:56:50.000Z",
       "approvedAt": "2026-05-07T23:33:28.517Z",
       "status": "Confirmed",
@@ -141,19 +153,6 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-makes-statement-game-225650644.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-05-07T21:30:00.000Z",
-      "approvedAt": "2026-05-07T22:32:57.090Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Bryson DeChambeau and Jon Rahm have already blown their chance of becoming all-time golfing greats",
-      "summary": "LIV Golf could bear witness to an exodus in the very near future, and many eyes are rightfully on what will happen to Bryson DeChambeau and Jon Rahm.",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-already-213000560.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
