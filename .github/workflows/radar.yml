@@ -46,7 +46,7 @@ jobs:
           git config user.name "Morning Tee Radar Bot"
           git config user.email "actions@github.com"
 
-          git add seen-posts.json
+          git add seen-posts.json golf-internet-seen.json golf-internet-archive.json
           git diff --cached --quiet || git commit -m "Update seen radar posts"
 
           git pull --rebase
