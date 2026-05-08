@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:43:44.241Z",
+  "updatedAt": "2026-05-08T17:47:28.237Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "5 hours ago",
+      "timestamp": "2026-05-08T12:20:21.000Z",
+      "approvedAt": "2026-05-08T17:47:28.236Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy's reaction to finally making a birdie on 18 was great. Tommy Fleet...",
+      "summary": "It was an unusual round on Thursday at Quail Hollow for the six-time major champ.",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroys-reaction-finally-making-122021180.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 min ago",
       "timestamp": "2026-05-08T17:43:44.240Z",
       "approvedAt": "2026-05-08T17:43:44.240Z",
       "status": "Live",
@@ -48,11 +63,9 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 min ago",
+      "time": "13 min ago",
       "timestamp": "2026-05-08T17:33:35.945Z",
       "approvedAt": "2026-05-08T17:33:35.945Z",
       "status": "Live",
@@ -138,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "43 min ago",
+      "time": "46 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -207,19 +220,6 @@
       "title": "What happened in the first round of the Truist Championship which hasn’t been seen for seven years on the PGA Tour",
       "summary": "Round one of the Truist Championship might not have seen the biggest names rise to the top of the leaderboard, but it definitely had its fair share of oddities.",
       "url": "https://sports.yahoo.com/articles/happened-first-round-truist-championship-133000120.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-05-08T09:00:00.000Z",
-      "approvedAt": "2026-05-08T12:18:35.383Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Luke Donald says how Seve Ballesteros has helped him as Ryder Cup captain in tribute to the legend",
-      "summary": "15-years on from his passing, and Seve Ballesteros’ legacy is still threaded through the fabric of European golf.",
-      "url": "https://sports.yahoo.com/articles/luke-donald-says-seve-ballesteros-090000119.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     }
