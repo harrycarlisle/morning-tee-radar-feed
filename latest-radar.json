@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:00:37.058Z",
+  "updatedAt": "2026-05-08T17:04:20.286Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "4 hours ago",
+      "timestamp": "2026-05-08T13:02:34.000Z",
+      "approvedAt": "2026-05-08T17:04:20.285Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau Shares Worrying Update Before PGA Championship",
+      "summary": "Coming off an opening-round 69 at LIV Golf Virginia, Bryson DeChambeau showed hints of a competitive weekend ahead.",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-shares-worrying-pga-130234810.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -48,9 +63,7 @@
           "thru": "8*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-05-08T14:27:46.000Z",
@@ -130,7 +143,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-08T00:02:08.000Z",
       "approvedAt": "2026-05-08T06:17:06.002Z",
       "status": "Confirmed",
@@ -139,19 +152,6 @@
       "title": "Matt McCarty makes 220 feet of putts as Rory McIlroy struggles to make birdies at Truist",
       "summary": "Matt McCarty shot an 8-under 63 with nine birdies at Quail Hollow to take a one-shot lead over Sungjae Im.",
       "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-000208441.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-05-08T00:49:49.000Z",
-      "approvedAt": "2026-05-08T04:30:11.534Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Matt McCarty holds 1-shot lead at Quail Hollow as Rory McIlroy struggles to make birdies in return",
-      "summary": "McCarty followed up four straight top 25 finishes on the PGA Tour with nine birdies at Quail Hollow to shoot an 8-under 63 on Thursday at the Truist Championship before the round was call...",
-      "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-004949634.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     }
