@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T20:04:25.894Z",
+  "updatedAt": "2026-05-08T21:14:40.332Z",
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "43 min ago",
+      "timestamp": "2026-05-08T20:31:32.000Z",
+      "approvedAt": "2026-05-08T21:14:40.331Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "‘Save me a seat': At Masters Champions Dinner, Rory McIlroy found his future spot",
+      "summary": "The Masters Champions Dinner presents a nerve-wracking question to newcomers the year after they host.",
+      "url": "https://sports.yahoo.com/articles/save-seat-masters-champions-dinner-203132910.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-05-08T14:22:45.000Z",
       "approvedAt": "2026-05-08T18:45:32.830Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/pga-tour-changing-social-media-142245003.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "49 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T17:55:55.664Z",
       "approvedAt": "2026-05-08T17:55:55.664Z",
       "status": "Live",
@@ -65,7 +78,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-08T12:20:21.000Z",
       "approvedAt": "2026-05-08T17:47:28.236Z",
       "status": "Confirmed",
@@ -78,7 +91,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T17:43:44.240Z",
       "approvedAt": "2026-05-08T17:43:44.240Z",
       "status": "Live",
@@ -125,7 +138,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-08T17:33:35.945Z",
       "approvedAt": "2026-05-08T17:33:35.945Z",
       "status": "Live",
@@ -172,7 +185,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-08T13:56:44.000Z",
       "approvedAt": "2026-05-08T17:15:45.971Z",
       "status": "Confirmed",
@@ -185,7 +198,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-08T15:29:46.000Z",
       "approvedAt": "2026-05-08T17:14:25.912Z",
       "status": "Confirmed",
@@ -198,7 +211,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-08T13:02:34.000Z",
       "approvedAt": "2026-05-08T17:04:20.285Z",
       "status": "Confirmed",
@@ -209,53 +222,6 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-shares-worrying-pga-130234810.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-05-08T17:00:37.056Z",
-      "approvedAt": "2026-05-08T17:00:37.056Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Matt McCarty leads Truist Championship at -8",
-      "summary": "Matt McCarty is -8 overall through the course. Closest chasers: Sungjae Im (-7), Sepp Straka (-6), Michael Kim (-5).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Matt McCarty",
-          "score": "-8",
-          "thru": "[object Object]"
-        },
-        {
-          "pos": "2",
-          "name": "Sungjae Im",
-          "score": "-7",
-          "thru": "5"
-        },
-        {
-          "pos": "3",
-          "name": "Sepp Straka",
-          "score": "-6",
-          "thru": "6*"
-        },
-        {
-          "pos": "T4",
-          "name": "Michael Kim",
-          "score": "-5",
-          "thru": "7*"
-        },
-        {
-          "pos": "T4",
-          "name": "David Lipsky",
-          "score": "-5",
-          "thru": "8*"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -292,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T20:04:25.691Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -305,7 +271,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-08T19:27:25.691Z",
       "status": "Trending",
       "signal": "Reddit find",
