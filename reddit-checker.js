@@ -32,64 +32,238 @@ const RSS_FEEDS = [
 
 const PLAYER_IMAGE_MAP = [
   {
+    terms: ["akshay bhatia", "bhatia"],
+    images: [
+      "/images/akshay-bhatia.png",
+      "/images/akshay-bhatia-1.png"
+    ]
+  },
+  {
     terms: ["brooks koepka", "koepka"],
-    image: "/images/brooks-koepka.png"
+    images: [
+      "/images/brooks-koepka.png"
+    ]
   },
   {
     terms: ["bryson dechambeau", "bryson", "dechambeau"],
-    image: "/images/bryson-dechambeau.png"
+    images: [
+      "/images/bryson-dechambeau.png",
+      "/images/bryson-dechambeau-1.png",
+      "/images/bryson-dechambeau-2.png",
+      "/images/bryson-dechambeau-3.png",
+      "/images/bryson-dechambeau-4.png",
+      "/images/bryson-dechambeau-5.png",
+      "/images/bryson-dechambeau-6.png"
+    ]
   },
   {
     terms: ["cameron young", "cam young"],
-    image: "/images/cameron-young.png"
+    images: [
+      "/images/cameron-young.png"
+    ]
   },
   {
-    terms: ["jon rahm", "rahm"],
-    image: "/images/jon-rahm.png"
+    terms: ["collin morikawa", "morikawa"],
+    images: [
+      "/images/collin-morikawa.png"
+    ]
+  },
+  {
+    terms: ["corey conners", "conners"],
+    images: [
+      "/images/corey-conners-1.png"
+    ]
+  },
+  {
+    terms: ["jack nicklaus", "nicklaus"],
+    images: [
+      "/images/jack-nicklaus.png"
+    ]
+  },
+  {
+    terms: ["jj spaun", "j.j. spaun", "spaun"],
+    images: [
+      "/images/jj-spaun.png"
+    ]
   },
   {
     terms: ["jon rahm bryson dechambeau cam smith", "rahm bryson cam smith", "cam smith"],
-    image: "/images/jon-rahm-bryson-dechambeau-cam-smith.png"
+    images: [
+      "/images/jon-rahm-bryson-dechambeau-cam-smith.png"
+    ]
+  },
+  {
+    terms: ["jon rahm", "rahm"],
+    images: [
+      "/images/jon-rahm.png"
+    ]
   },
   {
     terms: ["jordan spieth", "spieth"],
-    image: "/images/jordan-spieth.png"
+    images: [
+      "/images/jordan-spieth.png"
+    ]
   },
   {
     terms: ["justin rose", "rose"],
-    image: "/images/justin-rose.png"
+    images: [
+      "/images/justin-rose.png",
+      "/images/justin-rose-1.png"
+    ]
+  },
+  {
+    terms: ["justin thomas"],
+    images: [
+      "/images/justin-thomas-1.png"
+    ]
+  },
+  {
+    terms: ["keegan bradley", "keaghan bradley", "bradley"],
+    images: [
+      "/images/keaghan-bradley-1.png"
+    ]
+  },
+  {
+    terms: ["kristoffer reitan", "reitan"],
+    images: [
+      "/images/kristoffer-reitan-1.png",
+      "/images/kristoffer-reitan-2.png",
+      "/images/kristoffer-reitan-3.png"
+    ]
   },
   {
     terms: ["lando norris"],
-    image: "/images/lando-norris.png"
+    images: [
+      "/images/lando-norris.png"
+    ]
+  },
+  {
+    terms: ["ludvig aberg", "ludvig åberg", "aberg", "åberg"],
+    images: [
+      "/images/ludvig-aberg-1.png",
+      "/images/ludvig-aberg-2.png",
+      "/images/ludvig-aberg-3.png",
+      "/images/ludvig-aberg-4.png"
+    ]
+  },
+  {
+    terms: ["matt fitzpatrick", "fitzpatrick"],
+    images: [
+      "/images/matt-fitzpatrick.png"
+    ]
+  },
+  {
+    terms: ["matt mccarty", "mccarty"],
+    images: [
+      "/images/matt-mccarty.png"
+    ]
+  },
+  {
+    terms: ["nick taylor"],
+    images: [
+      "/images/nick-taylor.png",
+      "/images/nick-taylor-2.png"
+    ]
+  },
+  {
+    terms: ["patrick cantlay", "cantlay"],
+    images: [
+      "/images/patrick-cantlay-1.png"
+    ]
   },
   {
     terms: ["phil mickelson", "mickelson"],
-    image: "/images/phil-mickelson.png"
+    images: [
+      "/images/phil-mickelson.png"
+    ]
   },
   {
     terms: ["rory mcilroy", "rory", "mcilroy"],
-    image: "/images/rory-mcilroy.png"
+    images: [
+      "/images/rory-mcilroy.png",
+      "/images/rory-mcilroy-1.png",
+      "/images/rory-mcilroy-2.png",
+      "/images/rory-mcilroy-3.png"
+    ]
+  },
+  {
+    terms: ["russell henley", "henley"],
+    images: [
+      "/images/russell-henley.png"
+    ]
+  },
+  {
+    terms: ["sahith theegala", "theegala"],
+    images: [
+      "/images/sahith-theegala-1.png"
+    ]
   },
   {
     terms: ["scottie scheffler", "scheffler"],
-    image: "/images/scottie-scheffler.png"
+    images: [
+      "/images/scottie-scheffler.png",
+      "/images/scottie-scheffler-1.png",
+      "/images/scottie-scheffler-2.png",
+      "/images/scottie-scheffler-3.png",
+      "/images/scottie-scheffler-4.png",
+      "/images/scottie-scheffler-5.png"
+    ]
+  },
+  {
+    terms: ["sepp straka", "straka"],
+    images: [
+      "/images/sepp-straka.png",
+      "/images/sepp-straka-1.png",
+      "/images/sepp-straka-2.png"
+    ]
+  },
+  {
+    terms: ["sungjae im"],
+    images: [
+      "/images/sungjae-im.png"
+    ]
   },
   {
     terms: ["ted scott", "tedd scott", "scheffler caddie", "scottie scheffler's caddie"],
-    image: "/images/ted-scott.png"
+    images: [
+      "/images/ted-scott.png"
+    ]
   },
   {
     terms: ["thomas pieters", "pieters"],
-    image: "/images/thomas-pieters.png"
+    images: [
+      "/images/thomas-pieters.png"
+    ]
   },
   {
     terms: ["tommy fleetwood and scottie scheffler", "fleetwood scheffler"],
-    image: "/images/tommy-fleetwood-and-scottie-scheffler.png"
+    images: [
+      "/images/tommy-fleetwood-and-scottie-scheffler.png"
+    ]
   },
   {
     terms: ["tommy fleetwood", "fleetwood"],
-    image: "/images/tommy-fleetwood.png"
+    images: [
+      "/images/tommy-fleetwood.png"
+    ]
+  },
+  {
+    terms: ["tiger woods", "tiger"],
+    images: [
+      "/images/tiger-woods-1.png",
+      "/images/tiger-woods-2.png",
+      "/images/tiger-woods-3.png",
+      "/images/tiger-woods-4.png",
+      "/images/tiger-woods-5.png"
+    ]
+  },
+  {
+    terms: ["viktor hovland", "hovland"],
+    images: [
+      "/images/viktor-hovland-3.png",
+      "/images/viktor-hovland-5.png",
+      "/images/viktor-hovland-6.png"
+    ]
   }
 ];
 
@@ -471,8 +645,8 @@ function isLeaderboardRadarItem(item) {
   );
 }
 
-function getImageForItem(item) {
-  if (!item) return "";
+function getImageMatchForItem(item) {
+  if (!item) return null;
 
   const haystack = [
     item.title,
@@ -490,28 +664,40 @@ function getImageForItem(item) {
     return entry.terms.some((term) => haystack.includes(term.toLowerCase()));
   });
 
-  return match ? FEED_BASE_URL + match.image : "";
+  if (!match || !Array.isArray(match.images) || !match.images.length) {
+    return null;
+  }
+
+  return match;
 }
 
-function attachImageIfMissing(item) {
+function attachImageIfMissing(item, imageUsage = {}) {
   if (!item || item.image) return item;
 
   if (isLeaderboardRadarItem(item)) {
     return item;
   }
 
-  const image = getImageForItem(item);
+  const match = getImageMatchForItem(item);
 
-  if (!image) return item;
+  if (!match) return item;
+
+  const key = match.terms[0];
+  const usageCount = imageUsage[key] || 0;
+  const imagePath = match.images[usageCount % match.images.length];
+
+  imageUsage[key] = usageCount + 1;
 
   return {
     ...item,
-    image
+    image: FEED_BASE_URL + imagePath
   };
 }
 
-function attachImagesToRadarArray(items) {
-  return Array.isArray(items) ? items.map(attachImageIfMissing) : [];
+function attachImagesToRadarArray(items, imageUsage = {}) {
+  return Array.isArray(items)
+    ? items.map((item) => attachImageIfMissing(item, imageUsage))
+    : [];
 }
 
 function formatTimeLabel(value) {
@@ -1332,8 +1518,10 @@ function buildNextRadarJson(currentJson, item) {
   const oldLive = existingToday[0] || null;
   const restToday = existingToday.slice(1);
 
+  const imageUsage = {};
+
   const nextToday = addDisplayTimesToRadarArray(
-    attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3)),
+    attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3), imageUsage),
     0
   );
 
@@ -1341,7 +1529,7 @@ function buildNextRadarJson(currentJson, item) {
     attachImagesToRadarArray([
       ...(oldLive ? [oldLive] : []),
       ...existingAlsoMoving
-    ].slice(0, 8)),
+    ].slice(0, 8), imageUsage),
     35
   );
 
@@ -1353,28 +1541,30 @@ function buildNextRadarJson(currentJson, item) {
     alsoMoving: nextAlsoMoving,
     checking: currentJson.checking || buildCheckingItem(item),
     golfInternet: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(currentJson.golfInternet || []),
+      attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
       90
     )
   };
 }
 
 function backfillRadarImages(radarJson) {
+  const imageUsage = {};
+
   return {
     ...radarJson,
     today: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(radarJson.today || []),
+      attachImagesToRadarArray(radarJson.today || [], imageUsage),
       0
     ),
     alsoMoving: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(radarJson.alsoMoving || []),
+      attachImagesToRadarArray(radarJson.alsoMoving || [], imageUsage),
       35
     ),
     golfInternet: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(radarJson.golfInternet || []),
+      attachImagesToRadarArray(radarJson.golfInternet || [], imageUsage),
       90
     ),
-    checking: radarJson.checking ? attachImageIfMissing(radarJson.checking) : radarJson.checking
+    checking: radarJson.checking ? attachImageIfMissing(radarJson.checking, imageUsage) : radarJson.checking
   };
 }
 
