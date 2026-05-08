@@ -63,6 +63,18 @@ const PLAYER_IMAGE_MAP = [
     ]
   },
   {
+    terms: ["charley hull", "hull"],
+    images: [
+      "/images/charley-hull.png"
+    ]
+  },
+  {
+    terms: ["charlie woods"],
+    images: [
+      "/images/charlie-woods.png"
+    ]
+  },
+  {
     terms: ["collin morikawa", "morikawa"],
     images: [
       "/images/collin-morikawa.png"
@@ -72,6 +84,12 @@ const PLAYER_IMAGE_MAP = [
     terms: ["corey conners", "conners"],
     images: [
       "/images/corey-conners-1.png"
+    ]
+  },
+  {
+    terms: ["dan rapaport", "rapaport"],
+    images: [
+      "/images/dan-rapaport.png"
     ]
   },
   {
@@ -159,6 +177,18 @@ const PLAYER_IMAGE_MAP = [
     ]
   },
   {
+    terms: ["min woo lee", "min-woo lee"],
+    images: [
+      "/images/min-woo-lee-2.png"
+    ]
+  },
+  {
+    terms: ["nelly korda", "korda"],
+    images: [
+      "/images/nelly-korda-2.png"
+    ]
+  },
+  {
     terms: ["nick taylor"],
     images: [
       "/images/nick-taylor.png",
@@ -218,6 +248,12 @@ const PLAYER_IMAGE_MAP = [
     ]
   },
   {
+    terms: ["seve ballesteros", "ballesteros", "seve"],
+    images: [
+      "/images/seve-ballesteros.png"
+    ]
+  },
+  {
     terms: ["sungjae im"],
     images: [
       "/images/sungjae-im.png"
@@ -236,6 +272,16 @@ const PLAYER_IMAGE_MAP = [
     ]
   },
   {
+    terms: ["tiger woods", "tiger"],
+    images: [
+      "/images/tiger-woods-1.png",
+      "/images/tiger-woods-2.png",
+      "/images/tiger-woods-3.png",
+      "/images/tiger-woods-4.png",
+      "/images/tiger-woods-5.png"
+    ]
+  },
+  {
     terms: ["tommy fleetwood and scottie scheffler", "fleetwood scheffler"],
     images: [
       "/images/tommy-fleetwood-and-scottie-scheffler.png"
@@ -248,23 +294,26 @@ const PLAYER_IMAGE_MAP = [
     ]
   },
   {
-    terms: ["tiger woods", "tiger"],
-    images: [
-      "/images/tiger-woods-1.png",
-      "/images/tiger-woods-2.png",
-      "/images/tiger-woods-3.png",
-      "/images/tiger-woods-4.png",
-      "/images/tiger-woods-5.png"
-    ]
-  },
-  {
     terms: ["viktor hovland", "hovland"],
     images: [
       "/images/viktor-hovland-3.png",
       "/images/viktor-hovland-5.png",
       "/images/viktor-hovland-6.png"
     ]
+  },
+  {
+    terms: ["xander schauffele", "schauffele", "xander"],
+    images: [
+      "/images/xander-schauffele-1.png"
+    ]
   }
+];
+
+const PLACEHOLDER_IMAGES = [
+  "/images/golf-placeholder-1.png",
+  "/images/golf-placeholder-2.png",
+  "/images/golf-placeholder-3.png",
+  "/images/golf-placeholder-4.png"
 ];
 
 const TOURNAMENT_TERMS = [
