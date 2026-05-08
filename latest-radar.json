@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T09:50:48.908Z",
+  "updatedAt": "2026-05-08T11:04:51.234Z",
   "today": [
     {
       "time": "9 hours ago",
+      "timestamp": "2026-05-08T01:48:28.000Z",
+      "approvedAt": "2026-05-08T11:04:51.233Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 Truist Championship Friday tee times: Round 2 groupings",
+      "summary": "Full 2026 Truist Championship tee times for Friday's second round at Quail Hollow, featuring Rickie Fowler, Alex Fitzpatrick and more.",
+      "url": "https://sports.yahoo.com/articles/2026-truist-championship-friday-tee-014828323.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-05-08T00:18:24.000Z",
       "approvedAt": "2026-05-08T09:50:48.907Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/back-minor-tours-gary-player-001824077.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-07T22:21:35.000Z",
       "approvedAt": "2026-05-08T08:05:00.514Z",
       "status": "Confirmed",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-08T00:02:08.000Z",
       "approvedAt": "2026-05-08T06:17:06.002Z",
       "status": "Confirmed",
@@ -44,7 +57,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-08T00:49:49.000Z",
       "approvedAt": "2026-05-08T04:30:11.534Z",
       "status": "Confirmed",
@@ -57,7 +70,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-07T23:50:36.000Z",
       "approvedAt": "2026-05-08T01:23:47.569Z",
       "status": "Confirmed",
@@ -70,7 +83,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-08T00:55:44.115Z",
       "approvedAt": "2026-05-08T00:55:44.115Z",
       "status": "Live",
@@ -117,7 +130,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-07T22:56:50.000Z",
       "approvedAt": "2026-05-07T23:33:28.517Z",
       "status": "Confirmed",
@@ -130,7 +143,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-07T21:30:00.000Z",
       "approvedAt": "2026-05-07T22:32:57.090Z",
       "status": "Confirmed",
@@ -141,18 +154,6 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-already-213000560.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "11 hours ago",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "PGA CHAMPIONSHIP '26: A growing list of stars converge on Aronimink for PGA",
-      "summary": "In the 32 days between Rory McIlroy holding off Scottie Scheffler to win another Masters and the start of the PGA Championship, golf no longer seems to be a two-man show.",
-      "url": "https://sports.yahoo.com/articles/pga-championship-26-growing-list-205356469.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
-      "timestamp": "2026-05-07T21:57:57.091Z"
     }
   ],
   "weekRadar": [
