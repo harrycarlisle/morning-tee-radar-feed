@@ -1,7 +1,22 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:04:20.286Z",
+  "updatedAt": "2026-05-08T17:14:25.913Z",
   "today": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-05-08T15:29:46.000Z",
+      "approvedAt": "2026-05-08T17:14:25.912Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA Tour Makes Major Policy Overhaul After Bryson DeChambeau Released Statement...",
+      "summary": "The PGA Tour knows what it wants and is willing to do whatever it takes.",
+      "url": "https://sports.yahoo.com/articles/pga-tour-makes-major-policy-152946809.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "4 hours ago",
       "timestamp": "2026-05-08T13:02:34.000Z",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-shares-worrying-pga-130234810.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 min ago",
+      "time": "13 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -141,19 +154,6 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-makes-17-straight-222135141.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-05-08T00:02:08.000Z",
-      "approvedAt": "2026-05-08T06:17:06.002Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Matt McCarty makes 220 feet of putts as Rory McIlroy struggles to make birdies at Truist",
-      "summary": "Matt McCarty shot an 8-under 63 with nine birdies at Quail Hollow to take a one-shot lead over Sungjae Im.",
-      "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-000208441.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
     }
   ],
   "weekRadar": [
