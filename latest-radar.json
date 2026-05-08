@@ -1,7 +1,56 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:47:29.271Z",
+  "updatedAt": "2026-05-08T17:55:55.665Z",
   "today": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-05-08T17:55:55.664Z",
+      "approvedAt": "2026-05-08T17:55:55.664Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads Truist Championship at -7",
+      "summary": "Sungjae Im is E today and -7 overall through 8. Closest chasers: Harry Hall (-7), Matt McCarty (-7), David Lipsky (-6).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sungjae Im",
+          "score": "-7",
+          "thru": "8"
+        },
+        {
+          "pos": "T1",
+          "name": "Harry Hall",
+          "score": "-7",
+          "thru": "4*"
+        },
+        {
+          "pos": "T1",
+          "name": "Matt McCarty",
+          "score": "-7",
+          "thru": "3"
+        },
+        {
+          "pos": "T4",
+          "name": "David Lipsky",
+          "score": "-6",
+          "thru": "11*"
+        },
+        {
+          "pos": "T4",
+          "name": "Tony Finau",
+          "score": "-6",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "5 hours ago",
       "timestamp": "2026-05-08T12:20:21.000Z",
@@ -14,11 +63,9 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroys-reaction-finally-making-122021180.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 min ago",
+      "time": "12 min ago",
       "timestamp": "2026-05-08T17:43:44.240Z",
       "approvedAt": "2026-05-08T17:43:44.240Z",
       "status": "Live",
@@ -65,7 +112,7 @@
       ]
     },
     {
-      "time": "13 min ago",
+      "time": "22 min ago",
       "timestamp": "2026-05-08T17:33:35.945Z",
       "approvedAt": "2026-05-08T17:33:35.945Z",
       "status": "Live",
@@ -151,7 +198,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "46 min ago",
+      "time": "55 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -209,19 +256,6 @@
       "url": "https://sports.yahoo.com/articles/2026-pga-championship-more-just-142746990.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-05-08T13:30:00.000Z",
-      "approvedAt": "2026-05-08T14:21:28.392Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "What happened in the first round of the Truist Championship which hasn’t been seen for seven years on the PGA Tour",
-      "summary": "Round one of the Truist Championship might not have seen the biggest names rise to the top of the leaderboard, but it definitely had its fair share of oddities.",
-      "url": "https://sports.yahoo.com/articles/happened-first-round-truist-championship-133000120.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "8 min ago",
       "timestamp": "2026-05-08T17:47:28.105Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -271,7 +305,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "45 min ago",
       "timestamp": "2026-05-08T17:10:28.106Z",
       "status": "Trending",
       "signal": "Reddit find",
