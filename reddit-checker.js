@@ -17,6 +17,59 @@ const LIVE_GOLF_YEAR = new Date().getFullYear().toString();
 const SEEN_FILE = "seen-posts.json";
 const FEED_BASE_URL = "https://morningteeradarfeed.netlify.app";
 
+const GOLF_INTERNET_SEEN_FILE = "golf-internet-seen.json";
+
+const GOLF_INTERNET_REDDIT_SOURCES = [
+  {
+    name: "r/golf",
+    subreddit: "golf"
+  }
+];
+
+const GOLF_INTERNET_POSITIVE_TERMS = [
+  "video",
+  "clip",
+  "photo",
+  "pic",
+  "image",
+  "bunker",
+  "backyard",
+  "range",
+  "course",
+  "green",
+  "cart",
+  "cart path",
+  "crazy",
+  "wild",
+  "funny",
+  "meme",
+  "joke",
+  "hole-in-one",
+  "ace",
+  "rules question",
+  "weird",
+  "insane",
+  "beautiful",
+  "worst",
+  "best"
+];
+
+const GOLF_INTERNET_IGNORE_TERMS = [
+  "rate my swing",
+  "swing advice",
+  "what club",
+  "new clubs",
+  "beginner clubs",
+  "bag setup",
+  "handicap question",
+  "odds",
+  "picks",
+  "predictions",
+  "betting",
+  "wager",
+  "sportsbook"
+];
+
 /*
   Reddit is temporarily disabled because GitHub Actions is getting 403s
   from Reddit. Turn this back on later once Reddit access is fixed.
@@ -447,6 +500,90 @@ function loadSeenPosts() {
 
 function saveSeenPosts(seenPosts) {
   fs.writeFileSync(SEEN_FILE, JSON.stringify([...seenPosts], null, 2));
+}
+
+function loadSeenSet(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return new Set();
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return new Set(Array.isArray(data) ? data : []);
+  } catch (error) {
+    console.error(`Could not read ${filePath}. Starting fresh.`, error);
+    return new Set();
+  }
+}
+
+function saveSeenSet(filePath, seenSet) {
+  fs.writeFileSync(filePath, JSON.stringify([...seenSet].slice(-500), null, 2));
+}
+
+function shouldCheckGolfInternetNow() {
+  if (process.env.FORCE_GOLF_INTERNET_CHECK === "true") return true;
+  if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") return true;
+
+  const minute = new Date().getMinutes();
+  return minute === 0;
+}
+
+function isProbablyImagePost(post) {
+  const url = String(post.url || "").toLowerCase();
+  const hint = String(post.post_hint || "").toLowerCase();
+
+  return (
+    hint.includes("image") ||
+    hint.includes("video") ||
+    url.includes("i.redd.it") ||
+    url.includes("v.redd.it") ||
+    url.includes("imgur.com") ||
+    /\.(jpg|jpeg|png|gif|webp)$/i.test(url)
+  );
+}
+
+function getRedditPreviewImage(post) {
+  if (post.thumbnail && String(post.thumbnail).startsWith("http")) {
+    return post.thumbnail;
+  }
+
+  if (post.url && /\.(jpg|jpeg|png|webp)$/i.test(post.url)) {
+    return post.url;
+  }
+
+  const previewImage = post.preview &&
+    post.preview.images &&
+    post.preview.images[0] &&
+    post.preview.images[0].source &&
+    post.preview.images[0].source.url;
+
+  if (previewImage) {
+    return decodeHtml(previewImage);
+  }
+
+  return "";
+}
+
+function cleanGolfInternetTitle(title) {
+  const raw = String(title || "Golf internet find").trim();
+
+  if (raw.length <= 70) return raw;
+
+  return raw
+    .slice(0, 67)
+    .trim()
+    .replace(/[,:;.!?]+$/, "") + "...";
+}
+
+function getGolfInternetSummary(post, upvotesPerHour) {
+  const ups = Number(post.ups || 0);
+  const comments = Number(post.num_comments || 0);
+
+  if (isProbablyImagePost(post)) {
+    return `${ups} upvotes, ${comments} comments, and moving fast on r/golf.`;
+  }
+
+  return `${ups} upvotes and ${comments} comments on r/golf.`;
 }
 
 function decodeHtml(value) {
@@ -1047,6 +1184,110 @@ async function fetchRedditItems() {
   return allItems;
 }
 
+async function fetchGolfInternetItems() {
+  if (!shouldCheckGolfInternetNow()) {
+    console.log("[Golf Internet] Skipped. Outside hourly check window.");
+    return [];
+  }
+
+  const seenGolfInternet = loadSeenSet(GOLF_INTERNET_SEEN_FILE);
+  const allItems = [];
+
+  for (const source of GOLF_INTERNET_REDDIT_SOURCES) {
+    try {
+      const response = await fetch(`https://www.reddit.com/r/${source.subreddit}/hot.json?limit=50`, {
+        headers: {
+          "User-Agent": "MorningTeeRadar/0.3 by Morning Tee"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`${source.name} request failed: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const posts = data.data.children.map((item) => item.data);
+
+      for (const post of posts) {
+        const id = `golf-internet:${source.subreddit}:${post.id}`;
+        if (seenGolfInternet.has(id)) continue;
+
+        const ageHours = (Date.now() / 1000 - post.created_utc) / 3600;
+        const upvotesPerHour = post.ups / Math.max(ageHours, 0.25);
+        const titleText = String(post.title || "").toLowerCase();
+        const combinedText = `${titleText} ${post.selftext || ""}`.toLowerCase();
+
+        const ignored = GOLF_INTERNET_IGNORE_TERMS.some((term) => {
+          return combinedText.includes(term);
+        });
+
+        if (ignored) continue;
+
+        const hasPositiveSignal = GOLF_INTERNET_POSITIVE_TERMS.some((term) => {
+          return combinedText.includes(term);
+        });
+
+        const visualPost = isProbablyImagePost(post);
+
+        const strongPost =
+          ageHours <= 24 &&
+          post.ups >= 100 &&
+          post.num_comments >= 15 &&
+          upvotesPerHour >= 8;
+
+        const veryStrongPost =
+          ageHours <= 48 &&
+          post.ups >= 250 &&
+          post.num_comments >= 25;
+
+        if (!strongPost && !veryStrongPost) continue;
+        if (!visualPost && !hasPositiveSignal && !veryStrongPost) continue;
+
+        const image = getRedditPreviewImage(post);
+
+        allItems.push({
+          id,
+          time: formatTimeLabel(new Date(post.created_utc * 1000).toISOString()),
+          timestamp: new Date(post.created_utc * 1000).toISOString(),
+          status: "Trending",
+          signal: "Reddit find",
+          category: "GOLF INTERNET",
+          title: cleanGolfInternetTitle(post.title),
+          summary: getGolfInternetSummary(post, upvotesPerHour),
+          url: `https://reddit.com${post.permalink}`,
+          source: source.name,
+          image,
+          reddit: {
+            ups: post.ups,
+            comments: post.num_comments,
+            upvotesPerHour: Math.round(upvotesPerHour),
+            subreddit: source.subreddit
+          },
+          score:
+            post.ups +
+            post.num_comments * 4 +
+            Math.round(upvotesPerHour * 10) +
+            (visualPost ? 75 : 0) +
+            (hasPositiveSignal ? 50 : 0)
+        });
+      }
+    } catch (error) {
+      console.error(`[Golf Internet] ${source.name} failed`, error);
+    }
+  }
+
+  const winners = allItems
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 2);
+
+  winners.forEach((item) => seenGolfInternet.add(item.id));
+  saveSeenSet(GOLF_INTERNET_SEEN_FILE, seenGolfInternet);
+
+  console.log(`[Golf Internet] Found ${winners.length} publishable posts.`);
+
+  return winners;
+}
+
 async function fetchRssItems() {
   const allItems = [];
 
@@ -1626,6 +1867,27 @@ function storyAlreadyOnRadar(radarJson, item) {
   });
 }
 
+function mergeGolfInternetItems(currentItems, newItems) {
+  const imageUsage = {};
+  const seen = new Set();
+  const merged = [];
+
+  const addItem = (item) => {
+    if (!item) return;
+
+    const key = String(item.url || item.id || item.title || "").toLowerCase();
+    if (!key || seen.has(key)) return;
+
+    seen.add(key);
+    merged.push(item);
+  };
+
+  newItems.forEach(addItem);
+  currentItems.forEach(addItem);
+
+  return attachImagesToRadarArray(merged.slice(0, 2), imageUsage);
+}
+
 function buildNextRadarJson(currentJson, item) {
   const nextLive = buildRadarItem(item);
 
@@ -1656,7 +1918,7 @@ function buildNextRadarJson(currentJson, item) {
     updatedAt: new Date().toISOString(),
     today: nextToday,
     alsoMoving: nextAlsoMoving,
-    checking: currentJson.checking || buildCheckingItem(item),
+        checking: currentJson.checking || buildCheckingItem(item),
     golfInternet: addDisplayTimesToRadarArray(
       attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
       90
@@ -1712,6 +1974,28 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
+async function autoPublishGolfInternetToGitHub(items) {
+  if (!AUTO_PUBLISH || !items.length) return false;
+
+  const current = await getRadarFileFromGitHub();
+
+  const nextJson = {
+    ...current.json,
+    active: true,
+    updatedAt: new Date().toISOString(),
+    golfInternet: mergeGolfInternetItems(current.json.golfInternet || [], items)
+  };
+
+  if (!radarJsonChanged(current.json, nextJson)) {
+    console.log("[Golf Internet] No GitHub update needed.");
+    return false;
+  }
+
+  await updateRadarFileOnGitHub(nextJson, current.sha, "Update Golf Internet");
+  console.log("[Golf Internet] Updated GitHub radar JSON.");
+  return true;
+}
+
 async function checkRadar() {
   if (!DISCORD_WEBHOOK_URL) {
     throw new Error("Missing DISCORD_WEBHOOK_URL");
@@ -1726,33 +2010,38 @@ async function checkRadar() {
   const leaderboardItems = await fetchLeaderboardItems();
   const redditItems = await fetchRedditItems();
   const rssItems = await fetchRssItems();
+  const golfInternetItems = await fetchGolfInternetItems();
 
   const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
   const candidates = filterCandidates(allItems, seenPosts);
 
-  console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts and ${rssItems.length} RSS items.`);
+  console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts, ${rssItems.length} RSS items, and ${golfInternetItems.length} Golf Internet items.`);
   console.log(`[Radar] Candidates found: ${candidates.length}`);
 
-  if (candidates.length === 0) {
-    console.log("No new trending stories found.");
-    return;
-  }
-
-  const bestCandidate = candidates[0];
+  const bestCandidate = candidates[0] || null;
   let published = false;
 
   if (AUTO_PUBLISH) {
-    published = await autoPublishToGitHub(bestCandidate);
+    if (bestCandidate) {
+      published = await autoPublishToGitHub(bestCandidate);
+    }
+
+    if (golfInternetItems.length) {
+      await autoPublishGolfInternetToGitHub(golfInternetItems);
+    }
   }
 
-  await sendDiscordAlert(bestCandidate, published);
+  if (bestCandidate) {
+    await sendDiscordAlert(bestCandidate, published);
 
-  seenPosts.add(bestCandidate.id);
-  saveSeenPosts(seenPosts);
+    seenPosts.add(bestCandidate.id);
+    saveSeenPosts(seenPosts);
 
-  console.log(`[Radar] Sent alert: ${bestCandidate.title}`);
+    console.log(`[Radar] Sent alert: ${bestCandidate.title}`);
+  } else {
+    console.log("No new trending stories found.");
+  }
 }
-
 checkRadar().catch((error) => {
   console.error(error);
 });
