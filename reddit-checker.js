@@ -19,6 +19,9 @@ const FEED_BASE_URL = "https://morningteeradarfeed.netlify.app";
 
 const GOLF_INTERNET_SEEN_FILE = "golf-internet-seen.json";
 
+const MANUAL_GOLF_INTERNET_FILE = "manual-golf-internet.json";
+const GOLF_INTERNET_ARCHIVE_FILE = "golf-internet-archive.json";
+
 const GOLF_INTERNET_REDDIT_SOURCES = [
   {
     name: "r/golf",
@@ -518,6 +521,92 @@ function loadSeenSet(filePath) {
 
 function saveSeenSet(filePath, seenSet) {
   fs.writeFileSync(filePath, JSON.stringify([...seenSet].slice(-500), null, 2));
+}
+
+function readJsonFileSafe(filePath, fallbackValue) {
+  if (!fs.existsSync(filePath)) {
+    return fallbackValue;
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (error) {
+    console.error(`[Manual Golf Internet] Could not read ${filePath}.`, error);
+    return fallbackValue;
+  }
+}
+
+function writeJsonFileSafe(filePath, value) {
+  fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n");
+}
+
+function buildManualGolfInternetItem(item, index) {
+  const timestamp = getSourceTimestampIso(item, index * 37);
+
+  return {
+    id: item.id || `manual-golf-internet:${item.url || item.title || index}`,
+    time: formatTimeLabel(timestamp),
+    timestamp,
+    status: item.status || "Trending",
+    signal: item.signal || "Reddit find",
+    category: item.category || "GOLF INTERNET",
+    title: cleanGolfInternetTitle(item.title || "Golf internet find"),
+    summary: item.summary || "A golf post is picking up attention online.",
+    url: item.url || "#",
+    source: item.source || "r/golf",
+    image: item.image || ""
+  };
+}
+
+function getManualGolfInternetItems() {
+  const items = readJsonFileSafe(MANUAL_GOLF_INTERNET_FILE, []);
+
+  if (!Array.isArray(items) || !items.length) {
+    console.log("[Manual Golf Internet] No manual posts found.");
+    return [];
+  }
+
+  const imageUsage = {};
+
+  return items
+    .filter((item) => item && item.title && item.url)
+    .slice(0, 2)
+    .map((item, index) => {
+      const builtItem = buildManualGolfInternetItem(item, index);
+      return attachImageIfMissing(builtItem, imageUsage);
+    });
+}
+
+function mergeArchiveItems(existingArchive, oldItems) {
+  const seen = new Set();
+  const merged = [];
+
+  const addItem = (item) => {
+    if (!item) return;
+
+    const key = String(item.url || item.id || item.title || "").toLowerCase();
+    if (!key || seen.has(key)) return;
+
+    seen.add(key);
+    merged.push({
+      ...item,
+      archivedAt: item.archivedAt || new Date().toISOString()
+    });
+  };
+
+  oldItems.forEach(addItem);
+  existingArchive.forEach(addItem);
+
+  return merged.slice(0, 100);
+}
+
+function updateGolfInternetArchive(oldItems) {
+  const archive = readJsonFileSafe(GOLF_INTERNET_ARCHIVE_FILE, []);
+  const nextArchive = mergeArchiveItems(Array.isArray(archive) ? archive : [], oldItems || []);
+
+  writeJsonFileSafe(GOLF_INTERNET_ARCHIVE_FILE, nextArchive);
+
+  return nextArchive;
 }
 
 function shouldCheckGolfInternetNow() {
@@ -1918,7 +2007,7 @@ function buildNextRadarJson(currentJson, item) {
     updatedAt: new Date().toISOString(),
     today: nextToday,
     alsoMoving: nextAlsoMoving,
-        checking: currentJson.checking || buildCheckingItem(item),
+    checking: currentJson.checking || buildCheckingItem(item),
     golfInternet: addDisplayTimesToRadarArray(
       attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
       90
@@ -1978,12 +2067,20 @@ async function autoPublishGolfInternetToGitHub(items) {
   if (!AUTO_PUBLISH || !items.length) return false;
 
   const current = await getRadarFileFromGitHub();
+  const oldGolfInternet = Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [];
+
+  updateGolfInternetArchive(oldGolfInternet);
+
+  const imageUsage = {};
 
   const nextJson = {
     ...current.json,
     active: true,
     updatedAt: new Date().toISOString(),
-    golfInternet: mergeGolfInternetItems(current.json.golfInternet || [], items)
+    golfInternet: addDisplayTimesToRadarArray(
+      attachImagesToRadarArray(items.slice(0, 2), imageUsage),
+      0
+    )
   };
 
   if (!radarJsonChanged(current.json, nextJson)) {
@@ -1993,6 +2090,7 @@ async function autoPublishGolfInternetToGitHub(items) {
 
   await updateRadarFileOnGitHub(nextJson, current.sha, "Update Golf Internet");
   console.log("[Golf Internet] Updated GitHub radar JSON.");
+
   return true;
 }
 
@@ -2010,7 +2108,14 @@ async function checkRadar() {
   const leaderboardItems = await fetchLeaderboardItems();
   const redditItems = await fetchRedditItems();
   const rssItems = await fetchRssItems();
-  const golfInternetItems = await fetchGolfInternetItems();
+  const manualGolfInternetItems = getManualGolfInternetItems();
+const redditGolfInternetItems = manualGolfInternetItems.length
+  ? []
+  : await fetchGolfInternetItems();
+
+const golfInternetItems = manualGolfInternetItems.length
+  ? manualGolfInternetItems
+  : redditGolfInternetItems;
 
   const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
   const candidates = filterCandidates(allItems, seenPosts);
