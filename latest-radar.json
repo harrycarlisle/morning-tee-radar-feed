@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T04:30:11.535Z",
+  "updatedAt": "2026-05-08T06:17:06.002Z",
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
+      "timestamp": "2026-05-08T00:02:08.000Z",
+      "approvedAt": "2026-05-08T06:17:06.002Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Matt McCarty makes 220 feet of putts as Rory McIlroy struggles to make birdies at Truist",
+      "summary": "Matt McCarty shot an 8-under 63 with nine birdies at Quail Hollow to take a one-shot lead over Sungjae Im.",
+      "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-000208441.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-08T00:49:49.000Z",
       "approvedAt": "2026-05-08T04:30:11.534Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/matt-mccarty-holds-1-shot-004949634.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-mccarty.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-07T23:50:36.000Z",
       "approvedAt": "2026-05-08T01:23:47.569Z",
       "status": "Confirmed",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-08T00:55:44.115Z",
       "approvedAt": "2026-05-08T00:55:44.115Z",
       "status": "Live",
@@ -78,7 +91,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-07T22:56:50.000Z",
       "approvedAt": "2026-05-07T23:33:28.517Z",
       "status": "Confirmed",
@@ -91,7 +104,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-07T21:30:00.000Z",
       "approvedAt": "2026-05-07T22:32:57.090Z",
       "status": "Confirmed",
@@ -104,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "status": "Confirmed",
       "signal": "RSS",
       "category": "PGA TOUR",
@@ -116,7 +129,7 @@
       "timestamp": "2026-05-07T21:57:57.091Z"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -162,7 +175,7 @@
       "timestamp": "2026-05-07T21:20:57.091Z"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -206,18 +219,6 @@
         }
       ],
       "timestamp": "2026-05-07T20:43:57.091Z"
-    },
-    {
-      "time": "8 hours ago",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Dan Rapaport suggests Bryson DeChambeau has made a mistake with his latest comments, ‘he is off the mark’",
-      "summary": "Bryson DeChambeau certainly isn’t afraid to speak his mind, as proven by his latest comments on the PGA Tour.",
-      "url": "https://sports.yahoo.com/articles/dan-rapaport-suggests-bryson-dechambeau-193000819.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-07T20:06:57.091Z"
     }
   ],
   "weekRadar": [
