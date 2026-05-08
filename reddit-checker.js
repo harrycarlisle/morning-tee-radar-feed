@@ -639,7 +639,43 @@ function inferCategory(item) {
 }
 
 function cleanTitle(title) {
-  return String(title || "Untitled radar item").trim();
+  const raw = String(title || "Untitled radar item").trim();
+
+  const replacements = [
+    {
+      test: /what happened in the first round of the truist championship.*seven years/i,
+      title: "Truist opened with a rare PGA Tour first"
+    },
+    {
+      test: /luke donald says how seve ballesteros has helped him.*ryder cup/i,
+      title: "Luke Donald says Seve still shapes his Ryder Cup thinking"
+    },
+    {
+      test: /2026 truist championship friday tee times/i,
+      title: "Truist Friday tee times are set"
+    },
+    {
+      test: /bryson dechambeau.*pga tour.*liv/i,
+      title: "Bryson keeps the PGA Tour return question alive"
+    }
+  ];
+
+  const match = replacements.find((item) => item.test.test(raw));
+  if (match) return match.title;
+
+  if (raw.length <= 82) return raw;
+
+  return raw
+    .replace(/^what happened in /i, "")
+    .replace(/^how /i, "")
+    .replace(/\s+amid\s+/i, " as ")
+    .replace(/\s+which has not been seen.*$/i, "")
+    .replace(/\s+which hasn't been seen.*$/i, "")
+    .replace(/\s+as he\s+/i, " ")
+    .replace(/\s+after he\s+/i, " after ")
+    .slice(0, 79)
+    .trim()
+    .replace(/[,:;.!?]+$/, "") + "...";
 }
 
 function cleanSummary(item) {
@@ -729,17 +765,28 @@ function attachImageIfMissing(item, imageUsage = {}) {
 
   const match = getImageMatchForItem(item);
 
-  if (!match) return item;
+  if (match) {
+    const key = match.terms[0];
+    const usageCount = imageUsage[key] || 0;
+    const imagePath = match.images[usageCount % match.images.length];
 
-  const key = match.terms[0];
-  const usageCount = imageUsage[key] || 0;
-  const imagePath = match.images[usageCount % match.images.length];
+    imageUsage[key] = usageCount + 1;
 
-  imageUsage[key] = usageCount + 1;
+    return {
+      ...item,
+      image: FEED_BASE_URL + imagePath
+    };
+  }
+
+  const placeholderKey = "placeholder";
+  const placeholderUsage = imageUsage[placeholderKey] || 0;
+  const placeholderPath = PLACEHOLDER_IMAGES[placeholderUsage % PLACEHOLDER_IMAGES.length];
+
+  imageUsage[placeholderKey] = placeholderUsage + 1;
 
   return {
     ...item,
-    image: FEED_BASE_URL + imagePath
+    image: FEED_BASE_URL + placeholderPath
   };
 }
 
