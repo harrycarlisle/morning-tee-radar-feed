@@ -1,9 +1,58 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:33:35.945Z",
+  "updatedAt": "2026-05-08T17:43:44.241Z",
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-08T17:43:44.240Z",
+      "approvedAt": "2026-05-08T17:43:44.240Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads Truist Championship at -7",
+      "summary": "Sungjae Im is E today and -7 overall through 7. Closest chasers: Matt McCarty (-7), Harry Hall (-6), David Lipsky (-5).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sungjae Im",
+          "score": "-7",
+          "thru": "7"
+        },
+        {
+          "pos": "T1",
+          "name": "Matt McCarty",
+          "score": "-7",
+          "thru": "2"
+        },
+        {
+          "pos": "3",
+          "name": "Harry Hall",
+          "score": "-6",
+          "thru": "2*"
+        },
+        {
+          "pos": "T4",
+          "name": "David Lipsky",
+          "score": "-5",
+          "thru": "10*"
+        },
+        {
+          "pos": "T4",
+          "name": "Tony Finau",
+          "score": "-5",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 min ago",
       "timestamp": "2026-05-08T17:33:35.945Z",
       "approvedAt": "2026-05-08T17:33:35.945Z",
       "status": "Live",
@@ -48,9 +97,7 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-05-08T13:56:44.000Z",
@@ -91,7 +138,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "32 min ago",
+      "time": "43 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -175,19 +222,6 @@
       "url": "https://sports.yahoo.com/articles/luke-donald-says-seve-ballesteros-090000119.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-05-08T01:48:28.000Z",
-      "approvedAt": "2026-05-08T11:04:51.233Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 Truist Championship Friday tee times: Round 2 groupings",
-      "summary": "Full 2026 Truist Championship tee times for Friday's second round at Quail Hollow, featuring Rickie Fowler, Alex Fitzpatrick and more.",
-      "url": "https://sports.yahoo.com/articles/2026-truist-championship-friday-tee-014828323.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     }
   ],
   "weekRadar": [
