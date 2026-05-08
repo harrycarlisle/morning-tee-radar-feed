@@ -1,7 +1,22 @@
 {
   "active": true,
-  "updatedAt": "2026-05-08T17:14:25.913Z",
+  "updatedAt": "2026-05-08T17:15:45.972Z",
   "today": [
+    {
+      "time": "3 hours ago",
+      "timestamp": "2026-05-08T13:56:44.000Z",
+      "approvedAt": "2026-05-08T17:15:45.971Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "The PGA TOUR's New Player Social Media Policy is Bait for Bryson DeChambeau",
+      "summary": "With LIV Golf in a tailspin, the PGA TOUR just eliminated Bryson DeChambeau's main concern about a potential comeback.",
+      "url": "https://sports.yahoo.com/articles/pga-tours-player-social-media-135644772.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "1 hour ago",
       "timestamp": "2026-05-08T15:29:46.000Z",
@@ -14,9 +29,7 @@
       "url": "https://sports.yahoo.com/articles/pga-tour-makes-major-policy-152946809.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "4 hours ago",
       "timestamp": "2026-05-08T13:02:34.000Z",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 min ago",
+      "time": "15 min ago",
       "timestamp": "2026-05-08T17:00:37.056Z",
       "approvedAt": "2026-05-08T17:00:37.056Z",
       "status": "Live",
@@ -141,19 +154,6 @@
       "url": "https://sports.yahoo.com/articles/back-minor-tours-gary-player-001824077.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-05-07T22:21:35.000Z",
-      "approvedAt": "2026-05-08T08:05:00.514Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy makes 17 straight pars to start Truist Championship at Quail Hollow",
-      "summary": "Rory McIlroy almost did something Thursday at the Truist Championship that he'd never done before.",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-makes-17-straight-222135141.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
