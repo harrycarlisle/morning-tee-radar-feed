@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-09T06:10:11.029Z",
+  "updatedAt": "2026-05-09T08:09:20.229Z",
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
+      "timestamp": "2026-05-08T23:41:33.000Z",
+      "approvedAt": "2026-05-09T08:09:20.228Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Rory McIlroy takes dig at LIV survival hopes",
+      "summary": "Rory McIlroy doubts that LIV Golf can survive after the Saudi Public Investment Fund (PIF) confirmed that it will no longer financially back the breakaway league from the end of this season.",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-takes-dig-liv-234133405.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-05-09T00:14:01.000Z",
       "approvedAt": "2026-05-09T06:10:09.794Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/sungjae-im-leads-rory-mcilroy-001401540.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-09T02:40:05.000Z",
       "approvedAt": "2026-05-09T03:53:47.521Z",
       "status": "Confirmed",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-08T21:59:57.000Z",
       "approvedAt": "2026-05-08T23:09:58.248Z",
       "status": "Confirmed",
@@ -44,7 +57,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-08T20:31:32.000Z",
       "approvedAt": "2026-05-08T21:14:40.331Z",
       "status": "Confirmed",
@@ -57,7 +70,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-08T14:22:45.000Z",
       "approvedAt": "2026-05-08T18:45:32.830Z",
       "status": "Confirmed",
@@ -70,7 +83,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-08T17:55:55.664Z",
       "approvedAt": "2026-05-08T17:55:55.664Z",
       "status": "Live",
@@ -117,7 +130,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-08T12:20:21.000Z",
       "approvedAt": "2026-05-08T17:47:28.236Z",
       "status": "Confirmed",
@@ -130,7 +143,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-08T17:43:44.240Z",
       "approvedAt": "2026-05-08T17:43:44.240Z",
       "status": "Live",
@@ -167,53 +180,6 @@
           "name": "David Lipsky",
           "score": "-5",
           "thru": "10*"
-        },
-        {
-          "pos": "T4",
-          "name": "Tony Finau",
-          "score": "-5",
-          "thru": "9"
-        }
-      ]
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-05-08T17:33:35.945Z",
-      "approvedAt": "2026-05-08T17:33:35.945Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Matt McCarty leads Truist Championship at -8",
-      "summary": "Matt McCarty is E today and -8 overall through 1. Closest chasers: Sungjae Im (-7), Harry Hall (-6), David Lipsky (-5).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Matt McCarty",
-          "score": "-8",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Sungjae Im",
-          "score": "-7",
-          "thru": "6"
-        },
-        {
-          "pos": "3",
-          "name": "Harry Hall",
-          "score": "-6",
-          "thru": "2*"
-        },
-        {
-          "pos": "T4",
-          "name": "David Lipsky",
-          "score": "-5",
-          "thru": "9*"
         },
         {
           "pos": "T4",
@@ -259,7 +225,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-09T06:10:09.635Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +238,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-09T05:33:09.636Z",
       "status": "Trending",
       "signal": "Reddit find",
