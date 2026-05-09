@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-09T17:10:55.008Z",
+  "updatedAt": "2026-05-09T18:04:09.614Z",
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
+      "timestamp": "2026-05-09T12:30:00.000Z",
+      "approvedAt": "2026-05-09T18:04:09.613Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "What Richard Bland was told privately about LIV golfers playing on the Champion...",
+      "summary": "With LIV Golf’s future in doubt, so is the future of all of its players.",
+      "url": "https://sports.yahoo.com/articles/richard-bland-told-privately-liv-123000035.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-09T13:01:24.000Z",
       "approvedAt": "2026-05-09T17:10:54.013Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/colin-montgomeries-golf-joy-contrasts-130124767.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-09T12:40:40.000Z",
       "approvedAt": "2026-05-09T16:06:57.938Z",
       "status": "Confirmed",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-09T12:42:00.000Z",
       "approvedAt": "2026-05-09T14:04:35.325Z",
       "status": "Confirmed",
@@ -44,7 +57,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-09T10:30:00.000Z",
       "approvedAt": "2026-05-09T11:31:27.085Z",
       "status": "Confirmed",
@@ -57,7 +70,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-08T23:16:45.000Z",
       "approvedAt": "2026-05-09T10:36:59.819Z",
       "status": "Confirmed",
@@ -70,7 +83,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-08T23:41:33.000Z",
       "approvedAt": "2026-05-09T08:09:20.228Z",
       "status": "Confirmed",
@@ -83,7 +96,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-09T00:14:01.000Z",
       "approvedAt": "2026-05-09T06:10:09.794Z",
       "status": "Confirmed",
@@ -96,7 +109,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-09T02:40:05.000Z",
       "approvedAt": "2026-05-09T03:53:47.521Z",
       "status": "Confirmed",
@@ -107,19 +120,6 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-liv-golf-mic-024005565.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-05-08T21:59:57.000Z",
-      "approvedAt": "2026-05-08T23:09:58.248Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "YOUTUBE",
-      "title": "Bryson DeChambeau Leaves No Stone Unturned Attempts to Rescue LIV Golf as Finan...",
-      "summary": "Bryson DeChambeau is the kind of golfer who doesn’t limit himself to the fairways.",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-leaves-no-stone-215957655.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -157,7 +157,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "53 min ago",
       "timestamp": "2026-05-09T17:10:53.811Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -170,7 +170,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-09T16:33:53.811Z",
       "status": "Trending",
       "signal": "Reddit find",
