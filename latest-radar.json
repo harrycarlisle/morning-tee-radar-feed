@@ -1,9 +1,58 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T20:08:34.745Z",
+  "updatedAt": "2026-05-10T20:42:31.280Z",
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-10T20:42:31.279Z",
+      "approvedAt": "2026-05-10T20:42:31.279Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Rickie Fowler leads Truist Championship at -14",
+      "summary": "Rickie Fowler is -7 today and -14 overall through 16. Closest chasers: Nicolai Højgaard (-13), Alex Fitzpatrick (-13), Kristoffer Reitan (-13).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Rickie Fowler",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Nicolai Højgaard",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Fitzpatrick",
+          "score": "-13",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
+          "name": "Kristoffer Reitan",
+          "score": "-13",
+          "thru": "12"
+        },
+        {
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-12",
+          "thru": "14"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "34 min ago",
       "timestamp": "2026-05-10T20:08:13.739Z",
       "approvedAt": "2026-05-10T20:08:13.739Z",
       "status": "Live",
@@ -48,11 +97,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 min ago",
+      "time": "40 min ago",
       "timestamp": "2026-05-10T20:02:14.352Z",
       "approvedAt": "2026-05-10T20:02:14.352Z",
       "status": "Live",
@@ -112,7 +159,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T17:19:45.000Z",
       "approvedAt": "2026-05-10T18:05:15.139Z",
       "status": "Confirmed",
@@ -125,7 +172,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-10T16:22:36.000Z",
       "approvedAt": "2026-05-10T17:12:06.161Z",
       "status": "Confirmed",
@@ -138,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-10T16:18:36.499Z",
       "approvedAt": "2026-05-10T16:18:36.499Z",
       "status": "Live",
@@ -209,19 +256,6 @@
       "url": "https://sports.yahoo.com/articles/spieth-scheffler-one-leg-career-135045126.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-05-10T12:30:00.000Z",
-      "approvedAt": "2026-05-10T12:40:26.771Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy’s hopes of winning the PGA Championship appear to have been dealt...",
-      "summary": "It was not at all surprising to see Rory McIlroy make his first competitive start since winning The Masters at the Truist Championship this week.",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-hopes-winning-pga-123000103.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -259,7 +293,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "33 min ago",
       "timestamp": "2026-05-10T20:08:33.250Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T19:31:33.250Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -282,6 +316,55 @@
       "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png"
+    }
+  ],
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-05-10T20:42:31.280Z",
+      "approvedAt": "2026-05-10T20:42:31.280Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Rickie Fowler leads Truist Championship at -14",
+      "summary": "Rickie Fowler is -7 today and -14 overall through 16. Closest chasers: Nicolai Højgaard (-13), Alex Fitzpatrick (-13), Kristoffer Reitan (-13).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Rickie Fowler",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Nicolai Højgaard",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Fitzpatrick",
+          "score": "-13",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
+          "name": "Kristoffer Reitan",
+          "score": "-13",
+          "thru": "12"
+        },
+        {
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-12",
+          "thru": "14"
+        }
+      ]
     }
   ]
 }
