@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T23:08:07.247Z",
+  "updatedAt": "2026-05-10T23:43:52.159Z",
   "today": [
     {
-      "time": "19 min ago",
+      "time": "47 min ago",
+      "timestamp": "2026-05-10T22:56:42.000Z",
+      "approvedAt": "2026-05-10T23:43:52.158Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Norwegian rookie Reitan wins PGA Truist Championship",
+      "summary": "Kristoffer Reitan, a PGA Tour rookie from Norway, won a back-nine shootout in Sunday's final round to seize his first PGA victory at the Truist Championship.Reitan, who in his 15th tour s...",
+      "url": "https://sports.yahoo.com/articles/norwegian-rookie-reitan-wins-pga-225642904.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "55 min ago",
       "timestamp": "2026-05-10T22:48:49.000Z",
       "approvedAt": "2026-05-10T23:08:06.314Z",
       "status": "Confirmed",
@@ -14,9 +29,7 @@
       "url": "https://sports.yahoo.com/articles/lucas-herberts-first-liv-golf-224849640.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-10T17:30:00.000Z",
       "approvedAt": "2026-05-10T21:05:48.654Z",
       "status": "Confirmed",
@@ -44,7 +57,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T20:42:31.279Z",
       "approvedAt": "2026-05-10T20:42:31.279Z",
       "status": "Live",
@@ -91,7 +104,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T20:08:13.739Z",
       "approvedAt": "2026-05-10T20:08:13.739Z",
       "status": "Live",
@@ -198,7 +211,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-10T17:19:45.000Z",
       "approvedAt": "2026-05-10T18:05:15.139Z",
       "status": "Confirmed",
@@ -209,19 +222,6 @@
       "url": "https://sports.yahoo.com/articles/spieth-scheffler-one-leg-career-171945891.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-05-10T16:22:36.000Z",
-      "approvedAt": "2026-05-10T17:12:06.161Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "South African, 22, nearly equals Tiger Woods' record winning margin in maiden D...",
-      "summary": "Yurav Premlall won the Estrella Damm Catalunya Championship by a whopping 14 shots, one stroke shy of tying Tiger Woods’ record 15-shot win at the 2000 U.S.",
-      "url": "https://sports.yahoo.com/articles/south-african-22-nearly-equals-162236045.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
@@ -259,7 +259,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "35 min ago",
       "timestamp": "2026-05-10T23:08:06.189Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T22:31:06.189Z",
       "status": "Trending",
       "signal": "Reddit find",
