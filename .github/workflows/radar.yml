@@ -2,7 +2,19 @@ name: radar.yml
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Normal radar checks, every 2 hours
+    - cron: "0 */2 * * *"
+
+    # Championship Sunday live window, Eastern daylight time
+    # 1:30pm and 1:45pm ET
+    - cron: "30,45 17 * * 0"
+
+    # Every 15 minutes from 2:00pm to 6:45pm ET
+    - cron: "*/15 18-22 * * 0"
+
+    # 7:00pm ET
+    - cron: "0 23 * * 0"
+
   workflow_dispatch:
 
 permissions:
@@ -41,13 +53,14 @@ jobs:
       - name: Run radar
         run: node reddit-checker.js
 
-      - name: Commit seen posts
+      - name: Commit radar updates
         run: |
           git config user.name "Morning Tee Radar Bot"
           git config user.email "actions@github.com"
 
-          git add seen-posts.json golf-internet-seen.json golf-internet-archive.json
-          git diff --cached --quiet || git commit -m "Update seen radar posts"
+          git add latest-radar.json seen-posts.json golf-internet-seen.json golf-internet-archive.json
+
+          git diff --cached --quiet || git commit -m "Update radar feed"
 
           git pull --rebase
 
