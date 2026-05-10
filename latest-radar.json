@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T20:42:31.280Z",
+  "updatedAt": "2026-05-10T21:05:48.655Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-10T17:30:00.000Z",
+      "approvedAt": "2026-05-10T21:05:48.654Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Brooks Koepka’s latest comments should add further worry for LIV Golf",
+      "summary": "Brooks Koepka deserves a lot of credit for the way he has embraced his current position on the PGA Tour since deciding to leave LIV Golf ahead of the season.",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-latest-comments-add-173000115.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "23 min ago",
       "timestamp": "2026-05-10T20:42:31.279Z",
       "approvedAt": "2026-05-10T20:42:31.279Z",
       "status": "Live",
@@ -48,11 +63,9 @@
           "thru": "14"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "34 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-05-10T20:08:13.739Z",
       "approvedAt": "2026-05-10T20:08:13.739Z",
       "status": "Live",
@@ -99,7 +112,7 @@
       ]
     },
     {
-      "time": "40 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T20:02:14.352Z",
       "approvedAt": "2026-05-10T20:02:14.352Z",
       "status": "Live",
@@ -146,7 +159,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-10T19:00:00.000Z",
       "approvedAt": "2026-05-10T19:21:43.512Z",
       "status": "Confirmed",
@@ -232,7 +245,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-10T08:49:00.000Z",
       "approvedAt": "2026-05-10T15:12:33.473Z",
       "status": "Confirmed",
@@ -243,19 +256,6 @@
       "url": "https://sports.yahoo.com/articles/alex-fitzpatrick-eyes-2-6m-084900851.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-05-10T13:50:45.000Z",
-      "approvedAt": "2026-05-10T14:06:20.911Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Spieth and Scheffler are one leg from the career Grand Slam. It looks farther a...",
-      "summary": "The video began to resurface a couple of years ago when Scottie Scheffler was a two-time Masters champion entrenched at No.",
-      "url": "https://sports.yahoo.com/articles/spieth-scheffler-one-leg-career-135045126.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     }
   ],
   "weekRadar": [
@@ -293,7 +293,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "33 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-05-10T20:08:33.250Z",
       "status": "Trending",
       "signal": "Reddit find",
