@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T12:40:27.891Z",
+  "updatedAt": "2026-05-10T14:06:20.912Z",
   "today": [
     {
-      "time": "10 min ago",
+      "time": "15 min ago",
+      "timestamp": "2026-05-10T13:50:45.000Z",
+      "approvedAt": "2026-05-10T14:06:20.911Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Spieth and Scheffler are one leg from the career Grand Slam. It looks farther a...",
+      "summary": "The video began to resurface a couple of years ago when Scottie Scheffler was a two-time Masters champion entrenched at No.",
+      "url": "https://sports.yahoo.com/articles/spieth-scheffler-one-leg-career-135045126.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T12:30:00.000Z",
       "approvedAt": "2026-05-10T12:40:26.771Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-hopes-winning-pga-123000103.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-10T04:28:52.000Z",
       "approvedAt": "2026-05-10T11:31:41.082Z",
       "status": "Confirmed",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-10T10:00:00.000Z",
       "approvedAt": "2026-05-10T10:37:09.593Z",
       "status": "Confirmed",
@@ -44,7 +57,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-09T22:57:22.000Z",
       "approvedAt": "2026-05-10T09:12:06.742Z",
       "status": "Confirmed",
@@ -57,7 +70,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-09T23:12:30.000Z",
       "approvedAt": "2026-05-10T01:25:00.362Z",
       "status": "Confirmed",
@@ -70,7 +83,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-09T23:28:56.000Z",
       "approvedAt": "2026-05-09T23:38:59.585Z",
       "status": "Confirmed",
@@ -83,7 +96,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-09T19:35:46.000Z",
       "approvedAt": "2026-05-09T21:59:48.680Z",
       "status": "Confirmed",
@@ -96,7 +109,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-09T19:38:45.000Z",
       "approvedAt": "2026-05-09T20:07:03.875Z",
       "status": "Confirmed",
@@ -107,19 +120,6 @@
       "url": "https://sports.yahoo.com/articles/2026-truist-championship-saturday-tee-193845972.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-09T12:30:00.000Z",
-      "approvedAt": "2026-05-09T18:04:09.613Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "What Richard Bland was told privately about LIV golfers playing on the Champion...",
-      "summary": "With LIV Golf’s future in doubt, so is the future of all of its players.",
-      "url": "https://sports.yahoo.com/articles/richard-bland-told-privately-liv-123000035.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -157,7 +157,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T12:40:26.431Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -170,7 +170,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-10T12:03:26.431Z",
       "status": "Trending",
       "signal": "Reddit find",
