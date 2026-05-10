@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T16:18:36.499Z",
+  "updatedAt": "2026-05-10T17:12:06.162Z",
   "today": [
     {
-      "time": "Just now",
+      "time": "49 min ago",
+      "timestamp": "2026-05-10T16:22:36.000Z",
+      "approvedAt": "2026-05-10T17:12:06.161Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "DP TOUR",
+      "title": "South African, 22, nearly equals Tiger Woods' record winning margin in maiden D...",
+      "summary": "Yurav Premlall won the Estrella Damm Catalunya Championship by a whopping 14 shots, one stroke shy of tying Tiger Woods’ record 15-shot win at the 2000 U.S.",
+      "url": "https://sports.yahoo.com/articles/south-african-22-nearly-equals-162236045.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "53 min ago",
       "timestamp": "2026-05-10T16:18:36.499Z",
       "approvedAt": "2026-05-10T16:18:36.499Z",
       "status": "Live",
@@ -48,11 +63,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-10T08:49:00.000Z",
       "approvedAt": "2026-05-10T15:12:33.473Z",
       "status": "Confirmed",
@@ -65,7 +78,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T13:50:45.000Z",
       "approvedAt": "2026-05-10T14:06:20.911Z",
       "status": "Confirmed",
@@ -78,7 +91,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-10T12:30:00.000Z",
       "approvedAt": "2026-05-10T12:40:26.771Z",
       "status": "Confirmed",
@@ -91,7 +104,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-10T04:28:52.000Z",
       "approvedAt": "2026-05-10T11:31:41.082Z",
       "status": "Confirmed",
@@ -104,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-10T10:00:00.000Z",
       "approvedAt": "2026-05-10T10:37:09.593Z",
       "status": "Confirmed",
@@ -117,7 +130,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-09T22:57:22.000Z",
       "approvedAt": "2026-05-10T09:12:06.742Z",
       "status": "Confirmed",
@@ -141,19 +154,6 @@
       "url": "https://sports.yahoo.com/articles/gary-williams-doesnt-think-bryson-231230981.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-05-09T23:28:56.000Z",
-      "approvedAt": "2026-05-09T23:38:59.585Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Truist Championship 2026: Final round tee times, pairings, and how to watch",
-      "summary": "The final round of the Truist Championship begins Sunday in the Queen City.",
-      "url": "https://sports.yahoo.com/articles/truist-championship-2026-final-round-232856295.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -191,7 +191,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "9 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T16:09:16.610Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -204,7 +204,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "46 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T15:32:16.610Z",
       "status": "Trending",
       "signal": "Reddit find",
