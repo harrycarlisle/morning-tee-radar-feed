@@ -1524,7 +1524,7 @@ function rapidApiHeaders() {
   };
 }
 
-async function fetchCurrentTournament() {
+async function fetchCurrentTournaments() {
   const url = `https://${RAPIDAPI_HOST}/schedule?orgId=${PGA_ORG_ID}&year=${LIVE_GOLF_YEAR}`;
 
   const response = await fetch(url, {
@@ -1582,7 +1582,7 @@ async function fetchCurrentTournament() {
     }, null, 2));
   });
 
-  if (!currentEvents.length) return null;
+  if (!currentEvents.length) return [];
 
   const strokeEvents = currentEvents.filter((event) => event.format === "stroke");
   const candidates = strokeEvents.length ? strokeEvents : currentEvents;
@@ -1594,7 +1594,12 @@ async function fetchCurrentTournament() {
     const fedexB = parseApiNumber(b.fedexCupPoints);
 
     return (purseB + fedexB * 10000) - (purseA + fedexA * 10000);
-  })[0];
+  });
+}
+
+async function fetchCurrentTournament() {
+  const tournaments = await fetchCurrentTournaments();
+  return tournaments[0] || null;
 }
 
 async function fetchLeaderboardForTournament(tournament) {
@@ -1718,29 +1723,41 @@ async function fetchLeaderboardItems() {
   }
 
   try {
-    const tournament = await fetchCurrentTournament();
+    const tournaments = await fetchCurrentTournaments();
 
-    if (!tournament) {
+    if (!tournaments.length) {
       console.log("[Leaderboard] No current tournament found.");
       return [];
     }
 
-    console.log(`[Leaderboard] Current tournament: ${tournament.name} (${tournament.tournId})`);
+    const items = [];
 
-    const leaderboard = await fetchLeaderboardForTournament(tournament);
-    const leaderboardRows = getLeaderboardRows(leaderboard);
+    for (const tournament of tournaments) {
+      try {
+        console.log(`[Leaderboard] Current tournament: ${tournament.name} (${tournament.tournId})`);
 
-    console.log("[Leaderboard] Response keys:", Object.keys(leaderboard || {}));
-    console.log("[Leaderboard] Row count:", leaderboardRows.length);
+        const leaderboard = await fetchLeaderboardForTournament(tournament);
+        const leaderboardRows = getLeaderboardRows(leaderboard);
 
-    const item = buildLeaderboardItem(tournament, leaderboard);
+        console.log("[Leaderboard] Response keys:", Object.keys(leaderboard || {}));
+        console.log(`[Leaderboard] Row count for ${tournament.name}:`, leaderboardRows.length);
 
-    if (!item) {
-      console.log("[Leaderboard] No publishable leaderboard item found.");
-      return [];
+        const item = buildLeaderboardItem(tournament, leaderboard);
+
+        if (!item) {
+          console.log(`[Leaderboard] No publishable leaderboard item found for ${tournament.name}.`);
+          continue;
+        }
+
+        items.push(item);
+      } catch (error) {
+        console.error(`[Leaderboard] Failed for ${tournament.name || tournament.tournId}`, error);
+      }
     }
 
-    return [item];
+    console.log(`[Leaderboard] Publishable leaderboard items: ${items.length}`);
+
+    return items;
   } catch (error) {
     console.error("[Leaderboard] Failed", error);
     return [];
@@ -1942,6 +1959,7 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
 function storyAlreadyOnRadar(radarJson, item) {
   const allStories = [
     ...(Array.isArray(radarJson.today) ? radarJson.today : []),
+    ...(Array.isArray(radarJson.liveLeaderboards) ? radarJson.liveLeaderboards : []),
     ...(Array.isArray(radarJson.alsoMoving) ? radarJson.alsoMoving : []),
     ...(Array.isArray(radarJson.golfInternet) ? radarJson.golfInternet : []),
     radarJson.checking
@@ -1977,6 +1995,26 @@ function mergeGolfInternetItems(currentItems, newItems) {
   return attachImagesToRadarArray(merged.slice(0, 2), imageUsage);
 }
 
+function buildLiveLeaderboardsFromItems(leaderboardItems) {
+  if (!Array.isArray(leaderboardItems) || !leaderboardItems.length) {
+    return [];
+  }
+
+  const newestByTournament = new Map();
+
+  leaderboardItems.forEach((item) => {
+    if (!item || item.sourceType !== "Leaderboard") return;
+
+    const radarItem = buildRadarItem(item);
+    if (!radarItem || !Array.isArray(radarItem.leaders) || !radarItem.leaders.length) return;
+
+    const tournamentKey = String(radarItem.tournament || "PGA TOUR").trim().toLowerCase();
+    newestByTournament.set(tournamentKey, radarItem);
+  });
+
+  return Array.from(newestByTournament.values());
+}
+
 function buildNextRadarJson(currentJson, item) {
   const nextLive = buildRadarItem(item);
 
@@ -2006,6 +2044,9 @@ function buildNextRadarJson(currentJson, item) {
     active: true,
     updatedAt: new Date().toISOString(),
     today: nextToday,
+    liveLeaderboards: item.sourceType === "Leaderboard"
+      ? buildLiveLeaderboardsFromItems([item])
+      : (Array.isArray(currentJson.liveLeaderboards) ? currentJson.liveLeaderboards : []),
     alsoMoving: nextAlsoMoving,
     checking: currentJson.checking || buildCheckingItem(item),
     golfInternet: addDisplayTimesToRadarArray(
@@ -2063,7 +2104,43 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
-async function autoPublishGolfInternetToGitHub(items) {
+async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
+  if (!AUTO_PUBLISH || !Array.isArray(leaderboardItems) || !leaderboardItems.length) {
+    return false;
+  }
+
+  const liveLeaderboards = buildLiveLeaderboardsFromItems(leaderboardItems);
+
+  if (!liveLeaderboards.length) {
+    console.log("[Leaderboard] No live leaderboards to publish.");
+    return false;
+  }
+
+  const current = await getRadarFileFromGitHub();
+
+  const nextJson = {
+    ...current.json,
+    active: true,
+    updatedAt: new Date().toISOString(),
+    liveLeaderboards
+  };
+
+  if (!radarJsonChanged(current.json, nextJson)) {
+    console.log("[Leaderboard] liveLeaderboards already up to date.");
+    return false;
+  }
+
+  const title = liveLeaderboards.length > 1
+    ? `Update ${liveLeaderboards.length} live leaderboards`
+    : `Update live leaderboard: ${liveLeaderboards[0].tournament || "PGA TOUR"}`;
+
+  await updateRadarFileOnGitHub(nextJson, current.sha, title);
+  console.log(`[Leaderboard] Updated liveLeaderboards with ${liveLeaderboards.length} tournament(s).`);
+
+  return true;
+}
+
+ async function autoPublishGolfInternetToGitHub(items) {
   if (!AUTO_PUBLISH || !items.length) return false;
 
   const current = await getRadarFileFromGitHub();
@@ -2092,7 +2169,7 @@ async function autoPublishGolfInternetToGitHub(items) {
   console.log("[Golf Internet] Updated GitHub radar JSON.");
 
   return true;
-}
+} 
 
 async function checkRadar() {
   if (!DISCORD_WEBHOOK_URL) {
@@ -2126,9 +2203,13 @@ const golfInternetItems = manualGolfInternetItems.length
   const bestCandidate = candidates[0] || null;
   let published = false;
 
-  if (AUTO_PUBLISH) {
+    if (AUTO_PUBLISH) {
     if (bestCandidate) {
       published = await autoPublishToGitHub(bestCandidate);
+    }
+
+    if (leaderboardItems.length) {
+      await autoPublishLiveLeaderboardsToGitHub(leaderboardItems);
     }
 
     if (golfInternetItems.length) {
