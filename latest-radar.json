@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T22:41:19.127Z",
+  "updatedAt": "2026-05-10T23:08:06.315Z",
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "19 min ago",
+      "timestamp": "2026-05-10T22:48:49.000Z",
+      "approvedAt": "2026-05-10T23:08:06.314Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Lucas Herbert's first LIV Golf title sends him to the U.S. Open",
+      "summary": "The 30-year-old Aussie now owns career titles across LIV, the PGA Tour, DP World Tour and Asian Tour and heads to Shinnecock Hills, site of his first major start.",
+      "url": "https://sports.yahoo.com/articles/lucas-herberts-first-liv-golf-224849640.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
       "approvedAt": "2026-05-10T22:04:16.936Z",
       "status": "Confirmed",
@@ -14,9 +29,7 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-confirms-why-limping-210045149.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-05-10T17:30:00.000Z",
@@ -31,7 +44,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-10T20:42:31.279Z",
       "approvedAt": "2026-05-10T20:42:31.279Z",
       "status": "Live",
@@ -125,7 +138,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T20:02:14.352Z",
       "approvedAt": "2026-05-10T20:02:14.352Z",
       "status": "Live",
@@ -172,7 +185,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-10T19:00:00.000Z",
       "approvedAt": "2026-05-10T19:21:43.512Z",
       "status": "Confirmed",
@@ -209,53 +222,6 @@
       "url": "https://sports.yahoo.com/articles/south-african-22-nearly-equals-162236045.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-05-10T16:18:36.499Z",
-      "approvedAt": "2026-05-10T16:18:36.499Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Alex Fitzpatrick leads Truist Championship at -14",
-      "summary": "Alex Fitzpatrick is -14 overall through 1. Closest chasers: Kristoffer Reitan (-13), Cameron Young (-12), Nicolai Højgaard (-10).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Alex Fitzpatrick",
-          "score": "-14",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Kristoffer Reitan",
-          "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "3",
-          "name": "Cameron Young",
-          "score": "-12",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Nicolai Højgaard",
-          "score": "-10",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Sungjae Im",
-          "score": "-10",
-          "thru": "1"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -293,7 +259,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "26 min ago",
       "timestamp": "2026-05-10T22:41:17.789Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T22:04:17.790Z",
       "status": "Trending",
       "signal": "Reddit find",
