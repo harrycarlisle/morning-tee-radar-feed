@@ -1,9 +1,58 @@
 {
   "active": true,
-  "updatedAt": "2026-05-10T19:21:43.513Z",
+  "updatedAt": "2026-05-10T20:02:14.353Z",
   "today": [
     {
-      "time": "21 min ago",
+      "time": "Just now",
+      "timestamp": "2026-05-10T20:02:14.352Z",
+      "approvedAt": "2026-05-10T20:02:14.352Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads Truist Championship at -13",
+      "summary": "Sungjae Im is -3 today and -13 overall through 11. Closest chasers: Nicolai Højgaard (-13), Kristoffer Reitan (-13), Harry Hall (-12).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sungjae Im",
+          "score": "-13",
+          "thru": "11"
+        },
+        {
+          "pos": "T1",
+          "name": "Nicolai Højgaard",
+          "score": "-13",
+          "thru": "10"
+        },
+        {
+          "pos": "T1",
+          "name": "Kristoffer Reitan",
+          "score": "-13",
+          "thru": "9"
+        },
+        {
+          "pos": "T4",
+          "name": "Harry Hall",
+          "score": "-12",
+          "thru": "15"
+        },
+        {
+          "pos": "T4",
+          "name": "Rickie Fowler",
+          "score": "-12",
+          "thru": "13"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-05-10T19:00:00.000Z",
       "approvedAt": "2026-05-10T19:21:43.512Z",
       "status": "Confirmed",
@@ -14,9 +63,7 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-issues-advice-alex-190000555.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-05-10T17:19:45.000Z",
@@ -31,7 +78,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-10T16:22:36.000Z",
       "approvedAt": "2026-05-10T17:12:06.161Z",
       "status": "Confirmed",
@@ -91,7 +138,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-10T08:49:00.000Z",
       "approvedAt": "2026-05-10T15:12:33.473Z",
       "status": "Confirmed",
@@ -104,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-10T13:50:45.000Z",
       "approvedAt": "2026-05-10T14:06:20.911Z",
       "status": "Confirmed",
@@ -117,7 +164,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-10T12:30:00.000Z",
       "approvedAt": "2026-05-10T12:40:26.771Z",
       "status": "Confirmed",
@@ -130,7 +177,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-10T04:28:52.000Z",
       "approvedAt": "2026-05-10T11:31:41.082Z",
       "status": "Confirmed",
@@ -141,19 +188,6 @@
       "url": "https://sports.yahoo.com/articles/2026-truist-championship-sunday-tee-042852878.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-05-10T10:00:00.000Z",
-      "approvedAt": "2026-05-10T10:37:09.593Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy posts the ninth worst statistical round of his entire career on da...",
-      "summary": "Rory McIlroy really struggled with his game during the third round of the Truist Championship on Saturday.",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-posts-ninth-worst-100000273.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -204,7 +238,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-10T17:28:15.012Z",
       "status": "Trending",
       "signal": "Reddit find",
