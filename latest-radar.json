@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T16:47:49.195Z",
+  "updatedAt": "2026-05-11T17:05:52.478Z",
   "today": [
+    {
+      "time": "7 hours ago",
+      "timestamp": "2026-05-11T09:30:00.000Z",
+      "approvedAt": "2026-05-11T17:05:52.477Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Johnson Wagner has warning for every player about Rory McIlroy at the PGA Champ...",
+      "summary": "Johnson Wagner has insisted that the field should be very scared of Rory McIlroy at the PGA Championship despite the Northern Irishman failing to contend at the Truist Championship this p...",
+      "quickRead": "Johnson Wagner warned the entire field to be \"very scared\" of Rory McIlroy at the PGA Championship, arguing that one quiet week at the Truist Championship doesn’t change how dangerous McIlroy is when a major arrives.  He pointed to McIlroy’s ability to flip the switch with elite driving and scoring bursts on tough setups, making him a threat even if his most recent start didn’t contend.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/johnson-wagner-warning-every-player-093000209.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/johnson-wagner-warning-every-player-093000209.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "3 hours ago",
       "timestamp": "2026-05-11T13:24:17.000Z",
@@ -20,9 +41,7 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/rory-mcilroy-and-scottie-scheffler-rule-golf-right-now-can-anyone-challenge-them-at-the-pga-championship-132417364.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-05-11T14:09:12.000Z",
@@ -37,7 +56,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-11T10:00:00.000Z",
       "approvedAt": "2026-05-11T10:57:15.334Z",
       "status": "Confirmed",
@@ -50,7 +69,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-11T02:51:07.196Z",
       "approvedAt": "2026-05-11T02:51:07.196Z",
       "status": "Live",
@@ -97,7 +116,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-10T22:56:42.000Z",
       "approvedAt": "2026-05-10T23:43:52.158Z",
       "status": "Confirmed",
@@ -110,7 +129,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-10T22:48:49.000Z",
       "approvedAt": "2026-05-10T23:08:06.314Z",
       "status": "Confirmed",
@@ -123,7 +142,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
       "approvedAt": "2026-05-10T22:04:16.936Z",
       "status": "Confirmed",
@@ -147,53 +166,6 @@
       "url": "https://sports.yahoo.com/articles/brooks-koepka-latest-comments-add-173000115.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-05-10T20:42:31.279Z",
-      "approvedAt": "2026-05-10T20:42:31.279Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Rickie Fowler leads Truist Championship at -14",
-      "summary": "Rickie Fowler is -7 today and -14 overall through 16. Closest chasers: Nicolai Højgaard (-13), Alex Fitzpatrick (-13), Kristoffer Reitan (-13).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Rickie Fowler",
-          "score": "-14",
-          "thru": "16"
-        },
-        {
-          "pos": "T2",
-          "name": "Nicolai Højgaard",
-          "score": "-13",
-          "thru": "13"
-        },
-        {
-          "pos": "T2",
-          "name": "Alex Fitzpatrick",
-          "score": "-13",
-          "thru": "12"
-        },
-        {
-          "pos": "T2",
-          "name": "Kristoffer Reitan",
-          "score": "-13",
-          "thru": "12"
-        },
-        {
-          "pos": "5",
-          "name": "Tommy Fleetwood",
-          "score": "-12",
-          "thru": "14"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -231,7 +203,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "18 min ago",
       "timestamp": "2026-05-11T16:47:44.825Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -245,7 +217,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "55 min ago",
       "timestamp": "2026-05-11T16:10:44.825Z",
       "status": "Trending",
       "signal": "Reddit find",
