@@ -1,9 +1,30 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T18:02:35.956Z",
+  "updatedAt": "2026-05-11T19:41:58.731Z",
   "today": [
     {
-      "time": "7 hours ago",
+      "time": "35 min ago",
+      "timestamp": "2026-05-11T19:06:16.000Z",
+      "approvedAt": "2026-05-11T19:41:58.728Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Rory McIlroy Shades Bryson DeChambeau and LIV Golfers as League Looks Close to...",
+      "summary": "The reigning Masters champ, 37, has previously been outspoken about LIV Golf",
+      "quickRead": "Rory McIlroy took a subtle swipe at Bryson DeChambeau and other LIV Golf players while discussing the PGA Tour’s ongoing negotiations with Saudi Arabia’s Public Investment Fund as a deal appears to be nearing completion.  The comment underscores lingering tension even if a reunification framework is reached, with McIlroy again signaling he hasn’t forgotten the defections or the rhetoric that fueled the split.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-shades-bryson-dechambeau-190616767.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-shades-bryson-dechambeau-190616767.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-05-11T09:30:00.000Z",
       "approvedAt": "2026-05-11T17:05:52.477Z",
       "status": "Confirmed",
@@ -20,11 +41,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/johnson-wagner-warning-every-player-093000209.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-11T13:24:17.000Z",
       "approvedAt": "2026-05-11T16:37:48.469Z",
       "status": "Confirmed",
@@ -43,7 +62,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-11T14:09:12.000Z",
       "approvedAt": "2026-05-11T14:39:20.001Z",
       "status": "Confirmed",
@@ -56,7 +75,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-11T10:00:00.000Z",
       "approvedAt": "2026-05-11T10:57:15.334Z",
       "status": "Confirmed",
@@ -69,7 +88,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-10T22:56:42.000Z",
       "approvedAt": "2026-05-10T23:43:52.158Z",
       "status": "Confirmed",
@@ -82,7 +101,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-10T22:48:49.000Z",
       "approvedAt": "2026-05-10T23:08:06.314Z",
       "status": "Confirmed",
@@ -95,7 +114,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
       "approvedAt": "2026-05-10T22:04:16.936Z",
       "status": "Confirmed",
@@ -108,7 +127,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-10T17:30:00.000Z",
       "approvedAt": "2026-05-10T21:05:48.654Z",
       "status": "Confirmed",
@@ -139,12 +158,12 @@
       "timestamp": "2026-05-11T14:09:12.000Z"
     },
     {
-      "label": "STORY TO WATCH",
-      "title": "Former MLB player says he faked an injury to play Augusta",
-      "summary": "Legendary Atlanta Braves manager Bobby Cox was in on the ploy to help his player make a tee time with Tiger Woods",
-      "url": "https://sports.yahoo.com/articles/mlb-player-admits-faked-injury-143753240.html",
+      "label": "LIV WATCH",
+      "title": "Rory McIlroy Shades Bryson DeChambeau and LIV Golfers as League Looks...",
+      "summary": "Rory McIlroy took a subtle swipe at Bryson DeChambeau and other LIV Golf players while discussing the PGA Tour’s ongoing negotiations with Saudi Ar...",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-shades-bryson-dechambeau-190616767.html",
       "source": "Yahoo Golf",
-      "timestamp": "2026-05-11T14:37:53.000Z"
+      "timestamp": "2026-05-11T19:06:16.000Z"
     }
   ],
   "checking": {
@@ -165,7 +184,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-11T18:02:29.177Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -179,7 +198,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-11T17:25:29.178Z",
       "status": "Trending",
       "signal": "Reddit find",
