@@ -787,14 +787,30 @@ function getTournamentScoreBoost(item) {
   return Math.min(boost, 45);
 }
 
+function getLeaderboardPriority(item) {
+  const { weekday, hour } = getEasternNowParts();
+
+  if (item.resultType === "Winner") return 1200;
+
+  if (weekday === "Sun" && hour >= 17 && hour <= 20) return 1100;
+
+  if (weekday === "Sun" && hour >= 14) return 850;
+
+  if (["Thu", "Fri", "Sat"].includes(weekday)) return 500;
+
+  return 0;
+}
+
 function scoreNewsItem(item) {
   if (item.sourceType === "Leaderboard") {
-    return {
-      score: 999,
-      matchedTerms: ["leaderboard"],
-      tournamentBoost: 45
-    };
-  }
+  return {
+    score: getLeaderboardPriority(item),
+    matchedTerms: item.resultType === "Winner"
+      ? ["winner", "leaderboard"]
+      : ["leaderboard"],
+    tournamentBoost: 45
+  };
+}
 
   const text = `${item.title} ${item.summary || ""}`;
   const matchedTerms = getMatchedTerms(text);
