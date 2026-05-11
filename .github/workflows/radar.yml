@@ -38,6 +38,9 @@ jobs:
       GITHUB_BRANCH: main
       GITHUB_RADAR_PATH: latest-radar.json
 
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: gpt-5.2
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
