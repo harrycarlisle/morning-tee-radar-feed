@@ -1,9 +1,24 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T10:57:16.709Z",
+  "updatedAt": "2026-05-11T14:39:20.002Z",
   "today": [
     {
-      "time": "57 min ago",
+      "time": "30 min ago",
+      "timestamp": "2026-05-11T14:09:12.000Z",
+      "approvedAt": "2026-05-11T14:39:20.001Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "What’s next for LIV Golf’s stars: Return to the PGA Tour, re-signing with LIV...",
+      "summary": "With LIV's future in flux, several significant LIV players have some big decisions to make.",
+      "url": "https://sports.yahoo.com/golf/article/whats-next-for-liv-golfs-stars-return-to-the-pga-tour-re-signing-with-liv-retirement-140912900.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-11T10:00:00.000Z",
       "approvedAt": "2026-05-11T10:57:15.334Z",
       "status": "Confirmed",
@@ -14,11 +29,9 @@
       "url": "https://sports.yahoo.com/articles/usga-mike-whan-liv-golf-100000403.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-11T02:51:07.196Z",
       "approvedAt": "2026-05-11T02:51:07.196Z",
       "status": "Live",
@@ -65,7 +78,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-10T22:56:42.000Z",
       "approvedAt": "2026-05-10T23:43:52.158Z",
       "status": "Confirmed",
@@ -78,7 +91,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-10T22:48:49.000Z",
       "approvedAt": "2026-05-10T23:08:06.314Z",
       "status": "Confirmed",
@@ -91,7 +104,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
       "approvedAt": "2026-05-10T22:04:16.936Z",
       "status": "Confirmed",
@@ -104,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-10T17:30:00.000Z",
       "approvedAt": "2026-05-10T21:05:48.654Z",
       "status": "Confirmed",
@@ -117,7 +130,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-10T20:42:31.279Z",
       "approvedAt": "2026-05-10T20:42:31.279Z",
       "status": "Live",
@@ -164,7 +177,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-10T20:08:13.739Z",
       "approvedAt": "2026-05-10T20:08:13.739Z",
       "status": "Live",
@@ -209,53 +222,6 @@
           "thru": "15"
         }
       ]
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-05-10T20:02:14.352Z",
-      "approvedAt": "2026-05-10T20:02:14.352Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Sungjae Im leads Truist Championship at -13",
-      "summary": "Sungjae Im is -3 today and -13 overall through 11. Closest chasers: Nicolai Højgaard (-13), Kristoffer Reitan (-13), Harry Hall (-12).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Sungjae Im",
-          "score": "-13",
-          "thru": "11"
-        },
-        {
-          "pos": "T1",
-          "name": "Nicolai Højgaard",
-          "score": "-13",
-          "thru": "10"
-        },
-        {
-          "pos": "T1",
-          "name": "Kristoffer Reitan",
-          "score": "-13",
-          "thru": "9"
-        },
-        {
-          "pos": "T4",
-          "name": "Harry Hall",
-          "score": "-12",
-          "thru": "15"
-        },
-        {
-          "pos": "T4",
-          "name": "Rickie Fowler",
-          "score": "-12",
-          "thru": "13"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -293,7 +259,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-11T10:57:15.021Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-11T10:20:15.021Z",
       "status": "Trending",
       "signal": "Reddit find",
