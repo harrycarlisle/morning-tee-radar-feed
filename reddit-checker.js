@@ -1580,7 +1580,34 @@ async function fetchCurrentTournaments() {
     }, null, 2));
   });
 
-  if (!currentEvents.length) return [];
+  if (!currentEvents.length) {
+  const recentlyEndedEvents = schedule.filter((event) => {
+    const end = parseApiDate(event.date && event.date.end);
+
+    if (!end) return false;
+
+    const endPlusTwelveHours = new Date(end);
+    endPlusTwelveHours.setUTCHours(endPlusTwelveHours.getUTCHours() + 12);
+
+    return now >= end && now < endPlusTwelveHours;
+  });
+
+  console.log("[Leaderboard] Recently ended event candidates:", recentlyEndedEvents.length);
+
+  if (!recentlyEndedEvents.length) return [];
+
+  const recentStrokeEvents = recentlyEndedEvents.filter((event) => event.format === "stroke");
+  const recentCandidates = recentStrokeEvents.length ? recentStrokeEvents : recentlyEndedEvents;
+
+  return recentCandidates.sort((a, b) => {
+    const purseA = parseApiNumber(a.purse);
+    const purseB = parseApiNumber(b.purse);
+    const fedexA = parseApiNumber(a.fedexCupPoints);
+    const fedexB = parseApiNumber(b.fedexCupPoints);
+
+    return (purseB + fedexB * 10000) - (purseA + fedexA * 10000);
+  });
+}
 
   const strokeEvents = currentEvents.filter((event) => event.format === "stroke");
   const candidates = strokeEvents.length ? strokeEvents : currentEvents;
@@ -1658,6 +1685,55 @@ function positionNumber(position) {
   return Number.isNaN(value) ? 999 : value;
 }
 
+function leaderboardRowIsFinished(row) {
+  const thru = cleanLeaderboardValue(row.thru || row.currentHole).toLowerCase();
+  const status = String(row.status || "").toLowerCase();
+
+  return (
+    thru === "f" ||
+    thru === "final" ||
+    thru === "finished" ||
+    status.includes("complete") ||
+    status.includes("final") ||
+    status.includes("finished")
+  );
+}
+
+function leaderboardLooksFinal(tournament, sortedRows, leaderboardData) {
+  if (!Array.isArray(sortedRows) || !sortedRows.length) return false;
+
+  const statusText = JSON.stringify({
+    tournamentStatus: tournament.status,
+    roundStatus: leaderboardData && leaderboardData.roundStatus,
+    status: leaderboardData && leaderboardData.status,
+    currentRoundStatus: leaderboardData && leaderboardData.currentRoundStatus
+  }).toLowerCase();
+
+  if (
+    statusText.includes("complete") ||
+    statusText.includes("official") ||
+    statusText.includes("final")
+  ) {
+    return true;
+  }
+
+  const topRows = sortedRows.slice(0, 5);
+
+  return topRows.length > 0 && topRows.every(leaderboardRowIsFinished);
+}
+
+function hasSoloWinner(sortedRows) {
+  if (!Array.isArray(sortedRows) || sortedRows.length < 2) return true;
+
+  const firstPosition = String(sortedRows[0].position || "").toLowerCase();
+  const secondPosition = String(sortedRows[1].position || "").toLowerCase();
+
+  if (firstPosition.startsWith("t")) return false;
+  if (secondPosition === "1" || secondPosition === "t1") return false;
+
+  return true;
+}
+
 function buildLeaderboardItem(tournament, leaderboardData) {
   const rows = getLeaderboardRows(leaderboardData).filter(isActiveLeaderboardRow);
 
@@ -1677,6 +1753,9 @@ function buildLeaderboardItem(tournament, leaderboardData) {
   const today = leader.currentRoundScore && leader.currentRoundScore !== "-"
     ? leader.currentRoundScore
     : null;
+
+  const finalBoard = leaderboardLooksFinal(tournament, sorted, leaderboardData);
+  const soloWinner = finalBoard && hasSoloWinner(sorted);
 
   const leaders = sorted.slice(0, 5).map((row) => {
     const rowThruValue = cleanLeaderboardValue(row.thru || row.currentHole);
@@ -1698,19 +1777,32 @@ function buildLeaderboardItem(tournament, leaderboardData) {
     ? `${leaderName} is ${today} today and ${leaderScore} overall through ${thru}.`
     : `${leaderName} is ${leaderScore} overall through ${thru}.`;
 
+  const winnerSummary = chasers.length
+    ? `${leaderName} wins ${tournament.name} at ${leaderScore}. Nearest finishers: ${chasers.map((row) => `${playerName(row)} (${row.total})`).join(", ")}.`
+    : `${leaderName} wins ${tournament.name} at ${leaderScore}.`;
+
   return {
-    id: `leaderboard:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.thru}:${leader.currentRound}`,
+    id: soloWinner
+      ? `winner:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.currentRound || "final"}`
+      : `leaderboard:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.thru}:${leader.currentRound}`,
     sourceType: "Leaderboard",
     sourceName: "Live Golf Data",
     tournament: tournament.name || "PGA TOUR",
-    title: `${leaderName} leads ${tournament.name} at ${leaderScore}`,
-    summary: `${todayText} ${chasersText}`.trim(),
+    title: soloWinner
+      ? `${leaderName} wins ${tournament.name} at ${leaderScore}`
+      : `${leaderName} leads ${tournament.name} at ${leaderScore}`,
+    summary: soloWinner
+      ? winnerSummary
+      : `${todayText} ${chasersText}`.trim(),
     url: "https://www.pgatour.com/leaderboard",
     leaders,
     ageHours: 0,
-    score: 999,
-    matchedTerms: ["leaderboard", tournament.name],
-    tournamentBoost: 45
+    score: soloWinner ? 1100 : 999,
+    matchedTerms: soloWinner
+      ? ["winner", "leaderboard", tournament.name]
+      : ["leaderboard", tournament.name],
+    tournamentBoost: 45,
+    resultType: soloWinner ? "Winner" : "Leaderboard"
   };
 }
 
