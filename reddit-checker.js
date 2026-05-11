@@ -966,6 +966,48 @@ function cleanTitle(title) {
     .replace(/[,:;.!?]+$/, "") + "...";
 }
 
+async function fetchSourceExcerpt(url) {
+  if (!url || !/^https?:\/\//i.test(url)) {
+    return "";
+  }
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "MorningTeeRadar/0.4 (+https://www.morningtee.com)"
+      }
+    });
+
+    if (!response.ok) {
+      console.log(`[QuickRead] Could not fetch source article: ${response.status}`);
+      return "";
+    }
+
+    const html = await response.text();
+
+    const text = html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+      .replace(/<nav[\s\S]*?<\/nav>/gi, " ")
+      .replace(/<footer[\s\S]*?<\/footer>/gi, " ")
+      .replace(/<header[\s\S]*?<\/header>/gi, " ")
+      .replace(/<aside[\s\S]*?<\/aside>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/&quot;/g, "\"")
+      .replace(/&#39;/g, "'")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    return text.slice(0, 5000);
+  } catch (error) {
+    console.log("[QuickRead] Source article fetch failed:", error.message);
+    return "";
+  }
+}
+
 function cleanSummary(item) {
   const title = String(item.title || "");
   const summary = String(item.summary || "");
@@ -1222,10 +1264,10 @@ function fallbackQuickRead(item) {
   }
 
   if (!summary || summary.length < 35) {
-    return `${title} is moving on the Morning Tee radar, but the available feed details are limited. The source has enough signal to track, though the full context may need a click-through.`;
+    return `${title} is moving, but the feed does not include the full answer yet. What is known is that it connects to a current golf storyline, notable player, or tournament-week development.`;
   }
 
-  return `${summary} More context may come from the original source, but this is on the radar because it connects to a current tournament, notable player, or bigger golf storyline.`;
+  return `${summary} The key context is that this story connects to a current golf storyline, notable player, or tournament-week development.`;
 }
 
 function normalizeQuickRead(value, item) {
@@ -1242,47 +1284,64 @@ function normalizeQuickRead(value, item) {
   return fallbackQuickRead(item);
 }
 
-async function generateQuickRead(item) {
-  if (!OPENAI_API_KEY) {
-    return fallbackQuickRead(item);
-  }
-
-  const title = cleanTitle(item.title);
-  const summary = cleanSummary(item);
-  const source = item.sourceName || item.source || "";
-  const url = item.url || "";
-
-  const prompt = `Write a Morning Tee quickRead for this golf story.
+function buildQuickReadPrompt(item, sourceExcerpt) {
+  return `Write a Morning Tee quickRead for this golf story.
 
 Goal:
-Answer the curiosity created by the headline. Give the reader the actual payoff, not a vague teaser.
+Give the reader the actual answer in 10 seconds. Do not tease. Do not summarize vaguely.
+
+Most important rule:
+Answer the curiosity created by the headline.
+
+If the headline says someone "shades," "warns," "reveals," "explains why," "admits," "rips," "fires back," "confirms," or "says" something, explain what they actually said or did.
+
+If the source excerpt includes the exact quote or detail, use it. If the exact answer is not available, clearly say what is known instead.
 
 Rules:
 - 2 sentences only.
-- 35 to 55 words total.
-- Sentence 1 answers what happened or why it happened.
-- Sentence 2 gives the best detail, context, quote, consequence, or why it matters.
+- 35 to 65 words total.
+- Sentence 1 gives the actual answer, quote, result, injury, decision, or event.
+- Sentence 2 gives the best context, consequence, why it matters, or what to watch next.
 - Do not repeat the headline.
 - Do not say "the article says."
+- Do not say "took a swipe," "made comments," "opened up," or "addressed the situation" unless you explain exactly what the swipe/comment was.
 - Do not overstate facts.
-- If the reason is unknown, say what is known instead.
+- Use simple, clear language.
+
+Bad:
+McIlroy took a subtle swipe at LIV players while discussing PGA Tour negotiations.
+
+Better:
+McIlroy’s jab was aimed at LIV players who left for guaranteed money and may now benefit if the PGA Tour and Saudi PIF reach a deal. The useful context is that even if the tours reunite, Rory still sounds frustrated by how the split happened.
 
 Title:
-${title}
+${item.title || ""}
 
 Current summary:
-${summary}
+${item.summary || ""}
 
 Source:
-${source}
+${item.sourceName || item.source || ""}
 
 URL:
-${url}
+${item.url || ""}
+
+Source excerpt:
+${sourceExcerpt || "No source excerpt available."}
 
 Return JSON only:
 {
   "quickRead": ""
 }`;
+}
+
+async function generateQuickRead(item) {
+  if (!OPENAI_API_KEY) {
+    return fallbackQuickRead(item);
+  }
+
+  const sourceExcerpt = await fetchSourceExcerpt(item.url);
+  const prompt = buildQuickReadPrompt(item, sourceExcerpt);
 
   try {
     const response = await fetch("https://api.openai.com/v1/responses", {
@@ -1293,7 +1352,12 @@ Return JSON only:
       },
       body: JSON.stringify({
         model: OPENAI_MODEL,
-        input: prompt
+        input: prompt,
+        text: {
+          format: {
+            type: "json_object"
+          }
+        }
       })
     });
 
@@ -1305,8 +1369,12 @@ Return JSON only:
 
     const data = await response.json();
     const rawText = extractOpenAIText(data);
-    const parsed = JSON.parse(rawText);
 
+    if (!rawText) {
+      return fallbackQuickRead(item);
+    }
+
+    const parsed = JSON.parse(rawText);
     return normalizeQuickRead(parsed.quickRead, item);
   } catch (error) {
     console.error("[QuickRead] Failed to generate quickRead.", error);
@@ -1317,9 +1385,44 @@ Return JSON only:
 async function withQuickRead(item) {
   if (!item) return item;
 
-  if (item.quickRead || item.quickContext || item.modalSummary) {
+ function quickReadLooksWeak(value) {
+  const text = String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
+
+  if (!text) return true;
+  if (text.length < 55) return true;
+
+  const weakPhrases = [
+    "took a subtle swipe",
+    "made comments",
+    "opened up",
+    "addressed the situation",
+    "discussing",
+    "the article says",
+    "available feed details are limited",
+    "more context may come from the original source",
+    "picking up attention",
+    "on the radar because"
+  ];
+
+  return weakPhrases.some((phrase) => text.includes(phrase));
+}
+
+async function withQuickRead(item) {
+  if (!item) return item;
+
+  const existingQuickRead = item.quickRead || item.quickContext || item.modalSummary || "";
+
+  if (existingQuickRead && !quickReadLooksWeak(existingQuickRead)) {
     return item;
   }
+
+  const quickRead = await generateQuickRead(item);
+
+  return {
+    ...item,
+    quickRead
+  };
+} 
 
   const quickRead = await generateQuickRead(item);
 
@@ -2540,12 +2643,21 @@ function buildWeekRadarSummary(item) {
 }
 
 function buildWeekRadarItem(item) {
+  const quickRead = item.quickRead || item.quickContext || item.modalSummary || "";
+
   return {
     label: getWeekRadarLabel(item),
     title: cleanWeekRadarTitle(item),
     summary: buildWeekRadarSummary(item),
+    quickRead,
+    quickContext: item.quickContext || "",
+    modalSummary: item.modalSummary || "",
+    keyQuote: item.keyQuote || item.quote || "",
+    quoteAttribution: item.quoteAttribution || item.quoteByline || item.author || item.byline || "",
     url: item.sourceUrl || item.url || "#",
+    sourceUrl: item.sourceUrl || item.url || "#",
     source: item.source || item.sourceName || "",
+    image: item.image || "",
     timestamp: getSourceTimestampIso(item, 0)
   };
 }
@@ -2894,13 +3006,6 @@ let golfInternetItems = manualGolfInternetItems.length
   const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
   const candidates = filterCandidates(allItems, seenPosts);
 
-const weekRadarSourceItems = [...candidates, ...rssItems, ...golfInternetItems]
-  .filter((item) => item && !isLeaderboardLikeItem(item))
-  .sort((a, b) => {
-    return scoreWeekRadarItem(b) - scoreWeekRadarItem(a);
-  })
-  .slice(0, 20);
-
   console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts, ${rssItems.length} RSS items, and ${golfInternetItems.length} Golf Internet items.`);
   console.log(`[Radar] Candidates found: ${candidates.length}`);
 
@@ -2913,6 +3018,14 @@ if (bestCandidate) {
 if (golfInternetItems.length) {
   golfInternetItems = await Promise.all(golfInternetItems.map(withQuickRead));
 }
+
+ const weekRadarSourceItems = await Promise.all(
+  [...candidates, ...rssItems, ...golfInternetItems]
+    .filter((item) => item && !isLeaderboardLikeItem(item))
+    .sort((a, b) => scoreWeekRadarItem(b) - scoreWeekRadarItem(a))
+    .slice(0, 10)
+    .map(withQuickRead)
+);
 
 let published = false;
 
