@@ -10,6 +10,8 @@ const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 const GITHUB_RADAR_PATH = process.env.GITHUB_RADAR_PATH || "latest-radar.json";
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5.2";
 const RAPIDAPI_HOST = "live-golf-data.p.rapidapi.com";
 const PGA_ORG_ID = "1";
 const LIVE_GOLF_YEAR = new Date().getFullYear().toString();
@@ -803,14 +805,14 @@ function getLeaderboardPriority(item) {
 
 function scoreNewsItem(item) {
   if (item.sourceType === "Leaderboard") {
-  return {
-    score: getLeaderboardPriority(item),
-    matchedTerms: item.resultType === "Winner"
-      ? ["winner", "leaderboard"]
-      : ["leaderboard"],
-    tournamentBoost: 45
-  };
-}
+    return {
+      score: getLeaderboardPriority(item),
+      matchedTerms: item.resultType === "Winner"
+        ? ["winner", "leaderboard"]
+        : ["leaderboard"],
+      tournamentBoost: 45
+    };
+  }
 
   const text = `${item.title} ${item.summary || ""}`;
   const matchedTerms = getMatchedTerms(text);
@@ -1149,22 +1151,161 @@ function addDisplayTimesToRadarArray(items, startOffsetMinutes) {
     return addDisplayTime(item, fallbackMinutesAgo);
   });
 }
+function extractOpenAIText(data) {
+  if (!data) return "";
+
+  if (typeof data.output_text === "string") {
+    return data.output_text;
+  }
+
+  if (Array.isArray(data.output)) {
+    return data.output
+      .flatMap((item) => Array.isArray(item.content) ? item.content : [])
+      .map((content) => content.text || "")
+      .join("")
+      .trim();
+  }
+
+  return "";
+}
+
+function fallbackQuickRead(item) {
+  const summary = cleanSummary(item);
+  const title = cleanTitle(item.title);
+
+  if (item.sourceType === "Leaderboard") {
+    return summary;
+  }
+
+  if (!summary || summary.length < 35) {
+    return `${title} is moving on the Morning Tee radar, but the available feed details are limited. The source has enough signal to track, though the full context may need a click-through.`;
+  }
+
+  return `${summary} The useful context is that this story cleared the radar filter because it has current golf relevance, a notable name, or tournament-week importance.`;
+}
+
+function normalizeQuickRead(value, item) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+
+  if (!text) return fallbackQuickRead(item);
+
+  const sentences = text.match(/[^.!?]+[.!?]+/g);
+
+  if (sentences && sentences.length >= 2) {
+    return sentences.slice(0, 2).join(" ").trim();
+  }
+
+  return fallbackQuickRead(item);
+}
+
+async function generateQuickRead(item) {
+  if (!OPENAI_API_KEY) {
+    return fallbackQuickRead(item);
+  }
+
+  const title = cleanTitle(item.title);
+  const summary = cleanSummary(item);
+  const source = item.sourceName || item.source || "";
+  const url = item.url || "";
+
+  const prompt = `Write a Morning Tee quickRead for this golf story.
+
+Goal:
+Answer the curiosity created by the headline. Give the reader the actual payoff, not a vague teaser.
+
+Rules:
+- 2 sentences only.
+- 35 to 55 words total.
+- Sentence 1 answers what happened or why it happened.
+- Sentence 2 gives the best detail, context, quote, consequence, or why it matters.
+- Do not repeat the headline.
+- Do not say "the article says."
+- Do not overstate facts.
+- If the reason is unknown, say what is known instead.
+
+Title:
+${title}
+
+Current summary:
+${summary}
+
+Source:
+${source}
+
+URL:
+${url}
+
+Return JSON only:
+{
+  "quickRead": ""
+}`;
+
+  try {
+    const response = await fetch("https://api.openai.com/v1/responses", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${OPENAI_API_KEY}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: OPENAI_MODEL,
+        input: prompt
+      })
+    });
+
+    if (!response.ok) {
+      const body = await response.text();
+      console.error(`[QuickRead] OpenAI request failed: ${response.status} ${body}`);
+      return fallbackQuickRead(item);
+    }
+
+    const data = await response.json();
+    const rawText = extractOpenAIText(data);
+    const parsed = JSON.parse(rawText);
+
+    return normalizeQuickRead(parsed.quickRead, item);
+  } catch (error) {
+    console.error("[QuickRead] Failed to generate quickRead.", error);
+    return fallbackQuickRead(item);
+  }
+}
+
+async function withQuickRead(item) {
+  if (!item) return item;
+
+  if (item.quickRead || item.quickContext || item.modalSummary) {
+    return item;
+  }
+
+  const quickRead = await generateQuickRead(item);
+
+  return {
+    ...item,
+    quickRead
+  };
+}
 
 function buildRadarItem(item) {
   const timestamp = getSourceTimestampIso(item, 0);
 
   const radarItem = {
-    time: formatTimeLabel(timestamp),
-    timestamp,
-    approvedAt: new Date().toISOString(),
-    status: item.sourceType === "Leaderboard" ? "Live" : item.sourceType === "RSS" ? "Confirmed" : "Trending",
-    signal: item.sourceType,
-    category: inferCategory(item),
-    title: cleanTitle(item.title),
-    summary: cleanSummary(item),
-    url: item.url,
-    source: item.sourceName
-  };
+  time: formatTimeLabel(timestamp),
+  timestamp,
+  approvedAt: new Date().toISOString(),
+  status: item.sourceType === "Leaderboard" ? "Live" : item.sourceType === "RSS" ? "Confirmed" : "Trending",
+  signal: item.sourceType,
+  category: inferCategory(item),
+  title: cleanTitle(item.title),
+  summary: cleanSummary(item),
+  quickRead: item.quickRead || item.quickContext || item.modalSummary || cleanSummary(item),
+  quickContext: item.quickContext || "",
+  modalSummary: item.modalSummary || "",
+  keyQuote: item.keyQuote || item.quote || "",
+  quoteAttribution: item.quoteAttribution || item.quoteByline || item.author || item.byline || "",
+  url: item.url,
+  sourceUrl: item.sourceUrl || item.url,
+  source: item.sourceName
+};
 
   if (item.sourceType === "Leaderboard") {
     return {
@@ -2288,7 +2429,11 @@ async function checkRadar() {
 
   const seenPosts = loadSeenPosts();
 
-  const leaderboardItems = await fetchLeaderboardItems();
+  let leaderboardItems = await fetchLeaderboardItems();
+
+if (leaderboardItems.length) {
+  leaderboardItems = await Promise.all(leaderboardItems.map(withQuickRead));
+}
   const redditItems = await fetchRedditItems();
   const rssItems = await fetchRssItems();
   const manualGolfInternetItems = getManualGolfInternetItems();
@@ -2296,7 +2441,7 @@ const redditGolfInternetItems = manualGolfInternetItems.length
   ? []
   : await fetchGolfInternetItems();
 
-const golfInternetItems = manualGolfInternetItems.length
+let golfInternetItems = manualGolfInternetItems.length
   ? manualGolfInternetItems
   : redditGolfInternetItems;
 
@@ -2306,8 +2451,17 @@ const golfInternetItems = manualGolfInternetItems.length
   console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts, ${rssItems.length} RSS items, and ${golfInternetItems.length} Golf Internet items.`);
   console.log(`[Radar] Candidates found: ${candidates.length}`);
 
-  const bestCandidate = candidates[0] || null;
-  let published = false;
+  let bestCandidate = candidates[0] || null;
+
+if (bestCandidate) {
+  bestCandidate = await withQuickRead(bestCandidate);
+}
+
+if (golfInternetItems.length) {
+  golfInternetItems = await Promise.all(golfInternetItems.map(withQuickRead));
+}
+
+let published = false;
 
     if (AUTO_PUBLISH) {
     if (bestCandidate) {
