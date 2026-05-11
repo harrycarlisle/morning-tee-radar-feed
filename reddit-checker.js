@@ -1666,9 +1666,15 @@ function shouldCheckLeaderboardNow() {
   if (process.env.FORCE_LEADERBOARD_CHECK === "true") return true;
   if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") return true;
 
-  const { weekday } = getEasternNowParts();
+  const { weekday, hour } = getEasternNowParts();
 
-  return ["Thu", "Fri", "Sat", "Sun"].includes(weekday);
+  if (["Thu", "Fri", "Sat"].includes(weekday)) return true;
+
+  if (weekday === "Sun") {
+    return hour <= 23;
+  }
+
+  return false;
 }
 
 function rapidApiHeaders() {
@@ -1743,13 +1749,12 @@ async function fetchCurrentTournaments() {
 
     if (!end) return false;
 
-    const endPlusThreeDays = new Date(end);
-endPlusThreeDays.setUTCDate(endPlusThreeDays.getUTCDate() + 3);
+    const { weekday, hour } = getEasternNowParts();
 
-return now >= end && now < endPlusThreeDays;
+    return weekday === "Sun" && hour <= 23 && now >= end;
   });
 
-  console.log("[Leaderboard] Recently ended event candidates within 3 days:", recentlyEndedEvents.length);
+  console.log("[Leaderboard] Recently ended Sunday event candidates:", recentlyEndedEvents.length);
 
   if (!recentlyEndedEvents.length) return [];
 
@@ -2351,6 +2356,36 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
+  async function clearLiveLeaderboardsIfNeeded() {
+  if (!AUTO_PUBLISH) return false;
+
+  const { weekday } = getEasternNowParts();
+
+  if (["Thu", "Fri", "Sat", "Sun"].includes(weekday)) {
+    return false;
+  }
+
+  const current = await getRadarFileFromGitHub();
+  const currentLive = Array.isArray(current.json.liveLeaderboards)
+    ? current.json.liveLeaderboards
+    : [];
+
+  if (!currentLive.length) {
+    return false;
+  }
+
+  const nextJson = {
+    ...current.json,
+    updatedAt: new Date().toISOString(),
+    liveLeaderboards: []
+  };
+
+  await updateRadarFileOnGitHub(nextJson, current.sha, "Clear stale live leaderboards");
+  console.log("[Leaderboard] Cleared stale liveLeaderboards outside tournament window.");
+
+  return true;
+}
+
 async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
   if (!AUTO_PUBLISH || !Array.isArray(leaderboardItems) || !leaderboardItems.length) {
     return false;
@@ -2467,6 +2502,8 @@ let published = false;
     if (bestCandidate) {
       published = await autoPublishToGitHub(bestCandidate);
     }
+
+    await clearLiveLeaderboardsIfNeeded();
 
     if (leaderboardItems.length) {
       await autoPublishLiveLeaderboardsToGitHub(leaderboardItems);
