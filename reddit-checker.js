@@ -2397,10 +2397,14 @@ function scoreWeekRadarItem(item) {
     if (text.includes(phrase)) score += 6;
   });
 
+    if (item.quickRead || item.quickContext || item.modalSummary) score += 18;
+
+  if (!hasUsefulWeekRadarSummary(item)) score -= 30;
+
   if (title.length > 95) score -= 4;
-  if (summary.length < 35) score -= 8;
-  if (text.includes("tee time") || text.includes("tee times")) score -= 8;
-  if (text.includes("round 1") || text.includes("round 2")) score -= 5;
+  if (summary.length < 35) score -= 14;
+  if (text.includes("tee time") || text.includes("tee times")) score -= 10;
+  if (text.includes("round 1") || text.includes("round 2")) score -= 7;
 
   return score;
 }
@@ -2500,6 +2504,43 @@ function buildWeekRadarFromStories(stories, existingWeekRadar) {
   return picked;
 }
 
+function shouldHideOldLeaderboardStoriesNow() {
+  const { weekday } = getEasternNowParts();
+  return ["Mon", "Tue", "Wed"].includes(weekday);
+}
+
+function removeOldLeaderboardStories(items) {
+  if (!Array.isArray(items)) return [];
+
+  if (!shouldHideOldLeaderboardStoriesNow()) {
+    return items;
+  }
+
+  return items.filter((item) => {
+    return !isLeaderboardLikeItem(item);
+  });
+}
+
+function hasUsefulWeekRadarSummary(item) {
+  const text = String(item.quickRead || item.quickContext || item.modalSummary || item.summary || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (text.length < 60) return false;
+
+  const weakPhrases = [
+    "finished what has been a poor week",
+    "golf story is picking up attention",
+    "available feed details are limited",
+    "more context may come from the original source",
+    "the u.s."
+  ];
+
+  const lower = text.toLowerCase();
+
+  return !weakPhrases.some((phrase) => lower.includes(phrase));
+}
+
 function buildNextRadarJson(currentJson, item) {
   const nextLive = buildRadarItem(item);
 
@@ -2516,11 +2557,13 @@ function buildNextRadarJson(currentJson, item) {
     0
   );
 
-  const nextAlsoMoving = addDisplayTimesToRadarArray(
-    attachImagesToRadarArray([
-      ...(oldLive ? [oldLive] : []),
-      ...existingAlsoMoving
-    ].slice(0, 8), imageUsage),
+    const nextAlsoMoving = addDisplayTimesToRadarArray(
+    removeOldLeaderboardStories(
+      attachImagesToRadarArray([
+        ...(oldLive ? [oldLive] : []),
+        ...existingAlsoMoving
+      ], imageUsage)
+    ).slice(0, 8),
     35
   );
 
@@ -2605,20 +2648,31 @@ async function clearLiveLeaderboardsIfNeeded() {
   }
 
   const current = await getRadarFileFromGitHub();
+
   const currentLive = Array.isArray(current.json.liveLeaderboards)
     ? current.json.liveLeaderboards
     : [];
 
+  const currentAlsoMoving = Array.isArray(current.json.alsoMoving)
+    ? current.json.alsoMoving
+    : [];
+
+  const nextAlsoMoving = removeOldLeaderboardStories(currentAlsoMoving);
+
   const nextWeekRadar = buildWeekRadarFromStories(
     [
       ...(Array.isArray(current.json.today) ? current.json.today : []),
-      ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
+      ...nextAlsoMoving,
       ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
     ],
     current.json.weekRadar || current.json.week_radar || []
   );
 
-  if (!currentLive.length && JSON.stringify(current.json.weekRadar || []) === JSON.stringify(nextWeekRadar)) {
+  const liveChanged = currentLive.length > 0;
+  const alsoMovingChanged = JSON.stringify(currentAlsoMoving) !== JSON.stringify(nextAlsoMoving);
+  const weekRadarChanged = JSON.stringify(current.json.weekRadar || []) !== JSON.stringify(nextWeekRadar);
+
+  if (!liveChanged && !alsoMovingChanged && !weekRadarChanged) {
     return false;
   }
 
@@ -2627,11 +2681,12 @@ async function clearLiveLeaderboardsIfNeeded() {
     active: true,
     updatedAt: new Date().toISOString(),
     liveLeaderboards: [],
+    alsoMoving: nextAlsoMoving,
     weekRadar: nextWeekRadar
   };
 
   await updateRadarFileOnGitHub(nextJson, current.sha, "Clear stale live leaderboards");
-  console.log("[Leaderboard] Cleared stale liveLeaderboards outside tournament window.");
+  console.log("[Leaderboard] Cleared stale liveLeaderboards and old leaderboard stories outside tournament window.");
 
   return true;
 }
@@ -2753,10 +2808,13 @@ let golfInternetItems = manualGolfInternetItems.length
   : redditGolfInternetItems;
 
   const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
-const candidates = filterCandidates(allItems, seenPosts);
+  const candidates = filterCandidates(allItems, seenPosts);
 
-const weekRadarSourceItems = [...candidates, ...rssItems]
+const weekRadarSourceItems = [...candidates, ...rssItems, ...golfInternetItems]
   .filter((item) => item && !isLeaderboardLikeItem(item))
+  .sort((a, b) => {
+    return scoreWeekRadarItem(b) - scoreWeekRadarItem(a);
+  })
   .slice(0, 20);
 
   console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts, ${rssItems.length} RSS items, and ${golfInternetItems.length} Golf Internet items.`);
