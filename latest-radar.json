@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T02:51:07.197Z",
+  "updatedAt": "2026-05-11T02:51:08.273Z",
   "today": [
     {
       "time": "Just now",
@@ -321,8 +321,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-11T02:51:07.197Z",
-      "approvedAt": "2026-05-11T02:51:07.197Z",
+      "timestamp": "2026-05-11T02:51:08.113Z",
+      "approvedAt": "2026-05-11T02:51:08.113Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -362,6 +362,53 @@
           "pos": "T5",
           "name": "Tommy Fleetwood",
           "score": "-11",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-05-11T02:51:08.113Z",
+      "approvedAt": "2026-05-11T02:51:08.113Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Brandt Snedeker wins ONEflight Myrtle Beach Classic at -18",
+      "summary": "Brandt Snedeker wins ONEflight Myrtle Beach Classic at -18. Nearest finishers: Mark Hubbard (-17), Beau Hossler (-16), Kevin Roy (-16).",
+      "url": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ONEflight Myrtle Beach Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Brandt Snedeker",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Mark Hubbard",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Beau Hossler",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Kevin Roy",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Aaron Rai",
+          "score": "-15",
           "thru": "F"
         }
       ]
