@@ -1509,9 +1509,7 @@ function shouldCheckLeaderboardNow() {
   if (process.env.FORCE_LEADERBOARD_CHECK === "true") return true;
   if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") return true;
 
-  const { weekday, minute } = getEasternNowParts();
-
-  if (minute !== 0) return false;
+  const { weekday } = getEasternNowParts();
 
   return ["Thu", "Fri", "Sat", "Sun"].includes(weekday);
 }
