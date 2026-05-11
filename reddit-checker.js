@@ -882,8 +882,52 @@ function inferCategory(item) {
   return "GOLF";
 }
 
+function morningTeeTitleRewrite(title) {
+  const raw = String(title || "").trim();
+
+  const rewrites = [
+    {
+      test: /rory mcilroy.*limping|limping.*rory mcilroy/i,
+      title: "Rory explains the limp before the PGA Championship"
+    },
+    {
+      test: /johnson wagner.*warning.*rory|warning.*rory mcilroy/i,
+      title: "Johnson Wagner warns the field about Rory"
+    },
+    {
+      test: /rory mcilroy.*scottie scheffler.*rule golf|scottie scheffler.*rory mcilroy.*rule golf/i,
+      title: "Rory and Scottie are making golf feel top-heavy"
+    },
+    {
+      test: /liv.*stars.*return.*pga tour|what.*next.*liv.*stars/i,
+      title: "LIV stars face their next big decision"
+    },
+    {
+      test: /mlb player.*faked.*injury|faked.*injury.*augusta|fake.*injury.*augusta/i,
+      title: "Former MLB player says he faked an injury to play Augusta"
+    },
+    {
+      test: /quail hollow.*pga championship|pga championship.*quail hollow/i,
+      title: "Quail Hollow is ready to punish a major field"
+    },
+    {
+      test: /scottie scheffler.*challenge|can anyone.*scheffler/i,
+      title: "Scottie Scheffler is daring the field to catch him"
+    },
+    {
+      test: /bryson.*return.*pga tour|bryson.*liv.*pga tour/i,
+      title: "Bryson keeps poking the PGA Tour question"
+    }
+  ];
+
+  const match = rewrites.find((item) => item.test.test(raw));
+  if (match) return match.title;
+
+  return raw;
+}
+
 function cleanTitle(title) {
-  const raw = String(title || "Untitled radar item").trim();
+  const raw = morningTeeTitleRewrite(String(title || "Untitled radar item").trim());
 
   const replacements = [
     {
