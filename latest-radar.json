@@ -1,9 +1,30 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T14:39:21.358Z",
+  "updatedAt": "2026-05-11T16:37:48.470Z",
   "today": [
     {
-      "time": "30 min ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-11T13:24:17.000Z",
+      "approvedAt": "2026-05-11T16:37:48.469Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy and Scottie Scheffler rule golf right now. Can anyone challenge th...",
+      "summary": "The 108th PGA Championship at Aronimink begins Thursday, the year's second opportunity for someone to put up a fight against the Scheffler/McIlroy domination.",
+      "quickRead": "The 108th PGA Championship at Aronimink begins Thursday, the year's second opportunity for someone to put up a fight against the Scheffler/McIlroy domination. The useful context is that this story cleared the radar filter because it has current golf relevance, a notable name, or tournament-week importance.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/article/rory-mcilroy-and-scottie-scheffler-rule-golf-right-now-can-anyone-challenge-them-at-the-pga-championship-132417364.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/article/rory-mcilroy-and-scottie-scheffler-rule-golf-right-now-can-anyone-challenge-them-at-the-pga-championship-132417364.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-11T14:09:12.000Z",
       "approvedAt": "2026-05-11T14:39:20.001Z",
       "status": "Confirmed",
@@ -14,11 +35,9 @@
       "url": "https://sports.yahoo.com/golf/article/whats-next-for-liv-golfs-stars-return-to-the-pga-tour-re-signing-with-liv-retirement-140912900.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-11T10:00:00.000Z",
       "approvedAt": "2026-05-11T10:57:15.334Z",
       "status": "Confirmed",
@@ -31,7 +50,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-11T02:51:07.196Z",
       "approvedAt": "2026-05-11T02:51:07.196Z",
       "status": "Live",
@@ -78,7 +97,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-10T22:56:42.000Z",
       "approvedAt": "2026-05-10T23:43:52.158Z",
       "status": "Confirmed",
@@ -91,7 +110,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-10T22:48:49.000Z",
       "approvedAt": "2026-05-10T23:08:06.314Z",
       "status": "Confirmed",
@@ -104,7 +123,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-10T21:00:45.000Z",
       "approvedAt": "2026-05-10T22:04:16.936Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-10T17:30:00.000Z",
       "approvedAt": "2026-05-10T21:05:48.654Z",
       "status": "Confirmed",
@@ -130,7 +149,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-10T20:42:31.279Z",
       "approvedAt": "2026-05-10T20:42:31.279Z",
       "status": "Live",
@@ -175,53 +194,6 @@
           "thru": "14"
         }
       ]
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-05-10T20:08:13.739Z",
-      "approvedAt": "2026-05-10T20:08:13.739Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Rickie Fowler leads Truist Championship at -13",
-      "summary": "Rickie Fowler is -6 today and -13 overall through 14. Closest chasers: Sungjae Im (-13), Nicolai Højgaard (-13), Kristoffer Reitan (-13).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Rickie Fowler",
-          "score": "-13",
-          "thru": "14"
-        },
-        {
-          "pos": "T1",
-          "name": "Sungjae Im",
-          "score": "-13",
-          "thru": "11"
-        },
-        {
-          "pos": "T1",
-          "name": "Nicolai Højgaard",
-          "score": "-13",
-          "thru": "10"
-        },
-        {
-          "pos": "T1",
-          "name": "Kristoffer Reitan",
-          "score": "-13",
-          "thru": "10"
-        },
-        {
-          "pos": "T5",
-          "name": "Harry Hall",
-          "score": "-12",
-          "thru": "15"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -259,7 +231,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-11T14:39:19.744Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +244,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-11T14:02:19.744Z",
       "status": "Trending",
       "signal": "Reddit find",
