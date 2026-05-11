@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T17:28:47.376Z",
+  "updatedAt": "2026-05-11T17:34:32.384Z",
   "today": [
     {
       "time": "7 hours ago",
@@ -69,53 +69,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "14 hours ago",
-      "timestamp": "2026-05-11T02:51:07.196Z",
-      "approvedAt": "2026-05-11T02:51:07.196Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Kristoffer Reitan wins Truist Championship at -15",
-      "summary": "Kristoffer Reitan wins Truist Championship at -15. Nearest finishers: Rickie Fowler (-13), Nicolai Højgaard (-13), Alex Fitzpatrick (-12).",
-      "url": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Truist Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Kristoffer Reitan",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Rickie Fowler",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Nicolai Højgaard",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Alex Fitzpatrick",
-          "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Tommy Fleetwood",
-          "score": "-11",
-          "thru": "F"
-        }
-      ]
-    },
-    {
       "time": "18 hours ago",
       "timestamp": "2026-05-10T22:56:42.000Z",
       "approvedAt": "2026-05-10T23:43:52.158Z",
@@ -170,14 +123,6 @@
   ],
   "weekRadar": [
     {
-      "label": "LIV WATCH",
-      "title": "What’s next for LIV Golf’s stars: Return to the PGA Tour, re-signing...",
-      "summary": "With LIV's future in flux, several significant LIV players have some big decisions to make.",
-      "url": "https://sports.yahoo.com/golf/article/whats-next-for-liv-golfs-stars-return-to-the-pga-tour-re-signing-with-liv-retirement-140912900.html",
-      "source": "Yahoo Golf",
-      "timestamp": "2026-05-11T14:09:12.000Z"
-    },
-    {
       "label": "MAJOR WATCH",
       "title": "Rory McIlroy and Scottie Scheffler rule golf right now. Can anyone ch...",
       "summary": "The 108th PGA Championship at Aronimink begins Thursday, the year's second opportunity for someone to put up a fight against the Scheffler/McIlroy...",
@@ -186,12 +131,20 @@
       "timestamp": "2026-05-11T13:24:17.000Z"
     },
     {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy confirms why he was limping at the Truist just days befo...",
-      "summary": "Rory McIlroy finished what has been a poor week at the Truist Championship on a positive note.",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-confirms-why-limping-210045149.html",
+      "label": "LIV WATCH",
+      "title": "What’s next for LIV Golf’s stars: Return to the PGA Tour, re-signing...",
+      "summary": "With LIV's future in flux, several significant LIV players have some big decisions to make.",
+      "url": "https://sports.yahoo.com/golf/article/whats-next-for-liv-golfs-stars-return-to-the-pga-tour-re-signing-with-liv-retirement-140912900.html",
       "source": "Yahoo Golf",
-      "timestamp": "2026-05-10T21:00:45.000Z"
+      "timestamp": "2026-05-11T14:09:12.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Is this the world’s biggest bunker?",
+      "summary": "A photo posted to r/golf shows an enormous sand area that looks less like a typical bunker and more like a sprawling waste area, sparking debate ov...",
+      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "source": "r/golf",
+      "timestamp": "2026-05-11T17:28:41.127Z"
     }
   ],
   "checking": {
