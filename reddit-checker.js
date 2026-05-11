@@ -1586,13 +1586,13 @@ async function fetchCurrentTournaments() {
 
     if (!end) return false;
 
-    const endPlusTwelveHours = new Date(end);
-    endPlusTwelveHours.setUTCHours(endPlusTwelveHours.getUTCHours() + 12);
+    const endPlusThreeDays = new Date(end);
+endPlusThreeDays.setUTCDate(endPlusThreeDays.getUTCDate() + 3);
 
-    return now >= end && now < endPlusTwelveHours;
+return now >= end && now < endPlusThreeDays;
   });
 
-  console.log("[Leaderboard] Recently ended event candidates:", recentlyEndedEvents.length);
+  console.log("[Leaderboard] Recently ended event candidates within 3 days:", recentlyEndedEvents.length);
 
   if (!recentlyEndedEvents.length) return [];
 
