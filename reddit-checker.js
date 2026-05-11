@@ -1382,10 +1382,7 @@ async function generateQuickRead(item) {
   }
 }
 
-async function withQuickRead(item) {
-  if (!item) return item;
-
- function quickReadLooksWeak(value) {
+function quickReadLooksWeak(value) {
   const text = String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
 
   if (!text) return true;
@@ -1415,14 +1412,6 @@ async function withQuickRead(item) {
   if (existingQuickRead && !quickReadLooksWeak(existingQuickRead)) {
     return item;
   }
-
-  const quickRead = await generateQuickRead(item);
-
-  return {
-    ...item,
-    quickRead
-  };
-} 
 
   const quickRead = await generateQuickRead(item);
 
@@ -2334,25 +2323,41 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
   requireGitHubConfig();
 
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_RADAR_PATH}`;
-  const content = JSON.stringify(nextJson, null, 2) + "\n";
 
-  const response = await fetch(url, {
-    method: "PUT",
-    headers: githubHeaders(),
-    body: JSON.stringify({
-      message: `Update radar: ${title}`.slice(0, 72),
-      content: encodeBase64Utf8(content),
-      sha,
-      branch: GITHUB_BRANCH
-    })
-  });
+  async function putWithSha(targetSha, attemptLabel) {
+    const content = JSON.stringify(nextJson, null, 2) + "\n";
 
-  if (!response.ok) {
+    const response = await fetch(url, {
+      method: "PUT",
+      headers: githubHeaders(),
+      body: JSON.stringify({
+        message: `Update radar: ${title}`.slice(0, 72),
+        content: encodeBase64Utf8(content),
+        sha: targetSha,
+        branch: GITHUB_BRANCH
+      })
+    });
+
+    if (response.ok) {
+      return response.json();
+    }
+
     const body = await response.text();
+
+    if (response.status === 409 && attemptLabel === "first") {
+      console.log("[GitHub] SHA conflict. Refetching latest radar file and retrying once.");
+
+      await new Promise((resolve) => setTimeout(resolve, 1200));
+
+      const latest = await getRadarFileFromGitHub();
+
+      return putWithSha(latest.sha, "retry");
+    }
+
     throw new Error(`GitHub update failed: ${response.status} ${body}`);
   }
 
-  return response.json();
+  return putWithSha(sha, "first");
 }
 
 function storyAlreadyOnRadar(radarJson, item) {
@@ -3034,7 +3039,11 @@ let published = false;
       published = await autoPublishToGitHub(bestCandidate);
     }
 
-    await clearLiveLeaderboardsIfNeeded();
+    try {
+  await clearLiveLeaderboardsIfNeeded();
+} catch (error) {
+  console.error("[Leaderboard] Cleanup failed, continuing radar run.", error.message);
+}
 
    if (weekRadarSourceItems.length) {
   const current = await getRadarFileFromGitHub();
