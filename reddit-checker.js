@@ -2406,6 +2406,46 @@ function scoreWeekRadarItem(item) {
   if (text.includes("tee time") || text.includes("tee times")) score -= 10;
   if (text.includes("round 1") || text.includes("round 2")) score -= 7;
 
+  const categoryText = String(item.category || item.label || item.signal || item.source || "").toLowerCase();
+
+  const isGolfInternet =
+    categoryText.includes("internet") ||
+    categoryText.includes("reddit") ||
+    text.includes("reddit") ||
+    text.includes("bunker") ||
+    text.includes("backyard") ||
+    text.includes("meme") ||
+    text.includes("viral clip");
+
+  const isPlayerOrTournamentStory =
+    text.includes("rory") ||
+    text.includes("mcilroy") ||
+    text.includes("scottie") ||
+    text.includes("scheffler") ||
+    text.includes("bryson") ||
+    text.includes("rahm") ||
+    text.includes("tiger") ||
+    text.includes("pga championship") ||
+    text.includes("major") ||
+    text.includes("quail hollow") ||
+    text.includes("injury") ||
+    text.includes("limping") ||
+    text.includes("withdraw") ||
+    text.includes("field") ||
+    text.includes("contender");
+
+  if (isGolfInternet && !isPlayerOrTournamentStory) {
+    score -= 45;
+  }
+
+  if (text.includes("limping") || text.includes("injury") || text.includes("health")) {
+    score += 28;
+  }
+
+  if (text.includes("before the pga championship") || text.includes("ahead of the pga championship")) {
+    score += 22;
+  }
+
   return score;
 }
 
