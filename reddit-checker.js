@@ -2267,6 +2267,239 @@ function buildLiveLeaderboardsFromItems(leaderboardItems) {
   return Array.from(newestByTournament.values());
 }
 
+function isLeaderboardLikeItem(item) {
+  if (!item) return false;
+
+  const signal = String(item.signal || item.sourceType || "").toLowerCase();
+  const status = String(item.status || "").toLowerCase();
+
+  return (
+    signal.includes("leaderboard") ||
+    status === "live" ||
+    Array.isArray(item.leaders)
+  );
+}
+
+function getWeekRadarAgeHours(item) {
+  const timestamp = getSourceTimestampIso(item, 0);
+  const parsed = Date.parse(timestamp);
+
+  if (Number.isNaN(parsed)) return 999;
+
+  return Math.max(0, (Date.now() - parsed) / 3600000);
+}
+
+function getWeekRadarGroupKey(item) {
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+
+  if (text.includes("quail hollow") || text.includes("pga championship")) return "pga-championship";
+  if (text.includes("rory") || text.includes("mcilroy")) return "rory-mcilroy";
+  if (text.includes("scottie") || text.includes("scheffler")) return "scottie-scheffler";
+  if (text.includes("liv")) return "liv";
+  if (text.includes("tiger")) return "tiger";
+  if (text.includes("ryder cup")) return "ryder-cup";
+  if (text.includes("lpga") || text.includes("nelly korda")) return "lpga";
+  if (text.includes("japan")) return "japan-tour";
+  if (text.includes("youtube") || text.includes("good good") || text.includes("grant horvat") || text.includes("bob does sports")) return "creator-golf";
+
+  const normalizedTitle = String(item.title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .split(/\s+/)
+    .filter((word) => word.length > 3)
+    .slice(0, 5)
+    .join("-");
+
+  return normalizedTitle || String(item.url || item.id || Math.random());
+}
+
+function scoreWeekRadarItem(item) {
+  if (!item || isLeaderboardLikeItem(item)) return -999;
+
+  const title = String(item.title || "");
+  const summary = String(item.summary || "");
+  const text = `${title} ${summary}`.toLowerCase();
+  const ageHours = getWeekRadarAgeHours(item);
+
+  if (!title || !item.url) return -999;
+  if (ageHours > 96) return -999;
+
+  let score = 0;
+
+  if (ageHours <= 12) score += 20;
+  else if (ageHours <= 24) score += 16;
+  else if (ageHours <= 48) score += 10;
+  else if (ageHours <= 72) score += 6;
+
+  const lastingTerms = [
+    "pga championship",
+    "quail hollow",
+    "major",
+    "major championship",
+    "what's next",
+    "what’s next",
+    "future",
+    "decision",
+    "return",
+    "re-signing",
+    "resigning",
+    "challenge",
+    "can anyone",
+    "warning",
+    "scared",
+    "rules",
+    "change",
+    "schedule",
+    "ryder cup",
+    "liv",
+    "pga tour",
+    "tiger",
+    "rory",
+    "mcilroy",
+    "scottie",
+    "scheffler",
+    "bryson",
+    "dechambeau",
+    "rahm",
+    "korda",
+    "lpga",
+    "japan",
+    "youtube",
+    "creator",
+    "viral"
+  ];
+
+  lastingTerms.forEach((term) => {
+    if (text.includes(term)) score += 8;
+  });
+
+  const weekLongPhrases = [
+    "at the pga championship",
+    "before the pga championship",
+    "ahead of the pga championship",
+    "this week",
+    "next week",
+    "field",
+    "course",
+    "setup",
+    "odds",
+    "favorite",
+    "watch",
+    "contender",
+    "domination",
+    "stars",
+    "significant",
+    "bigger",
+    "future in flux"
+  ];
+
+  weekLongPhrases.forEach((phrase) => {
+    if (text.includes(phrase)) score += 6;
+  });
+
+  if (title.length > 95) score -= 4;
+  if (summary.length < 35) score -= 8;
+  if (text.includes("tee time") || text.includes("tee times")) score -= 8;
+  if (text.includes("round 1") || text.includes("round 2")) score -= 5;
+
+  return score;
+}
+
+function getWeekRadarLabel(item) {
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+
+  if (text.includes("pga championship") || text.includes("quail hollow") || text.includes("major")) return "MAJOR WATCH";
+  if (text.includes("liv")) return "LIV WATCH";
+  if (text.includes("rory") || text.includes("mcilroy") || text.includes("scottie") || text.includes("scheffler")) return "STAR WATCH";
+  if (text.includes("ryder cup")) return "RYDER CUP";
+  if (text.includes("lpga") || text.includes("nelly korda")) return "LPGA WATCH";
+  if (text.includes("japan")) return "JAPAN TOUR";
+  if (text.includes("youtube") || text.includes("creator") || text.includes("good good") || text.includes("grant horvat")) return "CREATOR GOLF";
+
+  return "STORY TO WATCH";
+}
+
+function cleanWeekRadarTitle(item) {
+  const title = cleanTitle(item.title || "Story to watch");
+
+  if (title.length <= 72) return title;
+
+  return title
+    .slice(0, 69)
+    .trim()
+    .replace(/[,:;.!?]+$/, "") + "...";
+}
+
+function buildWeekRadarSummary(item) {
+  const quickRead = String(item.quickRead || item.quickContext || item.modalSummary || "").trim();
+  const summary = String(item.summary || "").trim();
+
+  const sourceText = quickRead || summary;
+
+  if (!sourceText) {
+    return "This is a golf storyline worth tracking as more details come in this week.";
+  }
+
+  const firstSentence = sourceText.match(/^.*?[.!?](\s|$)/);
+  const sentence = firstSentence ? firstSentence[0].trim() : sourceText;
+
+  if (sentence.length <= 150) return sentence;
+
+  return sentence
+    .slice(0, 147)
+    .trim()
+    .replace(/[,:;.!?]+$/, "") + "...";
+}
+
+function buildWeekRadarItem(item) {
+  return {
+    label: getWeekRadarLabel(item),
+    title: cleanWeekRadarTitle(item),
+    summary: buildWeekRadarSummary(item),
+    url: item.sourceUrl || item.url || "#",
+    source: item.source || item.sourceName || "",
+    timestamp: getSourceTimestampIso(item, 0)
+  };
+}
+
+function buildWeekRadarFromStories(stories, existingWeekRadar) {
+  const candidates = Array.isArray(stories) ? stories.filter(Boolean) : [];
+  const existing = Array.isArray(existingWeekRadar) ? existingWeekRadar : [];
+
+  const existingAsStories = existing.map((item) => ({
+    ...item,
+    title: item.title,
+    summary: item.summary,
+    url: item.url,
+    source: item.source || "Morning Tee",
+    timestamp: item.timestamp || item.updatedAt || item.createdAt || new Date(Date.now() - 48 * 3600000).toISOString()
+  }));
+
+  const allCandidates = candidates.concat(existingAsStories);
+
+  const scored = allCandidates
+    .map((item) => ({
+      item,
+      score: scoreWeekRadarItem(item),
+      groupKey: getWeekRadarGroupKey(item)
+    }))
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  const picked = [];
+  const usedGroups = new Set();
+
+  scored.forEach((entry) => {
+    if (picked.length >= 3) return;
+    if (usedGroups.has(entry.groupKey)) return;
+
+    usedGroups.add(entry.groupKey);
+    picked.push(buildWeekRadarItem(entry.item));
+  });
+
+  return picked;
+}
+
 function buildNextRadarJson(currentJson, item) {
   const nextLive = buildRadarItem(item);
 
@@ -2291,21 +2524,27 @@ function buildNextRadarJson(currentJson, item) {
     35
   );
 
-  return {
-    ...currentJson,
-    active: true,
-    updatedAt: new Date().toISOString(),
-    today: nextToday,
-    liveLeaderboards: item.sourceType === "Leaderboard"
-      ? buildLiveLeaderboardsFromItems([item])
-      : (Array.isArray(currentJson.liveLeaderboards) ? currentJson.liveLeaderboards : []),
-    alsoMoving: nextAlsoMoving,
-    checking: currentJson.checking || buildCheckingItem(item),
-    golfInternet: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
-      90
-    )
-  };
+  const nextWeekRadar = buildWeekRadarFromStories(
+  [nextLive, ...nextToday, ...nextAlsoMoving],
+  currentJson.weekRadar || currentJson.week_radar || []
+);
+
+return {
+  ...currentJson,
+  active: true,
+  updatedAt: new Date().toISOString(),
+  today: nextToday,
+  liveLeaderboards: item.sourceType === "Leaderboard"
+    ? buildLiveLeaderboardsFromItems([item])
+    : (Array.isArray(currentJson.liveLeaderboards) ? currentJson.liveLeaderboards : []),
+  alsoMoving: nextAlsoMoving,
+  weekRadar: nextWeekRadar,
+  checking: currentJson.checking || buildCheckingItem(item),
+  golfInternet: addDisplayTimesToRadarArray(
+    attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
+    90
+  )
+};
 }
 
 function backfillRadarImages(radarJson) {
@@ -2356,7 +2595,7 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
-  async function clearLiveLeaderboardsIfNeeded() {
+async function clearLiveLeaderboardsIfNeeded() {
   if (!AUTO_PUBLISH) return false;
 
   const { weekday } = getEasternNowParts();
@@ -2370,14 +2609,25 @@ async function autoPublishToGitHub(item) {
     ? current.json.liveLeaderboards
     : [];
 
-  if (!currentLive.length) {
+  const nextWeekRadar = buildWeekRadarFromStories(
+    [
+      ...(Array.isArray(current.json.today) ? current.json.today : []),
+      ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
+      ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
+    ],
+    current.json.weekRadar || current.json.week_radar || []
+  );
+
+  if (!currentLive.length && JSON.stringify(current.json.weekRadar || []) === JSON.stringify(nextWeekRadar)) {
     return false;
   }
 
   const nextJson = {
     ...current.json,
+    active: true,
     updatedAt: new Date().toISOString(),
-    liveLeaderboards: []
+    liveLeaderboards: [],
+    weekRadar: nextWeekRadar
   };
 
   await updateRadarFileOnGitHub(nextJson, current.sha, "Clear stale live leaderboards");
@@ -2400,12 +2650,22 @@ async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
 
   const current = await getRadarFileFromGitHub();
 
-  const nextJson = {
-    ...current.json,
-    active: true,
-    updatedAt: new Date().toISOString(),
-    liveLeaderboards
-  };
+  const nextWeekRadar = buildWeekRadarFromStories(
+  [
+    ...(Array.isArray(current.json.today) ? current.json.today : []),
+    ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
+    ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
+  ],
+  current.json.weekRadar || current.json.week_radar || []
+);
+
+const nextJson = {
+  ...current.json,
+  active: true,
+  updatedAt: new Date().toISOString(),
+  liveLeaderboards,
+  weekRadar: nextWeekRadar
+};
 
   if (!radarJsonChanged(current.json, nextJson)) {
     console.log("[Leaderboard] liveLeaderboards already up to date.");
@@ -2422,7 +2682,7 @@ async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
   return true;
 }
 
- async function autoPublishGolfInternetToGitHub(items) {
+async function autoPublishGolfInternetToGitHub(items) {
   if (!AUTO_PUBLISH || !items.length) return false;
 
   const current = await getRadarFileFromGitHub();
@@ -2432,15 +2692,27 @@ async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
 
   const imageUsage = {};
 
-  const nextJson = {
-    ...current.json,
-    active: true,
-    updatedAt: new Date().toISOString(),
-    golfInternet: addDisplayTimesToRadarArray(
-      attachImagesToRadarArray(items.slice(0, 2), imageUsage),
-      0
-    )
-  };
+ const nextGolfInternet = addDisplayTimesToRadarArray(
+  attachImagesToRadarArray(items.slice(0, 2), imageUsage),
+  0
+);
+
+const nextWeekRadar = buildWeekRadarFromStories(
+  [
+    ...(Array.isArray(current.json.today) ? current.json.today : []),
+    ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
+    ...nextGolfInternet
+  ],
+  current.json.weekRadar || current.json.week_radar || []
+);
+
+const nextJson = {
+  ...current.json,
+  active: true,
+  updatedAt: new Date().toISOString(),
+  weekRadar: nextWeekRadar,
+  golfInternet: nextGolfInternet
+};
 
   if (!radarJsonChanged(current.json, nextJson)) {
     console.log("[Golf Internet] No GitHub update needed.");
@@ -2481,7 +2753,11 @@ let golfInternetItems = manualGolfInternetItems.length
   : redditGolfInternetItems;
 
   const allItems = [...leaderboardItems, ...redditItems, ...rssItems];
-  const candidates = filterCandidates(allItems, seenPosts);
+const candidates = filterCandidates(allItems, seenPosts);
+
+const weekRadarSourceItems = [...candidates, ...rssItems]
+  .filter((item) => item && !isLeaderboardLikeItem(item))
+  .slice(0, 20);
 
   console.log(`[Radar] Checked ${leaderboardItems.length} leaderboard items, ${redditItems.length} Reddit posts, ${rssItems.length} RSS items, and ${golfInternetItems.length} Golf Internet items.`);
   console.log(`[Radar] Candidates found: ${candidates.length}`);
@@ -2504,6 +2780,32 @@ let published = false;
     }
 
     await clearLiveLeaderboardsIfNeeded();
+
+   if (weekRadarSourceItems.length) {
+  const current = await getRadarFileFromGitHub();
+
+  const nextWeekRadar = buildWeekRadarFromStories(
+    [
+      ...(Array.isArray(current.json.today) ? current.json.today : []),
+      ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
+      ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : []),
+      ...weekRadarSourceItems
+    ],
+    current.json.weekRadar || current.json.week_radar || []
+  );
+
+  const nextJson = {
+    ...current.json,
+    active: true,
+    updatedAt: new Date().toISOString(),
+    weekRadar: nextWeekRadar
+  };
+
+  if (radarJsonChanged(current.json, nextJson)) {
+    await updateRadarFileOnGitHub(nextJson, current.sha, "Update week radar");
+    console.log("[Week Radar] Updated automatic week radar.");
+  }
+}   
 
     if (leaderboardItems.length) {
       await autoPublishLiveLeaderboardsToGitHub(leaderboardItems);
