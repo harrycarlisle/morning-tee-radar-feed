@@ -1181,7 +1181,7 @@ function fallbackQuickRead(item) {
     return `${title} is moving on the Morning Tee radar, but the available feed details are limited. The source has enough signal to track, though the full context may need a click-through.`;
   }
 
-  return `${summary} The useful context is that this story cleared the radar filter because it has current golf relevance, a notable name, or tournament-week importance.`;
+  return `${summary} More context may come from the original source, but this is on the radar because it connects to a current tournament, notable player, or bigger golf storyline.`;
 }
 
 function normalizeQuickRead(value, item) {
