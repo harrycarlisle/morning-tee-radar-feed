@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-11T16:47:48.055Z",
+  "updatedAt": "2026-05-11T16:47:49.195Z",
   "today": [
     {
       "time": "3 hours ago",
@@ -231,8 +231,8 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
-      "timestamp": "2026-05-11T14:39:19.744Z",
+      "time": "Just now",
+      "timestamp": "2026-05-11T16:47:44.825Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -240,12 +240,13 @@
       "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
       "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/worlds-biggest-bunker.png"
+      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/worlds-biggest-bunker.png",
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic. The useful context is that this story cleared the radar filter because it has current golf relevance, a notable name, or tournament-week importance."
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
-      "timestamp": "2026-05-11T14:02:19.744Z",
+      "time": "37 min ago",
+      "timestamp": "2026-05-11T16:10:44.825Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -253,7 +254,8 @@
       "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png"
+      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade. The useful context is that this story cleared the radar filter because it has current golf relevance, a notable name, or tournament-week importance."
     }
   ],
   "liveLeaderboards": []
