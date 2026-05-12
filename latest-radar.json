@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-12T14:10:51.756Z",
+  "updatedAt": "2026-05-12T17:56:27.329Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "28 min ago",
+      "timestamp": "2026-05-12T17:28:14.000Z",
+      "approvedAt": "2026-05-12T17:56:27.324Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "PGA Championship 2026: Rory McIlroy says 'we almost knew before (LIV) players d...",
+      "summary": "Rory McIlroy once advocated for the PGA Tour to make a deal with Saudi Arabia in the throes of professional golf’s civil war.",
+      "quickRead": "Rory McIlroy said he was wrong to push the PGA Tour toward a Saudi deal and claimed many in golf “almost knew before the players did” that PIF was about to pull funding from LIV, adding he’d heard it “back in March, April. ” With PIF reportedly out and LIV’s future uncertain, player reps are already contacting the PGA Tour about returning.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/pga-championship-2026-rory-mcilroy-172814763.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-championship-2026-rory-mcilroy-172814763.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-12T13:00:00.000Z",
       "approvedAt": "2026-05-12T14:10:48.314Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-spotted-doing-aronimink-130000204.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-12T02:41:51.000Z",
       "approvedAt": "2026-05-12T04:31:19.596Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-11T19:06:16.000Z",
       "approvedAt": "2026-05-11T19:41:58.728Z",
       "status": "Confirmed",
@@ -154,19 +173,6 @@
       "url": "https://sports.yahoo.com/articles/norwegian-rookie-reitan-wins-pga-225642904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/kristoffer-reitan-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-10T22:48:49.000Z",
-      "approvedAt": "2026-05-10T23:08:06.314Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Lucas Herbert's first LIV Golf title sends him to the U.S. Open",
-      "summary": "The 30-year-old Aussie now owns career titles across LIV, the PGA Tour, DP World Tour and Asian Tour and heads to Shinnecock Hills, site of his first major start.",
-      "url": "https://sports.yahoo.com/articles/lucas-herberts-first-liv-golf-224849640.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -234,7 +240,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-12T14:10:32.602Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -248,7 +254,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-12T13:33:32.602Z",
       "status": "Trending",
       "signal": "Reddit find",
