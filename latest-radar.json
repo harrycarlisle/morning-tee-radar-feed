@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-13T20:00:23.292Z",
+  "updatedAt": "2026-05-13T21:41:25.724Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-05-13T20:00:45.000Z",
+      "approvedAt": "2026-05-13T21:41:25.721Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "What Happened to Rory McIlroy’s Toe? Full Breakdown of His Latest Injury Concern",
+      "summary": "Rory McIlroy walked into his PGA Championship press conference on Tuesday with his shoelaces undone, pulled off his shoe, peeled back his sock, and showed reporters what he had done to hi...",
+      "quickRead": "Rory McIlroy ripped off his right pinky-toe toenail in his hotel bathtub to drain a blister under it after soaking the foot to soften the nail.  The blister started last Friday at the Truist Championship, he limped and quit a practice round Tuesday, but said he’s “not worried,” got custom shoes and a toe separator, and still plans to play the PGA.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/happened-rory-mcilroy-toe-full-200045171.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/happened-rory-mcilroy-toe-full-200045171.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-13T18:30:00.000Z",
       "approvedAt": "2026-05-13T20:00:20.201Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/smylie-kaufman-predicts-jon-rahm-183000884.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-13T17:52:36.000Z",
       "approvedAt": "2026-05-13T17:58:39.411Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-13T13:30:00.000Z",
       "approvedAt": "2026-05-13T14:23:00.637Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-12T22:36:01.000Z",
       "approvedAt": "2026-05-13T10:21:17.056Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-13T02:00:23.000Z",
       "approvedAt": "2026-05-13T06:44:48.842Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-12T20:39:17.000Z",
       "approvedAt": "2026-05-13T02:42:00.327Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-12T20:50:00.000Z",
       "approvedAt": "2026-05-12T22:56:23.691Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-tee-times-rory-mcilroy-jordan-spieth-jon-rahm-grouped-in-round-1-185331235.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-12T17:50:25.000Z",
-      "approvedAt": "2026-05-12T19:48:25.749Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Jon Rahm once fought Scottie Scheffler for No. 1 in the world. A move to LIV Go...",
-      "summary": "Scottie Scheffler made a Sunday charge that came too late at the PGA Championship, a 65 that wasn't enough to catch Brooks Koepka at Oak Hill.",
-      "quickRead": "Scottie Scheffler replaced Jon Rahm as world No.  1 after finishing runner-up at the 2023 PGA Championship at Oak Hill, and Rahm’s move to LIV has since left him down at No.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-once-fought-scottie-175025033.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-once-fought-scottie-175025033.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-13T20:00:07.976Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-13T19:23:07.976Z",
       "status": "Trending",
       "signal": "Reddit find",
