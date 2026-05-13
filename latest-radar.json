@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-13T02:42:03.470Z",
+  "updatedAt": "2026-05-13T06:44:48.844Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "4 hours ago",
+      "timestamp": "2026-05-13T02:00:23.000Z",
+      "approvedAt": "2026-05-13T06:44:48.842Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Rory McIlroy naming golf swings is more impressive than winning The Masters",
+      "summary": "Rory McIlroy has done it all in the game of golf.",
+      "quickRead": "Rory McIlroy nailed CBS’s “swing silhouette” quiz by correctly identifying golfers and even non-golfers just from their swing outlines, including Si Woo Kim, Michael Block, and—most surprisingly—LeBron James (and he even called Jordan Spieth without seeing the swing).  The clip went viral because those are hyper-specific tells most fans wouldn’t catch, underscoring McIlroy’s elite visual memory heading into a major week.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-naming-golf-swings-020023352.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-naming-golf-swings-020023352.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-05-12T20:39:17.000Z",
       "approvedAt": "2026-05-13T02:42:00.327Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/job-liv-chiefs-fix-breakaway-184051379.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-12T20:50:00.000Z",
       "approvedAt": "2026-05-12T22:56:23.691Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-12T18:53:31.000Z",
       "approvedAt": "2026-05-12T21:15:31.255Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-12T17:50:25.000Z",
       "approvedAt": "2026-05-12T19:48:25.749Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-12T17:28:14.000Z",
       "approvedAt": "2026-05-12T17:56:27.324Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-12T13:00:00.000Z",
       "approvedAt": "2026-05-12T14:10:48.314Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-shades-bryson-dechambeau-190616767.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-11T09:30:00.000Z",
-      "approvedAt": "2026-05-11T17:05:52.477Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Johnson Wagner has warning for every player about Rory McIlroy at the PGA Champ...",
-      "summary": "Johnson Wagner has insisted that the field should be very scared of Rory McIlroy at the PGA Championship despite the Northern Irishman failing to contend at the Truist Championship this p...",
-      "quickRead": "Johnson Wagner warned the entire field to be \"very scared\" of Rory McIlroy at the PGA Championship, arguing that one quiet week at the Truist Championship doesn’t change how dangerous McIlroy is when a major arrives.  He pointed to McIlroy’s ability to flip the switch with elite driving and scoring bursts on tough setups, making him a threat even if his most recent start didn’t contend.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/johnson-wagner-warning-every-player-093000209.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/johnson-wagner-warning-every-player-093000209.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-13T02:41:43.686Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-13T02:04:43.686Z",
       "status": "Trending",
       "signal": "Reddit find",
