@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-13T10:21:19.411Z",
+  "updatedAt": "2026-05-13T14:23:00.640Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "11 hours ago",
+      "time": "53 min ago",
+      "timestamp": "2026-05-13T13:30:00.000Z",
+      "approvedAt": "2026-05-13T14:23:00.637Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm responds to Rory McIlroy’s claim about the design of Aronimink Golf Club",
+      "summary": "Aronimink Golf Club is the subject of great scrutiny ahead of the PGA Championship.",
+      "quickRead": "Jon Rahm said he “sees both points” on Aronimink’s tree removal but isn’t sure which argument is right, noting the trees may be needed for “overall health of the course,” while admitting tree removal “would let you be able to be more aggressive off the tees. ” He added that modern distance and accuracy make laying back less rewarding, and he’s never played Aronimink with more trees to compare it.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-responds-rory-mcilroy-133000289.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-responds-rory-mcilroy-133000289.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "15 hours ago",
       "timestamp": "2026-05-12T22:36:01.000Z",
       "approvedAt": "2026-05-13T10:21:17.056Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-cuts-practice-short-223601381.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-13T02:00:23.000Z",
       "approvedAt": "2026-05-13T06:44:48.842Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-12T20:39:17.000Z",
       "approvedAt": "2026-05-13T02:42:00.327Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-12T20:50:00.000Z",
       "approvedAt": "2026-05-12T22:56:23.691Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-12T18:53:31.000Z",
       "approvedAt": "2026-05-12T21:15:31.255Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-12T17:50:25.000Z",
       "approvedAt": "2026-05-12T19:48:25.749Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-12T17:28:14.000Z",
       "approvedAt": "2026-05-12T17:56:27.324Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-12T13:00:00.000Z",
       "approvedAt": "2026-05-12T14:10:48.314Z",
       "status": "Confirmed",
@@ -172,30 +191,26 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-spotted-doing-aronimink-130000204.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-12T02:41:51.000Z",
-      "approvedAt": "2026-05-12T04:31:19.596Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "These 11 LIV Golf pros are in 2026 PGA Championship field",
-      "summary": "There are 11 LIV Golf members in the field at the 2026 PGA Championship, including Jon Rahm and Bryson DeChambeau.",
-      "quickRead": "The 11 LIV Golf players in the 2026 PGA Championship field at Aronimink are Bryson DeChambeau, Thomas Detry, Tyrrell Hatton, Dustin Johnson, Martin Kaymer, Tom McKibbin, Joaquin Niemann, David Puig, Jon Rahm, Cameron Smith and Elvis Smylie.  LIV has only one past PGA champion in the field (2010 winner Kaymer) because Brooks Koepka left LIV over the winter and Phil Mickelson is skipping the week for personal matters.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/11-liv-golf-pros-2026-024151850.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/11-liv-golf-pros-2026-024151850.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
+      "title": "Jon Rahm responds to Rory McIlroy’s claim about the design of Aronimi...",
+      "summary": "Jon Rahm said he “sees both points” on Aronimink’s tree removal but isn’t sure which argument is right, noting the trees may be needed for “overall...",
+      "quickRead": "Jon Rahm said he “sees both points” on Aronimink’s tree removal but isn’t sure which argument is right, noting the trees may be needed for “overall health of the course,” while admitting tree removal “would let you be able to be more aggressive off the tees. ” He added that modern distance and accuracy make laying back less rewarding, and he’s never played Aronimink with more trees to compare it.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-responds-rory-mcilroy-133000289.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-responds-rory-mcilroy-133000289.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
+      "timestamp": "2026-05-13T13:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
       "title": "Jon Rahm once fought Scottie Scheffler for No. 1 in the world. A move...",
       "summary": "Scottie Scheffler replaced Jon Rahm as world No.",
       "quickRead": "Scottie Scheffler replaced Jon Rahm as world No.  1 after finishing runner-up at the 2023 PGA Championship at Oak Hill, and Rahm’s move to LIV has since left him down at No.",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-05-13T02:00:23.000Z"
-    },
-    {
-      "label": "LIV WATCH",
-      "title": "What Bryson DeChambeau has been accused of completely ignoring after...",
-      "summary": "Eamon Lynch said DeChambeau is “conveniently” ignoring that “no one followed him to LIV, the audience never went there,” so he has no leverage to d...",
-      "quickRead": "Eamon Lynch said DeChambeau is “conveniently” ignoring that “no one followed him to LIV, the audience never went there,” so he has no leverage to demand a penalty-free PGA Tour return—“Send me a plane and throw me a ticker tape parade” isn’t happening.  With Bryson’s LIV deal expiring and funding uncertain, Lynch expects the PGA Tour to hand him a strict term sheet and to want “context and contrition” before letting him back.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-accused-completely-ignoring-223000156.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-accused-completely-ignoring-223000156.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-05-12T22:30:00.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-13T10:21:05.310Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-13T09:44:05.311Z",
       "status": "Trending",
       "signal": "Reddit find",
