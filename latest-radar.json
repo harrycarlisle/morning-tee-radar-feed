@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-14T21:06:27.874Z",
+  "updatedAt": "2026-05-14T22:53:55.254Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "45 min ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-05-14T21:30:00.000Z",
+      "approvedAt": "2026-05-14T22:53:55.251Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm gives his true feelings about Rory McIlroy and Scottie Scheffler after...",
+      "summary": "Rory McIlroy and Scottie Scheffler have dominated the golfing world in recent years, and are looking to continue their stunning success at the PGA Championship.",
+      "quickRead": "Jon Rahm said Rory McIlroy is “the greatest European to ever play already,” and praised Scottie Scheffler for staying “very down-to-earth” despite his success, saying that humility is “a lot of” why he keeps winning.  Rahm added he “need[s] to accomplish a lot more” before thinking about legacy himself, after opening the PGA Championship at Aronimink with a 1-under 69.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-gives-true-feelings-213000918.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-gives-true-feelings-213000918.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-14T20:20:44.000Z",
       "approvedAt": "2026-05-14T21:06:24.098Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-bryson-dechambeau-lead-202044038.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-14T17:01:00.000Z",
       "approvedAt": "2026-05-14T19:41:30.700Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-14T16:12:10.179Z",
       "approvedAt": "2026-05-14T16:12:10.179Z",
       "status": "Live",
@@ -113,7 +132,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-14T13:59:31.851Z",
       "approvedAt": "2026-05-14T13:59:31.851Z",
       "status": "Live",
@@ -166,7 +185,7 @@
       ]
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-14T04:30:02.000Z",
       "approvedAt": "2026-05-14T10:11:56.833Z",
       "status": "Confirmed",
@@ -185,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-14T06:43:36.736Z",
       "approvedAt": "2026-05-14T06:43:36.736Z",
       "status": "Live",
@@ -238,7 +257,7 @@
       ]
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-13T21:53:18.000Z",
       "approvedAt": "2026-05-14T02:42:37.160Z",
       "status": "Confirmed",
@@ -274,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-needs-major-win-convince-183756713.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-13T20:00:45.000Z",
-      "approvedAt": "2026-05-13T21:41:25.721Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "What Happened to Rory McIlroy’s Toe? Full Breakdown of His Latest Injury Concern",
-      "summary": "Rory McIlroy walked into his PGA Championship press conference on Tuesday with his shoelaces undone, pulled off his shoe, peeled back his sock, and showed reporters what he had done to hi...",
-      "quickRead": "Rory McIlroy ripped off his right pinky-toe toenail in his hotel bathtub to drain a blister under it after soaking the foot to soften the nail.  The blister started last Friday at the Truist Championship, he limped and quit a practice round Tuesday, but said he’s “not worried,” got custom shoes and a toe separator, and still plans to play the PGA.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/happened-rory-mcilroy-toe-full-200045171.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/happened-rory-mcilroy-toe-full-200045171.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-14T21:06:10.840Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-14T20:29:10.840Z",
       "status": "Trending",
       "signal": "Reddit find",
