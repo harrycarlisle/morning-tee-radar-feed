@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-14T02:42:40.530Z",
+  "updatedAt": "2026-05-14T06:43:36.739Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-14T06:43:36.736Z",
+      "approvedAt": "2026-05-14T06:43:36.736Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Braden Shattuck wins PGA Championship at -",
+      "summary": "Braden Shattuck wins PGA Championship at -. Nearest finishers: Alex Fitzpatrick (-), Ben Griffin (-), Aldrich Potgieter (-).",
+      "quickRead": "Braden Shattuck is listed atop the PGA Championship leaderboard on PGA TOUR’s site, but no winning score is shown yet and the leaderboard appears to be pre-round (players have tee times and no round scores posted).  Alex Fitzpatrick, Ben Griffin and Aldrich Potgieter are shown as the nearest names beneath him, so watch for updated totals once play begins and scores populate.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Braden Shattuck",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Alex Fitzpatrick",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Ben Griffin",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Aldrich Potgieter",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "David Puig",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-05-13T21:53:18.000Z",
       "approvedAt": "2026-05-14T02:42:37.160Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brandel-chamblee-highlights-serious-issue-215318458.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-13T18:37:56.000Z",
       "approvedAt": "2026-05-13T23:02:20.362Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-13T20:00:45.000Z",
       "approvedAt": "2026-05-13T21:41:25.721Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-13T18:30:00.000Z",
       "approvedAt": "2026-05-13T20:00:20.201Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-13T17:52:36.000Z",
       "approvedAt": "2026-05-13T17:58:39.411Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-13T13:30:00.000Z",
       "approvedAt": "2026-05-13T14:23:00.637Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-naming-golf-swings-020023352.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-12T20:39:17.000Z",
-      "approvedAt": "2026-05-13T02:42:00.327Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Job of LIV chiefs to fix breakaway circuit - Rahm",
-      "summary": "Two-time major winner Jon Rahm says his job is to play golf, not try to fix businesses as he shifts his focus from LIV Golf to this week's US PGA Championship.",
-      "quickRead": "Jon Rahm said fixing LIV Golf isn’t his job: “Out of the few talents I have in my life, fixing a business is not one of them… My job is to play golf… It’s the people in charge of LIV… it’s their job to fix it. ” With Saudi PIF ending its backing after this season, Rahm says he has “faith” LIV will find a sustainable plan and is focusing on the PGA Championship while still banned from the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/job-liv-chiefs-fix-breakaway-184051379.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/job-liv-chiefs-fix-breakaway-184051379.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-14T02:42:19.493Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-14T02:05:19.494Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -285,5 +319,59 @@
       "quickRead": "A Redditor shared a photo of their course’s new “internet” turn dog: a hot dog served in a long roll and piled high with multiple toppings (exact ingredients aren’t provided in the source you gave).  The post blew up on r/golf because it’s an over-the-top upgrade from the usual basic cart-dog, and the details matter because everyone’s now arguing whether it’s genius or way too much at the turn."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-05-14T06:43:36.739Z",
+      "approvedAt": "2026-05-14T06:43:36.739Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Braden Shattuck wins PGA Championship at -",
+      "summary": "Braden Shattuck wins PGA Championship at -. Nearest finishers: Alex Fitzpatrick (-), Ben Griffin (-), Aldrich Potgieter (-).",
+      "quickRead": "Braden Shattuck is listed atop the PGA Championship leaderboard on PGA TOUR’s site, but no winning score is shown yet and the leaderboard appears to be pre-round (players have tee times and no round scores posted).  Alex Fitzpatrick, Ben Griffin and Aldrich Potgieter are shown as the nearest names beneath him, so watch for updated totals once play begins and scores populate.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Braden Shattuck",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Alex Fitzpatrick",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Ben Griffin",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Aldrich Potgieter",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "David Puig",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ]
 }
