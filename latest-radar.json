@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-13T23:02:22.517Z",
+  "updatedAt": "2026-05-14T02:42:37.164Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "4 hours ago",
+      "timestamp": "2026-05-13T21:53:18.000Z",
+      "approvedAt": "2026-05-14T02:42:37.160Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Brandel Chamblee highlights serious issue that Rory McIlroy has had all season...",
+      "summary": "Rory McIlroy has hardly enjoyed the ideal preparation for the PGA Championship at Aronimink this week.",
+      "quickRead": "Brandel Chamblee says Rory McIlroy’s biggest problem heading into the PGA is putting: he’s 105th in strokes-gained putting, has made “absolutely zero” PGA Tour putts from 20–25 feet outside the Masters, and “for whatever reason, the PGA Championship has been very problematic for him on the greens. ” Aronimink winners have typically been elite on the greens, so McIlroy’s flatstick—on top of a toe blister that shortened his practice—could decide whether he contends.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brandel-chamblee-highlights-serious-issue-215318458.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brandel-chamblee-highlights-serious-issue-215318458.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-05-13T18:37:56.000Z",
       "approvedAt": "2026-05-13T23:02:20.362Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-needs-major-win-convince-183756713.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-13T20:00:45.000Z",
       "approvedAt": "2026-05-13T21:41:25.721Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-13T18:30:00.000Z",
       "approvedAt": "2026-05-13T20:00:20.201Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-13T17:52:36.000Z",
       "approvedAt": "2026-05-13T17:58:39.411Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-13T13:30:00.000Z",
       "approvedAt": "2026-05-13T14:23:00.637Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-13T02:00:23.000Z",
       "approvedAt": "2026-05-13T06:44:48.842Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/job-liv-chiefs-fix-breakaway-184051379.html",
       "sourceUrl": "https://sports.yahoo.com/articles/job-liv-chiefs-fix-breakaway-184051379.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-12T20:50:00.000Z",
-      "approvedAt": "2026-05-12T22:56:23.691Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "PGA Championship: Jon Rahm trying to focus on his game, not his uncertain futur...",
-      "summary": "Jon Rahm will tee off with Rory McIlroy and Jordan Spieth in the first two rounds this week at Aronimink.",
-      "quickRead": "Asked what he learned from leaving the PGA Tour for LIV, Jon Rahm shut it down: “That is for me to know, and that’s about that,” and he said he has “multiple years left” on his LIV deal and “doesn’t see many ways out. ” With the PIF pulling LIV funding after 2026, Rahm insists he’s not dwelling on the changing terms and is focused on contending at Aronimink.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/pga-championship-jon-rahm-trying-to-focus-on-his-game-not-his-uncertain-future-with-liv-golf-205000414.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-jon-rahm-trying-to-focus-on-his-game-not-his-uncertain-future-with-liv-golf-205000414.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-13T23:02:07.975Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-13T22:25:07.975Z",
       "status": "Trending",
       "signal": "Reddit find",
