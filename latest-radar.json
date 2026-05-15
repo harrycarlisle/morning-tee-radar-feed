@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-15T16:03:16.379Z",
+  "updatedAt": "2026-05-15T19:24:43.556Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-15T19:24:43.553Z",
+      "approvedAt": "2026-05-15T19:24:43.553Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aldrich Potgieter leads PGA Championship at -5",
+      "summary": "Aldrich Potgieter is -2 today and -5 overall through 9. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
+      "quickRead": "Aldrich Potgieter held the early lead at the 2026 PGA Championship at Aronimink at 5-under par, sitting -2 on his round through nine holes.  Alex Smalley was one shot back at -4, with Hideki Matsuyama and Chris Gotterup next at -3 as the chase pack tried to close the gap before the weekend.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aldrich Potgieter",
+          "score": "-5",
+          "thru": "9"
+        },
+        {
+          "pos": "2",
+          "name": "Alex Smalley",
+          "score": "-4",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Hideki Matsuyama",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Chris Gotterup",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Jason Day",
+          "score": "-3",
+          "thru": "7"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-15T16:03:12.008Z",
       "approvedAt": "2026-05-15T16:03:12.008Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-15T13:56:16.012Z",
       "approvedAt": "2026-05-15T13:56:16.012Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-15T03:51:08.000Z",
       "approvedAt": "2026-05-15T10:18:05.422Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-15T01:30:00.000Z",
       "approvedAt": "2026-05-15T02:43:20.460Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-14T21:30:00.000Z",
       "approvedAt": "2026-05-14T22:53:55.251Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-14T20:20:44.000Z",
       "approvedAt": "2026-05-14T21:06:24.098Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-14T17:01:00.000Z",
       "approvedAt": "2026-05-14T19:41:30.700Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-14T16:12:10.179Z",
       "approvedAt": "2026-05-14T16:12:10.179Z",
       "status": "Live",
@@ -272,59 +325,6 @@
           "name": "Daniel Brown",
           "score": "-2",
           "thru": "14"
-        }
-      ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-14T13:59:31.851Z",
-      "approvedAt": "2026-05-14T13:59:31.851Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Stephan Jaeger leads PGA Championship at -3",
-      "summary": "Stephan Jaeger is -3 today and -3 overall through 8. Closest chasers: Xander Schauffele (-3), Aldrich Potgieter (-2), Michael Brennan (-2).",
-      "quickRead": "Stephan Jaeger is tied for the PGA Championship lead at 3-under, sitting -3 through eight holes in Round 1 at Aronimink, with Xander Schauffele also at -3 (through 4).  Aldrich Potgieter and Michael Brennan are one back at -2, while early even-par names include Rory McIlroy (through 3), Jordan Spieth (through 3), Brooks Koepka (through 4), and Ludvig Åberg (through 5).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-3",
-          "thru": "8"
-        },
-        {
-          "pos": "T1",
-          "name": "Xander Schauffele",
-          "score": "-3",
-          "thru": "4*"
-        },
-        {
-          "pos": "T3",
-          "name": "Aldrich Potgieter",
-          "score": "-2",
-          "thru": "11*"
-        },
-        {
-          "pos": "T3",
-          "name": "Michael Brennan",
-          "score": "-2",
-          "thru": "8"
-        },
-        {
-          "pos": "T3",
-          "name": "Cameron Smith",
-          "score": "-2",
-          "thru": "6*"
         }
       ]
     }
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-15T16:03:00.151Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-15T15:26:00.151Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-15T16:03:14.726Z",
-      "approvedAt": "2026-05-15T16:03:14.726Z",
+      "timestamp": "2026-05-15T19:24:43.556Z",
+      "approvedAt": "2026-05-15T19:24:43.556Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -4",
-      "summary": "Alex Smalley is -1 today and -4 overall through 8*. Closest chasers: Aldrich Potgieter (-3), Stephan Jaeger (-3), Min Woo Lee (-3).",
-      "quickRead": "Alex Smalley is leading the PGA Championship at Aronimink at 4-under par, sitting at -1 for the day through 8 holes (8*).  He’s one shot ahead of Aldrich Potgieter, Stephan Jaeger, Min Woo Lee, and Ryo Hisatsune at -3, with several stars lurking at -2 and -1 as Round 1 continues.",
+      "title": "Aldrich Potgieter leads PGA Championship at -5",
+      "summary": "Aldrich Potgieter is -2 today and -5 overall through 9. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
+      "quickRead": "Aldrich Potgieter held the early lead at the 2026 PGA Championship at Aronimink at 5-under par, sitting -2 on his round through nine holes.  Alex Smalley was one shot back at -4, with Hideki Matsuyama and Chris Gotterup next at -3 as the chase pack tried to close the gap before the weekend.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -445,33 +445,33 @@
       "leaders": [
         {
           "pos": "1",
+          "name": "Aldrich Potgieter",
+          "score": "-5",
+          "thru": "9"
+        },
+        {
+          "pos": "2",
           "name": "Alex Smalley",
           "score": "-4",
-          "thru": "8*"
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Aldrich Potgieter",
+          "pos": "T3",
+          "name": "Hideki Matsuyama",
           "score": "-3",
-          "thru": "1"
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Stephan Jaeger",
+          "pos": "T3",
+          "name": "Chris Gotterup",
           "score": "-3",
-          "thru": "10"
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Min Woo Lee",
+          "pos": "T3",
+          "name": "Jason Day",
           "score": "-3",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Ryo Hisatsune",
-          "score": "-3",
-          "thru": "10"
+          "thru": "7"
         }
       ]
     }
