@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-15T20:56:56.154Z",
+  "updatedAt": "2026-05-15T20:56:57.149Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,61 +21,6 @@
   "today": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-15T20:56:56.151Z",
-      "approvedAt": "2026-05-15T20:56:56.151Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aldrich Potgieter leads PGA Championship at -5",
-      "summary": "Aldrich Potgieter is -2 today and -5 overall through 15. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Aldrich Potgieter led the PGA Championship at Aronimink at 5-under par, sitting 2-under on his round and 5-under overall through 15 holes.  Alex Smalley was one back at -4, with Hideki Matsuyama and Chris Gotterup tied for third at -3 as the round continued.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aldrich Potgieter",
-          "score": "-5",
-          "thru": "15"
-        },
-        {
-          "pos": "2",
-          "name": "Alex Smalley",
-          "score": "-4",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Hideki Matsuyama",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Stephan Jaeger",
-          "score": "-3",
-          "thru": "11*"
-        }
-      ]
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "1 hour ago",
       "timestamp": "2026-05-15T19:24:43.553Z",
       "approvedAt": "2026-05-15T19:24:43.553Z",
       "status": "Live",
@@ -126,9 +71,11 @@
           "thru": "7"
         }
       ]
-    },
+    }
+  ],
+  "alsoMoving": [
     {
-      "time": "4 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-15T16:03:12.008Z",
       "approvedAt": "2026-05-15T16:03:12.008Z",
       "status": "Live",
@@ -181,7 +128,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-15T13:56:16.012Z",
       "approvedAt": "2026-05-15T13:56:16.012Z",
       "status": "Live",
@@ -234,7 +181,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-15T03:51:08.000Z",
       "approvedAt": "2026-05-15T10:18:05.422Z",
       "status": "Confirmed",
@@ -253,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-15T01:30:00.000Z",
       "approvedAt": "2026-05-15T02:43:20.460Z",
       "status": "Confirmed",
@@ -272,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-14T21:30:00.000Z",
       "approvedAt": "2026-05-14T22:53:55.251Z",
       "status": "Confirmed",
@@ -291,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "Yesterday",
+      "time": "23 hours ago",
       "timestamp": "2026-05-14T20:20:44.000Z",
       "approvedAt": "2026-05-14T21:06:24.098Z",
       "status": "Confirmed",
@@ -327,14 +274,67 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rich-beem-says-bryson-dechambeau-170100847.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    },
+    {
+      "time": "Yesterday",
+      "timestamp": "2026-05-14T16:12:10.179Z",
+      "approvedAt": "2026-05-14T16:12:10.179Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aldrich Potgieter leads PGA Championship at -3",
+      "summary": "Aldrich Potgieter is -3 today and -3 overall through F*. Closest chasers: Stephan Jaeger (-3), Bud Cauley (-3), Sam Burns (-2).",
+      "quickRead": "Aldrich Potgieter sits atop the PGA Championship leaderboard at 3-under par after a first-round 67 at Aronimink, tied with Stephan Jaeger (-3 through 15) and Bud Cauley (-3 through 13).  Sam Burns is one back at -2 (through 15), with several big names—including Rory McIlroy, Jon Rahm, and Patrick Cantlay—sitting at even par as Round 1 continues.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Aldrich Potgieter",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Stephan Jaeger",
+          "score": "-3",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
+          "name": "Bud Cauley",
+          "score": "-3",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-2",
+          "thru": "15*"
+        },
+        {
+          "pos": "T4",
+          "name": "Daniel Brown",
+          "score": "-2",
+          "thru": "14"
+        }
+      ]
     }
   ],
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
       "title": "Rory McIlroy accused of making mistake before the PGA Championship th...",
-      "summary": "Rory McIlroy said strategy off the tee “was not necessary” at Aronimink and that the course basically just asks you to “send the ball as far down t...",
-      "quickRead": "Rory McIlroy said strategy off the tee “was not necessary” at Aronimink and that the course basically just asks you to “send the ball as far down the hole as possible,” and Johnson Wagner said that was a Bryson-like mistake because “fairways matter” there.  McIlroy then hit only 5 of 14 fairways and shot 4-over in Round 1, leaving him in a fight to make the cut and making his pre-tournament bravado look misplaced.",
+      "summary": "Rory McIlroy said Aronimink “was not necessary” to strategize off the tee because the course just asks you to hit it “as far down the hole as possi...",
+      "quickRead": "Rory McIlroy said Aronimink “was not necessary” to strategize off the tee because the course just asks you to hit it “as far down the hole as possible,” and Johnson Wagner compared that to Bryson DeChambeau calling Augusta a “par 67. ” McIlroy then hit only 5 of 14 fairways and opened the PGA Championship at four over, underscoring Wagner’s point that “fairways matter” in the thick rough.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -347,18 +347,18 @@
     },
     {
       "label": "STAR WATCH",
-      "title": "Jon Rahm gives his true feelings about Rory McIlroy and Scottie Schef...",
-      "summary": "Jon Rahm said Rory McIlroy is “the greatest European to ever play already,” and praised Scottie Scheffler for staying “very down-to-earth” despite...",
-      "quickRead": "Jon Rahm said Rory McIlroy is “the greatest European to ever play already,” and praised Scottie Scheffler for staying “very down-to-earth” despite his success, saying that humility is “a lot of” why he keeps winning.  Rahm added he “need[s] to accomplish a lot more” before thinking about legacy himself, after opening the PGA Championship at Aronimink with a 1-under 69.",
+      "title": "Are YOU a ‘good' golfer? Tour stars say you need to shoot this",
+      "summary": "Tour stars’ answers ranged from “break 90” (Luke Donald) to “break 80” (Rory McIlroy and Justin Rose), with Scottie Scheffler saying shooting “in t...",
+      "quickRead": "Tour stars’ answers ranged from “break 90” (Luke Donald) to “break 80” (Rory McIlroy and Justin Rose), with Scottie Scheffler saying shooting “in the 80s” makes you “a serviceable golfer” and Xander Schauffele calling 85 or better “pretty good. ” Collin Morikawa refused to name a score, saying “there’s no score” but a good golfer can finish every hole, avoid gimmies, and play without making a double bogey.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-gives-true-feelings-213000918.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-gives-true-feelings-213000918.html",
+      "url": "https://sports.yahoo.com/articles/good-golfer-tour-stars-shoot-192716544.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/good-golfer-tour-stars-shoot-192716544.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
-      "timestamp": "2026-05-14T21:30:00.000Z"
+      "image": "",
+      "timestamp": "2026-05-15T19:27:16.000Z"
     },
     {
       "label": "LIV WATCH",
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "1 hour ago",
+      "time": "Just now",
       "timestamp": "2026-05-15T19:24:35.462Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
+      "time": "37 min ago",
       "timestamp": "2026-05-15T18:47:35.462Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-15T20:56:56.154Z",
-      "approvedAt": "2026-05-15T20:56:56.154Z",
+      "timestamp": "2026-05-15T19:24:45.295Z",
+      "approvedAt": "2026-05-15T19:24:45.295Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Aldrich Potgieter leads PGA Championship at -5",
-      "summary": "Aldrich Potgieter is -2 today and -5 overall through 15. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Aldrich Potgieter led the PGA Championship at Aronimink at 5-under par, sitting 2-under on his round and 5-under overall through 15 holes.  Alex Smalley was one back at -4, with Hideki Matsuyama and Chris Gotterup tied for third at -3 as the round continued.",
+      "summary": "Aldrich Potgieter is -2 today and -5 overall through 9. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
+      "quickRead": "Aldrich Potgieter held the early lead at the 2026 PGA Championship at Aronimink at 5-under par, sitting -2 on his round through nine holes.  Alex Smalley was one shot back at -4, with Hideki Matsuyama and Chris Gotterup next at -3 as the chase pack tried to close the gap before the weekend.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -447,7 +447,7 @@
           "pos": "1",
           "name": "Aldrich Potgieter",
           "score": "-5",
-          "thru": "15"
+          "thru": "9"
         },
         {
           "pos": "2",
@@ -469,9 +469,9 @@
         },
         {
           "pos": "T3",
-          "name": "Stephan Jaeger",
+          "name": "Jason Day",
           "score": "-3",
-          "thru": "11*"
+          "thru": "7"
         }
       ]
     }
