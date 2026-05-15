@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-15T20:57:00.664Z",
+  "updatedAt": "2026-05-15T22:51:42.414Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-15T22:51:42.411Z",
+      "approvedAt": "2026-05-15T22:51:42.411Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Maverick McNealy leads PGA Championship at -5",
+      "summary": "Maverick McNealy is -4 today and -5 overall through 15*. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
+      "quickRead": "Maverick McNealy is leading the 2026 PGA Championship at Aronimink at 5-under par, sitting at -4 for the day through 15 holes.  He’s one shot clear of Alex Smalley (-4), with Hideki Matsuyama and Chris Gotterup next at -3 as the early leaderboard stays tightly packed.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Maverick McNealy",
+          "score": "-5",
+          "thru": "15*"
+        },
+        {
+          "pos": "2",
+          "name": "Alex Smalley",
+          "score": "-4",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Hideki Matsuyama",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Chris Gotterup",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Aldrich Potgieter",
+          "score": "-3",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-15T19:24:43.553Z",
       "approvedAt": "2026-05-15T19:24:43.553Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "7"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-15T16:03:12.008Z",
       "approvedAt": "2026-05-15T16:03:12.008Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-15T13:56:16.012Z",
       "approvedAt": "2026-05-15T13:56:16.012Z",
       "status": "Live",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-15T03:51:08.000Z",
       "approvedAt": "2026-05-15T10:18:05.422Z",
       "status": "Confirmed",
@@ -200,7 +253,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-15T01:30:00.000Z",
       "approvedAt": "2026-05-15T02:43:20.460Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-14T21:30:00.000Z",
       "approvedAt": "2026-05-14T22:53:55.251Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-14T20:20:44.000Z",
       "approvedAt": "2026-05-14T21:06:24.098Z",
       "status": "Confirmed",
@@ -274,59 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rich-beem-says-bryson-dechambeau-170100847.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-14T16:12:10.179Z",
-      "approvedAt": "2026-05-14T16:12:10.179Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aldrich Potgieter leads PGA Championship at -3",
-      "summary": "Aldrich Potgieter is -3 today and -3 overall through F*. Closest chasers: Stephan Jaeger (-3), Bud Cauley (-3), Sam Burns (-2).",
-      "quickRead": "Aldrich Potgieter sits atop the PGA Championship leaderboard at 3-under par after a first-round 67 at Aronimink, tied with Stephan Jaeger (-3 through 15) and Bud Cauley (-3 through 13).  Sam Burns is one back at -2 (through 15), with several big names—including Rory McIlroy, Jon Rahm, and Patrick Cantlay—sitting at even par as Round 1 continues.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Aldrich Potgieter",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-3",
-          "thru": "15"
-        },
-        {
-          "pos": "T1",
-          "name": "Bud Cauley",
-          "score": "-3",
-          "thru": "13"
-        },
-        {
-          "pos": "T4",
-          "name": "Sam Burns",
-          "score": "-2",
-          "thru": "15*"
-        },
-        {
-          "pos": "T4",
-          "name": "Daniel Brown",
-          "score": "-2",
-          "thru": "14"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-15T20:56:48.040Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-15T20:19:48.040Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-15T20:56:59.559Z",
-      "approvedAt": "2026-05-15T20:56:59.559Z",
+      "timestamp": "2026-05-15T22:51:42.414Z",
+      "approvedAt": "2026-05-15T22:51:42.414Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Aldrich Potgieter leads PGA Championship at -5",
-      "summary": "Aldrich Potgieter is -2 today and -5 overall through 15. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Aldrich Potgieter led the PGA Championship at Aronimink at 5-under par, sitting 2-under on his round and 5-under overall through 15 holes.  Alex Smalley was one back at -4, with Hideki Matsuyama and Chris Gotterup tied for third at -3 as the round continued.",
+      "title": "Maverick McNealy leads PGA Championship at -5",
+      "summary": "Maverick McNealy is -4 today and -5 overall through 15*. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
+      "quickRead": "Maverick McNealy is leading the 2026 PGA Championship at Aronimink at 5-under par, sitting at -4 for the day through 15 holes.  He’s one shot clear of Alex Smalley (-4), with Hideki Matsuyama and Chris Gotterup next at -3 as the early leaderboard stays tightly packed.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -445,9 +445,9 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Aldrich Potgieter",
+          "name": "Maverick McNealy",
           "score": "-5",
-          "thru": "15"
+          "thru": "15*"
         },
         {
           "pos": "2",
@@ -469,9 +469,9 @@
         },
         {
           "pos": "T3",
-          "name": "Stephan Jaeger",
+          "name": "Aldrich Potgieter",
           "score": "-3",
-          "thru": "11*"
+          "thru": "F"
         }
       ]
     }
