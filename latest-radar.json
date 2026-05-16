@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-16T16:54:49.194Z",
+  "updatedAt": "2026-05-16T18:58:10.562Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-05-16T18:58:10.560Z",
+      "approvedAt": "2026-05-16T18:58:10.560Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm leads PGA Championship at -4",
+      "summary": "Jon Rahm is -3 today and -4 overall through 9. Closest chasers: Aldrich Potgieter (-4), Maverick McNealy (-4), Rory McIlroy (-3).",
+      "quickRead": "Rory McIlroy is tied for the lead at 4-under through 16 holes in Round 2 at the 2026 PGA Championship at Aronimink, with Alex Smalley and Maverick McNealy also at -4.  Jon Rahm is two shots back at -3 through 8, alongside Patrick Cantlay and Aaron Rai, as the leaderboard stays crowded heading into the back nine and weekend cut line.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jon Rahm",
+          "score": "-4",
+          "thru": "9"
+        },
+        {
+          "pos": "T1",
+          "name": "Aldrich Potgieter",
+          "score": "-4",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Maverick McNealy",
+          "score": "-4",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Rory McIlroy",
+          "score": "-3",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Xander Schauffele",
+          "score": "-3",
+          "thru": "16"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-16T15:30:00.000Z",
       "approvedAt": "2026-05-16T16:54:44.311Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-meltdown-mode-153000722.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-16T13:12:54.359Z",
       "approvedAt": "2026-05-16T13:12:54.359Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-16T00:37:25.000Z",
       "approvedAt": "2026-05-16T10:59:14.413Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-16T00:37:54.000Z",
       "approvedAt": "2026-05-16T06:18:31.117Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-16T02:32:47.568Z",
       "approvedAt": "2026-05-16T02:32:47.569Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-15T22:51:42.411Z",
       "approvedAt": "2026-05-15T22:51:42.411Z",
       "status": "Live",
@@ -238,7 +291,7 @@
       ]
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-15T19:24:43.553Z",
       "approvedAt": "2026-05-15T19:24:43.553Z",
       "status": "Live",
@@ -342,59 +395,6 @@
           "thru": "10"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-15T13:56:16.012Z",
-      "approvedAt": "2026-05-15T13:56:16.012Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Patrick Reed leads PGA Championship at -3",
-      "summary": "Patrick Reed is -1 today and -3 overall through 5. Closest chasers: Alex Smalley (-3), Aldrich Potgieter (-3), Stephan Jaeger (-3).",
-      "quickRead": "Patrick Reed is tied for the PGA Championship lead at 3-under, sitting at -1 for his round through five holes as play continues at Aronimink.  He’s level with Alex Smalley, Aldrich Potgieter, Stephan Jaeger, Min Woo Lee, and Ryo Hisatsune at -3, with several big names (including Scottie Scheffler) just two shots back at -1.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Patrick Reed",
-          "score": "-3",
-          "thru": "5"
-        },
-        {
-          "pos": "T1",
-          "name": "Alex Smalley",
-          "score": "-3",
-          "thru": "2*"
-        },
-        {
-          "pos": "T1",
-          "name": "Aldrich Potgieter",
-          "score": "-3",
-          "thru": "1"
-        },
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-3",
-          "thru": "10"
-        },
-        {
-          "pos": "T1",
-          "name": "Min Woo Lee",
-          "score": "-3",
-          "thru": "1"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -462,7 +462,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-16T16:54:32.278Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -476,7 +476,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-16T16:17:32.278Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -492,14 +492,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-16T16:54:46.347Z",
-      "approvedAt": "2026-05-16T16:54:46.347Z",
+      "timestamp": "2026-05-16T18:58:10.563Z",
+      "approvedAt": "2026-05-16T18:58:10.563Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -4",
-      "summary": "Alex Smalley is -4 overall through 1. Closest chasers: Maverick McNealy (-4), Chris Kirk (-3), Hideki Matsuyama (-3).",
-      "quickRead": "Alex Smalley is tied for the lead at 4-under (136) at the PGA Championship, alongside Maverick McNealy, as Round 3 is in progress at Aronimink.  The closest players one shot back at 3-under include Chris Kirk, Hideki Matsuyama, Chris Gotterup, Aldrich Potgieter, Stephan Jaeger, Min Woo Lee and Max Greyserman, with big names like Scottie Scheffler and Xander Schauffele at 2-under.",
+      "title": "Jon Rahm leads PGA Championship at -4",
+      "summary": "Jon Rahm is -3 today and -4 overall through 9. Closest chasers: Aldrich Potgieter (-4), Maverick McNealy (-4), Rory McIlroy (-3).",
+      "quickRead": "Rory McIlroy is tied for the lead at 4-under through 16 holes in Round 2 at the 2026 PGA Championship at Aronimink, with Alex Smalley and Maverick McNealy also at -4.  Jon Rahm is two shots back at -3 through 8, alongside Patrick Cantlay and Aaron Rai, as the leaderboard stays crowded heading into the back nine and weekend cut line.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -513,9 +513,15 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "Alex Smalley",
+          "name": "Jon Rahm",
           "score": "-4",
-          "thru": "1"
+          "thru": "9"
+        },
+        {
+          "pos": "T1",
+          "name": "Aldrich Potgieter",
+          "score": "-4",
+          "thru": "2"
         },
         {
           "pos": "T1",
@@ -524,22 +530,16 @@
           "thru": "1"
         },
         {
-          "pos": "T3",
-          "name": "Chris Kirk",
+          "pos": "T4",
+          "name": "Rory McIlroy",
+          "score": "-3",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Xander Schauffele",
           "score": "-3",
           "thru": "16"
-        },
-        {
-          "pos": "T3",
-          "name": "Hideki Matsuyama",
-          "score": "-3",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "1"
         }
       ]
     }
