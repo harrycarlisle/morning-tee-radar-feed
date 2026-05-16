@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-16T16:54:45.470Z",
+  "updatedAt": "2026-05-16T16:54:46.486Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -401,8 +401,8 @@
     {
       "label": "MAJOR WATCH",
       "title": "Bryson DeChambeau claimed to be in ‘meltdown mode’ following LIV deve...",
-      "summary": "Golf Channel’s Rex Hoggard said an equipment rep told him Bryson DeChambeau was “in meltdown mode” on the range at Aronimink, “clearly searching fo...",
-      "quickRead": "Golf Channel’s Rex Hoggard said an equipment rep told him Bryson DeChambeau was “in meltdown mode” on the range at Aronimink, “clearly searching for something all week long,” and DeChambeau went on to miss the cut at seven over (after being 10 over at one point).  It’s his first time missing back-to-back major cuts since 2017 and his third missed cut in his last four majors, raising more questions about his iron play and whether he’ll ever ditch his one-length setup.",
+      "summary": "Rex Hoggard said an equipment rep told him Bryson DeChambeau was “in meltdown mode” on the range at the PGA Championship, “clearly searching for so...",
+      "quickRead": "Rex Hoggard said an equipment rep told him Bryson DeChambeau was “in meltdown mode” on the range at the PGA Championship, “clearly searching for something all week long,” before DeChambeau went on to miss the cut at Aronimink.  It’s his first time missing back-to-back major cuts since 2017, and Hoggard added he doesn’t expect Bryson to ditch his one-length irons despite recent major struggles.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,7 +410,7 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-meltdown-mode-153000722.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-meltdown-mode-153000722.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-05-16T15:30:00.000Z"
     },
     {
@@ -492,14 +492,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-16T14:52:29.620Z",
-      "approvedAt": "2026-05-16T14:52:29.620Z",
+      "timestamp": "2026-05-16T16:54:46.347Z",
+      "approvedAt": "2026-05-16T16:54:46.347Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Alex Smalley leads PGA Championship at -4",
-      "summary": "Alex Smalley is -4 overall through 1. Closest chasers: Maverick McNealy (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Alex Smalley is tied for the PGA Championship lead at 4-under par after two rounds (67-69), level with Maverick McNealy at -4 (69-67).  Hideki Matsuyama and Chris Gotterup are one back at -3, while big names like Scottie Scheffler, Justin Thomas, and Ludvig Åberg sit at -2 and Rory McIlroy is +1 heading into the weekend at Aronimink.",
+      "summary": "Alex Smalley is -4 overall through 1. Closest chasers: Maverick McNealy (-4), Chris Kirk (-3), Hideki Matsuyama (-3).",
+      "quickRead": "Alex Smalley is tied for the lead at 4-under (136) at the PGA Championship, alongside Maverick McNealy, as Round 3 is in progress at Aronimink.  The closest players one shot back at 3-under include Chris Kirk, Hideki Matsuyama, Chris Gotterup, Aldrich Potgieter, Stephan Jaeger, Min Woo Lee and Max Greyserman, with big names like Scottie Scheffler and Xander Schauffele at 2-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -525,6 +525,12 @@
         },
         {
           "pos": "T3",
+          "name": "Chris Kirk",
+          "score": "-3",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
           "name": "Hideki Matsuyama",
           "score": "-3",
           "thru": "1"
@@ -532,12 +538,6 @@
         {
           "pos": "T3",
           "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Aldrich Potgieter",
           "score": "-3",
           "thru": "1"
         }
