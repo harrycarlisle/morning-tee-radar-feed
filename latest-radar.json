@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T02:40:21.437Z",
+  "updatedAt": "2026-05-17T06:42:19.263Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "6 hours ago",
+      "timestamp": "2026-05-16T23:42:55.000Z",
+      "approvedAt": "2026-05-17T06:42:19.259Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA Championship final round tee times: What time will Alex Smalley, Rory McIlr...",
+      "summary": "Somebody will claim the Wanamaker Trophy come Sunday night.",
+      "quickRead": "Alex Smalley and Matti Schmid tee off last at 2:35 p. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T02:40:19.063Z",
       "approvedAt": "2026-05-17T02:40:19.063Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-16T22:41:02.365Z",
       "approvedAt": "2026-05-16T22:41:02.365Z",
       "status": "Live",
@@ -128,7 +147,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-16T20:41:13.904Z",
       "approvedAt": "2026-05-16T20:41:13.904Z",
       "status": "Live",
@@ -181,7 +200,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-16T15:30:00.000Z",
       "approvedAt": "2026-05-16T16:54:44.311Z",
       "status": "Confirmed",
@@ -200,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-16T13:12:54.359Z",
       "approvedAt": "2026-05-16T13:12:54.359Z",
       "status": "Live",
@@ -342,59 +361,6 @@
           "thru": "F"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-15T22:51:42.411Z",
-      "approvedAt": "2026-05-15T22:51:42.411Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Maverick McNealy leads PGA Championship at -5",
-      "summary": "Maverick McNealy is -4 today and -5 overall through 15*. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Maverick McNealy is leading the 2026 PGA Championship at Aronimink at 5-under par, sitting at -4 for the day through 15 holes.  He’s one shot clear of Alex Smalley (-4), with Hideki Matsuyama and Chris Gotterup next at -3 as the early leaderboard stays tightly packed.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Maverick McNealy",
-          "score": "-5",
-          "thru": "15*"
-        },
-        {
-          "pos": "2",
-          "name": "Alex Smalley",
-          "score": "-4",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Hideki Matsuyama",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Aldrich Potgieter",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -462,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T02:40:10.703Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -476,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T02:03:10.703Z",
       "status": "Trending",
       "signal": "Reddit find",
