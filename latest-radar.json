@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T21:08:14.357Z",
+  "updatedAt": "2026-05-17T22:08:05.499Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T22:08:05.497Z",
+      "approvedAt": "2026-05-17T22:08:05.497Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aaron Rai leads PGA Championship at -7",
+      "summary": "Aaron Rai is -3 today and -7 overall through 15. Closest chasers: Matti Schmid (-6), Justin Thomas (-5), Jon Rahm (-5).",
+      "quickRead": "Aaron Rai led the PGA Championship at 7-under (through 14), 1 shot ahead of Matti Schmid at 6-under (through 13), with Justin Thomas and Jon Rahm tied for third at 5-under.  With several big names still on the course and the margin tight, Rai’s back nine will decide whether he can finally convert the lead into a major win.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aaron Rai",
+          "score": "-7",
+          "thru": "15"
+        },
+        {
+          "pos": "2",
+          "name": "Matti Schmid",
+          "score": "-6",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Jon Rahm",
+          "score": "-5",
+          "thru": "15"
+        },
+        {
+          "pos": "T5",
+          "name": "Cameron Smith",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "59 min ago",
       "timestamp": "2026-05-17T21:08:11.524Z",
       "approvedAt": "2026-05-17T21:08:11.524Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "24 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T20:43:18.766Z",
       "approvedAt": "2026-05-17T20:43:18.766Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T18:36:59.849Z",
       "approvedAt": "2026-05-17T18:36:59.849Z",
       "status": "Live",
@@ -253,7 +306,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-17T15:13:13.000Z",
       "approvedAt": "2026-05-17T16:53:28.959Z",
       "status": "Confirmed",
@@ -272,7 +325,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-17T09:00:00.000Z",
       "approvedAt": "2026-05-17T14:52:40.863Z",
       "status": "Confirmed",
@@ -291,7 +344,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-17T12:30:00.000Z",
       "approvedAt": "2026-05-17T13:10:03.402Z",
       "status": "Confirmed",
@@ -308,25 +361,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-05-17T07:43:19.000Z",
-      "approvedAt": "2026-05-17T11:01:28.100Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "When does Rory McIlroy start PGA Championship final round? Sunday tee times and...",
-      "summary": "Alex Smalley is in pole position to score a major upset, but has a host of star names looming in his rearview mirror ahead of Sunday’s final round",
-      "quickRead": "Rory McIlroy tees off at 7:05pm BST (2:05pm ET) on Sunday in the PGA Championship final round, paired with Xander Schauffele.  He’ll go out in the penultimate wave with Alex Smalley and Matti Schmid last at 7:35pm BST, with a packed leaderboard (top 30 within five shots) setting up a late finish and major-chasing drama.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/does-rory-mcilroy-start-pga-074319218.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/does-rory-mcilroy-start-pga-074319218.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T21:08:04.043Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T20:31:04.043Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +458,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T21:08:13.325Z",
-      "approvedAt": "2026-05-17T21:08:13.325Z",
+      "timestamp": "2026-05-17T22:08:05.499Z",
+      "approvedAt": "2026-05-17T22:08:05.499Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -6",
-      "summary": "Aaron Rai is -2 today and -6 overall through 11. Closest chasers: Justin Thomas (-5), Jon Rahm (-5), Matti Schmid (-5).",
-      "quickRead": "Matti Schmid is the solo leader at 6-under through 9 holes in the final round at Aronimink, with Justin Thomas, Cameron Smith, Aaron Rai and Jon Rahm all one back at 5-under.  Aaron Rai is 5-under through 10 (1-under today), so the lead has changed hands and the closing stretch is shaping up as a tight five-man race.",
+      "title": "Aaron Rai leads PGA Championship at -7",
+      "summary": "Aaron Rai is -3 today and -7 overall through 15. Closest chasers: Matti Schmid (-6), Justin Thomas (-5), Jon Rahm (-5).",
+      "quickRead": "Aaron Rai led the PGA Championship at 7-under (through 14), 1 shot ahead of Matti Schmid at 6-under (through 13), with Justin Thomas and Jon Rahm tied for third at 5-under.  With several big names still on the course and the margin tight, Rai’s back nine will decide whether he can finally convert the lead into a major win.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -446,32 +480,32 @@
         {
           "pos": "1",
           "name": "Aaron Rai",
-          "score": "-6",
-          "thru": "11"
+          "score": "-7",
+          "thru": "15"
         },
         {
-          "pos": "T2",
+          "pos": "2",
+          "name": "Matti Schmid",
+          "score": "-6",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
           "name": "Justin Thomas",
           "score": "-5",
           "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "T3",
           "name": "Jon Rahm",
           "score": "-5",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Matti Schmid",
-          "score": "-5",
-          "thru": "10"
+          "thru": "15"
         },
         {
           "pos": "T5",
           "name": "Cameron Smith",
           "score": "-4",
-          "thru": "17"
+          "thru": "F"
         }
       ]
     }
