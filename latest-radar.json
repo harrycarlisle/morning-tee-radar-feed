@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T20:43:22.807Z",
+  "updatedAt": "2026-05-17T21:08:11.527Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T21:08:11.524Z",
+      "approvedAt": "2026-05-17T21:08:11.524Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aaron Rai leads PGA Championship at -6",
+      "summary": "Aaron Rai is -2 today and -6 overall through 11. Closest chasers: Justin Thomas (-5), Jon Rahm (-5), Matti Schmid (-5).",
+      "quickRead": "Matti Schmid is the solo leader at 6-under through 9 holes in the final round at Aronimink, with Justin Thomas, Cameron Smith, Aaron Rai and Jon Rahm all one back at 5-under.  Aaron Rai is 5-under through 10 (1-under today), so the lead has changed hands and the closing stretch is shaping up as a tight five-man race.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aaron Rai",
+          "score": "-6",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jon Rahm",
+          "score": "-5",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Matti Schmid",
+          "score": "-5",
+          "thru": "10"
+        },
+        {
+          "pos": "T5",
+          "name": "Cameron Smith",
+          "score": "-4",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "24 min ago",
       "timestamp": "2026-05-17T20:43:18.766Z",
       "approvedAt": "2026-05-17T20:43:18.766Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-17T09:00:00.000Z",
       "approvedAt": "2026-05-17T14:52:40.863Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-17T07:43:19.000Z",
       "approvedAt": "2026-05-17T11:01:28.100Z",
       "status": "Confirmed",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/does-rory-mcilroy-start-pga-074319218.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-05-17T00:30:00.000Z",
-      "approvedAt": "2026-05-17T09:43:41.776Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Jon Rahm delivers his verdict on the greens at the PGA Championship after three...",
-      "summary": "Jon Rahm finds himself in contention to win the PGA Championship after a superb third round at Aronimink.",
-      "quickRead": "Jon Rahm said Aronimink’s greens are “hard,” so sloped that “the middle isn’t always the best option,” and even from the center you can have “as hard a time to two-putt” as anywhere, with 15–20 footers breaking “4 or 5, 6 feet. ” After a 3-under 67 that left him two shots behind leader Alex Smalley, Rahm said the brutal pins and deceptive fairways explain why scoring hasn’t gone low and why Sunday should stay tight.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-delivers-verdict-greens-003000795.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-delivers-verdict-greens-003000795.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "24 min ago",
       "timestamp": "2026-05-17T20:43:11.845Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T20:06:11.845Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T20:43:20.397Z",
-      "approvedAt": "2026-05-17T20:43:20.397Z",
+      "timestamp": "2026-05-17T21:08:11.527Z",
+      "approvedAt": "2026-05-17T21:08:11.527Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Matti Schmid leads PGA Championship at -6",
-      "summary": "Matti Schmid is -2 today and -6 overall through 8. Closest chasers: Justin Thomas (-5), Cameron Smith (-5), Aaron Rai (-5).",
-      "quickRead": "Matti Schmid is leading the PGA Championship at 6-under par, playing his round at 2-under through eight holes at Aronimink.  Justin Thomas, Cameron Smith, and Aaron Rai are one back at 5-under, with several big names at 4-under, so the lead is tight and could flip quickly as the final holes play out.",
+      "title": "Aaron Rai leads PGA Championship at -6",
+      "summary": "Aaron Rai is -2 today and -6 overall through 11. Closest chasers: Justin Thomas (-5), Jon Rahm (-5), Matti Schmid (-5).",
+      "quickRead": "Matti Schmid is the solo leader at 6-under through 9 holes in the final round at Aronimink, with Justin Thomas, Cameron Smith, Aaron Rai and Jon Rahm all one back at 5-under.  Aaron Rai is 5-under through 10 (1-under today), so the lead has changed hands and the closing stretch is shaping up as a tight five-man race.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -411,9 +445,9 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Matti Schmid",
+          "name": "Aaron Rai",
           "score": "-6",
-          "thru": "8"
+          "thru": "11"
         },
         {
           "pos": "T2",
@@ -423,21 +457,21 @@
         },
         {
           "pos": "T2",
-          "name": "Cameron Smith",
+          "name": "Jon Rahm",
           "score": "-5",
-          "thru": "15"
+          "thru": "11"
         },
         {
           "pos": "T2",
-          "name": "Aaron Rai",
+          "name": "Matti Schmid",
           "score": "-5",
           "thru": "10"
         },
         {
-          "pos": "T2",
-          "name": "Nick Taylor",
-          "score": "-5",
-          "thru": "9"
+          "pos": "T5",
+          "name": "Cameron Smith",
+          "score": "-4",
+          "thru": "17"
         }
       ]
     }
