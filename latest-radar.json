@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T06:42:21.828Z",
+  "updatedAt": "2026-05-17T09:43:41.779Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
+      "timestamp": "2026-05-17T00:30:00.000Z",
+      "approvedAt": "2026-05-17T09:43:41.776Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Jon Rahm delivers his verdict on the greens at the PGA Championship after three...",
+      "summary": "Jon Rahm finds himself in contention to win the PGA Championship after a superb third round at Aronimink.",
+      "quickRead": "Jon Rahm said Aronimink’s greens are “hard,” so sloped that “the middle isn’t always the best option,” and even from the center you can have “as hard a time to two-putt” as anywhere, with 15–20 footers breaking “4 or 5, 6 feet. ” After a 3-under 67 that left him two shots behind leader Alex Smalley, Rahm said the brutal pins and deceptive fairways explain why scoring hasn’t gone low and why Sunday should stay tight.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-delivers-verdict-greens-003000795.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-delivers-verdict-greens-003000795.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-05-16T23:42:55.000Z",
       "approvedAt": "2026-05-17T06:42:19.259Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-17T02:40:19.063Z",
       "approvedAt": "2026-05-17T02:40:19.063Z",
       "status": "Live",
@@ -94,7 +113,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-16T22:41:02.365Z",
       "approvedAt": "2026-05-16T22:41:02.365Z",
       "status": "Live",
@@ -147,7 +166,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-16T20:41:13.904Z",
       "approvedAt": "2026-05-16T20:41:13.904Z",
       "status": "Live",
@@ -200,7 +219,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-16T15:30:00.000Z",
       "approvedAt": "2026-05-16T16:54:44.311Z",
       "status": "Confirmed",
@@ -219,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-16T13:12:54.359Z",
       "approvedAt": "2026-05-16T13:12:54.359Z",
       "status": "Live",
@@ -308,59 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-third-round-tee-times-when-will-scottie-scheffler-rory-mcilroy-jon-rahm-begin-003754615.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-16T02:32:47.568Z",
-      "approvedAt": "2026-05-16T02:32:47.569Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -4",
-      "summary": "Alex Smalley is -1 today and -4 overall through F*. Closest chasers: Maverick McNealy (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Alex Smalley leads the PGA Championship at Aronimink at 4-under after two rounds (67-69), sitting tied with Maverick McNealy at -4, while Hideki Matsuyama and Chris Gotterup are one back at -3.  With the cut line at +4 and the leaderboard tightly packed, the weekend will likely hinge on who can keep scoring on a course that’s already compressing big names around even par.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Alex Smalley",
-          "score": "-4",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Maverick McNealy",
-          "score": "-4",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Hideki Matsuyama",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Aldrich Potgieter",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -428,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T06:41:50.814Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -442,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T06:04:50.814Z",
       "status": "Trending",
       "signal": "Reddit find",
