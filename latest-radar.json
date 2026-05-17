@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T20:09:49.067Z",
+  "updatedAt": "2026-05-17T20:43:18.769Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-17T20:43:18.766Z",
+      "approvedAt": "2026-05-17T20:43:18.766Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Matti Schmid leads PGA Championship at -6",
+      "summary": "Matti Schmid is -2 today and -6 overall through 8. Closest chasers: Justin Thomas (-5), Cameron Smith (-5), Aaron Rai (-5).",
+      "quickRead": "Matti Schmid is leading the PGA Championship at 6-under par, playing his round at 2-under through eight holes at Aronimink.  Justin Thomas, Cameron Smith, and Aaron Rai are one back at 5-under, with several big names at 4-under, so the lead is tight and could flip quickly as the final holes play out.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Matti Schmid",
+          "score": "-6",
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Cameron Smith",
+          "score": "-5",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Aaron Rai",
+          "score": "-5",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Nick Taylor",
+          "score": "-5",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-accused-selfish-behavior-151657423.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "26 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T18:36:59.849Z",
       "approvedAt": "2026-05-17T18:36:59.849Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-17T15:13:13.000Z",
       "approvedAt": "2026-05-17T16:53:28.959Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-17T09:00:00.000Z",
       "approvedAt": "2026-05-17T14:52:40.863Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-17T12:30:00.000Z",
       "approvedAt": "2026-05-17T13:10:03.402Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-17T07:43:19.000Z",
       "approvedAt": "2026-05-17T11:01:28.100Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-17T00:30:00.000Z",
       "approvedAt": "2026-05-17T09:43:41.776Z",
       "status": "Confirmed",
@@ -240,43 +293,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-delivers-verdict-greens-003000795.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-05-16T23:42:55.000Z",
-      "approvedAt": "2026-05-17T06:42:19.259Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "PGA Championship final round tee times: What time will Alex Smalley, Rory McIlr...",
-      "summary": "Somebody will claim the Wanamaker Trophy come Sunday night.",
-      "quickRead": "Alex Smalley and Matti Schmid tee off last at 2:35 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
-      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
-      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
-      "timestamp": "2026-05-17T12:30:00.000Z"
-    },
     {
       "label": "MAJOR WATCH",
       "title": "Rory McIlroy Accused Of 'Selfish' Behavior At The PGA Championship",
@@ -291,6 +310,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "timestamp": "2026-05-17T15:16:57.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
+      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
+      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
+      "timestamp": "2026-05-17T12:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "33 min ago",
       "timestamp": "2026-05-17T20:09:37.107Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T19:32:37.107Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T19:03:39.436Z",
-      "approvedAt": "2026-05-17T19:03:39.436Z",
+      "timestamp": "2026-05-17T20:43:18.769Z",
+      "approvedAt": "2026-05-17T20:43:18.769Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jon Rahm leads PGA Championship at -6",
-      "summary": "Jon Rahm is -2 today and -6 overall through 2. Closest chasers: Alex Smalley (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
-      "quickRead": "Jon Rahm is currently tied for the lead at 6-under overall (206), alongside Alex Smalley, while Justin Thomas, Aaron Rai and Ludvig Åberg are one shot back at 5-under.  The leaderboard is tight with several stars at 4-under (including Rory McIlroy, Cameron Smith and Joaquin Niemann), so the final holes should decide it with little margin for error.",
+      "title": "Matti Schmid leads PGA Championship at -6",
+      "summary": "Matti Schmid is -2 today and -6 overall through 8. Closest chasers: Justin Thomas (-5), Cameron Smith (-5), Aaron Rai (-5).",
+      "quickRead": "Matti Schmid is leading the PGA Championship at 6-under par, playing his round at 2-under through eight holes at Aronimink.  Justin Thomas, Cameron Smith, and Aaron Rai are one back at 5-under, with several big names at 4-under, so the lead is tight and could flip quickly as the final holes play out.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -376,34 +410,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
-          "name": "Jon Rahm",
+          "pos": "1",
+          "name": "Matti Schmid",
           "score": "-6",
-          "thru": "2"
+          "thru": "8"
         },
         {
-          "pos": "T1",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
+          "pos": "T2",
           "name": "Justin Thomas",
           "score": "-5",
-          "thru": "17"
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Ludvig Åberg",
-          "score": "-5",
-          "thru": "3"
-        },
-        {
-          "pos": "T5",
+          "pos": "T2",
           "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "8"
+          "score": "-5",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Aaron Rai",
+          "score": "-5",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Nick Taylor",
+          "score": "-5",
+          "thru": "9"
         }
       ]
     }
