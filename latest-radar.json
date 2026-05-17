@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T22:08:08.711Z",
+  "updatedAt": "2026-05-17T22:49:25.391Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T22:49:25.389Z",
+      "approvedAt": "2026-05-17T22:49:25.389Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aaron Rai leads PGA Championship at -9",
+      "summary": "Aaron Rai is -5 today and -9 overall through F. Closest chasers: Jon Rahm (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
+      "quickRead": "Aaron Rai is leading the 2026 PGA Championship at Aronimink at 9-under after finishing his round with a 5-under 65 for 271.  Jon Rahm and Alex Smalley sit three back at 6-under through 16, while Justin Thomas and Ludvig Åberg are the next closest at 5-under after finishing.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aaron Rai",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Jon Rahm",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Ludvig Åberg",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Alex Smalley",
+          "score": "-5",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "41 min ago",
       "timestamp": "2026-05-17T22:08:05.497Z",
       "approvedAt": "2026-05-17T22:08:05.497Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "59 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T21:08:11.524Z",
       "approvedAt": "2026-05-17T21:08:11.524Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T20:43:18.766Z",
       "approvedAt": "2026-05-17T20:43:18.766Z",
       "status": "Live",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -253,7 +306,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T18:36:59.849Z",
       "approvedAt": "2026-05-17T18:36:59.849Z",
       "status": "Live",
@@ -306,7 +359,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-17T15:13:13.000Z",
       "approvedAt": "2026-05-17T16:53:28.959Z",
       "status": "Confirmed",
@@ -342,43 +395,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/watch-2026-pga-championship-round-090000600.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-05-17T12:30:00.000Z",
-      "approvedAt": "2026-05-17T13:10:03.402Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on elite list...",
-      "summary": "Rory McIlroy posted a round of three-under par 66 on day two at Aronimink.",
-      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
-      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
-      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
-      "timestamp": "2026-05-17T12:30:00.000Z"
-    },
     {
       "label": "MAJOR WATCH",
       "title": "Rory McIlroy Accused Of 'Selfish' Behavior At The PGA Championship",
@@ -393,6 +412,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "timestamp": "2026-05-17T15:16:57.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
+      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
+      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
+      "timestamp": "2026-05-17T12:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -428,7 +462,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "41 min ago",
       "timestamp": "2026-05-17T22:07:57.489Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -442,7 +476,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T21:30:57.489Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -458,14 +492,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T22:08:05.499Z",
-      "approvedAt": "2026-05-17T22:08:05.499Z",
+      "timestamp": "2026-05-17T22:49:25.391Z",
+      "approvedAt": "2026-05-17T22:49:25.391Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -7",
-      "summary": "Aaron Rai is -3 today and -7 overall through 15. Closest chasers: Matti Schmid (-6), Justin Thomas (-5), Jon Rahm (-5).",
-      "quickRead": "Aaron Rai led the PGA Championship at 7-under (through 14), 1 shot ahead of Matti Schmid at 6-under (through 13), with Justin Thomas and Jon Rahm tied for third at 5-under.  With several big names still on the course and the margin tight, Rai’s back nine will decide whether he can finally convert the lead into a major win.",
+      "title": "Aaron Rai leads PGA Championship at -9",
+      "summary": "Aaron Rai is -5 today and -9 overall through F. Closest chasers: Jon Rahm (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
+      "quickRead": "Aaron Rai is leading the 2026 PGA Championship at Aronimink at 9-under after finishing his round with a 5-under 65 for 271.  Jon Rahm and Alex Smalley sit three back at 6-under through 16, while Justin Thomas and Ludvig Åberg are the next closest at 5-under after finishing.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -480,14 +514,14 @@
         {
           "pos": "1",
           "name": "Aaron Rai",
-          "score": "-7",
-          "thru": "15"
+          "score": "-9",
+          "thru": "F"
         },
         {
           "pos": "2",
-          "name": "Matti Schmid",
+          "name": "Jon Rahm",
           "score": "-6",
-          "thru": "14"
+          "thru": "F"
         },
         {
           "pos": "T3",
@@ -497,15 +531,15 @@
         },
         {
           "pos": "T3",
-          "name": "Jon Rahm",
+          "name": "Ludvig Åberg",
           "score": "-5",
-          "thru": "15"
+          "thru": "F"
         },
         {
-          "pos": "T5",
-          "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "F"
+          "pos": "T3",
+          "name": "Alex Smalley",
+          "score": "-5",
+          "thru": "17"
         }
       ]
     }
