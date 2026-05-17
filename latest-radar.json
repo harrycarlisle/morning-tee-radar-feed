@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T11:01:30.877Z",
+  "updatedAt": "2026-05-17T13:10:03.405Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "40 min ago",
+      "timestamp": "2026-05-17T12:30:00.000Z",
+      "approvedAt": "2026-05-17T13:10:03.402Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on elite list...",
+      "summary": "Rory McIlroy posted a round of three-under par 66 on day two at Aronimink.",
+      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-17T07:43:19.000Z",
       "approvedAt": "2026-05-17T11:01:28.100Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/does-rory-mcilroy-start-pga-074319218.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-17T00:30:00.000Z",
       "approvedAt": "2026-05-17T09:43:41.776Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-16T23:42:55.000Z",
       "approvedAt": "2026-05-17T06:42:19.259Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-17T02:40:19.063Z",
       "approvedAt": "2026-05-17T02:40:19.063Z",
       "status": "Live",
@@ -132,7 +151,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-16T22:41:02.365Z",
       "approvedAt": "2026-05-16T22:41:02.365Z",
       "status": "Live",
@@ -185,7 +204,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-16T20:41:13.904Z",
       "approvedAt": "2026-05-16T20:41:13.904Z",
       "status": "Live",
@@ -238,7 +257,7 @@
       ]
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-16T15:30:00.000Z",
       "approvedAt": "2026-05-16T16:54:44.311Z",
       "status": "Confirmed",
@@ -257,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-16T13:12:54.359Z",
       "approvedAt": "2026-05-16T13:12:54.359Z",
       "status": "Live",
@@ -308,25 +327,6 @@
           "thru": "1"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-16T00:37:25.000Z",
-      "approvedAt": "2026-05-16T10:59:14.413Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy says if he agrees with Scottie Scheffler’s remarks complains about...",
-      "summary": "Rory McIlroy battled back into contention at the PGA Championship on day two at Aronimink.",
-      "quickRead": "Asked if he agreed with Scottie Scheffler calling Aronimink’s pins “absurd,” Rory McIlroy said no and argued “a bunched leaderboard like this… is a sign of not a great setup,” because it’s “easy to make a ton of pars” and “bogey’s the worst score you’re going to shoot on any one hole. ” He added the course and pins were “fine,” but said great setups spread the field, while this one has “bring everyone together” through two rounds.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-says-agrees-scottie-003725460.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-agrees-scottie-003725460.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -347,18 +347,18 @@
     },
     {
       "label": "STAR WATCH",
-      "title": "Rory McIlroy says if he agrees with Scottie Scheffler’s remarks compl...",
-      "summary": "Asked if he agreed with Scottie Scheffler calling Aronimink’s pins “absurd,” Rory McIlroy said no and argued “a bunched leaderboard like this… is a...",
-      "quickRead": "Asked if he agreed with Scottie Scheffler calling Aronimink’s pins “absurd,” Rory McIlroy said no and argued “a bunched leaderboard like this… is a sign of not a great setup,” because it’s “easy to make a ton of pars” and “bogey’s the worst score you’re going to shoot on any one hole. ” He added the course and pins were “fine,” but said great setups spread the field, while this one has “bring everyone together” through two rounds.",
+      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
+      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
+      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-says-agrees-scottie-003725460.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-agrees-scottie-003725460.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
-      "timestamp": "2026-05-16T00:37:25.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
+      "timestamp": "2026-05-17T12:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T11:01:14.646Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T10:24:14.646Z",
       "status": "Trending",
       "signal": "Reddit find",
