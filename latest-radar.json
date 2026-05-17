@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T20:09:48.058Z",
+  "updatedAt": "2026-05-17T20:09:49.067Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -327,7 +327,7 @@
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "Just now",
-      "timestamp": "2026-05-17T19:03:17.352Z",
+      "timestamp": "2026-05-17T20:09:37.107Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -336,12 +336,12 @@
       "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/worlds-biggest-bunker.png",
-      "quickRead": "A post on r/golf shows a massive sand-filled feature and asks if it’s “the world’s biggest bunker,” but with no source excerpt available there’s no confirmed location, dimensions, or even proof it’s officially a bunker rather than a sandscape or canyon-like hazard.  The debate matters because how it’s classified changes the rules (bunker vs."
+      "quickRead": "The post doesn’t confirm whether it’s actually a bunker; it’s a photo on r/golf with commenters arguing it’s either an oversized sand hazard, a canyon/erosion feature, or just dramatic course design.  Without a course name, location, or grounds-crew clarification in the source, the only known “answer” is that the image sparked a debate rather than proving a record-sized bunker."
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "time": "37 min ago",
-      "timestamp": "2026-05-17T18:26:17.352Z",
+      "timestamp": "2026-05-17T19:32:37.107Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -350,20 +350,20 @@
       "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
-      "quickRead": "A Redditor posted that their golf course is now selling an oversized “internet” turn dog: a hot dog topped with mac and cheese, pulled pork, and crispy onions.  It’s gone viral on r/golf because it looks like a full meal in a bun, and the big question now is whether it’s actually any good—or just a photo-friendly gut bomb."
+      "quickRead": "A Redditor on r/golf posted a photo of their course’s new “internet” turn dog—an oversized, fully loaded hot dog meant to be a viral upgrade from the usual basic glizzy.  Because there’s no excerpt with exact toppings or price, what’s confirmed is only the photo-post claim that the course has “started selling” this amped-up hot dog, sparking the usual r/golf food debate."
     }
   ],
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T20:09:47.925Z",
-      "approvedAt": "2026-05-17T20:09:47.925Z",
+      "timestamp": "2026-05-17T19:03:39.436Z",
+      "approvedAt": "2026-05-17T19:03:39.436Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Matti Schmid leads PGA Championship at -6",
-      "summary": "Matti Schmid is -2 today and -6 overall through 7. Closest chasers: Justin Thomas (-5), Cameron Smith (-5), Nick Taylor (-5).",
-      "quickRead": "Matti Schmid is tied for the lead at 6-under in the final round of the PGA Championship at Aronimink, sitting at -2 for the day through 6 holes as play continues.  Justin Thomas is the closest completed scorer at -5 (finished), with Cameron Smith, Nick Taylor, and Jon Rahm also at -5 and still on the course, meaning one swing could flip the leaderboard quickly.",
+      "title": "Jon Rahm leads PGA Championship at -6",
+      "summary": "Jon Rahm is -2 today and -6 overall through 2. Closest chasers: Alex Smalley (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
+      "quickRead": "Jon Rahm is currently tied for the lead at 6-under overall (206), alongside Alex Smalley, while Justin Thomas, Aaron Rai and Ludvig Åberg are one shot back at 5-under.  The leaderboard is tight with several stars at 4-under (including Rory McIlroy, Cameron Smith and Joaquin Niemann), so the final holes should decide it with little margin for error.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -376,32 +376,32 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Matti Schmid",
+          "pos": "T1",
+          "name": "Jon Rahm",
           "score": "-6",
-          "thru": "7"
+          "thru": "2"
         },
         {
-          "pos": "T2",
+          "pos": "T1",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
           "name": "Justin Thomas",
           "score": "-5",
-          "thru": "F"
+          "thru": "17"
         },
         {
-          "pos": "T2",
-          "name": "Cameron Smith",
+          "pos": "T3",
+          "name": "Ludvig Åberg",
           "score": "-5",
-          "thru": "13"
-        },
-        {
-          "pos": "T2",
-          "name": "Nick Taylor",
-          "score": "-5",
-          "thru": "7"
+          "thru": "3"
         },
         {
           "pos": "T5",
-          "name": "Rory McIlroy",
+          "name": "Cameron Smith",
           "score": "-4",
           "thru": "8"
         }
