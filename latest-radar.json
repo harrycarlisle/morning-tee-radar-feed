@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T18:37:03.141Z",
+  "updatedAt": "2026-05-17T18:52:30.056Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T18:52:30.053Z",
+      "approvedAt": "2026-05-17T18:52:30.053Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm leads PGA Championship at -6",
+      "summary": "Jon Rahm is -2 today and -6 overall through 2. Closest chasers: Alex Smalley (-6), Justin Thomas (-5), Aaron Rai (-5).",
+      "quickRead": "Alex Smalley is the leader at 6-under par at the 2026 PGA Championship, with Aaron Rai one back at -5 and a group at -4 that includes Jon Rahm, Justin Thomas, Rory McIlroy, Cameron Smith, and Ludvig Åberg.  Rahm is listed T3 at -4 on the live PGA TOUR leaderboard, so he is not actually leading based on the current data.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jon Rahm",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Aaron Rai",
+          "score": "-5",
+          "thru": "2"
+        },
+        {
+          "pos": "T3",
+          "name": "Ludvig Åberg",
+          "score": "-5",
+          "thru": "2"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "15 min ago",
       "timestamp": "2026-05-17T18:36:59.849Z",
       "approvedAt": "2026-05-17T18:36:59.849Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "2"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-05-17T15:13:13.000Z",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-17T07:43:19.000Z",
       "approvedAt": "2026-05-17T11:01:28.100Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-16T23:42:55.000Z",
       "approvedAt": "2026-05-17T06:42:19.259Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-17T02:40:19.063Z",
       "approvedAt": "2026-05-17T02:40:19.063Z",
       "status": "Live",
@@ -214,59 +267,6 @@
           "name": "Alex Smalley",
           "score": "-6",
           "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Matti Schmid",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Nick Taylor",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jon Rahm",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Aaron Rai",
-          "score": "-4",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-05-16T22:41:02.365Z",
-      "approvedAt": "2026-05-16T22:41:02.365Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -5",
-      "summary": "Alex Smalley is -1 today and -5 overall through 17. Closest chasers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
-      "quickRead": "Alex Smalley is the solo leader at the PGA Championship at 5-under par, sitting at -1 for the day and -5 overall with three holes to play.  He’s being chased at -4 by Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai and Ludvig Åberg, so any late Smalley slip could quickly turn the lead into a six-way tie.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Alex Smalley",
-          "score": "-5",
-          "thru": "17"
         },
         {
           "pos": "T2",
@@ -345,7 +345,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "15 min ago",
       "timestamp": "2026-05-17T18:36:52.020Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -359,7 +359,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "52 min ago",
       "timestamp": "2026-05-17T17:59:52.020Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -375,14 +375,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T18:37:01.903Z",
-      "approvedAt": "2026-05-17T18:37:01.903Z",
+      "timestamp": "2026-05-17T18:52:30.056Z",
+      "approvedAt": "2026-05-17T18:52:30.056Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -6",
-      "summary": "Alex Smalley is -6 overall through 1. Closest chasers: Aaron Rai (-5), Justin Thomas (-4), Cameron Smith (-4).",
-      "quickRead": "Alex Smalley is leading the PGA Championship at Aronimink at 6-under par (204) through three rounds and is 9 holes into his final round.  The closest chasers are a big group at 4-under (Aaron Rai, Justin Thomas, Cameron Smith, Jon Rahm, Ludvig Åberg and others), setting up a tight back nine with the major on the line.",
+      "title": "Jon Rahm leads PGA Championship at -6",
+      "summary": "Jon Rahm is -2 today and -6 overall through 2. Closest chasers: Alex Smalley (-6), Justin Thomas (-5), Aaron Rai (-5).",
+      "quickRead": "Alex Smalley is the leader at 6-under par at the 2026 PGA Championship, with Aaron Rai one back at -5 and a group at -4 that includes Jon Rahm, Justin Thomas, Rory McIlroy, Cameron Smith, and Ludvig Åberg.  Rahm is listed T3 at -4 on the live PGA TOUR leaderboard, so he is not actually leading based on the current data.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -395,33 +395,33 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Jon Rahm",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
           "name": "Alex Smalley",
           "score": "-6",
           "thru": "1"
         },
         {
-          "pos": "2",
-          "name": "Aaron Rai",
-          "score": "-5",
-          "thru": "1"
-        },
-        {
           "pos": "T3",
           "name": "Justin Thomas",
-          "score": "-4",
-          "thru": "15"
+          "score": "-5",
+          "thru": "17"
         },
         {
           "pos": "T3",
-          "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "6"
+          "name": "Aaron Rai",
+          "score": "-5",
+          "thru": "2"
         },
         {
           "pos": "T3",
-          "name": "Rory McIlroy",
-          "score": "-4",
+          "name": "Ludvig Åberg",
+          "score": "-5",
           "thru": "2"
         }
       ]
