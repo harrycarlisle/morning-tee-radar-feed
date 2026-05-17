@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-16T22:41:05.830Z",
+  "updatedAt": "2026-05-17T02:40:19.065Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T02:40:19.063Z",
+      "approvedAt": "2026-05-17T02:40:19.063Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Alex Smalley wins PGA Championship at -6",
+      "summary": "Alex Smalley wins PGA Championship at -6. Nearest finishers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
+      "quickRead": "Alex Smalley won the 2026 PGA Championship at Aronimink, finishing -6 (204) after a final-round 67.  He beat a five-way tie for second at -4—Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai, and Ludvig Åberg—while Rory McIlroy, Xander Schauffele, and Patrick Reed ended one back of that group at -3.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matti Schmid",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Nick Taylor",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jon Rahm",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Aaron Rai",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-16T22:41:02.365Z",
       "approvedAt": "2026-05-16T22:41:02.365Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-16T20:41:13.904Z",
       "approvedAt": "2026-05-16T20:41:13.904Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-16T15:30:00.000Z",
       "approvedAt": "2026-05-16T16:54:44.311Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-16T13:12:54.359Z",
       "approvedAt": "2026-05-16T13:12:54.359Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-16T00:37:25.000Z",
       "approvedAt": "2026-05-16T10:59:14.413Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-16T00:37:54.000Z",
       "approvedAt": "2026-05-16T06:18:31.117Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-16T02:32:47.568Z",
       "approvedAt": "2026-05-16T02:32:47.569Z",
       "status": "Live",
@@ -291,7 +344,7 @@
       ]
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-15T22:51:42.411Z",
       "approvedAt": "2026-05-15T22:51:42.411Z",
       "status": "Live",
@@ -340,59 +393,6 @@
           "name": "Aldrich Potgieter",
           "score": "-3",
           "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-15T19:24:43.553Z",
-      "approvedAt": "2026-05-15T19:24:43.553Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aldrich Potgieter leads PGA Championship at -5",
-      "summary": "Aldrich Potgieter is -2 today and -5 overall through 9. Closest chasers: Alex Smalley (-4), Hideki Matsuyama (-3), Chris Gotterup (-3).",
-      "quickRead": "Aldrich Potgieter held the early lead at the 2026 PGA Championship at Aronimink at 5-under par, sitting -2 on his round through nine holes.  Alex Smalley was one shot back at -4, with Hideki Matsuyama and Chris Gotterup next at -3 as the chase pack tried to close the gap before the weekend.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aldrich Potgieter",
-          "score": "-5",
-          "thru": "9"
-        },
-        {
-          "pos": "2",
-          "name": "Alex Smalley",
-          "score": "-4",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Hideki Matsuyama",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-3",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Jason Day",
-          "score": "-3",
-          "thru": "7"
         }
       ]
     }
@@ -462,7 +462,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-16T22:40:53.376Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -476,7 +476,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-16T22:03:53.377Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -492,14 +492,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-16T22:41:04.607Z",
-      "approvedAt": "2026-05-16T22:41:04.607Z",
+      "timestamp": "2026-05-17T02:40:19.066Z",
+      "approvedAt": "2026-05-17T02:40:19.066Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -5",
-      "summary": "Alex Smalley is -1 today and -5 overall through 17. Closest chasers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
-      "quickRead": "Alex Smalley is the solo leader at the PGA Championship at 5-under par, sitting at -1 for the day and -5 overall with three holes to play.  He’s being chased at -4 by Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai and Ludvig Åberg, so any late Smalley slip could quickly turn the lead into a six-way tie.",
+      "title": "Alex Smalley wins PGA Championship at -6",
+      "summary": "Alex Smalley wins PGA Championship at -6. Nearest finishers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
+      "quickRead": "Alex Smalley won the 2026 PGA Championship at Aronimink, finishing -6 (204) after a final-round 67.  He beat a five-way tie for second at -4—Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai, and Ludvig Åberg—while Rory McIlroy, Xander Schauffele, and Patrick Reed ended one back of that group at -3.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -514,8 +514,8 @@
         {
           "pos": "1",
           "name": "Alex Smalley",
-          "score": "-5",
-          "thru": "17"
+          "score": "-6",
+          "thru": "F"
         },
         {
           "pos": "T2",
