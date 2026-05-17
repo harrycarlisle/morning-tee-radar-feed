@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T19:02:54.660Z",
+  "updatedAt": "2026-05-17T19:02:55.635Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,28 +20,7 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
-      "timestamp": "2026-05-17T16:51:24.000Z",
-      "approvedAt": "2026-05-17T19:02:54.657Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Laura Davies says if Scottie Scheffler can still win the PGA and makes Rory McI...",
-      "summary": "Scottie Scheffler begins the final round of the PGA Championship five shots adrift of the leader, Alex Smalley.",
-      "quickRead": "Laura Davies said Scottie Scheffler can still win because she doesn’t think leader Alex Smalley will hold on (“Personally, I say no”) and predicted Rory McIlroy will shoot “65 or 66” in the final round.  Davies added Scheffler becomes a “major contender” only if he putts well, and she thinks he may need something like 64 or 63 to catch up at Aronimink.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/laura-davies-says-scottie-scheffler-165124738.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/laura-davies-says-scottie-scheffler-165124738.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "10 min ago",
+      "time": "Just now",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -92,9 +71,11 @@
           "thru": "2"
         }
       ]
-    },
+    }
+  ],
+  "alsoMoving": [
     {
-      "time": "25 min ago",
+      "time": "15 min ago",
       "timestamp": "2026-05-17T18:36:59.849Z",
       "approvedAt": "2026-05-17T18:36:59.849Z",
       "status": "Live",
@@ -166,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-17T09:00:00.000Z",
       "approvedAt": "2026-05-17T14:52:40.863Z",
       "status": "Confirmed",
@@ -259,14 +240,67 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/pga-championship-final-round-tee-times-what-time-will-alex-smalley-rory-mcilroy-jon-rahm-and-others-start-sunday-at-aronimink-234255526.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    },
+    {
+      "time": "16 hours ago",
+      "timestamp": "2026-05-17T02:40:19.063Z",
+      "approvedAt": "2026-05-17T02:40:19.063Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Alex Smalley wins PGA Championship at -6",
+      "summary": "Alex Smalley wins PGA Championship at -6. Nearest finishers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
+      "quickRead": "Alex Smalley won the 2026 PGA Championship at Aronimink, finishing -6 (204) after a final-round 67.  He beat a five-way tie for second at -4—Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai, and Ludvig Åberg—while Rory McIlroy, Xander Schauffele, and Patrick Reed ended one back of that group at -3.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matti Schmid",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Nick Taylor",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jon Rahm",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Aaron Rai",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
     }
   ],
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
       "title": "Laura Davies says if Scottie Scheffler can still win the PGA and make...",
-      "summary": "Laura Davies said Scottie Scheffler can still win because she doesn’t think leader Alex Smalley will hold on (“Personally, I say no”) and predicted...",
-      "quickRead": "Laura Davies said Scottie Scheffler can still win because she doesn’t think leader Alex Smalley will hold on (“Personally, I say no”) and predicted Rory McIlroy will shoot “65 or 66” in the final round.  Davies added Scheffler becomes a “major contender” only if he putts well, and she thinks he may need something like 64 or 63 to catch up at Aronimink.",
+      "summary": "Laura Davies said Scottie Scheffler can still win because she doesn’t think leader Alex Smalley will hold on—“Personally, I say no”—and predicted R...",
+      "quickRead": "Laura Davies said Scottie Scheffler can still win because she doesn’t think leader Alex Smalley will hold on—“Personally, I say no”—and predicted Rory McIlroy will shoot “65 or 66” in the final round.  She said Scheffler becomes a “major contender” only if he putts well, while Rory has “played the best” since a bad Day 1 and a 65 could be enough to win.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -274,7 +308,7 @@
       "url": "https://sports.yahoo.com/articles/laura-davies-says-scottie-scheffler-165124738.html",
       "sourceUrl": "https://sports.yahoo.com/articles/laura-davies-says-scottie-scheffler-165124738.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "image": "",
       "timestamp": "2026-05-17T16:51:24.000Z"
     },
     {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "10 min ago",
+      "time": "Just now",
       "timestamp": "2026-05-17T18:52:06.956Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "47 min ago",
+      "time": "37 min ago",
       "timestamp": "2026-05-17T18:15:06.957Z",
       "status": "Trending",
       "signal": "Reddit find",
