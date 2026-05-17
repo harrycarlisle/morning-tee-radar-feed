@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T22:49:28.024Z",
+  "updatedAt": "2026-05-17T23:11:33.287Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-17T23:11:33.284Z",
+      "approvedAt": "2026-05-17T23:11:33.284Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aaron Rai wins PGA Championship at -9",
+      "summary": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
+      "quickRead": "Aaron Rai won the 2026 PGA Championship at Aronimink, finishing at 9-under (271) after a closing 65 to beat Jon Rahm by three shots.  Justin Thomas and Ludvig Åberg tied for third at 5-under, with several others—including Alex Smalley—still listed as mid-round on the live leaderboard as play wrapped up.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aaron Rai",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jon Rahm",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Ludvig Åberg",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "22 min ago",
       "timestamp": "2026-05-17T22:49:25.389Z",
       "approvedAt": "2026-05-17T22:49:25.389Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "41 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T22:08:05.497Z",
       "approvedAt": "2026-05-17T22:08:05.497Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T21:08:11.524Z",
       "approvedAt": "2026-05-17T21:08:11.524Z",
       "status": "Live",
@@ -253,7 +306,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -376,43 +429,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/judgemental-prick-liv-golf-pro-151313112.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-05-17T09:00:00.000Z",
-      "approvedAt": "2026-05-17T14:52:40.863Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "How to watch 2026 PGA Championship Round 4 for free: Tee times, livestream",
-      "summary": "A tournament-week golf story is moving across the radar.",
-      "quickRead": "You can watch the 2026 PGA Championship final round free via DIRECTV’s five-day free trial, with ESPN/ESPN+ carrying the morning coverage (8 a. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/watch-2026-pga-championship-round-090000600.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/watch-2026-pga-championship-round-090000600.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
-      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
-      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
-      "timestamp": "2026-05-17T12:30:00.000Z"
-    },
     {
       "label": "MAJOR WATCH",
       "title": "Rory McIlroy Accused Of 'Selfish' Behavior At The PGA Championship",
@@ -427,6 +446,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "timestamp": "2026-05-17T15:16:57.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Rory McIlroy overtakes Jack Nicklaus and trails only Tiger Woods on e...",
+      "summary": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time...",
+      "quickRead": "Rory McIlroy’s Friday 67 at Aronimink gave him 43 career rounds of 67-or-better in majors, passing Jack Nicklaus (42) to move into second all time behind Tiger Woods (48).  He followed with another 66 Saturday to reach 44 such rounds and sit three shots back heading into Sunday, with Woods’ mark now in range.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-overtakes-jack-nicklaus-123000927.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png",
+      "timestamp": "2026-05-17T12:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -462,7 +496,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "22 min ago",
       "timestamp": "2026-05-17T22:49:16.722Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -476,7 +510,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "59 min ago",
       "timestamp": "2026-05-17T22:12:16.722Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -492,14 +526,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T22:49:25.391Z",
-      "approvedAt": "2026-05-17T22:49:25.391Z",
+      "timestamp": "2026-05-17T23:11:33.287Z",
+      "approvedAt": "2026-05-17T23:11:33.287Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -9",
-      "summary": "Aaron Rai is -5 today and -9 overall through F. Closest chasers: Jon Rahm (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
-      "quickRead": "Aaron Rai is leading the 2026 PGA Championship at Aronimink at 9-under after finishing his round with a 5-under 65 for 271.  Jon Rahm and Alex Smalley sit three back at 6-under through 16, while Justin Thomas and Ludvig Åberg are the next closest at 5-under after finishing.",
+      "title": "Aaron Rai wins PGA Championship at -9",
+      "summary": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
+      "quickRead": "Aaron Rai won the 2026 PGA Championship at Aronimink, finishing at 9-under (271) after a closing 65 to beat Jon Rahm by three shots.  Justin Thomas and Ludvig Åberg tied for third at 5-under, with several others—including Alex Smalley—still listed as mid-round on the live leaderboard as play wrapped up.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -518,28 +552,28 @@
           "thru": "F"
         },
         {
-          "pos": "2",
+          "pos": "T2",
           "name": "Jon Rahm",
           "score": "-6",
           "thru": "F"
         },
         {
-          "pos": "T3",
+          "pos": "T2",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
           "name": "Justin Thomas",
           "score": "-5",
           "thru": "F"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Ludvig Åberg",
           "score": "-5",
           "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Alex Smalley",
-          "score": "-5",
-          "thru": "17"
         }
       ]
     }
