@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T16:53:31.595Z",
+  "updatedAt": "2026-05-17T18:36:59.851Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-05-17T18:36:59.849Z",
+      "approvedAt": "2026-05-17T18:36:59.849Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Alex Smalley leads PGA Championship at -6",
+      "summary": "Alex Smalley is -6 overall through 1. Closest chasers: Aaron Rai (-5), Justin Thomas (-4), Cameron Smith (-4).",
+      "quickRead": "Alex Smalley is leading the PGA Championship at Aronimink at 6-under par (204) through three rounds and is 9 holes into his final round.  The closest chasers are a big group at 4-under (Aaron Rai, Justin Thomas, Cameron Smith, Jon Rahm, Ludvig Åberg and others), setting up a tight back nine with the major on the line.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Aaron Rai",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Justin Thomas",
+          "score": "-4",
+          "thru": "15"
+        },
+        {
+          "pos": "T3",
+          "name": "Cameron Smith",
+          "score": "-4",
+          "thru": "6"
+        },
+        {
+          "pos": "T3",
+          "name": "Rory McIlroy",
+          "score": "-4",
+          "thru": "2"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T15:13:13.000Z",
       "approvedAt": "2026-05-17T16:53:28.959Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/judgemental-prick-liv-golf-pro-151313112.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-17T09:00:00.000Z",
       "approvedAt": "2026-05-17T14:52:40.863Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-17T12:30:00.000Z",
       "approvedAt": "2026-05-17T13:10:03.402Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-17T07:43:19.000Z",
       "approvedAt": "2026-05-17T11:01:28.100Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-17T00:30:00.000Z",
       "approvedAt": "2026-05-17T09:43:41.776Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-16T23:42:55.000Z",
       "approvedAt": "2026-05-17T06:42:19.259Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-17T02:40:19.063Z",
       "approvedAt": "2026-05-17T02:40:19.063Z",
       "status": "Live",
@@ -189,7 +242,7 @@
       ]
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-16T22:41:02.365Z",
       "approvedAt": "2026-05-16T22:41:02.365Z",
       "status": "Live",
@@ -236,59 +289,6 @@
         {
           "pos": "T2",
           "name": "Aaron Rai",
-          "score": "-4",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-05-16T20:41:13.904Z",
-      "approvedAt": "2026-05-16T20:41:13.904Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm leads PGA Championship at -5",
-      "summary": "Jon Rahm is -4 today and -5 overall through 16. Closest chasers: Aaron Rai (-5), Chris Gotterup (-5), Matti Schmid (-4).",
-      "quickRead": "Aaron Rai led the PGA Championship at Aronimink at 5-under, with Jon Rahm at 4-under and 1 back through 15 holes (round score -3).  Rai was 13 holes into his round at -4 on the day, while Chris Gotterup and Matti Schmid were also in the mix at 4-under, tightening the race heading into the finish.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Jon Rahm",
-          "score": "-5",
-          "thru": "16"
-        },
-        {
-          "pos": "T1",
-          "name": "Aaron Rai",
-          "score": "-5",
-          "thru": "14"
-        },
-        {
-          "pos": "T1",
-          "name": "Chris Gotterup",
-          "score": "-5",
-          "thru": "9"
-        },
-        {
-          "pos": "T4",
-          "name": "Matti Schmid",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Nick Taylor",
           "score": "-4",
           "thru": "F"
         }
@@ -345,7 +345,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-17T16:53:18.160Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -359,7 +359,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T16:16:18.160Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -375,14 +375,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T16:53:30.644Z",
-      "approvedAt": "2026-05-17T16:53:30.644Z",
+      "timestamp": "2026-05-17T18:36:59.852Z",
+      "approvedAt": "2026-05-17T18:36:59.852Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Alex Smalley leads PGA Championship at -6",
-      "summary": "Alex Smalley is -6 overall through 1. Closest chasers: Matti Schmid (-4), Nick Taylor (-4), Jon Rahm (-4).",
-      "quickRead": "Alex Smalley leads the PGA Championship at Aronimink at 6-under par (204) after three rounds, holding a two-shot advantage over Matti Schmid, Nick Taylor, Jon Rahm, Aaron Rai and Ludvig Åberg at 4-under.  Rory McIlroy, Xander Schauffele, Patrick Reed and Maverick McNealy are two more back at 3-under, with Scottie Scheffler at 2-under as the final round gets underway.",
+      "summary": "Alex Smalley is -6 overall through 1. Closest chasers: Aaron Rai (-5), Justin Thomas (-4), Cameron Smith (-4).",
+      "quickRead": "Alex Smalley is leading the PGA Championship at Aronimink at 6-under par (204) through three rounds and is 9 holes into his final round.  The closest chasers are a big group at 4-under (Aaron Rai, Justin Thomas, Cameron Smith, Jon Rahm, Ludvig Åberg and others), setting up a tight back nine with the major on the line.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -401,28 +401,28 @@
           "thru": "1"
         },
         {
-          "pos": "T2",
-          "name": "Matti Schmid",
-          "score": "-4",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Nick Taylor",
-          "score": "-4",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jon Rahm",
-          "score": "-4",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
+          "pos": "2",
           "name": "Aaron Rai",
-          "score": "-4",
+          "score": "-5",
           "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Justin Thomas",
+          "score": "-4",
+          "thru": "15"
+        },
+        {
+          "pos": "T3",
+          "name": "Cameron Smith",
+          "score": "-4",
+          "thru": "6"
+        },
+        {
+          "pos": "T3",
+          "name": "Rory McIlroy",
+          "score": "-4",
+          "thru": "2"
         }
       ]
     }
