@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-18T02:50:58.435Z",
+  "updatedAt": "2026-05-18T07:58:35.107Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,62 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
-      "timestamp": "2026-05-18T02:50:55.482Z",
-      "approvedAt": "2026-05-18T02:50:55.482Z",
-      "status": "Live",
-      "signal": "Leaderboard",
+      "time": "6 hours ago",
+      "timestamp": "2026-05-18T01:15:00.000Z",
+      "approvedAt": "2026-05-18T07:58:35.105Z",
+      "status": "Confirmed",
+      "signal": "RSS",
       "category": "PGA TOUR",
-      "title": "Cameron Young wins THE PLAYERS Championship at -13",
-      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
-      "quickRead": "Cameron Young did not win this event per the provided leaderboard; Aaron Rai won at Aronimink at 9-under (70-69-67-65) for $3,690,000 and 750 FedExCup points.  Jon Rahm and Alex Smalley tied for second at 6-under, while Young finished T26 at even par, so the key correction is that the stated winner and score don’t match the official results shown.",
+      "title": "What Aaron Rai figured out about Aronimink that Rory McIlroy shockingly didn’t",
+      "summary": "Aaron Rai just shocked the world by winning the PGA Championship, outclassing the best players on the planet in his final round.",
+      "quickRead": "Aaron Rai realized Aronimink only gives you real birdie chances if you hit the fairway, so he shelved driver for 3-wood/long irons to stay out of the rough, while Rory McIlroy kept “bash[ing] driver” and repeatedly missed into trouble.  Rai’s accuracy-led switch produced four back-nine birdies and the PGA win, and it’s a reminder that this major rewarded placement over power.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE PLAYERS Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Cameron Young",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Matt Fitzpatrick",
-          "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Xander Schauffele",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Robert MacIntyre",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Sudarshan Yellamaraju",
-          "score": "-9",
-          "thru": "F"
-        }
-      ]
+      "url": "https://sports.yahoo.com/articles/aaron-rai-figured-aronimink-rory-011500246.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/aaron-rai-figured-aronimink-rory-011500246.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "alsoMoving": [
     {
-      "time": "4 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-17T22:45:04.000Z",
       "approvedAt": "2026-05-17T23:52:53.420Z",
       "status": "Confirmed",
@@ -94,272 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "3 hours ago",
-      "timestamp": "2026-05-17T23:11:33.284Z",
-      "approvedAt": "2026-05-17T23:11:33.284Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aaron Rai wins PGA Championship at -9",
-      "summary": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
-      "quickRead": "Aaron Rai won the 2026 PGA Championship at Aronimink, finishing at 9-under (271) after a closing 65 to beat Jon Rahm by three shots.  Justin Thomas and Ludvig Åberg tied for third at 5-under, with several others—including Alex Smalley—still listed as mid-round on the live leaderboard as play wrapped up.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aaron Rai",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jon Rahm",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Ludvig Åberg",
-          "score": "-5",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-05-17T22:49:25.389Z",
-      "approvedAt": "2026-05-17T22:49:25.389Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -9",
-      "summary": "Aaron Rai is -5 today and -9 overall through F. Closest chasers: Jon Rahm (-6), Justin Thomas (-5), Ludvig Åberg (-5).",
-      "quickRead": "Aaron Rai is leading the 2026 PGA Championship at Aronimink at 9-under after finishing his round with a 5-under 65 for 271.  Jon Rahm and Alex Smalley sit three back at 6-under through 16, while Justin Thomas and Ludvig Åberg are the next closest at 5-under after finishing.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aaron Rai",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Jon Rahm",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Ludvig Åberg",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Alex Smalley",
-          "score": "-5",
-          "thru": "17"
-        }
-      ]
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-05-17T22:08:05.497Z",
-      "approvedAt": "2026-05-17T22:08:05.497Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -7",
-      "summary": "Aaron Rai is -3 today and -7 overall through 15. Closest chasers: Matti Schmid (-6), Justin Thomas (-5), Jon Rahm (-5).",
-      "quickRead": "Aaron Rai led the PGA Championship at 7-under (through 14), 1 shot ahead of Matti Schmid at 6-under (through 13), with Justin Thomas and Jon Rahm tied for third at 5-under.  With several big names still on the course and the margin tight, Rai’s back nine will decide whether he can finally convert the lead into a major win.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aaron Rai",
-          "score": "-7",
-          "thru": "15"
-        },
-        {
-          "pos": "2",
-          "name": "Matti Schmid",
-          "score": "-6",
-          "thru": "14"
-        },
-        {
-          "pos": "T3",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Jon Rahm",
-          "score": "-5",
-          "thru": "15"
-        },
-        {
-          "pos": "T5",
-          "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-05-17T21:08:11.524Z",
-      "approvedAt": "2026-05-17T21:08:11.524Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Aaron Rai leads PGA Championship at -6",
-      "summary": "Aaron Rai is -2 today and -6 overall through 11. Closest chasers: Justin Thomas (-5), Jon Rahm (-5), Matti Schmid (-5).",
-      "quickRead": "Matti Schmid is the solo leader at 6-under through 9 holes in the final round at Aronimink, with Justin Thomas, Cameron Smith, Aaron Rai and Jon Rahm all one back at 5-under.  Aaron Rai is 5-under through 10 (1-under today), so the lead has changed hands and the closing stretch is shaping up as a tight five-man race.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Aaron Rai",
-          "score": "-6",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jon Rahm",
-          "score": "-5",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Matti Schmid",
-          "score": "-5",
-          "thru": "10"
-        },
-        {
-          "pos": "T5",
-          "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "17"
-        }
-      ]
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-05-17T20:43:18.766Z",
-      "approvedAt": "2026-05-17T20:43:18.766Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Matti Schmid leads PGA Championship at -6",
-      "summary": "Matti Schmid is -2 today and -6 overall through 8. Closest chasers: Justin Thomas (-5), Cameron Smith (-5), Aaron Rai (-5).",
-      "quickRead": "Matti Schmid is leading the PGA Championship at 6-under par, playing his round at 2-under through eight holes at Aronimink.  Justin Thomas, Cameron Smith, and Aaron Rai are one back at 5-under, with several big names at 4-under, so the lead is tight and could flip quickly as the final holes play out.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Matti Schmid",
-          "score": "-6",
-          "thru": "8"
-        },
-        {
-          "pos": "T2",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Cameron Smith",
-          "score": "-5",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
-          "name": "Aaron Rai",
-          "score": "-5",
-          "thru": "10"
-        },
-        {
-          "pos": "T2",
-          "name": "Nick Taylor",
-          "score": "-5",
-          "thru": "9"
-        }
-      ]
-    },
-    {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -376,59 +77,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-accused-selfish-behavior-151657423.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-05-17T18:52:30.053Z",
-      "approvedAt": "2026-05-17T18:52:30.053Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm leads PGA Championship at -6",
-      "summary": "Jon Rahm is -2 today and -6 overall through 2. Closest chasers: Alex Smalley (-6), Justin Thomas (-5), Aaron Rai (-5).",
-      "quickRead": "Alex Smalley is the leader at 6-under par at the 2026 PGA Championship, with Aaron Rai one back at -5 and a group at -4 that includes Jon Rahm, Justin Thomas, Rory McIlroy, Cameron Smith, and Ludvig Åberg.  Rahm is listed T3 at -4 on the live PGA TOUR leaderboard, so he is not actually leading based on the current data.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Jon Rahm",
-          "score": "-6",
-          "thru": "2"
-        },
-        {
-          "pos": "T1",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
-          "name": "Aaron Rai",
-          "score": "-5",
-          "thru": "2"
-        },
-        {
-          "pos": "T3",
-          "name": "Ludvig Åberg",
-          "score": "-5",
-          "thru": "2"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -496,7 +144,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-05-18T02:50:46.869Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -510,7 +158,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-18T02:13:46.869Z",
       "status": "Trending",
       "signal": "Reddit find",
