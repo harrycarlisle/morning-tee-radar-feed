@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-18T07:58:35.107Z",
+  "updatedAt": "2026-05-18T07:58:36.987Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -171,59 +171,5 @@
       "quickRead": "A Redditor on r/golf posted a photo of their course’s new “internet” hot dog, but without the source excerpt here, the exact toppings, size, or price of the upgraded turn dog can’t be confirmed.  What’s known is the post drew attention as a “serious upgrade” to typical course dogs, and the details (and whether other courses copy it) depend on what’s shown in the photo/comments."
     }
   ],
-  "liveLeaderboards": [
-    {
-      "time": "Just now",
-      "timestamp": "2026-05-18T02:50:55.484Z",
-      "approvedAt": "2026-05-18T02:50:55.484Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Cameron Young wins THE PLAYERS Championship at -13",
-      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
-      "quickRead": "Cameron Young did not win this event per the provided leaderboard; Aaron Rai won at Aronimink at 9-under (70-69-67-65) for $3,690,000 and 750 FedExCup points.  Jon Rahm and Alex Smalley tied for second at 6-under, while Young finished T26 at even par, so the key correction is that the stated winner and score don’t match the official results shown.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE PLAYERS Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Cameron Young",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Matt Fitzpatrick",
-          "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Xander Schauffele",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Robert MacIntyre",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Sudarshan Yellamaraju",
-          "score": "-9",
-          "thru": "F"
-        }
-      ]
-    }
-  ]
+  "liveLeaderboards": []
 }
