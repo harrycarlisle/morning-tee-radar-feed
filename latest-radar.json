@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-17T23:52:56.317Z",
+  "updatedAt": "2026-05-18T02:50:55.484Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-05-18T02:50:55.482Z",
+      "approvedAt": "2026-05-18T02:50:55.482Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Cameron Young wins THE PLAYERS Championship at -13",
+      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
+      "quickRead": "Cameron Young did not win this event per the provided leaderboard; Aaron Rai won at Aronimink at 9-under (70-69-67-65) for $3,690,000 and 750 FedExCup points.  Jon Rahm and Alex Smalley tied for second at 6-under, while Young finished T26 at even par, so the key correction is that the stated winner and score don’t match the official results shown.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE PLAYERS Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Cameron Young",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Matt Fitzpatrick",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Xander Schauffele",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Robert MacIntyre",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
+          "score": "-9",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T22:45:04.000Z",
       "approvedAt": "2026-05-17T23:52:53.420Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fan-kicked-during-224504454.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "41 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T23:11:33.284Z",
       "approvedAt": "2026-05-17T23:11:33.284Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T22:49:25.389Z",
       "approvedAt": "2026-05-17T22:49:25.389Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-17T22:08:05.497Z",
       "approvedAt": "2026-05-17T22:08:05.497Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-17T21:08:11.524Z",
       "approvedAt": "2026-05-17T21:08:11.524Z",
       "status": "Live",
@@ -253,7 +306,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-17T20:43:18.766Z",
       "approvedAt": "2026-05-17T20:43:18.766Z",
       "status": "Live",
@@ -306,7 +359,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -325,7 +378,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-17T18:52:30.053Z",
       "approvedAt": "2026-05-17T18:52:30.053Z",
       "status": "Live",
@@ -373,59 +426,6 @@
           "pos": "T3",
           "name": "Ludvig Åberg",
           "score": "-5",
-          "thru": "2"
-        }
-      ]
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-05-17T18:36:59.849Z",
-      "approvedAt": "2026-05-17T18:36:59.849Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Alex Smalley leads PGA Championship at -6",
-      "summary": "Alex Smalley is -6 overall through 1. Closest chasers: Aaron Rai (-5), Justin Thomas (-4), Cameron Smith (-4).",
-      "quickRead": "Alex Smalley is leading the PGA Championship at Aronimink at 6-under par (204) through three rounds and is 9 holes into his final round.  The closest chasers are a big group at 4-under (Aaron Rai, Justin Thomas, Cameron Smith, Jon Rahm, Ludvig Åberg and others), setting up a tight back nine with the major on the line.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "PGA Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Aaron Rai",
-          "score": "-5",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Justin Thomas",
-          "score": "-4",
-          "thru": "15"
-        },
-        {
-          "pos": "T3",
-          "name": "Cameron Smith",
-          "score": "-4",
-          "thru": "6"
-        },
-        {
-          "pos": "T3",
-          "name": "Rory McIlroy",
-          "score": "-4",
           "thru": "2"
         }
       ]
@@ -496,7 +496,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-17T23:52:42.082Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -510,7 +510,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-17T23:15:42.082Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -526,14 +526,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-17T23:52:55.289Z",
-      "approvedAt": "2026-05-17T23:52:55.289Z",
+      "timestamp": "2026-05-18T02:50:55.484Z",
+      "approvedAt": "2026-05-18T02:50:55.484Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Aaron Rai wins PGA Championship at -9",
-      "summary": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
-      "quickRead": "Aaron Rai won the 2026 PGA Championship at Aronimink Golf Club at 9-under (271), finishing three shots clear of Jon Rahm and Alex Smalley, who tied for second at 6-under.  Justin Thomas, Ludvig Åberg and Matti Schmid were next at 5-under, as Rai’s closing 65 sealed the win and the major title.",
+      "title": "Cameron Young wins THE PLAYERS Championship at -13",
+      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
+      "quickRead": "Cameron Young did not win this event per the provided leaderboard; Aaron Rai won at Aronimink at 9-under (70-69-67-65) for $3,690,000 and 750 FedExCup points.  Jon Rahm and Alex Smalley tied for second at 6-under, while Young finished T26 at even par, so the key correction is that the stated winner and score don’t match the official results shown.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -541,38 +541,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "PGA Championship",
+      "tournament": "THE PLAYERS Championship",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Aaron Rai",
+          "name": "Cameron Young",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Matt Fitzpatrick",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Xander Schauffele",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Robert MacIntyre",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
           "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jon Rahm",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Justin Thomas",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Ludvig Åberg",
-          "score": "-5",
           "thru": "F"
         }
       ]
