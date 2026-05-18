@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-18T11:48:22.845Z",
+  "updatedAt": "2026-05-18T15:19:58.319Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "49 min ago",
+      "timestamp": "2026-05-18T14:30:00.000Z",
+      "approvedAt": "2026-05-18T15:19:58.315Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy pinpoints the three holes which cost him a chance of winning the P...",
+      "summary": "Rory McIlroy missed out on another major victory as he fell short of PGA Championship winner Aaron Rai at Aronimink.",
+      "quickRead": "Rory McIlroy said three holes cost him a real shot at the PGA Championship: he didn’t birdie the two par-5s (Nos.  9 and 16) and he made bogey on the drivable par-4 13th.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-pinpoints-three-holes-143000075.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-pinpoints-three-holes-143000075.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-18T10:00:00.000Z",
       "approvedAt": "2026-05-18T11:48:20.446Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/why-jon-rahm-pga-championship-100000018.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-18T01:15:00.000Z",
       "approvedAt": "2026-05-18T07:58:35.105Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-17T22:45:04.000Z",
       "approvedAt": "2026-05-17T23:52:53.420Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-17T15:16:57.000Z",
       "approvedAt": "2026-05-17T19:03:37.538Z",
       "status": "Confirmed",
@@ -163,7 +182,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-18T11:47:58.195Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -177,7 +196,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-18T11:10:58.195Z",
       "status": "Trending",
       "signal": "Reddit find",
