@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-18T15:20:01.472Z",
+  "updatedAt": "2026-05-18T18:01:35.729Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "49 min ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-05-18T16:00:00.000Z",
+      "approvedAt": "2026-05-18T18:01:35.725Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "From Jon Rahm to Bryson DeChambeau: How all 11 LIV Golf players did at the PGA...",
+      "summary": "A total of 11 LIV Golf players were in the field for the PGA Championship at Aronimink, including superstars Jon Rahm and Bryson DeChambeau.",
+      "quickRead": "Seven of the 11 LIV Golf players made the cut at the PGA Championship: Jon Rahm finished T2 (three shots behind winner Aaron Rai), Cameron Smith T7, David Puig and Joaquin Niemann T18, Martin Kaymer T35, Dustin Johnson T44, and Elvis Smylie T75, while Bryson DeChambeau (+7), Tyrrell Hatton (+6), Tom McKibbin (+7) and Thomas Detry (+5) missed the +4 cut.  Rahm’s runner-up and Smith’s top-10 were the standouts, but DeChambeau and three others were gone after two rounds as LIV now heads to Korea next.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-11-160000935.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-11-160000935.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-18T14:30:00.000Z",
       "approvedAt": "2026-05-18T15:19:58.315Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-pinpoints-three-holes-143000075.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-18T10:00:00.000Z",
       "approvedAt": "2026-05-18T11:48:20.446Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-18T01:15:00.000Z",
       "approvedAt": "2026-05-18T07:58:35.105Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-17T22:45:04.000Z",
       "approvedAt": "2026-05-17T23:52:53.420Z",
       "status": "Confirmed",
@@ -120,18 +139,18 @@
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
-      "title": "Why Jon Rahm’s PGA Championship performance is terrible news for Brys...",
-      "summary": "Jon Rahm finished second at the PGA Championship as three LIV players cracked the top 20 (two top 10), while Bryson DeChambeau missed the cut for t...",
-      "quickRead": "Jon Rahm finished second at the PGA Championship as three LIV players cracked the top 20 (two top 10), while Bryson DeChambeau missed the cut for the second straight major after triple-bogeying 18 at Augusta to miss the Masters cut.  With Rahm and Cam Smith showing LIV isn’t the excuse, DeChambeau’s leverage in PGA Tour return talks—where he was told to take a Koepka-style deal—takes a major hit.",
+      "title": "From Jon Rahm to Bryson DeChambeau: How all 11 LIV Golf players did a...",
+      "summary": "Seven of the 11 LIV Golf players made the cut at the PGA Championship: Jon Rahm finished T2 (three shots behind winner Aaron Rai), Cameron Smith T7...",
+      "quickRead": "Seven of the 11 LIV Golf players made the cut at the PGA Championship: Jon Rahm finished T2 (three shots behind winner Aaron Rai), Cameron Smith T7, David Puig and Joaquin Niemann T18, Martin Kaymer T35, Dustin Johnson T44, and Elvis Smylie T75, while Bryson DeChambeau (+7), Tyrrell Hatton (+6), Tom McKibbin (+7) and Thomas Detry (+5) missed the +4 cut.  Rahm’s runner-up and Smith’s top-10 were the standouts, but DeChambeau and three others were gone after two rounds as LIV now heads to Korea next.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-jon-rahm-pga-championship-100000018.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-jon-rahm-pga-championship-100000018.html",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-11-160000935.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-11-160000935.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-18T10:00:00.000Z"
+      "timestamp": "2026-05-18T16:00:00.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -182,7 +201,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-18T15:19:41.351Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -196,7 +215,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-18T14:42:41.351Z",
       "status": "Trending",
       "signal": "Reddit find",
