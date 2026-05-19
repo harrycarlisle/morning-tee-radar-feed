@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-19T10:58:55.309Z",
+  "updatedAt": "2026-05-19T14:51:04.784Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-05-19T12:30:00.000Z",
+      "approvedAt": "2026-05-19T14:51:04.780Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "YOUTUBE",
+      "title": "Rick Shiels angry with TV coverage of Bryson DeChambeau at the PGA Championship...",
+      "summary": "Bryson DeChambeau had a disastrous PGA Championship.",
+      "quickRead": "Rick Shiels said the PGA Championship broadcast was “reveling” in Bryson DeChambeau struggling—“It was like they were laughing at him”—and unfairly replayed his bad shots while not showing similar lowlights from players like Max Homa.  He argued Sky Sports and others “love to pick on” LIV players’ mistakes, a claim colored by Shiels being a paid LIV ambassador as DeChambeau missed the cut at Aronimink.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rick-shiels-angry-tv-coverage-123000358.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rick-shiels-angry-tv-coverage-123000358.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-19T09:00:00.000Z",
       "approvedAt": "2026-05-19T10:58:52.830Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-performed-us-open-090000554.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-18T17:37:00.000Z",
       "approvedAt": "2026-05-18T19:43:14.837Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-18T16:00:00.000Z",
       "approvedAt": "2026-05-18T18:01:35.725Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-18T14:30:00.000Z",
       "approvedAt": "2026-05-18T15:19:58.315Z",
       "status": "Confirmed",
@@ -239,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T10:58:38.937Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -253,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-19T10:21:38.937Z",
       "status": "Trending",
       "signal": "Reddit find",
