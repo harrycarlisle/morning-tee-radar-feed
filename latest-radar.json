@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-19T18:01:53.385Z",
+  "updatedAt": "2026-05-19T21:15:44.737Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-05-19T19:49:18.000Z",
+      "approvedAt": "2026-05-19T21:15:44.734Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Golf Notes: Keeping track of LIV players in the majors is starting to get old",
+      "summary": "The PGA Championship was the 16th major since the launch of LIV Golf, and keeping score of those players' results is starting to get old.",
+      "quickRead": "After 16 majors since LIV launched, the point is that tracking LIV players’ major results has become routine: Jon Rahm barely made the Masters cut but finished runner-up at the PGA, Tyrrell Hatton tied for third at Augusta but missed the PGA cut, and Bryson DeChambeau missed the cut in both.  Cameron Smith snapped six straight missed-major cuts and said, “It feels great to play nice… you don’t work hard to play crap,” adding he’s encouraged heading to the U.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-19T16:00:00.000Z",
       "approvedAt": "2026-05-19T18:01:50.383Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/major-champion-withdraws-cj-cup-160000545.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-19T12:30:00.000Z",
       "approvedAt": "2026-05-19T14:51:04.780Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-19T09:00:00.000Z",
       "approvedAt": "2026-05-19T10:58:52.830Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/aaron-rai-figured-aronimink-rory-011500246.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-17T22:45:04.000Z",
-      "approvedAt": "2026-05-17T23:52:53.420Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Rory McIlroy has fan kicked out during PGA Championship final round after 16th...",
-      "summary": "Rory McIlroy failed to deliver on Sunday at the PGA Championship.",
-      "quickRead": "Rory McIlroy turned toward a heckler after his third shot at the par-5 16th went into a bunker and asked security to escort the fan off the property.  What the fan yelled hasn’t been confirmed—one suggestion was they shouted “USA”—and it happened during a frustrating final round at Aronimink as McIlroy faded from contention.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-fan-kicked-during-224504454.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fan-kicked-during-224504454.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T18:01:38.173Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T17:24:38.173Z",
       "status": "Trending",
       "signal": "Reddit find",
