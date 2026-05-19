@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-19T07:42:20.051Z",
+  "updatedAt": "2026-05-19T10:58:52.833Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-05-19T09:00:00.000Z",
+      "approvedAt": "2026-05-19T10:58:52.830Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Sergio Garcia performed in US Open qualifying as three LIV golfers earn their p...",
+      "summary": "Last year, Sergio Garcia ended his streak of 25-straight US Open appearances by failing to qualify for the event.",
+      "quickRead": "Sergio Garcia failed to qualify for the 2026 U. S.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/sergio-garcia-performed-us-open-090000554.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-performed-us-open-090000554.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "17 hours ago",
       "timestamp": "2026-05-18T17:37:00.000Z",
       "approvedAt": "2026-05-18T19:43:14.837Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-commentator-breaks-retirement-173700194.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-18T16:00:00.000Z",
       "approvedAt": "2026-05-18T18:01:35.725Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-18T14:30:00.000Z",
       "approvedAt": "2026-05-18T15:19:58.315Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-18T10:00:00.000Z",
       "approvedAt": "2026-05-18T11:48:20.446Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-18T01:15:00.000Z",
       "approvedAt": "2026-05-18T07:58:35.105Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-17T22:45:04.000Z",
       "approvedAt": "2026-05-17T23:52:53.420Z",
       "status": "Confirmed",
@@ -220,7 +239,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T07:42:06.558Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -234,7 +253,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T07:05:06.558Z",
       "status": "Trending",
       "signal": "Reddit find",
