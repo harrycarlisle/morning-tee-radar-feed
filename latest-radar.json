@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-19T21:15:47.084Z",
+  "updatedAt": "2026-05-19T23:00:11.006Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
+      "timestamp": "2026-05-19T17:39:27.000Z",
+      "approvedAt": "2026-05-19T23:00:11.003Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Running Late for a Flight May Have Cost this Former LIV Member a Spot in the U...",
+      "summary": "Eugenio Chacarra is battling for a PGA TOUR card through the DP World Tour.",
+      "quickRead": "Eugenio Chacarra quit his U. S.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-19T19:49:18.000Z",
       "approvedAt": "2026-05-19T21:15:44.734Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-19T16:00:00.000Z",
       "approvedAt": "2026-05-19T18:01:50.383Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-19T12:30:00.000Z",
       "approvedAt": "2026-05-19T14:51:04.780Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-19T09:00:00.000Z",
       "approvedAt": "2026-05-19T10:58:52.830Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/why-jon-rahm-pga-championship-100000018.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-18T01:15:00.000Z",
-      "approvedAt": "2026-05-18T07:58:35.105Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "What Aaron Rai figured out about Aronimink that Rory McIlroy shockingly didn’t",
-      "summary": "Aaron Rai just shocked the world by winning the PGA Championship, outclassing the best players on the planet in his final round.",
-      "quickRead": "Aaron Rai realized Aronimink only gives you real birdie chances if you hit the fairway, so he shelved driver for 3-wood/long irons to stay out of the rough, while Rory McIlroy kept “bash[ing] driver” and repeatedly missed into trouble.  Rai’s accuracy-led switch produced four back-nine birdies and the PGA win, and it’s a reminder that this major rewarded placement over power.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/aaron-rai-figured-aronimink-rory-011500246.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/aaron-rai-figured-aronimink-rory-011500246.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-19T21:15:31.636Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-19T20:38:31.636Z",
       "status": "Trending",
       "signal": "Reddit find",
