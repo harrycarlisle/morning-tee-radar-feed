@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-20T21:48:41.749Z",
+  "updatedAt": "2026-05-20T23:08:36.221Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "5 hours ago",
+      "timestamp": "2026-05-20T17:45:33.000Z",
+      "approvedAt": "2026-05-20T23:08:36.217Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "'A Nightmare': Bryson DeChambeau Shows Regret Over Spending Nearly $10M as LIV...",
+      "summary": "Bryson DeChambeau is one of the wealthiest golfers on the planet.",
+      "quickRead": "Bryson DeChambeau said the worst money he’s spent was on his custom house—“My house.  Not a question… Because it costs way too much… it’s been a bit of a nightmare”—a project valued around $10 million, and he also noted building a golf equipment company is “really expensive.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-05-20T16:18:42.000Z",
       "approvedAt": "2026-05-20T21:48:39.594Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-20T16:40:52.000Z",
       "approvedAt": "2026-05-20T17:19:47.434Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-20T09:30:00.000Z",
       "approvedAt": "2026-05-20T10:47:04.226Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-performed-us-open-090000554.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "2 days ago",
-      "timestamp": "2026-05-18T17:37:00.000Z",
-      "approvedAt": "2026-05-18T19:43:14.837Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "LIV Golf Commentator Breaks Retirement for DP World Tour As League Faces Financ...",
-      "summary": "After 24 years on the DP World Tour and more than 500 starts, with a career that took him from a wildcard Ryder Cup debut to three European Tour titles, Nicolas Colsaerts decided he was d...",
-      "quickRead": "Nicolas Colsaerts is coming out of retirement to play one final DP World Tour start at the 2026 Soudal Open in Belgium (May 21–24), saying, “I’m incredibly grateful… It makes sense to say goodbye here. ” He’s now a LIV Golf on-course reporter and hasn’t publicly linked the one-week return to LIV’s reported funding uncertainty, but it’s being billed as “Nico’s Last Dance” in front of his home crowd.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-commentator-breaks-retirement-173700194.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-commentator-breaks-retirement-173700194.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-20T21:48:26.502Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-20T21:11:26.502Z",
       "status": "Trending",
       "signal": "Reddit find",
