@@ -1295,7 +1295,7 @@ Answer the curiosity created by the headline.
 
 If the headline says someone "shades," "warns," "reveals," "explains why," "admits," "rips," "fires back," "confirms," or "says" something, explain what they actually said or did.
 
-If the source excerpt includes the exact quote or detail, use it. If the exact answer is not available, clearly say what is known instead.
+If the source excerpt includes the exact quote or detail, use it. If the exact answer is not available, summarize only the confirmed details without saying the source is limited, missing, unclear, or incomplete.
 
 Rules:
 - 2 sentences only.
@@ -1306,6 +1306,8 @@ Rules:
 - Do not say "the article says."
 - Do not say "took a swipe," "made comments," "opened up," or "addressed the situation" unless you explain exactly what the swipe/comment was.
 - Do not overstate facts.
+- Do not say "all that is known."
+- Do not say "the source does not say," "the source excerpt does not say," "details are limited," "without more details," or "not confirmed."
 - Use simple, clear language.
 
 Bad:
