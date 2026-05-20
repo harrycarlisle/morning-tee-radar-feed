@@ -1272,6 +1272,17 @@ function fallbackQuickRead(item) {
 
 function normalizeQuickRead(value, item) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
+  const brokenEndingPatterns = [
+  /\bU\.\s*S\.$/i,
+  /\bU\.$/i,
+  /\bthe U\.$/i,
+  /\bincluding the U\.$/i,
+  /\bpossibly including the U\.$/i
+];
+
+if (brokenEndingPatterns.some((pattern) => pattern.test(text))) {
+  return fallbackQuickRead(item);
+}
 
   if (!text) return fallbackQuickRead(item);
 
