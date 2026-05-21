@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-21T14:56:25.518Z",
+  "updatedAt": "2026-05-21T17:54:26.595Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-21T17:54:26.592Z",
+      "approvedAt": "2026-05-21T17:54:26.592Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Brooks Koepka wins THE CJ CUP Byron Nelson at -8",
+      "summary": "Brooks Koepka wins THE CJ CUP Byron Nelson at -8. Nearest finishers: Emiliano Grillo (-7), Keith Mitchell (-7), Si Woo Kim (-7).",
+      "quickRead": "Brooks Koepka won THE CJ CUP Byron Nelson at 8-under after opening with a bogey-free 63 at TPC Craig Ranch.  He finished one shot ahead of a four-way tie for second at 7-under—Emiliano Grillo, Keith Mitchell, Si Woo Kim, and Stephan Jaeger—setting up a big early FedExCup boost if he keeps this form through the rest of the week.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Brooks Koepka",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Emiliano Grillo",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Keith Mitchell",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-7",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Stephan Jaeger",
+          "score": "-7",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-21T10:30:00.000Z",
       "approvedAt": "2026-05-21T11:19:00.010Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-20T23:28:28.000Z",
       "approvedAt": "2026-05-21T02:51:37.756Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T17:45:33.000Z",
       "approvedAt": "2026-05-20T23:08:36.217Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T16:18:42.000Z",
       "approvedAt": "2026-05-20T21:48:39.594Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T16:40:52.000Z",
       "approvedAt": "2026-05-20T17:19:47.434Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "Yesterday",
+      "time": "2 days ago",
       "timestamp": "2026-05-19T17:39:27.000Z",
       "approvedAt": "2026-05-19T23:00:11.003Z",
       "status": "Confirmed",
@@ -204,25 +257,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
       "sourceUrl": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-19T19:49:18.000Z",
-      "approvedAt": "2026-05-19T21:15:44.734Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Golf Notes: Keeping track of LIV players in the majors is starting to get old",
-      "summary": "The PGA Championship was the 16th major since the launch of LIV Golf, and keeping score of those players' results is starting to get old.",
-      "quickRead": "After 16 majors since LIV launched, the point is that tracking LIV players’ major results has become routine: Jon Rahm barely made the Masters cut but finished runner-up at the PGA, Tyrrell Hatton tied for third at Augusta but missed the PGA cut, and Bryson DeChambeau missed the cut in both.  Cameron Smith snapped six straight missed-major cuts and said, “It feels great to play nice… you don’t work hard to play crap,” adding he’s encouraged heading to the U.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -260,18 +294,18 @@
     },
     {
       "label": "STORY TO WATCH",
-      "title": "Bryson DeChambeau Appears To Be Flirting With Early Retirement",
-      "summary": "Bryson DeChambeau said he’s “in that weird space” where he doesn’t know whether to focus on “content creation or professional golf,” adding he’d lo...",
-      "quickRead": "Bryson DeChambeau said he’s “in that weird space” where he doesn’t know whether to focus on “content creation or professional golf,” adding he’d love to triple his YouTube channel and “play tournaments that want me. ” The uncertainty comes after he shot 76-71 at the PGA Championship to miss the cut, with the U.",
+      "title": "Bryson DeChambeau claimed to have made statement which looks like awf...",
+      "summary": "Bryson DeChambeau said he’s “in that weird space right now” and “doesn’t know what to do,” weighing “content creation or professional golf,” and ha...",
+      "quickRead": "Bryson DeChambeau said he’s “in that weird space right now” and “doesn’t know what to do,” weighing “content creation or professional golf,” and has even floated doing YouTube full time while only playing the majors.  With his LIV deal expiring after this season and LIV scrambling for post-PIF funding, that uncertainty from its biggest star is a direct hit to Scott O’Neil’s effort to keep the league alive.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-20T16:18:42.000Z"
+      "timestamp": "2026-05-21T10:30:00.000Z"
     }
   ],
   "checking": {
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-21T14:56:06.731Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-21T14:19:06.732Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-21T14:56:24.028Z",
-      "approvedAt": "2026-05-21T14:56:24.028Z",
+      "timestamp": "2026-05-21T17:54:26.595Z",
+      "approvedAt": "2026-05-21T17:54:26.595Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Emiliano Grillo leads THE CJ CUP Byron Nelson at -5",
-      "summary": "Emiliano Grillo is -5 today and -5 overall through 10. Closest chasers: Keith Mitchell (-4), Brooks Koepka (-4), Si Woo Kim (-4).",
-      "quickRead": "Emiliano Grillo grabbed the early lead at THE CJ CUP Byron Nelson at 5-under par, reaching -5 through 10 holes in Round 1 at TPC Craig Ranch.  Keith Mitchell, Brooks Koepka, and Si Woo Kim were one shot back at -4 (all through nine), while Scottie Scheffler sat at -2 as the morning wave set the pace.",
+      "title": "Brooks Koepka wins THE CJ CUP Byron Nelson at -8",
+      "summary": "Brooks Koepka wins THE CJ CUP Byron Nelson at -8. Nearest finishers: Emiliano Grillo (-7), Keith Mitchell (-7), Si Woo Kim (-7).",
+      "quickRead": "Brooks Koepka won THE CJ CUP Byron Nelson at 8-under after opening with a bogey-free 63 at TPC Craig Ranch.  He finished one shot ahead of a four-way tie for second at 7-under—Emiliano Grillo, Keith Mitchell, Si Woo Kim, and Stephan Jaeger—setting up a big early FedExCup boost if he keeps this form through the rest of the week.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -343,33 +377,33 @@
       "leaders": [
         {
           "pos": "1",
+          "name": "Brooks Koepka",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
           "name": "Emiliano Grillo",
-          "score": "-5",
-          "thru": "10"
+          "score": "-7",
+          "thru": "F"
         },
         {
           "pos": "T2",
           "name": "Keith Mitchell",
-          "score": "-4",
-          "thru": "9"
-        },
-        {
-          "pos": "T2",
-          "name": "Brooks Koepka",
-          "score": "-4",
-          "thru": "9*"
+          "score": "-7",
+          "thru": "F"
         },
         {
           "pos": "T2",
           "name": "Si Woo Kim",
-          "score": "-4",
-          "thru": "9*"
+          "score": "-7",
+          "thru": "F*"
         },
         {
-          "pos": "T5",
-          "name": "Doug Ghim",
-          "score": "-3",
-          "thru": "10"
+          "pos": "T2",
+          "name": "Stephan Jaeger",
+          "score": "-7",
+          "thru": "F*"
         }
       ]
     }
