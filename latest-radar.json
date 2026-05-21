@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-21T17:54:31.382Z",
+  "updatedAt": "2026-05-21T19:48:18.791Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "4 hours ago",
+      "timestamp": "2026-05-21T15:20:00.000Z",
+      "approvedAt": "2026-05-21T19:48:18.788Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "CJ Cup Byron Nelson scoreboard live updates: Will Scottie Scheffler repeat?",
+      "summary": "The CJ Cup Byron Nelson faces rain delays, raising questions about Scottie Scheffler's repeat bid.",
+      "quickRead": "At 11 a. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-scoreboard-152000613.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-scoreboard-152000613.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-21T10:30:00.000Z",
       "approvedAt": "2026-05-21T11:19:00.010Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-20T23:28:28.000Z",
       "approvedAt": "2026-05-21T02:51:37.756Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T17:45:33.000Z",
       "approvedAt": "2026-05-20T23:08:36.217Z",
       "status": "Confirmed",
@@ -132,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T16:18:42.000Z",
       "approvedAt": "2026-05-20T21:48:39.594Z",
       "status": "Confirmed",
@@ -151,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-20T16:40:52.000Z",
       "approvedAt": "2026-05-20T17:19:47.434Z",
       "status": "Confirmed",
@@ -189,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "Yesterday",
+      "time": "2 days ago",
       "timestamp": "2026-05-19T17:39:27.000Z",
       "approvedAt": "2026-05-19T23:00:11.003Z",
       "status": "Confirmed",
@@ -204,25 +223,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
       "sourceUrl": "https://sports.yahoo.com/articles/running-flight-may-cost-former-173927615.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-19T19:49:18.000Z",
-      "approvedAt": "2026-05-19T21:15:44.734Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Golf Notes: Keeping track of LIV players in the majors is starting to get old",
-      "summary": "The PGA Championship was the 16th major since the launch of LIV Golf, and keeping score of those players' results is starting to get old.",
-      "quickRead": "After 16 majors since LIV launched, the point is that tracking LIV players’ major results has become routine: Jon Rahm barely made the Masters cut but finished runner-up at the PGA, Tyrrell Hatton tied for third at Augusta but missed the PGA cut, and Bryson DeChambeau missed the cut in both.  Cameron Smith snapped six straight missed-major cuts and said, “It feels great to play nice… you don’t work hard to play crap,” adding he’s encouraged heading to the U.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-21T17:54:07.054Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-21T17:17:07.054Z",
       "status": "Trending",
       "signal": "Reddit find",
