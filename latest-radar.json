@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-21T11:19:03.841Z",
+  "updatedAt": "2026-05-21T14:56:21.566Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "49 min ago",
+      "time": "Just now",
+      "timestamp": "2026-05-21T14:56:21.563Z",
+      "approvedAt": "2026-05-21T14:56:21.563Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Emiliano Grillo leads THE CJ CUP Byron Nelson at -5",
+      "summary": "Emiliano Grillo is -5 today and -5 overall through 10. Closest chasers: Keith Mitchell (-4), Brooks Koepka (-4), Si Woo Kim (-4).",
+      "quickRead": "Emiliano Grillo grabbed the early lead at THE CJ CUP Byron Nelson at 5-under par, reaching -5 through 10 holes in Round 1 at TPC Craig Ranch.  Keith Mitchell, Brooks Koepka, and Si Woo Kim were one shot back at -4 (all through nine), while Scottie Scheffler sat at -2 as the morning wave set the pace.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Emiliano Grillo",
+          "score": "-5",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Keith Mitchell",
+          "score": "-4",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Brooks Koepka",
+          "score": "-4",
+          "thru": "9*"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-4",
+          "thru": "9*"
+        },
+        {
+          "pos": "T5",
+          "name": "Doug Ghim",
+          "score": "-3",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-21T10:30:00.000Z",
       "approvedAt": "2026-05-21T11:19:00.010Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-20T23:28:28.000Z",
       "approvedAt": "2026-05-21T02:51:37.756Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-20T17:45:33.000Z",
       "approvedAt": "2026-05-20T23:08:36.217Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-20T16:18:42.000Z",
       "approvedAt": "2026-05-20T21:48:39.594Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-20T16:40:52.000Z",
       "approvedAt": "2026-05-20T17:19:47.434Z",
       "status": "Confirmed",
@@ -172,43 +225,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/golf-notes-keeping-track-liv-194918267.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-19T16:00:00.000Z",
-      "approvedAt": "2026-05-19T18:01:50.383Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Major champion withdraws from CJ Cup Byron Nelson with PGA Tour winner named as...",
-      "summary": "The PGA Tour heads to TPC Craig Ranch for the CJ Cup Byron Nelson this week.",
-      "quickRead": "Newly crowned PGA Champion Aaron Rai formally withdrew from this week’s CJ Cup Byron Nelson, and the PGA Tour listed S. Y.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/major-champion-withdraws-cj-cup-160000545.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/major-champion-withdraws-cj-cup-160000545.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "STAR WATCH",
-      "title": "Scheffler counts on home comforts in CJ Cup title defense",
-      "summary": "Scottie Scheffler said being back home in the Dallas area for his CJ Cup Byron Nelson title defense lets him reset after a rough putting week at Ar...",
-      "quickRead": "Scottie Scheffler said being back home in the Dallas area for his CJ Cup Byron Nelson title defense lets him reset after a rough putting week at Aronimink, and with two kids now he can’t spend as much time at the course because “it’s more important for me to get home in a timely manner now. ” He won here last year by eight at TPC Craig Ranch, and with the greens now “much more interesting,” he’s looking to restart the putter he says has actually been the best of his career this season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
-      "timestamp": "2026-05-20T23:28:28.000Z"
-    },
     {
       "label": "LIV WATCH",
       "title": "Bryson DeChambeau claimed to have made statement which looks like awf...",
@@ -223,6 +242,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-05-21T10:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Scheffler counts on home comforts in CJ Cup title defense",
+      "summary": "Scottie Scheffler said being back home in the Dallas area for his CJ Cup Byron Nelson title defense lets him reset after a rough putting week at Ar...",
+      "quickRead": "Scottie Scheffler said being back home in the Dallas area for his CJ Cup Byron Nelson title defense lets him reset after a rough putting week at Aronimink, and with two kids now he can’t spend as much time at the course because “it’s more important for me to get home in a timely manner now. ” He won here last year by eight at TPC Craig Ranch, and with the greens now “much more interesting,” he’s looking to restart the putter he says has actually been the best of his career this season.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
+      "timestamp": "2026-05-20T23:28:28.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-21T11:18:42.850Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-21T10:41:42.850Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -288,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-21T11:19:02.394Z",
-      "approvedAt": "2026-05-21T11:19:02.394Z",
+      "timestamp": "2026-05-21T14:56:21.566Z",
+      "approvedAt": "2026-05-21T14:56:21.566Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -",
-      "summary": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -. Nearest finishers: S.Y. Noh (-), Doug Ghim (-), Tom Kim (-).",
-      "quickRead": "Emiliano Grillo won THE CJ CUP Byron Nelson at TPC Craig Ranch in McKinney, Texas, finishing ahead of S. Y.",
+      "title": "Emiliano Grillo leads THE CJ CUP Byron Nelson at -5",
+      "summary": "Emiliano Grillo is -5 today and -5 overall through 10. Closest chasers: Keith Mitchell (-4), Brooks Koepka (-4), Si Woo Kim (-4).",
+      "quickRead": "Emiliano Grillo grabbed the early lead at THE CJ CUP Byron Nelson at 5-under par, reaching -5 through 10 holes in Round 1 at TPC Craig Ranch.  Keith Mitchell, Brooks Koepka, and Si Woo Kim were one shot back at -4 (all through nine), while Scottie Scheffler sat at -2 as the morning wave set the pace.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -308,33 +342,33 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "-",
+          "pos": "1",
           "name": "Emiliano Grillo",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "S.Y. Noh",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Doug Ghim",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Tom Kim",
-          "score": "-",
+          "score": "-5",
           "thru": "10"
         },
         {
-          "pos": "-",
-          "name": "Cameron Champ",
-          "score": "-",
+          "pos": "T2",
+          "name": "Keith Mitchell",
+          "score": "-4",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Brooks Koepka",
+          "score": "-4",
+          "thru": "9*"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-4",
+          "thru": "9*"
+        },
+        {
+          "pos": "T5",
+          "name": "Doug Ghim",
+          "score": "-3",
           "thru": "10"
         }
       ]
