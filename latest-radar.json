@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-21T02:51:39.732Z",
+  "updatedAt": "2026-05-21T07:45:10.100Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-21T07:45:10.097Z",
+      "approvedAt": "2026-05-21T07:45:10.097Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -",
+      "summary": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -. Nearest finishers: S.Y. Noh (-), Doug Ghim (-), Tom Kim (-).",
+      "quickRead": "Emiliano Grillo won THE CJ CUP Byron Nelson at TPC Craig Ranch in McKinney, Texas, beating S. Y.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Emiliano Grillo",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "S.Y. Noh",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Doug Ghim",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Tom Kim",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Cameron Champ",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-05-20T23:28:28.000Z",
       "approvedAt": "2026-05-21T02:51:37.756Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-20T17:45:33.000Z",
       "approvedAt": "2026-05-20T23:08:36.217Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-20T16:18:42.000Z",
       "approvedAt": "2026-05-20T21:48:39.594Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-20T16:40:52.000Z",
       "approvedAt": "2026-05-20T17:19:47.434Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-20T09:30:00.000Z",
       "approvedAt": "2026-05-20T10:47:04.226Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/major-champion-withdraws-cj-cup-160000545.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-19T12:30:00.000Z",
-      "approvedAt": "2026-05-19T14:51:04.780Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "YOUTUBE",
-      "title": "Rick Shiels angry with TV coverage of Bryson DeChambeau at the PGA Championship...",
-      "summary": "Bryson DeChambeau had a disastrous PGA Championship.",
-      "quickRead": "Rick Shiels said the PGA Championship broadcast was “reveling” in Bryson DeChambeau struggling—“It was like they were laughing at him”—and unfairly replayed his bad shots while not showing similar lowlights from players like Max Homa.  He argued Sky Sports and others “love to pick on” LIV players’ mistakes, a claim colored by Shiels being a paid LIV ambassador as DeChambeau missed the cut at Aronimink.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rick-shiels-angry-tv-coverage-123000358.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rick-shiels-angry-tv-coverage-123000358.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -225,19 +259,19 @@
       "timestamp": "2026-05-20T16:40:52.000Z"
     },
     {
-      "label": "STORY TO WATCH",
-      "title": "Bryson DeChambeau Appears To Be Flirting With Early Retirement",
-      "summary": "Bryson DeChambeau said he’s “in that weird space” where he doesn’t know whether to focus on “content creation or professional golf,” adding he’d lo...",
-      "quickRead": "Bryson DeChambeau said he’s “in that weird space” where he doesn’t know whether to focus on “content creation or professional golf,” adding he’d love to triple his YouTube channel and “play tournaments that want me. ” The uncertainty comes after he shot 76-71 at the PGA Championship to miss the cut, with the U.",
+      "label": "MAJOR WATCH",
+      "title": "What Aaron Rai was seen doing at The Masters when Rory McIlroy was ma...",
+      "summary": "Aaron Rai was on the Augusta National putting green practicing—even though his week was already over—when Rory McIlroy and Cameron Young walked fro...",
+      "quickRead": "Aaron Rai was on the Augusta National putting green practicing—even though his week was already over—when Rory McIlroy and Cameron Young walked from the 9th green to the 10th tee on Sunday.  The moment was shared as another example of Rai’s relentless work habits (like his four-foot putting drill and meticulous equipment routines) after he turned that grind into a breakthrough PGA Championship win at Aronimink.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
+      "url": "https://sports.yahoo.com/articles/aaron-rai-seen-doing-masters-093000844.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/aaron-rai-seen-doing-masters-093000844.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-20T16:18:42.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "timestamp": "2026-05-20T09:30:00.000Z"
     }
   ],
   "checking": {
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-21T02:51:22.620Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-21T02:14:22.620Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -285,5 +319,59 @@
       "quickRead": "A golfer posted that their course is now selling an oversized “internet” hot dog at the turn—loaded with toppings and served as a serious upgrade from the standard turn dog.  The post blew up on r/golf because it looks like a full meal between nines, and it’s the kind of over-the-top snack other courses may copy if golfers keep sharing it."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-05-21T07:45:10.100Z",
+      "approvedAt": "2026-05-21T07:45:10.100Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -",
+      "summary": "Emiliano Grillo wins THE CJ CUP Byron Nelson at -. Nearest finishers: S.Y. Noh (-), Doug Ghim (-), Tom Kim (-).",
+      "quickRead": "Emiliano Grillo won THE CJ CUP Byron Nelson at TPC Craig Ranch in McKinney, Texas, beating S. Y.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Emiliano Grillo",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "S.Y. Noh",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Doug Ghim",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Tom Kim",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Cameron Champ",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ]
 }
