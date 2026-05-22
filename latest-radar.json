@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T07:41:40.849Z",
+  "updatedAt": "2026-05-22T10:46:35.677Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "11 hours ago",
+      "timestamp": "2026-05-21T23:15:24.000Z",
+      "approvedAt": "2026-05-22T10:46:35.674Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "‘I fell short of that': Garrick Higgo caddie blames himself for PGA rules penalty",
+      "summary": "Garrick Higgo's caddie at the PGA Championship, Austin Gaugert, blamed himself for a costly rules penalty that led to Higgo's missed cut.",
+      "quickRead": "Garrick Higgo’s caddie, Austin Gaugert, said Higgo’s two-stroke penalty for being late to his PGA Championship tee time was on him: “As a caddie, you try to do everything you can to prepare your player for competition and I fell short of that. ” Higgo arrived at 7:19 for a 7:18 tee time, shot 69 anyway but missed the cut by one, and the pair split afterward with Higgo switching caddies at the Byron Nelson.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-05-21T20:24:52.000Z",
       "approvedAt": "2026-05-22T07:41:37.459Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -94,7 +113,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -147,7 +166,7 @@
       ]
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-21T15:30:00.000Z",
       "approvedAt": "2026-05-21T21:24:47.235Z",
       "status": "Confirmed",
@@ -166,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-21T15:20:00.000Z",
       "approvedAt": "2026-05-21T19:48:18.788Z",
       "status": "Confirmed",
@@ -185,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -238,7 +257,7 @@
       ]
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T10:30:00.000Z",
       "approvedAt": "2026-05-21T11:19:00.010Z",
       "status": "Confirmed",
@@ -274,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-20T17:45:33.000Z",
-      "approvedAt": "2026-05-20T23:08:36.217Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "'A Nightmare': Bryson DeChambeau Shows Regret Over Spending Nearly $10M as LIV...",
-      "summary": "Bryson DeChambeau is one of the wealthiest golfers on the planet.",
-      "quickRead": "Bryson DeChambeau said the worst money he’s spent was on his custom house—“My house.  Not a question… Because it costs way too much… it’s been a bit of a nightmare”—a project valued around $10 million, and he also noted building a golf equipment company is “really expensive.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T07:40:24.431Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T07:03:24.431Z",
       "status": "Trending",
       "signal": "Reddit find",
