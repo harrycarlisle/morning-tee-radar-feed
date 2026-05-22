@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T19:28:56.677Z",
+  "updatedAt": "2026-05-22T21:06:56.600Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-22T21:06:56.597Z",
+      "approvedAt": "2026-05-22T21:06:56.597Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -16",
+      "summary": "Si Woo Kim is -9 today and -16 overall through 12. Closest chasers: Sungjae Im (-13), Kensei Hirata (-13), Jordan Spieth (-12).",
+      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 16-under par, going 9-under on his round and reaching -16 through 12 holes.  Sungjae Im and Kensei Hirata are tied for second at -13, with Jordan Spieth one shot back at -12, as Kim’s hot start has opened a three-shot cushion with plenty of holes left for the chase.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-16",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Kensei Hirata",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Jordan Spieth",
+          "score": "-12",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Tyler Duncan",
+          "score": "-12",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-05-22T14:54:48.000Z",
       "approvedAt": "2026-05-22T19:28:53.080Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/thats-false-rumor-pga-tour-145448004.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T17:48:51.813Z",
       "approvedAt": "2026-05-22T17:48:51.813Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-22T14:30:51.164Z",
       "approvedAt": "2026-05-22T14:30:51.164Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "20 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-21T23:15:24.000Z",
       "approvedAt": "2026-05-22T10:46:35.674Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T20:24:52.000Z",
       "approvedAt": "2026-05-22T07:41:37.459Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -238,7 +291,7 @@
       ]
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -308,25 +361,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-21T15:20:00.000Z",
-      "approvedAt": "2026-05-21T19:48:18.788Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "CJ Cup Byron Nelson scoreboard live updates: Will Scottie Scheffler repeat?",
-      "summary": "The CJ Cup Byron Nelson faces rain delays, raising questions about Scottie Scheffler's repeat bid.",
-      "quickRead": "At 11 a. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-scoreboard-152000613.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-scoreboard-152000613.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-22T19:28:39.283Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-22T18:51:39.283Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +458,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-22T19:28:55.240Z",
-      "approvedAt": "2026-05-22T19:28:55.240Z",
+      "timestamp": "2026-05-22T21:06:56.600Z",
+      "approvedAt": "2026-05-22T21:06:56.600Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads THE CJ CUP Byron Nelson at -13",
-      "summary": "Sungjae Im is -10 today and -13 overall through F*. Closest chasers: Kensei Hirata (-13), Jordan Spieth (-12), Tyler Duncan (-12).",
-      "quickRead": "Sungjae Im holds the lead at THE CJ CUP Byron Nelson at 13-under after a second-round 61 (10-under on the day) at TPC Craig Ranch.  He’s tied with Kensei Hirata at -13, with Jordan Spieth and Tyler Duncan one back at -12, setting up a tight weekend chase with big names like Scottie Scheffler and Tony Finau at -7.",
+      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -16",
+      "summary": "Si Woo Kim is -9 today and -16 overall through 12. Closest chasers: Sungjae Im (-13), Kensei Hirata (-13), Jordan Spieth (-12).",
+      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 16-under par, going 9-under on his round and reaching -16 through 12 holes.  Sungjae Im and Kensei Hirata are tied for second at -13, with Jordan Spieth one shot back at -12, as Kim’s hot start has opened a three-shot cushion with plenty of holes left for the chase.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -444,33 +478,33 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-16",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
           "name": "Sungjae Im",
           "score": "-13",
           "thru": "F*"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Kensei Hirata",
           "score": "-13",
           "thru": "F*"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Jordan Spieth",
           "score": "-12",
           "thru": "F*"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Tyler Duncan",
           "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Taylor Moore",
-          "score": "-11",
           "thru": "F"
         }
       ]
