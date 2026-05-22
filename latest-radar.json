@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T10:46:38.505Z",
+  "updatedAt": "2026-05-22T14:30:51.167Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "11 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-22T14:30:51.164Z",
+      "approvedAt": "2026-05-22T14:30:51.164Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Taylor Moore leads THE CJ CUP Byron Nelson at -10",
+      "summary": "Taylor Moore is -1 today and -10 overall through 5. Closest chasers: Kensei Hirata (-9), Tyler Duncan (-8), Jesper Svensson (-8).",
+      "quickRead": "Taylor Moore grabbed the early lead at THE CJ CUP Byron Nelson by shooting 62 and sitting at 9-under through four holes in Round 1, tied with Kensei Hirata (9-under through three).  Tyler Duncan and Jesper Svensson were one back at 8-under, with Brooks Koepka also at 8-under after a 63, as the low-scoring start at TPC Craig Ranch tightened the race.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Taylor Moore",
+          "score": "-10",
+          "thru": "5"
+        },
+        {
+          "pos": "2",
+          "name": "Kensei Hirata",
+          "score": "-9",
+          "thru": "3*"
+        },
+        {
+          "pos": "T3",
+          "name": "Tyler Duncan",
+          "score": "-8",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Jesper Svensson",
+          "score": "-8",
+          "thru": "3"
+        },
+        {
+          "pos": "T3",
+          "name": "Brooks Koepka",
+          "score": "-8",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "15 hours ago",
       "timestamp": "2026-05-21T23:15:24.000Z",
       "approvedAt": "2026-05-22T10:46:35.674Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-21T20:24:52.000Z",
       "approvedAt": "2026-05-22T07:41:37.459Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -113,7 +166,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "19 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-21T15:30:00.000Z",
       "approvedAt": "2026-05-21T21:24:47.235Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-21T15:20:00.000Z",
       "approvedAt": "2026-05-21T19:48:18.788Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-20T23:28:28.000Z",
-      "approvedAt": "2026-05-21T02:51:37.756Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scheffler counts on home comforts in CJ Cup title defense",
-      "summary": "As Scottie Scheffler's life continues to evolve on and off the course the world number one was happy to be home this week to defend his title at the PGA Tour CJ Cup Byron Nelson in Mckinn...",
-      "quickRead": "Scottie Scheffler said being back home in the Dallas area for his CJ Cup Byron Nelson title defense lets him reset after a rough putting week at Aronimink, and with two kids now he can’t spend as much time at the course because “it’s more important for me to get home in a timely manner now. ” He won here last year by eight at TPC Craig Ranch, and with the greens now “much more interesting,” he’s looking to restart the putter he says has actually been the best of his career this season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-counts-home-comforts-cj-232828671.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T10:46:24.251Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-22T10:09:24.251Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-22T10:46:37.421Z",
-      "approvedAt": "2026-05-22T10:46:37.421Z",
+      "timestamp": "2026-05-22T14:30:51.167Z",
+      "approvedAt": "2026-05-22T14:30:51.167Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Taylor Moore wins THE CJ CUP Byron Nelson at -9",
-      "summary": "Taylor Moore wins THE CJ CUP Byron Nelson at -9. Nearest finishers: Brooks Koepka (-8), Jesper Svensson (-8), Emiliano Grillo (-7).",
-      "quickRead": "Taylor Moore won THE CJ CUP Byron Nelson at TPC Craig Ranch by one shot at 9-under par, opening with a 62 to beat Brooks Koepka and Jesper Svensson at 8-under.  Emiliano Grillo, Keith Mitchell, Si Woo Kim, Stephan Jaeger, and Michael Thorbjornsen were next at 7-under, giving Moore the early lead in the event’s first-round leaderboard.",
+      "title": "Taylor Moore leads THE CJ CUP Byron Nelson at -10",
+      "summary": "Taylor Moore is -1 today and -10 overall through 5. Closest chasers: Kensei Hirata (-9), Tyler Duncan (-8), Jesper Svensson (-8).",
+      "quickRead": "Taylor Moore grabbed the early lead at THE CJ CUP Byron Nelson by shooting 62 and sitting at 9-under through four holes in Round 1, tied with Kensei Hirata (9-under through three).  Tyler Duncan and Jesper Svensson were one back at 8-under, with Brooks Koepka also at 8-under after a 63, as the low-scoring start at TPC Craig Ranch tightened the race.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -412,32 +446,32 @@
         {
           "pos": "1",
           "name": "Taylor Moore",
+          "score": "-10",
+          "thru": "5"
+        },
+        {
+          "pos": "2",
+          "name": "Kensei Hirata",
           "score": "-9",
-          "thru": "F*"
+          "thru": "3*"
         },
         {
-          "pos": "T2",
-          "name": "Brooks Koepka",
+          "pos": "T3",
+          "name": "Tyler Duncan",
           "score": "-8",
-          "thru": "F*"
+          "thru": "5"
         },
         {
-          "pos": "T2",
+          "pos": "T3",
           "name": "Jesper Svensson",
           "score": "-8",
-          "thru": "F*"
+          "thru": "3"
         },
         {
-          "pos": "T4",
-          "name": "Emiliano Grillo",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "-7",
-          "thru": "F"
+          "pos": "T3",
+          "name": "Brooks Koepka",
+          "score": "-8",
+          "thru": "1"
         }
       ]
     }
