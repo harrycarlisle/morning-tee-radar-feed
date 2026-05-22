@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T02:51:55.658Z",
+  "updatedAt": "2026-05-22T07:41:37.462Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "11 hours ago",
+      "timestamp": "2026-05-21T20:24:52.000Z",
+      "approvedAt": "2026-05-22T07:41:37.459Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 CJ Cup Byron Nelson Friday tee times: Round 2 groupings",
+      "summary": "Full 2026 CJ Cup Byron Nelson tee times for Friday's second round at TPC Craig Ranch, featuring Brooks Koepka, Jordan Spieth and more.",
+      "quickRead": "Brooks Koepka, Scottie Scheffler and Si Woo Kim are paired again for Round 2 and tee off Friday at 1:43 p. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -128,7 +147,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-21T15:30:00.000Z",
       "approvedAt": "2026-05-21T21:24:47.235Z",
       "status": "Confirmed",
@@ -147,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-21T15:20:00.000Z",
       "approvedAt": "2026-05-21T19:48:18.788Z",
       "status": "Confirmed",
@@ -166,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -219,7 +238,7 @@
       ]
     },
     {
-      "time": "16 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-21T10:30:00.000Z",
       "approvedAt": "2026-05-21T11:19:00.010Z",
       "status": "Confirmed",
@@ -272,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
       "sourceUrl": "https://sports.yahoo.com/articles/nightmare-bryson-dechambeau-shows-regret-174533024.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-20T16:18:42.000Z",
-      "approvedAt": "2026-05-20T21:48:39.594Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "YOUTUBE",
-      "title": "Bryson DeChambeau Appears To Be Flirting With Early Retirement",
-      "summary": "It appears Bryson DeChambeau is scrambling for answers on and off the golf course.",
-      "quickRead": "Bryson DeChambeau said he’s “in that weird space” where he doesn’t know whether to focus on “content creation or professional golf,” adding he’d love to triple his YouTube channel and “play tournaments that want me. ” The uncertainty comes after he shot 76-71 at the PGA Championship to miss the cut, with the U.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-appears-flirting-early-161842958.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-22T02:51:44.707Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-22T02:14:44.707Z",
       "status": "Trending",
       "signal": "Reddit find",
