@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T14:30:55.157Z",
+  "updatedAt": "2026-05-22T17:48:51.815Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-22T17:48:51.813Z",
+      "approvedAt": "2026-05-22T17:48:51.813Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads THE CJ CUP Byron Nelson at -13",
+      "summary": "Sungjae Im is -10 today and -13 overall through F*. Closest chasers: Jordan Spieth (-12), Tyler Duncan (-12), Kensei Hirata (-12).",
+      "quickRead": "Sungjae Im leads THE CJ CUP Byron Nelson at 13-under after a second-round 61 and sits one shot clear of Jordan Spieth, with Tyler Duncan and Kensei Hirata another stroke back at 12-under.  With the cut line at 4-under and plenty of birdies available at TPC Craig Ranch, the weekend sets up as a tight shootout near the top of the board.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Jordan Spieth",
+          "score": "-12",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Tyler Duncan",
+          "score": "-12",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Kensei Hirata",
+          "score": "-12",
+          "thru": "15*"
+        },
+        {
+          "pos": "T5",
+          "name": "Mac Meissner",
+          "score": "-10",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T14:30:51.164Z",
       "approvedAt": "2026-05-22T14:30:51.164Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-21T23:15:24.000Z",
       "approvedAt": "2026-05-22T10:46:35.674Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-21T20:24:52.000Z",
       "approvedAt": "2026-05-22T07:41:37.459Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -219,7 +272,7 @@
       ]
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T15:30:00.000Z",
       "approvedAt": "2026-05-21T21:24:47.235Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T15:20:00.000Z",
       "approvedAt": "2026-05-21T19:48:18.788Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T14:56:21.563Z",
       "approvedAt": "2026-05-21T14:56:21.563Z",
       "status": "Live",
@@ -308,45 +361,11 @@
           "thru": "10"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-21T10:30:00.000Z",
-      "approvedAt": "2026-05-21T11:19:00.010Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Bryson DeChambeau claimed to have made statement which looks like awful news fo...",
-      "summary": "Bryson DeChambeau’s future has been a story that is central to the survival of LIV Golf.",
-      "quickRead": "Bryson DeChambeau said he’s “in that weird space right now” and “doesn’t know what to do,” weighing “content creation or professional golf,” and has even floated doing YouTube full time while only playing the majors.  With his LIV deal expiring after this season and LIV scrambling for post-PIF funding, that uncertainty from its biggest star is a direct hit to Scott O’Neil’s effort to keep the league alive.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-made-statement-103000070.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
-      "title": "Who most PGA Tour players would rather have back out of Bryson DeCham...",
-      "summary": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not e...",
-      "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-21T15:30:00.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
       "title": "Who most PGA Tour players would rather have back out of Bryson DeCham...",
       "summary": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not e...",
       "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
@@ -374,6 +393,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-05-21T22:45:33.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Who most PGA Tour players would rather have back out of Bryson DeCham...",
+      "summary": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not e...",
+      "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-21T15:30:00.000Z"
     }
   ],
   "checking": {
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T14:29:30.205Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T13:52:30.205Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +458,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-22T14:30:53.679Z",
-      "approvedAt": "2026-05-22T14:30:53.679Z",
+      "timestamp": "2026-05-22T17:48:51.815Z",
+      "approvedAt": "2026-05-22T17:48:51.815Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Taylor Moore leads THE CJ CUP Byron Nelson at -10",
-      "summary": "Taylor Moore is -1 today and -10 overall through 5. Closest chasers: Kensei Hirata (-9), Tyler Duncan (-8), Jesper Svensson (-8).",
-      "quickRead": "Taylor Moore grabbed the early lead at THE CJ CUP Byron Nelson by shooting 62 and sitting at 9-under through four holes in Round 1, tied with Kensei Hirata (9-under through three).  Tyler Duncan and Jesper Svensson were one back at 8-under, with Brooks Koepka also at 8-under after a 63, as the low-scoring start at TPC Craig Ranch tightened the race.",
+      "title": "Sungjae Im leads THE CJ CUP Byron Nelson at -13",
+      "summary": "Sungjae Im is -10 today and -13 overall through F*. Closest chasers: Jordan Spieth (-12), Tyler Duncan (-12), Kensei Hirata (-12).",
+      "quickRead": "Sungjae Im leads THE CJ CUP Byron Nelson at 13-under after a second-round 61 and sits one shot clear of Jordan Spieth, with Tyler Duncan and Kensei Hirata another stroke back at 12-under.  With the cut line at 4-under and plenty of birdies available at TPC Craig Ranch, the weekend sets up as a tight shootout near the top of the board.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -445,33 +479,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Taylor Moore",
-          "score": "-10",
-          "thru": "5"
+          "name": "Sungjae Im",
+          "score": "-13",
+          "thru": "F*"
         },
         {
-          "pos": "2",
-          "name": "Kensei Hirata",
-          "score": "-9",
-          "thru": "3*"
+          "pos": "T2",
+          "name": "Jordan Spieth",
+          "score": "-12",
+          "thru": "F*"
         },
         {
-          "pos": "T3",
+          "pos": "T2",
           "name": "Tyler Duncan",
-          "score": "-8",
-          "thru": "5"
+          "score": "-12",
+          "thru": "17"
         },
         {
-          "pos": "T3",
-          "name": "Jesper Svensson",
-          "score": "-8",
-          "thru": "3"
+          "pos": "T2",
+          "name": "Kensei Hirata",
+          "score": "-12",
+          "thru": "15*"
         },
         {
-          "pos": "T3",
-          "name": "Brooks Koepka",
-          "score": "-8",
-          "thru": "1"
+          "pos": "T5",
+          "name": "Mac Meissner",
+          "score": "-10",
+          "thru": "F*"
         }
       ]
     }
