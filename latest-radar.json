@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T21:06:59.743Z",
+  "updatedAt": "2026-05-22T22:53:44.755Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-22T22:53:44.752Z",
+      "approvedAt": "2026-05-22T22:53:44.753Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Si Woo Kim wins THE CJ CUP Byron Nelson at -18",
+      "summary": "Si Woo Kim wins THE CJ CUP Byron Nelson at -18. Nearest finishers: Sungjae Im (-13), Kensei Hirata (-13), Scottie Scheffler (-13).",
+      "quickRead": "Si Woo Kim won THE CJ CUP Byron Nelson at TPC Craig Ranch at 18-under, finishing five shots clear after rounds of 64 and 60.  Sungjae Im, Kensei Hirata, Scottie Scheffler, and Wyndham Clark tied for second at 13-under, while the win gives Kim an early-season boost in FedExCup points and momentum heading into the next PGA Tour stop.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Kensei Hirata",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Scottie Scheffler",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-05-22T21:06:56.597Z",
       "approvedAt": "2026-05-22T21:06:56.597Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-22T14:54:48.000Z",
       "approvedAt": "2026-05-22T19:28:53.080Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-22T17:48:51.813Z",
       "approvedAt": "2026-05-22T17:48:51.813Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-22T14:30:51.164Z",
       "approvedAt": "2026-05-22T14:30:51.164Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-21T23:15:24.000Z",
       "approvedAt": "2026-05-22T10:46:35.674Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -291,7 +344,7 @@
       ]
     },
     {
-      "time": "22 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-21T23:00:18.632Z",
       "approvedAt": "2026-05-21T23:00:18.632Z",
       "status": "Live",
@@ -342,43 +395,9 @@
           "thru": "F"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-21T15:30:00.000Z",
-      "approvedAt": "2026-05-21T21:24:47.235Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Who most PGA Tour players would rather have back out of Bryson DeChambeau and J...",
-      "summary": "The long-term futures of Bryson DeChambeau and Jon Rahm remain uncertain given the major concerns with LIV Golf.",
-      "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "Who most PGA Tour players would rather have back out of Bryson DeCham...",
-      "summary": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not e...",
-      "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-21T15:30:00.000Z"
-    },
     {
       "label": "CREATOR GOLF",
       "title": "'That's a False Rumor!': PGA Tour Pro Confirms Feelings About Bryson...",
@@ -408,6 +427,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-05-22T14:54:48.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Who most PGA Tour players would rather have back out of Bryson DeCham...",
+      "summary": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not e...",
+      "quickRead": "Most PGA Tour players would rather have Jon Rahm back than Bryson DeChambeau, with Alan Shipnuck saying players would “vote Rahm and it would not even be that close” because Rahm has more locker-room friends and “purists appreciate his game more. ” The contrast sharpened after the PGA Championship, where Rahm tied for second while DeChambeau missed the cut, as LIV’s future looks shakier with PIF funding ending after 2026.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/most-pga-tour-players-rather-153000866.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-21T15:30:00.000Z"
     }
   ],
   "checking": {
@@ -428,7 +462,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-22T21:05:44.644Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -442,7 +476,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-22T20:28:44.644Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -458,14 +492,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-22T21:06:58.624Z",
-      "approvedAt": "2026-05-22T21:06:58.624Z",
+      "timestamp": "2026-05-22T22:53:44.755Z",
+      "approvedAt": "2026-05-22T22:53:44.755Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -16",
-      "summary": "Si Woo Kim is -9 today and -16 overall through 12. Closest chasers: Sungjae Im (-13), Kensei Hirata (-13), Jordan Spieth (-12).",
-      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 16-under par, going 9-under on his round and reaching -16 through 12 holes.  Sungjae Im and Kensei Hirata are tied for second at -13, with Jordan Spieth one shot back at -12, as Kim’s hot start has opened a three-shot cushion with plenty of holes left for the chase.",
+      "title": "Si Woo Kim wins THE CJ CUP Byron Nelson at -18",
+      "summary": "Si Woo Kim wins THE CJ CUP Byron Nelson at -18. Nearest finishers: Sungjae Im (-13), Kensei Hirata (-13), Scottie Scheffler (-13).",
+      "quickRead": "Si Woo Kim won THE CJ CUP Byron Nelson at TPC Craig Ranch at 18-under, finishing five shots clear after rounds of 64 and 60.  Sungjae Im, Kensei Hirata, Scottie Scheffler, and Wyndham Clark tied for second at 13-under, while the win gives Kim an early-season boost in FedExCup points and momentum heading into the next PGA Tour stop.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -480,8 +514,8 @@
         {
           "pos": "1",
           "name": "Si Woo Kim",
-          "score": "-16",
-          "thru": "12"
+          "score": "-18",
+          "thru": "F"
         },
         {
           "pos": "T2",
@@ -496,15 +530,15 @@
           "thru": "F*"
         },
         {
-          "pos": "T4",
-          "name": "Jordan Spieth",
-          "score": "-12",
-          "thru": "F*"
+          "pos": "T2",
+          "name": "Scottie Scheffler",
+          "score": "-13",
+          "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Tyler Duncan",
-          "score": "-12",
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-13",
           "thru": "F"
         }
       ]
