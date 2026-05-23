@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-22T22:53:47.284Z",
+  "updatedAt": "2026-05-23T02:36:46.387Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "9 hours ago",
+      "timestamp": "2026-05-22T17:04:22.000Z",
+      "approvedAt": "2026-05-23T02:36:46.383Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Sungjae Im aces par-3 seventh, eagles last to share lead at CJ Cup Byron Nelson",
+      "summary": "Sungjae Im's hole-in-one on the par-3 7th hole put him into a three-way tie atop the leaderboard in Texas with Kensei Hirata and Jordan Spieth.",
+      "quickRead": "Sungjae Im made a hole-in-one on the par-3 7th and then eagled the par-5 9th to cap a second-round 61, reaching 13-under and sharing the 36-hole lead at THE CJ CUP Byron Nelson.  Im said of the ace, “I was surprised, but I hit a really good shot,” as he tied Kensei Hirata at 13-under while Jordan Spieth’s bogey-free 62 left him one back.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/im-aces-no-7-hole-170422058.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-7-hole-170422058.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T22:53:44.752Z",
       "approvedAt": "2026-05-22T22:53:44.753Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-22T21:06:56.597Z",
       "approvedAt": "2026-05-22T21:06:56.597Z",
       "status": "Live",
@@ -128,7 +147,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-22T14:54:48.000Z",
       "approvedAt": "2026-05-22T19:28:53.080Z",
       "status": "Confirmed",
@@ -147,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-22T17:48:51.813Z",
       "approvedAt": "2026-05-22T17:48:51.813Z",
       "status": "Live",
@@ -200,7 +219,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-22T14:30:51.164Z",
       "approvedAt": "2026-05-22T14:30:51.164Z",
       "status": "Live",
@@ -253,7 +272,7 @@
       ]
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-21T23:15:24.000Z",
       "approvedAt": "2026-05-22T10:46:35.674Z",
       "status": "Confirmed",
@@ -291,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-22T02:51:53.016Z",
       "approvedAt": "2026-05-22T02:51:53.016Z",
       "status": "Live",
@@ -328,59 +347,6 @@
           "name": "Jesper Svensson",
           "score": "-8",
           "thru": "F*"
-        },
-        {
-          "pos": "T4",
-          "name": "Emiliano Grillo",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "-7",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-05-21T23:00:18.632Z",
-      "approvedAt": "2026-05-21T23:00:18.632Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka leads THE CJ CUP Byron Nelson at -8",
-      "summary": "Brooks Koepka is -8 today and -8 overall through F*. Closest chasers: Taylor Moore (-8), Jesper Svensson (-8), Emiliano Grillo (-7).",
-      "quickRead": "Brooks Koepka posted an 8-under 63 to lead THE CJ CUP Byron Nelson after Round 1 at TPC Craig Ranch, tied with Taylor Moore and Jesper Svensson at -8.  Emiliano Grillo, Keith Mitchell, Si Woo Kim, Stephan Jaeger and Michael Thorbjornsen sit one back at -7, with Scottie Scheffler five off the pace at -5.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE CJ CUP Byron Nelson",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Brooks Koepka",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Taylor Moore",
-          "score": "-8",
-          "thru": "17*"
-        },
-        {
-          "pos": "T1",
-          "name": "Jesper Svensson",
-          "score": "-8",
-          "thru": "15*"
         },
         {
           "pos": "T4",
@@ -462,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-22T22:53:35.834Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -476,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-22T22:16:35.834Z",
       "status": "Trending",
       "signal": "Reddit find",
