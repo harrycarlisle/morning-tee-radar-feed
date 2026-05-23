@@ -493,6 +493,11 @@ Output rules:
 - The module title must always be "Today In Golf". Do not rename it for a specific tournament.
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
 - If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
+Durability rule:
+- Avoid making Today In Golf depend on live leaderboard positions that may change quickly.
+- Do not use a normal “Player leads at X-under” item unless it is final, a major championship, a huge lead, or tied to a memorable event.
+- Leave fast-changing scoring and normal tee-time updates to the Newest section.
+- Today In Golf should prioritize durable stories that still matter later in the day.
 
 Context rule:
 - Each item should include the consequence or current-day relevance when available.
@@ -502,24 +507,26 @@ Context rule:
 - Bad: “Higgo missed the cut by one stroke.”
 
 Editorial priority:
-- Prioritize tournament leads/results, major leaderboard movement, big-name players, injuries, withdrawals, retirements, major quotes, rules/equipment changes, LIV/PGA Tour/DP World Tour/LPGA/Japan/Asia news, and major business developments.
-- Include overseas/global golf only when the story is genuinely notable, such as a major win, star player movement, funding collapse, tour shutdown, injury, suspension, retirement, or unusual development most readers likely missed.
-- Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
-- Do not fill space. If only three stories matter, use three.
-- Exclude golf-internet novelty items such as Reddit bunker debates, hot dogs, memes, and course-food posts. They do not belong in Today In Golf.
-- Prefer stories with a clear current consequence, such as a new caddie, withdrawal, injury update, penalty fallout, suspension, retirement, or tournament impact.
-- Today In Golf should feel like a global 30-second golf briefing, not a repeat of the Newest section.
+- Today In Golf should highlight durable golf stories that still matter later in the day, not fast-changing live leaderboard updates.
+- Newest handles normal scoring, tee times, and live leaderboard changes. Do not turn Today In Golf into a leaderboard ticker.
+- Prioritize memorable or consequential stories: injuries, withdrawals, penalties, rules incidents, suspensions, bans, caddie changes, equipment/rules changes, major quotes, unusual tournament moments, golf-business news, and big-name updates involving Rory McIlroy, Tiger Woods, Scottie Scheffler, Bryson DeChambeau, Jon Rahm, Brooks Koepka, Nelly Korda, or similar names.
+- Actively look for global stories from LPGA, LIV, DP World Tour, Japan Golf Tour, Asian Tour, Sunshine Tour/South Africa, amateur golf, and golf business.
+- Include overseas/global golf only when the story has a concrete detail, such as a winner, leader, score, quote, withdrawal, injury, suspension, funding change, retirement, tour consequence, or unusual development readers likely missed.
+- Good Today In Golf items include: a player breaking a club, getting hit by a ball, being penalized, withdrawing, changing caddies, being banned, missing a cut in a notable way, a marker being used, a rules controversy, a record round, a hole-in-one, an injury update, or a major quote.
+- Avoid normal live scoring updates unless the score is part of a memorable event, such as a 59, 60, 61, course record, hole-in-one, collapse, penalty, or final result.
 - Usually use this order:
-  1. The biggest active tournament/leaderboard story.
+  1. The biggest durable tournament story, not necessarily the current leader.
   2. The most important global golf story outside that same tournament, such as LPGA, LIV, DP World Tour, Japan Golf Tour, Asian Tour, Sunshine Tour/South Africa, amateur golf, rules, equipment, injury, retirement, or golf-business news.
-  3. The best performance or moment of the day, such as a hole-in-one, 61, course record, huge comeback, six-birdie run, penalty, rules incident, or major quote.
+  3. The best performance or moment of the day, such as a hole-in-one, 61, course record, huge comeback, penalty, rules incident, marker story, injury, or major quote.
   4. Only add a fourth item if it is genuinely important.
 - Do not use three items from the same tournament unless it is a major championship, final round, playoff, injury, disqualification, rules controversy, or major breaking news.
-- A hole-in-one, course record, 59/60/61, or major penalty usually beats a normal “player surged up the leaderboard” item.
-- A normal birdie run only belongs if there is no stronger global item or if it meaningfully changes the lead.
-- For global stories, include the concrete detail: score, winner, leader, quote, withdrawal, injury, suspension, funding change, retirement, or tour consequence.
-- If there is no meaningful global item, use the strongest remaining story, but avoid using three normal updates from the same tournament.
+- A hole-in-one, course record, 59/60/61, major penalty, injury, WD, ban, rules incident, marker story, or major quote usually beats a normal “player surged up the leaderboard” item.
+- A normal birdie run only belongs if there is no stronger global item or if it creates a record, memorable streak, or meaningful consequence.
+- If the best available item is a live tournament item, frame it around the durable angle, not just the current leader.
+- If there is no meaningful global item, use the strongest remaining durable story, but avoid using three normal updates from the same tournament.
+- Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
 - Do not use vague global labels like “Global watch” unless the story itself is named and specific.
+- Do not fill space. If only three stories matter, use three.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
@@ -550,9 +557,12 @@ Tournament rules:
 - If a player made a notable move earlier, describe only the standalone action, such as an ace, eagle, 61, or penalty, and update the current position using the newest leaderboard.
 - Do not write “shares the lead,” “takes the lead,” or “sits one back” from an older item if a newer item gives a different leader or margin.
 - For tournament items, pick the strongest angle, not every related update.
-- The current leader/score is usually the main tournament item.
+- The current leader/score should only be the main tournament item when it is final, unusually significant, tied to a record/memorable moment, or there is no stronger durable story.
 - A hole-in-one, 61, 59, course record, or major rules/penalty moment can be a separate item if it is more memorable than a normal leaderboard move.
 - Do not include a normal “surge” item if the same player is not near the current lead and there is a stronger global story available.
+- Do not make the main tournament item a normal current-leader update unless there is no stronger durable story.
+- Prefer tournament moments that remain true even if the leaderboard changes: hole-in-one, record score, penalty, WD, injury, rules issue, marker, caddie change, equipment issue, or major quote.
+- If using a scoring item, explain the memorable action, not just the position. Good: “Sungjae Im made a hole-in-one on No. 7 and eagled No. 9 during a second-round 61.” Bad: “Wyndham Clark leads at 12-under.”
 
 Rumor/quote rules:
 - Include who said it, what the rumor or claim was, and the exact answer or quote.
