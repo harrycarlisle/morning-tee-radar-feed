@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-23T02:57:02.621Z",
+  "updatedAt": "2026-05-23T06:31:16.668Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "9 hours ago",
+      "time": "6 hours ago",
+      "timestamp": "2026-05-22T23:34:00.000Z",
+      "approvedAt": "2026-05-23T06:31:16.665Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Jordan Spieth's second-nine birdie spree leads to 62 at Byron Nelson",
+      "summary": "Jordan Spieth's six consecutive birdies to start his second nine at TPC Craig Ranch helped catapult the Texan up the leaderboard during Friday's second round.",
+      "quickRead": "Jordan Spieth shot a bogey-free 62 at TPC Craig Ranch, highlighted by six straight birdies to open his second nine (holes 1-6) and seven birdies on that side, saying “the hole started to look big. ” The surge got him to 12-under and briefly within a shot of the lead, but Si Woo Kim’s 60 dropped him to T-6, six back heading into the weekend.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/spieth-ties-byron-nelson-lead-165519589.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/spieth-ties-byron-nelson-lead-165519589.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "13 hours ago",
       "timestamp": "2026-05-22T17:04:22.000Z",
       "approvedAt": "2026-05-23T02:56:59.807Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-15-hole-170422244.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-22T15:17:07.000Z",
       "approvedAt": "2026-05-23T02:49:05.729Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-22T17:04:22.000Z",
       "approvedAt": "2026-05-23T02:36:46.383Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-22T22:53:44.752Z",
       "approvedAt": "2026-05-22T22:53:44.753Z",
       "status": "Live",
@@ -132,7 +151,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-22T21:06:56.597Z",
       "approvedAt": "2026-05-22T21:06:56.597Z",
       "status": "Live",
@@ -185,7 +204,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-22T14:54:48.000Z",
       "approvedAt": "2026-05-22T19:28:53.080Z",
       "status": "Confirmed",
@@ -204,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-22T17:48:51.813Z",
       "approvedAt": "2026-05-22T17:48:51.813Z",
       "status": "Live",
@@ -257,7 +276,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-22T14:30:51.164Z",
       "approvedAt": "2026-05-22T14:30:51.164Z",
       "status": "Live",
@@ -308,25 +327,6 @@
           "thru": "1"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-21T23:15:24.000Z",
-      "approvedAt": "2026-05-22T10:46:35.674Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "‘I fell short of that': Garrick Higgo caddie blames himself for PGA rules penalty",
-      "summary": "Garrick Higgo's caddie at the PGA Championship, Austin Gaugert, blamed himself for a costly rules penalty that led to Higgo's missed cut.",
-      "quickRead": "Garrick Higgo’s caddie, Austin Gaugert, said Higgo’s two-stroke penalty for being late to his PGA Championship tee time was on him: “As a caddie, you try to do everything you can to prepare your player for competition and I fell short of that. ” Higgo arrived at 7:19 for a 7:18 tee time, shot 69 anyway but missed the cut by one, and the pair split afterward with Higgo switching caddies at the Byron Nelson.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-23T02:56:47.705Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-23T02:19:47.705Z",
       "status": "Trending",
       "signal": "Reddit find",
