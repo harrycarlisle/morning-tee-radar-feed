@@ -187,7 +187,12 @@ function isBadStory(item) {
     /\bneeds review\b/i,
     /\bneeds_review\b/i,
     /\binvalid\b/i,
-    /\bblocked\b/i
+    /\bblocked\b/i,
+    /\bhot dog\b/i,
+    /\br\/golf\b/i,
+    /\breddit\b/i,
+    /\bmeme\b/i,
+    /\bviral joke\b/i
   ];
 
   return blockedPatterns.some((pattern) => pattern.test(text));
@@ -209,14 +214,12 @@ function buildStoryPool(data) {
   const liveLeaderboards = Array.isArray(data.liveLeaderboards) ? data.liveLeaderboards : [];
   const alsoMoving = Array.isArray(data.alsoMoving) ? data.alsoMoving : [];
   const weekRadar = Array.isArray(data.weekRadar || data.week_radar) ? (data.weekRadar || data.week_radar) : [];
-  const golfInternet = Array.isArray(data.golfInternet) ? data.golfInternet : [];
 
   const pool = [
     ...today,
     ...liveLeaderboards,
     ...alsoMoving,
-    ...weekRadar,
-    ...golfInternet
+    ...weekRadar
   ];
 
   const seen = new Map();
@@ -331,11 +334,29 @@ function cleanGeneratedText(value) {
     .trim();
 }
 
+function isLowValueBriefingItem(item) {
+  const text = `${item?.headline || ""} ${item?.text || ""}`.toLowerCase();
+
+  const lowValuePatterns = [
+    /\breddit\b/,
+    /\br\/golf\b/,
+    /\bhot dog\b/,
+    /\bmeme\b/,
+    /\bviral joke\b/,
+    /\bbunker debate\b/,
+    /\bfood post\b/,
+    /\bgolf internet\b/
+  ];
+
+  return lowValuePatterns.some((pattern) => pattern.test(text));
+}
+
 function cleanGeneratedItems(items) {
   if (!Array.isArray(items)) return [];
 
   return items
     .filter((item) => item && item.headline && item.text)
+    .filter((item) => !isLowValueBriefingItem(item))
     .slice(0, 4)
     .map((item) => ({
       headline: cleanGeneratedText(item.headline),
@@ -378,7 +399,7 @@ Product promise:
 A reader should understand the essential golf news in under 30 seconds.
 
 Output rules:
-- Return exactly 3 or 4 briefing items.
+- Return exactly 3 briefing items unless there are 4 genuinely essential stories.
 - Each item has a short headline, ideally 2 to 5 words.
 - Each item has one direct sentence.
 - Every sentence must give the answer, not tease the answer.
@@ -391,6 +412,12 @@ Output rules:
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
 - If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
 
+Editorial priority:
+- Prioritize tournament leads/results, major leaderboard movement, big-name players, injuries, withdrawals, retirements, major quotes, rules/equipment changes, LIV/PGA Tour/DP World Tour/LPGA/Japan/Asia news, and major business developments.
+- Include overseas/global golf only when the story is genuinely notable, such as a major win, star player movement, funding collapse, tour shutdown, injury, suspension, retirement, or unusual development most readers likely missed.
+- Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
+- Do not fill space. If only three stories matter, use three.
+
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
 - A player marked "F" means finished the round, not won the tournament.
@@ -399,8 +426,8 @@ Critical accuracy rule:
 
 Headline rules:
 - Name the story container, not just a vague player tease.
-- Good: "CJ CUP Byron Nelson", "Bryson rumor denied", "Friday tee times", "LPGA lead", "Japan Tour winner", "Golf internet".
-- Bad: "Bryson watch", "Round 2 is set", "Tournament update", "Next thing to know".
+- Good: "CJ CUP Byron Nelson", "Bryson rumor denied", "Friday tee times", "LPGA lead", "Japan Tour winner", "Higgo penalty".
+- Bad: "Bryson watch", "Round 2 is set", "Tournament update", "Next thing to know", "Golf internet".
 
 Tournament rules:
 - Include tournament name, leader, score, closest challenger if available, and one notable performance detail.
@@ -412,8 +439,8 @@ Rumor/quote rules:
 - Do not say "rumor picked up steam" or "rumors spread."
 
 Creator/internet rules:
-- Name the actual video, series, person, platform, quote, post, collab, or fan reaction.
-- Do not write "creator-golf buzz" or "content shift."
+- Only include creator or internet stories if they involve a major golf figure, a major platform shift, a confirmed project, a significant quote, or real consequences.
+- Do not include Reddit memes, funny posts, course food, generic viral debates, or low-stakes internet chatter.
 
 Avoid these phrases:
 - picked up steam
