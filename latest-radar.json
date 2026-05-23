@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-23T20:43:35.328Z",
+  "updatedAt": "2026-05-23T22:48:37.829Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-23T22:48:37.826Z",
+      "approvedAt": "2026-05-23T22:48:37.826Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Si Woo Kim wins THE CJ CUP Byron Nelson at -21",
+      "summary": "Si Woo Kim wins THE CJ CUP Byron Nelson at -21. Nearest finishers: Scottie Scheffler (-19), Wyndham Clark (-19), Stephan Jaeger (-17).",
+      "quickRead": "Si Woo Kim won THE CJ CUP Byron Nelson at TPC Craig Ranch at 21-under par, finishing two shots clear of Scottie Scheffler and Wyndham Clark, who tied for second at 19-under.  Kim closed with a 3-under 68 to seal the win, while Scheffler and Clark both shot 6-under 65 to apply late pressure.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Scottie Scheffler",
+          "score": "-19",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-19",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Stephan Jaeger",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tom Hoge",
+          "score": "-17",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-23T20:43:32.759Z",
       "approvedAt": "2026-05-23T20:43:32.760Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-23T19:03:43.918Z",
       "approvedAt": "2026-05-23T19:03:43.918Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-23T14:29:05.000Z",
       "approvedAt": "2026-05-23T16:55:51.399Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-23T14:57:12.667Z",
       "approvedAt": "2026-05-23T14:57:12.667Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-23T12:00:00.000Z",
       "approvedAt": "2026-05-23T13:15:14.161Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-22T23:34:00.000Z",
       "approvedAt": "2026-05-23T06:31:16.665Z",
       "status": "Confirmed",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-1-back-byron-151707976.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-22T17:04:22.000Z",
-      "approvedAt": "2026-05-23T02:36:46.383Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Sungjae Im aces par-3 seventh, eagles last to share lead at CJ Cup Byron Nelson",
-      "summary": "Sungjae Im's hole-in-one on the par-3 7th hole put him into a three-way tie atop the leaderboard in Texas with Kensei Hirata and Jordan Spieth.",
-      "quickRead": "Sungjae Im made a hole-in-one on the par-3 7th and then eagled the par-5 9th to cap a second-round 61, reaching 13-under and sharing the 36-hole lead at THE CJ CUP Byron Nelson.  Im said of the ace, “I was surprised, but I hit a really good shot,” as he tied Kensei Hirata at 13-under while Jordan Spieth’s bogey-free 62 left him one back.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/im-aces-no-7-hole-170422058.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-7-hole-170422058.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-23T20:43:22.921Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-23T20:06:22.921Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-23T20:43:34.465Z",
-      "approvedAt": "2026-05-23T20:43:34.465Z",
+      "timestamp": "2026-05-23T22:48:37.829Z",
+      "approvedAt": "2026-05-23T22:48:37.829Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads THE CJ CUP Byron Nelson at -19",
-      "summary": "Scottie Scheffler is -6 today and -19 overall through 13. Closest chasers: Wyndham Clark (-19), Si Woo Kim (-19), Stephan Jaeger (-17).",
-      "quickRead": "Scottie Scheffler is tied for the lead at 19-under, 6-under on his round through 13 holes at TPC Craig Ranch, alongside Wyndham Clark (also -19 through 13) and Si Woo Kim (-19 through 13).  Stephan Jaeger is two back at -17 after finishing his round, with several players still on the course chasing the three-way lead as Round 3 continues.",
+      "title": "Si Woo Kim wins THE CJ CUP Byron Nelson at -21",
+      "summary": "Si Woo Kim wins THE CJ CUP Byron Nelson at -21. Nearest finishers: Scottie Scheffler (-19), Wyndham Clark (-19), Stephan Jaeger (-17).",
+      "quickRead": "Si Woo Kim won THE CJ CUP Byron Nelson at TPC Craig Ranch at 21-under par, finishing two shots clear of Scottie Scheffler and Wyndham Clark, who tied for second at 19-under.  Kim closed with a 3-under 68 to seal the win, while Scheffler and Clark both shot 6-under 65 to apply late pressure.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,22 +444,22 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
           "name": "Scottie Scheffler",
           "score": "-19",
-          "thru": "13"
+          "thru": "F"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Wyndham Clark",
           "score": "-19",
-          "thru": "13"
-        },
-        {
-          "pos": "T1",
-          "name": "Si Woo Kim",
-          "score": "-19",
-          "thru": "13"
+          "thru": "F"
         },
         {
           "pos": "T4",
@@ -435,9 +469,9 @@
         },
         {
           "pos": "T4",
-          "name": "Zach Bauchou",
+          "name": "Tom Hoge",
           "score": "-17",
-          "thru": "16"
+          "thru": "F"
         }
       ]
     }
