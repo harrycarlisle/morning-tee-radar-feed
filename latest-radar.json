@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-23T02:36:48.933Z",
+  "updatedAt": "2026-05-23T02:49:05.731Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "11 hours ago",
+      "timestamp": "2026-05-22T15:17:07.000Z",
+      "approvedAt": "2026-05-23T02:49:05.729Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Brooks Koepka is 1 back at the Byron Nelson, with Scottie Scheffler lurking in...",
+      "summary": "Scottie Scheffler won’t be the wire-to-wire winner of his hometown CJ Cup Byron Nelson again this year.",
+      "quickRead": "Scottie Scheffler won’t be the wire-to-wire winner of his hometown CJ Cup Byron Nelson again this year. The key context is that this story connects to a current golf storyline, notable player, or tournament-week development.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-1-back-byron-151707976.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-1-back-byron-151707976.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "9 hours ago",
       "timestamp": "2026-05-22T17:04:22.000Z",
       "approvedAt": "2026-05-23T02:36:46.383Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-7-hole-170422058.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-05-22T22:53:44.752Z",
@@ -166,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-05-22T17:48:51.813Z",
       "approvedAt": "2026-05-22T17:48:51.813Z",
       "status": "Live",
@@ -308,59 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-05-22T02:51:53.016Z",
-      "approvedAt": "2026-05-22T02:51:53.016Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Taylor Moore wins THE CJ CUP Byron Nelson at -9",
-      "summary": "Taylor Moore wins THE CJ CUP Byron Nelson at -9. Nearest finishers: Brooks Koepka (-8), Jesper Svensson (-8), Emiliano Grillo (-7).",
-      "quickRead": "Taylor Moore won THE CJ CUP Byron Nelson at TPC Craig Ranch with a 9-under 62, finishing one shot clear at -9.  Brooks Koepka and Jesper Svensson tied for second at -8 after matching 63s, while Emiliano Grillo was part of a group at -7, setting Moore up as the early leader as the tournament continues.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE CJ CUP Byron Nelson",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Taylor Moore",
-          "score": "-9",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Brooks Koepka",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Jesper Svensson",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T4",
-          "name": "Emiliano Grillo",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "-7",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -428,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "12 min ago",
       "timestamp": "2026-05-23T02:36:35.376Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -442,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "49 min ago",
       "timestamp": "2026-05-23T01:59:35.376Z",
       "status": "Trending",
       "signal": "Reddit find",
