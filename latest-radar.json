@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-23T02:49:09.692Z",
+  "updatedAt": "2026-05-23T02:56:59.811Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "9 hours ago",
+      "timestamp": "2026-05-22T17:04:22.000Z",
+      "approvedAt": "2026-05-23T02:56:59.807Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Im aces No. 15 hole at CJ Cup Byron Nelson, ties Spieth and Hirata atop the lea...",
+      "summary": "Sungjae Im is tied atop the leaderboard in Texas.",
+      "quickRead": "Sungjae Im made a hole-in-one on the par-3 7th hole at TPC Craig Ranch—his third PGA Tour ace—to reach 11-under and tie Jordan Spieth and Kensei Hirata for the lead at the CJ Cup Byron Nelson.  Tyler Duncan soon joined the tie at 11-under, with Im and Spieth still finishing their second round and the projected cut sitting at 4-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/im-aces-no-15-hole-170422244.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-15-hole-170422244.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "11 hours ago",
       "timestamp": "2026-05-22T15:17:07.000Z",
       "approvedAt": "2026-05-23T02:49:05.729Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-1-back-byron-151707976.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "9 hours ago",
       "timestamp": "2026-05-22T17:04:22.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-22T22:53:44.752Z",
       "approvedAt": "2026-05-22T22:53:44.753Z",
       "status": "Live",
@@ -166,7 +185,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-22T14:54:48.000Z",
       "approvedAt": "2026-05-22T19:28:53.080Z",
       "status": "Confirmed",
@@ -308,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fell-short-garrick-higgo-caddie-231524183.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-21T20:24:52.000Z",
-      "approvedAt": "2026-05-22T07:41:37.459Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 CJ Cup Byron Nelson Friday tee times: Round 2 groupings",
-      "summary": "Full 2026 CJ Cup Byron Nelson tee times for Friday's second round at TPC Craig Ranch, featuring Brooks Koepka, Jordan Spieth and more.",
-      "quickRead": "Brooks Koepka, Scottie Scheffler and Si Woo Kim are paired again for Round 2 and tee off Friday at 1:43 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-202452520.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "7 min ago",
       "timestamp": "2026-05-23T02:49:04.424Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "44 min ago",
       "timestamp": "2026-05-23T02:12:04.424Z",
       "status": "Trending",
       "signal": "Reddit find",
