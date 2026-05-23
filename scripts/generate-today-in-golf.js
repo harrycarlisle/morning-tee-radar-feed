@@ -27,6 +27,7 @@ function writeJson(path, value) {
 function getETParts(date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
+    weekday: "short",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -38,6 +39,7 @@ function getETParts(date = new Date()) {
   const get = (type) => parts.find((part) => part.type === type)?.value || "";
 
   return {
+    weekday: get("weekday"),
     year: get("year"),
     month: get("month"),
     day: get("day"),
@@ -117,6 +119,54 @@ function getStoryText(item) {
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
+}
+
+function isTournamentFinalSafe(item) {
+  const nowET = getETParts();
+  const weekday = nowET.weekday;
+
+  const status = String(item?.status || "").toLowerCase();
+  const signal = String(item?.signal || "").toLowerCase();
+  const title = String(item?.title || "").toLowerCase();
+  const summary = String(item?.summary || "").toLowerCase();
+  const quickRead = String(item?.quickRead || "").toLowerCase();
+
+  const explicitlyFinal =
+    status === "final" ||
+    status === "complete" ||
+    status === "completed" ||
+    signal.includes("final result") ||
+    signal.includes("final leaderboard") ||
+    title.includes("final result") ||
+    title.includes("final leaderboard") ||
+    summary.includes("final result") ||
+    summary.includes("final leaderboard") ||
+    quickRead.includes("final result") ||
+    quickRead.includes("final leaderboard") ||
+    quickRead.includes("tournament is complete") ||
+    quickRead.includes("event is complete");
+
+  const isSundayOrMonday = weekday === "Sun" || weekday === "Mon";
+
+  return explicitlyFinal && isSundayOrMonday;
+}
+
+function removeUnsafeWinnerLanguage(value, item) {
+  let text = String(value || "");
+
+  if (isTournamentFinalSafe(item)) return text;
+
+  return text
+    .replace(/\bwins\b/gi, "leads")
+    .replace(/\bwon\b/gi, "leads")
+    .replace(/\bwinner\b/gi, "leader")
+    .replace(/\bchampion\b/gi, "leader")
+    .replace(/\bclaimed the title\b/gi, "moved into the lead")
+    .replace(/\bclaims the title\b/gi, "moves into the lead")
+    .replace(/\bfinishing five strokes ahead\b/gi, "sitting five strokes ahead")
+    .replace(/\bfinishing five shots clear\b/gi, "sitting five shots clear")
+    .replace(/\bfinished five strokes ahead\b/gi, "sits five strokes ahead")
+    .replace(/\bfinished five shots clear\b/gi, "sits five shots clear");
 }
 
 function isBadStory(item) {
@@ -240,12 +290,12 @@ function simplifyLeaders(leaders) {
 
 function simplifyStoryForPrompt(item) {
   return {
-    title: item.title || "",
+    title: removeUnsafeWinnerLanguage(item.title || "", item),
     label: item.label || item.category || item.signal || "",
     source: item.source || item.sourceName || "",
     url: item.sourceUrl || item.url || "",
-    summary: item.summary || "",
-    quickRead: item.quickRead || item.quickContext || item.modalSummary || "",
+    summary: removeUnsafeWinnerLanguage(item.summary || "", item),
+    quickRead: removeUnsafeWinnerLanguage(item.quickRead || item.quickContext || item.modalSummary || "", item),
     quote: item.keyQuote || item.quote || "",
     quoteAttribution: item.quoteAttribution || item.quoteByline || "",
     tournament: item.tournament || "",
@@ -253,6 +303,44 @@ function simplifyStoryForPrompt(item) {
     leaders: simplifyLeaders(item.leaders),
     publishedAt: item.publishedAt || item.timestamp || item.approvedAt || item.date || ""
   };
+}
+
+function cleanGeneratedText(value) {
+  let text = String(value || "");
+
+  const nowET = getETParts();
+  const safeToSayWon = nowET.weekday === "Sun" || nowET.weekday === "Mon";
+
+  if (!safeToSayWon) {
+    text = text
+      .replace(/\bwins\b/gi, "leads")
+      .replace(/\bwon\b/gi, "leads")
+      .replace(/\bwinner\b/gi, "leader")
+      .replace(/\bchampion\b/gi, "leader")
+      .replace(/\bclaimed the title\b/gi, "moved into the lead")
+      .replace(/\bclaims the title\b/gi, "moves into the lead")
+      .replace(/\bfinishing five strokes ahead\b/gi, "sitting five strokes ahead")
+      .replace(/\bfinishing five shots clear\b/gi, "sitting five shots clear")
+      .replace(/\bfinished five strokes ahead\b/gi, "sits five strokes ahead")
+      .replace(/\bfinished five shots clear\b/gi, "sits five shots clear");
+  }
+
+  return text
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.!?;:])/g, "$1")
+    .trim();
+}
+
+function cleanGeneratedItems(items) {
+  if (!Array.isArray(items)) return [];
+
+  return items
+    .filter((item) => item && item.headline && item.text)
+    .slice(0, 4)
+    .map((item) => ({
+      headline: cleanGeneratedText(item.headline),
+      text: cleanGeneratedText(item.text)
+    }));
 }
 
 async function generateBriefing(stories, edition) {
@@ -269,7 +357,7 @@ async function generateBriefing(stories, edition) {
       items: {
         type: "array",
         minItems: 3,
-        maxItems: 5,
+        maxItems: 4,
         items: {
           type: "object",
           additionalProperties: false,
@@ -284,13 +372,13 @@ async function generateBriefing(stories, edition) {
   };
 
   const systemPrompt = `
-You write Morning Tee's "Today in Golf" module.
+You write Morning Tee's "Today In Golf" module.
 
 Product promise:
 A reader should understand the essential golf news in under 30 seconds.
 
 Output rules:
-- Return exactly 3 to 5 briefing items.
+- Return exactly 3 or 4 briefing items.
 - Each item has a short headline, ideally 2 to 5 words.
 - Each item has one direct sentence.
 - Every sentence must give the answer, not tease the answer.
@@ -299,9 +387,15 @@ Output rules:
 - If a story lacks enough detail, skip it.
 - Prefer quickRead, leaders, tournament, quotes, and source fields over generic titles.
 - Do not include stale duplicate leaderboard updates from the same tournament if a newer leaderboard item exists.
-- The module title must always be "Today in Golf". Do not rename it for a specific tournament.
+- The module title must always be "Today In Golf". Do not rename it for a specific tournament.
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
-- If the final result is available, prioritize the result and skip earlier tee-time items from that tournament.
+- If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
+
+Critical accuracy rule:
+- Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
+- A player marked "F" means finished the round, not won the tournament.
+- If it is Thursday, Friday, or Saturday, rewrite winner language as "leads," "finished the round at," or "sits at."
+- If unsure, use "leads" instead of "wins."
 
 Headline rules:
 - Name the story container, not just a vague player tease.
@@ -310,7 +404,7 @@ Headline rules:
 
 Tournament rules:
 - Include tournament name, leader, score, closest challenger if available, and one notable performance detail.
-- If the story says a player won, say won only if the source says final or won and the leader has thru "F".
+- If the story says a player won, say won only if the source clearly says the tournament is final and complete.
 - If tee times are the story, include exact tee times for the leader or big names if available. Do not just say tee times are out.
 
 Rumor/quote rules:
@@ -335,7 +429,7 @@ Avoid these phrases:
 - next thing to know
 
 The top summary must be exactly:
-A 30-second briefing on the biggest stories across golf today.
+A 30-second briefing on today’s biggest golf stories.
 
 CTA must be:
 See all stories →
@@ -344,6 +438,7 @@ See all stories →
   const userPrompt = JSON.stringify({
     edition,
     label,
+    currentEasternTime: getETParts(),
     stories: stories.map(simplifyStoryForPrompt)
   }, null, 2);
 
@@ -403,7 +498,7 @@ async function main() {
   const currentTodayJson = readJson(TODAY_PATH, null);
 
   if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, finalEdition)) {
-    console.log(`Today in Golf already generated for ${finalEdition} today. Skipping.`);
+    console.log(`Today In Golf already generated for ${finalEdition} today. Skipping.`);
     return;
   }
 
@@ -416,6 +511,12 @@ async function main() {
   }
 
   const generated = await generateBriefing(storiesForEdition, finalEdition);
+  const cleanedItems = cleanGeneratedItems(generated.items);
+
+  if (cleanedItems.length < 3) {
+    console.log("Generated briefing had fewer than 3 usable items. Keeping existing today-in-golf.json.");
+    return;
+  }
 
   const now = new Date();
   const output = {
@@ -423,11 +524,11 @@ async function main() {
     lastUpdated: now.toISOString(),
     edition: finalEdition,
     label: getLabel(finalEdition),
-    title: "Today in Golf",
-    summary: "A 30-second briefing on the biggest stories across golf today.",
-    items: generated.items,
+    title: "Today In Golf",
+    summary: "A 30-second briefing on today’s biggest golf stories.",
+    items: cleanedItems,
     url: "https://www.morningtee.com/search",
-    cta: generated.cta || "See all stories →"
+    cta: "See all stories →"
   };
 
   writeJson(TODAY_PATH, output);
