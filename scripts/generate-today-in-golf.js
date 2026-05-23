@@ -193,6 +193,14 @@ function isBadStory(item) {
     /\breddit\b/i,
     /\bmeme\b/i,
     /\bviral joke\b/i
+    /\bbunker debate\b/i,
+   /\bbiggest bunker\b/i,
+   /\bsand area\b/i,
+   /\bwaste area\b/i,
+   /\br\/golf\b/i,
+   /\breddit\b/i,
+   /\bhot dog\b/i,
+   /\bmeme\b/i   
   ];
 
   return blockedPatterns.some((pattern) => pattern.test(text));
@@ -417,6 +425,7 @@ Editorial priority:
 - Include overseas/global golf only when the story is genuinely notable, such as a major win, star player movement, funding collapse, tour shutdown, injury, suspension, retirement, or unusual development most readers likely missed.
 - Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
 - Do not fill space. If only three stories matter, use three.
+- Exclude golf-internet novelty items such as Reddit bunker debates, hot dogs, memes, and course-food posts. They do not belong in Today In Golf.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
@@ -433,6 +442,9 @@ Tournament rules:
 - Include tournament name, leader, score, closest challenger if available, and one notable performance detail.
 - If the story says a player won, say won only if the source clearly says the tournament is final and complete.
 - If tee times are the story, include exact tee times for the leader or big names if available. Do not just say tee times are out.
+- Never describe an older leaderboard state as current if a newer leaderboard item from the same tournament exists.
+- If a player made a notable move earlier, describe only the standalone action, such as an ace, eagle, 61, or penalty, and update the current position using the newest leaderboard.
+- Do not write “shares the lead,” “takes the lead,” or “sits one back” from an older item if a newer item gives a different leader or margin.
 
 Rumor/quote rules:
 - Include who said it, what the rumor or claim was, and the exact answer or quote.
