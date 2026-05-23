@@ -49,7 +49,7 @@ function getETParts(date = new Date()) {
   };
 }
 
-function getEditionNow() {
+function getEditionNow(currentTodayJson = null) {
   if (
     MANUAL_EDITION === "morning" ||
     MANUAL_EDITION === "midday" ||
@@ -60,9 +60,21 @@ function getEditionNow() {
 
   const et = getETParts();
 
-  if (et.hour === 8) return "morning";
-  if (et.hour === 12) return "midday";
-  if (et.hour === 20) return "evening";
+  // Catch-up windows:
+  // 8:00 AM to 11:59 AM ET = morning
+  // 12:00 PM to 7:59 PM ET = midday
+  // 8:00 PM to 11:59 PM ET = evening
+  if (et.hour >= 8 && et.hour < 12) {
+    if (!hasAlreadyRun(currentTodayJson, "morning")) return "morning";
+  }
+
+  if (et.hour >= 12 && et.hour < 20) {
+    if (!hasAlreadyRun(currentTodayJson, "midday")) return "midday";
+  }
+
+  if (et.hour >= 20) {
+    if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
+  }
 
   return null;
 }
@@ -600,17 +612,17 @@ See all stories →
 }
 
 async function main() {
-  const edition = getEditionNow();
+  const radarData = readJson(RADAR_PATH, {});
+  const currentTodayJson = readJson(TODAY_PATH, null);
+
+  const edition = getEditionNow(currentTodayJson);
 
   if (!edition && !FORCE_RUN) {
-    console.log("Not noon or 8 PM ET. Skipping.");
+    console.log("No eligible Today In Golf edition window found. Skipping.");
     return;
   }
 
   const finalEdition = edition || "morning";
-
-  const radarData = readJson(RADAR_PATH, {});
-  const currentTodayJson = readJson(TODAY_PATH, null);
 
   if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, finalEdition)) {
     console.log(`Today In Golf already generated for ${finalEdition} today. Skipping.`);
