@@ -283,16 +283,37 @@ function filterStoriesForEdition(stories, edition) {
     if (!timestamp) return false;
 
     const itemET = getETParts(new Date(timestamp));
-    if (itemET.dateKey !== nowET.dateKey) return false;
+    return itemET.dateKey === nowET.dateKey;
+  });
 
-    if (edition === "morning") return itemET.hour < 8;
-    if (edition === "midday") return itemET.hour < 12;
+  const recentWindowStories = todaysStories.filter((item) => {
+    const timestamp = getItemTimestamp(item);
+    if (!timestamp) return false;
+
+    const itemET = getETParts(new Date(timestamp));
+
+    if (edition === "morning") {
+      return itemET.hour >= 0 && itemET.hour < 12;
+    }
+
+    if (edition === "midday") {
+      return itemET.hour >= 8 && itemET.hour < 20;
+    }
+
+    if (edition === "evening") {
+      return itemET.hour >= 12;
+    }
+
     return true;
   });
 
-  if (todaysStories.length >= 3) return todaysStories.slice(0, 14);
+  const primaryStories = recentWindowStories.length >= 3
+    ? recentWindowStories
+    : todaysStories;
 
-  return stories.slice(0, 14);
+  if (primaryStories.length >= 3) return primaryStories.slice(0, 16);
+
+  return stories.slice(0, 16);
 }
 
 function hasAlreadyRun(todayJson, edition) {
