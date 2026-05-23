@@ -453,12 +453,20 @@ Output rules:
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
 - If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
 
+Context rule:
+- Each item should include the consequence or current-day relevance when available.
+- Do not stop at what happened if the source includes what changed next.
+- For caddie, injury, penalty, withdrawal, retirement, suspension, equipment, or rules stories, include the immediate consequence.
+- Good: “Higgo is using a new caddie at the Byron Nelson.”
+- Bad: “Higgo missed the cut by one stroke.”
+
 Editorial priority:
 - Prioritize tournament leads/results, major leaderboard movement, big-name players, injuries, withdrawals, retirements, major quotes, rules/equipment changes, LIV/PGA Tour/DP World Tour/LPGA/Japan/Asia news, and major business developments.
 - Include overseas/global golf only when the story is genuinely notable, such as a major win, star player movement, funding collapse, tour shutdown, injury, suspension, retirement, or unusual development most readers likely missed.
 - Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
 - Do not fill space. If only three stories matter, use three.
 - Exclude golf-internet novelty items such as Reddit bunker debates, hot dogs, memes, and course-food posts. They do not belong in Today In Golf.
+- Prefer stories with a clear current consequence, such as a new caddie, withdrawal, injury update, penalty fallout, suspension, retirement, or tournament impact.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
