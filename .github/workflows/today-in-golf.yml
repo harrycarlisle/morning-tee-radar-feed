@@ -2,34 +2,37 @@ name: Update Today in Golf
 
 on:
   schedule:
-    - cron: "5,20,35,50 * * * *"
+    # Runs every hour. The script itself only generates at 8 AM, 12 PM, and 8 PM ET.
+    # This avoids daylight saving time issues because the script checks America/New_York time.
+    - cron: "0 * * * *"
+
   workflow_dispatch:
     inputs:
       edition:
-        description: "Which edition to generate"
+        description: "Edition to generate"
         required: true
-        default: "evening"
+        default: "auto"
         type: choice
         options:
           - auto
+          - morning
           - midday
           - evening
+      force_run:
+        description: "Force update even if this edition already ran today"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
 
 permissions:
   contents: write
 
-concurrency:
-  group: today-in-golf
-  cancel-in-progress: false
-
 jobs:
   update-today-in-golf:
     runs-on: ubuntu-latest
-
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      MANUAL_EDITION: ${{ github.event.inputs.edition || 'auto' }}
-      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
 
     steps:
       - name: Check out repo
@@ -38,20 +41,23 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
       - name: Generate Today in Golf
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MANUAL_EDITION: ${{ github.event.inputs.edition || 'auto' }}
+          FORCE_RUN: ${{ github.event.inputs.force_run || 'false' }}
         run: node scripts/generate-today-in-golf.js
 
-      - name: Commit changes
+      - name: Commit updated briefing
         run: |
-          if git diff --quiet today-in-golf.json; then
-            echo "No changes to commit."
-            exit 0
+          if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add today-in-golf.json
+            git commit -m "Update Today in Golf"
+            git push
+          else
+            echo "No today-in-golf.json changes to commit."
           fi
-
-          git config user.name "Morning Tee Bot"
-          git config user.email "actions@github.com"
-          git add today-in-golf.json
-          git commit -m "Update Today in Golf"
-          git push
