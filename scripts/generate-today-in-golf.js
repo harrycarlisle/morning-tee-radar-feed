@@ -299,6 +299,9 @@ Output rules:
 - If a story lacks enough detail, skip it.
 - Prefer quickRead, leaders, tournament, quotes, and source fields over generic titles.
 - Do not include stale duplicate leaderboard updates from the same tournament if a newer leaderboard item exists.
+- The module title must always be "Today in Golf". Do not rename it for a specific tournament.
+- Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
+- If the final result is available, prioritize the result and skip earlier tee-time items from that tournament.
 
 Headline rules:
 - Name the story container, not just a vague player tease.
@@ -420,7 +423,7 @@ async function main() {
     lastUpdated: now.toISOString(),
     edition: finalEdition,
     label: getLabel(finalEdition),
-    title: generated.title || "Today in Golf",
+    title: "Today in Golf",
     summary: "A 30-second briefing on the biggest stories across golf today.",
     items: generated.items,
     url: "https://www.morningtee.com/search",
