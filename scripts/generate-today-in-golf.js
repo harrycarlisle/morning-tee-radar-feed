@@ -50,12 +50,17 @@ function getETParts(date = new Date()) {
 }
 
 function getEditionNow() {
-  if (MANUAL_EDITION === "midday" || MANUAL_EDITION === "evening") {
+  if (
+    MANUAL_EDITION === "morning" ||
+    MANUAL_EDITION === "midday" ||
+    MANUAL_EDITION === "evening"
+  ) {
     return MANUAL_EDITION;
   }
 
   const et = getETParts();
 
+  if (et.hour === 8) return "morning";
   if (et.hour === 12) return "midday";
   if (et.hour === 20) return "evening";
 
@@ -63,7 +68,9 @@ function getEditionNow() {
 }
 
 function getLabel(edition) {
-  return edition === "midday" ? "Updated 12 PM ET" : "Updated 8 PM ET";
+  if (edition === "morning") return "Updated 8 AM ET";
+  if (edition === "midday") return "Updated 12 PM ET";
+  return "Updated 8 PM ET";
 }
 
 function getItemTimestamp(item) {
@@ -266,6 +273,7 @@ function filterStoriesForEdition(stories, edition) {
     const itemET = getETParts(new Date(timestamp));
     if (itemET.dateKey !== nowET.dateKey) return false;
 
+    if (edition === "morning") return itemET.hour < 8;
     if (edition === "midday") return itemET.hour < 12;
     return true;
   });
@@ -580,7 +588,7 @@ async function main() {
     return;
   }
 
-  const finalEdition = edition || "evening";
+  const finalEdition = edition || "morning";
 
   const radarData = readJson(RADAR_PATH, {});
   const currentTodayJson = readJson(TODAY_PATH, null);
