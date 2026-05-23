@@ -192,15 +192,12 @@ function isBadStory(item) {
     /\br\/golf\b/i,
     /\breddit\b/i,
     /\bmeme\b/i,
-    /\bviral joke\b/i
+    /\bviral joke\b/i,
     /\bbunker debate\b/i,
-   /\bbiggest bunker\b/i,
-   /\bsand area\b/i,
-   /\bwaste area\b/i,
-   /\br\/golf\b/i,
-   /\breddit\b/i,
-   /\bhot dog\b/i,
-   /\bmeme\b/i   
+    /\bbiggest bunker\b/i,
+    /\bsand area\b/i,
+    /\bwaste area\b/i,
+    /\bgolf internet\b/i
   ];
 
   return blockedPatterns.some((pattern) => pattern.test(text));
@@ -299,6 +296,32 @@ function simplifyLeaders(leaders) {
   }));
 }
 
+function getCurrentTournamentStates(stories) {
+  const states = {};
+
+  stories.forEach((item) => {
+    const tournament = String(item?.tournament || "").trim();
+    if (!tournament || !Array.isArray(item?.leaders) || !item.leaders.length) return;
+
+    const key = tournament.toLowerCase();
+    const timestamp = getItemTimestamp(item) || 0;
+    const existing = states[key];
+
+    if (!existing || timestamp > existing.timestamp) {
+      states[key] = {
+        tournament,
+        timestamp,
+        leaders: simplifyLeaders(item.leaders),
+        title: removeUnsafeWinnerLanguage(item.title || "", item),
+        summary: removeUnsafeWinnerLanguage(item.summary || "", item),
+        quickRead: removeUnsafeWinnerLanguage(item.quickRead || "", item)
+      };
+    }
+  });
+
+  return states;
+}
+
 function simplifyStoryForPrompt(item) {
   return {
     title: removeUnsafeWinnerLanguage(item.title || "", item),
@@ -337,6 +360,13 @@ function cleanGeneratedText(value) {
   }
 
   return text
+    .replace(/\bshare the lead\b/gi, "move near the lead")
+    .replace(/\bshares the lead\b/gi, "moves near the lead")
+    .replace(/\bshared the lead\b/gi, "moved near the lead")
+    .replace(/\bsharing the lead\b/gi, "moving near the lead")
+    .replace(/\btakes the lead\b/gi, "moves up the leaderboard")
+    .replace(/\btook the lead\b/gi, "moved up the leaderboard")
+    .replace(/\bsits one back\b/gi, "is chasing")
     .replace(/\s+/g, " ")
     .replace(/\s+([,.!?;:])/g, "$1")
     .trim();
@@ -352,6 +382,9 @@ function isLowValueBriefingItem(item) {
     /\bmeme\b/,
     /\bviral joke\b/,
     /\bbunker debate\b/,
+    /\bbiggest bunker\b/,
+    /\bsand area\b/,
+    /\bwaste area\b/,
     /\bfood post\b/,
     /\bgolf internet\b/
   ];
@@ -374,6 +407,7 @@ function cleanGeneratedItems(items) {
 
 async function generateBriefing(stories, edition) {
   const label = getLabel(edition);
+  const currentTournamentStates = getCurrentTournamentStates(stories);
 
   const schema = {
     type: "object",
@@ -415,7 +449,6 @@ Output rules:
 - Do not invent facts. Only use details found in the source stories.
 - If a story lacks enough detail, skip it.
 - Prefer quickRead, leaders, tournament, quotes, and source fields over generic titles.
-- Do not include stale duplicate leaderboard updates from the same tournament if a newer leaderboard item exists.
 - The module title must always be "Today In Golf". Do not rename it for a specific tournament.
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
 - If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
@@ -432,6 +465,13 @@ Critical accuracy rule:
 - A player marked "F" means finished the round, not won the tournament.
 - If it is Thursday, Friday, or Saturday, rewrite winner language as "leads," "finished the round at," or "sits at."
 - If unsure, use "leads" instead of "wins."
+
+Leaderboard consistency rule:
+- Use currentTournamentStates as the source of truth for the current leaderboard.
+- Never describe an older leaderboard state as current if currentTournamentStates gives a newer state from the same tournament.
+- If a player made a notable move earlier, describe only the standalone action, such as an ace, eagle, 61, or penalty, and use currentTournamentStates for the current position.
+- Do not write "shares the lead," "takes the lead," or "sits one back" from an older item if currentTournamentStates gives a different leader or margin.
+- If the current tournament state says another player is leading by multiple shots, do not say an older highlight player shares the lead.
 
 Headline rules:
 - Name the story container, not just a vague player tease.
@@ -478,6 +518,7 @@ See all stories →
     edition,
     label,
     currentEasternTime: getETParts(),
+    currentTournamentStates,
     stories: stories.map(simplifyStoryForPrompt)
   }, null, 2);
 
