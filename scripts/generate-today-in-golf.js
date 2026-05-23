@@ -475,6 +475,18 @@ Editorial priority:
 - Do not fill space. If only three stories matter, use three.
 - Exclude golf-internet novelty items such as Reddit bunker debates, hot dogs, memes, and course-food posts. They do not belong in Today In Golf.
 - Prefer stories with a clear current consequence, such as a new caddie, withdrawal, injury update, penalty fallout, suspension, retirement, or tournament impact.
+- Today In Golf should feel like a global 30-second golf briefing, not a repeat of the Newest section.
+- Usually use this order:
+  1. The biggest active tournament/leaderboard story.
+  2. The most important global golf story outside that same tournament, such as LPGA, LIV, DP World Tour, Japan Golf Tour, Asian Tour, Sunshine Tour/South Africa, amateur golf, rules, equipment, injury, retirement, or golf-business news.
+  3. The best performance or moment of the day, such as a hole-in-one, 61, course record, huge comeback, six-birdie run, penalty, rules incident, or major quote.
+  4. Only add a fourth item if it is genuinely important.
+- Do not use three items from the same tournament unless it is a major championship, final round, playoff, injury, disqualification, rules controversy, or major breaking news.
+- A hole-in-one, course record, 59/60/61, or major penalty usually beats a normal “player surged up the leaderboard” item.
+- A normal birdie run only belongs if there is no stronger global item or if it meaningfully changes the lead.
+- For global stories, include the concrete detail: score, winner, leader, quote, withdrawal, injury, suspension, funding change, retirement, or tour consequence.
+- If there is no meaningful global item, use the strongest remaining story, but avoid using three normal updates from the same tournament.
+- Do not use vague global labels like “Global watch” unless the story itself is named and specific.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
@@ -493,6 +505,9 @@ Headline rules:
 - Name the story container, not just a vague player tease.
 - Good: "CJ CUP Byron Nelson", "Bryson rumor denied", "Friday tee times", "LPGA lead", "Japan Tour winner", "Higgo penalty".
 - Bad: "Bryson watch", "Round 2 is set", "Tournament update", "Next thing to know", "Golf internet".
+- Use specific headlines, not category labels.
+- Good: "CJ CUP Byron Nelson", "LPGA lead", "LIV funding", "Japan Tour winner", "Im’s ace", "Higgo penalty".
+- Bad: "Global watch", "Around the world", "Tournament update", "Big move".
 
 Tournament rules:
 - Include tournament name, leader, score, closest challenger if available, and one notable performance detail.
@@ -501,6 +516,10 @@ Tournament rules:
 - Never describe an older leaderboard state as current if a newer leaderboard item from the same tournament exists.
 - If a player made a notable move earlier, describe only the standalone action, such as an ace, eagle, 61, or penalty, and update the current position using the newest leaderboard.
 - Do not write “shares the lead,” “takes the lead,” or “sits one back” from an older item if a newer item gives a different leader or margin.
+- For tournament items, pick the strongest angle, not every related update.
+- The current leader/score is usually the main tournament item.
+- A hole-in-one, 61, 59, course record, or major rules/penalty moment can be a separate item if it is more memorable than a normal leaderboard move.
+- Do not include a normal “surge” item if the same player is not near the current lead and there is a stronger global story available.
 
 Rumor/quote rules:
 - Include who said it, what the rumor or claim was, and the exact answer or quote.
