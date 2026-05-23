@@ -1,1 +1,57 @@
+name: Update Today in Golf
 
+on:
+  schedule:
+    - cron: "5,20,35,50 * * * *"
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: "Which edition to generate"
+        required: true
+        default: "evening"
+        type: choice
+        options:
+          - auto
+          - midday
+          - evening
+
+permissions:
+  contents: write
+
+concurrency:
+  group: today-in-golf
+  cancel-in-progress: false
+
+jobs:
+  update-today-in-golf:
+    runs-on: ubuntu-latest
+
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      MANUAL_EDITION: ${{ github.event.inputs.edition || 'auto' }}
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate Today in Golf
+        run: node scripts/generate-today-in-golf.js
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet today-in-golf.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "Morning Tee Bot"
+          git config user.email "actions@github.com"
+          git add today-in-golf.json
+          git commit -m "Update Today in Golf"
+          git push
