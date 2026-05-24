@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T02:48:33.461Z",
+  "updatedAt": "2026-05-24T06:57:13.878Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "8 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-24T03:39:53.000Z",
+      "approvedAt": "2026-05-24T06:57:13.875Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 CJ Cup Byron Nelson Sunday tee times: Round 4 pairings",
+      "summary": "2026 CJ Cup Byron Nelson tee times for Sunday's final round at TPC Craig Ranch, featuring Si Woo Kim, Scottie Scheffler and more.",
+      "quickRead": "Si Woo Kim and Scottie Scheffler are in the final group Sunday at TPC Craig Ranch, teeing off at 1:40 p. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-033953137.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-033953137.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "13 hours ago",
       "timestamp": "2026-05-23T17:48:36.000Z",
       "approvedAt": "2026-05-24T02:48:30.250Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-23T22:48:37.826Z",
       "approvedAt": "2026-05-23T22:48:37.826Z",
       "status": "Live",
@@ -94,7 +113,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-23T20:43:32.759Z",
       "approvedAt": "2026-05-23T20:43:32.760Z",
       "status": "Live",
@@ -147,7 +166,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-23T19:03:43.918Z",
       "approvedAt": "2026-05-23T19:03:43.918Z",
       "status": "Live",
@@ -200,7 +219,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-23T14:29:05.000Z",
       "approvedAt": "2026-05-23T16:55:51.399Z",
       "status": "Confirmed",
@@ -219,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-23T14:57:12.667Z",
       "approvedAt": "2026-05-23T14:57:12.667Z",
       "status": "Live",
@@ -272,7 +291,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-23T12:00:00.000Z",
       "approvedAt": "2026-05-23T13:15:14.161Z",
       "status": "Confirmed",
@@ -308,43 +327,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/spieth-ties-byron-nelson-lead-165519589.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-22T17:04:22.000Z",
-      "approvedAt": "2026-05-23T02:56:59.807Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Im aces No. 15 hole at CJ Cup Byron Nelson, ties Spieth and Hirata atop the lea...",
-      "summary": "Sungjae Im is tied atop the leaderboard in Texas.",
-      "quickRead": "Sungjae Im made a hole-in-one on the par-3 7th hole at TPC Craig Ranch—his third PGA Tour ace—to reach 11-under and tie Jordan Spieth and Kensei Hirata for the lead at the CJ Cup Byron Nelson.  Tyler Duncan soon joined the tie at 11-under, with Im and Spieth still finishing their second round and the projected cut sitting at 4-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/im-aces-no-15-hole-170422244.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/im-aces-no-15-hole-170422244.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "STORY TO WATCH",
-      "title": "Si Woo Kim Close to Surpassing Bryson DeChambeau’s PGA Tour Earnings",
-      "summary": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a w...",
-      "quickRead": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a win pays $1. 854 million (taking him to $37,669,901) and even second ($1.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-23T17:48:36.000Z"
-    },
     {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler One Win Away From Matching Tiger Woods Milestone at...",
@@ -359,6 +344,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-05-24T01:06:06.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Si Woo Kim Close to Surpassing Bryson DeChambeau’s PGA Tour Earnings",
+      "summary": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a w...",
+      "quickRead": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a win pays $1. 854 million (taking him to $37,669,901) and even second ($1.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-23T17:48:36.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-24T02:48:20.682Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-24T02:11:20.682Z",
       "status": "Trending",
       "signal": "Reddit find",
