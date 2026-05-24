@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T16:57:31.555Z",
+  "updatedAt": "2026-05-24T18:42:26.319Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-05-24T18:42:26.316Z",
+      "approvedAt": "2026-05-24T18:42:26.316Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads THE CJ CUP Byron Nelson at -22",
+      "summary": "Wyndham Clark is -3 today and -22 overall through 5. Closest chasers: Si Woo Kim (-22), Scottie Scheffler (-20), Johnny Keefer (-19).",
+      "quickRead": "Wyndham Clark was tied for the lead at 22-under, reaching -22 with a -3 round through five holes, while Si Woo Kim was also -22 through four.  Scottie Scheffler sat two back at -20 through four, with Johnny Keefer, Jackson Suber, and Tom Hoge at -19, setting up a tight closing stretch at TPC Craig Ranch.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Wyndham Clark",
+          "score": "-22",
+          "thru": "5"
+        },
+        {
+          "pos": "T1",
+          "name": "Si Woo Kim",
+          "score": "-22",
+          "thru": "4"
+        },
+        {
+          "pos": "3",
+          "name": "Scottie Scheffler",
+          "score": "-20",
+          "thru": "4"
+        },
+        {
+          "pos": "T4",
+          "name": "Johnny Keefer",
+          "score": "-19",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Jackson Suber",
+          "score": "-19",
+          "thru": "8"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-05-24T11:02:36.000Z",
       "approvedAt": "2026-05-24T14:59:49.446Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-leaderboard-110236650.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-24T11:45:25.000Z",
       "approvedAt": "2026-05-24T13:15:45.708Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-24T10:30:00.000Z",
       "approvedAt": "2026-05-24T11:12:53.589Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-23T22:58:56.000Z",
       "approvedAt": "2026-05-24T09:51:07.348Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-05-24T03:39:53.000Z",
       "approvedAt": "2026-05-24T06:57:13.875Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-23T17:48:36.000Z",
       "approvedAt": "2026-05-24T02:48:30.250Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-05-23T22:48:37.826Z",
       "approvedAt": "2026-05-23T22:48:37.826Z",
       "status": "Live",
@@ -189,7 +242,7 @@
       ]
     },
     {
-      "time": "20 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-05-23T20:43:32.759Z",
       "approvedAt": "2026-05-23T20:43:32.760Z",
       "status": "Live",
@@ -240,77 +293,9 @@
           "thru": "16"
         }
       ]
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-05-23T19:03:43.918Z",
-      "approvedAt": "2026-05-23T19:03:43.918Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -20",
-      "summary": "Si Woo Kim is -2 today and -20 overall through 7. Closest chasers: Tom Hoge (-17), Zach Bauchou (-16), Wyndham Clark (-16).",
-      "quickRead": "Si Woo Kim is the solo leader at 20-under par at TPC Craig Ranch, 2-under for his round through seven holes, with Tom Hoge three back at 17-under and Zach Bauchou, Wyndham Clark, and Sungjae Im four back at 16-under.  With Scottie Scheffler lurking at 15-under, Kim’s hot start keeps him in control but the chase pack is close enough that a couple birdies can flip the lead quickly.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE CJ CUP Byron Nelson",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Si Woo Kim",
-          "score": "-20",
-          "thru": "7"
-        },
-        {
-          "pos": "2",
-          "name": "Tom Hoge",
-          "score": "-17",
-          "thru": "9"
-        },
-        {
-          "pos": "T3",
-          "name": "Zach Bauchou",
-          "score": "-16",
-          "thru": "10"
-        },
-        {
-          "pos": "T3",
-          "name": "Wyndham Clark",
-          "score": "-16",
-          "thru": "8"
-        },
-        {
-          "pos": "T3",
-          "name": "Sungjae Im",
-          "score": "-16",
-          "thru": "7"
-        }
-      ]
     }
   ],
   "weekRadar": [
-    {
-      "label": "STORY TO WATCH",
-      "title": "Si Woo Kim Close to Surpassing Bryson DeChambeau’s PGA Tour Earnings",
-      "summary": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a w...",
-      "quickRead": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a win pays $1. 854 million (taking him to $37,669,901) and even second ($1.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-23T17:48:36.000Z"
-    },
     {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler One Win Away From Matching Tiger Woods Milestone at...",
@@ -325,6 +310,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-05-24T01:06:06.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Si Woo Kim Close to Surpassing Bryson DeChambeau’s PGA Tour Earnings",
+      "summary": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a w...",
+      "quickRead": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a win pays $1. 854 million (taking him to $37,669,901) and even second ($1.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-23T17:48:36.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T16:56:19.410Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-24T16:19:19.410Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-24T16:57:30.438Z",
-      "approvedAt": "2026-05-24T16:57:30.438Z",
+      "timestamp": "2026-05-24T18:42:26.320Z",
+      "approvedAt": "2026-05-24T18:42:26.320Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -21",
-      "summary": "Si Woo Kim is -21 overall through 1. Closest chasers: Scottie Scheffler (-19), Wyndham Clark (-19), Stephan Jaeger (-17).",
-      "quickRead": "Si Woo Kim holds the lead at 21-under at THE CJ CUP Byron Nelson, with Scottie Scheffler and Wyndham Clark two back at 19-under and Stephan Jaeger next at 17-under.  With the final round in progress at TPC Craig Ranch, Scheffler and Clark are the most immediate threats, and the top of the board is tight enough that a couple late birdies could flip the lead quickly.",
+      "title": "Wyndham Clark leads THE CJ CUP Byron Nelson at -22",
+      "summary": "Wyndham Clark is -3 today and -22 overall through 5. Closest chasers: Si Woo Kim (-22), Scottie Scheffler (-20), Johnny Keefer (-19).",
+      "quickRead": "Wyndham Clark was tied for the lead at 22-under, reaching -22 with a -3 round through five holes, while Si Woo Kim was also -22 through four.  Scottie Scheffler sat two back at -20 through four, with Johnny Keefer, Jackson Suber, and Tom Hoge at -19, setting up a tight closing stretch at TPC Craig Ranch.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,34 +410,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Si Woo Kim",
-          "score": "-21",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Scottie Scheffler",
-          "score": "-19",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
+          "pos": "T1",
           "name": "Wyndham Clark",
+          "score": "-22",
+          "thru": "5"
+        },
+        {
+          "pos": "T1",
+          "name": "Si Woo Kim",
+          "score": "-22",
+          "thru": "4"
+        },
+        {
+          "pos": "3",
+          "name": "Scottie Scheffler",
+          "score": "-20",
+          "thru": "4"
+        },
+        {
+          "pos": "T4",
+          "name": "Johnny Keefer",
           "score": "-19",
-          "thru": "1"
+          "thru": "17"
         },
         {
           "pos": "T4",
-          "name": "Stephan Jaeger",
-          "score": "-17",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Tom Hoge",
-          "score": "-17",
-          "thru": "1"
+          "name": "Jackson Suber",
+          "score": "-19",
+          "thru": "8"
         }
       ]
     }
