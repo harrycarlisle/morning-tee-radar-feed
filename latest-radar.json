@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T18:42:28.813Z",
+  "updatedAt": "2026-05-24T19:11:10.768Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-24T19:11:10.765Z",
+      "approvedAt": "2026-05-24T19:11:10.765Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -25",
+      "summary": "Si Woo Kim is -4 today and -25 overall through 7. Closest chasers: Wyndham Clark (-23), Jackson Suber (-21), Scottie Scheffler (-21).",
+      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 25-under par through seven holes of his final round (4-under today), with Wyndham Clark two back at 23-under through eight.  Scottie Scheffler and Jackson Suber are tied for third at 21-under, meaning Kim has a slim cushion with plenty of holes left at TPC Craig Ranch.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Si Woo Kim",
+          "score": "-25",
+          "thru": "7"
+        },
+        {
+          "pos": "2",
+          "name": "Wyndham Clark",
+          "score": "-23",
+          "thru": "8"
+        },
+        {
+          "pos": "T3",
+          "name": "Jackson Suber",
+          "score": "-21",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
+          "name": "Scottie Scheffler",
+          "score": "-21",
+          "thru": "7"
+        },
+        {
+          "pos": "T5",
+          "name": "Johnny Keefer",
+          "score": "-19",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "28 min ago",
       "timestamp": "2026-05-24T18:42:26.316Z",
       "approvedAt": "2026-05-24T18:42:26.316Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "8"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-24T11:02:36.000Z",
       "approvedAt": "2026-05-24T14:59:49.446Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-24T11:45:25.000Z",
       "approvedAt": "2026-05-24T13:15:45.708Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-23T22:58:56.000Z",
       "approvedAt": "2026-05-24T09:51:07.348Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-05-23T22:48:37.826Z",
       "approvedAt": "2026-05-23T22:48:37.826Z",
       "status": "Live",
@@ -238,59 +291,6 @@
           "name": "Tom Hoge",
           "score": "-17",
           "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-05-23T20:43:32.759Z",
-      "approvedAt": "2026-05-23T20:43:32.760Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads THE CJ CUP Byron Nelson at -19",
-      "summary": "Scottie Scheffler is -6 today and -19 overall through 13. Closest chasers: Wyndham Clark (-19), Si Woo Kim (-19), Stephan Jaeger (-17).",
-      "quickRead": "Scottie Scheffler is tied for the lead at 19-under, 6-under on his round through 13 holes at TPC Craig Ranch, alongside Wyndham Clark (also -19 through 13) and Si Woo Kim (-19 through 13).  Stephan Jaeger is two back at -17 after finishing his round, with several players still on the course chasing the three-way lead as Round 3 continues.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "THE CJ CUP Byron Nelson",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Scottie Scheffler",
-          "score": "-19",
-          "thru": "13"
-        },
-        {
-          "pos": "T1",
-          "name": "Wyndham Clark",
-          "score": "-19",
-          "thru": "13"
-        },
-        {
-          "pos": "T1",
-          "name": "Si Woo Kim",
-          "score": "-19",
-          "thru": "13"
-        },
-        {
-          "pos": "T4",
-          "name": "Stephan Jaeger",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Zach Bauchou",
-          "score": "-17",
-          "thru": "16"
         }
       ]
     }
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-05-24T18:41:19.414Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T18:04:19.414Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-24T18:42:27.905Z",
-      "approvedAt": "2026-05-24T18:42:27.905Z",
+      "timestamp": "2026-05-24T19:11:10.768Z",
+      "approvedAt": "2026-05-24T19:11:10.768Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads THE CJ CUP Byron Nelson at -22",
-      "summary": "Wyndham Clark is -3 today and -22 overall through 5. Closest chasers: Si Woo Kim (-22), Scottie Scheffler (-20), Johnny Keefer (-19).",
-      "quickRead": "Wyndham Clark was tied for the lead at 22-under, reaching -22 with a -3 round through five holes, while Si Woo Kim was also -22 through four.  Scottie Scheffler sat two back at -20 through four, with Johnny Keefer, Jackson Suber, and Tom Hoge at -19, setting up a tight closing stretch at TPC Craig Ranch.",
+      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -25",
+      "summary": "Si Woo Kim is -4 today and -25 overall through 7. Closest chasers: Wyndham Clark (-23), Jackson Suber (-21), Scottie Scheffler (-21).",
+      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 25-under par through seven holes of his final round (4-under today), with Wyndham Clark two back at 23-under through eight.  Scottie Scheffler and Jackson Suber are tied for third at 21-under, meaning Kim has a slim cushion with plenty of holes left at TPC Craig Ranch.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,34 +410,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
-          "name": "Wyndham Clark",
-          "score": "-22",
-          "thru": "5"
-        },
-        {
-          "pos": "T1",
+          "pos": "1",
           "name": "Si Woo Kim",
-          "score": "-22",
-          "thru": "4"
+          "score": "-25",
+          "thru": "7"
         },
         {
-          "pos": "3",
+          "pos": "2",
+          "name": "Wyndham Clark",
+          "score": "-23",
+          "thru": "8"
+        },
+        {
+          "pos": "T3",
+          "name": "Jackson Suber",
+          "score": "-21",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
           "name": "Scottie Scheffler",
-          "score": "-20",
-          "thru": "4"
+          "score": "-21",
+          "thru": "7"
         },
         {
-          "pos": "T4",
+          "pos": "T5",
           "name": "Johnny Keefer",
           "score": "-19",
-          "thru": "17"
-        },
-        {
-          "pos": "T4",
-          "name": "Jackson Suber",
-          "score": "-19",
-          "thru": "8"
+          "thru": "F"
         }
       ]
     }
