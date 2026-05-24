@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T23:43:30.540Z",
+  "updatedAt": "2026-05-24T23:54:53.551Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "45 min ago",
+      "timestamp": "2026-05-24T23:09:30.000Z",
+      "approvedAt": "2026-05-24T23:54:53.547Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler makes a comment about Wyndham Clark’s golf after wins The CJ...",
+      "summary": "Scottie Scheffler posted a final-round 65 at the CJ CUP Byron Nelson but it was nowhere near good enough as Wyndham Clark ran away with the trophy.",
+      "quickRead": "Scottie Scheffler said Wyndham Clark’s 60 was basically unbeatable, adding, “I would assume he hit it pretty good and made a whole lot of putts … Sometimes you’ve just got to tip your cap and say good playing. ” Clark’s nine-birdie, one-eagle Sunday at TPC Craig Ranch left Scheffler five shots back at 25-under despite Scheffler’s closing 65.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-makes-wyndham-clark-230930983.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-makes-wyndham-clark-230930983.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "1 hour ago",
       "timestamp": "2026-05-24T22:05:08.000Z",
       "approvedAt": "2026-05-24T23:43:27.331Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fans-left-enraged-scottie-scheffler-220508862.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-05-24T22:39:18.000Z",
@@ -166,7 +185,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-24T20:50:03.387Z",
       "approvedAt": "2026-05-24T20:50:03.387Z",
       "status": "Live",
@@ -342,25 +361,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/cj-cup-byron-nelson-leaderboard-110236650.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-05-24T11:45:25.000Z",
-      "approvedAt": "2026-05-24T13:15:45.708Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 CJ Cup Byron Nelson Round 4 tee times & pairings",
-      "summary": "A busy weekend wraps up at TPC Craig Ranch in McKinney, Texas, on Sunday, May 24, with the final round of the 2026 CJ Cup Byron Nelson as the PGA Tour season rolls on.",
-      "quickRead": "Si Woo Kim leads the CJ Cup Byron Nelson at 21-under and will play the final pairing with Scottie Scheffler (19-under), teeing off last at 1:40 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-114525034.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-114525034.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -428,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "11 min ago",
       "timestamp": "2026-05-24T23:43:16.669Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -442,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "48 min ago",
       "timestamp": "2026-05-24T23:06:16.669Z",
       "status": "Trending",
       "signal": "Reddit find",
