@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T21:27:57.717Z",
+  "updatedAt": "2026-05-24T22:30:40.415Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-05-24T22:30:40.412Z",
+      "approvedAt": "2026-05-24T22:30:40.412Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30",
+      "summary": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30. Nearest finishers: Si Woo Kim (-27), Scottie Scheffler (-25), Jackson Suber (-23).",
+      "quickRead": "Wyndham Clark won THE CJ CUP Byron Nelson at TPC Craig Ranch, finishing at 30-under 254 after a closing 60 to beat Si Woo Kim by three shots, with Scottie Scheffler two more back at 25-under.  The win came in a birdie-fest where Jackson Suber finished fourth at 23-under, and Clark’s final-round 11-under sealed it with room to spare.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-30",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Si Woo Kim",
+          "score": "-27",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Scottie Scheffler",
+          "score": "-25",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Jackson Suber",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Keith Mitchell",
+          "score": "-22",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T21:27:53.774Z",
       "approvedAt": "2026-05-24T21:27:53.774Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T20:50:03.387Z",
       "approvedAt": "2026-05-24T20:50:03.387Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-24T20:16:01.893Z",
       "approvedAt": "2026-05-24T20:16:01.893Z",
       "status": "Live",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-24T18:42:26.316Z",
       "approvedAt": "2026-05-24T18:42:26.316Z",
       "status": "Live",
@@ -234,7 +287,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-05-24T11:02:36.000Z",
       "approvedAt": "2026-05-24T14:59:49.446Z",
       "status": "Confirmed",
@@ -253,7 +306,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-24T11:45:25.000Z",
       "approvedAt": "2026-05-24T13:15:45.708Z",
       "status": "Confirmed",
@@ -272,7 +325,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-05-24T10:30:00.000Z",
       "approvedAt": "2026-05-24T11:12:53.589Z",
       "status": "Confirmed",
@@ -291,7 +344,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-05-23T22:58:56.000Z",
       "approvedAt": "2026-05-24T09:51:07.348Z",
       "status": "Confirmed",
@@ -308,25 +361,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/charlie-woods-nightmare-stretch-continues-225856112.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-05-24T03:39:53.000Z",
-      "approvedAt": "2026-05-24T06:57:13.875Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 CJ Cup Byron Nelson Sunday tee times: Round 4 pairings",
-      "summary": "2026 CJ Cup Byron Nelson tee times for Sunday's final round at TPC Craig Ranch, featuring Si Woo Kim, Scottie Scheffler and more.",
-      "quickRead": "Si Woo Kim and Scottie Scheffler are in the final group Sunday at TPC Craig Ranch, teeing off at 1:40 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-033953137.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-cj-cup-byron-nelson-033953137.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T21:27:47.421Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-24T20:50:47.421Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +458,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-24T21:27:55.369Z",
-      "approvedAt": "2026-05-24T21:27:55.369Z",
+      "timestamp": "2026-05-24T22:30:40.415Z",
+      "approvedAt": "2026-05-24T22:30:40.415Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads THE CJ CUP Byron Nelson at -28",
-      "summary": "Wyndham Clark is -9 today and -28 overall through 16. Closest chasers: Si Woo Kim (-27), Scottie Scheffler (-24), Jackson Suber (-23).",
-      "quickRead": "Wyndham Clark surged to the top at THE CJ CUP Byron Nelson by reaching 28-under par through 16 holes of his final round, shooting 9-under on the day.  He’s only one shot ahead of Si Woo Kim at 27-under, with Scottie Scheffler three back at 24-under as the leaders finish their closing holes at TPC Craig Ranch.",
+      "title": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30",
+      "summary": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30. Nearest finishers: Si Woo Kim (-27), Scottie Scheffler (-25), Jackson Suber (-23).",
+      "quickRead": "Wyndham Clark won THE CJ CUP Byron Nelson at TPC Craig Ranch, finishing at 30-under 254 after a closing 60 to beat Si Woo Kim by three shots, with Scottie Scheffler two more back at 25-under.  The win came in a birdie-fest where Jackson Suber finished fourth at 23-under, and Clark’s final-round 11-under sealed it with room to spare.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -446,20 +480,20 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-28",
-          "thru": "16"
+          "score": "-30",
+          "thru": "F"
         },
         {
           "pos": "2",
           "name": "Si Woo Kim",
           "score": "-27",
-          "thru": "15"
+          "thru": "F"
         },
         {
           "pos": "3",
           "name": "Scottie Scheffler",
-          "score": "-24",
-          "thru": "15"
+          "score": "-25",
+          "thru": "F"
         },
         {
           "pos": "4",
