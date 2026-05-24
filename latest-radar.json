@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-24T19:11:11.892Z",
+  "updatedAt": "2026-05-24T19:11:14.747Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -312,7 +312,22 @@
       "timestamp": "2026-05-24T01:06:06.000Z"
     },
     {
-      "label": "STAR WATCH",
+      "label": "STORY TO WATCH",
+      "title": "Si Woo Kim Close to Surpassing Bryson DeChambeau’s PGA Tour Earnings",
+      "summary": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a w...",
+      "quickRead": "Si Woo Kim’s 64-60 start at the CJ CUP Byron Nelson has him at -18 and in position to pass Bryson DeChambeau on the PGA Tour career money list: a win pays $1. 854 million (taking him to $37,669,901) and even second ($1.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/si-woo-kim-close-surpassing-174836747.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-05-23T17:48:36.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
       "title": "PGA champion Aaron Rai among commits to Memorial Tournament",
       "summary": "Fresh off winning the 2026 PGA Championship, Aaron Rai committed to play the 2026 Memorial Tournament at Muirfield Village in Dublin, Ohio, joining...",
       "quickRead": "Fresh off winning the 2026 PGA Championship, Aaron Rai committed to play the 2026 Memorial Tournament at Muirfield Village in Dublin, Ohio, joining headliners Rory McIlroy and world No.  1 Scottie Scheffler.",
@@ -325,21 +340,6 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-05-24T15:00:59.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "'Getting More Disgusting': Amanda Balionis Reveals Horror Travel Stor...",
-      "summary": "Amanda Balionis said her latest “new travel horror unlocked” was a rental car seatbelt that reeked “like a sweaty man,” adding, “How sweaty must a...",
-      "quickRead": "Amanda Balionis said her latest “new travel horror unlocked” was a rental car seatbelt that reeked “like a sweaty man,” adding, “How sweaty must a person be to saturate a seatbelt?  … It’s getting more disgusting the more I think about it.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/getting-more-disgusting-amanda-balionis-160731118.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/getting-more-disgusting-amanda-balionis-160731118.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-05-24T16:07:31.000Z"
     }
   ],
   "checking": {
@@ -390,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-05-24T18:42:27.905Z",
-      "approvedAt": "2026-05-24T18:42:27.905Z",
+      "timestamp": "2026-05-24T19:11:14.575Z",
+      "approvedAt": "2026-05-24T19:11:14.575Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads THE CJ CUP Byron Nelson at -22",
-      "summary": "Wyndham Clark is -3 today and -22 overall through 5. Closest chasers: Si Woo Kim (-22), Scottie Scheffler (-20), Johnny Keefer (-19).",
-      "quickRead": "Wyndham Clark was tied for the lead at 22-under, reaching -22 with a -3 round through five holes, while Si Woo Kim was also -22 through four.  Scottie Scheffler sat two back at -20 through four, with Johnny Keefer, Jackson Suber, and Tom Hoge at -19, setting up a tight closing stretch at TPC Craig Ranch.",
+      "title": "Si Woo Kim leads THE CJ CUP Byron Nelson at -25",
+      "summary": "Si Woo Kim is -4 today and -25 overall through 7. Closest chasers: Wyndham Clark (-23), Jackson Suber (-21), Scottie Scheffler (-21).",
+      "quickRead": "Si Woo Kim is leading THE CJ CUP Byron Nelson at 25-under par through seven holes of his final round (4-under today), with Wyndham Clark two back at 23-under through eight.  Scottie Scheffler and Jackson Suber are tied for third at 21-under, meaning Kim has a slim cushion with plenty of holes left at TPC Craig Ranch.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,34 +410,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
-          "name": "Wyndham Clark",
-          "score": "-22",
-          "thru": "5"
-        },
-        {
-          "pos": "T1",
+          "pos": "1",
           "name": "Si Woo Kim",
-          "score": "-22",
-          "thru": "4"
+          "score": "-25",
+          "thru": "7"
         },
         {
-          "pos": "3",
+          "pos": "2",
+          "name": "Wyndham Clark",
+          "score": "-23",
+          "thru": "8"
+        },
+        {
+          "pos": "T3",
+          "name": "Jackson Suber",
+          "score": "-21",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
           "name": "Scottie Scheffler",
-          "score": "-20",
-          "thru": "4"
+          "score": "-21",
+          "thru": "7"
         },
         {
-          "pos": "T4",
+          "pos": "T5",
           "name": "Johnny Keefer",
           "score": "-19",
-          "thru": "17"
-        },
-        {
-          "pos": "T4",
-          "name": "Jackson Suber",
-          "score": "-19",
-          "thru": "8"
+          "thru": "F"
         }
       ]
     }
