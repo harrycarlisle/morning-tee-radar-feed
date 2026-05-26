@@ -2463,6 +2463,101 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
   return putWithSha(sha, "first");
 }
 
+function getStoryClusterKey(item) {
+  const text = [
+    item && item.title,
+    item && item.summary,
+    item && item.quickRead,
+    item && item.category,
+    item && item.label,
+    item && item.signal,
+    item && item.source,
+    item && item.sourceName
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  if (!text) return "";
+
+  if (
+    text.includes("bryson") &&
+    text.includes("liv") &&
+    (
+      text.includes("funding") ||
+      text.includes("future") ||
+      text.includes("pif") ||
+      text.includes("investor") ||
+      text.includes("investors") ||
+      text.includes("uncertain") ||
+      text.includes("uncertainty")
+    )
+  ) {
+    return "bryson-liv-future";
+  }
+
+  if (
+    text.includes("charles schwab") &&
+    (
+      text.includes("withdraw") ||
+      text.includes("withdrawal") ||
+      text.includes("field")
+    )
+  ) {
+    return "charles-schwab-withdrawals";
+  }
+
+  if (
+    text.includes("wyndham clark") &&
+    text.includes("charles schwab") &&
+    (
+      text.includes("withdraw") ||
+      text.includes("withdrawal")
+    )
+  ) {
+    return "charles-schwab-withdrawals";
+  }
+
+  if (
+    text.includes("scottie") &&
+    text.includes("wyndham clark") &&
+    (
+      text.includes("comment") ||
+      text.includes("said") ||
+      text.includes("quote") ||
+      text.includes("cj cup") ||
+      text.includes("byron nelson")
+    )
+  ) {
+    return "scheffler-clark-byron-nelson";
+  }
+
+  return "";
+}
+
+function dedupeStoryClusters(items) {
+  const seenUrls = new Set();
+  const seenGroups = new Set();
+  const output = [];
+
+  (items || []).forEach((item) => {
+    if (!item) return;
+
+    const url = String(item.url || item.sourceUrl || "").trim().toLowerCase();
+    const group = getStoryClusterKey(item);
+
+    if (url && seenUrls.has(url)) return;
+    if (group && seenGroups.has(group)) return;
+
+    if (url) seenUrls.add(url);
+    if (group) seenGroups.add(group);
+
+    output.push(item);
+  });
+
+  return output;
+}
+
 function storyAlreadyOnRadar(radarJson, item) {
   const allStories = [
     ...(Array.isArray(radarJson.today) ? radarJson.today : []),
@@ -2472,12 +2567,20 @@ function storyAlreadyOnRadar(radarJson, item) {
     radarJson.checking
   ].filter(Boolean);
 
-  return allStories.some((story) => {
+  const incomingGroup = getStoryClusterKey(item);
+
+    return allStories.some((story) => {
     if (item.sourceType === "Leaderboard" && story.signal === "Leaderboard") {
       return story.title === item.title && story.summary === item.summary;
     }
 
-    return story.url && item.url && story.url === item.url;
+    if (story.url && item.url && story.url === item.url) {
+      return true;
+    }
+
+    const existingGroup = getStoryClusterKey(story);
+
+    return incomingGroup && existingGroup && incomingGroup === existingGroup;
   });
 }
 
@@ -2856,8 +2959,8 @@ function buildNextRadarJson(currentJson, item) {
 
   const imageUsage = {};
 
-  const nextToday = addDisplayTimesToRadarArray(
-    attachImagesToRadarArray([nextLive, ...restToday].slice(0, 3), imageUsage),
+    const nextToday = addDisplayTimesToRadarArray(
+    attachImagesToRadarArray(dedupeStoryClusters([nextLive, ...restToday]).slice(0, 3), imageUsage),
     0
   );
 
