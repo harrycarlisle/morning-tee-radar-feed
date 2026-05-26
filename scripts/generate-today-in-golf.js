@@ -460,7 +460,7 @@ async function generateBriefing(stories, edition) {
       cta: { type: "string" },
       items: {
         type: "array",
-        minItems: 3,
+        minItems: 2,
         maxItems: 4,
         items: {
           type: "object",
