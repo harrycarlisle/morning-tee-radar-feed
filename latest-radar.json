@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-26T14:58:27.024Z",
+  "updatedAt": "2026-05-26T18:22:59.864Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-05-26T15:00:32.000Z",
+      "approvedAt": "2026-05-26T18:22:59.862Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA Tour heads to Colonial without Scheffler and Spieth while LIV resumes in So...",
+      "summary": "A golf story is picking up attention across the golf news cycle.",
+      "quickRead": "A golf story is picking up attention across the golf news cycle.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/pga-tour-heads-colonial-without-150032654.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-heads-colonial-without-150032654.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-05-26T12:00:00.000Z",
       "approvedAt": "2026-05-26T14:58:23.950Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/another-recent-major-winner-follows-120000001.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-26T09:30:00.000Z",
       "approvedAt": "2026-05-26T13:02:15.630Z",
       "status": "Confirmed",
@@ -201,7 +220,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-05-26T14:58:06.209Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -215,7 +234,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-26T14:21:06.210Z",
       "status": "Trending",
       "signal": "Reddit find",
