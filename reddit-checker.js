@@ -853,6 +853,8 @@ function inferCategory(item) {
 
   if (item.sourceType === "Leaderboard") return "PGA TOUR";
 
+  if (item.sourceType === "Reddit") return "GOLF INTERNET";
+
   if (
     text.includes("youtube") ||
     text.includes("rick shiels") ||
@@ -862,14 +864,19 @@ function inferCategory(item) {
     return "YOUTUBE";
   }
 
-  if (text.includes("liv")) return "LIV";
-  if (text.includes("dp world")) return "DP TOUR";
-  if (text.includes("japan")) return "JAPAN TOUR";
-  if (text.includes("lpga") || text.includes("nelly korda")) return "LPGA";
-
   if (
     text.includes("pga tour") ||
+    text.includes("pga championship") ||
+    text.includes("cj cup") ||
+    text.includes("byron nelson") ||
+    text.includes("colonial") ||
+    text.includes("charles schwab") ||
     text.includes("truist") ||
+    text.includes("masters") ||
+    text.includes("u.s. open") ||
+    text.includes("us open") ||
+    text.includes("the open") ||
+    text.includes("players championship") ||
     text.includes("rory") ||
     text.includes("scheffler") ||
     text.includes("brooks koepka")
@@ -877,7 +884,10 @@ function inferCategory(item) {
     return "PGA TOUR";
   }
 
-  if (item.sourceType === "Reddit") return "GOLF INTERNET";
+  if (text.includes("dp world")) return "DP TOUR";
+  if (text.includes("japan")) return "JAPAN TOUR";
+  if (text.includes("lpga") || text.includes("nelly korda")) return "LPGA";
+  if (text.includes("liv")) return "LIV";
 
   return "GOLF";
 }
@@ -1257,39 +1267,53 @@ function extractOpenAIText(data) {
 
 function fallbackQuickRead(item) {
   const summary = cleanSummary(item);
-  const title = cleanTitle(item.title);
 
   if (item.sourceType === "Leaderboard") {
     return summary;
   }
 
   if (!summary || summary.length < 35) {
-    return `${title} is moving, but the feed does not include the full answer yet. What is known is that it connects to a current golf storyline, notable player, or tournament-week development.`;
+    return "This golf story is moving across the radar. Open the full story for the latest details.";
   }
 
-  return `${summary} The key context is that this story connects to a current golf storyline, notable player, or tournament-week development.`;
+  return summary;
+}
+
+function quickReadHasBrokenEnding(text) {
+  const value = String(text || "").trim();
+
+  const brokenEndingPatterns = [
+    /\bU\.\s*S\.$/i,
+    /\bU\.$/i,
+    /\bthe U\.$/i,
+    /\bincluding the U\.$/i,
+    /\bpossibly including the U\.$/i,
+    /\$\d+\.?$/i,
+    /\$\d+\.\s*$/i,
+    /\b\d+\.\s*$/i,
+    /\bNo\.\s*$/i,
+    /\bNo\.\s*\d+\s*$/i
+  ];
+
+  return brokenEndingPatterns.some((pattern) => pattern.test(value));
 }
 
 function normalizeQuickRead(value, item) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
-  const brokenEndingPatterns = [
-  /\bU\.\s*S\.$/i,
-  /\bU\.$/i,
-  /\bthe U\.$/i,
-  /\bincluding the U\.$/i,
-  /\bpossibly including the U\.$/i
-];
-
-if (brokenEndingPatterns.some((pattern) => pattern.test(text))) {
-  return fallbackQuickRead(item);
-}
 
   if (!text) return fallbackQuickRead(item);
+  if (quickReadHasBrokenEnding(text)) return fallbackQuickRead(item);
 
   const sentences = text.match(/[^.!?]+[.!?]+/g);
 
   if (sentences && sentences.length >= 2) {
-    return sentences.slice(0, 2).join(" ").trim();
+    const twoSentenceText = sentences.slice(0, 2).join(" ").trim();
+
+    if (quickReadHasBrokenEnding(twoSentenceText)) {
+      return fallbackQuickRead(item);
+    }
+
+    return twoSentenceText;
   }
 
   return fallbackQuickRead(item);
