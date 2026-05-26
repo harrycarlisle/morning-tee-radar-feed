@@ -692,6 +692,49 @@ function stripHtml(value) {
   return decodeHtml(value).replace(/<[^>]*>/g, "").trim();
 }
 
+function isGenericQuickRead(value) {
+  const text = String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
+
+  if (!text) return true;
+
+  const genericPatterns = [
+    "a golf story is picking up attention across the golf news cycle",
+    "a tournament-week golf story is moving across the radar",
+    "this golf story is moving across the radar",
+    "this is a golf storyline morning tee is tracking",
+    "open the full story for the latest details",
+    "open the full story for the actual details",
+    "we're still waiting on enough source detail",
+    "we’re still waiting on enough source detail",
+    "available feed details are limited",
+    "more context may come from the original source"
+  ];
+
+  return genericPatterns.some((pattern) => text.includes(pattern));
+}
+
+function repeatsHeadline(value, item) {
+  const quickRead = String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const title = String(item && item.title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!quickRead || !title) return false;
+
+  const titleWords = title.split(" ").filter((word) => word.length > 3);
+  if (titleWords.length < 5) return false;
+
+  const firstWords = titleWords.slice(0, 6).join(" ");
+  return firstWords && quickRead.includes(firstWords);
+}
+
 function getTag(itemXml, tagName) {
   const regex = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i");
   const match = itemXml.match(regex);
@@ -1045,10 +1088,8 @@ function cleanSummary(item) {
     clean.toLowerCase() === title.toLowerCase() ||
     /^with\s+\d+\.?$/i.test(clean);
 
-  if (badSummary) {
-    return isTournamentWindow()
-      ? "A tournament-week golf story is moving across the radar."
-      : "A golf story is picking up attention across the golf news cycle.";
+    if (badSummary) {
+    return "";
   }
 
   const firstSentence = clean.match(/^.*?[.!?](\s|$)/);
@@ -1272,8 +1313,8 @@ function fallbackQuickRead(item) {
     return summary;
   }
 
-  if (!summary || summary.length < 35) {
-    return "This golf story is moving across the radar. Open the full story for the latest details.";
+  if (!summary || summary.length < 45 || isGenericQuickRead(summary) || repeatsHeadline(summary, item)) {
+    return "";
   }
 
   return summary;
@@ -1302,6 +1343,8 @@ function normalizeQuickRead(value, item) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
 
   if (!text) return fallbackQuickRead(item);
+  if (isGenericQuickRead(text)) return fallbackQuickRead(item);
+  if (repeatsHeadline(text, item)) return fallbackQuickRead(item);
   if (quickReadHasBrokenEnding(text)) return fallbackQuickRead(item);
 
   const sentences = text.match(/[^.!?]+[.!?]+/g);
@@ -1313,10 +1356,16 @@ function normalizeQuickRead(value, item) {
       return fallbackQuickRead(item);
     }
 
+    if (isGenericQuickRead(twoSentenceText) || repeatsHeadline(twoSentenceText, item)) {
+      return fallbackQuickRead(item);
+    }
+
     return twoSentenceText;
   }
 
-  return fallbackQuickRead(item);
+  if (text.length < 55) return fallbackQuickRead(item);
+
+  return text;
 }
 
 function buildQuickReadPrompt(item, sourceExcerpt) {
@@ -1337,13 +1386,12 @@ Rules:
 - 35 to 65 words total.
 - Sentence 1 gives the actual answer, quote, result, injury, decision, or event.
 - Sentence 2 gives the best context, consequence, why it matters, or what to watch next.
+- Never use generic fallback lines like "A golf story is picking up attention across the golf news cycle."
+- Do not publish a quickRead that simply repeats the headline.
+- If there is not enough detail to write a useful quickRead, return an empty quickRead string.
+- A useful quickRead names who is involved, what happened, and why it matters.
 - Do not repeat the headline.
 - Do not say "the article says."
-- Do not say "took a swipe," "made comments," "opened up," or "addressed the situation" unless you explain exactly what the swipe/comment was.
-- Do not overstate facts.
-- Do not say "all that is known."
-- Do not say "the source does not say," "the source excerpt does not say," "details are limited," "without more details," or "not confirmed."
-- Use simple, clear language.
 
 Bad:
 McIlroy took a subtle swipe at LIV players while discussing PGA Tour negotiations.
@@ -1351,7 +1399,17 @@ McIlroy took a subtle swipe at LIV players while discussing PGA Tour negotiation
 Better:
 McIlroy’s jab was aimed at LIV players who left for guaranteed money and may now benefit if the PGA Tour and Saudi PIF reach a deal. The useful context is that even if the tours reunite, Rory still sounds frustrated by how the split happened.
 
+Bad:
+A golf story is picking up attention across the golf news cycle.
+
+Bad:
+PGA Tour heads to Colonial without Scheffler and Spieth is one of the latest stories.
+
+Better:
+Scottie Scheffler and Jordan Spieth are not in the Charles Schwab Challenge field, leaving Colonial without two of its biggest Texas draws while LIV resumes in South Korea. The useful context is that the week loses some star power just as LIV gets another chance to grab attention overseas.
+
 Title:
+
 ${item.title || ""}
 
 Current summary:
@@ -1419,11 +1477,14 @@ async function generateQuickRead(item) {
   }
 }
 
-function quickReadLooksWeak(value) {
-  const text = String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
+function quickReadLooksWeak(value, item = null) {
+  const raw = String(value || "");
+  const text = raw.toLowerCase().replace(/\s+/g, " ").trim();
 
   if (!text) return true;
   if (text.length < 55) return true;
+  if (isGenericQuickRead(text)) return true;
+  if (item && repeatsHeadline(text, item)) return true;
 
   const weakPhrases = [
     "took a subtle swipe",
@@ -1435,7 +1496,9 @@ function quickReadLooksWeak(value) {
     "available feed details are limited",
     "more context may come from the original source",
     "picking up attention",
-    "on the radar because"
+    "on the radar because",
+    "one of the latest stories",
+    "open the full story"
   ];
 
   return weakPhrases.some((phrase) => text.includes(phrase));
@@ -1446,7 +1509,7 @@ async function withQuickRead(item) {
 
   const existingQuickRead = item.quickRead || item.quickContext || item.modalSummary || "";
 
-  if (existingQuickRead && !quickReadLooksWeak(existingQuickRead)) {
+   if (existingQuickRead && !quickReadLooksWeak(existingQuickRead, item)) {
     return item;
   }
 
@@ -1454,12 +1517,15 @@ async function withQuickRead(item) {
 
   return {
     ...item,
-    quickRead
+    quickRead: quickReadLooksWeak(quickRead, item) ? "" : quickRead
   };
 }
 
 function buildRadarItem(item) {
   const timestamp = getSourceTimestampIso(item, 0);
+  const summary = cleanSummary(item);
+  const quickReadCandidate = item.quickRead || item.quickContext || item.modalSummary || summary;
+  const usefulQuickRead = quickReadLooksWeak(quickReadCandidate, item) ? "" : quickReadCandidate;
 
   const radarItem = {
   time: formatTimeLabel(timestamp),
@@ -1469,8 +1535,8 @@ function buildRadarItem(item) {
   signal: item.sourceType,
   category: inferCategory(item),
   title: cleanTitle(item.title),
-  summary: cleanSummary(item),
-  quickRead: item.quickRead || item.quickContext || item.modalSummary || cleanSummary(item),
+  summary,
+  quickRead: usefulQuickRead,
   quickContext: item.quickContext || "",
   modalSummary: item.modalSummary || "",
   keyQuote: item.keyQuote || item.quote || "",
@@ -3055,6 +3121,11 @@ let golfInternetItems = manualGolfInternetItems.length
 
 if (bestCandidate) {
   bestCandidate = await withQuickRead(bestCandidate);
+
+  if (bestCandidate.sourceType !== "Leaderboard" && quickReadLooksWeak(bestCandidate.quickRead || bestCandidate.summary, bestCandidate)) {
+    console.log("[Radar] Best candidate skipped because it did not have a useful quickRead.");
+    bestCandidate = null;
+  }
 }
 
 if (golfInternetItems.length) {
