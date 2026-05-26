@@ -2,8 +2,8 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # Runs every hour. The script itself only generates at 8 AM, 12 PM, and 8 PM ET.
-    # This avoids daylight saving time issues because the script checks America/New_York time.
+    # Runs every hour. The script decides whether it should generate
+    # the 8 AM, 12 PM, or 8 PM ET edition.
     - cron: "0 * * * *"
 
   workflow_dispatch:
@@ -37,6 +37,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -51,16 +53,16 @@ jobs:
         run: node scripts/generate-today-in-golf.js
 
       - name: Commit updated briefing
-  run: |
-    if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
-      git config user.name "github-actions[bot]"
-      git config user.email "github-actions[bot]@users.noreply.github.com"
-      git add today-in-golf.json
-      git commit -m "Update Today in Golf"
+        run: |
+          if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      git pull --rebase origin main
+            git add today-in-golf.json
+            git commit -m "Update Today in Golf"
 
-      git push origin main
-    else
-      echo "No changes to commit."
-    fi
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
