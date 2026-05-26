@@ -482,7 +482,7 @@ Product promise:
 A reader should understand the essential golf news in under 30 seconds.
 
 Output rules:
-- Return exactly 3 briefing items unless there are 4 genuinely essential stories.
+- Return 3 briefing items by default. Use 4 only for genuinely essential stories. If only 2 useful, specific, durable stories are available, return the 2 strongest rather than adding vague filler.
 - Each item has a short headline, ideally 2 to 5 words.
 - Each item has one direct sentence.
 - Every sentence must give the answer, not tease the answer.
@@ -493,6 +493,13 @@ Output rules:
 - The module title must always be "Today In Golf". Do not rename it for a specific tournament.
 - Do not include old tee-time/setup stories if a newer result or leaderboard story from the same tournament is already available.
 - If a final result is genuinely available, prioritize the result and skip earlier tee-time items from that tournament.
+Specificity rule:
+- Never write vague phrases like “big names withdrew,” “several players,” “some players,” “major names,” or “a few golfers” unless the names are unavailable in the source.
+- If a withdrawal, injury, penalty, suspension, ban, rules issue, or caddie change is included, name the person or people involved and give the reason or consequence when available.
+- Bad: “Big names withdraw from Charles Schwab.”
+- Good: “Jordan Spieth and [name] withdrew from the Charles Schwab Challenge; [reason/consequence if available].”
+- If the source does not say who or why, skip the item unless the fact itself is unusually important.
+
 Durability rule:
 - Avoid making Today In Golf depend on live leaderboard positions that may change quickly.
 - Do not use a normal “Player leads at X-under” item unless it is final, a major championship, a huge lead, or tied to a memorable event.
@@ -529,6 +536,11 @@ Editorial priority:
 - Do not fill space. If only three stories matter, use three.
 - Do not use stale tournament results from previous weeks unless there is a clear current-day reason, such as a record being broken, a player returning, a suspension, injury, quote, or consequence that is still unfolding today.
 - A past winner/result should not be included just because it appears in the feed. It must connect to today’s golf news.
+- Today In Golf should not simply repeat the same stories shown in the Newest section.
+- If a story already appears in Newest, only include it in Today In Golf if it is clearly one of the day’s biggest stories and the briefing adds extra context, consequence, or specificity.
+- Do not use more than one item that is also likely to appear in Newest unless the day has very few meaningful stories.
+- If Today In Golf would mostly repeat Newest, choose fewer stronger items or pick a broader/global/durable story instead.
+- A duplicated Newest item must be rewritten as a briefing, not copied as another headline. It should answer what happened, who was involved, and why it matters.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
@@ -567,6 +579,9 @@ Tournament rules:
 - If using a scoring item, explain the memorable action, not just the position. Good: “Sungjae Im made a hole-in-one on No. 7 and eagled No. 9 during a second-round 61.” Bad: “Wyndham Clark leads at 12-under.”
 - Do not describe a player as defending, seeking to match a record, or chasing history unless the source explicitly says that exact current context.
 - Avoid old final-result stories from completed tournaments unless the story has a new consequence today.
+- For withdrawal stories, always include who withdrew and the stated reason if available.
+- If the reason is not available, include the consequence, such as who moved into the field, how it affects the tournament, or why the absence matters.
+- Do not publish a withdrawal item that only says “big names withdrew” without names.
 
 Rumor/quote rules:
 - Include who said it, what the rumor or claim was, and the exact answer or quote.
