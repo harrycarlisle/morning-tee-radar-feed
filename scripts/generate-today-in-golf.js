@@ -527,6 +527,8 @@ Editorial priority:
 - Do not include Reddit posts, memes, viral jokes, food posts, bunker debates, or normal golf-internet items unless they become a major golf-world story with real consequences.
 - Do not use vague global labels like “Global watch” unless the story itself is named and specific.
 - Do not fill space. If only three stories matter, use three.
+- Do not use stale tournament results from previous weeks unless there is a clear current-day reason, such as a record being broken, a player returning, a suspension, injury, quote, or consequence that is still unfolding today.
+- A past winner/result should not be included just because it appears in the feed. It must connect to today’s golf news.
 
 Critical accuracy rule:
 - Never say a player won, wins, claimed the title, or is champion unless the source explicitly says the tournament is final and the event is complete.
@@ -563,6 +565,8 @@ Tournament rules:
 - Do not make the main tournament item a normal current-leader update unless there is no stronger durable story.
 - Prefer tournament moments that remain true even if the leaderboard changes: hole-in-one, record score, penalty, WD, injury, rules issue, marker, caddie change, equipment issue, or major quote.
 - If using a scoring item, explain the memorable action, not just the position. Good: “Sungjae Im made a hole-in-one on No. 7 and eagled No. 9 during a second-round 61.” Bad: “Wyndham Clark leads at 12-under.”
+- Do not describe a player as defending, seeking to match a record, or chasing history unless the source explicitly says that exact current context.
+- Avoid old final-result stories from completed tournaments unless the story has a new consequence today.
 
 Rumor/quote rules:
 - Include who said it, what the rumor or claim was, and the exact answer or quote.
