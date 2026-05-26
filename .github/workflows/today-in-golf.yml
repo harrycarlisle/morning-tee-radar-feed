@@ -51,13 +51,16 @@ jobs:
         run: node scripts/generate-today-in-golf.js
 
       - name: Commit updated briefing
-        run: |
-          if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add today-in-golf.json
-            git commit -m "Update Today in Golf"
-            git push
-          else
-            echo "No today-in-golf.json changes to commit."
-          fi
+  run: |
+    if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
+      git config user.name "github-actions[bot]"
+      git config user.email "github-actions[bot]@users.noreply.github.com"
+      git add today-in-golf.json
+      git commit -m "Update Today in Golf"
+
+      git pull --rebase origin main
+
+      git push origin main
+    else
+      echo "No changes to commit."
+    fi
