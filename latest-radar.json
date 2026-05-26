@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-26T13:02:18.222Z",
+  "updatedAt": "2026-05-26T14:58:23.954Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-05-26T12:00:00.000Z",
+      "approvedAt": "2026-05-26T14:58:23.950Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Another recent major winner follows Brooks Koepka by withdrawing from the Charl...",
+      "summary": "The Charles Schwab Challenge has been hit by withdrawals from two big-name players just days before the tournament starts.",
+      "quickRead": "The Charles Schwab Challenge has been hit by withdrawals from two big-name players just days before the tournament starts.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/another-recent-major-winner-follows-120000001.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/another-recent-major-winner-follows-120000001.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-05-26T09:30:00.000Z",
       "approvedAt": "2026-05-26T13:02:15.630Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-admits-being-shocked-093000031.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "Yesterday",
       "timestamp": "2026-05-24T23:09:30.000Z",
@@ -145,7 +164,7 @@
       "url": "https://sports.yahoo.com/articles/another-recent-major-winner-follows-120000001.html",
       "sourceUrl": "https://sports.yahoo.com/articles/another-recent-major-winner-follows-120000001.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
       "timestamp": "2026-05-26T12:00:00.000Z"
     },
     {
@@ -182,7 +201,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-26T13:01:59.057Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -196,7 +215,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-26T12:24:59.057Z",
       "status": "Trending",
       "signal": "Reddit find",
