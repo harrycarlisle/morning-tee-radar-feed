@@ -2464,28 +2464,13 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
 }
 
 function getStoryClusterKey(item) {
-  const text = [
-    item && item.title,
-    item && item.summary,
-    item && item.quickRead,
-    item && item.category,
-    item && item.label,
-    item && item.signal,
-    item && item.source,
-    item && item.sourceName
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-
-  if (!text) return "";
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
 
   if (
     text.includes("bryson") &&
     text.includes("liv") &&
     (
       text.includes("funding") ||
-      text.includes("future") ||
       text.includes("pif") ||
       text.includes("investor") ||
       text.includes("investors") ||
@@ -2493,47 +2478,35 @@ function getStoryClusterKey(item) {
       text.includes("uncertainty")
     )
   ) {
-    return "bryson-liv-future";
+    return "bryson-liv-funding";
   }
 
   if (
-    text.includes("charles schwab") &&
+    text.includes("bryson") &&
+    text.includes("liv") &&
+    text.includes("pga tour") &&
     (
-      text.includes("withdraw") ||
-      text.includes("withdrawal") ||
-      text.includes("field")
+      text.includes("return") ||
+      text.includes("rejoin") ||
+      text.includes("re-join") ||
+      text.includes("go back") ||
+      text.includes("welcomed back") ||
+      text.includes("welcome back")
     )
   ) {
-    return "charles-schwab-withdrawals";
+    return "bryson-pga-tour-return";
   }
 
-  if (
-    text.includes("wyndham clark") &&
-    text.includes("charles schwab") &&
-    (
-      text.includes("withdraw") ||
-      text.includes("withdrawal")
-    )
-  ) {
-    return "charles-schwab-withdrawals";
-  }
+  const normalizedTitle = String(item.title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .split(/\s+/)
+    .filter((word) => word.length > 3)
+    .slice(0, 6)
+    .join("-");
 
-  if (
-    text.includes("scottie") &&
-    text.includes("wyndham clark") &&
-    (
-      text.includes("comment") ||
-      text.includes("said") ||
-      text.includes("quote") ||
-      text.includes("cj cup") ||
-      text.includes("byron nelson")
-    )
-  ) {
-    return "scheffler-clark-byron-nelson";
-  }
-
-  return "";
-}
+  return normalizedTitle;
+}  
 
 function dedupeStoryClusters(items) {
   const seenUrls = new Set();
