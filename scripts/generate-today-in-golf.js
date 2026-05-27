@@ -654,8 +654,9 @@ See all stories →
     result.output?.flatMap((item) => item.content || [])
       ?.find((content) => content.type === "output_text")?.text;
 
-  if (!outputText) {
-    throw new Error("No output text returned from OpenAI");
+    if (!outputText) {
+    console.warn("[Today In Golf] No output text returned from OpenAI. Keeping existing briefing.");
+    return null;
   }
 
   return JSON.parse(outputText);
@@ -687,11 +688,17 @@ async function main() {
     return;
   }
 
-  const generated = await generateBriefing(storiesForEdition, finalEdition);
+    const generated = await generateBriefing(storiesForEdition, finalEdition);
+
+  if (!generated) {
+    console.log("OpenAI returned no usable briefing. Keeping existing today-in-golf.json.");
+    return;
+  }
+
   const cleanedItems = cleanGeneratedItems(generated.items);
 
-  if (cleanedItems.length < 3) {
-    console.log("Generated briefing had fewer than 3 usable items. Keeping existing today-in-golf.json.");
+  if (cleanedItems.length < 2) {
+    console.log("Generated briefing had fewer than 2 usable items. Keeping existing today-in-golf.json.");
     return;
   }
 
