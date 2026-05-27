@@ -20,7 +20,7 @@
   ],
   "today": [
     {
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-26T12:21:28.000Z",
       "approvedAt": "2026-05-26T20:43:58.583Z",
       "status": "Confirmed",
@@ -41,7 +41,7 @@
   ],
   "alsoMoving": [
     {
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-26T12:21:28.000Z",
       "approvedAt": "2026-05-26T20:23:02.192Z",
       "status": "Confirmed",
@@ -60,7 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-05-26T12:00:00.000Z",
       "approvedAt": "2026-05-26T14:58:23.950Z",
       "status": "Confirmed",
@@ -79,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "Yesterday",
+      "time": "2 days ago",
       "timestamp": "2026-05-24T23:09:30.000Z",
       "approvedAt": "2026-05-24T23:54:53.547Z",
       "status": "Confirmed",
@@ -98,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "Yesterday",
+      "time": "2 days ago",
       "timestamp": "2026-05-24T22:05:08.000Z",
       "approvedAt": "2026-05-24T23:43:27.331Z",
       "status": "Confirmed",
@@ -117,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "Yesterday",
+      "time": "2 days ago",
       "timestamp": "2026-05-24T22:39:18.000Z",
       "approvedAt": "2026-05-24T22:54:04.791Z",
       "status": "Confirmed",
@@ -136,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 days ago",
+      "time": "3 days ago",
       "timestamp": "2026-05-24T11:02:36.000Z",
       "approvedAt": "2026-05-24T14:59:49.446Z",
       "status": "Confirmed",
@@ -220,7 +220,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-05-27T15:27:56.085Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -234,7 +234,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-05-27T14:50:56.085Z",
       "status": "Trending",
       "signal": "Reddit find",
