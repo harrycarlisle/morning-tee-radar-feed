@@ -1,17 +1,17 @@
 {
-  "activeMode": "ryder-cup",
-  "updatedAt": "2026-05-28T21:50:42.805Z",
-  "label": "Ryder Cup Mini Cup",
+  "activeMode": "default",
+  "updatedAt": "2026-05-28T21:51:47.426Z",
+  "label": "Default Mini Cup",
   "teamA": {
-    "key": "europe",
-    "name": "Team Europe",
-    "shortName": "Europe",
-    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/58ca3110-655b-4fa0-a5f0-231c90191d3f/ryder-cup-europe.png?t=1780004585"
+    "key": "rory",
+    "name": "Team Rory",
+    "shortName": "Rory",
+    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/241ad24f-0175-4f27-af13-8f1a654fa171/team-rory.png?t=1779994331"
   },
   "teamB": {
-    "key": "usa",
-    "name": "Team USA",
-    "shortName": "USA",
-    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/74f9f315-ac4b-4bff-917d-e76adc9b3133/ryder-cup-usa.png?t=1780004583"
+    "key": "bryson",
+    "name": "Team Bryson",
+    "shortName": "Bryson",
+    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/6e94dbf1-2708-4002-9ac0-7f7074181761/team-bryson.png?t=1779994329"
   }
 }
