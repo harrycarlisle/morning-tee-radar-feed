@@ -60,19 +60,29 @@ function getEditionNow(currentTodayJson = null) {
 
   const et = getETParts();
 
-  // Catch-up windows:
-  // 8:00 AM to 11:59 AM ET = morning
-  // 12:00 PM to 7:59 PM ET = midday
-  // 8:00 PM to 11:59 PM ET = evening
-  if (et.hour >= 8 && et.hour < 12) {
+  // Early + catch-up windows:
+  // 7:50 AM to 11:59 AM ET = morning
+  // 11:50 AM to 7:59 PM ET = midday
+  // 7:50 PM to 11:59 PM ET = evening
+
+  if (
+    (et.hour === 7 && et.minute >= 50) ||
+    (et.hour >= 8 && et.hour < 12)
+  ) {
     if (!hasAlreadyRun(currentTodayJson, "morning")) return "morning";
   }
 
-  if (et.hour >= 12 && et.hour < 20) {
+  if (
+    (et.hour === 11 && et.minute >= 50) ||
+    (et.hour >= 12 && et.hour < 20)
+  ) {
     if (!hasAlreadyRun(currentTodayJson, "midday")) return "midday";
   }
 
-  if (et.hour >= 20) {
+  if (
+    (et.hour === 19 && et.minute >= 50) ||
+    et.hour >= 20
+  ) {
     if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
   }
 
