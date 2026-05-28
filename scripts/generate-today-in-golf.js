@@ -443,17 +443,53 @@ function isLowValueBriefingItem(item) {
   return lowValuePatterns.some((pattern) => pattern.test(text));
 }
 
+function getBriefingTopicKey(item) {
+  const text = `${item?.headline || ""} ${item?.text || ""}`.toLowerCase();
+
+ if (
+  text.includes("liv") ||
+  text.includes("saudi") ||
+  text.includes("pif")
+) {
+  return "liv";
+}
+
+  if (text.includes("bryson") || text.includes("dechambeau")) return "bryson";
+  if (text.includes("pga tour")) return "pga-tour";
+  if (text.includes("scottie") || text.includes("scheffler")) return "scheffler";
+  if (text.includes("rory") || text.includes("mcilroy")) return "rory";
+  if (text.includes("rahm")) return "rahm";
+  if (text.includes("lpga") || text.includes("korda")) return "lpga";
+  if (text.includes("japan tour")) return "japan-tour";
+  if (text.includes("dp world")) return "dp-world";
+  if (text.includes("charles schwab") || text.includes("colonial")) return "charles-schwab";
+  if (text.includes("byron nelson") || text.includes("cj cup")) return "byron-nelson";
+
+  return "";
+}
+
 function cleanGeneratedItems(items) {
   if (!Array.isArray(items)) return [];
+
+  const usedTopics = new Set();
 
   return items
     .filter((item) => item && item.headline && item.text)
     .filter((item) => !isLowValueBriefingItem(item))
-    .slice(0, 4)
     .map((item) => ({
       headline: cleanGeneratedText(item.headline),
       text: cleanGeneratedText(item.text)
-    }));
+    }))
+    .filter((item) => {
+      const topicKey = getBriefingTopicKey(item);
+
+      if (!topicKey) return true;
+      if (usedTopics.has(topicKey)) return false;
+
+      usedTopics.add(topicKey);
+      return true;
+    })
+    .slice(0, 4);
 }
 
 async function generateBriefing(stories, edition) {
