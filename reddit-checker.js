@@ -2956,20 +2956,44 @@ function buildNextRadarJson(currentJson, item) {
 
   const imageUsage = {};
 
-    const nextToday = addDisplayTimesToRadarArray(
-    attachImagesToRadarArray(dedupeStoryClusters([nextLive, ...restToday]).slice(0, 3), imageUsage),
-    0
-  );
+  const nextToday = addDisplayTimesToRadarArray(
+    attachImagesToRadarArray(
+      dedupeStoryClusters([nextLive, ...restToday])
+        .filter((story) => {
+          const timestamp = Date.parse(story.timestamp || story.approvedAt || story.publishedAt || "");
+          if (Number.isNaN(timestamp)) return true;
 
-    const nextAlsoMoving = addDisplayTimesToRadarArray(
-    removeOldLeaderboardStories(
-      attachImagesToRadarArray([
-        ...(oldLive ? [oldLive] : []),
-        ...existingAlsoMoving
-      ], imageUsage)
-    ).slice(0, 8),
-    35
-  );
+        const ageHours = (Date.now() - timestamp) / 3600000;
+        return ageHours <= 12;
+      })
+      .sort((a, b) => {
+  const aTime = Date.parse(a.timestamp || a.approvedAt || a.publishedAt || 0);
+  const bTime = Date.parse(b.timestamp || b.approvedAt || b.publishedAt || 0);
+  return bTime - aTime;
+})
+.slice(0, 3),
+    imageUsage
+  ),
+  0
+);
+
+   const nextAlsoMoving = addDisplayTimesToRadarArray(
+  removeOldLeaderboardStories(
+    attachImagesToRadarArray([
+      ...(oldLive ? [oldLive] : []),
+      ...existingAlsoMoving
+    ], imageUsage)
+  )
+    .filter((story) => {
+      const timestamp = Date.parse(story.timestamp || story.approvedAt || story.publishedAt || "");
+      if (Number.isNaN(timestamp)) return true;
+
+      const ageHours = (Date.now() - timestamp) / 3600000;
+      return ageHours <= 48;
+    })
+    .slice(0, 8),
+  35
+); 
 
   const nextWeekRadar = buildWeekRadarFromStories(
   [nextLive, ...nextToday, ...nextAlsoMoving],
