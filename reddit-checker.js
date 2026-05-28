@@ -2540,20 +2540,44 @@ function storyAlreadyOnRadar(radarJson, item) {
     radarJson.checking
   ].filter(Boolean);
 
-  const incomingGroup = getStoryClusterKey(item);
+  const incomingUrl = String(item.url || item.sourceUrl || "").trim().toLowerCase();
+  const incomingTitle = String(item.title || "").toLowerCase();
 
-    return allStories.some((story) => {
+  return allStories.some((story) => {
     if (item.sourceType === "Leaderboard" && story.signal === "Leaderboard") {
       return story.title === item.title && story.summary === item.summary;
     }
 
-    if (story.url && item.url && story.url === item.url) {
+    const existingUrl = String(story.url || story.sourceUrl || "").trim().toLowerCase();
+
+    if (incomingUrl && existingUrl && incomingUrl === existingUrl) {
       return true;
     }
 
-    const existingGroup = getStoryClusterKey(story);
+    const existingTitle = String(story.title || "").toLowerCase();
 
-    return incomingGroup && existingGroup && incomingGroup === existingGroup;
+    if (!incomingTitle || !existingTitle) {
+      return false;
+    }
+
+    const incomingWords = incomingTitle
+      .replace(/[^a-z0-9\s]/g, "")
+      .split(/\s+/)
+      .filter((word) => word.length > 4);
+
+    const existingWords = existingTitle
+      .replace(/[^a-z0-9\s]/g, "")
+      .split(/\s+/)
+      .filter((word) => word.length > 4);
+
+    if (incomingWords.length < 5 || existingWords.length < 5) {
+      return false;
+    }
+
+    const sharedWords = incomingWords.filter((word) => existingWords.includes(word));
+    const similarity = sharedWords.length / Math.min(incomingWords.length, existingWords.length);
+
+    return similarity >= 0.75;
   });
 }
 
