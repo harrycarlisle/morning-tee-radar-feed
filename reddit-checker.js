@@ -480,6 +480,8 @@ const IGNORE_TERMS = [
   "watch online"
 ];
 
+const GOLF_INTERNET_IGNORE_TERMS = IGNORE_TERMS;
+
 function loadSeenPosts() {
   if (!fs.existsSync(SEEN_FILE)) {
     return new Set();
