@@ -60,29 +60,25 @@ function getEditionNow(currentTodayJson = null) {
 
   const et = getETParts();
 
-  // Early + catch-up windows:
-  // 7:50 AM to 11:59 AM ET = morning
-  // 11:50 AM to 7:59 PM ET = midday
-  // 7:50 PM to 11:59 PM ET = evening
+  // Run after the intended publish times, with catch-up windows:
+  // 8:00 AM to 11:59 AM ET = morning
+  // 12:00 PM to 7:59 PM ET = midday
+  // 8:00 PM to 11:59 PM ET = evening
+  //
+  // The GitHub workflow should be scheduled for:
+  // 8:01 AM ET, 12:01 PM ET, and 8:01 PM ET.
+  // If GitHub starts a few minutes late, this still publishes the right edition.
+  // It will not publish a future edition early.
 
-  if (
-    (et.hour === 7 && et.minute >= 50) ||
-    (et.hour >= 8 && et.hour < 12)
-  ) {
+  if (et.hour >= 8 && et.hour < 12) {
     if (!hasAlreadyRun(currentTodayJson, "morning")) return "morning";
   }
 
-  if (
-    (et.hour === 11 && et.minute >= 50) ||
-    (et.hour >= 12 && et.hour < 20)
-  ) {
+  if (et.hour >= 12 && et.hour < 20) {
     if (!hasAlreadyRun(currentTodayJson, "midday")) return "midday";
   }
 
-  if (
-    (et.hour === 19 && et.minute >= 50) ||
-    et.hour >= 20
-  ) {
+  if (et.hour >= 20) {
     if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
   }
 
@@ -665,7 +661,10 @@ See all stories →
     stories: stories.map(simplifyStoryForPrompt)
   }, null, 2);
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
+  let response = null;
+
+for (let attempt = 1; attempt <= 3; attempt += 1) {
+  response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${OPENAI_API_KEY}`,
@@ -688,13 +687,22 @@ See all stories →
     })
   });
 
-  if (!response.ok) {
+  if (response.ok) break;
+
   const errorText = await response.text();
-  console.warn(`[Today In Golf] OpenAI request failed: ${response.status} ${errorText}`);
+  console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${errorText}`);
+
+  if (attempt < 3) {
+    await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+  }
+}
+
+if (!response || !response.ok) {
+  console.warn("[Today In Golf] OpenAI failed after 3 attempts. Keeping existing briefing.");
   return null;
 }
 
-  const result = await response.json();
+const result = await response.json();
 
   const outputText =
     result.output_text ||
