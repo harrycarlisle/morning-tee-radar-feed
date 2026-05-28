@@ -1,0 +1,40 @@
+name: Update Mini Cup config
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Optional test date in YYYY-MM-DD format
+        required: false
+        type: string
+  schedule:
+    # GitHub cron uses UTC.
+    # This runs Monday and Tuesday mornings around 6am ET during daylight saving time.
+    - cron: "0 10 * * 1,2"
+
+permissions:
+  contents: write
+
+jobs:
+  update-mini-cup-config:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update config
+        env:
+          MINI_CUP_DATE: ${{ github.event.inputs.date }}
+        run: node scripts/update-mini-cup-config.js
+
+      - name: Commit config if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Mini Cup config"
+          file_pattern: mini-cup-config.json
