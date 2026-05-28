@@ -59,20 +59,22 @@ const GOLF_INTERNET_POSITIVE_TERMS = [
   "best"
 ];
 
-const GOLF_INTERNET_IGNORE_TERMS = [
-  "rate my swing",
-  "swing advice",
+const IGNORE_TERMS = [
+  "rate my",
   "what club",
+  "swing advice",
   "new clubs",
-  "beginner clubs",
   "bag setup",
+  "beginner clubs",
   "handicap question",
   "odds",
   "picks",
   "predictions",
   "betting",
   "wager",
-  "sportsbook"
+  "sportsbook",
+  "favorite",
+  "favorites",
   "how to watch",
   "how to live stream",
   "live stream",
@@ -2685,6 +2687,18 @@ function scoreWeekRadarItem(item) {
 
   if (!title || !item.url) return -999;
   if (ageHours > 96) return -999;
+
+  if (
+  text.includes("how to watch") ||
+  text.includes("how to live stream") ||
+  text.includes("live stream") ||
+  text.includes("tv channel") ||
+  text.includes("streaming coverage") ||
+  text.includes("where to watch") ||
+  text.includes("watch online")
+) {
+  return -999;
+}
 
   let score = 0;
 
