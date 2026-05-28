@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-28T21:52:40.110Z",
+  "updatedAt": "2026-05-28T23:11:23.885Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "11 hours ago",
+      "timestamp": "2026-05-28T12:02:57.000Z",
+      "approvedAt": "2026-05-28T23:11:23.882Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Patrick Rodgers finds peace despite not winning a PGA Tour trophy",
+      "summary": "With 329 starts but no wins, Patrick Rodgers explains how he found purpose beyond the PGA Tour leaderboard.",
+      "quickRead": "Patrick Rodgers says he’s made peace with never winning on the PGA Tour by redefining his “why” as being an example to his kids—pursuing excellence and resilience—so he can want a trophy “with every fiber of my being” but “don’t need it in order to feel complete as a person. ” With 329 career starts and no wins, he credits his wife Jade, his two kids (with a third on the way), and work with performance coach Julie Elion for easing guilt, improving balance, and freeing him up to play better.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/patrick-rodgers-finds-peace-despite-120257022.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/patrick-rodgers-finds-peace-despite-120257022.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-05-28T20:30:00.000Z",
       "approvedAt": "2026-05-28T21:52:37.880Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-suggests-underrated-liv-203000925.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-05-28T13:00:00.000Z",
       "approvedAt": "2026-05-28T18:33:05.093Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-05-28T15:00:51.000Z",
       "approvedAt": "2026-05-28T18:08:10.394Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-28T01:01:18.000Z",
       "approvedAt": "2026-05-28T11:34:27.881Z",
       "status": "Confirmed",
@@ -99,7 +118,7 @@
       "holdUntil": "2026-05-29T11:34:27.881Z"
     },
     {
-      "time": "13 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-28T08:34:27.881Z",
       "approvedAt": "2026-05-28T11:34:27.881Z",
       "status": "Verifying",
@@ -203,7 +222,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-28T21:52:25.776Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -217,7 +236,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-05-28T21:15:25.776Z",
       "status": "Trending",
       "signal": "Reddit find",
