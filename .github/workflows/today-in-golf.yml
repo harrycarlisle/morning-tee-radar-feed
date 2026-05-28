@@ -2,9 +2,14 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # Runs every hour. The script decides whether it should generate
-    # the 8 AM, 12 PM, or 8 PM ET edition.
-    - cron: "0 * * * *"
+    # 8:01 AM ET
+    - cron: "1 12 * * *"
+
+    # 12:01 PM ET
+    - cron: "1 16 * * *"
+
+    # 8:01 PM ET
+    - cron: "1 0 * * *"
 
   workflow_dispatch:
     inputs:
