@@ -59,31 +59,6 @@ const GOLF_INTERNET_POSITIVE_TERMS = [
   "best"
 ];
 
-const IGNORE_TERMS = [
-  "rate my",
-  "what club",
-  "swing advice",
-  "new clubs",
-  "bag setup",
-  "beginner clubs",
-  "handicap question",
-  "odds",
-  "picks",
-  "predictions",
-  "betting",
-  "wager",
-  "sportsbook",
-  "favorite",
-  "favorites",
-  "how to watch",
-  "how to live stream",
-  "live stream",
-  "tv channel",
-  "streaming coverage",
-  "where to watch",
-  "watch online"
-];
-
 /*
   Reddit is temporarily disabled because GitHub Actions is getting 403s
   from Reddit. Turn this back on later once Reddit access is fixed.
@@ -495,7 +470,14 @@ const IGNORE_TERMS = [
   "wager",
   "sportsbook",
   "favorite",
-  "favorites"
+  "favorites",
+  "how to watch",
+  "how to live stream",
+  "live stream",
+  "tv channel",
+  "streaming coverage",
+  "where to watch",
+  "watch online"
 ];
 
 function loadSeenPosts() {
