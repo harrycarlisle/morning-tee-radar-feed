@@ -689,9 +689,10 @@ See all stories →
   });
 
   if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`OpenAI request failed: ${response.status} ${errorText}`);
-  }
+  const errorText = await response.text();
+  console.warn(`[Today In Golf] OpenAI request failed: ${response.status} ${errorText}`);
+  return null;
+}
 
   const result = await response.json();
 
