@@ -73,6 +73,13 @@ const GOLF_INTERNET_IGNORE_TERMS = [
   "betting",
   "wager",
   "sportsbook"
+  "how to watch",
+  "how to live stream",
+  "live stream",
+  "tv channel",
+  "streaming coverage",
+  "where to watch",
+  "watch online"
 ];
 
 /*
