@@ -27,6 +27,17 @@ const TOUR = "pga";
 const CURRENT_YEAR = new Date().getFullYear();
 const START_YEAR = CURRENT_YEAR - 10;
 
+// DataGolf limit is 45 requests per minute.
+// 1700ms keeps us safely under that.
+const REQUEST_DELAY_MS = 1700;
+
+// If we hit a 429 anyway, wait 5 minutes plus a small buffer.
+const RATE_LIMIT_WAIT_MS = 5 * 60 * 1000 + 15000;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 function dataGolfUrl(endpoint, params = {}) {
   const url = new URL(`https://feeds.datagolf.com/${endpoint}`);
 
@@ -40,8 +51,14 @@ function dataGolfUrl(endpoint, params = {}) {
   return url.toString();
 }
 
-async function fetchJson(url) {
+async function fetchJson(url, attempt = 1) {
   const response = await fetch(url);
+
+  if (response.status === 429 && attempt <= 2) {
+    console.warn(`[H2H] Rate limited. Waiting 5 minutes before retry ${attempt}...`);
+    await sleep(RATE_LIMIT_WAIT_MS);
+    return fetchJson(url, attempt + 1);
+  }
 
   if (!response.ok) {
     const text = await response.text();
@@ -110,16 +127,20 @@ function compareFinishes(playerAResult, playerBResult) {
   }
 
   if (a.rank < b.rank) {
+    const diff = b.rank - a.rank;
+
     return {
       winner: PLAYER_A.slug,
-      edge: `${PLAYER_A.displayName.split(" ")[0]} by ${b.rank - a.rank} spot${b.rank - a.rank === 1 ? "" : "s"}`,
+      edge: `${PLAYER_A.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
       counted: true
     };
   }
 
+  const diff = a.rank - b.rank;
+
   return {
     winner: PLAYER_B.slug,
-    edge: `${PLAYER_B.displayName.split(" ")[0]} by ${a.rank - b.rank} spot${a.rank - b.rank === 1 ? "" : "s"}`,
+    edge: `${PLAYER_B.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
     counted: true
   };
 }
@@ -170,8 +191,17 @@ async function buildMatchup() {
   const allEvents = sortEventsNewestFirst(await getEventList());
   const sharedStarts = [];
 
-  for (const event of allEvents) {
+  console.log(`[H2H] Checking ${allEvents.length} ${TOUR.toUpperCase()} events from ${START_YEAR}-${CURRENT_YEAR}...`);
+
+  for (let i = 0; i < allEvents.length; i += 1) {
+    const event = allEvents[i];
+
     try {
+      console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
+
+      // Important: delay before every event-results request.
+      await sleep(REQUEST_DELAY_MS);
+
       const results = await getEventResults(event);
 
       const playerAResult = results.find((row) => Number(row.dg_id) === PLAYER_A.dgId);
@@ -209,8 +239,6 @@ async function buildMatchup() {
         edge: comparison.edge,
         counted: comparison.counted
       });
-
-      await new Promise((resolve) => setTimeout(resolve, 1400));
     } catch (error) {
       console.warn(`[H2H] Skipped ${event.year} ${event.eventName}: ${error.message}`);
     }
