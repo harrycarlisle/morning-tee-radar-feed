@@ -78,7 +78,7 @@ const MATCHUPS = [
       country: "USA"
     },
     startYear: 2020
-  }
+  },
     {
     playerA: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
     playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
