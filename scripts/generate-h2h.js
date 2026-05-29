@@ -79,6 +79,41 @@ const MATCHUPS = [
     },
     startYear: 2020
   }
+    {
+    playerA: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
+    playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
+    startYear: 2010
+  },
+  {
+    playerA: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
+    playerB: { name: "Mickelson, Phil", displayName: "Phil Mickelson", slug: "phil-mickelson", dgId: 5322, country: "USA" },
+    startYear: 2000
+  },
+  {
+    playerA: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
+    playerB: { name: "DeChambeau, Bryson", displayName: "Bryson DeChambeau", slug: "bryson-dechambeau", dgId: 19841, country: "USA" },
+    startYear: 2020
+  },
+  {
+    playerA: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
+    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 15450, country: "USA" },
+    startYear: 2020
+  },
+  {
+    playerA: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
+    playerB: { name: "Rahm, Jon", displayName: "Jon Rahm", slug: "jon-rahm", dgId: 19195, country: "ESP" },
+    startYear: 2020
+  },
+  {
+    playerA: { name: "Morikawa, Collin", displayName: "Collin Morikawa", slug: "collin-morikawa", dgId: 17975, country: "USA" },
+    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 15450, country: "USA" },
+    startYear: 2020
+  },
+  {
+    playerA: { name: "Aberg, Ludvig", displayName: "Ludvig Åberg", slug: "ludvig-aberg", dgId: 29388, country: "SWE" },
+    playerB: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
+    startYear: 2023
+  }
 ];
 
 const REQUEST_DELAY_MS = 1700;
