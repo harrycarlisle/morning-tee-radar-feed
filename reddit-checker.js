@@ -3071,6 +3071,140 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
+function getHomepageRunnerUpItems(items, bestCandidate, limit = 4) {
+  const bestUrl = String(bestCandidate && (bestCandidate.url || bestCandidate.sourceUrl) || "").trim().toLowerCase();
+  const bestId = String(bestCandidate && bestCandidate.id || "").trim().toLowerCase();
+  const seen = new Set();
+
+  return (items || [])
+    .filter((item) => item && item.url && item.sourceType !== "Leaderboard")
+    .filter((item) => {
+      const url = String(item.url || item.sourceUrl || "").trim().toLowerCase();
+      const id = String(item.id || "").trim().toLowerCase();
+
+      if (bestUrl && url === bestUrl) return false;
+      if (bestId && id === bestId) return false;
+
+      const key = url || id || String(item.title || "").trim().toLowerCase();
+      if (!key || seen.has(key)) return false;
+
+      seen.add(key);
+      return true;
+    })
+    .filter((item) => {
+      const timestamp = getSourceTimestampIso(item, 0);
+      const parsed = Date.parse(timestamp);
+
+      if (Number.isNaN(parsed)) return false;
+
+      const ageHours = (Date.now() - parsed) / 3600000;
+      return ageHours <= 48;
+    })
+    .filter((item) => {
+      const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+      if (isIgnored(text)) return false;
+
+      const candidateScore = Number(item.score || 0);
+      const weekScore = scoreWeekRadarItem(item);
+
+      return Math.max(candidateScore, weekScore) >= 35;
+    })
+    .sort((a, b) => {
+      const aScore = Math.max(Number(a.score || 0), scoreWeekRadarItem(a));
+      const bScore = Math.max(Number(b.score || 0), scoreWeekRadarItem(b));
+
+      if (aScore !== bScore) return bScore - aScore;
+
+      const aTime = Date.parse(getSourceTimestampIso(a, 0));
+      const bTime = Date.parse(getSourceTimestampIso(b, 0));
+
+      return bTime - aTime;
+    })
+    .slice(0, limit);
+}
+
+async function autoPublishHomepageRunnerUpsToGitHub(items) {
+  if (!AUTO_PUBLISH || !Array.isArray(items) || !items.length) {
+    return false;
+  }
+
+  const current = await getRadarFileFromGitHub();
+  const imageUsage = {};
+
+  const existingAlsoMoving = Array.isArray(current.json.alsoMoving)
+    ? current.json.alsoMoving
+    : [];
+
+  const runnerUpRadarItems = items
+    .filter((item) => item && item.url)
+    .filter((item) => {
+      const quickRead = item.quickRead || item.quickContext || item.modalSummary || item.summary || "";
+      return !quickReadLooksWeak(quickRead, item);
+    })
+    .map(buildRadarItem)
+    .filter((item) => !storyAlreadyOnRadar(current.json, item));
+
+  if (!runnerUpRadarItems.length) {
+    console.log("[Homepage Runner Ups] No new runner-up stories to add.");
+    return false;
+  }
+
+  const nextAlsoMoving = addDisplayTimesToRadarArray(
+    removeOldLeaderboardStories(
+      attachImagesToRadarArray(
+        dedupeStoryClusters([
+          ...runnerUpRadarItems,
+          ...existingAlsoMoving
+        ]),
+        imageUsage
+      )
+    )
+      .filter((story) => {
+        const timestamp = Date.parse(story.timestamp || story.approvedAt || story.publishedAt || "");
+        if (Number.isNaN(timestamp)) return true;
+
+        const holdUntil = Date.parse(story.holdUntil || "");
+        if (!Number.isNaN(holdUntil) && Date.now() <= holdUntil) return true;
+
+        const ageHours = (Date.now() - timestamp) / 3600000;
+        return ageHours <= 48;
+      })
+      .slice(0, 8),
+    35
+  );
+
+  const nextWeekRadar = buildWeekRadarFromStories(
+    [
+      ...(Array.isArray(current.json.today) ? current.json.today : []),
+      ...nextAlsoMoving,
+      ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
+    ],
+    current.json.weekRadar || current.json.week_radar || []
+  );
+
+  const nextJson = {
+    ...current.json,
+    active: true,
+    updatedAt: new Date().toISOString(),
+    alsoMoving: nextAlsoMoving,
+    weekRadar: nextWeekRadar
+  };
+
+  if (!radarJsonChanged(current.json, nextJson)) {
+    console.log("[Homepage Runner Ups] No GitHub update needed.");
+    return false;
+  }
+
+  const title = runnerUpRadarItems.length === 1
+    ? `Add homepage runner-up: ${runnerUpRadarItems[0].title}`
+    : `Add ${runnerUpRadarItems.length} homepage runner-up stories`;
+
+  await updateRadarFileOnGitHub(nextJson, current.sha, title);
+  console.log(`[Homepage Runner Ups] Added ${runnerUpRadarItems.length} story/stories to alsoMoving.`);
+
+  return true;
+}
+
 async function clearLiveLeaderboardsIfNeeded() {
   if (!AUTO_PUBLISH) return false;
 
@@ -3261,7 +3395,7 @@ if (golfInternetItems.length) {
   golfInternetItems = await Promise.all(golfInternetItems.map(withQuickRead));
 }
 
- const weekRadarSourceItems = await Promise.all(
+  const weekRadarSourceItems = await Promise.all(
   [...candidates, ...rssItems, ...golfInternetItems]
     .filter((item) => item && !isLeaderboardLikeItem(item))
     .sort((a, b) => scoreWeekRadarItem(b) - scoreWeekRadarItem(a))
@@ -3269,14 +3403,29 @@ if (golfInternetItems.length) {
     .map(withQuickRead)
 );
 
+const homepageRunnerUpSourceItems = getHomepageRunnerUpItems(
+  [...candidates, ...weekRadarSourceItems],
+  bestCandidate,
+  4
+);
+
+const homepageRunnerUpItems = await Promise.all(
+  homepageRunnerUpSourceItems.map(withQuickRead)
+);
+
 let published = false;
 
     if (AUTO_PUBLISH) {
-    if (bestCandidate) {
+        if (bestCandidate) {
       published = await autoPublishToGitHub(bestCandidate);
     }
 
+    if (homepageRunnerUpItems.length) {
+      await autoPublishHomepageRunnerUpsToGitHub(homepageRunnerUpItems);
+    }
+
     try {
+    
   await clearLiveLeaderboardsIfNeeded();
 } catch (error) {
   console.error("[Leaderboard] Cleanup failed, continuing radar run.", error.message);
