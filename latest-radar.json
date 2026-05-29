@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-29T21:50:23.434Z",
+  "updatedAt": "2026-05-29T23:08:27.992Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,7 @@
   ],
   "today": [
     {
-      "time": "9 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-29T13:54:17.000Z",
       "approvedAt": "2026-05-29T14:53:28.097Z",
       "status": "Confirmed",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "3 hours ago",
+      "timestamp": "2026-05-29T20:06:56.000Z",
+      "approvedAt": "2026-05-29T23:08:27.989Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Injury Scare Forces PGA Tour Pro to Withdraw Mid-Round at $9.9M Event",
+      "summary": "2026 was turning out to be a good year for Stephan Jaeger.",
+      "quickRead": "Stephan Jaeger withdrew mid-round from the $9. 9 million Charles Schwab Challenge at Colonial after PGA Tour Communications confirmed he suffered a back injury.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/injury-scare-forces-pga-tour-200656713.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/injury-scare-forces-pga-tour-200656713.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-05-29T21:18:21.000Z",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/gets-kinda-pissed-bryson-dechambeau-035430762.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-05-28T16:30:00.000Z",
-      "approvedAt": "2026-05-29T13:02:54.815Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "CJ Cup achieves TV viewership figure not seen in 12 months on the PGA Tour",
-      "summary": "The CJ Cup Byron Nelson came under fire from golf fans after its ridiculously low scoring.",
-      "quickRead": "The CJ Cup Byron Nelson drew the PGA Tour’s most-watched third round on cable in 12 months, with Golf Channel’s Saturday lead-in at 1. 15M viewers, plus a record Friday telecast for the event at 804,000 viewers.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/cj-cup-achieves-tv-viewership-163000214.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/cj-cup-achieves-tv-viewership-163000214.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "1 hour ago",
+      "time": "Just now",
       "timestamp": "2026-05-29T21:50:06.584Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "1 hour ago",
+      "time": "37 min ago",
       "timestamp": "2026-05-29T21:13:06.585Z",
       "status": "Trending",
       "signal": "Reddit find",
