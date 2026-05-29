@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-05-29T13:17:35.120Z",
+  "updatedAt": "2026-05-29T13:22:50.896Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,10 +23,505 @@
   },
   "summary": {
     "since": 2025,
-    "sharedStarts": 0,
-    "playerAWins": 0,
-    "playerBWins": 0,
-    "ties": 0
+    "sharedStarts": 18,
+    "playerAWins": 10,
+    "playerBWins": 7,
+    "ties": 1
   },
-  "events": []
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T14",
+        "earnings": 364763,
+        "fedExCupPoints": 90,
+        "dgPoints": 2.079
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2430000,
+        "fedExCupPoints": 500,
+        "dgPoints": 13.8649
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4500000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T22",
+        "earnings": 271250,
+        "fedExCupPoints": 52,
+        "dgPoints": 0.9897
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T46",
+        "earnings": 72125,
+        "fedExCupPoints": 16.125,
+        "dgPoints": 0.3746
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T24",
+        "earnings": 157000,
+        "fedExCupPoints": 36.333,
+        "dgPoints": 0.4734
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "WD",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.3232
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": 1800000,
+        "fedExCupPoints": 375,
+        "dgPoints": 7.5638
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 877500,
+        "fedExCupPoints": 312.5,
+        "dgPoints": 4.33
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T14",
+        "earnings": 342750,
+        "fedExCupPoints": 85,
+        "dgPoints": 1.1612
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 2616667,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.3945
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T23",
+        "earnings": 395000,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.118
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 2000,
+        "dgPoints": 15.5358
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": 441000,
+        "fedExCupPoints": 242.667,
+        "dgPoints": 1.0419
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3100000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-13",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 233400,
+        "fedExCupPoints": 80,
+        "dgPoints": 2.2164
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": 788175,
+        "fedExCupPoints": 245,
+        "dgPoints": 7.1217
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": 243070,
+        "fedExCupPoints": 58.25,
+        "dgPoints": 1.5422
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3420000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T47",
+        "earnings": 49190,
+        "fedExCupPoints": 15.75,
+        "dgPoints": 0.5784
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": 1008000,
+        "fedExCupPoints": 325,
+        "dgPoints": 6.9699
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4200000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-30",
+      "eventId": 20,
+      "eventName": "Texas Children's Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T2",
+        "earnings": 845500,
+        "fedExCupPoints": 245,
+        "dgPoints": 5.3156
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": 337844,
+        "fedExCupPoints": 96.25,
+        "dgPoints": 2.3361
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T20",
+        "earnings": 240250,
+        "fedExCupPoints": 48.3,
+        "dgPoints": 0.9989
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4500000,
+        "fedExCupPoints": 750,
+        "dgPoints": 19.9974
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T11",
+        "earnings": 451250,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.4274
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T15",
+        "earnings": 349000,
+        "fedExCupPoints": 80,
+        "dgPoints": 1.0465
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T17",
+        "earnings": 270714,
+        "fedExCupPoints": 56.286,
+        "dgPoints": 0.7919
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 16.9292
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 8 spots",
+      "counted": true
+    }
+  ]
 }
