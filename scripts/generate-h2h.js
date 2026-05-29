@@ -7,32 +7,84 @@ if (!API_KEY) {
   throw new Error("Missing DATAGOLF_API_KEY environment variable.");
 }
 
-const PLAYER_A = {
-  name: "Scheffler, Scottie",
-  displayName: "Scottie Scheffler",
-  slug: "scottie-scheffler",
-  dgId: 18417,
-  country: "USA"
-};
-
-const PLAYER_B = {
-  name: "McIlroy, Rory",
-  displayName: "Rory McIlroy",
-  slug: "rory-mcilroy",
-  dgId: 10091,
-  country: "NIR"
-};
-
 const TOUR = "pga";
 const CURRENT_YEAR = new Date().getFullYear();
-const START_YEAR = 2025;
 
-// DataGolf limit is 45 requests per minute.
-// 1700ms keeps us safely under that.
+const MATCHUPS = [
+  {
+    playerA: {
+      name: "Scheffler, Scottie",
+      displayName: "Scottie Scheffler",
+      slug: "scottie-scheffler",
+      dgId: 18417,
+      country: "USA"
+    },
+    playerB: {
+      name: "McIlroy, Rory",
+      displayName: "Rory McIlroy",
+      slug: "rory-mcilroy",
+      dgId: 10091,
+      country: "NIR"
+    },
+    startYear: 2020
+  },
+  {
+    playerA: {
+      name: "DeChambeau, Bryson",
+      displayName: "Bryson DeChambeau",
+      slug: "bryson-dechambeau",
+      dgId: 19841,
+      country: "USA"
+    },
+    playerB: {
+      name: "McIlroy, Rory",
+      displayName: "Rory McIlroy",
+      slug: "rory-mcilroy",
+      dgId: 10091,
+      country: "NIR"
+    },
+    startYear: 2020
+  },
+  {
+    playerA: {
+      name: "Scheffler, Scottie",
+      displayName: "Scottie Scheffler",
+      slug: "scottie-scheffler",
+      dgId: 18417,
+      country: "USA"
+    },
+    playerB: {
+      name: "Rahm, Jon",
+      displayName: "Jon Rahm",
+      slug: "jon-rahm",
+      dgId: 19195,
+      country: "ESP"
+    },
+    startYear: 2020
+  },
+  {
+    playerA: {
+      name: "DeChambeau, Bryson",
+      displayName: "Bryson DeChambeau",
+      slug: "bryson-dechambeau",
+      dgId: 19841,
+      country: "USA"
+    },
+    playerB: {
+      name: "Koepka, Brooks",
+      displayName: "Brooks Koepka",
+      slug: "brooks-koepka",
+      dgId: 16243,
+      country: "USA"
+    },
+    startYear: 2020
+  }
+];
+
 const REQUEST_DELAY_MS = 1700;
-
-// If we hit a 429 anyway, wait 5 minutes plus a small buffer.
 const RATE_LIMIT_WAIT_MS = 5 * 60 * 1000 + 15000;
+
+const eventResultsCache = new Map();
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -98,7 +150,7 @@ function normalizeFinishValue(finText) {
   };
 }
 
-function compareFinishes(playerAResult, playerBResult) {
+function compareFinishes(playerAResult, playerBResult, playerA, playerB) {
   const a = normalizeFinishValue(playerAResult.fin_text);
   const b = normalizeFinishValue(playerBResult.fin_text);
 
@@ -130,8 +182,8 @@ function compareFinishes(playerAResult, playerBResult) {
     const diff = b.rank - a.rank;
 
     return {
-      winner: PLAYER_A.slug,
-      edge: `${PLAYER_A.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
+      winner: playerA.slug,
+      edge: `${playerA.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
       counted: true
     };
   }
@@ -139,8 +191,8 @@ function compareFinishes(playerAResult, playerBResult) {
   const diff = a.rank - b.rank;
 
   return {
-    winner: PLAYER_B.slug,
-    edge: `${PLAYER_B.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
+    winner: playerB.slug,
+    edge: `${playerB.displayName.split(" ")[0]} by ${diff} spot${diff === 1 ? "" : "s"}`,
     counted: true
   };
 }
@@ -152,7 +204,7 @@ function sortEventsNewestFirst(events) {
   });
 }
 
-async function getEventList() {
+async function getEventList(startYear) {
   const url = dataGolfUrl("historical-event-data/event-list", {
     tour: TOUR
   });
@@ -161,30 +213,40 @@ async function getEventList() {
 
   const rows = Array.isArray(data) ? data : data.events || data.data || [];
 
-  return rows
-    .filter((event) => {
-      const year = Number(event.calendar_year || event.year);
-      return year >= START_YEAR && year <= CURRENT_YEAR;
-    })
-    .map((event) => ({
-      year: Number(event.calendar_year || event.year),
-      date: event.date || "",
-      eventId: event.event_id,
-      eventName: event.event_name,
-      tour: event.tour || TOUR
-    }));
+  return sortEventsNewestFirst(
+    rows
+      .filter((event) => {
+        const year = Number(event.calendar_year || event.year);
+        return year >= startYear && year <= CURRENT_YEAR;
+      })
+      .map((event) => ({
+        year: Number(event.calendar_year || event.year),
+        date: event.date || "",
+        eventId: event.event_id,
+        eventName: event.event_name,
+        tour: event.tour || TOUR
+      }))
+  );
 }
 
 async function getEventResults(event) {
+  const cacheKey = `${event.tour || TOUR}:${event.year}:${event.eventId}`;
+
+  if (eventResultsCache.has(cacheKey)) {
+    return eventResultsCache.get(cacheKey);
+  }
+
   const url = dataGolfUrl("historical-event-data/events", {
-    tour: TOUR,
+    tour: event.tour || TOUR,
     event_id: event.eventId,
     year: event.year
   });
 
+  await sleep(REQUEST_DELAY_MS);
+
   const data = await fetchJson(url);
 
-  return Array.isArray(data)
+  const rows = Array.isArray(data)
     ? data
     : data.event_stats ||
       data.results ||
@@ -194,13 +256,37 @@ async function getEventResults(event) {
       data.event_data ||
       data.finishes ||
       [];
+
+  eventResultsCache.set(cacheKey, rows);
+  return rows;
 }
 
-async function buildMatchup() {
-  const allEvents = sortEventsNewestFirst(await getEventList());
+function matchupId(playerA, playerB) {
+  return `${playerA.slug}-vs-${playerB.slug}`;
+}
+
+function validateMatchup(matchup) {
+  const missing = [];
+
+  if (!matchup.playerA?.dgId) missing.push(matchup.playerA?.displayName || "Player A");
+  if (!matchup.playerB?.dgId) missing.push(matchup.playerB?.displayName || "Player B");
+
+  if (missing.length) {
+    throw new Error(`Missing DataGolf ID for ${missing.join(" and ")}`);
+  }
+}
+
+async function buildMatchup(matchup) {
+  const { playerA, playerB, startYear } = matchup;
+
+  validateMatchup(matchup);
+
+  const allEvents = await getEventList(startYear);
   const sharedStarts = [];
 
-  console.log(`[H2H] Checking ${allEvents.length} ${TOUR.toUpperCase()} events from ${START_YEAR}-${CURRENT_YEAR}...`);
+  console.log("");
+  console.log(`[H2H] Building ${playerA.displayName} vs ${playerB.displayName}`);
+  console.log(`[H2H] Checking ${allEvents.length} ${TOUR.toUpperCase()} events from ${startYear}-${CURRENT_YEAR}...`);
 
   for (let i = 0; i < allEvents.length; i += 1) {
     const event = allEvents[i];
@@ -208,19 +294,16 @@ async function buildMatchup() {
     try {
       console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
-      // Important: delay before every event-results request.
-      await sleep(REQUEST_DELAY_MS);
-
       const results = await getEventResults(event);
 
-      const playerAResult = results.find((row) => Number(row.dg_id) === PLAYER_A.dgId);
-      const playerBResult = results.find((row) => Number(row.dg_id) === PLAYER_B.dgId);
+      const playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
+      const playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
       if (!playerAResult || !playerBResult) {
         continue;
       }
 
-      const comparison = compareFinishes(playerAResult, playerBResult);
+      const comparison = compareFinishes(playerAResult, playerBResult, playerA, playerB);
 
       sharedStarts.push({
         year: event.year,
@@ -229,16 +312,16 @@ async function buildMatchup() {
         eventName: event.eventName,
         tour: event.tour,
         playerA: {
-          name: PLAYER_A.displayName,
-          dgId: PLAYER_A.dgId,
+          name: playerA.displayName,
+          dgId: playerA.dgId,
           finish: playerAResult.fin_text,
           earnings: playerAResult.earnings ?? null,
           fedExCupPoints: playerAResult.fec_points ?? null,
           dgPoints: playerAResult.dg_points ?? null
         },
         playerB: {
-          name: PLAYER_B.displayName,
-          dgId: PLAYER_B.dgId,
+          name: playerB.displayName,
+          dgId: playerB.dgId,
           finish: playerBResult.fin_text,
           earnings: playerBResult.earnings ?? null,
           fedExCupPoints: playerBResult.fec_points ?? null,
@@ -255,23 +338,23 @@ async function buildMatchup() {
 
   const countedStarts = sharedStarts.filter((event) => event.counted);
 
-  const playerAWins = countedStarts.filter((event) => event.h2hWinner === PLAYER_A.slug).length;
-  const playerBWins = countedStarts.filter((event) => event.h2hWinner === PLAYER_B.slug).length;
+  const playerAWins = countedStarts.filter((event) => event.h2hWinner === playerA.slug).length;
+  const playerBWins = countedStarts.filter((event) => event.h2hWinner === playerB.slug).length;
   const ties = countedStarts.filter((event) => event.h2hWinner === "tie").length;
 
   const output = {
-    matchupId: `${PLAYER_A.slug}-vs-${PLAYER_B.slug}`,
+    matchupId: matchupId(playerA, playerB),
     updatedAt: new Date().toISOString(),
     source: "DataGolf Historical Event Data",
     rules: {
       mainStat: "shared-start wins",
-      explanation: "Golf does not have tennis-style head-to-head records, so this compares tournaments where both players were in the same field.",
+      explanation: "This compares tournaments where both players were in the same field.",
       counting: "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
     },
-    playerA: PLAYER_A,
-    playerB: PLAYER_B,
+    playerA,
+    playerB,
     summary: {
-      since: START_YEAR,
+      since: startYear,
       sharedStarts: countedStarts.length,
       playerAWins,
       playerBWins,
@@ -287,13 +370,21 @@ async function buildMatchup() {
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
 
   console.log(`[H2H] Wrote ${outputPath}`);
-  console.log(`[H2H] ${PLAYER_A.displayName}: ${playerAWins}`);
-  console.log(`[H2H] ${PLAYER_B.displayName}: ${playerBWins}`);
+  console.log(`[H2H] ${playerA.displayName}: ${playerAWins}`);
+  console.log(`[H2H] ${playerB.displayName}: ${playerBWins}`);
   console.log(`[H2H] Ties: ${ties}`);
   console.log(`[H2H] Shared starts: ${countedStarts.length}`);
 }
 
-buildMatchup().catch((error) => {
+async function main() {
+  console.log(`[H2H] Starting ${MATCHUPS.length} matchups...`);
+
+  for (const matchup of MATCHUPS) {
+    await buildMatchup(matchup);
+  }
+}
+
+main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
