@@ -12,81 +12,33 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 const MATCHUPS = [
   {
-    playerA: {
-      name: "Scheffler, Scottie",
-      displayName: "Scottie Scheffler",
-      slug: "scottie-scheffler",
-      dgId: 18417,
-      country: "USA"
-    },
-    playerB: {
-      name: "McIlroy, Rory",
-      displayName: "Rory McIlroy",
-      slug: "rory-mcilroy",
-      dgId: 10091,
-      country: "NIR"
-    },
+    playerA: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
+    playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
     startYear: 2020
   },
   {
-    playerA: {
-      name: "DeChambeau, Bryson",
-      displayName: "Bryson DeChambeau",
-      slug: "bryson-dechambeau",
-      dgId: 19841,
-      country: "USA"
-    },
-    playerB: {
-      name: "McIlroy, Rory",
-      displayName: "Rory McIlroy",
-      slug: "rory-mcilroy",
-      dgId: 10091,
-      country: "NIR"
-    },
+    playerA: { name: "DeChambeau, Bryson", displayName: "Bryson DeChambeau", slug: "bryson-dechambeau", dgId: 19841, country: "USA" },
+    playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
     startYear: 2020
   },
   {
-    playerA: {
-      name: "Scheffler, Scottie",
-      displayName: "Scottie Scheffler",
-      slug: "scottie-scheffler",
-      dgId: 18417,
-      country: "USA"
-    },
-    playerB: {
-      name: "Rahm, Jon",
-      displayName: "Jon Rahm",
-      slug: "jon-rahm",
-      dgId: 19195,
-      country: "ESP"
-    },
+    playerA: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
+    playerB: { name: "Rahm, Jon", displayName: "Jon Rahm", slug: "jon-rahm", dgId: 19195, country: "ESP" },
     startYear: 2020
   },
   {
-    playerA: {
-      name: "DeChambeau, Bryson",
-      displayName: "Bryson DeChambeau",
-      slug: "bryson-dechambeau",
-      dgId: 19841,
-      country: "USA"
-    },
-    playerB: {
-      name: "Koepka, Brooks",
-      displayName: "Brooks Koepka",
-      slug: "brooks-koepka",
-      dgId: 16243,
-      country: "USA"
-    },
+    playerA: { name: "DeChambeau, Bryson", displayName: "Bryson DeChambeau", slug: "bryson-dechambeau", dgId: 19841, country: "USA" },
+    playerB: { name: "Koepka, Brooks", displayName: "Brooks Koepka", slug: "brooks-koepka", dgId: 16243, country: "USA" },
     startYear: 2020
   },
-    {
+  {
     playerA: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
     playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
     startYear: 2010
   },
   {
     playerA: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
-    playerB: { name: "Mickelson, Phil", displayName: "Phil Mickelson", slug: "phil-mickelson", dgId: 5322, country: "USA" },
+    playerB: { name: "Mickelson, Phil", displayName: "Phil Mickelson", slug: "phil-mickelson", dgId: 1547, country: "USA" },
     startYear: 2000
   },
   {
@@ -96,7 +48,7 @@ const MATCHUPS = [
   },
   {
     playerA: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
-    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 15450, country: "USA" },
+    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 19895, country: "USA" },
     startYear: 2020
   },
   {
@@ -105,14 +57,24 @@ const MATCHUPS = [
     startYear: 2020
   },
   {
-    playerA: { name: "Morikawa, Collin", displayName: "Collin Morikawa", slug: "collin-morikawa", dgId: 17975, country: "USA" },
-    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 15450, country: "USA" },
+    playerA: { name: "Morikawa, Collin", displayName: "Collin Morikawa", slug: "collin-morikawa", dgId: 22085, country: "USA" },
+    playerB: { name: "Schauffele, Xander", displayName: "Xander Schauffele", slug: "xander-schauffele", dgId: 19895, country: "USA" },
     startYear: 2020
   },
   {
-    playerA: { name: "Aberg, Ludvig", displayName: "Ludvig Åberg", slug: "ludvig-aberg", dgId: 29388, country: "SWE" },
+    playerA: { name: "Aberg, Ludvig", displayName: "Ludvig Åberg", slug: "ludvig-aberg", dgId: 23950, country: "SWE" },
     playerB: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
     startYear: 2023
+  },
+  {
+    playerA: { name: "Hovland, Viktor", displayName: "Viktor Hovland", slug: "viktor-hovland", dgId: 18841, country: "NOR" },
+    playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
+    startYear: 2020
+  },
+  {
+    playerA: { name: "Fleetwood, Tommy", displayName: "Tommy Fleetwood", slug: "tommy-fleetwood", dgId: 12294, country: "ENG" },
+    playerB: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
+    startYear: 2020
   }
 ];
 
