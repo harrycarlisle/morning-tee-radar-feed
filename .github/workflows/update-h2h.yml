@@ -24,6 +24,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Update H2H player list
+        env:
+          DATAGOLF_API_KEY: ${{ secrets.DATAGOLF_API_KEY }}
+        run: node scripts/update-h2h-players.js
+
       - name: Generate H2H data
         env:
           DATAGOLF_API_KEY: ${{ secrets.DATAGOLF_API_KEY }}
@@ -33,7 +38,7 @@ jobs:
         run: |
           git config user.name "morning-tee-bot"
           git config user.email "actions@github.com"
-          git add data/h2h/matchups/*.json
+          git add data/h2h/players.json data/h2h/matchups/*.json
           if git diff --cached --quiet; then
             echo "No H2H changes to commit."
           else
