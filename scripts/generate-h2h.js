@@ -184,17 +184,39 @@ async function getEventResults(event) {
 
   const data = await fetchJson(url);
 
+  if (!getEventResults.hasLoggedRawResponse) {
+    console.log("[H2H] Raw sample event:", event.year, event.eventName);
+    console.log("[H2H] Raw response type:", Array.isArray(data) ? "array" : typeof data);
+    console.log(
+      "[H2H] Raw response keys:",
+      data && typeof data === "object" && !Array.isArray(data) ? Object.keys(data) : []
+    );
+    console.log("[H2H] Raw response sample:", JSON.stringify(data, null, 2).slice(0, 3000));
+    getEventResults.hasLoggedRawResponse = true;
+  }
+
   const rows = Array.isArray(data)
     ? data
-    : data.results || data.data || data.event_results || data.players || [];
+    : data.results ||
+      data.data ||
+      data.event_results ||
+      data.players ||
+      data.event_data ||
+      data.finishes ||
+      [];
 
-  if (!getEventResults.hasLoggedSample && rows.length) {
-    console.log("[H2H] Sample event:", event.year, event.eventName);
+  if (!getEventResults.hasLoggedRows && rows.length) {
     console.log("[H2H] Result row keys:", Object.keys(rows[0]));
     console.log("[H2H] First 5 rows:", JSON.stringify(rows.slice(0, 5), null, 2));
-    console.log("[H2H] Scottie match:", rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("scheffler")));
-    console.log("[H2H] Rory match:", rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("mcilroy")));
-    getEventResults.hasLoggedSample = true;
+    console.log(
+      "[H2H] Scottie match:",
+      rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("scheffler"))
+    );
+    console.log(
+      "[H2H] Rory match:",
+      rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("mcilroy"))
+    );
+    getEventResults.hasLoggedRows = true;
   }
 
   return rows;
