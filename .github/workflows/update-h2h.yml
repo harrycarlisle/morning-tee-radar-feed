@@ -1,0 +1,42 @@
+name: Update Golf H2H Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every Monday at 9:15 AM ET during daylight saving time
+    - cron: "15 13 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-h2h:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate H2H data
+        env:
+          DATAGOLF_API_KEY: ${{ secrets.DATAGOLF_API_KEY }}
+        run: node scripts/generate-h2h.js
+
+      - name: Commit updated H2H data
+        run: |
+          git config user.name "morning-tee-bot"
+          git config user.email "actions@github.com"
+          git add data/h2h/matchups/*.json
+          if git diff --cached --quiet; then
+            echo "No H2H changes to commit."
+          else
+            git commit -m "Update golf H2H data"
+            git push
+          fi
