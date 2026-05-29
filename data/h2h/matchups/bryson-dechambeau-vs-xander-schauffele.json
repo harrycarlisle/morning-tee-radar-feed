@@ -1,6 +1,6 @@
 {
-  "matchupId": "bryson-dechambeau-vs-brooks-koepka",
-  "updatedAt": "2026-05-29T20:09:40.212Z",
+  "matchupId": "bryson-dechambeau-vs-xander-schauffele",
+  "updatedAt": "2026-05-29T20:09:40.330Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -16,17 +16,17 @@
     "country": "USA"
   },
   "playerB": {
-    "name": "Koepka, Brooks",
-    "displayName": "Brooks Koepka",
-    "slug": "brooks-koepka",
-    "dgId": 16243,
+    "name": "Schauffele, Xander",
+    "displayName": "Xander Schauffele",
+    "slug": "xander-schauffele",
+    "dgId": 19895,
     "country": "USA"
   },
   "summary": {
     "since": 2020,
     "sharedStarts": 6,
-    "playerAWins": 3,
-    "playerBWins": 3,
+    "playerAWins": 2,
+    "playerBWins": 4,
     "ties": 0
   },
   "events": [
@@ -45,15 +45,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "T55",
-        "earnings": 34186,
-        "fedExCupPoints": 10.5,
-        "dgPoints": 0
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 944 spots",
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 992 spots",
       "counted": true
     },
     {
@@ -71,15 +71,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "T12",
-        "earnings": 427500,
-        "fedExCupPoints": 101.667,
-        "dgPoints": 1.7746
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": 630000,
+        "fedExCupPoints": 187.5,
+        "dgPoints": 2.8311
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 990 spots",
       "counted": true
     },
     {
@@ -97,15 +97,15 @@
         "dgPoints": 2.8133
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
       },
-      "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 989 spots",
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 3 spots",
       "counted": true
     },
     {
@@ -123,15 +123,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
+        "name": "Xander Schauffele",
+        "dgId": 19895,
         "finish": "T12",
         "earnings": 349741,
-        "fedExCupPoints": 0,
+        "fedExCupPoints": 97.143,
         "dgPoints": 2.1755
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 987 spots",
       "counted": true
     },
     {
@@ -149,15 +149,15 @@
         "dgPoints": 10.8614
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T28",
+        "earnings": 115820,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0064
       },
       "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 997 spots",
+      "edge": "Bryson by 26 spots",
       "counted": true
     },
     {
@@ -175,15 +175,15 @@
         "dgPoints": 5.0996
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": 588000,
+        "fedExCupPoints": 188.75,
+        "dgPoints": 2.8681
       },
       "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 994 spots",
+      "edge": "Bryson by 3 spots",
       "counted": true
     }
   ]

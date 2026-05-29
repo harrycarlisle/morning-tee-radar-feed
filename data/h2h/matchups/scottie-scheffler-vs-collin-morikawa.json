@@ -1,6 +1,6 @@
 {
-  "matchupId": "scottie-scheffler-vs-xander-schauffele",
-  "updatedAt": "2026-05-29T20:04:24.200Z",
+  "matchupId": "scottie-scheffler-vs-collin-morikawa",
+  "updatedAt": "2026-05-29T20:04:24.300Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -16,18 +16,18 @@
     "country": "USA"
   },
   "playerB": {
-    "name": "Schauffele, Xander",
-    "displayName": "Xander Schauffele",
-    "slug": "xander-schauffele",
-    "dgId": 19895,
+    "name": "Morikawa, Collin",
+    "displayName": "Collin Morikawa",
+    "slug": "collin-morikawa",
+    "dgId": 22085,
     "country": "USA"
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 20,
-    "playerAWins": 15,
-    "playerBWins": 3,
-    "ties": 2
+    "sharedStarts": 24,
+    "playerAWins": 19,
+    "playerBWins": 5,
+    "ties": 0
   },
   "events": [
     {
@@ -45,15 +45,41 @@
         "dgPoints": 2.079
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": 637050,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T55",
+        "earnings": 34186,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 7 spots",
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 41 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "eventId": 556,
+      "eventName": "Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 7.7241
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T62",
+        "earnings": 41500,
+        "fedExCupPoints": 7.5,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 60 spots",
       "counted": true
     },
     {
@@ -71,15 +97,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T12",
-        "earnings": 399250,
-        "fedExCupPoints": 105,
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T4",
+        "earnings": 823333,
+        "fedExCupPoints": 300,
         "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "edge": "Scottie by 2 spots",
       "counted": true
     },
     {
@@ -97,41 +123,15 @@
         "dgPoints": 13.8649
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": 630000,
-        "fedExCupPoints": 187.5,
-        "dgPoints": 2.8311
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 725625,
+        "fedExCupPoints": 237.5,
+        "dgPoints": 3.672
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 7 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-03-15",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T22",
-        "earnings": 271250,
-        "fedExCupPoints": 52,
-        "dgPoints": 0.9897
-      },
-      "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "3",
-        "earnings": 1725000,
-        "fedExCupPoints": 350,
-        "dgPoints": 6.8911
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
+      "edge": "Scottie by 5 spots",
       "counted": true
     },
     {
@@ -149,15 +149,15 @@
         "dgPoints": 0.4734
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
-        "earnings": 157000,
-        "fedExCupPoints": 36.333,
-        "dgPoints": 0.4734
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "5",
+        "earnings": 840000,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.6937
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 19 spots",
       "counted": true
     },
     {
@@ -175,15 +175,15 @@
         "dgPoints": 1.3232
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Collin Morikawa",
+        "dgId": 22085,
         "finish": "T7",
         "earnings": 603200,
         "fedExCupPoints": 176,
         "dgPoints": 2.1185
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 5 spots",
       "counted": true
     },
     {
@@ -201,15 +201,15 @@
         "dgPoints": 4.33
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
-        "earnings": 235000,
-        "fedExCupPoints": 51.8,
-        "dgPoints": 0.7946
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 17.859
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 15 spots",
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 3 spots",
       "counted": true
     },
     {
@@ -227,15 +227,67 @@
         "dgPoints": 3.6248
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T41",
-        "earnings": 34080,
-        "fedExCupPoints": 12.214,
-        "dgPoints": 0.3231
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T54",
+        "earnings": 22272,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 38 spots",
+      "edge": "Scottie by 51 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-14",
+      "eventId": 464,
+      "eventName": "Procore Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1080000,
+        "fedExCupPoints": 0,
+        "dgPoints": 10.9761
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T43",
+        "earnings": 21900,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.2521
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 2616667,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.3945
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T19",
+        "earnings": 452500,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.2448
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 15 spots",
       "counted": true
     },
     {
@@ -253,15 +305,15 @@
         "dgPoints": 15.5358
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
-        "earnings": 163500,
-        "fedExCupPoints": 121,
-        "dgPoints": 0.2539
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": 119667,
+        "fedExCupPoints": 82.333,
+        "dgPoints": 0.1262
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 27 spots",
+      "edge": "Scottie by 32 spots",
       "counted": true
     },
     {
@@ -279,8 +331,8 @@
         "dgPoints": 4.8745
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Collin Morikawa",
+        "dgId": 22085,
         "finish": "T22",
         "earnings": 186167,
         "fedExCupPoints": 146,
@@ -305,15 +357,15 @@
         "dgPoints": 28
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": 451833,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 6 spots",
+      "edge": "Scottie by 998 spots",
       "counted": true
     },
     {
@@ -331,15 +383,15 @@
         "dgPoints": 2.2164
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 991 spots",
       "counted": true
     },
     {
@@ -357,15 +409,15 @@
         "dgPoints": 2.7491
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T61",
-        "earnings": 42250,
-        "fedExCupPoints": 7.875,
-        "dgPoints": 0
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": 72000,
+        "fedExCupPoints": 18,
+        "dgPoints": 0.1725
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 55 spots",
+      "edge": "Scottie by 36 spots",
       "counted": true
     },
     {
@@ -383,15 +435,15 @@
         "dgPoints": 4.0132
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T12",
-        "earnings": 349741,
-        "fedExCupPoints": 97.143,
-        "dgPoints": 2.1755
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 5 spots",
+      "edge": "Scottie by 16 spots",
       "counted": true
     },
     {
@@ -409,15 +461,15 @@
         "dgPoints": 16.0358
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": 159000,
-        "fedExCupPoints": 37.083,
-        "dgPoints": 0.4603
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T20",
+        "earnings": 250667,
+        "fedExCupPoints": 51,
+        "dgPoints": 0.6962
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 24 spots",
+      "edge": "Scottie by 19 spots",
       "counted": true
     },
     {
@@ -435,15 +487,15 @@
         "dgPoints": 28
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
-        "earnings": 115820,
-        "fedExCupPoints": 37,
-        "dgPoints": 1.0064
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T50",
+        "earnings": 40674,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1104
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 27 spots",
+      "edge": "Scottie by 49 spots",
       "counted": true
     },
     {
@@ -461,15 +513,15 @@
         "dgPoints": 1.9461
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T18",
-        "earnings": 226056,
-        "fedExCupPoints": 50,
-        "dgPoints": 0.6686
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T54",
+        "earnings": 44500,
+        "fedExCupPoints": 9.536,
+        "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "edge": "Scottie by 46 spots",
       "counted": true
     },
     {
@@ -487,15 +539,15 @@
         "dgPoints": 6.9699
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": 588000,
-        "fedExCupPoints": 188.75,
-        "dgPoints": 2.8681
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 4 spots",
+      "edge": "Scottie by 10 spots",
       "counted": true
     },
     {
@@ -513,15 +565,15 @@
         "dgPoints": 0.9989
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "72",
-        "earnings": 50250,
-        "fedExCupPoints": 5.75,
-        "dgPoints": 0
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": 656250,
+        "fedExCupPoints": 165,
+        "dgPoints": 2.3428
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 52 spots",
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 10 spots",
       "counted": true
     },
     {
@@ -539,15 +591,67 @@
         "dgPoints": 1.4274
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T40",
-        "earnings": 78000,
-        "fedExCupPoints": 18.75,
-        "dgPoints": 0.1913
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "2",
+        "earnings": 2200000,
+        "fedExCupPoints": 400,
+        "dgPoints": 9.2512
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 270714,
+        "fedExCupPoints": 56.286,
+        "dgPoints": 0.7919
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 29 spots",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 272000,
+        "fedExCupPoints": 60,
+        "dgPoints": 0.9213
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 8 spots",
       "counted": true
     }
   ]

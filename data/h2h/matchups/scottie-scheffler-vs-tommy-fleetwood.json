@@ -1,6 +1,6 @@
 {
-  "matchupId": "scottie-scheffler-vs-xander-schauffele",
-  "updatedAt": "2026-05-29T20:04:24.200Z",
+  "matchupId": "scottie-scheffler-vs-tommy-fleetwood",
+  "updatedAt": "2026-05-29T20:04:24.438Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -16,18 +16,18 @@
     "country": "USA"
   },
   "playerB": {
-    "name": "Schauffele, Xander",
-    "displayName": "Xander Schauffele",
-    "slug": "xander-schauffele",
-    "dgId": 19895,
-    "country": "USA"
+    "name": "Fleetwood, Tommy",
+    "displayName": "Tommy Fleetwood",
+    "slug": "tommy-fleetwood",
+    "dgId": 12294,
+    "country": "ENG"
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 20,
-    "playerAWins": 15,
-    "playerBWins": 3,
-    "ties": 2
+    "sharedStarts": 24,
+    "playerAWins": 14,
+    "playerBWins": 6,
+    "ties": 4
   },
   "events": [
     {
@@ -45,15 +45,41 @@
         "dgPoints": 2.079
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": 637050,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 7 spots",
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 985 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "eventId": 556,
+      "eventName": "Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 7.7241
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T23",
+        "earnings": 167143,
+        "fedExCupPoints": 40,
+        "dgPoints": 0.4833
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 21 spots",
       "counted": true
     },
     {
@@ -71,15 +97,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T12",
-        "earnings": 399250,
-        "fedExCupPoints": 105,
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T52",
+        "earnings": 43500,
+        "fedExCupPoints": 11.5,
         "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "edge": "Scottie by 50 spots",
       "counted": true
     },
     {
@@ -97,15 +123,15 @@
         "dgPoints": 13.8649
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": 630000,
-        "fedExCupPoints": 187.5,
-        "dgPoints": 2.8311
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T33",
+        "earnings": 121500,
+        "fedExCupPoints": 27.6,
+        "dgPoints": 0.4985
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 7 spots",
+      "edge": "Scottie by 31 spots",
       "counted": true
     },
     {
@@ -123,15 +149,15 @@
         "dgPoints": 0.9897
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "3",
-        "earnings": 1725000,
-        "fedExCupPoints": 350,
-        "dgPoints": 6.8911
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T8",
+        "earnings": 731250,
+        "fedExCupPoints": 200,
+        "dgPoints": 2.5446
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 14 spots",
       "counted": true
     },
     {
@@ -149,15 +175,15 @@
         "dgPoints": 0.4734
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
-        "earnings": 157000,
-        "fedExCupPoints": 36.333,
-        "dgPoints": 0.4734
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "49",
+        "earnings": 56000,
+        "fedExCupPoints": 13.5,
+        "dgPoints": 0.1183
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 25 spots",
       "counted": true
     },
     {
@@ -175,15 +201,15 @@
         "dgPoints": 1.3232
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
         "finish": "T7",
         "earnings": 603200,
         "fedExCupPoints": 176,
         "dgPoints": 2.1185
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 5 spots",
       "counted": true
     },
     {
@@ -201,41 +227,41 @@
         "dgPoints": 4.33
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
-        "earnings": 235000,
-        "fedExCupPoints": 51.8,
-        "dgPoints": 0.7946
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": 877500,
+        "fedExCupPoints": 312.5,
+        "dgPoints": 4.33
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 15 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
-      "year": 2026,
-      "date": "2026-02-08",
-      "eventId": 3,
-      "eventName": "WM Phoenix Open",
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
-        "finish": "T3",
-        "earnings": 439680,
-        "fedExCupPoints": 125,
-        "dgPoints": 3.6248
+        "finish": "T4",
+        "earnings": 2616667,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.3945
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T41",
-        "earnings": 34080,
-        "fedExCupPoints": 12.214,
-        "dgPoints": 0.3231
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "1",
+        "earnings": 10000000,
+        "fedExCupPoints": 0,
+        "dgPoints": 12.5823
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 38 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 3 spots",
       "counted": true
     },
     {
@@ -253,15 +279,15 @@
         "dgPoints": 15.5358
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
-        "earnings": 163500,
-        "fedExCupPoints": 121,
-        "dgPoints": 0.2539
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": 910000,
+        "fedExCupPoints": 490,
+        "dgPoints": 3.5416
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 27 spots",
+      "edge": "Scottie by 3 spots",
       "counted": true
     },
     {
@@ -279,15 +305,15 @@
         "dgPoints": 4.8745
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T22",
-        "earnings": 186167,
-        "fedExCupPoints": 146,
-        "dgPoints": 0.5397
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T3",
+        "earnings": 1160000,
+        "fedExCupPoints": 650,
+        "dgPoints": 4.8745
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 19 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -305,15 +331,15 @@
         "dgPoints": 28
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": 451833,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T16",
+        "earnings": 185257,
+        "fedExCupPoints": 66.143,
+        "dgPoints": 1.6908
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 6 spots",
+      "edge": "Scottie by 15 spots",
       "counted": true
     },
     {
@@ -331,15 +357,15 @@
         "dgPoints": 2.2164
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T34",
+        "earnings": 52950,
+        "fedExCupPoints": 18,
+        "dgPoints": 0.4967
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 26 spots",
       "counted": true
     },
     {
@@ -357,15 +383,15 @@
         "dgPoints": 2.7491
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T61",
-        "earnings": 42250,
-        "fedExCupPoints": 7.875,
-        "dgPoints": 0
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T2",
+        "earnings": 1760000,
+        "fedExCupPoints": 375,
+        "dgPoints": 7.0461
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 55 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 4 spots",
       "counted": true
     },
     {
@@ -383,15 +409,15 @@
         "dgPoints": 4.0132
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T12",
-        "earnings": 349741,
-        "fedExCupPoints": 97.143,
-        "dgPoints": 2.1755
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 5 spots",
+      "edge": "Scottie by 992 spots",
       "counted": true
     },
     {
@@ -409,15 +435,41 @@
         "dgPoints": 16.0358
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": 159000,
-        "fedExCupPoints": 37.083,
-        "dgPoints": 0.4603
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T16",
+        "earnings": 319000,
+        "fedExCupPoints": 68.75,
+        "dgPoints": 0.8991
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 24 spots",
+      "edge": "Scottie by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-25",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 427500,
+        "fedExCupPoints": 122.5,
+        "dgPoints": 3.405
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": 427500,
+        "fedExCupPoints": 122.5,
+        "dgPoints": 3.405
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -435,15 +487,15 @@
         "dgPoints": 28
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
-        "earnings": 115820,
-        "fedExCupPoints": 37,
-        "dgPoints": 1.0064
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T41",
+        "earnings": 60677,
+        "fedExCupPoints": 19.125,
+        "dgPoints": 0.6504
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 27 spots",
+      "edge": "Scottie by 40 spots",
       "counted": true
     },
     {
@@ -461,15 +513,15 @@
         "dgPoints": 1.9461
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T18",
-        "earnings": 226056,
-        "fedExCupPoints": 50,
-        "dgPoints": 0.6686
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "7",
+        "earnings": 670000,
+        "fedExCupPoints": 225,
+        "dgPoints": 2.4886
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 1 spot",
       "counted": true
     },
     {
@@ -487,15 +539,15 @@
         "dgPoints": 6.9699
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": 588000,
-        "fedExCupPoints": 188.75,
-        "dgPoints": 2.8681
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T21",
+        "earnings": 210000,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.9366
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 4 spots",
+      "edge": "Scottie by 17 spots",
       "counted": true
     },
     {
@@ -513,15 +565,15 @@
         "dgPoints": 0.9989
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "72",
-        "earnings": 50250,
-        "fedExCupPoints": 5.75,
-        "dgPoints": 0
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T14",
+        "earnings": 418750,
+        "fedExCupPoints": 82.5,
+        "dgPoints": 1.5106
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 52 spots",
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 6 spots",
       "counted": true
     },
     {
@@ -539,15 +591,67 @@
         "dgPoints": 1.4274
       },
       "playerB": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T40",
-        "earnings": 78000,
-        "fedExCupPoints": 18.75,
-        "dgPoints": 0.1913
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T11",
+        "earnings": 451250,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.4274
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T5",
+        "earnings": 736500,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.8942
       },
       "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 29 spots",
+      "edge": "Scottie by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T22",
+        "earnings": 158273,
+        "fedExCupPoints": 38.273,
+        "dgPoints": 0.5735
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 13 spots",
       "counted": true
     }
   ]

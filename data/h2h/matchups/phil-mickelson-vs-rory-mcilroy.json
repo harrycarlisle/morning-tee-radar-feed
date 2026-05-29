@@ -1,18 +1,18 @@
 {
-  "matchupId": "bryson-dechambeau-vs-rory-mcilroy",
-  "updatedAt": "2026-05-29T20:09:40.162Z",
+  "matchupId": "phil-mickelson-vs-rory-mcilroy",
+  "updatedAt": "2026-05-29T20:09:41.081Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Limited to available DataGolf event data from 2017 onward."
   },
   "playerA": {
-    "name": "DeChambeau, Bryson",
-    "displayName": "Bryson DeChambeau",
-    "slug": "bryson-dechambeau",
-    "dgId": 19841,
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
     "country": "USA"
   },
   "playerB": {
@@ -23,65 +23,13 @@
     "country": "NIR"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 6,
-    "playerAWins": 1,
-    "playerBWins": 5,
+    "since": 2017,
+    "sharedStarts": 4,
+    "playerAWins": 0,
+    "playerBWins": 4,
     "ties": 0
   },
   "events": [
-    {
-      "year": 2026,
-      "date": "2026-05-17",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
-      },
-      "playerB": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": 637050,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 992 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-04-12",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
-      },
-      "playerB": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": 4500000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 998 spots",
-      "counted": true
-    },
     {
       "year": 2025,
       "date": "2025-07-20",
@@ -89,12 +37,12 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T10",
-        "earnings": 304650,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T56",
+        "earnings": 42333,
         "fedExCupPoints": 0,
-        "dgPoints": 2.8133
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -105,7 +53,7 @@
         "dgPoints": 4.0132
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "edge": "Rory by 49 spots",
       "counted": true
     },
     {
@@ -115,8 +63,8 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": 0,
         "fedExCupPoints": 0,
@@ -141,12 +89,12 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T2",
-        "earnings": 1418667,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": 0,
         "fedExCupPoints": 0,
-        "dgPoints": 10.8614
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -156,8 +104,8 @@
         "fedExCupPoints": 15.75,
         "dgPoints": 0.5784
       },
-      "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 45 spots",
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 952 spots",
       "counted": true
     },
     {
@@ -167,12 +115,12 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T5",
-        "earnings": 798000,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": 0,
         "fedExCupPoints": 0,
-        "dgPoints": 5.0996
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -183,7 +131,7 @@
         "dgPoints": 28
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "edge": "Rory by 998 spots",
       "counted": true
     }
   ]

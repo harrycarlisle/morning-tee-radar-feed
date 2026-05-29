@@ -1,6 +1,6 @@
 {
-  "matchupId": "bryson-dechambeau-vs-brooks-koepka",
-  "updatedAt": "2026-05-29T20:09:40.212Z",
+  "matchupId": "brooks-koepka-vs-rory-mcilroy",
+  "updatedAt": "2026-05-29T20:09:40.390Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -9,24 +9,24 @@
     "dataNote": null
   },
   "playerA": {
-    "name": "DeChambeau, Bryson",
-    "displayName": "Bryson DeChambeau",
-    "slug": "bryson-dechambeau",
-    "dgId": 19841,
-    "country": "USA"
-  },
-  "playerB": {
     "name": "Koepka, Brooks",
     "displayName": "Brooks Koepka",
     "slug": "brooks-koepka",
     "dgId": 16243,
     "country": "USA"
   },
+  "playerB": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
   "summary": {
     "since": 2020,
-    "sharedStarts": 6,
-    "playerAWins": 3,
-    "playerBWins": 3,
+    "sharedStarts": 7,
+    "playerAWins": 2,
+    "playerBWins": 5,
     "ties": 0
   },
   "events": [
@@ -37,14 +37,6 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "T55",
@@ -52,8 +44,16 @@
         "fedExCupPoints": 10.5,
         "dgPoints": 0
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 944 spots",
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 48 spots",
       "counted": true
     },
     {
@@ -63,14 +63,6 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "T12",
@@ -78,8 +70,42 @@
         "fedExCupPoints": 101.667,
         "dgPoints": 1.7746
       },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4500000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T46",
+        "earnings": 72125,
+        "fedExCupPoints": 16.125,
+        "dgPoints": 0.3746
+      },
       "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "edge": "Brooks by 33 spots",
       "counted": true
     },
     {
@@ -89,14 +115,6 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T10",
-        "earnings": 304650,
-        "fedExCupPoints": 0,
-        "dgPoints": 2.8133
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "CUT",
@@ -104,8 +122,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 0
       },
-      "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 989 spots",
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 992 spots",
       "counted": true
     },
     {
@@ -115,14 +141,6 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "T12",
@@ -130,8 +148,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 2.1755
       },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": 243070,
+        "fedExCupPoints": 58.25,
+        "dgPoints": 1.5422
+      },
       "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "edge": "Brooks by 7 spots",
       "counted": true
     },
     {
@@ -141,14 +167,6 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T2",
-        "earnings": 1418667,
-        "fedExCupPoints": 0,
-        "dgPoints": 10.8614
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "CUT",
@@ -156,8 +174,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 0
       },
-      "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 997 spots",
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T47",
+        "earnings": 49190,
+        "fedExCupPoints": 15.75,
+        "dgPoints": 0.5784
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 952 spots",
       "counted": true
     },
     {
@@ -167,14 +193,6 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Bryson DeChambeau",
-        "dgId": 19841,
-        "finish": "T5",
-        "earnings": 798000,
-        "fedExCupPoints": 0,
-        "dgPoints": 5.0996
-      },
-      "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
         "finish": "CUT",
@@ -182,8 +200,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 0
       },
-      "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 994 spots",
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4200000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 998 spots",
       "counted": true
     }
   ]

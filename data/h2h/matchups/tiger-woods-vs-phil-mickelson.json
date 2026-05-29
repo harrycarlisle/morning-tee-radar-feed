@@ -1,11 +1,12 @@
 {
   "matchupId": "tiger-woods-vs-phil-mickelson",
-  "updatedAt": "2026-05-29T18:59:18.409Z",
+  "updatedAt": "2026-05-29T20:09:41.022Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
-    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": "Limited to available DataGolf event data from 2017 onward, so this does not capture the full Tiger vs Phil era."
   },
   "playerA": {
     "name": "Woods, Tiger",
@@ -22,7 +23,7 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2000,
+    "since": 2017,
     "sharedStarts": 0,
     "playerAWins": 0,
     "playerBWins": 0,

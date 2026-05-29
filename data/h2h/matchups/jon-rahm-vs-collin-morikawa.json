@@ -1,6 +1,6 @@
 {
-  "matchupId": "scottie-scheffler-vs-jon-rahm",
-  "updatedAt": "2026-05-29T20:04:24.253Z",
+  "matchupId": "jon-rahm-vs-collin-morikawa",
+  "updatedAt": "2026-05-29T20:09:40.555Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -9,18 +9,18 @@
     "dataNote": null
   },
   "playerA": {
-    "name": "Scheffler, Scottie",
-    "displayName": "Scottie Scheffler",
-    "slug": "scottie-scheffler",
-    "dgId": 18417,
-    "country": "USA"
-  },
-  "playerB": {
     "name": "Rahm, Jon",
     "displayName": "Jon Rahm",
     "slug": "jon-rahm",
     "dgId": 19195,
     "country": "ESP"
+  },
+  "playerB": {
+    "name": "Morikawa, Collin",
+    "displayName": "Collin Morikawa",
+    "slug": "collin-morikawa",
+    "dgId": 22085,
+    "country": "USA"
   },
   "summary": {
     "since": 2020,
@@ -37,14 +37,6 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T14",
-        "earnings": 364763,
-        "fedExCupPoints": 90,
-        "dgPoints": 2.079
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T2",
@@ -52,8 +44,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 12.4264
       },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T55",
+        "earnings": 34186,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
       "h2hWinner": "jon-rahm",
-      "edge": "Jon by 12 spots",
+      "edge": "Jon by 53 spots",
       "counted": true
     },
     {
@@ -63,14 +63,6 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "2",
-        "earnings": 2430000,
-        "fedExCupPoints": 500,
-        "dgPoints": 13.8649
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T38",
@@ -78,8 +70,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 0.4077
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 36 spots",
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 725625,
+        "fedExCupPoints": 237.5,
+        "dgPoints": 3.672
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 31 spots",
       "counted": true
     },
     {
@@ -89,14 +89,6 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "1",
-        "earnings": 3100000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T34",
@@ -104,8 +96,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 0.801
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 33 spots",
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 965 spots",
       "counted": true
     },
     {
@@ -115,14 +115,6 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T7",
-        "earnings": 615786,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T7",
@@ -130,8 +122,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 4.0132
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 16 spots",
       "counted": true
     },
     {
@@ -141,14 +141,6 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "1",
-        "earnings": 3420000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T8",
@@ -156,8 +148,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 2.8007
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 7 spots",
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T50",
+        "earnings": 40674,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1104
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 42 spots",
       "counted": true
     },
     {
@@ -167,14 +167,6 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "4",
-        "earnings": 1008000,
-        "fedExCupPoints": 325,
-        "dgPoints": 6.9699
-      },
-      "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T14",
@@ -182,8 +174,16 @@
         "fedExCupPoints": 0,
         "dgPoints": 1.4602
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     }
   ]

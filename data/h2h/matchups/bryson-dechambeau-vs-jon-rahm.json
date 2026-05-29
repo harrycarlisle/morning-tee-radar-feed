@@ -1,6 +1,6 @@
 {
-  "matchupId": "bryson-dechambeau-vs-brooks-koepka",
-  "updatedAt": "2026-05-29T20:09:40.212Z",
+  "matchupId": "bryson-dechambeau-vs-jon-rahm",
+  "updatedAt": "2026-05-29T20:09:40.270Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -16,11 +16,11 @@
     "country": "USA"
   },
   "playerB": {
-    "name": "Koepka, Brooks",
-    "displayName": "Brooks Koepka",
-    "slug": "brooks-koepka",
-    "dgId": 16243,
-    "country": "USA"
+    "name": "Rahm, Jon",
+    "displayName": "Jon Rahm",
+    "slug": "jon-rahm",
+    "dgId": 19195,
+    "country": "ESP"
   },
   "summary": {
     "since": 2020,
@@ -45,15 +45,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "T55",
-        "earnings": 34186,
-        "fedExCupPoints": 10.5,
-        "dgPoints": 0
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T2",
+        "earnings": 1804000,
+        "fedExCupPoints": 0,
+        "dgPoints": 12.4264
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 944 spots",
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 997 spots",
       "counted": true
     },
     {
@@ -71,15 +71,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "T12",
-        "earnings": 427500,
-        "fedExCupPoints": 101.667,
-        "dgPoints": 1.7746
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T38",
+        "earnings": 101250,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.4077
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 961 spots",
       "counted": true
     },
     {
@@ -97,15 +97,15 @@
         "dgPoints": 2.8133
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T34",
+        "earnings": 86517,
         "fedExCupPoints": 0,
-        "dgPoints": 0
+        "dgPoints": 0.801
       },
       "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 989 spots",
+      "edge": "Bryson by 24 spots",
       "counted": true
     },
     {
@@ -123,15 +123,15 @@
         "dgPoints": 0
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "T12",
-        "earnings": 349741,
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": 615786,
         "fedExCupPoints": 0,
-        "dgPoints": 2.1755
+        "dgPoints": 4.0132
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 987 spots",
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 992 spots",
       "counted": true
     },
     {
@@ -149,15 +149,15 @@
         "dgPoints": 10.8614
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T8",
+        "earnings": 454781,
         "fedExCupPoints": 0,
-        "dgPoints": 0
+        "dgPoints": 2.8007
       },
       "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 997 spots",
+      "edge": "Bryson by 6 spots",
       "counted": true
     },
     {
@@ -175,15 +175,15 @@
         "dgPoints": 5.0996
       },
       "playerB": {
-        "name": "Brooks Koepka",
-        "dgId": 16243,
-        "finish": "CUT",
-        "earnings": 0,
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T14",
+        "earnings": 336000,
         "fedExCupPoints": 0,
-        "dgPoints": 0
+        "dgPoints": 1.4602
       },
       "h2hWinner": "bryson-dechambeau",
-      "edge": "Bryson by 994 spots",
+      "edge": "Bryson by 9 spots",
       "counted": true
     }
   ]
