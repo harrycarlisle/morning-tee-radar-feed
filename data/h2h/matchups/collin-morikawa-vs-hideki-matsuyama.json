@@ -1,0 +1,684 @@
+{
+  "matchupId": "collin-morikawa-vs-hideki-matsuyama",
+  "updatedAt": "2026-05-29T23:02:17.577Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Morikawa, Collin",
+    "displayName": "Collin Morikawa",
+    "slug": "collin-morikawa",
+    "dgId": 22085,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Matsuyama, Hideki",
+    "displayName": "Hideki Matsuyama",
+    "slug": "hideki-matsuyama",
+    "dgId": 13562,
+    "country": "JPN"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 25,
+    "playerAWins": 14,
+    "playerBWins": 10,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T55",
+        "earnings": 34186,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T26",
+        "earnings": 125523,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0128
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "eventId": 556,
+      "eventName": "Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T62",
+        "earnings": 41500,
+        "fedExCupPoints": 7.5,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T53",
+        "earnings": 46000,
+        "fedExCupPoints": 11.25,
+        "dgPoints": 0
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 725625,
+        "fedExCupPoints": 237.5,
+        "dgPoints": 3.672
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "5",
+        "earnings": 840000,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.6937
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T41",
+        "earnings": 78000,
+        "fedExCupPoints": 18.75,
+        "dgPoints": 0.1945
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 603200,
+        "fedExCupPoints": 176,
+        "dgPoints": 2.1185
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T28",
+        "earnings": 136500,
+        "fedExCupPoints": 31.833,
+        "dgPoints": 0.4146
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 17.859
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T8",
+        "earnings": 515000,
+        "fedExCupPoints": 147.5,
+        "dgPoints": 1.8561
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T54",
+        "earnings": 22272,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "2",
+        "earnings": 1046400,
+        "fedExCupPoints": 300,
+        "dgPoints": 7.5911
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-18",
+      "eventId": 6,
+      "eventName": "Sony Open in Hawaii",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T13",
+        "earnings": 163042,
+        "fedExCupPoints": 54.167,
+        "dgPoints": 0.9462
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-10-12",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 138720,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.6098
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T20",
+        "earnings": 81509,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.3596
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T19",
+        "earnings": 452500,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.2448
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "29",
+        "earnings": 360000,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.0112
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": 119667,
+        "fedExCupPoints": 82.333,
+        "dgPoints": 0.1262
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T26",
+        "earnings": 177500,
+        "fedExCupPoints": 133,
+        "dgPoints": 0.3047
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T22",
+        "earnings": 186167,
+        "fedExCupPoints": 146,
+        "dgPoints": 0.5397
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T17",
+        "earnings": 281000,
+        "fedExCupPoints": 188,
+        "dgPoints": 0.7828
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T16",
+        "earnings": 185257,
+        "fedExCupPoints": 66.143,
+        "dgPoints": 1.6908
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 983 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-29",
+      "eventId": 524,
+      "eventName": "Rocket Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T8",
+        "earnings": 261600,
+        "fedExCupPoints": 75,
+        "dgPoints": 1.4423
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T13",
+        "earnings": 172000,
+        "fedExCupPoints": 54.167,
+        "dgPoints": 0.9686
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": 72000,
+        "fedExCupPoints": 18,
+        "dgPoints": 0.1725
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T30",
+        "earnings": 125375,
+        "fedExCupPoints": 30.25,
+        "dgPoints": 0.3627
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T42",
+        "earnings": 73014,
+        "fedExCupPoints": 19.125,
+        "dgPoints": 0.6492
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T20",
+        "earnings": 250667,
+        "fedExCupPoints": 51,
+        "dgPoints": 0.6962
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "38",
+        "earnings": 94000,
+        "fedExCupPoints": 22,
+        "dgPoints": 0.239
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T50",
+        "earnings": 40674,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1104
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 949 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 270500,
+        "fedExCupPoints": 58,
+        "dgPoints": 0.7773
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T17",
+        "earnings": 270500,
+        "fedExCupPoints": 58,
+        "dgPoints": 0.7773
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T21",
+        "earnings": 210000,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.9366
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": 656250,
+        "fedExCupPoints": 165,
+        "dgPoints": 2.3428
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 989 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "2",
+        "earnings": 2200000,
+        "fedExCupPoints": 400,
+        "dgPoints": 9.2512
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T22",
+        "earnings": 178111,
+        "fedExCupPoints": 40.056,
+        "dgPoints": 0.5318
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 270714,
+        "fedExCupPoints": 56.286,
+        "dgPoints": 0.7919
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T13",
+        "earnings": 384250,
+        "fedExCupPoints": 95,
+        "dgPoints": 1.1913
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 272000,
+        "fedExCupPoints": 60,
+        "dgPoints": 0.9213
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T48",
+        "earnings": 48600,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1024
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-05",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 6.6104
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 12.5226
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 1 spot",
+      "counted": true
+    }
+  ]
+}

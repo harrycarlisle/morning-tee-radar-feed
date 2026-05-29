@@ -1,0 +1,658 @@
+{
+  "matchupId": "scottie-scheffler-vs-wyndham-clark",
+  "updatedAt": "2026-05-29T22:56:59.053Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Clark, Wyndham",
+    "displayName": "Wyndham Clark",
+    "slug": "wyndham-clark",
+    "dgId": 23604,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 23,
+    "playerAWins": 21,
+    "playerBWins": 2,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-24",
+      "eventId": 19,
+      "eventName": "THE CJ CUP Byron Nelson",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "3",
+        "earnings": 710700,
+        "fedExCupPoints": 190,
+        "dgPoints": 3.1207
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "1",
+        "earnings": 1854000,
+        "fedExCupPoints": 500,
+        "dgPoints": 7.9206
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T14",
+        "earnings": 364763,
+        "fedExCupPoints": 90,
+        "dgPoints": 2.079
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 985 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T16",
+        "earnings": 256694,
+        "fedExCupPoints": 57.556,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2430000,
+        "fedExCupPoints": 500,
+        "dgPoints": 13.8649
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T21",
+        "earnings": 252000,
+        "fedExCupPoints": 53,
+        "dgPoints": 1.0231
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T22",
+        "earnings": 271250,
+        "fedExCupPoints": 52,
+        "dgPoints": 0.9897
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T42",
+        "earnings": 91250,
+        "fedExCupPoints": 19.125,
+        "dgPoints": 0.4238
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.3232
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T41",
+        "earnings": 78000,
+        "fedExCupPoints": 18.75,
+        "dgPoints": 0.2025
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 877500,
+        "fedExCupPoints": 312.5,
+        "dgPoints": 4.33
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T58",
+        "earnings": 39750,
+        "fedExCupPoints": 8.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 54 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 439680,
+        "fedExCupPoints": 125,
+        "dgPoints": 3.6248
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T35",
+        "earnings": 46800,
+        "fedExCupPoints": 18.5,
+        "dgPoints": 0.4057
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-25",
+      "eventId": 2,
+      "eventName": "The American Express",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1656000,
+        "fedExCupPoints": 500,
+        "dgPoints": 15.214
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T13",
+        "earnings": 169740,
+        "fedExCupPoints": 55.2,
+        "dgPoints": 1.3692
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1160000,
+        "fedExCupPoints": 650,
+        "dgPoints": 4.8745
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T56",
+        "earnings": 45800,
+        "fedExCupPoints": 22.4,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3100000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T4",
+        "earnings": 730667,
+        "fedExCupPoints": 300,
+        "dgPoints": 6.4127
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-13",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 233400,
+        "fedExCupPoints": 80,
+        "dgPoints": 2.2164
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T11",
+        "earnings": 189675,
+        "fedExCupPoints": 67.5,
+        "dgPoints": 1.7416
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T17",
+        "earnings": 252563,
+        "fedExCupPoints": 54.75,
+        "dgPoints": 0.7434
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 4000000,
+        "fedExCupPoints": 700,
+        "dgPoints": 16.0358
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "56",
+        "earnings": 46000,
+        "fedExCupPoints": 10,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 55 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3420000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T50",
+        "earnings": 40674,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1104
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 49 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 580000,
+        "fedExCupPoints": 175,
+        "dgPoints": 1.9461
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T27",
+        "earnings": 140200,
+        "fedExCupPoints": 34.3,
+        "dgPoints": 0.4267
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": 1008000,
+        "fedExCupPoints": 325,
+        "dgPoints": 6.9699
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T46",
+        "earnings": 61180,
+        "fedExCupPoints": 16.5,
+        "dgPoints": 0.2782
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-30",
+      "eventId": 20,
+      "eventName": "Texas Children's Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T2",
+        "earnings": 845500,
+        "fedExCupPoints": 245,
+        "dgPoints": 5.3156
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T5",
+        "earnings": 337844,
+        "fedExCupPoints": 96.25,
+        "dgPoints": 2.3361
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T20",
+        "earnings": 240250,
+        "fedExCupPoints": 48.3,
+        "dgPoints": 0.9989
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "WD",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T11",
+        "earnings": 451250,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.4274
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T22",
+        "earnings": 178111,
+        "fedExCupPoints": 40.056,
+        "dgPoints": 0.5318
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T31",
+        "earnings": 126000,
+        "fedExCupPoints": 29.5,
+        "dgPoints": 0.3647
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-09",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T25",
+        "earnings": 69197,
+        "fedExCupPoints": 31,
+        "dgPoints": 0.6158
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T16",
+        "earnings": 140300,
+        "fedExCupPoints": 49,
+        "dgPoints": 0.9919
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T73",
+        "earnings": 33375,
+        "fedExCupPoints": 4.625,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 64 spots",
+      "counted": true
+    }
+  ]
+}

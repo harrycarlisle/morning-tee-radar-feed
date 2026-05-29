@@ -1,0 +1,190 @@
+{
+  "matchupId": "jon-rahm-vs-justin-thomas",
+  "updatedAt": "2026-05-29T23:02:16.457Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Rahm, Jon",
+    "displayName": "Jon Rahm",
+    "slug": "jon-rahm",
+    "dgId": 19195,
+    "country": "ESP"
+  },
+  "playerB": {
+    "name": "Thomas, Justin",
+    "displayName": "Justin Thomas",
+    "slug": "justin-thomas",
+    "dgId": 14139,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 6,
+    "playerAWins": 5,
+    "playerBWins": 0,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T2",
+        "earnings": 1804000,
+        "fedExCupPoints": 0,
+        "dgPoints": 12.4264
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T4",
+        "earnings": 843867,
+        "fedExCupPoints": 300,
+        "dgPoints": 6.4127
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T38",
+        "earnings": 101250,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.4077
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T41",
+        "earnings": 83250,
+        "fedExCupPoints": 19.5,
+        "dgPoints": 0.3357
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.801
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 25.667,
+        "dgPoints": 0.801
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 0,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T8",
+        "earnings": 454781,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.8007
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.4602
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 22 spots",
+      "counted": true
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "matchupId": "xander-schauffele-vs-patrick-cantlay",
+  "updatedAt": "2026-05-29T23:02:17.029Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Schauffele, Xander",
+    "displayName": "Xander Schauffele",
+    "slug": "xander-schauffele",
+    "dgId": 19895,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Cantlay, Patrick",
+    "displayName": "Patrick Cantlay",
+    "slug": "patrick-cantlay",
+    "dgId": 15466,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 23,
+    "playerAWins": 11,
+    "playerBWins": 11,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T35",
+        "earnings": 78806,
+        "fedExCupPoints": 23.083,
+        "dgPoints": 0.743
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T60",
+        "earnings": 42500,
+        "fedExCupPoints": 8,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T10",
+        "earnings": 500000,
+        "fedExCupPoints": 133.333,
+        "dgPoints": 1.5362
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 50 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T12",
+        "earnings": 399250,
+        "fedExCupPoints": 105,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T8",
+        "earnings": 555000,
+        "fedExCupPoints": 163.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": 630000,
+        "fedExCupPoints": 187.5,
+        "dgPoints": 2.8311
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-22",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T4",
+        "earnings": 382958,
+        "fedExCupPoints": 115,
+        "dgPoints": 2.6724
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T7",
+        "earnings": 276413,
+        "fedExCupPoints": 82.5,
+        "dgPoints": 1.6895
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "3",
+        "earnings": 1725000,
+        "fedExCupPoints": 350,
+        "dgPoints": 6.8911
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T32",
+        "earnings": 128250,
+        "fedExCupPoints": 26.1,
+        "dgPoints": 0.545
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T24",
+        "earnings": 157000,
+        "fedExCupPoints": 36.333,
+        "dgPoints": 0.4734
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 975 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 603200,
+        "fedExCupPoints": 176,
+        "dgPoints": 2.1185
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T37",
+        "earnings": 92250,
+        "fedExCupPoints": 21.563,
+        "dgPoints": 0.2537
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T19",
+        "earnings": 235000,
+        "fedExCupPoints": 51.8,
+        "dgPoints": 0.7946
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T14",
+        "earnings": 342750,
+        "fedExCupPoints": 85,
+        "dgPoints": 1.1612
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-01",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T28",
+        "earnings": 163500,
+        "fedExCupPoints": 121,
+        "dgPoints": 0.2539
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T30",
+        "earnings": 146000,
+        "fedExCupPoints": 106,
+        "dgPoints": 0.2018
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T22",
+        "earnings": 186167,
+        "fedExCupPoints": 146,
+        "dgPoints": 0.5397
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T9",
+        "earnings": 501000,
+        "fedExCupPoints": 280,
+        "dgPoints": 1.5536
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T61",
+        "earnings": 42250,
+        "fedExCupPoints": 7.875,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 440000,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.3738
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 49 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T12",
+        "earnings": 349741,
+        "fedExCupPoints": 97.143,
+        "dgPoints": 2.1755
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T25",
+        "earnings": 159000,
+        "fedExCupPoints": 37.083,
+        "dgPoints": 0.4603
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.2402
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T28",
+        "earnings": 115820,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0064
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 971 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T11",
+        "earnings": 440000,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.35
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T4",
+        "earnings": 826667,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.5095
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": 226056,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.6686
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T13",
+        "earnings": 364000,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1039
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": 588000,
+        "fedExCupPoints": 188.75,
+        "dgPoints": 2.8681
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "72",
+        "earnings": 50250,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 556250,
+        "fedExCupPoints": 125,
+        "dgPoints": 1.9818
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 60 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T40",
+        "earnings": 78000,
+        "fedExCupPoints": 18.75,
+        "dgPoints": 0.1913
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T31",
+        "earnings": 126000,
+        "fedExCupPoints": 29.5,
+        "dgPoints": 0.359
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-05",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T30",
+        "earnings": 137500,
+        "fedExCupPoints": 31.75,
+        "dgPoints": 0.2342
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T15",
+        "earnings": 292000,
+        "fedExCupPoints": 62.667,
+        "dgPoints": 0.588
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 15 spots",
+      "counted": true
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "matchupId": "bryson-dechambeau-vs-jordan-spieth",
+  "updatedAt": "2026-05-29T23:02:15.929Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "DeChambeau, Bryson",
+    "displayName": "Bryson DeChambeau",
+    "slug": "bryson-dechambeau",
+    "dgId": 19841,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Spieth, Jordan",
+    "displayName": "Jordan Spieth",
+    "slug": "jordan-spieth",
+    "dgId": 14636,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 6,
+    "playerAWins": 3,
+    "playerBWins": 3,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T18",
+        "earnings": 229129,
+        "fedExCupPoints": 56.25,
+        "dgPoints": 1.4776
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 981 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T10",
+        "earnings": 304650,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.8133
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T40",
+        "earnings": 68340,
+        "fedExCupPoints": 20.3,
+        "dgPoints": 0.6778
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T2",
+        "earnings": 1418667,
+        "fedExCupPoints": 0,
+        "dgPoints": 10.8614
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T5",
+        "earnings": 798000,
+        "fedExCupPoints": 0,
+        "dgPoints": 5.0996
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 9 spots",
+      "counted": true
+    }
+  ]
+}

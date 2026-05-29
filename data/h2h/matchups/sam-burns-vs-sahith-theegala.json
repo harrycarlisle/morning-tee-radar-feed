@@ -1,0 +1,684 @@
+{
+  "matchupId": "sam-burns-vs-sahith-theegala",
+  "updatedAt": "2026-05-29T23:02:18.047Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Burns, Sam",
+    "displayName": "Sam Burns",
+    "slug": "sam-burns",
+    "dgId": 19483,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Theegala, Sahith",
+    "displayName": "Sahith Theegala",
+    "slug": "sahith-theegala",
+    "dgId": 23014,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 24,
+    "playerAWins": 14,
+    "playerBWins": 10,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T26",
+        "earnings": 125523,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0128
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T60",
+        "earnings": 29218,
+        "fedExCupPoints": 8.3,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T37",
+        "earnings": 82188,
+        "fedExCupPoints": 19.969,
+        "dgPoints": 0.2024
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "69",
+        "earnings": 38000,
+        "fedExCupPoints": 6,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "eventId": 556,
+      "eventName": "Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T38",
+        "earnings": 72182,
+        "fedExCupPoints": 18.023,
+        "dgPoints": 0.1698
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T30",
+        "earnings": 114625,
+        "fedExCupPoints": 27.438,
+        "dgPoints": 0.3044
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T16",
+        "earnings": 256694,
+        "fedExCupPoints": 57.556,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T25",
+        "earnings": 142750,
+        "fedExCupPoints": 35.375,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-29",
+      "eventId": 20,
+      "eventName": "Texas Children's Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T21",
+        "earnings": 96525,
+        "fedExCupPoints": 37.429,
+        "dgPoints": 0.6444
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T10",
+        "earnings": 259875,
+        "fedExCupPoints": 72.5,
+        "dgPoints": 1.4424
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T32",
+        "earnings": 128250,
+        "fedExCupPoints": 26.1,
+        "dgPoints": 0.545
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T6",
+        "earnings": 702000,
+        "fedExCupPoints": 233.333,
+        "dgPoints": 2.7019
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 993 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T22",
+        "earnings": 224500,
+        "fedExCupPoints": 47,
+        "dgPoints": 0.6776
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 977 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T6",
+        "earnings": 690000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.9881
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T60",
+        "earnings": 38250,
+        "fedExCupPoints": 7.875,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 54 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T18",
+        "earnings": 122720,
+        "fedExCupPoints": 44,
+        "dgPoints": 0.8592
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 981 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-25",
+      "eventId": 2,
+      "eventName": "The American Express",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T27",
+        "earnings": 57918,
+        "fedExCupPoints": 25.273,
+        "dgPoints": 0.6299
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T8",
+        "earnings": 250700,
+        "fedExCupPoints": 75,
+        "dgPoints": 2.0036
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-14",
+      "eventId": 464,
+      "eventName": "Procore Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 115500,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.8747
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T38",
+        "earnings": 27300,
+        "fedExCupPoints": 16,
+        "dgPoints": 0.2898
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-27",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T61",
+        "earnings": 18396,
+        "fedExCupPoints": 4.2,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 938 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T45",
+        "earnings": 51186,
+        "fedExCupPoints": 15.75,
+        "dgPoints": 0.5026
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 954 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.2402
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T30",
+        "earnings": 125375,
+        "fedExCupPoints": 30.25,
+        "dgPoints": 0.3586
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "WD",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 364000,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1039
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "69",
+        "earnings": 38000,
+        "fedExCupPoints": 6,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 56 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T46",
+        "earnings": 61180,
+        "fedExCupPoints": 16.5,
+        "dgPoints": 0.2782
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T29",
+        "earnings": 142800,
+        "fedExCupPoints": 37,
+        "dgPoints": 0.6422
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-23",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T36",
+        "earnings": 40528,
+        "fedExCupPoints": 17.5,
+        "dgPoints": 0.4186
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 963 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T52",
+        "earnings": 60750,
+        "fedExCupPoints": 12.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 947 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T48",
+        "earnings": 56000,
+        "fedExCupPoints": 13.875,
+        "dgPoints": 0.1231
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 951 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T24",
+        "earnings": 164857,
+        "fedExCupPoints": 38.071,
+        "dgPoints": 0.4996
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T17",
+        "earnings": 270714,
+        "fedExCupPoints": 56.286,
+        "dgPoints": 0.7919
+      },
+      "h2hWinner": "sahith-theegala",
+      "edge": "Sahith by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-09",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T49",
+        "earnings": 22586,
+        "fedExCupPoints": 7.288,
+        "dgPoints": 0.0741
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T57",
+        "earnings": 20792,
+        "fedExCupPoints": 5.1,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T22",
+        "earnings": 158273,
+        "fedExCupPoints": 38.273,
+        "dgPoints": 0.5735
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T53",
+        "earnings": 43000,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-05",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T8",
+        "earnings": 550000,
+        "fedExCupPoints": 155,
+        "dgPoints": 1.3559
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T36",
+        "earnings": 97750,
+        "fedExCupPoints": 22.5,
+        "dgPoints": 0.1297
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 28 spots",
+      "counted": true
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "matchupId": "rory-mcilroy-vs-justin-thomas",
+  "updatedAt": "2026-05-29T23:02:14.900Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
+  "playerB": {
+    "name": "Thomas, Justin",
+    "displayName": "Justin Thomas",
+    "slug": "justin-thomas",
+    "dgId": 14139,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 17,
+    "playerAWins": 11,
+    "playerBWins": 6,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T4",
+        "earnings": 843867,
+        "fedExCupPoints": 300,
+        "dgPoints": 6.4127
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": 242100,
+        "fedExCupPoints": 51.8,
+        "dgPoints": 0.694
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "13",
+        "earnings": 420000,
+        "fedExCupPoints": 110,
+        "dgPoints": 1.2618
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4500000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T41",
+        "earnings": 83250,
+        "fedExCupPoints": 19.5,
+        "dgPoints": 0.3357
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 40 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T46",
+        "earnings": 72125,
+        "fedExCupPoints": 16.125,
+        "dgPoints": 0.3746
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T8",
+        "earnings": 731250,
+        "fedExCupPoints": 200,
+        "dgPoints": 2.5446
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "WD",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T23",
+        "earnings": 395000,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.118
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T7",
+        "earnings": 1121667,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.3098
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": 441000,
+        "fedExCupPoints": 242.667,
+        "dgPoints": 1.0419
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T33",
+        "earnings": 119667,
+        "fedExCupPoints": 82.333,
+        "dgPoints": 0.1262
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 25.667,
+        "dgPoints": 0.801
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-13",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": 788175,
+        "fedExCupPoints": 245,
+        "dgPoints": 7.1217
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T22",
+        "earnings": 80625,
+        "fedExCupPoints": 31.875,
+        "dgPoints": 0.725
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": 540000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.7682
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": 243070,
+        "fedExCupPoints": 58.25,
+        "dgPoints": 1.5422
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 980 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T47",
+        "earnings": 49190,
+        "fedExCupPoints": 15.75,
+        "dgPoints": 0.5784
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 952 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 602500,
+        "fedExCupPoints": 187.5,
+        "dgPoints": 2.0588
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T2",
+        "earnings": 1760000,
+        "fedExCupPoints": 375,
+        "dgPoints": 6.7764
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4200000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 35 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 4500000,
+        "fedExCupPoints": 750,
+        "dgPoints": 19.9974
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T33",
+        "earnings": 136250,
+        "fedExCupPoints": 27.6,
+        "dgPoints": 0.6558
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T15",
+        "earnings": 349000,
+        "fedExCupPoints": 80,
+        "dgPoints": 1.0465
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": 96750,
+        "fedExCupPoints": 22.5,
+        "dgPoints": 0.2531
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T17",
+        "earnings": 270714,
+        "fedExCupPoints": 56.286,
+        "dgPoints": 0.7919
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": 556667,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.814
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 16.9292
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T48",
+        "earnings": 48600,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1024
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 47 spots",
+      "counted": true
+    }
+  ]
+}

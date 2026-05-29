@@ -1,0 +1,554 @@
+{
+  "matchupId": "scottie-scheffler-vs-tony-finau",
+  "updatedAt": "2026-05-29T22:56:59.125Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Finau, Tony",
+    "displayName": "Tony Finau",
+    "slug": "tony-finau",
+    "dgId": 11676,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 20,
+    "playerAWins": 20,
+    "playerBWins": 0,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-24",
+      "eventId": 19,
+      "eventName": "THE CJ CUP Byron Nelson",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "3",
+        "earnings": 710700,
+        "fedExCupPoints": 190,
+        "dgPoints": 3.1207
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T6",
+        "earnings": 347625,
+        "fedExCupPoints": 91.667,
+        "dgPoints": 1.5306
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "82",
+        "earnings": 30000,
+        "fedExCupPoints": 2.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 80 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T22",
+        "earnings": 271250,
+        "fedExCupPoints": 52,
+        "dgPoints": 0.9897
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T70",
+        "earnings": 50750,
+        "fedExCupPoints": 6,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.3232
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T28",
+        "earnings": 136500,
+        "fedExCupPoints": 31.833,
+        "dgPoints": 0.4146
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 877500,
+        "fedExCupPoints": 312.5,
+        "dgPoints": 4.33
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "18",
+        "earnings": 292000,
+        "fedExCupPoints": 65,
+        "dgPoints": 0.9623
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 439680,
+        "fedExCupPoints": 125,
+        "dgPoints": 3.6248
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-25",
+      "eventId": 2,
+      "eventName": "The American Express",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1656000,
+        "fedExCupPoints": 500,
+        "dgPoints": 15.214
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1160000,
+        "fedExCupPoints": 650,
+        "dgPoints": 4.8745
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T64",
+        "earnings": 42600,
+        "fedExCupPoints": 16,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 61 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3100000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T56",
+        "earnings": 42333,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 55 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T66",
+        "earnings": 39750,
+        "fedExCupPoints": 6.625,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 60 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T38",
+        "earnings": 90608,
+        "fedExCupPoints": 22.5,
+        "dgPoints": 0.7292
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 4000000,
+        "fedExCupPoints": 700,
+        "dgPoints": 16.0358
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T31",
+        "earnings": 114857,
+        "fedExCupPoints": 26.714,
+        "dgPoints": 0.3091
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3420000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T19",
+        "earnings": 193442,
+        "fedExCupPoints": 52,
+        "dgPoints": 1.3734
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 580000,
+        "fedExCupPoints": 175,
+        "dgPoints": 1.9461
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T38",
+        "earnings": 86250,
+        "fedExCupPoints": 20.688,
+        "dgPoints": 0.2227
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": 1008000,
+        "fedExCupPoints": 325,
+        "dgPoints": 6.9699
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-30",
+      "eventId": 20,
+      "eventName": "Texas Children's Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T2",
+        "earnings": 845500,
+        "fedExCupPoints": 245,
+        "dgPoints": 5.3156
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T32",
+        "earnings": 51911,
+        "fedExCupPoints": 21.214,
+        "dgPoints": 0.4447
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T20",
+        "earnings": 240250,
+        "fedExCupPoints": 48.3,
+        "dgPoints": 0.9989
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T11",
+        "earnings": 451250,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.4274
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T36",
+        "earnings": 96750,
+        "fedExCupPoints": 22.5,
+        "dgPoints": 0.2531
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T5",
+        "earnings": 736500,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.8942
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T13",
+        "earnings": 368500,
+        "fedExCupPoints": 95,
+        "dgPoints": 1.2776
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 4 spots",
+      "counted": true
+    }
+  ]
+}

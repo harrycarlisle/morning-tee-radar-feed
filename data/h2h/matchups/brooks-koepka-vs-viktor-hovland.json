@@ -1,0 +1,268 @@
+{
+  "matchupId": "brooks-koepka-vs-viktor-hovland",
+  "updatedAt": "2026-05-29T23:07:34.861Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Koepka, Brooks",
+    "displayName": "Brooks Koepka",
+    "slug": "brooks-koepka",
+    "dgId": 16243,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Hovland, Viktor",
+    "displayName": "Viktor Hovland",
+    "slug": "viktor-hovland",
+    "dgId": 18841,
+    "country": "NOR"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 9,
+    "playerAWins": 3,
+    "playerBWins": 5,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T55",
+        "earnings": 34186,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 944 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T18",
+        "earnings": 315000,
+        "fedExCupPoints": 65,
+        "dgPoints": 1.2478
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-22",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T18",
+        "earnings": 108290,
+        "fedExCupPoints": 42.063,
+        "dgPoints": 0.6952
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 981 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T10",
+        "earnings": 242400,
+        "fedExCupPoints": 70,
+        "dgPoints": 1.6488
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 989 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T63",
+        "earnings": 40280,
+        "fedExCupPoints": 7.5,
+        "dgPoints": 0
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 936 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T12",
+        "earnings": 349741,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.1755
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "3",
+        "earnings": 1462525,
+        "fedExCupPoints": 350,
+        "dgPoints": 10.1056
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T28",
+        "earnings": 115820,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0064
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 971 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T21",
+        "earnings": 210000,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.9366
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 978 spots",
+      "counted": true
+    }
+  ]
+}

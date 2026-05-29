@@ -1,0 +1,190 @@
+{
+  "matchupId": "jon-rahm-vs-jordan-spieth",
+  "updatedAt": "2026-05-29T23:02:16.537Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Rahm, Jon",
+    "displayName": "Jon Rahm",
+    "slug": "jon-rahm",
+    "dgId": 19195,
+    "country": "ESP"
+  },
+  "playerB": {
+    "name": "Spieth, Jordan",
+    "displayName": "Jordan Spieth",
+    "slug": "jordan-spieth",
+    "dgId": 14636,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 6,
+    "playerAWins": 4,
+    "playerBWins": 1,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T2",
+        "earnings": 1804000,
+        "fedExCupPoints": 0,
+        "dgPoints": 12.4264
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T18",
+        "earnings": 229129,
+        "fedExCupPoints": 56.25,
+        "dgPoints": 1.4776
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T38",
+        "earnings": 101250,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.4077
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.801
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T40",
+        "earnings": 68340,
+        "fedExCupPoints": 20.3,
+        "dgPoints": 0.6778
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 0,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T8",
+        "earnings": 454781,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.8007
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.4602
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    }
+  ]
+}

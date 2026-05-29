@@ -1,0 +1,762 @@
+{
+  "matchupId": "scottie-scheffler-vs-sam-burns",
+  "updatedAt": "2026-05-29T22:56:58.905Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Burns, Sam",
+    "displayName": "Sam Burns",
+    "slug": "sam-burns",
+    "dgId": 19483,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 28,
+    "playerAWins": 26,
+    "playerBWins": 1,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T14",
+        "earnings": 364763,
+        "fedExCupPoints": 90,
+        "dgPoints": 2.079
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T26",
+        "earnings": 125523,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0128
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "eventId": 556,
+      "eventName": "Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 7.7241
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T38",
+        "earnings": 72182,
+        "fedExCupPoints": 18.023,
+        "dgPoints": 0.1698
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T16",
+        "earnings": 256694,
+        "fedExCupPoints": 57.556,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2430000,
+        "fedExCupPoints": 500,
+        "dgPoints": 13.8649
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T7",
+        "earnings": 725625,
+        "fedExCupPoints": 237.5,
+        "dgPoints": 3.672
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T22",
+        "earnings": 271250,
+        "fedExCupPoints": 52,
+        "dgPoints": 0.9897
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T24",
+        "earnings": 157000,
+        "fedExCupPoints": 36.333,
+        "dgPoints": 0.4734
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 975 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.3232
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 877500,
+        "fedExCupPoints": 312.5,
+        "dgPoints": 4.33
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T6",
+        "earnings": 690000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.9881
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 439680,
+        "fedExCupPoints": 125,
+        "dgPoints": 3.6248
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-25",
+      "eventId": 2,
+      "eventName": "The American Express",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1656000,
+        "fedExCupPoints": 500,
+        "dgPoints": 15.214
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T27",
+        "earnings": 57918,
+        "fedExCupPoints": 25.273,
+        "dgPoints": 0.6299
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-14",
+      "eventId": 464,
+      "eventName": "Procore Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1080000,
+        "fedExCupPoints": 0,
+        "dgPoints": 10.9761
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 115500,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.8747
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": 2616667,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.3945
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T7",
+        "earnings": 1121667,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.3098
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 2000,
+        "dgPoints": 15.5358
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T4",
+        "earnings": 910000,
+        "fedExCupPoints": 490,
+        "dgPoints": 3.5416
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1160000,
+        "fedExCupPoints": 650,
+        "dgPoints": 4.8745
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T28",
+        "earnings": 139500,
+        "fedExCupPoints": 115,
+        "dgPoints": 0.3884
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3100000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T45",
+        "earnings": 51186,
+        "fedExCupPoints": 15.75,
+        "dgPoints": 0.5026
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 44 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-13",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 233400,
+        "fedExCupPoints": 80,
+        "dgPoints": 2.2164
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T47",
+        "earnings": 34860,
+        "fedExCupPoints": 9.5,
+        "dgPoints": 0.3763
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T6",
+        "earnings": 695000,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.7491
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T17",
+        "earnings": 252563,
+        "fedExCupPoints": 54.75,
+        "dgPoints": 0.7434
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 4000000,
+        "fedExCupPoints": 700,
+        "dgPoints": 16.0358
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.2402
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3420000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T19",
+        "earnings": 193442,
+        "fedExCupPoints": 52,
+        "dgPoints": 1.3734
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-04",
+      "eventId": 19,
+      "eventName": "THE CJ CUP Byron Nelson",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 1782000,
+        "fedExCupPoints": 500,
+        "dgPoints": 9.4602
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T5",
+        "earnings": 305972,
+        "fedExCupPoints": 84.375,
+        "dgPoints": 1.6138
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": 580000,
+        "fedExCupPoints": 175,
+        "dgPoints": 1.9461
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T13",
+        "earnings": 364000,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1039
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": 1008000,
+        "fedExCupPoints": 325,
+        "dgPoints": 6.9699
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T46",
+        "earnings": 61180,
+        "fedExCupPoints": 16.5,
+        "dgPoints": 0.2782
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T20",
+        "earnings": 240250,
+        "fedExCupPoints": 48.3,
+        "dgPoints": 0.9989
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T11",
+        "earnings": 451250,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.4274
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T48",
+        "earnings": 56000,
+        "fedExCupPoints": 13.875,
+        "dgPoints": 0.1231
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": 1200000,
+        "fedExCupPoints": 337.5,
+        "dgPoints": 5.1523
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T24",
+        "earnings": 164857,
+        "fedExCupPoints": 38.071,
+        "dgPoints": 0.4996
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-09",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T25",
+        "earnings": 69197,
+        "fedExCupPoints": 31,
+        "dgPoints": 0.6158
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T49",
+        "earnings": 22586,
+        "fedExCupPoints": 7.288,
+        "dgPoints": 0.0741
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T9",
+        "earnings": 535000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.9139
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T22",
+        "earnings": 158273,
+        "fedExCupPoints": 38.273,
+        "dgPoints": 0.5735
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 13 spots",
+      "counted": true
+    }
+  ]
+}

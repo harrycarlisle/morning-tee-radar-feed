@@ -1,0 +1,580 @@
+{
+  "matchupId": "jordan-spieth-vs-patrick-cantlay",
+  "updatedAt": "2026-05-29T23:02:17.966Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Spieth, Jordan",
+    "displayName": "Jordan Spieth",
+    "slug": "jordan-spieth",
+    "dgId": 14636,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Cantlay, Patrick",
+    "displayName": "Patrick Cantlay",
+    "slug": "patrick-cantlay",
+    "dgId": 15466,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 21,
+    "playerAWins": 8,
+    "playerBWins": 10,
+    "ties": 3
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T18",
+        "earnings": 229129,
+        "fedExCupPoints": 56.25,
+        "dgPoints": 1.4776
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T35",
+        "earnings": 78806,
+        "fedExCupPoints": 23.083,
+        "dgPoints": 0.743
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T52",
+        "earnings": 45188,
+        "fedExCupPoints": 10.25,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T10",
+        "earnings": 500000,
+        "fedExCupPoints": 133.333,
+        "dgPoints": 1.5362
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T33",
+        "earnings": 92444,
+        "fedExCupPoints": 23.25,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T8",
+        "earnings": 555000,
+        "fedExCupPoints": 163.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-22",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T11",
+        "earnings": 211575,
+        "fedExCupPoints": 65,
+        "dgPoints": 1.221
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T7",
+        "earnings": 276413,
+        "fedExCupPoints": 82.5,
+        "dgPoints": 1.6895
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T32",
+        "earnings": 128250,
+        "fedExCupPoints": 26.1,
+        "dgPoints": 0.545
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T32",
+        "earnings": 128250,
+        "fedExCupPoints": 26.1,
+        "dgPoints": 0.545
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T11",
+        "earnings": 493000,
+        "fedExCupPoints": 125,
+        "dgPoints": 1.5697
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 988 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.3232
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T37",
+        "earnings": 92250,
+        "fedExCupPoints": 21.563,
+        "dgPoints": 0.2537
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T29",
+        "earnings": 125200,
+        "fedExCupPoints": 31,
+        "dgPoints": 0.4405
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T14",
+        "earnings": 342750,
+        "fedExCupPoints": 85,
+        "dgPoints": 1.1612
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T38",
+        "earnings": 84500,
+        "fedExCupPoints": 62,
+        "dgPoints": 0.1932
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T9",
+        "earnings": 501000,
+        "fedExCupPoints": 280,
+        "dgPoints": 1.5536
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T40",
+        "earnings": 68340,
+        "fedExCupPoints": 20.3,
+        "dgPoints": 0.6778
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 959 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T7",
+        "earnings": 603200,
+        "fedExCupPoints": 176,
+        "dgPoints": 1.9698
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.2402
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T34",
+        "earnings": 95063,
+        "fedExCupPoints": 22.656,
+        "dgPoints": 0.2489
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T4",
+        "earnings": 826667,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.5095
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T18",
+        "earnings": 226056,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.6686
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T13",
+        "earnings": 364000,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1039
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-06",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": 182875,
+        "fedExCupPoints": 56.833,
+        "dgPoints": 1.0318
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T33",
+        "earnings": 50667,
+        "fedExCupPoints": 20.071,
+        "dgPoints": 0.3855
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "59",
+        "earnings": 56750,
+        "fedExCupPoints": 9.5,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 556250,
+        "fedExCupPoints": 125,
+        "dgPoints": 1.9818
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 47 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T5",
+        "earnings": 736500,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.8942
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T69",
+        "earnings": 34500,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T33",
+        "earnings": 99000,
+        "fedExCupPoints": 24.214,
+        "dgPoints": 0.3482
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 36 spots",
+      "counted": true
+    }
+  ]
+}

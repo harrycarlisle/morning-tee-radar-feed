@@ -1,0 +1,684 @@
+{
+  "matchupId": "justin-thomas-vs-patrick-cantlay",
+  "updatedAt": "2026-05-29T23:02:17.806Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Thomas, Justin",
+    "displayName": "Justin Thomas",
+    "slug": "justin-thomas",
+    "dgId": 14139,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Cantlay, Patrick",
+    "displayName": "Patrick Cantlay",
+    "slug": "patrick-cantlay",
+    "dgId": 15466,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 25,
+    "playerAWins": 7,
+    "playerBWins": 14,
+    "ties": 4
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T4",
+        "earnings": 843867,
+        "fedExCupPoints": 300,
+        "dgPoints": 6.4127
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T35",
+        "earnings": 78806,
+        "fedExCupPoints": 23.083,
+        "dgPoints": 0.743
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "13",
+        "earnings": 420000,
+        "fedExCupPoints": 110,
+        "dgPoints": 1.2618
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T10",
+        "earnings": 500000,
+        "fedExCupPoints": 133.333,
+        "dgPoints": 1.5362
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T77",
+        "earnings": 31000,
+        "fedExCupPoints": 3.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T8",
+        "earnings": 555000,
+        "fedExCupPoints": 163.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 69 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T41",
+        "earnings": 83250,
+        "fedExCupPoints": 19.5,
+        "dgPoints": 0.3357
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 427500,
+        "fedExCupPoints": 101.667,
+        "dgPoints": 1.7746
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-22",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T30",
+        "earnings": 51142,
+        "fedExCupPoints": 22,
+        "dgPoints": 0.4017
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T7",
+        "earnings": 276413,
+        "fedExCupPoints": 82.5,
+        "dgPoints": 1.6895
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T8",
+        "earnings": 731250,
+        "fedExCupPoints": 200,
+        "dgPoints": 2.5446
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T32",
+        "earnings": 128250,
+        "fedExCupPoints": 26.1,
+        "dgPoints": 0.545
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-14",
+      "eventId": 464,
+      "eventName": "Procore Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "69",
+        "earnings": 12660,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T30",
+        "earnings": 36825,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.3649
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T7",
+        "earnings": 1121667,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.3098
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T2",
+        "earnings": 4352500,
+        "fedExCupPoints": 0,
+        "dgPoints": 5.1815
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T33",
+        "earnings": 119667,
+        "fedExCupPoints": 82.333,
+        "dgPoints": 0.1262
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T30",
+        "earnings": 146000,
+        "fedExCupPoints": 106,
+        "dgPoints": 0.2018
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T28",
+        "earnings": 139500,
+        "fedExCupPoints": 115,
+        "dgPoints": 0.3884
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T9",
+        "earnings": 501000,
+        "fedExCupPoints": 280,
+        "dgPoints": 1.5536
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 25.667,
+        "dgPoints": 0.801
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 965 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": 540000,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.7682
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 440000,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.3738
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T31",
+        "earnings": 114857,
+        "fedExCupPoints": 26.714,
+        "dgPoints": 0.3091
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 415000,
+        "fedExCupPoints": 105,
+        "dgPoints": 1.2402
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T2",
+        "earnings": 1760000,
+        "fedExCupPoints": 375,
+        "dgPoints": 6.7764
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T4",
+        "earnings": 826667,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.5095
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 15.3399
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T13",
+        "earnings": 364000,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1039
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T36",
+        "earnings": 101063,
+        "fedExCupPoints": 24.5,
+        "dgPoints": 0.4394
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T33",
+        "earnings": 136250,
+        "fedExCupPoints": 27.6,
+        "dgPoints": 0.6558
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": 556250,
+        "fedExCupPoints": 125,
+        "dgPoints": 1.9818
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": 96750,
+        "fedExCupPoints": 22.5,
+        "dgPoints": 0.2531
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T31",
+        "earnings": 126000,
+        "fedExCupPoints": 29.5,
+        "dgPoints": 0.359
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-16",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": 556667,
+        "fedExCupPoints": 151.667,
+        "dgPoints": 1.814
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T5",
+        "earnings": 736500,
+        "fedExCupPoints": 250,
+        "dgPoints": 2.8942
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-02",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T48",
+        "earnings": 48600,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1024
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T33",
+        "earnings": 99000,
+        "fedExCupPoints": 24.214,
+        "dgPoints": 0.3482
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-19",
+      "eventId": 2,
+      "eventName": "The American Express",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "2",
+        "earnings": 959200,
+        "fedExCupPoints": 300,
+        "dgPoints": 5.867
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T5",
+        "earnings": 339900,
+        "fedExCupPoints": 105,
+        "dgPoints": 2.6055
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-05",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T26",
+        "earnings": 163333,
+        "fedExCupPoints": 38,
+        "dgPoints": 0.3062
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T15",
+        "earnings": 292000,
+        "fedExCupPoints": 62.667,
+        "dgPoints": 0.588
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 11 spots",
+      "counted": true
+    }
+  ]
+}

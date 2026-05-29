@@ -1,0 +1,190 @@
+{
+  "matchupId": "ludvig-aberg-vs-bryson-dechambeau",
+  "updatedAt": "2026-05-29T23:07:34.580Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": null
+  },
+  "playerA": {
+    "name": "Aberg, Ludvig",
+    "displayName": "Ludvig Åberg",
+    "slug": "ludvig-aberg",
+    "dgId": 23950,
+    "country": "SWE"
+  },
+  "playerB": {
+    "name": "DeChambeau, Bryson",
+    "displayName": "Bryson DeChambeau",
+    "slug": "bryson-dechambeau",
+    "dgId": 19841,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2023,
+    "sharedStarts": 6,
+    "playerAWins": 2,
+    "playerBWins": 3,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T4",
+        "earnings": 843867,
+        "fedExCupPoints": 300,
+        "dgPoints": 6.4127
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T21",
+        "earnings": 252000,
+        "fedExCupPoints": 53,
+        "dgPoints": 1.0231
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 978 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T23",
+        "earnings": 138040,
+        "fedExCupPoints": 47,
+        "dgPoints": 1.2384
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T10",
+        "earnings": 304650,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.8133
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T2",
+        "earnings": 1418667,
+        "fedExCupPoints": 0,
+        "dgPoints": 10.8614
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "7",
+        "earnings": 703500,
+        "fedExCupPoints": 250,
+        "dgPoints": 3.9332
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T5",
+        "earnings": 798000,
+        "fedExCupPoints": 0,
+        "dgPoints": 5.0996
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 2 spots",
+      "counted": true
+    }
+  ]
+}
