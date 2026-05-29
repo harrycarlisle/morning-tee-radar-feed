@@ -25,7 +25,7 @@ const PLAYER_B = {
 
 const TOUR = "pga";
 const CURRENT_YEAR = new Date().getFullYear();
-const START_YEAR = CURRENT_YEAR - 10;
+const START_YEAR = 2025;
 
 // DataGolf limit is 45 requests per minute.
 // 1700ms keeps us safely under that.
@@ -184,7 +184,20 @@ async function getEventResults(event) {
 
   const data = await fetchJson(url);
 
-  return Array.isArray(data) ? data : data.results || data.data || [];
+  const rows = Array.isArray(data)
+    ? data
+    : data.results || data.data || data.event_results || data.players || [];
+
+  if (!getEventResults.hasLoggedSample && rows.length) {
+    console.log("[H2H] Sample event:", event.year, event.eventName);
+    console.log("[H2H] Result row keys:", Object.keys(rows[0]));
+    console.log("[H2H] First 5 rows:", JSON.stringify(rows.slice(0, 5), null, 2));
+    console.log("[H2H] Scottie match:", rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("scheffler")));
+    console.log("[H2H] Rory match:", rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("mcilroy")));
+    getEventResults.hasLoggedSample = true;
+  }
+
+  return rows;
 }
 
 async function buildMatchup() {
