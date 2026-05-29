@@ -184,7 +184,7 @@ async function getEventResults(event) {
 
   const data = await fetchJson(url);
 
-  const rows = Array.isArray(data)
+  return Array.isArray(data)
     ? data
     : data.event_stats ||
       data.results ||
@@ -194,23 +194,6 @@ async function getEventResults(event) {
       data.event_data ||
       data.finishes ||
       [];
-
-  if (!getEventResults.hasLoggedRows && rows.length) {
-    console.log("[H2H] Sample event:", event.year, event.eventName);
-    console.log("[H2H] Result row keys:", Object.keys(rows[0]));
-    console.log("[H2H] First 5 rows:", JSON.stringify(rows.slice(0, 5), null, 2));
-    console.log(
-      "[H2H] Scottie match:",
-      rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("scheffler"))
-    );
-    console.log(
-      "[H2H] Rory match:",
-      rows.find((row) => String(row.player_name || row.name || "").toLowerCase().includes("mcilroy"))
-    );
-    getEventResults.hasLoggedRows = true;
-  }
-
-  return rows;
 }
 
 async function buildMatchup() {
