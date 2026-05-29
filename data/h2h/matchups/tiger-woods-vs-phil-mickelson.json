@@ -1,0 +1,32 @@
+{
+  "matchupId": "tiger-woods-vs-phil-mickelson",
+  "updatedAt": "2026-05-29T18:59:18.409Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
+  },
+  "playerA": {
+    "name": "Woods, Tiger",
+    "displayName": "Tiger Woods",
+    "slug": "tiger-woods",
+    "dgId": 5321,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2000,
+    "sharedStarts": 0,
+    "playerAWins": 0,
+    "playerBWins": 0,
+    "ties": 0
+  },
+  "events": []
+}

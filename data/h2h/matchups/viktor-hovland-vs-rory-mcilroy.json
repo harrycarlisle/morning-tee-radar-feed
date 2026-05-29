@@ -1,6 +1,6 @@
 {
-  "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-05-29T18:59:18.049Z",
+  "matchupId": "viktor-hovland-vs-rory-mcilroy",
+  "updatedAt": "2026-05-29T18:59:18.839Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
@@ -8,11 +8,11 @@
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
   },
   "playerA": {
-    "name": "Scheffler, Scottie",
-    "displayName": "Scottie Scheffler",
-    "slug": "scottie-scheffler",
-    "dgId": 18417,
-    "country": "USA"
+    "name": "Hovland, Viktor",
+    "displayName": "Viktor Hovland",
+    "slug": "viktor-hovland",
+    "dgId": 18841,
+    "country": "NOR"
   },
   "playerB": {
     "name": "McIlroy, Rory",
@@ -24,9 +24,9 @@
   "summary": {
     "since": 2020,
     "sharedStarts": 18,
-    "playerAWins": 10,
-    "playerBWins": 7,
-    "ties": 1
+    "playerAWins": 5,
+    "playerBWins": 13,
+    "ties": 0
   },
   "events": [
     {
@@ -36,12 +36,12 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T14",
-        "earnings": 364763,
-        "fedExCupPoints": 90,
-        "dgPoints": 2.079
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -52,7 +52,33 @@
         "dgPoints": 4.0132
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
+      "edge": "Rory by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T31",
+        "earnings": 114417,
+        "fedExCupPoints": 27.333,
+        "dgPoints": 0.3148
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": 242100,
+        "fedExCupPoints": 51.8,
+        "dgPoints": 0.694
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 12 spots",
       "counted": true
     },
     {
@@ -62,12 +88,12 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "2",
-        "earnings": 2430000,
-        "fedExCupPoints": 500,
-        "dgPoints": 13.8649
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T18",
+        "earnings": 315000,
+        "fedExCupPoints": 65,
+        "dgPoints": 1.2478
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -78,7 +104,7 @@
         "dgPoints": 28
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 1 spot",
+      "edge": "Rory by 17 spots",
       "counted": true
     },
     {
@@ -88,12 +114,12 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T22",
-        "earnings": 271250,
-        "fedExCupPoints": 52,
-        "dgPoints": 0.9897
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": 409028,
+        "fedExCupPoints": 80.556,
+        "dgPoints": 1.3769
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -103,8 +129,8 @@
         "fedExCupPoints": 16.125,
         "dgPoints": 0.3746
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 24 spots",
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 33 spots",
       "counted": true
     },
     {
@@ -114,12 +140,12 @@
       "eventName": "Arnold Palmer Invitational presented by Mastercard",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T24",
-        "earnings": 157000,
-        "fedExCupPoints": 36.333,
-        "dgPoints": 0.4734
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": 373200,
+        "fedExCupPoints": 90,
+        "dgPoints": 1.1469
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -140,12 +166,12 @@
       "eventName": "The Genesis Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T12",
-        "earnings": 415000,
-        "fedExCupPoints": 105,
-        "dgPoints": 1.3232
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T41",
+        "earnings": 78000,
+        "fedExCupPoints": 18.75,
+        "dgPoints": 0.2025
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -156,7 +182,7 @@
         "dgPoints": 7.5638
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 10 spots",
+      "edge": "Rory by 39 spots",
       "counted": true
     },
     {
@@ -166,12 +192,12 @@
       "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T4",
-        "earnings": 877500,
-        "fedExCupPoints": 312.5,
-        "dgPoints": 4.33
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T58",
+        "earnings": 39750,
+        "fedExCupPoints": 8.75,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -181,8 +207,8 @@
         "fedExCupPoints": 85,
         "dgPoints": 1.1612
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 10 spots",
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 44 spots",
       "counted": true
     },
     {
@@ -192,12 +218,12 @@
       "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T4",
-        "earnings": 2616667,
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "12",
+        "earnings": 660000,
         "fedExCupPoints": 0,
-        "dgPoints": 2.3945
+        "dgPoints": 0.7086
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -207,8 +233,8 @@
         "fedExCupPoints": 0,
         "dgPoints": 0.118
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 19 spots",
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 11 spots",
       "counted": true
     },
     {
@@ -218,12 +244,12 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "1",
-        "earnings": 3600000,
-        "fedExCupPoints": 2000,
-        "dgPoints": 15.5358
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T7",
+        "earnings": 645000,
+        "fedExCupPoints": 340,
+        "dgPoints": 1.9002
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -233,8 +259,8 @@
         "fedExCupPoints": 242.667,
         "dgPoints": 1.0419
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 11 spots",
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 5 spots",
       "counted": true
     },
     {
@@ -244,12 +270,12 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "1",
-        "earnings": 3100000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T63",
+        "earnings": 40280,
+        "fedExCupPoints": 7.5,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -259,8 +285,8 @@
         "fedExCupPoints": 225,
         "dgPoints": 4.0132
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 6 spots",
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 56 spots",
       "counted": true
     },
     {
@@ -270,12 +296,12 @@
       "eventName": "Genesis Scottish Open",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T11",
+        "earnings": 189675,
+        "fedExCupPoints": 67.5,
+        "dgPoints": 1.7416
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -286,7 +312,7 @@
         "dgPoints": 7.1217
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "edge": "Rory by 9 spots",
       "counted": true
     },
     {
@@ -296,12 +322,12 @@
       "eventName": "Travelers Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T6",
-        "earnings": 695000,
-        "fedExCupPoints": 250,
-        "dgPoints": 2.7491
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "WD",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -311,9 +337,9 @@
         "fedExCupPoints": 250,
         "dgPoints": 2.7491
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2025,
@@ -322,12 +348,12 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T7",
-        "earnings": 615786,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "3",
+        "earnings": 1462525,
+        "fedExCupPoints": 350,
+        "dgPoints": 10.1056
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -337,8 +363,8 @@
         "fedExCupPoints": 58.25,
         "dgPoints": 1.5422
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 12 spots",
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 16 spots",
       "counted": true
     },
     {
@@ -348,12 +374,12 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "1",
-        "earnings": 3420000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T28",
+        "earnings": 115820,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0064
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -363,8 +389,34 @@
         "fedExCupPoints": 15.75,
         "dgPoints": 0.5784
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 46 spots",
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T54",
+        "earnings": 44750,
+        "fedExCupPoints": 9.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": 602500,
+        "fedExCupPoints": 187.5,
+        "dgPoints": 2.0588
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 47 spots",
       "counted": true
     },
     {
@@ -374,12 +426,12 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "4",
-        "earnings": 1008000,
-        "fedExCupPoints": 325,
-        "dgPoints": 6.9699
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T21",
+        "earnings": 210000,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.9366
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -390,33 +442,7 @@
         "dgPoints": 28
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-03-30",
-      "eventId": 20,
-      "eventName": "Texas Children's Houston Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T2",
-        "earnings": 845500,
-        "fedExCupPoints": 245,
-        "dgPoints": 5.3156
-      },
-      "playerB": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
-        "earnings": 337844,
-        "fedExCupPoints": 96.25,
-        "dgPoints": 2.3361
-      },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 3 spots",
+      "edge": "Rory by 20 spots",
       "counted": true
     },
     {
@@ -426,12 +452,12 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T20",
-        "earnings": 240250,
-        "fedExCupPoints": 48.3,
-        "dgPoints": 0.9989
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -442,7 +468,7 @@
         "dgPoints": 19.9974
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 19 spots",
+      "edge": "Rory by 998 spots",
       "counted": true
     },
     {
@@ -452,12 +478,12 @@
       "eventName": "Arnold Palmer Invitational presented by Mastercard",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T11",
-        "earnings": 451250,
-        "fedExCupPoints": 115,
-        "dgPoints": 1.4274
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -467,8 +493,8 @@
         "fedExCupPoints": 80,
         "dgPoints": 1.0465
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 4 spots",
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 984 spots",
       "counted": true
     },
     {
@@ -478,12 +504,12 @@
       "eventName": "The Genesis Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T3",
-        "earnings": 1200000,
-        "fedExCupPoints": 337.5,
-        "dgPoints": 5.1523
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -493,8 +519,8 @@
         "fedExCupPoints": 56.286,
         "dgPoints": 0.7919
       },
-      "h2hWinner": "scottie-scheffler",
-      "edge": "Scottie by 14 spots",
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 982 spots",
       "counted": true
     },
     {
@@ -504,12 +530,12 @@
       "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Scottie Scheffler",
-        "dgId": 18417,
-        "finish": "T9",
-        "earnings": 535000,
-        "fedExCupPoints": 151.667,
-        "dgPoints": 1.9139
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T22",
+        "earnings": 158273,
+        "fedExCupPoints": 38.273,
+        "dgPoints": 0.5735
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -520,7 +546,7 @@
         "dgPoints": 16.9292
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 8 spots",
+      "edge": "Rory by 21 spots",
       "counted": true
     }
   ]

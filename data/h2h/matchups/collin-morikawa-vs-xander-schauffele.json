@@ -1,0 +1,605 @@
+{
+  "matchupId": "collin-morikawa-vs-xander-schauffele",
+  "updatedAt": "2026-05-29T18:59:18.698Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
+  },
+  "playerA": {
+    "name": "Morikawa, Collin",
+    "displayName": "Collin Morikawa",
+    "slug": "collin-morikawa",
+    "dgId": 22085,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Schauffele, Xander",
+    "displayName": "Xander Schauffele",
+    "slug": "xander-schauffele",
+    "dgId": 19895,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 22,
+    "playerAWins": 9,
+    "playerBWins": 11,
+    "ties": 2
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T55",
+        "earnings": 34186,
+        "fedExCupPoints": 10.5,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 637050,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T4",
+        "earnings": 823333,
+        "fedExCupPoints": 300,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T12",
+        "earnings": 399250,
+        "fedExCupPoints": 105,
+        "dgPoints": 0
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 725625,
+        "fedExCupPoints": 237.5,
+        "dgPoints": 3.672
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": 630000,
+        "fedExCupPoints": 187.5,
+        "dgPoints": 2.8311
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-08",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "5",
+        "earnings": 840000,
+        "fedExCupPoints": 300,
+        "dgPoints": 3.6937
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T24",
+        "earnings": 157000,
+        "fedExCupPoints": 36.333,
+        "dgPoints": 0.4734
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T7",
+        "earnings": 603200,
+        "fedExCupPoints": 176,
+        "dgPoints": 2.1185
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 603200,
+        "fedExCupPoints": 176,
+        "dgPoints": 2.1185
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "1",
+        "earnings": 3600000,
+        "fedExCupPoints": 700,
+        "dgPoints": 17.859
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T19",
+        "earnings": 235000,
+        "fedExCupPoints": 51.8,
+        "dgPoints": 0.7946
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-08",
+      "eventId": 3,
+      "eventName": "WM Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T54",
+        "earnings": 22272,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T41",
+        "earnings": 34080,
+        "fedExCupPoints": 12.214,
+        "dgPoints": 0.3231
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-10-12",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 138720,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.6098
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "1",
+        "earnings": 1440000,
+        "fedExCupPoints": 0,
+        "dgPoints": 7.3143
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": 119667,
+        "fedExCupPoints": 82.333,
+        "dgPoints": 0.1262
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T28",
+        "earnings": 163500,
+        "fedExCupPoints": 121,
+        "dgPoints": 0.2539
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-10",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T22",
+        "earnings": 186167,
+        "fedExCupPoints": 146,
+        "dgPoints": 0.5397
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T22",
+        "earnings": 186167,
+        "fedExCupPoints": 146,
+        "dgPoints": 0.5397
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": 451833,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-13",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "CUT",
+        "earnings": 0,
+        "fedExCupPoints": 0,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": 233400,
+        "fedExCupPoints": 80,
+        "dgPoints": 2.2164
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-22",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": 72000,
+        "fedExCupPoints": 18,
+        "dgPoints": 0.1725
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T61",
+        "earnings": 42250,
+        "fedExCupPoints": 7.875,
+        "dgPoints": 0
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T23",
+        "earnings": 161489,
+        "fedExCupPoints": 42,
+        "dgPoints": 1.1224
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T12",
+        "earnings": 349741,
+        "fedExCupPoints": 97.143,
+        "dgPoints": 2.1755
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T20",
+        "earnings": 250667,
+        "fedExCupPoints": 51,
+        "dgPoints": 0.6962
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T25",
+        "earnings": 159000,
+        "fedExCupPoints": 37.083,
+        "dgPoints": 0.4603
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T50",
+        "earnings": 40674,
+        "fedExCupPoints": 13.05,
+        "dgPoints": 0.1104
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T28",
+        "earnings": 115820,
+        "fedExCupPoints": 37,
+        "dgPoints": 1.0064
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-11",
+      "eventId": 480,
+      "eventName": "Truist Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": 270500,
+        "fedExCupPoints": 58,
+        "dgPoints": 0.7773
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T11",
+        "earnings": 440000,
+        "fedExCupPoints": 115,
+        "dgPoints": 1.35
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-20",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T54",
+        "earnings": 44500,
+        "fedExCupPoints": 9.536,
+        "dgPoints": 0
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": 226056,
+        "fedExCupPoints": 50,
+        "dgPoints": 0.6686
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 79.286,
+        "dgPoints": 1.4602
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": 588000,
+        "fedExCupPoints": 188.75,
+        "dgPoints": 2.8681
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-16",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": 656250,
+        "fedExCupPoints": 165,
+        "dgPoints": 2.3428
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "72",
+        "earnings": 50250,
+        "fedExCupPoints": 5.75,
+        "dgPoints": 0
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 62 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-09",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "2",
+        "earnings": 2200000,
+        "fedExCupPoints": 400,
+        "dgPoints": 9.2512
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T40",
+        "earnings": 78000,
+        "fedExCupPoints": 18.75,
+        "dgPoints": 0.1913
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-05",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "2",
+        "earnings": 2160000,
+        "fedExCupPoints": 400,
+        "dgPoints": 6.6104
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T30",
+        "earnings": 137500,
+        "fedExCupPoints": 31.75,
+        "dgPoints": 0.2342
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 28 spots",
+      "counted": true
+    }
+  ]
+}
