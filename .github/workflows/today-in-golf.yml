@@ -2,14 +2,38 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # 8:01 AM ET
+    # Morning target, 8 AM ET
+    # Daylight time: 8:01, 8:07, 8:13 AM ET
     - cron: "1 12 * * *"
+    - cron: "7 12 * * *"
+    - cron: "13 12 * * *"
 
-    # 12:01 PM ET
+    # Standard time: 8:01, 8:07, 8:13 AM ET
+    - cron: "1 13 * * *"
+    - cron: "7 13 * * *"
+    - cron: "13 13 * * *"
+
+    # Midday target, 12 PM ET
+    # Daylight time: 12:01, 12:07, 12:13 PM ET
     - cron: "1 16 * * *"
+    - cron: "7 16 * * *"
+    - cron: "13 16 * * *"
 
-    # 8:01 PM ET
+    # Standard time: 12:01, 12:07, 12:13 PM ET
+    - cron: "1 17 * * *"
+    - cron: "7 17 * * *"
+    - cron: "13 17 * * *"
+
+    # Evening target, 8 PM ET
+    # Daylight time: 8:01, 8:07, 8:13 PM ET
     - cron: "1 0 * * *"
+    - cron: "7 0 * * *"
+    - cron: "13 0 * * *"
+
+    # Standard time: 8:01, 8:07, 8:13 PM ET
+    - cron: "1 1 * * *"
+    - cron: "7 1 * * *"
+    - cron: "13 1 * * *"
 
   workflow_dispatch:
     inputs:
