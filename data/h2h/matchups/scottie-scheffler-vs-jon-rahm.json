@@ -1,0 +1,189 @@
+{
+  "matchupId": "scottie-scheffler-vs-jon-rahm",
+  "updatedAt": "2026-05-29T17:13:27.184Z",
+  "source": "DataGolf Historical Event Data",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
+  },
+  "playerA": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Rahm, Jon",
+    "displayName": "Jon Rahm",
+    "slug": "jon-rahm",
+    "dgId": 19195,
+    "country": "ESP"
+  },
+  "summary": {
+    "since": 2020,
+    "sharedStarts": 6,
+    "playerAWins": 4,
+    "playerBWins": 1,
+    "ties": 1
+  },
+  "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T14",
+        "earnings": 364763,
+        "fedExCupPoints": 90,
+        "dgPoints": 2.079
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T2",
+        "earnings": 1804000,
+        "fedExCupPoints": 0,
+        "dgPoints": 12.4264
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": 2430000,
+        "fedExCupPoints": 500,
+        "dgPoints": 13.8649
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T38",
+        "earnings": 101250,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.4077
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3100000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T34",
+        "earnings": 86517,
+        "fedExCupPoints": 0,
+        "dgPoints": 0.801
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 225,
+        "dgPoints": 4.0132
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": 615786,
+        "fedExCupPoints": 0,
+        "dgPoints": 4.0132
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-18",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": 3420000,
+        "fedExCupPoints": 750,
+        "dgPoints": 28
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T8",
+        "earnings": 454781,
+        "fedExCupPoints": 0,
+        "dgPoints": 2.8007
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": 1008000,
+        "fedExCupPoints": 325,
+        "dgPoints": 6.9699
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T14",
+        "earnings": 336000,
+        "fedExCupPoints": 0,
+        "dgPoints": 1.4602
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 10 spots",
+      "counted": true
+    }
+  ]
+}

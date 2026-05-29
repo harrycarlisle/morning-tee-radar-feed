@@ -1,10 +1,10 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-05-29T13:31:36.883Z",
+  "updatedAt": "2026-05-29T17:13:27.032Z",
   "source": "DataGolf Historical Event Data",
   "rules": {
     "mainStat": "shared-start wins",
-    "explanation": "Golf does not have tennis-style head-to-head records, so this compares tournaments where both players were in the same field.",
+    "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts."
   },
   "playerA": {
@@ -22,7 +22,7 @@
     "country": "NIR"
   },
   "summary": {
-    "since": 2025,
+    "since": 2020,
     "sharedStarts": 18,
     "playerAWins": 10,
     "playerBWins": 7,
