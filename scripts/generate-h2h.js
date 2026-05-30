@@ -183,7 +183,7 @@ const MATCHUPS = [
   m("corey", "tommy", 2020),
   m("fitz", "tommy", 2020),
 
-  m("tiger", "rory", 2020, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
+  m("tiger", "rory", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "phil", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
   m("tiger", "bryson", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
@@ -333,53 +333,31 @@ function sortEventsNewestFirst(events) {
 }
 
 async function getEventList(startYear) {
-  const allRows = [];
+  const url = dataGolfUrl("historical-event-data/event-list", {
+    tour: TOUR
+  });
 
-  for (let year = startYear; year <= CURRENT_YEAR; year += 1) {
-    const url = dataGolfUrl("get-schedule", {
-      tour: TOUR,
-      season: year,
-      upcoming_only: "no"
-    });
+  const data = await fetchJson(url);
 
-    const data = await fetchJson(url);
+  const rows = Array.isArray(data) ? data : data.events || data.data || [];
 
-    const rows = Array.isArray(data)
-      ? data
-      : data.schedule ||
-        data.events ||
-        data.data ||
-        [];
-
-    console.log(
-      `[H2H] Season ${year}:`,
-      Array.isArray(rows) ? rows.length : 0,
-      "events"
-    );
-
-    rows.forEach((event) => {
-      allRows.push({
-        year: Number(event.calendar_year || event.year || event.season || year),
-        date: event.date || event.start_date || "",
-        eventId: event.event_id,
-        eventName: event.event_name || event.name || event.event,
-        tour: event.tour || TOUR
-      });
-    });
-  }
+  console.log("[H2H] Historical event-list returned:", rows.length, "events");
 
   return sortEventsNewestFirst(
-    allRows.filter((event) => {
-      return (
-        event.year >= startYear &&
-        event.year <= CURRENT_YEAR &&
-        event.eventId &&
-        event.eventName
-      );
-    })
+    rows
+      .filter((event) => {
+        const year = Number(event.calendar_year || event.year);
+        return year >= startYear && year <= CURRENT_YEAR;
+      })
+      .map((event) => ({
+        year: Number(event.calendar_year || event.year),
+        date: event.date || "",
+        eventId: event.event_id,
+        eventName: event.event_name,
+        tour: event.tour || TOUR
+      }))
   );
 }
-
 async function getEventResults(event) {
   const cacheKey = `${event.tour || TOUR}:${event.year}:${event.eventId}`;
 
