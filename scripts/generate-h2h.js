@@ -545,9 +545,15 @@ if (!playerBResult && manualB) {
 async function main() {
   console.log(`[H2H] Starting ${MATCHUPS.length} matchups...`);
 
-  for (const matchup of MATCHUPS) {
-    await buildMatchup(matchup);
-  }
+  const TEST_MATCHUPS = MATCHUPS.filter(
+  (matchup) =>
+    matchup.playerA.slug === "tiger-woods" &&
+    matchup.playerB.slug === "rory-mcilroy"
+);
+
+for (const matchup of TEST_MATCHUPS) {
+  await buildMatchup(matchup);
+}
 }
 
 main().catch((error) => {
