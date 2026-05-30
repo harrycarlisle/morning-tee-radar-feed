@@ -1,3 +1,20 @@
+function loadManualResults(slug) {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "h2h",
+      "manual",
+      `${slug}-results.json`
+    );
+
+    if (!fs.existsSync(file)) return null;
+
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
 const fs = require("fs");
 const path = require("path");
 
@@ -354,6 +371,16 @@ function validateMatchup(matchup) {
 
 async function buildMatchup(matchup) {
   const { playerA, playerB, startYear } = matchup;
+  const manualA = loadManualResults(playerA.slug);
+const manualB = loadManualResults(playerB.slug);
+
+console.log(
+  `[H2H] Manual data:`,
+  playerA.slug,
+  !!manualA,
+  playerB.slug,
+  !!manualB
+);
 
   validateMatchup(matchup);
 
