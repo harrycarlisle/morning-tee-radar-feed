@@ -367,7 +367,7 @@ async function getEventResults(event) {
     return eventResultsCache.get(cacheKey);
   }
 
-  const url = dataGolfUrl("historical-event-data/events", {
+  const url = dataGolfUrl("historical-raw-data/rounds", {
     tour: event.tour || TOUR,
     event_id: event.eventId,
     year: event.year
