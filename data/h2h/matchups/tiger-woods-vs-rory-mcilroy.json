@@ -1,12 +1,12 @@
 {
   "matchupId": "tiger-woods-vs-rory-mcilroy",
-  "updatedAt": "2026-05-30T03:06:10.504Z",
-  "source": "DataGolf Historical Event Data",
+  "updatedAt": "2026-05-30T03:36:10.605Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Limited to available DataGolf event data from 2017 onward, so this does not capture Tiger's full prime."
+    "dataNote": "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."
   },
   "playerA": {
     "name": "Woods, Tiger",
@@ -23,7 +23,7 @@
     "country": "NIR"
   },
   "summary": {
-    "since": 2017,
+    "since": 2025,
     "sharedStarts": 0,
     "playerAWins": 0,
     "playerBWins": 0,
