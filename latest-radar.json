@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-30T19:06:07.128Z",
+  "updatedAt": "2026-05-30T19:06:07.964Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "21 hours ago",
+      "timestamp": "2026-05-29T21:18:21.000Z",
+      "approvedAt": "2026-05-30T19:06:07.961Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler, Rory McIlroy headline 2026 Memorial Tournament field",
+      "summary": "The PGA Tour returns to Jack's Place next week for its seventh of eight signature events on the 2026 schedule.",
+      "quickRead": "Scottie Scheffler is back to defend at the 2026 Memorial Tournament at Muirfield Village, headlining a signature-event field that also includes Rory McIlroy, Xander Schauffele, Jordan Spieth and Justin Thomas, while Viktor Hovland withdrew before the entry deadline.  The June 4–7 event pays $4 million to the winner and 700 FedExCup points, and Scheffler is chasing a third straight win at Jack Nicklaus’ tournament.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-headline-211821865.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-headline-211821865.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    },
     {
       "time": "4 hours ago",
       "timestamp": "2026-05-30T14:42:56.000Z",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-admits-hold-investigation-135417085.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "22 hours ago",
-      "timestamp": "2026-05-29T20:06:56.000Z",
-      "approvedAt": "2026-05-29T23:08:27.989Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Injury Scare Forces PGA Tour Pro to Withdraw Mid-Round at $9.9M Event",
-      "summary": "2026 was turning out to be a good year for Stephan Jaeger.",
-      "quickRead": "Stephan Jaeger withdrew mid-round from the $9. 9 million Charles Schwab Challenge at Colonial after PGA Tour Communications confirmed he suffered a back injury.",
+      "label": "STAR WATCH",
+      "title": "Scottie Scheffler, Rory McIlroy headline 2026 Memorial Tournament field",
+      "summary": "Scottie Scheffler is back to defend at the 2026 Memorial Tournament at Muirfield Village, headlining a signature-event field that also includes Ror...",
+      "quickRead": "Scottie Scheffler is back to defend at the 2026 Memorial Tournament at Muirfield Village, headlining a signature-event field that also includes Rory McIlroy, Xander Schauffele, Jordan Spieth and Justin Thomas, while Viktor Hovland withdrew before the entry deadline.  The June 4–7 event pays $4 million to the winner and 700 FedExCup points, and Scheffler is chasing a third straight win at Jack Nicklaus’ tournament.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/injury-scare-forces-pga-tour-200656713.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/injury-scare-forces-pga-tour-200656713.html",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-headline-211821865.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-headline-211821865.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "timestamp": "2026-05-29T21:18:21.000Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "Bryson DeChambeau and Jon Rahm appear to have some leverage now after...",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-05-30T14:30:00.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Bryson DeChambeau and Jon Rahm appear to have some leverage now after...",
-      "summary": "Bryson DeChambeau and Jon Rahm gained leverage because the PGA Tour’s Charles Schwab Challenge field at Colonial is so thin—only one OWGR top-10 pl...",
-      "quickRead": "Bryson DeChambeau and Jon Rahm gained leverage because the PGA Tour’s Charles Schwab Challenge field at Colonial is so thin—only one OWGR top-10 player (J. J.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-appear-093000948.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-appear-093000948.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-05-30T09:30:00.000Z"
     }
   ],
   "checking": {
