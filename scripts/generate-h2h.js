@@ -340,7 +340,16 @@ async function getEventList(startYear) {
 
   const data = await fetchJson(url);
 
-  const rows = Array.isArray(data) ? data : data.events || data.data || [];
+  console.log("[H2H] Event list response keys:", Object.keys(data));
+console.log("[H2H] Event list sample:", JSON.stringify(data).slice(0, 1000));
+
+const rows = Array.isArray(data)
+  ? data
+  : data.events ||
+    data.data ||
+    data.event_list ||
+    data.schedule ||
+    [];
 
   return sortEventsNewestFirst(
     rows
