@@ -8,7 +8,7 @@ if (!API_KEY) {
 }
 
 const TOUR = "pga";
-const CURRENT_YEAR = new Date().getFullYear();
+const CURRENT_YEAR = 2024;
 const TEST_ONLY_TIGER_RORY = true;
 
 function loadManualResults(slug) {
@@ -183,7 +183,7 @@ const MATCHUPS = [
   m("corey", "tommy", 2020),
   m("fitz", "tommy", 2020),
 
-  m("tiger", "rory", 2025, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
+  m("tiger", "rory", 2020, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "phil", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
   m("tiger", "bryson", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
