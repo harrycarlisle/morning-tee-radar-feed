@@ -40,10 +40,15 @@ function findManualResult(manualData, event) {
   const season = manualData.seasons[String(event.year)];
   if (!season?.events) return null;
 
-  return season.events.find((e) =>
-    String(e.tournament).trim().toLowerCase() ===
-    String(event.eventName).trim().toLowerCase()
+  return season.events.find((e) => {
+  const manualName = String(e.tournament).toLowerCase();
+  const eventName = String(event.eventName).toLowerCase();
+
+  return (
+    manualName.includes(eventName) ||
+    eventName.includes(manualName)
   );
+});
 }
 
 const fs = require("fs");
