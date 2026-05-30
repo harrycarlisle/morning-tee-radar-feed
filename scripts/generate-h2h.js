@@ -435,6 +435,32 @@ console.log(
       let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
       let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
+      if (!playerAResult && manualA) {
+  const manualEvent = findManualResult(manualA, event);
+
+  if (manualEvent) {
+    playerAResult = {
+      fin_text: manualEvent.finish,
+      earnings: manualEvent.earnings ?? null,
+      fec_points: null,
+      dg_points: null
+    };
+  }
+}
+
+if (!playerBResult && manualB) {
+  const manualEvent = findManualResult(manualB, event);
+
+  if (manualEvent) {
+    playerBResult = {
+      fin_text: manualEvent.finish,
+      earnings: manualEvent.earnings ?? null,
+      fec_points: null,
+      dg_points: null
+    };
+  }
+}
+
       if (!playerAResult || !playerBResult) {
         continue;
       }
