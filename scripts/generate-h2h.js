@@ -332,6 +332,7 @@ function sortEventsNewestFirst(events) {
   });
 }
 
+async function getEventList(startYear) {
 const url = dataGolfUrl("historical-event-data/event-list", {
   tour: TOUR,
   year: startYear
