@@ -340,6 +340,8 @@ async function getEventList(startYear) {
   const data = await fetchJson(url);
 
   const rows = Array.isArray(data) ? data : data.events || data.data || [];
+  console.log("[H2H] First event:", rows[0]);
+  console.log("[H2H] Last event:", rows[rows.length - 1]);
 
   console.log("[H2H] Historical event-list returned:", rows.length, "events");
 
