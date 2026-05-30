@@ -333,7 +333,7 @@ function sortEventsNewestFirst(events) {
 }
 
 async function getEventList(startYear) {
-const url = dataGolfUrl("historical-event-data/event-list", {
+const url = dataGolfUrl("historical-raw-data/event-list", {
   tour: TOUR
 });
 
