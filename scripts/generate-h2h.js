@@ -1,56 +1,3 @@
-function loadManualResults(slug) {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "h2h",
-      "manual",
-      `${slug}-results.json`
-    );
-
-    if (!fs.existsSync(file)) return null;
-
-    return JSON.parse(fs.readFileSync(file, "utf8"));
-  } catch {
-    return null;
-  }
-}
-
-function loadManualResults(slug) {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "h2h",
-      "manual",
-      `${slug}-results.json`
-    );
-
-    if (!fs.existsSync(file)) return null;
-
-    return JSON.parse(fs.readFileSync(file, "utf8"));
-  } catch {
-    return null;
-  }
-}
-
-function findManualResult(manualData, event) {
-  if (!manualData?.seasons) return null;
-
-  const season = manualData.seasons[String(event.year)];
-  if (!season?.events) return null;
-
-  return season.events.find((e) => {
-  const manualName = String(e.tournament).toLowerCase();
-  const eventName = String(event.eventName).toLowerCase();
-
-  return (
-    manualName.includes(eventName) ||
-    eventName.includes(manualName)
-  );
-});
-}
-
 const fs = require("fs");
 const path = require("path");
 
@@ -62,6 +9,58 @@ if (!API_KEY) {
 
 const TOUR = "pga";
 const CURRENT_YEAR = new Date().getFullYear();
+const TEST_ONLY_TIGER_RORY = true;
+
+function loadManualResults(slug) {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "h2h",
+      "manual",
+      `${slug}-results.json`
+    );
+
+    if (!fs.existsSync(file)) return null;
+
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function normalizeEventName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\bthe\b/g, "")
+    .replace(/\bpresented by\b/g, "")
+    .replace(/\bsponsored by\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function findManualResult(manualData, event) {
+  if (!manualData?.seasons) return null;
+
+  const season = manualData.seasons[String(event.year)];
+  if (!season?.events) return null;
+
+  const eventName = normalizeEventName(event.eventName);
+
+  return season.events.find((manualEvent) => {
+    if (manualEvent.officialStart === false) return false;
+
+    const manualName = normalizeEventName(manualEvent.tournament);
+
+    return (
+      manualName === eventName ||
+      manualName.includes(eventName) ||
+      eventName.includes(manualName)
+    );
+  });
+}
 
 const PLAYERS = {
   scottie: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
@@ -184,16 +183,16 @@ const MATCHUPS = [
   m("corey", "tommy", 2020),
   m("fitz", "tommy", 2020),
 
-  m("tiger", "rory", 2017, "Limited to available DataGolf event data from 2017 onward, so this does not capture Tiger's full prime."),
-  m("tiger", "phil", 2017, "Limited to available DataGolf event data from 2017 onward, so this does not capture the full Tiger vs Phil era."),
+  m("tiger", "rory", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
+  m("tiger", "phil", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
-  m("tiger", "bryson", 2017, "Limited to available DataGolf event data from 2017 onward."),
+  m("tiger", "bryson", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("phil", "rory", 2017, "Limited to available DataGolf event data from 2017 onward."),
   m("phil", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
   m("phil", "brooks", 2017, "Limited to available DataGolf event data from 2017 onward."),
-  m("tiger", "rahm", 2017, "Limited to available DataGolf event data from 2017 onward."),
-  m("tiger", "xander", 2017, "Limited to available DataGolf event data from 2017 onward."),
-  m("tiger", "collin", 2020, "Limited to available DataGolf event data from 2020 onward."),
+  m("tiger", "rahm", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
+  m("tiger", "xander", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
+  m("tiger", "collin", 2020, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
 
   m("phil", "rahm", 2017, "Limited to available DataGolf event data from 2017 onward."),
   m("phil", "bryson", 2017, "Limited to available DataGolf event data from 2017 onward."),
@@ -264,7 +263,7 @@ function normalizeFinishValue(finText) {
     return { type: raw.toLowerCase(), rank: null };
   }
 
-  const numeric = Number(raw.replace(/^T/i, ""));
+  const numeric = Number(raw.replace(/^P/i, "").replace(/^T/i, ""));
 
   if (Number.isFinite(numeric)) {
     return {
@@ -334,36 +333,50 @@ function sortEventsNewestFirst(events) {
 }
 
 async function getEventList(startYear) {
-  const url = dataGolfUrl("historical-event-data/event-list", {
-    tour: TOUR
-  });
+  const allRows = [];
 
-  const data = await fetchJson(url);
+  for (let year = startYear; year <= CURRENT_YEAR; year += 1) {
+    const url = dataGolfUrl("get-schedule", {
+      tour: TOUR,
+      season: year,
+      upcoming_only: "no"
+    });
 
-  console.log("[H2H] Event list response keys:", Object.keys(data));
-console.log("[H2H] Event list sample:", JSON.stringify(data).slice(0, 1000));
+    const data = await fetchJson(url);
 
-const rows = Array.isArray(data)
-  ? data
-  : data.events ||
-    data.data ||
-    data.event_list ||
-    data.schedule ||
-    [];
+    const rows = Array.isArray(data)
+      ? data
+      : data.schedule ||
+        data.events ||
+        data.data ||
+        [];
+
+    console.log(
+      `[H2H] Season ${year}:`,
+      Array.isArray(rows) ? rows.length : 0,
+      "events"
+    );
+
+    rows.forEach((event) => {
+      allRows.push({
+        year: Number(event.calendar_year || event.year || event.season || year),
+        date: event.date || event.start_date || "",
+        eventId: event.event_id,
+        eventName: event.event_name || event.name || event.event,
+        tour: event.tour || TOUR
+      });
+    });
+  }
 
   return sortEventsNewestFirst(
-    rows
-      .filter((event) => {
-        const year = Number(event.calendar_year || event.year);
-        return year >= startYear && year <= CURRENT_YEAR;
-      })
-      .map((event) => ({
-        year: Number(event.calendar_year || event.year),
-        date: event.date || "",
-        eventId: event.event_id,
-        eventName: event.event_name,
-        tour: event.tour || TOUR
-      }))
+    allRows.filter((event) => {
+      return (
+        event.year >= startYear &&
+        event.year <= CURRENT_YEAR &&
+        event.eventId &&
+        event.eventName
+      );
+    })
   );
 }
 
@@ -417,15 +430,15 @@ function validateMatchup(matchup) {
 async function buildMatchup(matchup) {
   const { playerA, playerB, startYear } = matchup;
   const manualA = loadManualResults(playerA.slug);
-const manualB = loadManualResults(playerB.slug);
+  const manualB = loadManualResults(playerB.slug);
 
-console.log(
-  `[H2H] Manual data:`,
-  playerA.slug,
-  !!manualA,
-  playerB.slug,
-  !!manualB
-);
+  console.log(
+    "[H2H] Manual data:",
+    playerA.slug,
+    !!manualA,
+    playerB.slug,
+    !!manualB
+  );
 
   validateMatchup(matchup);
 
@@ -448,30 +461,50 @@ console.log(
       let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
       if (!playerAResult && manualA) {
-  const manualEvent = findManualResult(manualA, event);
+        const manualEvent = findManualResult(manualA, event);
 
-  if (manualEvent) {
-    playerAResult = {
-      fin_text: manualEvent.finish,
-      earnings: manualEvent.earnings ?? null,
-      fec_points: null,
-      dg_points: null
-    };
-  }
-}
+        if (manualEvent) {
+          console.log(
+            "[H2H] Manual match found:",
+            playerA.slug,
+            event.year,
+            event.eventName,
+            manualEvent.tournament,
+            manualEvent.finish
+          );
 
-if (!playerBResult && manualB) {
-  const manualEvent = findManualResult(manualB, event);
+          playerAResult = {
+            fin_text: manualEvent.finish,
+            earnings: manualEvent.earnings ?? null,
+            fec_points: null,
+            dg_points: null,
+            manual: true
+          };
+        }
+      }
 
-  if (manualEvent) {
-    playerBResult = {
-      fin_text: manualEvent.finish,
-      earnings: manualEvent.earnings ?? null,
-      fec_points: null,
-      dg_points: null
-    };
-  }
-}
+      if (!playerBResult && manualB) {
+        const manualEvent = findManualResult(manualB, event);
+
+        if (manualEvent) {
+          console.log(
+            "[H2H] Manual match found:",
+            playerB.slug,
+            event.year,
+            event.eventName,
+            manualEvent.tournament,
+            manualEvent.finish
+          );
+
+          playerBResult = {
+            fin_text: manualEvent.finish,
+            earnings: manualEvent.earnings ?? null,
+            fec_points: null,
+            dg_points: null,
+            manual: true
+          };
+        }
+      }
 
       if (!playerAResult || !playerBResult) {
         continue;
@@ -491,7 +524,8 @@ if (!playerBResult && manualB) {
           finish: playerAResult.fin_text,
           earnings: playerAResult.earnings ?? null,
           fedExCupPoints: playerAResult.fec_points ?? null,
-          dgPoints: playerAResult.dg_points ?? null
+          dgPoints: playerAResult.dg_points ?? null,
+          manual: !!playerAResult.manual
         },
         playerB: {
           name: playerB.displayName,
@@ -499,7 +533,8 @@ if (!playerBResult && manualB) {
           finish: playerBResult.fin_text,
           earnings: playerBResult.earnings ?? null,
           fedExCupPoints: playerBResult.fec_points ?? null,
-          dgPoints: playerBResult.dg_points ?? null
+          dgPoints: playerBResult.dg_points ?? null,
+          manual: !!playerBResult.manual
         },
         h2hWinner: comparison.winner,
         edge: comparison.edge,
@@ -519,7 +554,7 @@ if (!playerBResult && manualB) {
   const output = {
     matchupId: matchupId(playerA, playerB),
     updatedAt: new Date().toISOString(),
-    source: "DataGolf Historical Event Data",
+    source: "DataGolf Historical Event Data plus manual player results where needed",
     rules: {
       mainStat: "shared-start wins",
       explanation: "This compares tournaments where both players were in the same field.",
@@ -554,15 +589,17 @@ if (!playerBResult && manualB) {
 async function main() {
   console.log(`[H2H] Starting ${MATCHUPS.length} matchups...`);
 
-  const TEST_MATCHUPS = MATCHUPS.filter(
-  (matchup) =>
-    matchup.playerA.slug === "tiger-woods" &&
-    matchup.playerB.slug === "rory-mcilroy"
-);
+  const matchupsToRun = TEST_ONLY_TIGER_RORY
+    ? MATCHUPS.filter(
+        (matchup) =>
+          matchup.playerA.slug === "tiger-woods" &&
+          matchup.playerB.slug === "rory-mcilroy"
+      )
+    : MATCHUPS;
 
-for (const matchup of TEST_MATCHUPS) {
-  await buildMatchup(matchup);
-}
+  for (const matchup of matchupsToRun) {
+    await buildMatchup(matchup);
+  }
 }
 
 main().catch((error) => {
