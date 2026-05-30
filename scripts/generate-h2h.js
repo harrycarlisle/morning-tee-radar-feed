@@ -15,6 +15,39 @@ function loadManualResults(slug) {
     return null;
   }
 }
+
+function loadManualResults(slug) {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "h2h",
+      "manual",
+      `${slug}-results.json`
+    );
+
+    if (!fs.existsSync(file)) return null;
+
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function findManualResult(manualData, event) {
+  if (!manualData?.seasons) return null;
+
+  const season = manualData.seasons[String(event.year)];
+  if (!season?.events) return null;
+
+  return season.events.find((e) =>
+    String(e.tournament).trim().toLowerCase() ===
+    String(event.eventName).trim().toLowerCase()
+  );
+}
+
+const fs = require("fs");
+const path = require("path");
 const fs = require("fs");
 const path = require("path");
 
