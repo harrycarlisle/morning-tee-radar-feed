@@ -48,8 +48,6 @@ function findManualResult(manualData, event) {
 
 const fs = require("fs");
 const path = require("path");
-const fs = require("fs");
-const path = require("path");
 
 const API_KEY = process.env.DATAGOLF_API_KEY;
 
