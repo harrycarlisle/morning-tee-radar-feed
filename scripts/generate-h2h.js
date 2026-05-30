@@ -8,7 +8,7 @@ if (!API_KEY) {
 }
 
 const TOUR = "pga";
-const CURRENT_YEAR = 2024;
+const CURRENT_YEAR = new Date().getFullYear();
 const TEST_ONLY_TIGER_RORY = true;
 
 function loadManualResults(slug) {
