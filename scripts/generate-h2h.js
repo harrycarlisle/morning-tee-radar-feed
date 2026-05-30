@@ -432,8 +432,8 @@ console.log(
 
       const results = await getEventResults(event);
 
-      const playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
-      const playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
+      let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
+      let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
       if (!playerAResult || !playerBResult) {
         continue;
