@@ -78,7 +78,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MANUAL_EDITION: ${{ github.event.inputs.edition || 'auto' }}
-          FORCE_RUN: ${{ github.event.inputs.force_run || 'false' }}
+          FORCE_RUN: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.force_run || 'false' }}
         run: node scripts/generate-today-in-golf.js
 
       - name: Commit updated briefing
