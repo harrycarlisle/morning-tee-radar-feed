@@ -1,6 +1,6 @@
 {
   "matchupId": "tiger-woods-vs-rory-mcilroy",
-  "updatedAt": "2026-05-31T13:06:48.157Z",
+  "updatedAt": "2026-05-31T14:46:57.213Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,11 +23,432 @@
     "country": "NIR"
   },
   "summary": {
-    "since": 2017,
-    "sharedStarts": 0,
-    "playerAWins": 0,
-    "playerBWins": 0,
-    "ties": 0
+    "since": 2018,
+    "sharedStarts": 15,
+    "playerAWins": 5,
+    "playerBWins": 9,
+    "ties": 1
   },
-  "events": []
+  "events": [
+    {
+      "year": 2018,
+      "date": "2018-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-03",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-03",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 988 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-06",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-11",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-25",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 47 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-18",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 979 spots",
+      "counted": true
+    }
+  ]
 }
