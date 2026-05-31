@@ -446,11 +446,6 @@ async function buildMatchup(matchup) {
       .includes("mcilroy")
     );
 
-    if (roryByName) {
-    console.log("[H2H] Rory found by name:", roryByName);
-    }
-  }
-
       let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
       let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
