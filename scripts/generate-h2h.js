@@ -8,7 +8,7 @@ if (!API_KEY) {
 }
 
 const TOUR = "pga";
-const CURRENT_YEAR = new Date().getFullYear();
+const CURRENT_YEAR = 2017;
 const TEST_ONLY_TIGER_RORY = true;
 
 function loadManualResults(slug) {
@@ -436,6 +436,29 @@ async function buildMatchup(matchup) {
       console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
       const results = await getEventResults(event);
+      if (playerA.slug === "rory-mcilroy" || playerB.slug === "rory-mcilroy") {
+  const sample = results.slice(0, 5).map((row) => ({
+    dg_id: row.dg_id,
+    player_name: row.player_name,
+    player: row.player,
+    name: row.name,
+    fin_text: row.fin_text,
+    position: row.position,
+    finish: row.finish
+  }));
+
+  console.log("[H2H] Rory result sample:", sample);
+
+  const roryByName = results.find((row) =>
+    String(row.player_name || row.player || row.name || "")
+      .toLowerCase()
+      .includes("mcilroy")
+  );
+
+  if (roryByName) {
+    console.log("[H2H] Rory found by name:", roryByName);
+  }
+}
 
       let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
       let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
