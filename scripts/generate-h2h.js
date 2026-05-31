@@ -8,7 +8,7 @@ if (!API_KEY) {
 }
 
 const TOUR = "pga";
-const CURRENT_YEAR = 2018;
+const CURRENT_YEAR = new Date().getFullYear();
 const TEST_ONLY_TIGER_RORY = false;
 
 function loadManualResults(slug) {
@@ -438,16 +438,6 @@ async function buildMatchup(matchup) {
 
   let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
   let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
-
-
-  const roryByName = results.find((row) =>
-    String(row.player_name || row.player || row.name || "")
-      .toLowerCase()
-      .includes("mcilroy")
-    );
-
-      let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
-      let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
       if (!playerAResult && manualA) {
         const manualEvent = findManualResult(manualA, event);
