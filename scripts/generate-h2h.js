@@ -9,7 +9,7 @@ if (!API_KEY) {
 
 const TOUR = "pga";
 const CURRENT_YEAR = 2018;
-const TEST_ONLY_TIGER_RORY = true;
+const TEST_ONLY_TIGER_RORY = false;
 
 function loadManualResults(slug) {
   try {
@@ -340,8 +340,6 @@ const url = dataGolfUrl("historical-raw-data/event-list", {
   const data = await fetchJson(url);
 
   const rows = Array.isArray(data) ? data : data.events || data.data || [];
-  console.log("[H2H] First event:", rows[0]);
-  console.log("[H2H] Last event:", rows[rows.length - 1]);
 
   console.log("[H2H] Historical event-list returned:", rows.length, "events");
 
@@ -376,9 +374,6 @@ async function getEventResults(event) {
   await sleep(REQUEST_DELAY_MS);
 
   const data = await fetchJson(url);
-
-  console.log("[H2H] Raw rounds response keys:", Object.keys(data || {}));
-  console.log("[H2H] Raw rounds response sample:", JSON.stringify(data).slice(0, 800));
 
   const rows = Array.isArray(data)
   ? data
@@ -440,16 +435,6 @@ async function buildMatchup(matchup) {
       console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
       const results = await getEventResults(event);
-      if (playerA.slug === "rory-mcilroy" || playerB.slug === "rory-mcilroy") {
-  const sample = results.slice(0, 5).map((row) => ({
-    dg_id: row.dg_id,
-    player_name: row.player_name,
-    player: row.player,
-    name: row.name,
-    fin_text: row.fin_text,
-    position: row.position,
-    finish: row.finish
-  }));
 
   console.log("[H2H] Rory result sample:", sample);
         const mcilroys = results.filter((row) =>
