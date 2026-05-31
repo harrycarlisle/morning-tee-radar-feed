@@ -452,6 +452,15 @@ async function buildMatchup(matchup) {
   }));
 
   console.log("[H2H] Rory result sample:", sample);
+        const mcilroys = results.filter((row) =>
+  String(row.player_name || "")
+    .toLowerCase()
+    .includes("mcilroy")
+);
+
+if (mcilroys.length) {
+  console.log("[H2H] MCILROY ROWS:", mcilroys);
+}
 
   const roryByName = results.find((row) =>
     String(row.player_name || row.player || row.name || "")
