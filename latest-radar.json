@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-31T03:10:38.571Z",
+  "updatedAt": "2026-05-31T07:41:41.581Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
+      "timestamp": "2026-05-30T22:42:18.000Z",
+      "approvedAt": "2026-05-31T07:41:41.578Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "NCAA",
+      "title": "This mid-major golfer has now played 91 straight holes without a bogey",
+      "summary": "Louisiana's Malan Potgieter kept his bogey-free streak going Saturday at the NCAA Championship, breaking Bobby Wyatt's unofficial NCAA record in the process.",
+      "quickRead": "Louisiana senior Malan Potgieter shot a second straight 4-under 68 at the NCAA Championship to extend his bogey-free streak to 91 consecutive holes, breaking the believed NCAA record of 74 set by Alabama’s Bobby Wyatt.  Potgieter is 8-under and two shots off Arizona’s Filip Jakubcik, and his streak now puts Tiger Woods’ pro mark of 110 straight bogey-free holes within range.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mid-major-golfer-now-played-224218146.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mid-major-golfer-now-played-224218146.html",
+      "source": "Yahoo Golf",
+      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-05-30T23:55:42.000Z",
       "approvedAt": "2026-05-31T02:53:27.484Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/former-liv-golf-winner-explains-235542321.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-05-30T09:30:00.000Z",
       "approvedAt": "2026-05-31T03:10:34.005Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-05-31T00:28:44.000Z",
       "approvedAt": "2026-05-31T02:53:28.306Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-30T14:01:24.000Z",
       "approvedAt": "2026-05-30T20:51:18.474Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-30T17:30:27.000Z",
       "approvedAt": "2026-05-30T22:54:33.932Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-05-30T16:47:09.000Z",
       "approvedAt": "2026-05-30T19:06:07.125Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-05-30T14:42:56.000Z",
       "approvedAt": "2026-05-30T16:57:50.451Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-first-2026-withdrawal-144256435.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/viktor-hovland-3.png"
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-05-30T14:30:00.000Z",
-      "approvedAt": "2026-05-30T15:02:35.112Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Why Bryson DeChambeau and Jon Rahm will be better prepared for the US Open than...",
-      "summary": "A major criticism of LIV Golf is how it leaves players unprepared for major championships.",
-      "quickRead": "A major criticism of LIV Golf is how it leaves players unprepared for major championships.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-bryson-dechambeau-jon-rahm-143000616.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-bryson-dechambeau-jon-rahm-143000616.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-05-31T03:10:16.004Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-05-31T02:33:16.004Z",
       "status": "Trending",
       "signal": "Reddit find",
