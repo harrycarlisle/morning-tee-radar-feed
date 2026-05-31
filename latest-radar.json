@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-31T15:16:54.303Z",
+  "updatedAt": "2026-05-31T17:01:47.468Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "24 min ago",
+      "timestamp": "2026-05-31T16:37:12.000Z",
+      "approvedAt": "2026-05-31T17:01:47.465Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Joaquin Niemann wins a playoff for first LIV Golf title of the season",
+      "summary": "Joaquin Niemann closed with a 3-under 67 and made birdie on the first playoff hole against Talor Gooch to win LIV Golf Korea, the first title of the year for Niemann and his league-leadin...",
+      "quickRead": "Joaquin Niemann won LIV Golf Korea by making birdie on the first playoff hole to beat Talor Gooch after both finished 12-under 268 at Asiad Country Club in Busan, closing with matching 3-under 67s.  It’s Niemann’s first LIV title of 2026 and his league-leading eighth career win, while Bryson DeChambeau’s 65 left him one shot short of the playoff.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/joaquin-niemann-wins-playoff-first-163712906.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-wins-playoff-first-163712906.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-05-31T10:30:00.000Z",
       "approvedAt": "2026-05-31T13:26:40.489Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-says-problem-had-103000789.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-05-31T10:45:57.000Z",
       "approvedAt": "2026-05-31T13:26:41.257Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-31T12:02:38.000Z",
       "approvedAt": "2026-05-31T13:26:41.257Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-05-31T12:23:10.000Z",
       "approvedAt": "2026-05-31T13:26:41.257Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-05-30T22:42:18.000Z",
       "approvedAt": "2026-05-31T07:41:41.578Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-05-30T23:55:42.000Z",
       "approvedAt": "2026-05-31T02:53:27.484Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-appear-093000948.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-05-31T00:28:44.000Z",
-      "approvedAt": "2026-05-31T02:53:28.306Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "Soo Bin Joo thrives in the wind and builds a 4-shot lead in the ShopRite LPGA",
-      "summary": "Soo Bin Joo thrived in a raging wind off the Atlantic Ocean inlets Friday for a 3-under 68, closing with a long two-putt birdie on the 18th hole and watching her lead to grow to four shot...",
-      "quickRead": "Soo Bin Joo shot a 3-under 68 in brutal seaside winds at Seaview, two-putt birdied the 18th, and stretched her ShopRite LPGA lead to four at 8-under 134 after 25 putts and just one bogey (on No.  1).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/soo-bin-joo-thrives-wind-002844399.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/soo-bin-joo-thrives-wind-002844399.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-05-31T15:15:38.718Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "38 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-05-31T14:38:38.718Z",
       "status": "Trending",
       "signal": "Reddit find",
