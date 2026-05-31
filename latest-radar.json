@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-05-31T02:57:34.604Z",
+  "updatedAt": "2026-05-31T03:10:33.060Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
+      "timestamp": "2026-05-30T22:42:18.000Z",
+      "approvedAt": "2026-05-31T03:10:33.044Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "NCAA",
+      "title": "This mid-major golfer has now played 91 straight holes without a bogey",
+      "summary": "Louisiana's Malan Potgieter kept his bogey-free streak going Saturday at the NCAA Championship, breaking Bobby Wyatt's unofficial NCAA record in the process.",
+      "quickRead": "Louisiana senior Malan Potgieter shot a second straight 4-under 68 at the NCAA Championship to stretch his bogey-free streak to 91 straight holes, breaking Alabama’s Bobby Wyatt’s believed NCAA mark of 74.  Potgieter is 8 under—two shots behind leader Filip Jakubcik—and now has Tiger Woods’ men’s pro record of 110 consecutive bogey-free holes in his sights.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mid-major-golfer-now-played-224218363.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mid-major-golfer-now-played-224218363.html",
+      "source": "Yahoo Golf",
+      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-05-30T23:55:42.000Z",
       "approvedAt": "2026-05-31T02:53:27.484Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/former-liv-golf-winner-explains-235542321.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-05-31T00:28:44.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-05-30T14:01:24.000Z",
       "approvedAt": "2026-05-30T20:51:18.474Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/why-bryson-dechambeau-jon-rahm-143000616.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-05-30T13:00:00.000Z",
-      "approvedAt": "2026-05-30T13:19:13.574Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Talor Gooch admits what it was like to play with Bryson DeChambeau at LIV Golf...",
-      "summary": "Talor Gooch was paired alongside Bryson DeChambeau and Cam Smith during the third round of LIV Golf Korea on Saturday.",
-      "quickRead": "Talor Gooch was paired alongside Bryson DeChambeau and Cam Smith during the third round of LIV Golf Korea on Saturday.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/talor-gooch-admits-play-bryson-130000210.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/talor-gooch-admits-play-bryson-130000210.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "13 min ago",
       "timestamp": "2026-05-31T02:57:27.329Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "50 min ago",
       "timestamp": "2026-05-31T02:20:27.329Z",
       "status": "Trending",
       "signal": "Reddit find",
