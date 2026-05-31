@@ -892,6 +892,15 @@ function inferCategory(item) {
   if (item.sourceType === "Reddit") return "GOLF INTERNET";
 
   if (
+  text.includes("ncaa") ||
+  text.includes("men's golf championship") ||
+  text.includes("mens golf championship") ||
+  text.includes("college golf")
+) {
+  return "NCAA";
+}
+
+  if (
     text.includes("youtube") ||
     text.includes("rick shiels") ||
     text.includes("bob does sports") ||
