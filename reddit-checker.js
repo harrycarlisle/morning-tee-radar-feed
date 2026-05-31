@@ -358,6 +358,11 @@ const PLACEHOLDER_IMAGES = [
   "/images/golf-placeholder-4.png"
 ];
 
+const CATEGORY_PLACEHOLDER_IMAGES = {
+  NCAA: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865",
+  LPGA: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
+};
+
 const TOURNAMENT_TERMS = [
   "leaderboard",
   "leads",
@@ -392,6 +397,12 @@ const TOURNAMENT_TERMS = [
   "masters",
   "players championship",
   "lpga",
+  "ncaa",
+  "college golf",
+  "men's golf championship",
+  "mens golf championship",
+  "women's golf championship",
+  "womens golf championship",
   "dp world tour",
   "liv golf"
 ];
@@ -452,7 +463,13 @@ const IMPORTANT_TERMS = [
   "wins",
   "winner",
   "tee times",
-  "featured group"
+  "featured group",
+  "ncaa",
+  "college golf",
+  "men's golf championship",
+  "mens golf championship",
+  "women's golf championship",
+  "womens golf championship"
 ];
 
 const IGNORE_TERMS = [
@@ -893,9 +910,11 @@ function inferCategory(item) {
 
   if (
   text.includes("ncaa") ||
+  text.includes("college golf") ||
   text.includes("men's golf championship") ||
   text.includes("mens golf championship") ||
-  text.includes("college golf")
+  text.includes("women's golf championship") ||
+  text.includes("womens golf championship")
 ) {
   return "NCAA";
 }
@@ -1144,6 +1163,15 @@ function attachImageIfMissing(item, imageUsage = {}) {
 
   if (isLeaderboardRadarItem(item)) {
     return item;
+  }
+
+  const category = String(item.category || inferCategory(item) || "").toUpperCase();
+
+  if (CATEGORY_PLACEHOLDER_IMAGES[category]) {
+    return {
+      ...item,
+      image: CATEGORY_PLACEHOLDER_IMAGES[category]
+    };
   }
 
   const match = getImageMatchForItem(item);
