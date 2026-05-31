@@ -42,6 +42,7 @@ function normalizeEventName(value) {
 }
 
 function findManualResult(manualData, event) {
+  if (Number(event.year) >= 2017) return null;
   if (!manualData?.seasons) return null;
 
   const season = manualData.seasons[String(event.year)];
