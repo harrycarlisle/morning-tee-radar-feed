@@ -377,6 +377,9 @@ async function getEventResults(event) {
 
   const data = await fetchJson(url);
 
+  console.log("[H2H] Raw rounds response keys:", Object.keys(data || {}));
+  console.log("[H2H] Raw rounds response sample:", JSON.stringify(data).slice(0, 800));
+
   const rows = Array.isArray(data)
     ? data
     : data.event_stats ||
