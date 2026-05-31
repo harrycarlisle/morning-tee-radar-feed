@@ -432,31 +432,24 @@ async function buildMatchup(matchup) {
     const event = allEvents[i];
 
     try {
-      console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
+  console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
-      const results = await getEventResults(event);
+  const results = await getEventResults(event);
 
-  console.log("[H2H] Rory result sample:", sample);
-        const mcilroys = results.filter((row) =>
-  String(row.player_name || "")
-    .toLowerCase()
-    .includes("mcilroy")
-);
+  let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
+  let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
-if (mcilroys.length) {
-  console.log("[H2H] MCILROY ROWS:", mcilroys);
-}
 
   const roryByName = results.find((row) =>
     String(row.player_name || row.player || row.name || "")
       .toLowerCase()
       .includes("mcilroy")
-  );
+    );
 
-  if (roryByName) {
+    if (roryByName) {
     console.log("[H2H] Rory found by name:", roryByName);
+    }
   }
-}
 
       let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
       let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
