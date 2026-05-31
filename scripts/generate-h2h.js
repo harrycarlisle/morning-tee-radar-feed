@@ -381,15 +381,16 @@ async function getEventResults(event) {
   console.log("[H2H] Raw rounds response sample:", JSON.stringify(data).slice(0, 800));
 
   const rows = Array.isArray(data)
-    ? data
-    : data.event_stats ||
-      data.results ||
-      data.data ||
-      data.event_results ||
-      data.players ||
-      data.event_data ||
-      data.finishes ||
-      [];
+  ? data
+  : data.scores ||
+    data.event_stats ||
+    data.results ||
+    data.data ||
+    data.event_results ||
+    data.players ||
+    data.event_data ||
+    data.finishes ||
+    [];
 
   eventResultsCache.set(cacheKey, rows);
   return rows;
