@@ -1,7 +1,7 @@
 {
   "matchupId": "xander-schauffele-vs-ludvig-aberg",
-  "updatedAt": "2026-05-30T02:33:36.854Z",
-  "source": "DataGolf Historical Event Data",
+  "updatedAt": "2026-05-31T19:31:50.982Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 23,
-    "playerAWins": 10,
-    "playerBWins": 11,
-    "ties": 2
+    "sharedStarts": 44,
+    "playerAWins": 22,
+    "playerBWins": 18,
+    "ties": 4
   },
   "events": [
     {
@@ -40,17 +40,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T7",
-        "earnings": 637050,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T4",
-        "earnings": 843867,
-        "fedExCupPoints": 300,
-        "dgPoints": 6.4127
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 3 spots",
@@ -66,17 +68,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T60",
-        "earnings": 42500,
-        "fedExCupPoints": 8,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T8",
-        "earnings": 600000,
-        "fedExCupPoints": 187.5,
-        "dgPoints": 2.0112
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 52 spots",
@@ -92,17 +96,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T12",
-        "earnings": 399250,
-        "fedExCupPoints": 105,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T4",
-        "earnings": 823333,
-        "fedExCupPoints": 300,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 8 spots",
@@ -118,17 +124,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T9",
-        "earnings": 630000,
-        "fedExCupPoints": 187.5,
-        "dgPoints": 2.8311
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T21",
-        "earnings": 252000,
-        "fedExCupPoints": 53,
-        "dgPoints": 1.0231
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 12 spots",
@@ -144,17 +152,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "3",
-        "earnings": 1725000,
-        "fedExCupPoints": 350,
-        "dgPoints": 6.8911
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T5",
-        "earnings": 925000,
-        "fedExCupPoints": 275,
-        "dgPoints": 3.7685
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 2 spots",
@@ -170,17 +180,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T24",
-        "earnings": 157000,
-        "fedExCupPoints": 36.333,
-        "dgPoints": 0.4734
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T3",
-        "earnings": 1200000,
-        "fedExCupPoints": 337.5,
-        "dgPoints": 5.3134
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 21 spots",
@@ -196,17 +208,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T7",
-        "earnings": 603200,
-        "fedExCupPoints": 176,
-        "dgPoints": 2.1185
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T20",
-        "earnings": 259500,
-        "fedExCupPoints": 52.5,
-        "dgPoints": 0.7726
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 13 spots",
@@ -222,17 +236,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T19",
-        "earnings": 235000,
-        "fedExCupPoints": 51.8,
-        "dgPoints": 0.7946
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T37",
-        "earnings": 78375,
-        "fedExCupPoints": 19.969,
-        "dgPoints": 0.2627
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 18 spots",
@@ -248,17 +264,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -274,17 +292,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T28",
-        "earnings": 163500,
-        "fedExCupPoints": 121,
-        "dgPoints": 0.2539
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T7",
-        "earnings": 645000,
-        "fedExCupPoints": 340,
-        "dgPoints": 1.9002
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 21 spots",
@@ -300,17 +320,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T22",
-        "earnings": 186167,
-        "fedExCupPoints": 146,
-        "dgPoints": 0.5397
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T9",
-        "earnings": 501000,
-        "fedExCupPoints": 280,
-        "dgPoints": 1.5536
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 13 spots",
@@ -326,17 +348,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T7",
-        "earnings": 451833,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T23",
-        "earnings": 138040,
-        "fedExCupPoints": 47,
-        "dgPoints": 1.2384
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 16 spots",
@@ -352,17 +376,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -378,17 +404,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T61",
-        "earnings": 42250,
-        "fedExCupPoints": 7.875,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T36",
-        "earnings": 90500,
-        "fedExCupPoints": 21.625,
-        "dgPoints": 0.234
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 25 spots",
@@ -404,17 +432,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T12",
-        "earnings": 349741,
-        "fedExCupPoints": 97.143,
-        "dgPoints": 2.1755
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 987 spots",
@@ -430,17 +460,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T25",
-        "earnings": 159000,
-        "fedExCupPoints": 37.083,
-        "dgPoints": 0.4603
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T16",
-        "earnings": 319000,
-        "fedExCupPoints": 68.75,
-        "dgPoints": 0.8991
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 9 spots",
@@ -456,17 +488,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T28",
-        "earnings": 115820,
-        "fedExCupPoints": 37,
-        "dgPoints": 1.0064
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 971 spots",
@@ -482,17 +516,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T11",
-        "earnings": 440000,
-        "fedExCupPoints": 115,
-        "dgPoints": 1.35
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T60",
-        "earnings": 42500,
-        "fedExCupPoints": 8,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 49 spots",
@@ -508,17 +544,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T18",
-        "earnings": 226056,
-        "fedExCupPoints": 50,
-        "dgPoints": 0.6686
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T54",
-        "earnings": 44500,
-        "fedExCupPoints": 9.536,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 36 spots",
@@ -534,17 +572,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T8",
-        "earnings": 588000,
-        "fedExCupPoints": 188.75,
-        "dgPoints": 2.8681
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "7",
-        "earnings": 703500,
-        "fedExCupPoints": 250,
-        "dgPoints": 3.9332
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 1 spot",
@@ -560,17 +600,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "72",
-        "earnings": 50250,
-        "fedExCupPoints": 5.75,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 927 spots",
@@ -586,17 +628,19 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T40",
-        "earnings": 78000,
-        "fedExCupPoints": 18.75,
-        "dgPoints": 0.1913
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T22",
-        "earnings": 178111,
-        "fedExCupPoints": 40.056,
-        "dgPoints": 0.5318
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 18 spots",
@@ -612,20 +656,610 @@
         "name": "Xander Schauffele",
         "dgId": 19895,
         "finish": "T30",
-        "earnings": 137500,
-        "fedExCupPoints": 31.75,
-        "dgPoints": 0.2342
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T5",
-        "earnings": 744167,
-        "fedExCupPoints": 266.667,
-        "dgPoints": 2.3717
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-01",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-25",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-18",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-04",
+      "eventId": 519,
+      "eventName": "Olympic Men's Golf Competition",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-14",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-09",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-21",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-18",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-04",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-07",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-07-16",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 957 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-03-05",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 15 spots",
       "counted": true
     }
   ]

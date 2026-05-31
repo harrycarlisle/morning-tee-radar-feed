@@ -1,7 +1,7 @@
 {
   "matchupId": "ludvig-aberg-vs-scottie-scheffler",
-  "updatedAt": "2026-05-30T02:38:55.519Z",
-  "source": "DataGolf Historical Event Data",
+  "updatedAt": "2026-05-31T19:49:21.111Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 21,
-    "playerAWins": 4,
-    "playerBWins": 16,
+    "sharedStarts": 41,
+    "playerAWins": 7,
+    "playerBWins": 33,
     "ties": 1
   },
   "events": [
@@ -40,17 +40,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T4",
-        "earnings": 843867,
-        "fedExCupPoints": 300,
-        "dgPoints": 6.4127
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T14",
-        "earnings": 364763,
-        "fedExCupPoints": 90,
-        "dgPoints": 2.079
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 10 spots",
@@ -66,17 +68,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T4",
-        "earnings": 823333,
-        "fedExCupPoints": 300,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "2",
-        "earnings": 2160000,
-        "fedExCupPoints": 400,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 2 spots",
@@ -92,17 +96,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T21",
-        "earnings": 252000,
-        "fedExCupPoints": 53,
-        "dgPoints": 1.0231
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "2",
-        "earnings": 2430000,
-        "fedExCupPoints": 500,
-        "dgPoints": 13.8649
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 19 spots",
@@ -118,17 +124,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T5",
-        "earnings": 925000,
-        "fedExCupPoints": 275,
-        "dgPoints": 3.7685
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T22",
-        "earnings": 271250,
-        "fedExCupPoints": 52,
-        "dgPoints": 0.9897
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 17 spots",
@@ -144,17 +152,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T3",
-        "earnings": 1200000,
-        "fedExCupPoints": 337.5,
-        "dgPoints": 5.3134
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T24",
-        "earnings": 157000,
-        "fedExCupPoints": 36.333,
-        "dgPoints": 0.4734
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 21 spots",
@@ -170,17 +180,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T20",
-        "earnings": 259500,
-        "fedExCupPoints": 52.5,
-        "dgPoints": 0.7726
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T12",
-        "earnings": 415000,
-        "fedExCupPoints": 105,
-        "dgPoints": 1.3232
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 8 spots",
@@ -196,17 +208,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T37",
-        "earnings": 78375,
-        "fedExCupPoints": 19.969,
-        "dgPoints": 0.2627
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T4",
-        "earnings": 877500,
-        "fedExCupPoints": 312.5,
-        "dgPoints": 4.33
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 33 spots",
@@ -222,17 +236,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "WD",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "1",
-        "earnings": 1656000,
-        "fedExCupPoints": 500,
-        "dgPoints": 15.214
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -248,17 +264,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T21",
-        "earnings": 422500,
-        "fedExCupPoints": 0,
-        "dgPoints": 0.175
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T4",
-        "earnings": 2616667,
-        "fedExCupPoints": 0,
-        "dgPoints": 2.3945
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 17 spots",
@@ -274,17 +292,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T7",
-        "earnings": 645000,
-        "fedExCupPoints": 340,
-        "dgPoints": 1.9002
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "1",
-        "earnings": 3600000,
-        "fedExCupPoints": 2000,
-        "dgPoints": 15.5358
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 6 spots",
@@ -300,17 +320,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T9",
-        "earnings": 501000,
-        "fedExCupPoints": 280,
-        "dgPoints": 1.5536
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T3",
-        "earnings": 1160000,
-        "fedExCupPoints": 650,
-        "dgPoints": 4.8745
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 6 spots",
@@ -326,17 +348,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T23",
-        "earnings": 138040,
-        "fedExCupPoints": 47,
-        "dgPoints": 1.2384
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "1",
-        "earnings": 3100000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 22 spots",
@@ -352,17 +376,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T8",
-        "earnings": 233400,
-        "fedExCupPoints": 80,
-        "dgPoints": 2.2164
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -378,17 +404,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T36",
-        "earnings": 90500,
-        "fedExCupPoints": 21.625,
-        "dgPoints": 0.234
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T6",
-        "earnings": 695000,
-        "fedExCupPoints": 250,
-        "dgPoints": 2.7491
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 30 spots",
@@ -404,17 +432,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T7",
-        "earnings": 615786,
-        "fedExCupPoints": 225,
-        "dgPoints": 4.0132
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 992 spots",
@@ -430,17 +460,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T16",
-        "earnings": 319000,
-        "fedExCupPoints": 68.75,
-        "dgPoints": 0.8991
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "1",
-        "earnings": 4000000,
-        "fedExCupPoints": 700,
-        "dgPoints": 16.0358
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 15 spots",
@@ -456,17 +488,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "1",
-        "earnings": 3420000,
-        "fedExCupPoints": 750,
-        "dgPoints": 28
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 998 spots",
@@ -482,17 +516,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T54",
-        "earnings": 44500,
-        "fedExCupPoints": 9.536,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T8",
-        "earnings": 580000,
-        "fedExCupPoints": 175,
-        "dgPoints": 1.9461
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 46 spots",
@@ -508,17 +544,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "7",
-        "earnings": 703500,
-        "fedExCupPoints": 250,
-        "dgPoints": 3.9332
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "4",
-        "earnings": 1008000,
-        "fedExCupPoints": 325,
-        "dgPoints": 6.9699
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 3 spots",
@@ -534,17 +572,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T20",
-        "earnings": 240250,
-        "fedExCupPoints": 48.3,
-        "dgPoints": 0.9989
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 979 spots",
@@ -560,17 +600,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T22",
-        "earnings": 178111,
-        "fedExCupPoints": 40.056,
-        "dgPoints": 0.5318
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T11",
-        "earnings": 451250,
-        "fedExCupPoints": 115,
-        "dgPoints": 1.4274
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 11 spots",
@@ -586,17 +628,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "1",
-        "earnings": 4000000,
-        "fedExCupPoints": 700,
-        "dgPoints": 16.4444
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T3",
-        "earnings": 1200000,
-        "fedExCupPoints": 337.5,
-        "dgPoints": 5.1523
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 2 spots",
@@ -612,21 +656,583 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "WD",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Scottie Scheffler",
         "dgId": 18417,
         "finish": "T9",
-        "earnings": 535000,
-        "fedExCupPoints": 151.667,
-        "dgPoints": 1.9139
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
       "counted": false
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-08",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-01",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-25",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-18",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-04",
+      "eventId": 519,
+      "eventName": "Olympic Men's Golf Competition",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-09",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-21",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-18",
+      "eventId": 7,
+      "eventName": "The Genesis Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-04",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-07",
+      "eventId": 16,
+      "eventName": "The Sentry",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-07-16",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-03-05",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 20 spots",
+      "counted": true
     }
   ]
 }

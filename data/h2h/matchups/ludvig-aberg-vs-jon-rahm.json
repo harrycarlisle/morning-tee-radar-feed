@@ -1,7 +1,7 @@
 {
   "matchupId": "ludvig-aberg-vs-jon-rahm",
-  "updatedAt": "2026-05-30T02:38:55.427Z",
-  "source": "DataGolf Historical Event Data",
+  "updatedAt": "2026-05-31T19:49:20.986Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 6,
-    "playerAWins": 3,
-    "playerBWins": 3,
-    "ties": 0
+    "sharedStarts": 12,
+    "playerAWins": 6,
+    "playerBWins": 5,
+    "ties": 1
   },
   "events": [
     {
@@ -40,17 +40,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T4",
-        "earnings": 843867,
-        "fedExCupPoints": 300,
-        "dgPoints": 6.4127
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T2",
-        "earnings": 1804000,
-        "fedExCupPoints": 0,
-        "dgPoints": 12.4264
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 2 spots",
@@ -66,17 +68,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T21",
-        "earnings": 252000,
-        "fedExCupPoints": 53,
-        "dgPoints": 1.0231
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T38",
-        "earnings": 101250,
-        "fedExCupPoints": 0,
-        "dgPoints": 0.4077
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 17 spots",
@@ -92,17 +96,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "T23",
-        "earnings": 138040,
-        "fedExCupPoints": 47,
-        "dgPoints": 1.2384
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T34",
-        "earnings": 86517,
-        "fedExCupPoints": 0,
-        "dgPoints": 0.801
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 11 spots",
@@ -118,17 +124,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T7",
-        "earnings": 615786,
-        "fedExCupPoints": 0,
-        "dgPoints": 4.0132
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 992 spots",
@@ -144,17 +152,19 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "CUT",
-        "earnings": 0,
-        "fedExCupPoints": 0,
-        "dgPoints": 0
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T8",
-        "earnings": 454781,
-        "fedExCupPoints": 0,
-        "dgPoints": 2.8007
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 991 spots",
@@ -170,20 +180,190 @@
         "name": "Ludvig Åberg",
         "dgId": 23950,
         "finish": "7",
-        "earnings": 703500,
-        "fedExCupPoints": 250,
-        "dgPoints": 3.9332
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "playerB": {
         "name": "Jon Rahm",
         "dgId": 19195,
         "finish": "T14",
-        "earnings": 336000,
-        "fedExCupPoints": 0,
-        "dgPoints": 1.4602
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
       },
       "h2hWinner": "ludvig-aberg",
       "edge": "Ludvig by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-04",
+      "eventId": 519,
+      "eventName": "Olympic Men's Golf Competition",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 975 spots",
+      "counted": true
+    },
+    {
+      "year": 2023,
+      "date": "2023-03-05",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 15 spots",
       "counted": true
     }
   ]
