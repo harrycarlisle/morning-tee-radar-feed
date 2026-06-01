@@ -3108,6 +3108,43 @@ async function autoPublishToGitHub(item) {
   return true;
 }
 
+function getPromisedDetailPenalty(item) {
+  const title = String(item && item.title || "").toLowerCase();
+  const quickRead = String(
+    item && (item.quickRead || item.quickContext || item.modalSummary || item.summary) || ""
+  ).toLowerCase();
+
+  const promisesEquipmentDetail =
+    title.includes("clubs") ||
+    title.includes("bag") ||
+    title.includes("equipment") ||
+    title.includes("what's in") ||
+    title.includes("what’s in") ||
+    title.includes("witb");
+
+  if (!promisesEquipmentDetail) return 0;
+
+  const answersEquipmentDetail =
+    quickRead.includes("driver") ||
+    quickRead.includes("putter") ||
+    quickRead.includes("iron") ||
+    quickRead.includes("wedge") ||
+    quickRead.includes("ball") ||
+    quickRead.includes("shaft") ||
+    quickRead.includes("titleist") ||
+    quickRead.includes("taylormade") ||
+    quickRead.includes("ping") ||
+    quickRead.includes("callaway") ||
+    quickRead.includes("srixon") ||
+    quickRead.includes("cleveland") ||
+    quickRead.includes("mizuno") ||
+    quickRead.includes("cobra") ||
+    quickRead.includes("odyssey") ||
+    quickRead.includes("scotty cameron");
+
+  return answersEquipmentDetail ? 0 : 35;
+}
+
 function getHomepageRunnerUpItems(items, bestCandidate, limit = 4) {
   const bestUrl = String(bestCandidate && (bestCandidate.url || bestCandidate.sourceUrl) || "").trim().toLowerCase();
   const bestId = String(bestCandidate && bestCandidate.id || "").trim().toLowerCase();
@@ -3143,12 +3180,14 @@ function getHomepageRunnerUpItems(items, bestCandidate, limit = 4) {
 
       const candidateScore = Number(item.score || 0);
       const weekScore = scoreWeekRadarItem(item);
+      const detailPenalty = getPromisedDetailPenalty(item);
+      const adjustedScore = Math.max(candidateScore, weekScore) - detailPenalty;
 
-      return Math.max(candidateScore, weekScore) >= 35;
+      return adjustedScore >= 25;
     })
     .sort((a, b) => {
-      const aScore = Math.max(Number(a.score || 0), scoreWeekRadarItem(a));
-      const bScore = Math.max(Number(b.score || 0), scoreWeekRadarItem(b));
+      const aScore = Math.max(Number(a.score || 0), scoreWeekRadarItem(a)) - getPromisedDetailPenalty(a);
+      const bScore = Math.max(Number(b.score || 0), scoreWeekRadarItem(b)) - getPromisedDetailPenalty(b);
 
       if (aScore !== bScore) return bScore - aScore;
 
