@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-hideki-matsuyama",
-  "updatedAt": "2026-05-31T22:38:47.298Z",
+  "updatedAt": "2026-06-01T19:29:06.875Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 97,
+    "sharedStarts": 98,
     "playerAWins": 49,
     "playerBWins": 39,
-    "ties": 9
+    "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-05-31",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",
