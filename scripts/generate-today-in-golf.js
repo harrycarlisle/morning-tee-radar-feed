@@ -152,28 +152,44 @@ function isTournamentFinalSafe(item) {
 
   const status = String(item?.status || "").toLowerCase();
   const signal = String(item?.signal || "").toLowerCase();
+  const resultType = String(item?.resultType || "").toLowerCase();
   const title = String(item?.title || "").toLowerCase();
   const summary = String(item?.summary || "").toLowerCase();
   const quickRead = String(item?.quickRead || "").toLowerCase();
+  const text = `${status} ${signal} ${resultType} ${title} ${summary} ${quickRead}`;
+
+  const isSundayOrMonday = weekday === "Sun" || weekday === "Mon";
 
   const explicitlyFinal =
     status === "final" ||
     status === "complete" ||
     status === "completed" ||
+    resultType === "winner" ||
+    signal.includes("winner") ||
     signal.includes("final result") ||
     signal.includes("final leaderboard") ||
-    title.includes("final result") ||
-    title.includes("final leaderboard") ||
-    summary.includes("final result") ||
-    summary.includes("final leaderboard") ||
-    quickRead.includes("final result") ||
-    quickRead.includes("final leaderboard") ||
-    quickRead.includes("tournament is complete") ||
-    quickRead.includes("event is complete");
+    text.includes("final result") ||
+    text.includes("final leaderboard") ||
+    text.includes("tournament is complete") ||
+    text.includes("event is complete") ||
+    text.includes("wins ") ||
+    text.includes(" won ") ||
+    text.includes(" winner") ||
+    text.includes(" title");
 
-  const isSundayOrMonday = weekday === "Sun" || weekday === "Mon";
+  const mondayRecapSignal =
+    weekday === "Mon" &&
+    (
+      text.includes("on sunday") ||
+      text.includes("sunday at") ||
+      text.includes("final round") ||
+      text.includes("closed with") ||
+      text.includes("held off") ||
+      text.includes("finished at") ||
+      text.includes("victory")
+    );
 
-  return explicitlyFinal && isSundayOrMonday;
+  return isSundayOrMonday && (explicitlyFinal || mondayRecapSignal);
 }
 
 function removeUnsafeWinnerLanguage(value, item) {
@@ -589,6 +605,7 @@ Critical accuracy rule:
 - A player marked "F" means finished the round, not won the tournament.
 - If it is Thursday, Friday, or Saturday, rewrite winner language as "leads," "finished the round at," or "sits at."
 - If unsure, use "leads" instead of "wins."
+- On Monday, yesterday’s completed PGA Tour result may be written as “won” only when the source story clearly describes a Sunday final result, victory, final round, held-off finish, or completed title.
 
 Leaderboard consistency rule:
 - Use currentTournamentStates as the source of truth for the current leaderboard.
@@ -606,7 +623,7 @@ Headline rules:
 - Bad: "Global watch", "Around the world", "Tournament update", "Big move".
 
 Tournament rules:
-- Include tournament name, leader, score, closest challenger if available, and one notable performance detail.
+- Include tournament name, winner or leader, score, closest challenger if available, and one notable performance detail. On Monday, prioritize yesterday’s final winner over “leader” wording when the source clearly describes a completed result.
 - If the story says a player won, say won only if the source clearly says the tournament is final and complete.
 - If tee times are the story, include exact tee times for the leader or big names if available. Do not just say tee times are out.
 - Never describe an older leaderboard state as current if a newer leaderboard item from the same tournament exists.
