@@ -1,12 +1,12 @@
 {
   "matchupId": "phil-mickelson-vs-bryson-dechambeau",
-  "updatedAt": "2026-06-01T19:51:39.487Z",
+  "updatedAt": "2026-06-02T05:15:02.827Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Limited to available DataGolf event data from 2017 onward."
+    "dataNote": "Includes full available Phil/Bryson shared-start coverage."
   },
   "playerA": {
     "name": "Mickelson, Phil",
@@ -23,11 +23,11 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2017,
-    "sharedStarts": 85,
-    "playerAWins": 27,
-    "playerBWins": 50,
-    "ties": 8
+    "since": 2016,
+    "sharedStarts": 91,
+    "playerAWins": 30,
+    "playerBWins": 52,
+    "ties": 9
   },
   "events": [
     {
@@ -2436,6 +2436,174 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 978 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-10-16",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 984 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-05",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-05-08",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-24",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 978 spots",
       "counted": true
     }
   ]

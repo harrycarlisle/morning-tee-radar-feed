@@ -1,12 +1,12 @@
 {
   "matchupId": "phil-mickelson-vs-jon-rahm",
-  "updatedAt": "2026-06-01T19:51:39.389Z",
+  "updatedAt": "2026-06-02T05:15:02.667Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Limited to available DataGolf event data from 2017 onward."
+    "dataNote": "Includes full available Phil/Rahm shared-start coverage."
   },
   "playerA": {
     "name": "Mickelson, Phil",
@@ -23,10 +23,10 @@
     "country": "ESP"
   },
   "summary": {
-    "since": 2017,
-    "sharedStarts": 84,
-    "playerAWins": 21,
-    "playerBWins": 60,
+    "since": 2016,
+    "sharedStarts": 87,
+    "playerAWins": 23,
+    "playerBWins": 61,
     "ties": 3
   },
   "events": [
@@ -2380,6 +2380,90 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-10-16",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 57 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 976 spots",
       "counted": true
     }
   ]

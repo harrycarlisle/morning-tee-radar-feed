@@ -1,12 +1,12 @@
 {
   "matchupId": "tiger-woods-vs-rory-mcilroy",
-  "updatedAt": "2026-06-01T19:40:37.942Z",
+  "updatedAt": "2026-06-02T04:52:37.743Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."
+    "dataNote": "Includes full available Tiger/Rory shared-start coverage."
   },
   "playerA": {
     "name": "Woods, Tiger",
@@ -23,11 +23,11 @@
     "country": "NIR"
   },
   "summary": {
-    "since": 2018,
-    "sharedStarts": 42,
-    "playerAWins": 9,
-    "playerBWins": 30,
-    "ties": 3
+    "since": 2007,
+    "sharedStarts": 98,
+    "playerAWins": 38,
+    "playerBWins": 54,
+    "ties": 6
   },
   "events": [
     {
@@ -1316,6 +1316,1714 @@
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-16",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 982 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-05-10",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T69",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 61 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-10",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2014,
+      "date": "2014-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "69",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 68 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-03-09",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-03-02",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2013,
+      "date": "2013-12-08",
+      "eventId": 478,
+      "eventName": "World Challenge presented by Northwestern Mutual",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-15",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-02",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-08-25",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-08-11",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-08-04",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 993 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-05-12",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-03-10",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-03-03",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2012,
+      "date": "2012-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-09-03",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-08-26",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T60",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 57 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 978 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-06-03",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 959 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-05-06",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-03-11",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2012,
+      "date": "2012-03-04",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-08-14",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 935 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-08-07",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-03-13",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-12-05",
+      "eventId": 478,
+      "eventName": "Chevron World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-09-12",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-09-06",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-29",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 44 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-15",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-08",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T78",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 69 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-07-18",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-06-20",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-06-06",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-05-09",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2010,
+      "date": "2010-05-02",
+      "eventId": 480,
+      "eventName": "Quail Hollow Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-04-11",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-08-16",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-08-09",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T68",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 67 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 952 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-05-10",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-03-15",
+      "eventId": 473,
+      "eventName": "World Golf Championships-CA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2007,
+      "date": "2007-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2007,
+      "date": "2007-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T42",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 40 spots",
       "counted": true
     }
   ]
