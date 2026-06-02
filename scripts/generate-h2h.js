@@ -185,18 +185,18 @@ const MATCHUPS = [
   m("fitz", "tommy", 2020),
 
   m("tiger", "rory", 2007, "Includes full available Tiger/Rory shared-start coverage."),
-  m("tiger", "phil", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
   m("tiger", "bryson", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
-  m("phil", "rory", 2017, "Limited to available DataGolf event data from 2017 onward."),
   m("phil", "scottie", 2020, "Limited to shared starts during Scottie Scheffler's PGA Tour era."),
-  m("phil", "brooks", 2017, "Limited to available DataGolf event data from 2017 onward."),
   m("tiger", "rahm", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "xander", 2017, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
   m("tiger", "collin", 2020, "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."),
 
-  m("phil", "rahm", 2017, "Limited to available DataGolf event data from 2017 onward."),
-  m("phil", "bryson", 2017, "Limited to available DataGolf event data from 2017 onward."),
+  m("tiger", "phil", 1996, "Includes full available Tiger/Phil shared-start coverage."),
+  m("phil", "rory", 2007, "Includes full available Phil/Rory shared-start coverage."),
+  m("phil", "brooks", 2012, "Includes full available Phil/Brooks shared-start coverage."),
+  m("phil", "rahm", 2016, "Includes full available Phil/Rahm shared-start coverage."),
+  m("phil", "bryson", 2016, "Includes full available Phil/Bryson shared-start coverage."),
 
   m("ludvig", "rahm", 2023),
   m("ludvig", "scottie", 2023),
