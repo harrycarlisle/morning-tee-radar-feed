@@ -8,6 +8,7 @@ const GITHUB_OWNER = process.env.GITHUB_OWNER;
 const GITHUB_REPO = process.env.GITHUB_REPO;
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 const GITHUB_RADAR_PATH = process.env.GITHUB_RADAR_PATH || "latest-radar.json";
+const GITHUB_RADAR_ARCHIVE_PATH = process.env.GITHUB_RADAR_ARCHIVE_PATH || "archive-radar.json";
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -2472,8 +2473,19 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
     });
 
     if (response.ok) {
-      return response.json();
-    }
+  const result = await response.json();
+
+  try {
+    await appendRadarArchiveOnGitHub(
+      getArchivableStoriesFromRadarJson(nextJson),
+      title
+    );
+  } catch (archiveError) {
+    console.error("[Radar Archive] Latest radar updated, but archive update failed.", archiveError.message);
+  }
+
+  return result;
+}
 
     const body = await response.text();
 
@@ -2491,6 +2503,176 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
   }
 
   return putWithSha(sha, "first");
+}
+
+async function getJsonFileFromGitHub(filePath, fallbackJson) {
+  requireGitHubConfig();
+
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}?ref=${GITHUB_BRANCH}`;
+
+  const response = await fetch(url, {
+    method: "GET",
+    headers: githubHeaders()
+  });
+
+  if (response.status === 404) {
+    return {
+      sha: null,
+      json: fallbackJson
+    };
+  }
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`GitHub read failed for ${filePath}: ${response.status} ${body}`);
+  }
+
+  const data = await response.json();
+
+  return {
+    sha: data.sha,
+    json: JSON.parse(decodeBase64Utf8(data.content))
+  };
+}
+
+async function updateJsonFileOnGitHub(filePath, nextJson, sha, message) {
+  requireGitHubConfig();
+
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}`;
+
+  async function putWithSha(targetSha, attemptLabel) {
+    const content = JSON.stringify(nextJson, null, 2) + "\n";
+
+    const body = {
+      message: message.slice(0, 72),
+      content: encodeBase64Utf8(content),
+      branch: GITHUB_BRANCH
+    };
+
+    if (targetSha) {
+      body.sha = targetSha;
+    }
+
+    const response = await fetch(url, {
+      method: "PUT",
+      headers: githubHeaders(),
+      body: JSON.stringify(body)
+    });
+
+    if (response.ok) {
+      return response.json();
+    }
+
+    const responseBody = await response.text();
+
+    if (response.status === 409 && attemptLabel === "first") {
+      console.log(`[GitHub] SHA conflict on ${filePath}. Refetching and retrying once.`);
+
+      await new Promise((resolve) => setTimeout(resolve, 1200));
+
+      const latest = await getJsonFileFromGitHub(filePath, {
+        active: true,
+        updatedAt: new Date().toISOString(),
+        stories: []
+      });
+
+      return putWithSha(latest.sha, "retry");
+    }
+
+    throw new Error(`GitHub update failed for ${filePath}: ${response.status} ${responseBody}`);
+  }
+
+  return putWithSha(sha, "first");
+}
+
+function getRadarArchiveKey(item) {
+  return String(item && (item.url || item.sourceUrl || item.id || item.title) || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isArchivableRadarStory(item) {
+  if (!item || !item.title) return false;
+
+  const signal = String(item.signal || item.sourceType || "").toLowerCase();
+  const status = String(item.status || "").toLowerCase();
+
+  if (signal.includes("leaderboard")) return false;
+  if (status === "live") return false;
+  if (Array.isArray(item.leaders)) return false;
+
+  return Boolean(item.url || item.sourceUrl || item.title);
+}
+
+function getArchivableStoriesFromRadarJson(radarJson) {
+  return [
+    ...(Array.isArray(radarJson.today) ? radarJson.today : []),
+    ...(Array.isArray(radarJson.weekRadar) ? radarJson.weekRadar : []),
+    ...(Array.isArray(radarJson.alsoMoving) ? radarJson.alsoMoving : []),
+    ...(Array.isArray(radarJson.golfInternet) ? radarJson.golfInternet : [])
+  ].filter(isArchivableRadarStory);
+}
+
+async function appendRadarArchiveOnGitHub(stories, title) {
+  const incomingStories = Array.isArray(stories) ? stories : [];
+
+  if (!incomingStories.length) {
+    console.log("[Radar Archive] No archivable stories found.");
+    return false;
+  }
+
+  const currentArchive = await getJsonFileFromGitHub(GITHUB_RADAR_ARCHIVE_PATH, {
+    active: true,
+    updatedAt: new Date().toISOString(),
+    stories: []
+  });
+
+  const existingStories = Array.isArray(currentArchive.json.stories)
+    ? currentArchive.json.stories
+    : [];
+
+  const seen = new Set(existingStories.map(getRadarArchiveKey).filter(Boolean));
+
+  let added = 0;
+
+  incomingStories.forEach((story) => {
+    const key = getRadarArchiveKey(story);
+
+    if (!key || seen.has(key)) {
+      return;
+    }
+
+    existingStories.unshift({
+      ...story,
+      archivedAt: new Date().toISOString()
+    });
+
+    seen.add(key);
+    added += 1;
+  });
+
+  if (!added) {
+    console.log("[Radar Archive] No new archive stories to add.");
+    return false;
+  }
+
+  const nextArchive = {
+  active: true,
+  updatedAt: new Date().toISOString(),
+  stories: existingStories.slice(0, 100)
+};
+
+  await updateJsonFileOnGitHub(
+    GITHUB_RADAR_ARCHIVE_PATH,
+    nextArchive,
+    currentArchive.sha,
+    `Update radar archive: ${title || "Morning Tee stories"}`
+  );
+
+  console.log(`[Radar Archive] Added ${added} story/stories. Total archived stories: ${existingStories.length}`);
+
+  return true;
 }
 
 function getStoryClusterKey(item) {
