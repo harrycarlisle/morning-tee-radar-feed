@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-collin-morikawa",
-  "updatedAt": "2026-06-02T05:15:03.295Z",
+  "updatedAt": "2026-06-03T05:53:40.073Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,10 +23,10 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 45,
-    "playerAWins": 12,
-    "playerBWins": 27,
+    "since": 2019,
+    "sharedStarts": 52,
+    "playerAWins": 15,
+    "playerBWins": 31,
     "ties": 6
   },
   "events": [
@@ -1316,6 +1316,230 @@
       },
       "h2hWinner": "collin-morikawa",
       "edge": "Collin by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-06",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 957 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-07",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 63 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-09",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 36 spots",
       "counted": true
     }
   ]

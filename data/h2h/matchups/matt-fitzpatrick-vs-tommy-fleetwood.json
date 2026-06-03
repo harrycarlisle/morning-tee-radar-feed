@@ -1,12 +1,12 @@
 {
   "matchupId": "matt-fitzpatrick-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-02T03:44:13.753Z",
+  "updatedAt": "2026-06-03T05:25:24.009Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Fitzpatrick, Matt",
@@ -23,11 +23,11 @@
     "country": "ENG"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 90,
-    "playerAWins": 37,
-    "playerBWins": 48,
-    "ties": 5
+    "since": 2014,
+    "sharedStarts": 122,
+    "playerAWins": 45,
+    "playerBWins": 70,
+    "ties": 7
   },
   "events": [
     {
@@ -2576,6 +2576,902 @@
       },
       "h2hWinner": "tommy-fleetwood",
       "edge": "Tommy by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-11-03",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "75",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-28",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-21",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-24",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 954 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-28",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 47 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 973 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-10-29",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 938 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-06",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-23",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T44",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 958 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 967 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-19",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-05",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-11-08",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 23 spots",
       "counted": true
     }
   ]

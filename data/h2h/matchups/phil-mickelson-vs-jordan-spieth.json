@@ -1,19 +1,19 @@
 {
-  "matchupId": "rory-mcilroy-vs-jordan-spieth",
-  "updatedAt": "2026-06-03T05:13:59.747Z",
+  "matchupId": "phil-mickelson-vs-jordan-spieth",
+  "updatedAt": "2026-06-03T05:53:39.253Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
+    "dataNote": "Uses manual Phil Mickelson and Jordan Spieth results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
+    "country": "USA"
   },
   "playerB": {
     "name": "Spieth, Jordan",
@@ -24,208 +24,12 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 169,
-    "playerAWins": 108,
-    "playerBWins": 48,
-    "ties": 13
+    "sharedStarts": 143,
+    "playerAWins": 46,
+    "playerBWins": 82,
+    "ties": 15
   },
   "events": [
-    {
-      "year": 2026,
-      "date": "2026-05-17",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-05-10",
-      "eventId": 480,
-      "eventName": "Truist Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T52",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 33 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-04-12",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-03-15",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T46",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T32",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 14 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-03-08",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "WD",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-22",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 10 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-15",
-      "eventId": 5,
-      "eventName": "AT&T Pebble Beach Pro-Am",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 15 spots",
-      "counted": true
-    },
     {
       "year": 2025,
       "date": "2025-07-20",
@@ -233,9 +37,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T56",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -250,8 +54,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 33 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 16 spots",
       "counted": true
     },
     {
@@ -261,9 +65,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -278,8 +82,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 976 spots",
       "counted": true
     },
     {
@@ -289,9 +93,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -306,36 +110,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 952 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-05-11",
-      "eventId": 480,
-      "eventName": "Truist Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T34",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 27 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -345,9 +121,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -362,120 +138,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 13 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-03-16",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "59",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 58 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-02-16",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 982 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-02-02",
-      "eventId": 5,
-      "eventName": "AT&T Pebble Beach Pro-Am",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T69",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 68 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-08-18",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T68",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T68",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 985 spots",
       "counted": true
     },
     {
@@ -485,9 +149,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T60",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -503,35 +167,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 974 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-07-14",
-      "eventId": 541,
-      "eventName": "Genesis Scottish Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 995 spots",
+      "edge": "Jordan by 35 spots",
       "counted": true
     },
     {
@@ -541,9 +177,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -558,36 +194,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 39 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-06-09",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 984 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 958 spots",
       "counted": true
     },
     {
@@ -597,9 +205,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -614,64 +222,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 31 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-05-12",
-      "eventId": 480,
-      "eventName": "Wells Fargo Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 28 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-04-21",
-      "eventId": 12,
-      "eventName": "RBC Heritage",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T39",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 956 spots",
       "counted": true
     },
     {
@@ -681,9 +233,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T22",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -698,232 +250,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 977 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-04-07",
-      "eventId": 41,
-      "eventName": "Valero Texas Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-03-17",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 980 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-03-10",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T21",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T30",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 9 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-02-18",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T24",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "DQ",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
-    },
-    {
-      "year": 2024,
-      "date": "2024-02-04",
-      "eventId": 5,
-      "eventName": "AT&T Pebble Beach Pro-Am",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T66",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T39",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 27 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-08-27",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "27",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 23 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-08-20",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T34",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-08-13",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 956 spots",
       "counted": true
     },
     {
@@ -933,9 +261,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -950,36 +278,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 17 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-07-16",
-      "eventId": 541,
-      "eventName": "Genesis Scottish Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 998 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 976 spots",
       "counted": true
     },
     {
@@ -989,9 +289,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1006,36 +306,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 997 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-06-04",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 2 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -1045,9 +317,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1062,36 +334,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 22 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-05-07",
-      "eventId": 480,
-      "eventName": "Wells Fargo Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 952 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 29 spots",
       "counted": true
     },
     {
@@ -1101,64 +345,8 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 995 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-03-12",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 980 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-03-05",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
@@ -1174,176 +362,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-02-19",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 970 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-02-12",
-      "eventId": 3,
-      "eventName": "WM Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T32",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 26 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-10-23",
-      "eventId": 521,
-      "eventName": "THE CJ CUP in South Carolina",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T52",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 51 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-08-28",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 12 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-08-21",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-08-14",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
       "counted": true
     },
     {
@@ -1353,9 +373,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1370,36 +390,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-06-26",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 980 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 991 spots",
       "counted": true
     },
     {
@@ -1409,9 +401,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1426,20 +418,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 32 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 962 spots",
       "counted": true
     },
     {
       "year": 2022,
-      "date": "2022-06-05",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
+      "date": "2022-01-29",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T18",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1448,7 +440,7 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T18",
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1460,14 +452,14 @@
     },
     {
       "year": 2022,
-      "date": "2022-05-22",
-      "eventId": 33,
-      "eventName": "PGA Championship",
+      "date": "2022-01-09",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1476,210 +468,14 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T34",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 26 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-04-10",
-      "eventId": 14,
-      "eventName": "The Masters",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 997 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-04-03",
-      "eventId": 41,
-      "eventName": "Valero Texas Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T35",
+        "finish": "T21",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 964 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-03-13",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 966 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-02-20",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T26",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 16 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-12-05",
-      "eventId": 478,
-      "eventName": "Hero World Challenge",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "20",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-10-17",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ SUMMIT",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 17 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-09-05",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T20",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "edge": "Jordan by 9 spots",
       "counted": true
     },
     {
@@ -1689,9 +485,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1706,8 +502,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 32 spots",
       "counted": true
     },
     {
@@ -1717,9 +513,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T43",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1734,8 +530,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 926 spots",
       "counted": true
     },
     {
@@ -1745,9 +541,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1762,8 +558,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 5 spots",
       "counted": true
     },
     {
@@ -1773,9 +569,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T46",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1791,7 +587,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 44 spots",
+      "edge": "Jordan by 997 spots",
       "counted": true
     },
     {
@@ -1801,9 +597,9 @@
       "eventName": "U.S. Open #2",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T62",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1818,20 +614,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 12 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 43 spots",
       "counted": true
     },
     {
       "year": 2021,
-      "date": "2021-06-06",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide",
+      "date": "2021-05-30",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T18",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1840,14 +636,14 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T18",
+        "finish": "2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 997 spots",
       "counted": true
     },
     {
@@ -1857,9 +653,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T49",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1874,8 +670,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 19 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 29 spots",
       "counted": true
     },
     {
@@ -1885,8 +681,92 @@
       "eventName": "The Masters #2",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-04-04",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-03-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-02-14",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -1908,126 +788,14 @@
     },
     {
       "year": 2021,
-      "date": "2021-03-14",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T48",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 951 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-03-07",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-21",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 984 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-07",
-      "eventId": 3,
-      "eventName": "Waste Management Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 9 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
       "date": "2021-01-31",
       "eventId": 4,
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T16",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T53",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2042,8 +810,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 983 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 946 spots",
       "counted": true
     },
     {
@@ -2053,9 +821,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2070,8 +838,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 41 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-11-08",
+      "eventId": 20,
+      "eventName": "Vivint Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2081,9 +877,9 @@
       "eventName": "ZOZO CHAMPIONSHIP @ SHERWOOD",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "76",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2098,36 +894,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 24 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-10-18",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ SHADOW CREEK",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T21",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T38",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 17 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 35 spots",
       "counted": true
     },
     {
@@ -2137,9 +905,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2154,8 +922,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-09-13",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T44",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 955 spots",
       "counted": true
     },
     {
@@ -2165,9 +961,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T65",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2182,8 +978,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 934 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2193,9 +989,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T33",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2210,8 +1006,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 38 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2221,9 +1017,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2238,8 +1034,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 17 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 28 spots",
       "counted": true
     },
     {
@@ -2249,9 +1045,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T32",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2267,7 +1063,35 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 19 spots",
+      "edge": "Jordan by 41 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-07-12",
+      "eventId": 533,
+      "eventName": "Workday Charity Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 941 spots",
       "counted": true
     },
     {
@@ -2277,9 +1101,9 @@
       "eventName": "Travelers Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T11",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2294,36 +1118,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 43 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-06-21",
-      "eventId": 12,
-      "eventName": "RBC Heritage",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T41",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T68",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 27 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 30 spots",
       "counted": true
     },
     {
@@ -2333,9 +1129,9 @@
       "eventName": "Charles Schwab Challenge",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T32",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2351,7 +1147,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 22 spots",
+      "edge": "Jordan by 989 spots",
       "counted": true
     },
     {
@@ -2361,9 +1157,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T83",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T125",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2378,36 +1174,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 42 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-02-23",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Mexico Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T58",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 53 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2417,9 +1185,9 @@
       "eventName": "The Genesis Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2434,8 +1202,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 54 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 940 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-02-09",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 6 spots",
       "counted": true
     },
     {
@@ -2445,9 +1241,9 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2462,8 +1258,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 52 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 944 spots",
       "counted": true
     },
     {
@@ -2473,9 +1269,9 @@
       "eventName": "World Golf Championships-HSBC Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2490,20 +1286,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 42 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 15 spots",
       "counted": true
     },
     {
       "year": 2019,
-      "date": "2019-10-27",
-      "eventId": 527,
-      "eventName": "ZOZO CHAMPIONSHIP",
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T31",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2512,14 +1308,14 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T66",
+        "finish": "T8",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 63 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 23 spots",
       "counted": true
     },
     {
@@ -2529,9 +1325,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2546,8 +1342,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 18 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 11 spots",
       "counted": true
     },
     {
@@ -2557,9 +1353,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2574,8 +1370,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 65 spots",
       "counted": true
     },
     {
@@ -2585,9 +1381,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "57",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2602,8 +1398,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 8 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 45 spots",
       "counted": true
     },
     {
@@ -2613,8 +1409,8 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2636,14 +1432,42 @@
     },
     {
       "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-06-16",
       "eventId": 26,
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T52",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2658,8 +1482,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 56 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -2669,8 +1493,8 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2697,9 +1521,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2715,7 +1539,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 5 spots",
+      "edge": "Jordan by 68 spots",
       "counted": true
     },
     {
@@ -2725,9 +1549,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T21",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2742,8 +1566,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
       "counted": true
     },
     {
@@ -2753,9 +1577,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2770,8 +1594,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 998 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2781,9 +1605,9 @@
       "eventName": "World Golf Championships-Mexico Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2798,8 +1622,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 52 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 15 spots",
       "counted": true
     },
     {
@@ -2809,9 +1633,9 @@
       "eventName": "Genesis Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T37",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2826,20 +1650,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 47 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 14 spots",
       "counted": true
     },
     {
       "year": 2019,
-      "date": "2019-01-27",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
+      "date": "2019-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2848,14 +1672,14 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T35",
+        "finish": "T45",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 44 spots",
       "counted": true
     },
     {
@@ -2865,9 +1689,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2882,8 +1706,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 50 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 3 spots",
       "counted": true
     },
     {
@@ -2893,8 +1717,8 @@
       "eventName": "Dell Technologies Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T12",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2916,14 +1740,42 @@
     },
     {
       "year": 2018,
+      "date": "2018-08-26",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-08-12",
       "eventId": 33,
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T50",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2939,7 +1791,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 38 spots",
+      "edge": "Jordan by 987 spots",
       "counted": true
     },
     {
@@ -2949,9 +1801,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2966,8 +1818,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 54 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 36 spots",
       "counted": true
     },
     {
@@ -2977,9 +1829,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2994,36 +1846,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-06-24",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T42",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 15 spots",
       "counted": true
     },
     {
@@ -3033,9 +1857,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3050,8 +1874,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 951 spots",
       "counted": true
     },
     {
@@ -3061,9 +1885,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3078,8 +1902,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 986 spots",
       "counted": true
     },
     {
@@ -3089,8 +1913,8 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3117,9 +1941,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3135,19 +1959,19 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 2 spots",
+      "edge": "Jordan by 33 spots",
       "counted": true
     },
     {
       "year": 2018,
-      "date": "2018-03-11",
-      "eventId": 475,
-      "eventName": "Valspar Championship",
+      "date": "2018-04-01",
+      "eventId": 20,
+      "eventName": "Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3156,14 +1980,42 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "CUT",
+        "finish": "T3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -3173,9 +2025,9 @@
       "eventName": "Genesis Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T20",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3190,8 +2042,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 11 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
       "counted": true
     },
     {
@@ -3201,9 +2053,9 @@
       "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3218,8 +2070,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 979 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-04",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 994 spots",
       "counted": true
     },
     {
@@ -3229,9 +2109,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T58",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3247,7 +2127,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 51 spots",
+      "edge": "Jordan by 13 spots",
       "counted": true
     },
     {
@@ -3257,9 +2137,9 @@
       "eventName": "Dell Technologies Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3275,7 +2155,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 997 spots",
+      "edge": "Jordan by 4 spots",
       "counted": true
     },
     {
@@ -3285,9 +2165,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T34",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3303,7 +2183,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 32 spots",
+      "edge": "Jordan by 52 spots",
       "counted": true
     },
     {
@@ -3313,9 +2193,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T22",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3330,8 +2210,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 971 spots",
       "counted": true
     },
     {
@@ -3341,9 +2221,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3358,8 +2238,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 8 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 26 spots",
       "counted": true
     },
     {
@@ -3369,64 +2249,8 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-06-25",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 16 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-06-18",
-      "eventId": 26,
-      "eventName": "U.S. Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3436,14 +2260,70 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T35",
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 964 spots",
+      "edge": "Jordan by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-04",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-28",
+      "eventId": 21,
+      "eventName": "DEAN & DELUCA Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 27 spots",
       "counted": true
     },
     {
@@ -3453,9 +2333,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T35",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3470,8 +2350,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 964 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 958 spots",
       "counted": true
     },
     {
@@ -3481,9 +2361,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3498,8 +2378,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-04-02",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 944 spots",
       "counted": true
     },
     {
@@ -3509,8 +2417,8 @@
       "eventName": "World Golf Championships-Mexico Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T7",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3526,8 +2434,92 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-19",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-12",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 64 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-05",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 7 spots",
       "counted": true
     },
     {
@@ -3537,9 +2529,9 @@
       "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3554,8 +2546,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 16 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 5 spots",
       "counted": true
     },
     {
@@ -3565,9 +2557,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T42",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3583,7 +2575,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 33 spots",
+      "edge": "Jordan by 15 spots",
       "counted": true
     },
     {
@@ -3593,9 +2585,9 @@
       "eventName": "Deutsche Bank Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3610,8 +2602,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 20 spots",
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 978 spots",
       "counted": true
     },
     {
@@ -3621,9 +2613,9 @@
       "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T31",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3639,7 +2631,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 21 spots",
+      "edge": "Jordan by 3 spots",
       "counted": true
     },
     {
@@ -3649,9 +2641,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3667,7 +2659,7 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 986 spots",
+      "edge": "Jordan by 20 spots",
       "counted": true
     },
     {
@@ -3677,9 +2669,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3694,8 +2686,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 25 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 24 spots",
       "counted": true
     },
     {
@@ -3705,8 +2725,8 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3733,9 +2753,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3750,8 +2770,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 53 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 37 spots",
       "counted": true
     },
     {
@@ -3761,8 +2781,848 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-03",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-03-06",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-02-14",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-09-20",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-09-07",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 934 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-30",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 949 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-16",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-09",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 63 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 62 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-05-10",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-04-05",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-03-29",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-03-08",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-02-08",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-02-01",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-07",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-01",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-24",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "78",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 56 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-10",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-05-11",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-06",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T12",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3778,356 +3638,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 987 spots",
-      "counted": true
-    },
-    {
-      "year": 2016,
-      "date": "2016-04-10",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 8 spots",
-      "counted": true
-    },
-    {
-      "year": 2016,
-      "date": "2016-03-06",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Cadillac Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 14 spots",
-      "counted": true
-    },
-    {
-      "year": 2016,
-      "date": "2016-02-21",
-      "eventId": 7,
-      "eventName": "Northern Trust Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T20",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 979 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-11-08",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-09-27",
-      "eventId": 60,
-      "eventName": "TOUR Championship by Coca-Cola",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 15 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-09-20",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 9 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-09-07",
-      "eventId": 505,
-      "eventName": "Deutsche Bank Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 970 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-08-16",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 15 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-06-21",
-      "eventId": 26,
-      "eventName": "U.S. Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 8 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-05-10",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-04-12",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-03-08",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Cadillac Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 8 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 987 spots",
       "counted": true
     },
     {
       "year": 2014,
-      "date": "2014-09-14",
-      "eventId": 60,
-      "eventName": "TOUR Championship by Coca-Cola",
+      "date": "2014-03-30",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4136,323 +3660,15 @@
       "playerB": {
         "name": "Jordan Spieth",
         "dgId": 14636,
-        "finish": "T27",
+        "finish": "10",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 25 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-09-07",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-09-01",
-      "eventId": 505,
-      "eventName": "Deutsche Bank Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 24 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-08-24",
-      "eventId": 27,
-      "eventName": "The Barclays",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T22",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T22",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-08-10",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 998 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-08-03",
-      "eventId": 476,
-      "eventName": "World Golf Championships-Bridgestone Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "49",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 48 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-07-20",
-      "eventId": 100,
-      "eventName": "The Open Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T36",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 35 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-06-15",
-      "eventId": 26,
-      "eventName": "U.S. Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T23",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-06-01",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-05-11",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-04-13",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2014,
-      "date": "2014-04-06",
-      "eventId": 20,
-      "eventName": "Shell Houston Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 992 spots",
-      "counted": true
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2014,
@@ -4461,9 +3677,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T25",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4478,104 +3694,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 9 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
       "counted": true
     },
     {
-      "year": 2013,
-      "date": "2013-12-08",
-      "eventId": 478,
-      "eventName": "World Challenge presented by Northwestern Mutual",
+      "year": 2014,
+      "date": "2014-02-09",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
-      "counted": true
-    },
-    {
-      "year": 2013,
-      "date": "2013-11-03",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2013,
-      "date": "2013-09-15",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T59",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 43 spots",
-      "counted": true
-    },
-    {
-      "year": 2013,
-      "date": "2013-09-02",
-      "eventId": 505,
-      "eventName": "Deutsche Bank Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T19",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4591,7 +3723,147 @@
         "manual": false
       },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 43 spots",
+      "edge": "Jordan by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-01-26",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2013,
+      "date": "2013-11-03",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-22",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-15",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-02",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 37 spots",
       "counted": true
     },
     {
@@ -4601,9 +3873,9 @@
       "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4618,8 +3890,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -4629,9 +3901,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T72",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4646,8 +3918,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 927 spots",
       "counted": true
     },
     {
@@ -4657,9 +3929,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4674,8 +3946,36 @@
         "dgPoints": null,
         "manual": false
       },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-07-07",
+      "eventId": 490,
+      "eventName": "The Greenbrier Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
       "h2hWinner": "jordan-spieth",
-      "edge": "Jordan by 955 spots",
+      "edge": "Jordan by 976 spots",
       "counted": true
     },
     {
@@ -4685,9 +3985,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T41",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4702,36 +4002,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 958 spots",
-      "counted": true
-    },
-    {
-      "year": 2013,
-      "date": "2013-06-02",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T57",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "T63",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 997 spots",
       "counted": true
     },
     {
@@ -4741,9 +4013,9 @@
       "eventName": "Wells Fargo Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4758,36 +4030,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 22 spots",
-      "counted": true
-    },
-    {
-      "year": 2013,
-      "date": "2013-04-07",
-      "eventId": 41,
-      "eventName": "Valero Texas Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Jordan Spieth",
-        "dgId": 14636,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 997 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 29 spots",
       "counted": true
     },
     {
@@ -4797,9 +4041,9 @@
       "eventName": "Shell Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T45",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4814,8 +4058,64 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T60",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 948 spots",
       "counted": true
     }
   ]

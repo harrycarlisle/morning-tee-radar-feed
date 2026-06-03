@@ -1,12 +1,12 @@
 {
   "matchupId": "jon-rahm-vs-jordan-spieth",
-  "updatedAt": "2026-06-02T03:44:12.172Z",
+  "updatedAt": "2026-06-03T05:25:21.758Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Rahm, Jon",
@@ -23,11 +23,11 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 67,
-    "playerAWins": 49,
-    "playerBWins": 17,
-    "ties": 1
+    "since": 2016,
+    "sharedStarts": 112,
+    "playerAWins": 71,
+    "playerBWins": 37,
+    "ties": 4
   },
   "events": [
     {
@@ -1960,6 +1960,1266 @@
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-12-07",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-28",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 62 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-26",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-24",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-17",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-03",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-26",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 974 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T60",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-27",
+      "eventId": 21,
+      "eventName": "Fort Worth Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-11",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-04",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 988 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-01-07",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-04",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-27",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T58",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-06",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-23",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T44",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-04",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-28",
+      "eventId": 21,
+      "eventName": "DEAN & DELUCA Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T72",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 927 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-04-02",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 989 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-05",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-12",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-05",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 14 spots",
       "counted": true
     }
   ]

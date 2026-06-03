@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-collin-morikawa",
-  "updatedAt": "2026-06-02T03:38:55.299Z",
+  "updatedAt": "2026-06-03T05:02:36.775Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,9 +23,9 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 92,
-    "playerAWins": 56,
+    "since": 2019,
+    "sharedStarts": 97,
+    "playerAWins": 61,
     "playerBWins": 32,
     "ties": 4
   },
@@ -2660,6 +2660,146 @@
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-09",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 13 spots",
       "counted": true
     }
   ]

@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-justin-thomas",
-  "updatedAt": "2026-06-02T03:44:12.840Z",
+  "updatedAt": "2026-06-03T05:25:22.713Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,11 +23,11 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 108,
-    "playerAWins": 58,
-    "playerBWins": 42,
-    "ties": 8
+    "since": 2019,
+    "sharedStarts": 116,
+    "playerAWins": 60,
+    "playerBWins": 47,
+    "ties": 9
   },
   "events": [
     {
@@ -3080,6 +3080,230 @@
       },
       "h2hWinner": "justin-thomas",
       "edge": "Justin by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 35 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-09-29",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 47 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 40 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-09",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 6 spots",
       "counted": true
     }
   ]

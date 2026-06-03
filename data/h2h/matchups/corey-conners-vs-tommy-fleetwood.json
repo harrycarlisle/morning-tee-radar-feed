@@ -1,12 +1,12 @@
 {
   "matchupId": "corey-conners-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-02T03:44:13.686Z",
+  "updatedAt": "2026-06-03T05:25:23.911Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Conners, Corey",
@@ -23,10 +23,10 @@
     "country": "ENG"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 94,
-    "playerAWins": 40,
-    "playerBWins": 47,
+    "since": 2010,
+    "sharedStarts": 112,
+    "playerAWins": 46,
+    "playerBWins": 59,
     "ties": 7
   },
   "events": [
@@ -2688,6 +2688,510 @@
       },
       "h2hWinner": "tommy-fleetwood",
       "edge": "Tommy by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-11-03",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-25",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-28",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-21",
+      "eventId": 12,
+      "eventName": "RBC Heritage",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 974 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 954 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-29",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 993 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-06",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 957 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-25",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 55 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 995 spots",
       "counted": true
     }
   ]

@@ -1,18 +1,18 @@
 {
-  "matchupId": "xander-schauffele-vs-hideki-matsuyama",
-  "updatedAt": "2026-06-03T05:25:22.435Z",
+  "matchupId": "phil-mickelson-vs-hideki-matsuyama",
+  "updatedAt": "2026-06-03T05:53:39.363Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
+    "dataNote": "Uses manual Phil Mickelson and Hideki Matsuyama results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
-    "name": "Schauffele, Xander",
-    "displayName": "Xander Schauffele",
-    "slug": "xander-schauffele",
-    "dgId": 19895,
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
     "country": "USA"
   },
   "playerB": {
@@ -23,349 +23,13 @@
     "country": "JPN"
   },
   "summary": {
-    "since": 2015,
-    "sharedStarts": 146,
-    "playerAWins": 82,
-    "playerBWins": 58,
-    "ties": 6
+    "since": 2013,
+    "sharedStarts": 131,
+    "playerAWins": 36,
+    "playerBWins": 82,
+    "ties": 13
   },
   "events": [
-    {
-      "year": 2026,
-      "date": "2026-05-17",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T26",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-05-10",
-      "eventId": 480,
-      "eventName": "Truist Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T60",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "71",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-04-12",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-03-15",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T27",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 24 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-03-08",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T41",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 17 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-22",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T28",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 21 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-15",
-      "eventId": 5,
-      "eventName": "AT&T Pebble Beach Pro-Am",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-08",
-      "eventId": 3,
-      "eventName": "WM Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T41",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 39 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-02-01",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 988 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-10-12",
-      "eventId": 527,
-      "eventName": "Baycurrent Classic",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T20",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-08-17",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T26",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-08-10",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T22",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 5 spots",
-      "counted": true
-    },
     {
       "year": 2025,
       "date": "2025-07-20",
@@ -373,9 +37,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T56",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -390,36 +54,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 9 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-06-22",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T61",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T30",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 31 spots",
+      "edge": "Hideki by 40 spots",
       "counted": true
     },
     {
@@ -429,9 +65,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -446,36 +82,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 30 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-06-01",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "38",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 13 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 957 spots",
       "counted": true
     },
     {
@@ -485,9 +93,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -502,36 +110,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 971 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-05-11",
-      "eventId": 480,
-      "eventName": "Truist Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 6 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -541,9 +121,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -558,232 +138,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 13 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-03-16",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "72",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 927 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-03-09",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T40",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T22",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 18 spots",
-      "counted": true
-    },
-    {
-      "year": 2025,
-      "date": "2025-01-05",
-      "eventId": 16,
-      "eventName": "The Sentry",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T30",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 29 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-10-27",
-      "eventId": 527,
-      "eventName": "ZOZO CHAMPIONSHIP",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T41",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T46",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-09-01",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-08-25",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "WD",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
-    },
-    {
-      "year": 2024,
-      "date": "2024-08-18",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 1 spot",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-08-04",
-      "eventId": 519,
-      "eventName": "Olympic Men's Golf Competition",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 6 spots",
+      "edge": "Hideki by 978 spots",
       "counted": true
     },
     {
@@ -793,9 +149,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T60",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -810,64 +166,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 65 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-07-14",
-      "eventId": 541,
-      "eventName": "Genesis Scottish Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 984 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-06-23",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T23",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 10 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 6 spots",
       "counted": true
     },
     {
@@ -877,9 +177,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -895,35 +195,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 1 spot",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-06-09",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "edge": "Hideki by 993 spots",
       "counted": true
     },
     {
@@ -933,9 +205,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -950,8 +222,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 34 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 964 spots",
       "counted": true
     },
     {
@@ -961,9 +233,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -978,260 +250,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 30 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-03-17",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-03-10",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 13 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-02-18",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-02-04",
-      "eventId": 5,
-      "eventName": "AT&T Pebble Beach Pro-Am",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T54",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T71",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 17 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-01-27",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2024,
-      "date": "2024-01-07",
-      "eventId": 16,
-      "eventName": "The Sentry",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "58",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 48 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-10-22",
-      "eventId": 546,
-      "eventName": "ZOZO CHAMPIONSHIP #2",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T38",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T51",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 13 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-08-20",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "WD",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
-    },
-    {
-      "year": 2023,
-      "date": "2023-08-13",
-      "eventId": 27,
-      "eventName": "FedEx St. Jude Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 8 spots",
+      "edge": "Hideki by 5 spots",
       "counted": true
     },
     {
@@ -1241,9 +261,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1259,35 +279,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-06-25",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 6 spots",
+      "edge": "Hideki by 986 spots",
       "counted": true
     },
     {
@@ -1297,9 +289,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1314,36 +306,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 22 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-06-04",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Workday",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 8 spots",
+      "edge": "Hideki by 967 spots",
       "counted": true
     },
     {
@@ -1353,9 +317,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T18",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1370,8 +334,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 11 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 29 spots",
       "counted": true
     },
     {
@@ -1381,9 +345,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1398,260 +362,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-03-12",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 14 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-03-05",
-      "eventId": 9,
-      "eventName": "Arnold Palmer Invitational presented by Mastercard",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T39",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 960 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-02-19",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 966 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-02-12",
-      "eventId": 3,
-      "eventName": "WM Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T29",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-01-28",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2023,
-      "date": "2023-01-08",
-      "eventId": 16,
-      "eventName": "Sentry Tournament of Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "WD",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T21",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
-    },
-    {
-      "year": 2022,
-      "date": "2022-10-16",
-      "eventId": 527,
-      "eventName": "ZOZO CHAMPIONSHIP",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T40",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 31 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-08-28",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 7 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-08-21",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T35",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 32 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 14 spots",
       "counted": true
     },
     {
@@ -1661,9 +373,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T15",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1678,36 +390,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 53 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-07-10",
-      "eventId": 541,
-      "eventName": "Genesis Scottish Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 998 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 931 spots",
       "counted": true
     },
     {
@@ -1717,9 +401,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T14",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1735,147 +419,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 10 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-05-22",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T60",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 47 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-05-15",
-      "eventId": 19,
-      "eventName": "AT&T Byron Nelson",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-04-10",
-      "eventId": 14,
-      "eventName": "The Masters",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 985 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-02-20",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T39",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 26 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-02-13",
-      "eventId": 3,
-      "eventName": "WM Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
+      "edge": "Hideki by 995 spots",
       "counted": true
     },
     {
@@ -1885,9 +429,9 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T34",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1903,7 +447,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 4 spots",
+      "edge": "Hideki by 969 spots",
       "counted": true
     },
     {
@@ -1913,9 +457,9 @@
       "eventName": "Sentry Tournament of Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1930,20 +474,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 1 spot",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 17 spots",
       "counted": true
     },
     {
       "year": 2021,
-      "date": "2021-10-24",
-      "eventId": 527,
-      "eventName": "ZOZO CHAMPIONSHIP",
+      "date": "2021-09-19",
+      "eventId": 464,
+      "eventName": "Fortinet Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T28",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1952,70 +496,14 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "1",
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 27 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-10-17",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ SUMMIT",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T59",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 41 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-09-05",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T26",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 21 spots",
+      "edge": "Hideki by 30 spots",
       "counted": true
     },
     {
@@ -2025,9 +513,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T49",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2043,7 +531,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 3 spots",
+      "edge": "Hideki by 20 spots",
       "counted": true
     },
     {
@@ -2053,9 +541,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T16",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2070,8 +558,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 27 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 956 spots",
       "counted": true
     },
     {
@@ -2081,9 +569,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T46",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2099,19 +587,19 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 44 spots",
+      "edge": "Hideki by 15 spots",
       "counted": true
     },
     {
       "year": 2021,
-      "date": "2021-08-01",
-      "eventId": 519,
-      "eventName": "Olympic Men's Golf Competition",
+      "date": "2021-07-04",
+      "eventId": 524,
+      "eventName": "Rocket Mortgage Classic",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T74",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2120,15 +608,15 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "T4",
+        "finish": "WD",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 3 spots",
-      "counted": true
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2021,
@@ -2137,9 +625,9 @@
       "eventName": "U.S. Open #2",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T62",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2154,36 +642,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-06-06",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T11",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T62",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 51 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 36 spots",
       "counted": true
     },
     {
@@ -2193,9 +653,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2210,8 +670,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 976 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 22 spots",
       "counted": true
     },
     {
@@ -2221,9 +681,9 @@
       "eventName": "The Masters #2",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2239,7 +699,35 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 2 spots",
+      "edge": "Hideki by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-04-04",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 969 spots",
       "counted": true
     },
     {
@@ -2249,9 +737,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T35",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2266,92 +754,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-28",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Workday Championship at The Concession",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T39",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 24 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-21",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 984 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-07",
-      "eventId": 3,
-      "eventName": "Waste Management Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T42",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 40 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 964 spots",
       "counted": true
     },
     {
@@ -2361,9 +765,9 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T53",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2378,36 +782,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 51 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-01-10",
-      "eventId": 16,
-      "eventName": "Sentry Tournament of Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T41",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 36 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -2417,9 +793,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2435,7 +811,35 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 4 spots",
+      "edge": "Hideki by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-11-08",
+      "eventId": 20,
+      "eventName": "Vivint Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 997 spots",
       "counted": true
     },
     {
@@ -2445,9 +849,9 @@
       "eventName": "ZOZO CHAMPIONSHIP @ SHERWOOD",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "76",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2462,36 +866,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-10-18",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ SHADOW CREEK",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T21",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 19 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 48 spots",
       "counted": true
     },
     {
@@ -2501,9 +877,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2518,64 +894,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 12 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-09-07",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 13 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-08-30",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 22 spots",
+      "edge": "Hideki by 982 spots",
       "counted": true
     },
     {
@@ -2585,9 +905,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2602,8 +922,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 4 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 970 spots",
       "counted": true
     },
     {
@@ -2613,9 +933,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2630,8 +950,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 12 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 49 spots",
       "counted": true
     },
     {
@@ -2641,9 +961,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2658,8 +978,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 14 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
       "counted": true
     },
     {
@@ -2669,9 +989,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2686,8 +1006,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 986 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 945 spots",
       "counted": true
     },
     {
@@ -2697,9 +1017,9 @@
       "eventName": "Workday Charity Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T14",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2714,36 +1034,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 8 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-06-21",
-      "eventId": 12,
-      "eventName": "RBC Heritage",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T64",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 935 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 36 spots",
       "counted": true
     },
     {
@@ -2753,9 +1045,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T37",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T125",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2771,7 +1063,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 36 spots",
+      "edge": "Hideki by 124 spots",
       "counted": true
     },
     {
@@ -2781,9 +1073,9 @@
       "eventName": "Arnold Palmer Invitational presented by Mastercard",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T24",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2798,36 +1090,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 32 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-02-23",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Mexico Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 8 spots",
+      "edge": "Hideki by 943 spots",
       "counted": true
     },
     {
@@ -2837,9 +1101,9 @@
       "eventName": "The Genesis Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T23",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2855,35 +1119,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 18 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-02-02",
-      "eventId": 3,
-      "eventName": "Waste Management Phoenix Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "edge": "Hideki by 994 spots",
       "counted": true
     },
     {
@@ -2893,8 +1129,8 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2921,9 +1157,9 @@
       "eventName": "World Golf Championships-HSBC Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2938,20 +1174,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 9 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 17 spots",
       "counted": true
     },
     {
       "year": 2019,
-      "date": "2019-10-27",
-      "eventId": 527,
-      "eventName": "ZOZO CHAMPIONSHIP",
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T31",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2960,26 +1196,26 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "2",
+        "finish": "T3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 8 spots",
+      "edge": "Hideki by 28 spots",
       "counted": true
     },
     {
       "year": 2019,
-      "date": "2019-08-25",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
+      "date": "2019-10-06",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "61",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2988,14 +1224,42 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "T9",
+        "finish": "T16",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 7 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 45 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-09-29",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -3005,9 +1269,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3023,7 +1287,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 16 spots",
+      "edge": "Hideki by 45 spots",
       "counted": true
     },
     {
@@ -3033,9 +1297,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3051,7 +1315,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 969 spots",
+      "edge": "Hideki by 41 spots",
       "counted": true
     },
     {
@@ -3061,9 +1325,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T27",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "57",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3078,8 +1342,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 16 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 14 spots",
       "counted": true
     },
     {
@@ -3089,9 +1353,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T41",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3106,8 +1370,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 958 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-07",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 992 spots",
       "counted": true
     },
     {
@@ -3117,9 +1409,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T52",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3134,8 +1426,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 18 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 31 spots",
       "counted": true
     },
     {
@@ -3145,9 +1437,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T14",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3163,7 +1455,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 8 spots",
+      "edge": "Hideki by 993 spots",
       "counted": true
     },
     {
@@ -3173,9 +1465,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T16",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3190,8 +1482,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 55 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-05",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 968 spots",
       "counted": true
     },
     {
@@ -3201,9 +1521,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3218,8 +1538,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 30 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 14 spots",
       "counted": true
     },
     {
@@ -3229,8 +1549,8 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3252,14 +1572,42 @@
     },
     {
       "year": 2019,
+      "date": "2019-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 966 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-02-24",
       "eventId": 473,
       "eventName": "World Golf Championships-Mexico Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T14",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3274,8 +1622,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 20 spots",
       "counted": true
     },
     {
@@ -3285,9 +1633,9 @@
       "eventName": "Genesis Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T15",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T37",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3303,7 +1651,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 6 spots",
+      "edge": "Hideki by 28 spots",
       "counted": true
     },
     {
@@ -3313,232 +1661,8 @@
       "eventName": "Waste Management Phoenix Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 5 spots",
-      "counted": true
-    },
-    {
-      "year": 2019,
-      "date": "2019-01-27",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T25",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 22 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-12-02",
-      "eventId": 478,
-      "eventName": "Hero World Challenge",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 10 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-10-28",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T30",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 29 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-10-21",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ NINE BRIDGES",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T48",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T18",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 30 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-09-23",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 3 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-09-09",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "15",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 12 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-09-03",
-      "eventId": 505,
-      "eventName": "Dell Technologies Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T49",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 45 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-08-26",
-      "eventId": 27,
-      "eventName": "THE NORTHERN TRUST",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3560,14 +1684,126 @@
     },
     {
       "year": 2018,
+      "date": "2018-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-03",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-26",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-08-12",
       "eventId": 33,
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T35",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3582,8 +1818,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 964 spots",
       "counted": true
     },
     {
@@ -3593,9 +1829,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "68",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3610,8 +1846,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 29 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 15 spots",
       "counted": true
     },
     {
@@ -3621,9 +1857,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3638,8 +1874,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 997 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 975 spots",
       "counted": true
     },
     {
@@ -3649,9 +1885,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3666,8 +1902,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 10 spots",
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 32 spots",
       "counted": true
     },
     {
@@ -3677,9 +1913,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3694,8 +1930,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 986 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -3705,9 +1941,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3722,8 +1958,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 997 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -3733,9 +1969,9 @@
       "eventName": "Wells Fargo Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T72",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3750,8 +1986,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 4 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 71 spots",
       "counted": true
     },
     {
@@ -3761,9 +1997,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T50",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3779,7 +2015,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 31 spots",
+      "edge": "Hideki by 17 spots",
       "counted": true
     },
     {
@@ -3789,9 +2025,9 @@
       "eventName": "Waste Management Phoenix Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3817,9 +2053,9 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T45",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3835,35 +2071,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 987 spots",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-01-07",
-      "eventId": 16,
-      "eventName": "Sentry Tournament of Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T22",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 18 spots",
+      "edge": "Hideki by 33 spots",
       "counted": true
     },
     {
@@ -3873,9 +2081,9 @@
       "eventName": "World Golf Championships-HSBC Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T46",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3890,64 +2098,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 4 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-10-15",
-      "eventId": 494,
-      "eventName": "CIMB Classic",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-09-24",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Hideki Matsuyama",
-        "dgId": 13562,
-        "finish": "T26",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 25 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 35 spots",
       "counted": true
     },
     {
@@ -3957,8 +2109,8 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
@@ -3974,8 +2126,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 27 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 27 spots",
       "counted": true
     },
     {
@@ -3985,9 +2137,9 @@
       "eventName": "Dell Technologies Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T53",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4002,8 +2154,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 30 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 17 spots",
       "counted": true
     },
     {
@@ -4013,9 +2165,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4030,8 +2182,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "xander-schauffele",
-      "edge": "Xander by 982 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 945 spots",
       "counted": true
     },
     {
@@ -4041,8 +2193,8 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4069,9 +2221,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T13",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4087,7 +2239,7 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 12 spots",
+      "edge": "Hideki by 38 spots",
       "counted": true
     },
     {
@@ -4097,9 +2249,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T20",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4115,19 +2267,19 @@
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 6 spots",
+      "edge": "Hideki by 985 spots",
       "counted": true
     },
     {
       "year": 2017,
-      "date": "2017-06-18",
-      "eventId": 26,
-      "eventName": "U.S. Open",
+      "date": "2017-06-04",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4136,14 +2288,154 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "T2",
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T22",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 3 spots",
+      "edge": "Hideki by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-05",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-19",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 965 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-05",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 15 spots",
       "counted": true
     },
     {
@@ -4153,9 +2445,9 @@
       "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4170,19 +2462,75 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 966 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
       "counted": true
     },
     {
-      "year": 2017,
-      "date": "2017-01-15",
-      "eventId": 6,
-      "eventName": "Sony Open in Hawaii",
+      "year": 2016,
+      "date": "2016-09-25",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-09-11",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-09-05",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4192,25 +2540,137 @@
       "playerB": {
         "name": "Hideki Matsuyama",
         "dgId": 13562,
-        "finish": "T27",
+        "finish": "T15",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "hideki-matsuyama",
-      "edge": "Hideki by 972 spots",
+      "edge": "Hideki by 984 spots",
       "counted": true
     },
     {
       "year": 2016,
-      "date": "2016-01-31",
-      "eventId": 4,
-      "eventName": "Farmers Insurance Open",
+      "date": "2016-08-28",
+      "eventId": 27,
+      "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Xander Schauffele",
-        "dgId": 19895,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-31",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4228,6 +2688,1210 @@
       },
       "h2hWinner": "tie",
       "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-05",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-05-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-05-08",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-03-06",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-02-28",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2016,
+      "date": "2016-02-07",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-01-31",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-09-20",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-09-07",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 40 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-30",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-16",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-09",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 60 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-05-17",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-05-10",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 982 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-03-08",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-02-08",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-02-01",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-07",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-01",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-24",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "78",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-10",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-07-20",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-05-11",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-05-04",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-03-09",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-03-02",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2014,
+      "date": "2014-02-02",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-01-26",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2013,
+      "date": "2013-11-03",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2013,
+      "date": "2013-10-27",
+      "eventId": 494,
+      "eventName": "CIMB Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-08-11",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T72",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-08-04",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
       "counted": true
     }
   ]

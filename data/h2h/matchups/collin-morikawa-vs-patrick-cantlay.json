@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-patrick-cantlay",
-  "updatedAt": "2026-06-02T03:44:12.967Z",
+  "updatedAt": "2026-06-03T05:25:22.915Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,10 +23,10 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 98,
-    "playerAWins": 40,
-    "playerBWins": 53,
+    "since": 2019,
+    "sharedStarts": 104,
+    "playerAWins": 41,
+    "playerBWins": 58,
     "ties": 5
   },
   "events": [
@@ -2800,6 +2800,174 @@
       },
       "h2hWinner": "patrick-cantlay",
       "edge": "Patrick by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-06",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 40 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-09-29",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 40 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 14 spots",
       "counted": true
     }
   ]

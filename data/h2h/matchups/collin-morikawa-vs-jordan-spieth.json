@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-jordan-spieth",
-  "updatedAt": "2026-06-02T03:44:12.903Z",
+  "updatedAt": "2026-06-03T05:25:22.823Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,10 +23,10 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 99,
-    "playerAWins": 59,
-    "playerBWins": 34,
+    "since": 2019,
+    "sharedStarts": 106,
+    "playerAWins": 62,
+    "playerBWins": 38,
     "ties": 6
   },
   "events": [
@@ -2856,6 +2856,202 @@
       },
       "h2hWinner": "collin-morikawa",
       "edge": "Collin by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 44 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-04",
+      "eventId": 13,
+      "eventName": "Wyndham Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "MDF",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 963 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 30 spots",
       "counted": true
     }
   ]

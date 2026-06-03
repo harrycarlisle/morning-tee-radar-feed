@@ -1,6 +1,6 @@
 {
   "matchupId": "bryson-dechambeau-vs-collin-morikawa",
-  "updatedAt": "2026-06-02T03:44:11.514Z",
+  "updatedAt": "2026-06-03T05:25:20.758Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,11 +23,11 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 50,
-    "playerAWins": 21,
-    "playerBWins": 26,
-    "ties": 3
+    "since": 2019,
+    "sharedStarts": 57,
+    "playerAWins": 24,
+    "playerBWins": 27,
+    "ties": 6
   },
   "events": [
     {
@@ -1428,6 +1428,202 @@
       },
       "h2hWinner": "collin-morikawa",
       "edge": "Collin by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-06",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-09-29",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-07",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     }
   ]

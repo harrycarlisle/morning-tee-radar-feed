@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-viktor-hovland",
-  "updatedAt": "2026-06-02T05:15:03.365Z",
+  "updatedAt": "2026-06-03T05:53:40.172Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,10 +23,10 @@
     "country": "NOR"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 51,
-    "playerAWins": 20,
-    "playerBWins": 28,
+    "since": 2019,
+    "sharedStarts": 56,
+    "playerAWins": 22,
+    "playerBWins": 31,
     "ties": 3
   },
   "events": [
@@ -1512,6 +1512,174 @@
       },
       "h2hWinner": "tie",
       "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-20",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-07",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-23",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-10",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 959 spots",
       "counted": true
     }
   ]

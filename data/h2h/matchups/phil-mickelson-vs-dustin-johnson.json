@@ -1,19 +1,19 @@
 {
-  "matchupId": "rory-mcilroy-vs-dustin-johnson",
-  "updatedAt": "2026-06-03T05:20:04.899Z",
+  "matchupId": "phil-mickelson-vs-dustin-johnson",
+  "updatedAt": "2026-06-03T05:53:39.481Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
+    "dataNote": "Uses manual Phil Mickelson and Dustin Johnson results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
+    "country": "USA"
   },
   "playerB": {
     "name": "Johnson, Dustin",
@@ -24,68 +24,12 @@
   },
   "summary": {
     "since": 2008,
-    "sharedStarts": 164,
-    "playerAWins": 84,
-    "playerBWins": 70,
-    "ties": 10
+    "sharedStarts": 207,
+    "playerAWins": 79,
+    "playerBWins": 109,
+    "ties": 19
   },
   "events": [
-    {
-      "year": 2026,
-      "date": "2026-05-17",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T44",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 37 spots",
-      "counted": true
-    },
-    {
-      "year": 2026,
-      "date": "2026-04-12",
-      "eventId": 14,
-      "eventName": "Masters Tournament",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 32 spots",
-      "counted": true
-    },
     {
       "year": 2025,
       "date": "2025-07-20",
@@ -93,9 +37,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T56",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -110,8 +54,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 16 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 33 spots",
       "counted": true
     },
     {
@@ -121,9 +65,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -138,8 +82,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 980 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -149,9 +93,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -166,8 +110,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 952 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -177,9 +121,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -194,8 +138,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 998 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -205,9 +149,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T60",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -223,7 +167,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 968 spots",
+      "edge": "Dustin by 29 spots",
       "counted": true
     },
     {
@@ -233,9 +177,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -250,8 +194,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 997 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -261,9 +205,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -278,8 +222,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 31 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 956 spots",
       "counted": true
     },
     {
@@ -289,9 +233,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T22",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -306,8 +250,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 977 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 956 spots",
       "counted": true
     },
     {
@@ -317,9 +261,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -334,8 +278,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 993 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -345,9 +289,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -362,8 +306,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 8 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 989 spots",
       "counted": true
     },
     {
@@ -373,9 +317,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -390,8 +334,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 48 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 3 spots",
       "counted": true
     },
     {
@@ -401,9 +345,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -418,8 +362,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 951 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 46 spots",
       "counted": true
     },
     {
@@ -429,9 +373,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -446,8 +390,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 993 spots",
       "counted": true
     },
     {
@@ -457,9 +401,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -474,176 +418,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 19 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 975 spots",
       "counted": true
     },
     {
       "year": 2022,
-      "date": "2022-05-22",
-      "eventId": 33,
-      "eventName": "PGA Championship",
+      "date": "2022-01-29",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-04-10",
-      "eventId": 14,
-      "eventName": "The Masters",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 10 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-03-13",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T9",
+        "finish": "T25",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 24 spots",
-      "counted": true
-    },
-    {
-      "year": 2022,
-      "date": "2022-02-20",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 989 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-10-17",
-      "eventId": 521,
-      "eventName": "THE CJ CUP @ SUMMIT",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T45",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 44 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-09-05",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
+      "edge": "Dustin by 974 spots",
       "counted": true
     },
     {
@@ -653,9 +457,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -670,8 +474,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 2 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 60 spots",
       "counted": true
     },
     {
@@ -681,148 +485,8 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T43",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 956 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-08-08",
-      "eventId": 476,
-      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-07-18",
-      "eventId": 100,
-      "eventName": "The Open Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T46",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 38 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-06-20",
-      "eventId": 535,
-      "eventName": "U.S. Open #2",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T19",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 12 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-05-23",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T49",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 950 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-04-11",
-      "eventId": 536,
-      "eventName": "The Masters #2",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -844,13 +508,153 @@
     },
     {
       "year": 2021,
-      "date": "2021-03-14",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
+      "date": "2021-08-08",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-07-18",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-06-27",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-06-20",
+      "eventId": 535,
+      "eventName": "U.S. Open #2",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T62",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-05-23",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-05-02",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -872,14 +676,14 @@
     },
     {
       "year": 2021,
-      "date": "2021-02-28",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Workday Championship at The Concession",
+      "date": "2021-04-11",
+      "eventId": 536,
+      "eventName": "The Masters #2",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -888,42 +692,42 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T54",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 48 spots",
-      "counted": true
-    },
-    {
-      "year": 2021,
-      "date": "2021-02-21",
-      "eventId": 7,
-      "eventName": "The Genesis Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T8",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 978 spots",
+      "counted": true
+    },
+    {
+      "year": 2021,
+      "date": "2021-03-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T35",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 991 spots",
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -933,9 +737,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -951,131 +755,19 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 4 spots",
+      "edge": "Dustin by 54 spots",
       "counted": true
     },
     {
       "year": 2020,
-      "date": "2020-09-20",
-      "eventId": 26,
-      "eventName": "U.S. Open",
+      "date": "2020-11-08",
+      "eventId": 20,
+      "eventName": "Vivint Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-09-07",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 7 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-08-30",
-      "eventId": 28,
-      "eventName": "BMW Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "2",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 10 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-08-23",
-      "eventId": 27,
-      "eventName": "THE NORTHERN TRUST",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T65",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 64 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-08-09",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T33",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1091,75 +783,47 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 31 spots",
+      "edge": "Dustin by 997 spots",
       "counted": true
     },
     {
       "year": 2020,
-      "date": "2020-08-02",
-      "eventId": 476,
-      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "date": "2020-09-20",
+      "eventId": 26,
+      "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 35 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-07-19",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T32",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 967 spots",
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 993 spots",
       "counted": true
     },
     {
       "year": 2020,
-      "date": "2020-06-28",
-      "eventId": 34,
-      "eventName": "Travelers Championship",
+      "date": "2020-08-23",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T11",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1175,19 +839,19 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 10 spots",
+      "edge": "Dustin by 998 spots",
       "counted": true
     },
     {
       "year": 2020,
-      "date": "2020-06-21",
-      "eventId": 12,
-      "eventName": "RBC Heritage",
+      "date": "2020-08-09",
+      "eventId": 33,
+      "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T41",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1196,26 +860,54 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T17",
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 24 spots",
+      "edge": "Dustin by 69 spots",
       "counted": true
     },
     {
       "year": 2020,
-      "date": "2020-06-14",
-      "eventId": 21,
-      "eventName": "Charles Schwab Challenge",
+      "date": "2020-08-02",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T32",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-07-19",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1230,8 +922,64 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 967 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 945 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-06-14",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -1241,9 +989,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T83",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T125",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1259,35 +1007,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 46 spots",
-      "counted": true
-    },
-    {
-      "year": 2020,
-      "date": "2020-02-23",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Mexico Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T48",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 43 spots",
+      "edge": "Dustin by 88 spots",
       "counted": true
     },
     {
@@ -1297,9 +1017,9 @@
       "eventName": "The Genesis Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1314,20 +1034,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 989 spots",
       "counted": true
     },
     {
-      "year": 2019,
-      "date": "2019-08-25",
-      "eventId": 60,
-      "eventName": "TOUR Championship",
+      "year": 2020,
+      "date": "2020-02-09",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1336,14 +1056,14 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T29",
+        "finish": "T32",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 28 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 29 spots",
       "counted": true
     },
     {
@@ -1353,9 +1073,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1370,8 +1090,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 38 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
       "counted": true
     },
     {
@@ -1381,9 +1101,9 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1398,8 +1118,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 18 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 47 spots",
       "counted": true
     },
     {
@@ -1409,9 +1129,9 @@
       "eventName": "World Golf Championships-FedEx St. Jude Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "57",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1426,8 +1146,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 16 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 37 spots",
       "counted": true
     },
     {
@@ -1437,8 +1157,8 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -1465,9 +1185,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T52",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1482,36 +1202,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 26 spots",
-      "counted": true
-    },
-    {
-      "year": 2019,
-      "date": "2019-06-09",
-      "eventId": 32,
-      "eventName": "RBC Canadian Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T20",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 19 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 17 spots",
       "counted": true
     },
     {
@@ -1521,9 +1213,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1539,7 +1231,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
+      "edge": "Dustin by 69 spots",
       "counted": true
     },
     {
@@ -1549,9 +1241,9 @@
       "eventName": "The Masters",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T21",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1567,7 +1259,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 19 spots",
+      "edge": "Dustin by 16 spots",
       "counted": true
     },
     {
@@ -1577,9 +1269,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1594,8 +1286,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 994 spots",
       "counted": true
     },
     {
@@ -1605,9 +1297,9 @@
       "eventName": "World Golf Championships-Mexico Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1623,7 +1315,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 1 spot",
+      "edge": "Dustin by 38 spots",
       "counted": true
     },
     {
@@ -1633,9 +1325,9 @@
       "eventName": "Genesis Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T37",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1650,20 +1342,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 28 spots",
       "counted": true
     },
     {
       "year": 2019,
-      "date": "2019-01-06",
-      "eventId": 16,
-      "eventName": "Sentry Tournament of Champions",
+      "date": "2019-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1672,42 +1364,14 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T4",
+        "finish": "T45",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2018,
-      "date": "2018-10-28",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T54",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T30",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 24 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 44 spots",
       "counted": true
     },
     {
@@ -1717,9 +1381,9 @@
       "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "30",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1735,7 +1399,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 4 spots",
+      "edge": "Dustin by 27 spots",
       "counted": true
     },
     {
@@ -1745,9 +1409,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1762,8 +1426,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 19 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 34 spots",
       "counted": true
     },
     {
@@ -1773,8 +1437,8 @@
       "eventName": "Dell Technologies Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T12",
         "earnings": null,
         "fedExCupPoints": null,
@@ -1796,14 +1460,42 @@
     },
     {
       "year": 2018,
+      "date": "2018-08-26",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-08-12",
       "eventId": 33,
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T50",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1819,7 +1511,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 23 spots",
+      "edge": "Dustin by 972 spots",
       "counted": true
     },
     {
@@ -1829,9 +1521,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1847,7 +1539,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 3 spots",
+      "edge": "Dustin by 21 spots",
       "counted": true
     },
     {
@@ -1857,9 +1549,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T2",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1874,8 +1566,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 997 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 975 spots",
       "counted": true
     },
     {
@@ -1885,9 +1577,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1903,7 +1595,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 996 spots",
+      "edge": "Dustin by 45 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-10",
+      "eventId": 25,
+      "eventName": "FedEx St. Jude Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 11 spots",
       "counted": true
     },
     {
@@ -1913,9 +1633,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1930,8 +1650,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 5 spots",
       "counted": true
     },
     {
@@ -1941,8 +1661,8 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -1969,9 +1689,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -1986,8 +1706,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 6 spots",
       "counted": true
     },
     {
@@ -1997,9 +1745,9 @@
       "eventName": "Genesis Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T20",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2014,8 +1762,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 4 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
       "counted": true
     },
     {
@@ -2025,9 +1773,37 @@
       "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-10-29",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2043,7 +1819,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 997 spots",
+      "edge": "Dustin by 13 spots",
       "counted": true
     },
     {
@@ -2053,9 +1829,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T58",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2070,8 +1846,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 25 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -2081,9 +1857,9 @@
       "eventName": "Dell Technologies Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2098,8 +1874,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 981 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 12 spots",
       "counted": true
     },
     {
@@ -2109,8 +1885,232 @@
       "eventName": "THE NORTHERN TRUST",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-06",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-23",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 945 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-04",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 977 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-07",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-05",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-19",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T34",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2132,14 +2132,14 @@
     },
     {
       "year": 2017,
-      "date": "2017-08-13",
-      "eventId": 33,
-      "eventName": "PGA Championship",
+      "date": "2017-02-12",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T22",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "65",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2148,82 +2148,26 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T13",
+        "finish": "3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 9 spots",
+      "edge": "Dustin by 62 spots",
       "counted": true
     },
     {
       "year": 2017,
-      "date": "2017-08-06",
-      "eventId": 476,
-      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "date": "2017-01-29",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T17",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 12 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-07-23",
-      "eventId": 100,
-      "eventName": "The Open Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T54",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 50 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-06-18",
-      "eventId": 26,
-      "eventName": "U.S. Open",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2238,92 +2182,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-05-14",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T35",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T12",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 23 spots",
-      "counted": true
-    },
-    {
-      "year": 2017,
-      "date": "2017-03-05",
-      "eventId": 473,
-      "eventName": "World Golf Championships-Mexico Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2016,
-      "date": "2016-10-30",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T35",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 31 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 985 spots",
       "counted": true
     },
     {
@@ -2333,9 +2193,9 @@
       "eventName": "TOUR Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2350,8 +2210,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 16 spots",
       "counted": true
     },
     {
@@ -2361,9 +2221,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T42",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2379,7 +2239,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 41 spots",
+      "edge": "Dustin by 23 spots",
       "counted": true
     },
     {
@@ -2389,9 +2249,9 @@
       "eventName": "Deutsche Bank Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2406,8 +2266,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 991 spots",
       "counted": true
     },
     {
@@ -2417,9 +2277,9 @@
       "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T31",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2434,8 +2294,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 13 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 5 spots",
       "counted": true
     },
     {
@@ -2445,9 +2305,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2462,8 +2322,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 966 spots",
       "counted": true
     },
     {
@@ -2473,9 +2333,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2490,8 +2350,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 26 spots",
       "counted": true
     },
     {
@@ -2501,8 +2389,8 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2524,14 +2412,42 @@
     },
     {
       "year": 2016,
+      "date": "2016-06-12",
+      "eventId": 25,
+      "eventName": "FedEx St. Jude Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
       "date": "2016-06-05",
       "eventId": 23,
       "eventName": "the Memorial Tournament presented by Nationwide",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2547,7 +2463,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 1 spot",
+      "edge": "Dustin by 17 spots",
       "counted": true
     },
     {
@@ -2557,9 +2473,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T12",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2574,8 +2490,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 16 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 971 spots",
       "counted": true
     },
     {
@@ -2585,9 +2501,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2603,7 +2519,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
+      "edge": "Dustin by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-03",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 10 spots",
       "counted": true
     },
     {
@@ -2613,9 +2557,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "5",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2630,20 +2574,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
       "counted": true
     },
     {
       "year": 2016,
-      "date": "2016-02-21",
-      "eventId": 7,
-      "eventName": "Northern Trust Open",
+      "date": "2016-02-14",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T20",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2652,26 +2596,26 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "4",
+        "finish": "T41",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 16 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 39 spots",
       "counted": true
     },
     {
-      "year": 2015,
-      "date": "2015-11-08",
-      "eventId": 489,
-      "eventName": "World Golf Championships-HSBC Champions",
+      "year": 2016,
+      "date": "2016-01-31",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T11",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2680,42 +2624,14 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T5",
+        "finish": "T18",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
-      "counted": true
-    },
-    {
-      "year": 2015,
-      "date": "2015-09-27",
-      "eventId": 60,
-      "eventName": "TOUR Championship by Coca-Cola",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T16",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 11 spots",
+      "edge": "Dustin by 981 spots",
       "counted": true
     },
     {
@@ -2725,9 +2641,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T32",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2742,8 +2658,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 25 spots",
       "counted": true
     },
     {
@@ -2753,9 +2669,9 @@
       "eventName": "Deutsche Bank Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T29",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2770,8 +2686,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 15 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-30",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 41 spots",
       "counted": true
     },
     {
@@ -2781,9 +2725,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "17",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2799,7 +2743,63 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-09",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
       "edge": "Dustin by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 29 spots",
       "counted": true
     },
     {
@@ -2809,9 +2809,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T64",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2827,7 +2827,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 7 spots",
+      "edge": "Dustin by 62 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 52 spots",
       "counted": true
     },
     {
@@ -2837,9 +2865,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2854,8 +2882,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 61 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 930 spots",
       "counted": true
     },
     {
@@ -2865,9 +2893,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2882,8 +2910,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 2 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-03-29",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 24 spots",
       "counted": true
     },
     {
@@ -2893,9 +2949,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T9",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T31",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2911,7 +2967,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 8 spots",
+      "edge": "Dustin by 30 spots",
       "counted": true
     },
     {
@@ -2921,8 +2977,36 @@
       "eventName": "The Honda Classic",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 982 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-02-08",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
@@ -2949,9 +3033,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2966,8 +3050,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 11 spots",
       "counted": true
     },
     {
@@ -2977,9 +3061,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T23",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -2995,7 +3079,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 19 spots",
+      "edge": "Dustin by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-08",
+      "eventId": 25,
+      "eventName": "FedEx St. Jude Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
       "counted": true
     },
     {
@@ -3005,9 +3117,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide Insurance",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T15",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3022,8 +3134,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 31 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 3 spots",
       "counted": true
     },
     {
@@ -3033,9 +3145,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3050,8 +3162,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 53 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 940 spots",
       "counted": true
     },
     {
@@ -3061,9 +3173,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3078,8 +3190,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 991 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -3089,9 +3201,9 @@
       "eventName": "Shell Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3117,9 +3229,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T25",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3135,19 +3247,19 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 21 spots",
+      "edge": "Dustin by 12 spots",
       "counted": true
     },
     {
-      "year": 2013,
-      "date": "2013-12-08",
-      "eventId": 478,
-      "eventName": "World Challenge presented by Northwestern Mutual",
+      "year": 2014,
+      "date": "2014-02-09",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "11",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T19",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3156,14 +3268,14 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "18",
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 17 spots",
       "counted": true
     },
     {
@@ -3173,9 +3285,9 @@
       "eventName": "World Golf Championships-HSBC Champions",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "14",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3191,7 +3303,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 5 spots",
+      "edge": "Dustin by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-09-22",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 7 spots",
       "counted": true
     },
     {
@@ -3201,9 +3341,9 @@
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T59",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3218,8 +3358,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 29 spots",
       "counted": true
     },
     {
@@ -3229,9 +3369,9 @@
       "eventName": "Deutsche Bank Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3247,7 +3387,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 20 spots",
+      "edge": "Dustin by 14 spots",
       "counted": true
     },
     {
@@ -3257,9 +3397,9 @@
       "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T19",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3274,8 +3414,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 980 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 993 spots",
       "counted": true
     },
     {
@@ -3285,9 +3425,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T72",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3302,8 +3442,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 64 spots",
       "counted": true
     },
     {
@@ -3313,9 +3453,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T27",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3330,8 +3470,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 12 spots",
       "counted": true
     },
     {
@@ -3341,9 +3481,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3358,8 +3498,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 967 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 31 spots",
       "counted": true
     },
     {
@@ -3369,9 +3509,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T41",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3386,20 +3526,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 14 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 53 spots",
       "counted": true
     },
     {
       "year": 2013,
-      "date": "2013-06-02",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "date": "2013-06-09",
+      "eventId": 25,
+      "eventName": "FedEx St. Jude Classic",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T57",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3408,14 +3548,14 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "CUT",
+        "finish": "T10",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 942 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
       "counted": true
     },
     {
@@ -3425,9 +3565,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3453,9 +3593,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T25",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3471,7 +3611,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 12 spots",
+      "edge": "Dustin by 41 spots",
       "counted": true
     },
     {
@@ -3481,9 +3621,9 @@
       "eventName": "Shell Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T45",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3499,7 +3639,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 41 spots",
+      "edge": "Dustin by 12 spots",
       "counted": true
     },
     {
@@ -3509,9 +3649,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T8",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T3",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3526,20 +3666,20 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 4 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
       "counted": true
     },
     {
       "year": 2013,
-      "date": "2013-03-03",
-      "eventId": 10,
-      "eventName": "The Honda Classic",
+      "date": "2013-02-17",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "WD",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3548,26 +3688,26 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T46",
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 978 spots",
+      "counted": true
     },
     {
-      "year": 2012,
-      "date": "2012-09-23",
-      "eventId": 60,
-      "eventName": "TOUR Championship by Coca-Cola",
+      "year": 2013,
+      "date": "2013-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T60",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3576,7 +3716,35 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T10",
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 939 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T51",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3588,14 +3756,42 @@
     },
     {
       "year": 2012,
+      "date": "2012-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
       "date": "2012-09-09",
       "eventId": 28,
       "eventName": "BMW Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3610,8 +3806,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 5 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 4 spots",
       "counted": true
     },
     {
@@ -3621,9 +3817,9 @@
       "eventName": "Deutsche Bank Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3638,8 +3834,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 3 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -3649,9 +3845,9 @@
       "eventName": "The Barclays",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T24",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T38",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3667,7 +3863,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 21 spots",
+      "edge": "Dustin by 35 spots",
       "counted": true
     },
     {
@@ -3677,9 +3873,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3694,8 +3890,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 47 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 12 spots",
       "counted": true
     },
     {
@@ -3705,9 +3901,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3722,8 +3918,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 14 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 24 spots",
       "counted": true
     },
     {
@@ -3733,9 +3929,9 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T60",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3751,7 +3947,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 51 spots",
+      "edge": "Dustin by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-07-08",
+      "eventId": 490,
+      "eventName": "The Greenbrier Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 966 spots",
       "counted": true
     },
     {
@@ -3761,9 +3985,9 @@
       "eventName": "U.S. Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3778,36 +4002,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
-      "counted": true
-    },
-    {
-      "year": 2012,
-      "date": "2012-06-10",
-      "eventId": 25,
-      "eventName": "FedEx St. Jude Classic",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T7",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 6 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 934 spots",
       "counted": true
     },
     {
@@ -3817,9 +4013,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide Insurance",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "WD",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3834,9 +4030,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 980 spots",
-      "counted": true
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2012,
@@ -3845,9 +4041,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3862,104 +4058,160 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 32 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 8 spots",
       "counted": true
     },
     {
-      "year": 2011,
-      "date": "2011-08-14",
-      "eventId": 33,
-      "eventName": "PGA Championship",
+      "year": 2012,
+      "date": "2012-02-19",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T64",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 935 spots",
-      "counted": true
-    },
-    {
-      "year": 2011,
-      "date": "2011-08-07",
-      "eventId": 476,
-      "eventName": "World Golf Championships-Bridgestone Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T6",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T48",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 42 spots",
-      "counted": true
-    },
-    {
-      "year": 2011,
-      "date": "2011-07-17",
-      "eventId": 100,
-      "eventName": "The Open Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T25",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 23 spots",
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
       "counted": true
     },
     {
-      "year": 2011,
-      "date": "2011-06-19",
-      "eventId": 26,
-      "eventName": "U.S. Open",
+      "year": 2012,
+      "date": "2012-02-12",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-02-05",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 35 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-01-29",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 956 spots",
+      "counted": true
+    },
+    {
+      "year": 2012,
+      "date": "2012-01-22",
+      "eventId": 2,
+      "eventName": "Humana Challenge in partnership with the Clinton Foundation",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 2011,
+      "date": "2011-09-25",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "10",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -3974,8 +4226,204 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 22 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-09-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-09-05",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-08-28",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-08-14",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 980 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-08-07",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 31 spots",
       "counted": true
     },
     {
@@ -3985,9 +4433,9 @@
       "eventName": "the Memorial Tournament presented by Nationwide Insurance",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "5",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T13",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4003,7 +4451,35 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 1 spot",
+      "edge": "Dustin by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-05-15",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 24 spots",
       "counted": true
     },
     {
@@ -4013,9 +4489,9 @@
       "eventName": "Wells Fargo Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4030,8 +4506,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "tie",
-      "edge": "Tie",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 990 spots",
       "counted": true
     },
     {
@@ -4041,9 +4517,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T15",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4058,8 +4534,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 23 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-03-27",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by MasterCard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 975 spots",
       "counted": true
     },
     {
@@ -4069,9 +4573,9 @@
       "eventName": "World Golf Championships-Cadillac Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4087,19 +4591,19 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 8 spots",
+      "edge": "Dustin by 53 spots",
       "counted": true
     },
     {
-      "year": 2010,
-      "date": "2010-12-05",
-      "eventId": 478,
-      "eventName": "Chevron World Challenge",
+      "year": 2011,
+      "date": "2011-02-20",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "4",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T35",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4108,137 +4612,25 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T16",
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 12 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 964 spots",
       "counted": true
     },
     {
-      "year": 2010,
-      "date": "2010-09-12",
-      "eventId": 28,
-      "eventName": "BMW Championship",
+      "year": 2011,
+      "date": "2011-02-13",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T37",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "1",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 36 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-09-06",
-      "eventId": 505,
-      "eventName": "Deutsche Bank Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T37",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T57",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 20 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-08-29",
-      "eventId": 27,
-      "eventName": "The Barclays",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T56",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T9",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 47 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-08-15",
-      "eventId": 33,
-      "eventName": "PGA Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T5",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 2 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-08-08",
-      "eventId": 476,
-      "eventName": "World Golf Championships-Bridgestone Invitational",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T9",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4248,138 +4640,26 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "15",
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 6 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 46 spots",
       "counted": true
     },
     {
-      "year": 2010,
-      "date": "2010-07-18",
-      "eventId": 100,
-      "eventName": "The Open Championship",
+      "year": 2011,
+      "date": "2011-02-06",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T14",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-06-20",
-      "eventId": 26,
-      "eventName": "U.S. Open Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T8",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 991 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-06-06",
-      "eventId": 23,
-      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T33",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 23 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-05-09",
-      "eventId": 11,
-      "eventName": "THE PLAYERS Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "T34",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 965 spots",
-      "counted": true
-    },
-    {
-      "year": 2010,
-      "date": "2010-05-02",
-      "eventId": 480,
-      "eventName": "Quail Hollow Championship",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "1",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4394,8 +4674,344 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 28 spots",
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2011,
+      "date": "2011-01-30",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-09-26",
+      "eventId": 60,
+      "eventName": "THE TOUR Championship presented by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-09-12",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-09-06",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T57",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-29",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-15",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-08-08",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-07-18",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-06-20",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-06-06",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-05-09",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-05-02",
+      "eventId": 480,
+      "eventName": "Quail Hollow Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 27 spots",
       "counted": true
     },
     {
@@ -4405,9 +5021,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4422,8 +5038,36 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 961 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-03-28",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by MasterCard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
       "counted": true
     },
     {
@@ -4433,9 +5077,9 @@
       "eventName": "World Golf Championships-CA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T65",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4450,8 +5094,204 @@
         "dgPoints": null,
         "manual": false
       },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-02-14",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 9 spots",
+      "edge": "Dustin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-02-07",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T45",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 42 spots",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-01-31",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 980 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-09-27",
+      "eventId": 60,
+      "eventName": "THE TOUR Championship presented by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-09-13",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-09-07",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-08-30",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 37 spots",
       "counted": true
     },
     {
@@ -4461,9 +5301,9 @@
       "eventName": "PGA Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T3",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "73",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4478,8 +5318,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 7 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 63 spots",
       "counted": true
     },
     {
@@ -4489,9 +5329,9 @@
       "eventName": "World Golf Championships-Bridgestone Invitational",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T68",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T58",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4507,7 +5347,7 @@
         "manual": false
       },
       "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 46 spots",
+      "edge": "Dustin by 36 spots",
       "counted": true
     },
     {
@@ -4517,13 +5357,13 @@
       "eventName": "The Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T47",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4534,8 +5374,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 952 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 997 spots",
       "counted": true
     },
     {
@@ -4545,9 +5385,9 @@
       "eventName": "U.S. Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T10",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4562,8 +5402,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 30 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 38 spots",
       "counted": true
     },
     {
@@ -4573,9 +5413,9 @@
       "eventName": "THE PLAYERS Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "CUT",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4590,36 +5430,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 920 spots",
-      "counted": true
-    },
-    {
-      "year": 2009,
-      "date": "2009-04-19",
-      "eventId": 12,
-      "eventName": "Verizon Heritage",
-      "tour": "pga",
-      "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T58",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "playerB": {
-        "name": "Dustin Johnson",
-        "dgId": 12422,
-        "finish": "CUT",
-        "earnings": null,
-        "fedExCupPoints": null,
-        "dgPoints": null,
-        "manual": false
-      },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 941 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 24 spots",
       "counted": true
     },
     {
@@ -4629,9 +5441,9 @@
       "eventName": "Masters Tournament",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
-        "finish": "T20",
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "5",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
@@ -4646,8 +5458,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 10 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 25 spots",
       "counted": true
     },
     {
@@ -4657,8 +5469,176 @@
       "eventName": "Shell Houston Open",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-03-15",
+      "eventId": 473,
+      "eventName": "World Golf Championships-CA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-02-22",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-02-15",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 54 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-02-08",
+      "eventId": 4,
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-02-01",
+      "eventId": 3,
+      "eventName": "FBR Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-08-24",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T19",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4674,19 +5654,47 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 980 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 980 spots",
       "counted": true
     },
     {
-      "year": 2009,
-      "date": "2009-03-15",
-      "eventId": 473,
-      "eventName": "World Golf Championships-CA Championship",
+      "year": 2008,
+      "date": "2008-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
       "tour": "pga",
       "playerA": {
-        "name": "Rory McIlroy",
-        "dgId": 10091,
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-06-01",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Morgan Stanley",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
         "finish": "T20",
         "earnings": null,
         "fedExCupPoints": null,
@@ -4696,14 +5704,238 @@
       "playerB": {
         "name": "Dustin Johnson",
         "dgId": 12422,
-        "finish": "T35",
+        "finish": "68",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 15 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 48 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-05-25",
+      "eventId": 21,
+      "eventName": "Crowne Plaza Invitational at Colonial",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T74",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 73 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-05-11",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 978 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-05-04",
+      "eventId": 480,
+      "eventName": "Wachovia Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-04-06",
+      "eventId": 20,
+      "eventName": "Shell Houston Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-03-16",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by MasterCard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-02-17",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 58 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-02-10",
+      "eventId": 5,
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 2008,
+      "date": "2008-01-27",
+      "eventId": 4,
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 31 spots",
       "counted": true
     }
   ]

@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-viktor-hovland",
-  "updatedAt": "2026-06-02T03:44:12.309Z",
+  "updatedAt": "2026-06-03T05:25:21.943Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,9 +23,9 @@
     "country": "NOR"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 106,
-    "playerAWins": 61,
+    "since": 2019,
+    "sharedStarts": 110,
+    "playerAWins": 65,
     "playerBWins": 38,
     "ties": 7
   },
@@ -3080,6 +3080,118 @@
       },
       "h2hWinner": "xander-schauffele",
       "edge": "Xander by 983 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 974 spots",
       "counted": true
     }
   ]

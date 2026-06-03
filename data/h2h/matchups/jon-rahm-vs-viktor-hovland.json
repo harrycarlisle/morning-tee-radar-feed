@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-viktor-hovland",
-  "updatedAt": "2026-06-02T03:44:12.045Z",
+  "updatedAt": "2026-06-03T05:25:21.563Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -23,9 +23,9 @@
     "country": "NOR"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 67,
-    "playerAWins": 38,
+    "since": 2019,
+    "sharedStarts": 70,
+    "playerAWins": 41,
     "playerBWins": 26,
     "ties": 3
   },
@@ -1988,6 +1988,90 @@
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 994 spots",
       "counted": true
     }
   ]

@@ -1,12 +1,12 @@
 {
   "matchupId": "rory-mcilroy-vs-cameron-smith",
-  "updatedAt": "2026-06-02T03:44:11.108Z",
+  "updatedAt": "2026-06-03T05:19:39.841Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "McIlroy, Rory",
@@ -23,11 +23,11 @@
     "country": "AUS"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 56,
-    "playerAWins": 37,
-    "playerBWins": 16,
-    "ties": 3
+    "since": 2013,
+    "sharedStarts": 97,
+    "playerAWins": 65,
+    "playerBWins": 23,
+    "ties": 9
   },
   "events": [
     {
@@ -1596,6 +1596,1154 @@
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 61 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-11-03",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T60",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 59 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-28",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T72",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 63 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-05-19",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 56 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 55 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-24",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-17",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 45 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-28",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 60 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-03",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "78",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 76 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-03",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-11",
+      "eventId": 475,
+      "eventName": "Valspar Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 953 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-18",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T58",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-04",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-27",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 965 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 977 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-23",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-14",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-03-19",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 940 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-05-08",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 45 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-02-21",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 43 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-11-08",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T64",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-10-18",
+      "eventId": 464,
+      "eventName": "Frys.com Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 973 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-16",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "cameron-smith",
+      "edge": "Cameron by 5 spots",
       "counted": true
     }
   ]

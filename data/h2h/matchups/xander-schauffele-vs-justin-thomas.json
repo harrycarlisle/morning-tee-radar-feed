@@ -1,12 +1,12 @@
 {
   "matchupId": "xander-schauffele-vs-justin-thomas",
-  "updatedAt": "2026-06-02T03:44:12.436Z",
+  "updatedAt": "2026-06-03T05:25:22.144Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": null
+    "dataNote": "Uses manual results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Schauffele, Xander",
@@ -23,11 +23,11 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2020,
-    "sharedStarts": 108,
-    "playerAWins": 60,
-    "playerBWins": 42,
-    "ties": 6
+    "since": 2015,
+    "sharedStarts": 159,
+    "playerAWins": 79,
+    "playerBWins": 69,
+    "ties": 11
   },
   "events": [
     {
@@ -3080,6 +3080,1434 @@
       },
       "h2hWinner": "justin-thomas",
       "edge": "Justin by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-12-07",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-10-27",
+      "eventId": 527,
+      "eventName": "ZOZO CHAMPIONSHIP",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-25",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-18",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-08-11",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-28",
+      "eventId": 476,
+      "eventName": "World Golf Championships-FedEx St. Jude Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-07-21",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 996 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 985 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-14",
+      "eventId": 14,
+      "eventName": "The Masters",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-03-17",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-24",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-17",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-02-03",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-06",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-12-02",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-21",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 12 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-14",
+      "eventId": 494,
+      "eventName": "CIMB Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-23",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-09",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-09-03",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-26",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-12",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-08-05",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "68",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 67 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-07-22",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-24",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 943 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-03",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-13",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-05-06",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T72",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 51 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 33 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-18",
+      "eventId": 7,
+      "eventName": "Genesis Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-02-04",
+      "eventId": 3,
+      "eventName": "Waste Management Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-01-14",
+      "eventId": 6,
+      "eventName": "Sony Open in Hawaii",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-01-07",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-10-22",
+      "eventId": 521,
+      "eventName": "THE CJ CUP @ NINE BRIDGES",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T72",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 71 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-10-15",
+      "eventId": 494,
+      "eventName": "CIMB Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-17",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-09-04",
+      "eventId": 505,
+      "eventName": "Dell Technologies Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-27",
+      "eventId": 27,
+      "eventName": "THE NORTHERN TRUST",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-08-06",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-23",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 979 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-07-02",
+      "eventId": 471,
+      "eventName": "Quicken Loans National",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 964 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 985 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-26",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-01-15",
+      "eventId": 6,
+      "eventName": "Sony Open in Hawaii",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-10-16",
+      "eventId": 464,
+      "eventName": "Safeway Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T60",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 52 spots",
       "counted": true
     }
   ]

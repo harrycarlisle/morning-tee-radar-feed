@@ -1,12 +1,12 @@
 {
   "matchupId": "phil-mickelson-vs-jon-rahm",
-  "updatedAt": "2026-06-02T05:15:02.667Z",
+  "updatedAt": "2026-06-03T05:48:23.474Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Includes full available Phil/Rahm shared-start coverage."
+    "dataNote": "Uses manual Phil Mickelson and Jon Rahm results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Mickelson, Phil",

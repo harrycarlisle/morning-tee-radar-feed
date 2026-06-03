@@ -1,12 +1,12 @@
 {
   "matchupId": "tiger-woods-vs-bryson-dechambeau",
-  "updatedAt": "2026-06-02T04:57:53.115Z",
+  "updatedAt": "2026-06-03T05:31:03.644Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."
+    "dataNote": "Uses manual Tiger Woods and Bryson DeChambeau results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Woods, Tiger",
@@ -23,7 +23,7 @@
     "country": "USA"
   },
   "summary": {
-    "since": 2017,
+    "since": 2016,
     "sharedStarts": 40,
     "playerAWins": 16,
     "playerBWins": 19,

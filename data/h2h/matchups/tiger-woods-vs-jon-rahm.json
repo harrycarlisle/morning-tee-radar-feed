@@ -1,12 +1,12 @@
 {
   "matchupId": "tiger-woods-vs-jon-rahm",
-  "updatedAt": "2026-06-02T04:57:53.267Z",
+  "updatedAt": "2026-06-03T05:31:03.880Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
     "explanation": "This compares tournaments where both players were in the same field.",
     "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
-    "dataNote": "Includes manually added Tiger Woods results where DataGolf player coverage is incomplete."
+    "dataNote": "Uses manual Tiger Woods and Jon Rahm results before 2017 where available, then automatic results from 2017 onward."
   },
   "playerA": {
     "name": "Woods, Tiger",
@@ -23,7 +23,7 @@
     "country": "ESP"
   },
   "summary": {
-    "since": 2017,
+    "since": 2016,
     "sharedStarts": 38,
     "playerAWins": 10,
     "playerBWins": 25,
