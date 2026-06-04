@@ -42,25 +42,37 @@ function normalizeEventName(value) {
 }
 
 function findManualResult(manualData, event) {
-  if (Number(event.year) >= 2017) return null;
   if (!manualData?.seasons) return null;
 
-  const season = manualData.seasons[String(event.year)];
-  if (!season?.events) return null;
-
+  const eventYear = Number(event.year);
   const eventName = normalizeEventName(event.eventName);
 
-  return season.events.find((manualEvent) => {
-    if (manualEvent.officialStart === false) return false;
+  const seasonKeysToCheck = [
+    String(eventYear),
+    `${eventYear - 1}-${String(eventYear).slice(-2)}`,
+    `${eventYear}-${String(eventYear + 1).slice(-2)}`
+  ];
 
-    const manualName = normalizeEventName(manualEvent.tournament);
+  for (const key of seasonKeysToCheck) {
+    const season = manualData.seasons[key];
+    if (!season?.events) continue;
 
-    return (
-      manualName === eventName ||
-      manualName.includes(eventName) ||
-      eventName.includes(manualName)
-    );
-  });
+    const match = season.events.find((manualEvent) => {
+      if (manualEvent.officialStart === false) return false;
+
+      const manualName = normalizeEventName(manualEvent.tournament);
+
+      return (
+        manualName === eventName ||
+        manualName.includes(eventName) ||
+        eventName.includes(manualName)
+      );
+    });
+
+    if (match) return match;
+  }
+
+  return null;
 }
 
 const PLAYERS = {
@@ -445,7 +457,7 @@ async function buildMatchup(matchup) {
   let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
   let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
 
-      if (!playerAResult && manualA) {
+       if ((!playerAResult || event.year < 2017) && manualA) {
         const manualEvent = findManualResult(manualA, event);
 
         if (manualEvent) {
@@ -468,7 +480,7 @@ async function buildMatchup(matchup) {
         }
       }
 
-      if (!playerBResult && manualB) {
+      if ((!playerBResult || event.year < 2017) && manualB) {
         const manualEvent = findManualResult(manualB, event);
 
         if (manualEvent) {
