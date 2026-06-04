@@ -2,9 +2,17 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # Runs every 30 minutes.
-    # GitHub cron uses UTC, but the script checks Eastern Time internally.
-    - cron: "*/30 * * * *"
+    # Runs at 8 AM, 12 PM, and 8 PM ET during daylight saving time.
+    # GitHub cron uses UTC.
+    - cron: "7 12 * * *"
+    - cron: "7 16 * * *"
+    - cron: "7 0 * * *"
+
+    # Runs at 8 AM, 12 PM, and 8 PM ET during standard time.
+    # These keep the schedule correct when Eastern Time shifts.
+    - cron: "7 13 * * *"
+    - cron: "7 17 * * *"
+    - cron: "7 1 * * *"
 
   workflow_dispatch:
     inputs:
