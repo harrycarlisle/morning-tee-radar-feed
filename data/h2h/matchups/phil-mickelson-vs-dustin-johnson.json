@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-dustin-johnson",
-  "updatedAt": "2026-06-03T05:53:39.481Z",
+  "updatedAt": "2026-06-04T16:35:11.451Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2008,
-    "sharedStarts": 207,
-    "playerAWins": 79,
-    "playerBWins": 109,
+    "sharedStarts": 217,
+    "playerAWins": 84,
+    "playerBWins": 114,
     "ties": 19
   },
   "events": [
@@ -731,6 +731,34 @@
       "counted": true
     },
     {
+      "year": 2021,
+      "date": "2021-01-10",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 19 spots",
+      "counted": true
+    },
+    {
       "year": 2020,
       "date": "2020-11-15",
       "eventId": 14,
@@ -812,6 +840,34 @@
       },
       "h2hWinner": "dustin-johnson",
       "edge": "Dustin by 993 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 64 spots",
       "counted": true
     },
     {
@@ -1376,6 +1432,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-10-28",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-09-23",
       "eventId": 60,
       "eventName": "TOUR Championship",
@@ -1824,6 +1908,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-09-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-09-17",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -1988,6 +2100,34 @@
       },
       "h2hWinner": "dustin-johnson",
       "edge": "Dustin by 945 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 951 spots",
       "counted": true
     },
     {
@@ -2199,7 +2339,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2227,7 +2367,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2255,7 +2395,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2283,7 +2423,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2311,7 +2451,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2339,7 +2479,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2367,7 +2507,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2395,7 +2535,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2423,7 +2563,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2451,7 +2591,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2479,7 +2619,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2507,7 +2647,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2535,7 +2675,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2563,7 +2703,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2580,6 +2720,34 @@
     },
     {
       "year": 2016,
+      "date": "2016-02-21",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 50 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
       "date": "2016-02-14",
       "eventId": 5,
       "eventName": "AT&T Pebble Beach Pro-Am",
@@ -2591,7 +2759,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2619,7 +2787,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2636,6 +2804,34 @@
     },
     {
       "year": 2015,
+      "date": "2015-09-27",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
       "date": "2015-09-20",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -2647,7 +2843,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2675,7 +2871,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2703,7 +2899,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2731,7 +2927,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2759,7 +2955,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2787,7 +2983,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2815,7 +3011,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2843,7 +3039,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2871,7 +3067,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2899,7 +3095,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2927,7 +3123,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2955,7 +3151,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -2983,7 +3179,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3011,7 +3207,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3039,7 +3235,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3067,7 +3263,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3095,7 +3291,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3123,7 +3319,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3151,7 +3347,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3179,7 +3375,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3207,7 +3403,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3235,7 +3431,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3263,7 +3459,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3291,7 +3487,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3319,7 +3515,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3347,7 +3543,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3375,7 +3571,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3403,7 +3599,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3431,7 +3627,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3459,7 +3655,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3487,7 +3683,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3515,7 +3711,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3543,7 +3739,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3560,6 +3756,34 @@
     },
     {
       "year": 2013,
+      "date": "2013-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 950 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
       "date": "2013-05-12",
       "eventId": 11,
       "eventName": "THE PLAYERS Championship",
@@ -3571,7 +3795,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3599,7 +3823,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3627,7 +3851,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3655,7 +3879,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3672,6 +3896,34 @@
     },
     {
       "year": 2013,
+      "date": "2013-03-03",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 953 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
       "date": "2013-02-17",
       "eventId": 7,
       "eventName": "Northern Trust Open",
@@ -3683,7 +3935,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3711,7 +3963,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3739,7 +3991,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3767,7 +4019,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3795,7 +4047,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3823,7 +4075,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3851,7 +4103,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3879,7 +4131,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3907,7 +4159,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3935,7 +4187,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3963,7 +4215,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3991,7 +4243,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4015,11 +4267,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4030,9 +4282,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
+      "counted": true
     },
     {
       "year": 2012,
@@ -4047,7 +4299,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4071,11 +4323,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T2",
+        "finish": "PT2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4103,7 +4355,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4131,7 +4383,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4159,7 +4411,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4187,7 +4439,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4215,7 +4467,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4243,7 +4495,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4271,7 +4523,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4299,7 +4551,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4327,7 +4579,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4355,7 +4607,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4383,7 +4635,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4411,7 +4663,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4439,7 +4691,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4467,7 +4719,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4495,7 +4747,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4523,7 +4775,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4551,7 +4803,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4579,7 +4831,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4607,7 +4859,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4635,7 +4887,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4663,7 +4915,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4691,7 +4943,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4719,7 +4971,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4747,7 +4999,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4775,7 +5027,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4803,7 +5055,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4831,7 +5083,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4859,7 +5111,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4883,11 +5135,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T48",
+        "finish": "T4",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4898,8 +5150,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "dustin-johnson",
-      "edge": "Dustin by 34 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
       "counted": true
     },
     {
@@ -4915,7 +5167,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4943,7 +5195,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4971,7 +5223,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4999,7 +5251,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5027,7 +5279,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5055,7 +5307,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5083,7 +5335,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5111,7 +5363,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5139,7 +5391,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5167,7 +5419,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5195,7 +5447,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5223,7 +5475,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5251,7 +5503,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5279,7 +5531,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5307,7 +5559,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5335,7 +5587,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5391,7 +5643,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5419,7 +5671,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5447,7 +5699,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5475,7 +5727,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5503,7 +5755,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5531,7 +5783,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5559,7 +5811,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5587,7 +5839,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5615,7 +5867,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5643,7 +5895,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5671,7 +5923,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5699,7 +5951,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5727,7 +5979,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5755,7 +6007,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5783,7 +6035,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5811,7 +6063,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5839,7 +6091,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5867,7 +6119,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5895,7 +6147,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -5923,7 +6175,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",

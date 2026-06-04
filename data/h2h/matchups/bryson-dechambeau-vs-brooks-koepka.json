@@ -1,6 +1,6 @@
 {
   "matchupId": "bryson-dechambeau-vs-brooks-koepka",
-  "updatedAt": "2026-06-03T05:20:05.175Z",
+  "updatedAt": "2026-06-04T16:06:47.403Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 86,
-    "playerAWins": 30,
-    "playerBWins": 47,
+    "sharedStarts": 92,
+    "playerAWins": 33,
+    "playerBWins": 50,
     "ties": 9
   },
   "events": [
@@ -1600,6 +1600,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-12-02",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-09-23",
       "eventId": 60,
       "eventName": "TOUR Championship",
@@ -1964,6 +1992,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-11-05",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-09-17",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -2132,6 +2188,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T26",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 7 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-06-18",
       "eventId": 26,
       "eventName": "U.S. Open",
@@ -2212,6 +2296,34 @@
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 949 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-05-07",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 957 spots",
       "counted": true
     },
     {
@@ -2344,14 +2456,14 @@
       "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
-        "finish": "2",
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 34 spots",
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 963 spots",
       "counted": true
     },
     {
@@ -2376,7 +2488,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 38 spots",
@@ -2404,10 +2516,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-05",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 7 spots",
       "counted": true
     },
     {
@@ -2428,11 +2568,11 @@
       "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
-        "finish": "2",
+        "finish": "P2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 997 spots",
@@ -2460,7 +2600,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -2488,10 +2628,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-03-20",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by MasterCard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 972 spots",
       "counted": true
     }
   ]

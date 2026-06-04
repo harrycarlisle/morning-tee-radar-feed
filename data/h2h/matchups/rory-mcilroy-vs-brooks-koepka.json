@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-brooks-koepka",
-  "updatedAt": "2026-06-03T05:02:36.566Z",
+  "updatedAt": "2026-06-04T15:49:16.022Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2012,
-    "sharedStarts": 106,
-    "playerAWins": 62,
-    "playerBWins": 39,
+    "sharedStarts": 123,
+    "playerAWins": 75,
+    "playerBWins": 43,
     "ties": 5
   },
   "events": [
@@ -2132,6 +2132,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-06-25",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-06-18",
       "eventId": 26,
       "eventName": "U.S. Open",
@@ -2292,10 +2320,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 36 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-09-25",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 5 spots",
       "counted": true
     },
     {
@@ -2320,7 +2376,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 10 spots",
@@ -2348,7 +2404,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 56 spots",
@@ -2376,7 +2432,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 39 spots",
@@ -2404,10 +2460,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 995 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 1 spot",
       "counted": true
     },
     {
@@ -2432,10 +2516,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-06-05",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 27 spots",
       "counted": true
     },
     {
@@ -2460,7 +2572,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 23 spots",
@@ -2488,10 +2600,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-03-20",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by MasterCard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 972 spots",
       "counted": true
     },
     {
@@ -2516,7 +2656,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 20 spots",
@@ -2544,10 +2684,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 973 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-02-21",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 29 spots",
       "counted": true
     },
     {
@@ -2568,14 +2736,14 @@
       "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
-        "finish": "T41",
+        "finish": "T8",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 15 spots",
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 18 spots",
       "counted": true
     },
     {
@@ -2600,7 +2768,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 2 spots",
@@ -2628,7 +2796,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 45 spots",
@@ -2656,7 +2824,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 970 spots",
@@ -2684,7 +2852,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 12 spots",
@@ -2712,7 +2880,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 9 spots",
@@ -2740,7 +2908,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 991 spots",
@@ -2768,7 +2936,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 29 spots",
@@ -2792,15 +2960,15 @@
       "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 11 spots",
+      "counted": true
     },
     {
       "year": 2015,
@@ -2824,7 +2992,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 8 spots",
@@ -2852,10 +3020,122 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 948 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-14",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-07",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 41 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-09-01",
+      "eventId": 505,
+      "eventName": "Deutsche Bank Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-24",
+      "eventId": 27,
+      "eventName": "The Barclays",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 977 spots",
       "counted": true
     },
     {
@@ -2880,10 +3160,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-08-03",
+      "eventId": 476,
+      "eventName": "World Golf Championships-Bridgestone Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 5 spots",
       "counted": true
     },
     {
@@ -2908,7 +3216,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 66 spots",
@@ -2936,10 +3244,94 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-05-11",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 993 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 25 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
+      "date": "2014-03-09",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Cadillac Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T25",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 8 spots",
       "counted": true
     },
     {
@@ -2964,7 +3356,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 31 spots",
@@ -2980,10 +3372,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$206,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Brooks Koepka",
@@ -2992,7 +3384,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 62 spots",
@@ -3008,10 +3400,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Brooks Koepka",
@@ -3020,11 +3412,95 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
       "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T41",
+        "earnings": "$37,324",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-04-07",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "2",
+        "earnings": "$669,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-03-03",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "WD",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2012,
@@ -3036,10 +3512,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Brooks Koepka",
@@ -3048,7 +3524,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",

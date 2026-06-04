@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-jordan-spieth",
-  "updatedAt": "2026-06-03T05:53:39.253Z",
+  "updatedAt": "2026-06-04T16:35:11.005Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 143,
-    "playerAWins": 46,
-    "playerBWins": 82,
+    "sharedStarts": 157,
+    "playerAWins": 53,
+    "playerBWins": 89,
     "ties": 15
   },
   "events": [
@@ -1516,6 +1516,34 @@
     },
     {
       "year": 2019,
+      "date": "2019-05-26",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 991 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-05-19",
       "eventId": 33,
       "eventName": "PGA Championship",
@@ -1680,6 +1708,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 44 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 964 spots",
       "counted": true
     },
     {
@@ -1848,6 +1904,34 @@
       },
       "h2hWinner": "jordan-spieth",
       "edge": "Jordan by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-24",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 957 spots",
       "counted": true
     },
     {
@@ -2104,6 +2188,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-09-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-09-17",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -2268,6 +2380,34 @@
       },
       "h2hWinner": "jordan-spieth",
       "edge": "Jordan by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 13 spots",
       "counted": true
     },
     {
@@ -2535,7 +2675,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2563,7 +2703,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2591,7 +2731,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2619,7 +2759,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2647,7 +2787,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2675,7 +2815,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2703,7 +2843,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2731,7 +2871,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2759,7 +2899,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2776,6 +2916,34 @@
     },
     {
       "year": 2016,
+      "date": "2016-05-29",
+      "eventId": 21,
+      "eventName": "DEAN & DELUCA Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
       "date": "2016-05-15",
       "eventId": 11,
       "eventName": "THE PLAYERS Championship",
@@ -2787,7 +2955,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2815,7 +2983,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2843,7 +3011,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2871,7 +3039,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2888,6 +3056,34 @@
     },
     {
       "year": 2016,
+      "date": "2016-02-21",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 945 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
       "date": "2016-02-14",
       "eventId": 5,
       "eventName": "AT&T Pebble Beach Pro-Am",
@@ -2899,7 +3095,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2916,6 +3112,34 @@
     },
     {
       "year": 2015,
+      "date": "2015-09-27",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
       "date": "2015-09-20",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -2927,7 +3151,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2955,7 +3179,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -2983,7 +3207,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3011,7 +3235,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3039,7 +3263,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3067,7 +3291,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3095,7 +3319,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3123,7 +3347,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3151,7 +3375,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3179,7 +3403,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3207,7 +3431,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3235,7 +3459,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3263,7 +3487,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3291,7 +3515,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3319,7 +3543,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3336,6 +3560,34 @@
     },
     {
       "year": 2014,
+      "date": "2014-11-09",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 21 spots",
+      "counted": true
+    },
+    {
+      "year": 2014,
       "date": "2014-09-07",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -3343,11 +3595,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3358,9 +3610,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
+      "counted": true
     },
     {
       "year": 2014,
@@ -3375,7 +3627,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3403,7 +3655,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3431,7 +3683,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3459,7 +3711,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3487,7 +3739,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3515,7 +3767,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3543,7 +3795,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3571,7 +3823,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3599,7 +3851,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3627,7 +3879,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3651,11 +3903,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3666,9 +3918,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
+      "counted": true
     },
     {
       "year": 2014,
@@ -3683,7 +3935,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3711,7 +3963,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3735,11 +3987,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3750,9 +4002,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
+      "counted": true
     },
     {
       "year": 2013,
@@ -3767,7 +4019,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3795,7 +4047,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3823,7 +4075,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3851,7 +4103,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3879,7 +4131,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3907,7 +4159,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3935,7 +4187,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3963,7 +4215,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -3991,7 +4243,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -4008,6 +4260,34 @@
     },
     {
       "year": 2013,
+      "date": "2013-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
       "date": "2013-05-05",
       "eventId": 480,
       "eventName": "Wells Fargo Championship",
@@ -4019,7 +4299,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -4036,6 +4316,34 @@
     },
     {
       "year": 2013,
+      "date": "2013-04-07",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "W/D",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 999 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
       "date": "2013-03-31",
       "eventId": 20,
       "eventName": "Shell Houston Open",
@@ -4047,7 +4355,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -4075,7 +4383,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",
@@ -4103,7 +4411,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jordan Spieth",

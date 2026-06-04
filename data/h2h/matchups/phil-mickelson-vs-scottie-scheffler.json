@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-scottie-scheffler",
-  "updatedAt": "2026-06-03T05:31:03.748Z",
+  "updatedAt": "2026-06-04T16:17:48.308Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 45,
-    "playerAWins": 7,
-    "playerBWins": 35,
+    "sharedStarts": 49,
+    "playerAWins": 9,
+    "playerBWins": 37,
     "ties": 3
   },
   "events": [
@@ -871,6 +871,34 @@
       "counted": true
     },
     {
+      "year": 2021,
+      "date": "2021-01-10",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 17 spots",
+      "counted": true
+    },
+    {
       "year": 2020,
       "date": "2020-11-15",
       "eventId": 14,
@@ -952,6 +980,62 @@
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 59 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-10-11",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 938 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 46 spots",
       "counted": true
     },
     {
@@ -1092,6 +1176,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 941 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-07-05",
+      "eventId": 524,
+      "eventName": "Rocket Mortgage Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T74",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 925 spots",
       "counted": true
     },
     {

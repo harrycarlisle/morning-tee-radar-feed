@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-rory-mcilroy",
-  "updatedAt": "2026-06-03T05:48:23.190Z",
+  "updatedAt": "2026-06-04T16:35:10.082Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2007,
-    "sharedStarts": 164,
-    "playerAWins": 50,
-    "playerBWins": 107,
+    "sharedStarts": 176,
+    "playerAWins": 57,
+    "playerBWins": 112,
     "ties": 7
   },
   "events": [
@@ -788,6 +788,34 @@
     },
     {
       "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 54 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
       "date": "2020-08-23",
       "eventId": 27,
       "eventName": "THE NORTHERN TRUST",
@@ -1459,6 +1487,62 @@
       "counted": true
     },
     {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-28",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 39 spots",
+      "counted": true
+    },
+    {
       "year": 2018,
       "date": "2018-09-23",
       "eventId": 60,
@@ -1628,6 +1712,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-06-24",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-06-17",
       "eventId": 26,
       "eventName": "U.S. Open",
@@ -1764,6 +1876,34 @@
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 998 spots",
       "counted": true
     },
     {
@@ -1992,6 +2132,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 951 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-05-14",
       "eventId": 11,
       "eventName": "THE PLAYERS Championship",
@@ -2087,7 +2255,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2115,7 +2283,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2143,7 +2311,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2171,7 +2339,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2199,7 +2367,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2227,7 +2395,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2255,7 +2423,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2283,7 +2451,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2311,7 +2479,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2339,7 +2507,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2367,7 +2535,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2395,7 +2563,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2423,7 +2591,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2439,6 +2607,62 @@
       "counted": true
     },
     {
+      "year": 2016,
+      "date": "2016-02-21",
+      "eventId": 7,
+      "eventName": "Northern Trust Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T54",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 34 spots",
+      "counted": true
+    },
+    {
+      "year": 2015,
+      "date": "2015-09-27",
+      "eventId": 60,
+      "eventName": "TOUR Championship by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 6 spots",
+      "counted": true
+    },
+    {
       "year": 2015,
       "date": "2015-09-20",
       "eventId": 28,
@@ -2451,7 +2675,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2479,7 +2703,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2507,7 +2731,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2535,7 +2759,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2563,7 +2787,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2591,7 +2815,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2619,7 +2843,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2647,7 +2871,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2675,7 +2899,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2699,11 +2923,11 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2714,9 +2938,9 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
+      "counted": true
     },
     {
       "year": 2014,
@@ -2731,7 +2955,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2759,7 +2983,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2787,7 +3011,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2815,7 +3039,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2843,7 +3067,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2871,7 +3095,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2899,7 +3123,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2927,7 +3151,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2955,7 +3179,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -2983,7 +3207,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3011,7 +3235,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3039,7 +3263,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3067,7 +3291,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3095,7 +3319,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3123,16 +3347,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T59",
-        "earnings": null,
+        "earnings": "$17,680",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 26 spots",
@@ -3151,16 +3375,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T47",
-        "earnings": null,
+        "earnings": "$20,826",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 6 spots",
@@ -3179,16 +3403,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T19",
-        "earnings": null,
+        "earnings": "$93,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 13 spots",
@@ -3207,16 +3431,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$206,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 64 spots",
@@ -3235,16 +3459,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T27",
-        "earnings": null,
+        "earnings": "$73,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 6 spots",
@@ -3263,16 +3487,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 998 spots",
@@ -3291,19 +3515,47 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T41",
-        "earnings": null,
+        "earnings": "$37,324",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T57",
+        "earnings": "$13,702",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
       "counted": true
     },
     {
@@ -3319,16 +3571,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$237,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 991 spots",
@@ -3347,16 +3599,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$148,516",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 7 spots",
@@ -3375,19 +3627,47 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T25",
-        "earnings": null,
+        "earnings": "$56,040",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-04-07",
+      "eventId": 41,
+      "eventName": "Valero Texas Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "W/D",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "2",
+        "earnings": "$669,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
       "counted": true
     },
     {
@@ -3403,16 +3683,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T45",
-        "earnings": null,
+        "earnings": "$18,153",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 29 spots",
@@ -3431,20 +3711,48 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$163,750",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 5 spots",
       "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-03-03",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "WD",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
     },
     {
       "year": 2012,
@@ -3459,16 +3767,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$205,760",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 5 spots",
@@ -3487,16 +3795,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 1 spot",
@@ -3515,16 +3823,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 3 spots",
@@ -3543,16 +3851,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T24",
-        "earnings": null,
+        "earnings": "$56,700",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 14 spots",
@@ -3571,16 +3879,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,445,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 35 spots",
@@ -3599,16 +3907,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T5",
-        "earnings": null,
+        "earnings": "$276,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 38 spots",
@@ -3627,16 +3935,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T60",
-        "earnings": null,
+        "earnings": "$19,291",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 939 spots",
@@ -3655,16 +3963,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 934 spots",
@@ -3679,24 +3987,24 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 999 spots",
+      "counted": true
     },
     {
       "year": 2012,
@@ -3711,16 +4019,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 974 spots",
@@ -3739,16 +4047,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T2",
-        "earnings": null,
+        "finish": "PT2",
+        "earnings": "$572,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 24 spots",
@@ -3767,16 +4075,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T40",
-        "earnings": null,
+        "earnings": "$32,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 37 spots",
@@ -3795,7 +4103,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
@@ -3823,16 +4131,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T64",
-        "earnings": null,
+        "earnings": "$15,400",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 45 spots",
@@ -3851,16 +4159,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T6",
-        "earnings": null,
+        "earnings": "$215,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 42 spots",
@@ -3879,16 +4187,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T25",
-        "earnings": null,
+        "earnings": "$62,923",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 23 spots",
@@ -3907,16 +4215,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 53 spots",
@@ -3935,16 +4243,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "5",
-        "earnings": null,
+        "earnings": "$248,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 8 spots",
@@ -3963,16 +4271,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 990 spots",
@@ -3991,16 +4299,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T15",
-        "earnings": null,
+        "earnings": "$128,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 12 spots",
@@ -4019,16 +4327,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$129,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 45 spots",
@@ -4047,16 +4355,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T37",
-        "earnings": null,
+        "earnings": "$33,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 29 spots",
@@ -4075,16 +4383,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T37",
-        "earnings": null,
+        "earnings": "$34,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 12 spots",
@@ -4103,16 +4411,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T56",
-        "earnings": null,
+        "earnings": "$16,875",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 943 spots",
@@ -4131,16 +4439,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$435,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 9 spots",
@@ -4159,16 +4467,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T9",
-        "earnings": null,
+        "earnings": "$125,833",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 37 spots",
@@ -4183,23 +4491,23 @@
       "playerA": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T48",
+        "finish": "T4",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
+        "finish": "CUT",
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 45 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 995 spots",
       "counted": true
     },
     {
@@ -4215,16 +4523,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 995 spots",
@@ -4243,16 +4551,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$156,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 5 spots",
@@ -4271,16 +4579,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 982 spots",
@@ -4299,16 +4607,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,170,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 1 spot",
@@ -4327,16 +4635,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 998 spots",
@@ -4355,16 +4663,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 964 spots",
@@ -4383,16 +4691,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T65",
-        "earnings": null,
+        "earnings": "$40,625",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 51 spots",
@@ -4411,16 +4719,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$435,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 70 spots",
@@ -4439,16 +4747,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T68",
-        "earnings": null,
+        "earnings": "$39,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 10 spots",
@@ -4472,14 +4780,14 @@
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T47",
-        "earnings": null,
+        "finish": "T10",
+        "earnings": "$154,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
-      "edge": "Phil by 45 spots",
+      "edge": "Phil by 8 spots",
       "counted": true
     },
     {
@@ -4495,16 +4803,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$154,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
@@ -4523,16 +4831,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 944 spots",
@@ -4551,16 +4859,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T20",
-        "earnings": null,
+        "earnings": "$71,400",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 15 spots",
@@ -4579,16 +4887,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T19",
-        "earnings": null,
+        "earnings": "$64,328",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 980 spots",
@@ -4607,16 +4915,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T20",
-        "earnings": null,
+        "earnings": "$80,142",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 19 spots",
@@ -4635,16 +4943,16 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T42",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "rory-mcilroy",
       "edge": "Rory by 957 spots",
@@ -4663,7 +4971,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Rory McIlroy",

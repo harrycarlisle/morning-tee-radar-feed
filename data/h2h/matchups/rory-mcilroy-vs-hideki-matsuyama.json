@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-hideki-matsuyama",
-  "updatedAt": "2026-06-03T05:13:59.996Z",
+  "updatedAt": "2026-06-04T16:00:41.733Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -4856,10 +4856,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$206,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Hideki Matsuyama",
@@ -4884,10 +4884,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T27",
-        "earnings": null,
+        "earnings": "$73,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Hideki Matsuyama",
@@ -4912,10 +4912,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Hideki Matsuyama",
@@ -4940,10 +4940,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T41",
-        "earnings": null,
+        "earnings": "$37,324",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Hideki Matsuyama",

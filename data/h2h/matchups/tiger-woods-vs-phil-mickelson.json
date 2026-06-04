@@ -1,6 +1,6 @@
 {
   "matchupId": "tiger-woods-vs-phil-mickelson",
-  "updatedAt": "2026-06-03T05:48:22.997Z",
+  "updatedAt": "2026-06-04T16:35:09.850Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 1996,
-    "sharedStarts": 186,
-    "playerAWins": 108,
-    "playerBWins": 66,
+    "sharedStarts": 193,
+    "playerAWins": 110,
+    "playerBWins": 71,
     "ties": 12
   },
   "events": [
@@ -280,6 +280,34 @@
       },
       "h2hWinner": "tie",
       "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 15 spots",
       "counted": true
     },
     {
@@ -703,6 +731,34 @@
       "counted": true
     },
     {
+      "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 979 spots",
+      "counted": true
+    },
+    {
       "year": 2018,
       "date": "2018-09-23",
       "eventId": 60,
@@ -1040,6 +1096,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-02-18",
       "eventId": 7,
       "eventName": "Genesis Open",
@@ -1132,10 +1216,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1144,7 +1228,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 981 spots",
@@ -1160,10 +1244,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1172,7 +1256,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 979 spots",
@@ -1188,10 +1272,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1200,7 +1284,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 935 spots",
@@ -1216,10 +1300,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "71",
-        "earnings": null,
+        "earnings": "$12,276",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1228,7 +1312,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 6 spots",
@@ -1244,10 +1328,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T69",
-        "earnings": null,
+        "earnings": "$20,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1256,7 +1340,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 930 spots",
@@ -1272,10 +1356,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T17",
-        "earnings": null,
+        "earnings": "$155,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1284,7 +1368,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 15 spots",
@@ -1312,7 +1396,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -1328,10 +1412,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -1340,7 +1424,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -1368,7 +1452,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 997 spots",
@@ -1396,7 +1480,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -1424,7 +1508,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 46 spots",
@@ -1452,7 +1536,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 9 spots",
@@ -1480,7 +1564,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -1504,15 +1588,15 @@
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 80 spots",
+      "counted": true
     },
     {
       "year": 2013,
@@ -1536,7 +1620,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 10 spots",
@@ -1564,7 +1648,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 22 spots",
@@ -1592,7 +1676,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 24 spots",
@@ -1620,7 +1704,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 4 spots",
@@ -1648,7 +1732,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 32 spots",
@@ -1676,7 +1760,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 20 spots",
@@ -1704,7 +1788,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 5 spots",
@@ -1732,10 +1816,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 30 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-02",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Nationwide Insurance",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 16 spots",
       "counted": true
     },
     {
@@ -1760,7 +1872,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 998 spots",
@@ -1788,7 +1900,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 50 spots",
@@ -1816,7 +1928,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 998 spots",
@@ -1844,10 +1956,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2013,
+      "date": "2013-03-03",
+      "eventId": 10,
+      "eventName": "The Honda Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T37",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 962 spots",
       "counted": true
     },
     {
@@ -1872,7 +2012,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 50 spots",
@@ -1900,7 +2040,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 7 spots",
@@ -1928,7 +2068,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 2 spots",
@@ -1956,7 +2096,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 1 spot",
@@ -1984,7 +2124,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -2012,7 +2152,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 25 spots",
@@ -2040,7 +2180,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 35 spots",
@@ -2068,7 +2208,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 996 spots",
@@ -2096,7 +2236,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -2124,7 +2264,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 44 spots",
@@ -2148,15 +2288,15 @@
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "WD",
+        "finish": "W/D",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "excluded",
-      "edge": "Excluded due to WD/DQ",
-      "counted": false
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
     },
     {
       "year": 2012,
@@ -2180,7 +2320,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 15 spots",
@@ -2208,7 +2348,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 973 spots",
@@ -2236,7 +2376,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 37 spots",
@@ -2264,7 +2404,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 23 spots",
@@ -2292,7 +2432,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -2320,7 +2460,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 14 spots",
@@ -2348,7 +2488,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 980 spots",
@@ -2376,7 +2516,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 11 spots",
@@ -2404,7 +2544,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 23 spots",
@@ -2432,7 +2572,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -2460,7 +2600,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 45 spots",
@@ -2488,7 +2628,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 42 spots",
@@ -2516,7 +2656,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 7 spots",
@@ -2544,7 +2684,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 14 spots",
@@ -2572,7 +2712,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 987 spots",
@@ -2600,7 +2740,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 16 spots",
@@ -2628,7 +2768,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 32 spots",
@@ -2652,14 +2792,14 @@
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T48",
+        "finish": "T4",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "tiger-woods",
-      "edge": "Tiger by 25 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 19 spots",
       "counted": true
     },
     {
@@ -2684,7 +2824,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -2712,7 +2852,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 14 spots",
@@ -2740,7 +2880,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "excluded",
       "edge": "Excluded due to WD/DQ",
@@ -2768,7 +2908,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 997 spots",
@@ -2796,7 +2936,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 3 spots",
@@ -2824,7 +2964,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 1 spot",
@@ -2852,7 +2992,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 29 spots",
@@ -2880,7 +3020,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 16 spots",
@@ -2908,7 +3048,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 50 spots",
@@ -2936,7 +3076,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 71 spots",
@@ -2964,7 +3104,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 57 spots",
@@ -3020,7 +3160,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 4 spots",
@@ -3048,7 +3188,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 47 spots",
@@ -3076,7 +3216,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 1 spot",
@@ -3104,7 +3244,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 1 spot",
@@ -3132,7 +3272,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
@@ -3160,7 +3300,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 17 spots",
@@ -3188,7 +3328,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 3 spots",
@@ -3216,7 +3356,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 15 spots",
@@ -3244,7 +3384,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 20 spots",
@@ -3272,7 +3412,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 5 spots",
@@ -3288,10 +3428,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,260,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3300,7 +3440,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 19 spots",
@@ -3316,10 +3456,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T2",
-        "earnings": null,
+        "earnings": "$522,666",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3328,7 +3468,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 1 spot",
@@ -3344,10 +3484,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,260,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3356,7 +3496,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 31 spots",
@@ -3372,10 +3512,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,350,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3384,7 +3524,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 45 spots",
@@ -3399,11 +3539,11 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "T12",
-        "earnings": null,
+        "finish": "T2",
+        "earnings": "$611,336",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3412,10 +3552,10 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
-      "edge": "Tiger by 987 spots",
+      "edge": "Tiger by 997 spots",
       "counted": true
     },
     {
@@ -3428,10 +3568,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T6",
-        "earnings": null,
+        "earnings": "$208,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3440,7 +3580,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 993 spots",
@@ -3456,10 +3596,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T2",
-        "earnings": null,
+        "earnings": "$611,336",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3468,7 +3608,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 997 spots",
@@ -3484,10 +3624,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T15",
-        "earnings": null,
+        "earnings": "$93,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3512,10 +3652,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T37",
-        "earnings": null,
+        "earnings": "$38,700",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3524,7 +3664,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 36 spots",
@@ -3540,10 +3680,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,134,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3552,7 +3692,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
@@ -3568,10 +3708,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T2",
-        "earnings": null,
+        "earnings": "$541,333",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3580,7 +3720,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 22 spots",
@@ -3596,10 +3736,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,350,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3608,7 +3748,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 22 spots",
@@ -3624,10 +3764,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T22",
-        "earnings": null,
+        "earnings": "$51,058",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3636,7 +3776,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 14 spots",
@@ -3652,10 +3792,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$936,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3664,7 +3804,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 50 spots",
@@ -3679,11 +3819,11 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "1",
-        "earnings": null,
+        "finish": "P1",
+        "earnings": "$1,300,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3692,7 +3832,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 53 spots",
@@ -3708,10 +3848,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,224,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3720,7 +3860,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 15 spots",
@@ -3735,23 +3875,23 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "1",
-        "earnings": null,
+        "finish": "CUT",
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T22",
+        "finish": "T2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "tiger-woods",
-      "edge": "Tiger by 21 spots",
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 997 spots",
       "counted": true
     },
     {
@@ -3764,10 +3904,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T2",
-        "earnings": null,
+        "earnings": "$440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3776,7 +3916,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 63 spots",
@@ -3792,10 +3932,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3804,7 +3944,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 997 spots",
@@ -3820,10 +3960,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$315,700",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3832,7 +3972,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 2 spots",
@@ -3848,10 +3988,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T22",
-        "earnings": null,
+        "earnings": "$76,800",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3860,7 +4000,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
@@ -3875,11 +4015,11 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "1",
-        "earnings": null,
+        "finish": "P1",
+        "earnings": "$918,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3888,7 +4028,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 7 spots",
@@ -3904,10 +4044,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,300,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3916,7 +4056,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 28 spots",
@@ -3932,10 +4072,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,300,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3944,7 +4084,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 50 spots",
@@ -3960,10 +4100,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T4",
-        "earnings": null,
+        "earnings": "$286,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -3972,7 +4112,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 3 spots",
@@ -3987,23 +4127,23 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "1",
-        "earnings": null,
+        "finish": "2",
+        "earnings": "$700,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T60",
+        "finish": "T33",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
-      "edge": "Tiger by 59 spots",
+      "edge": "Tiger by 31 spots",
       "counted": true
     },
     {
@@ -4016,10 +4156,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "2",
-        "earnings": null,
+        "earnings": "$700,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4028,7 +4168,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 31 spots",
@@ -4044,10 +4184,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4056,7 +4196,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 985 spots",
@@ -4072,10 +4212,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T11",
-        "earnings": null,
+        "earnings": "$127,200",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4084,7 +4224,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 4 spots",
@@ -4100,10 +4240,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,260,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4112,7 +4252,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 9 spots",
@@ -4128,10 +4268,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T53",
-        "earnings": null,
+        "earnings": "$18,613",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4140,7 +4280,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 13 spots",
@@ -4156,10 +4296,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$864,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4168,7 +4308,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 55 spots",
@@ -4184,10 +4324,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "2",
-        "earnings": null,
+        "earnings": "$648,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4196,7 +4336,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 17 spots",
@@ -4212,10 +4352,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T2",
-        "earnings": null,
+        "earnings": "$552,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4224,7 +4364,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 41 spots",
@@ -4240,10 +4380,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T24",
-        "earnings": null,
+        "earnings": "$46,714",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4252,7 +4392,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 18 spots",
@@ -4267,23 +4407,23 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "T9",
-        "earnings": null,
+        "finish": "T17",
+        "earnings": "$98,477",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "3",
+        "finish": "2",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
-      "edge": "Phil by 6 spots",
+      "edge": "Phil by 15 spots",
       "counted": true
     },
     {
@@ -4296,10 +4436,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T17",
-        "earnings": null,
+        "earnings": "$98,477",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4308,7 +4448,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 15 spots",
@@ -4324,10 +4464,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T4",
-        "earnings": null,
+        "earnings": "$239,733",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4336,7 +4476,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 995 spots",
@@ -4352,10 +4492,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$324,800",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4364,7 +4504,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
@@ -4380,10 +4520,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T22",
-        "earnings": null,
+        "earnings": "$70,200",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4392,7 +4532,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 21 spots",
@@ -4408,10 +4548,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T16",
-        "earnings": null,
+        "earnings": "$116,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4420,7 +4560,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 13 spots",
@@ -4436,10 +4576,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$106,400",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4448,7 +4588,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 6 spots",
@@ -4464,10 +4604,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T39",
-        "earnings": null,
+        "earnings": "$22,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4476,7 +4616,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 16 spots",
@@ -4491,23 +4631,23 @@
       "playerA": {
         "name": "Tiger Woods",
         "dgId": 5321,
-        "finish": "T4",
-        "earnings": null,
+        "finish": "T20",
+        "earnings": "$64,170",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
         "dgId": 1547,
-        "finish": "T59",
+        "finish": "T55",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
-      "edge": "Tiger by 55 spots",
+      "edge": "Tiger by 35 spots",
       "counted": true
     },
     {
@@ -4520,10 +4660,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T20",
-        "earnings": null,
+        "earnings": "$64,170",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4532,7 +4672,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 35 spots",
@@ -4548,10 +4688,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T15",
-        "earnings": null,
+        "earnings": "$93,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4560,7 +4700,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 12 spots",
@@ -4576,10 +4716,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "2",
-        "earnings": null,
+        "earnings": "$594,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4588,7 +4728,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 32 spots",
@@ -4604,10 +4744,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T28",
-        "earnings": null,
+        "earnings": "$37,924",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4616,7 +4756,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 38 spots",
@@ -4632,10 +4772,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,000,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4644,7 +4784,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 1 spot",
@@ -4660,10 +4800,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,008,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4672,7 +4812,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
@@ -4688,10 +4828,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T14",
-        "earnings": null,
+        "earnings": "$102,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4700,7 +4840,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 14 spots",
@@ -4716,10 +4856,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T29",
-        "earnings": null,
+        "earnings": "$29,437",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4728,7 +4868,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 27 spots",
@@ -4744,10 +4884,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T25",
-        "earnings": null,
+        "earnings": "$39,338",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4756,7 +4896,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 5 spots",
@@ -4772,10 +4912,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T12",
-        "earnings": null,
+        "earnings": "$91,733",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4784,7 +4924,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 5 spots",
@@ -4800,10 +4940,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,008,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4812,7 +4952,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
@@ -4828,10 +4968,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,080,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4840,7 +4980,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 32 spots",
@@ -4856,10 +4996,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$900,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4868,7 +5008,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 8 spots",
@@ -4884,10 +5024,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$759,150",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4896,7 +5036,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 10 spots",
@@ -4912,10 +5052,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$800,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4924,7 +5064,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 15 spots",
@@ -4940,10 +5080,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "5",
-        "earnings": null,
+        "earnings": "$184,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4952,7 +5092,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 2 spots",
@@ -4968,10 +5108,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "2",
-        "earnings": null,
+        "earnings": "$648,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -4980,7 +5120,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 997 spots",
@@ -4996,10 +5136,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$630,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5008,7 +5148,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 56 spots",
@@ -5024,10 +5164,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T7",
-        "earnings": null,
+        "earnings": "$78,115",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5036,7 +5176,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 992 spots",
@@ -5052,10 +5192,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$196,791",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5064,7 +5204,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 1 spot",
@@ -5080,10 +5220,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T18",
-        "earnings": null,
+        "earnings": "$52,160",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5092,7 +5232,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 12 spots",
@@ -5108,10 +5248,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$107,142",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5120,7 +5260,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 22 spots",
@@ -5136,10 +5276,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$69,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5148,7 +5288,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 24 spots",
@@ -5164,10 +5304,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "3",
-        "earnings": null,
+        "earnings": "$222,075",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5176,7 +5316,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 76 spots",
@@ -5192,10 +5332,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T18",
-        "earnings": null,
+        "earnings": "$41,833",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5204,7 +5344,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
@@ -5220,10 +5360,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$89,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5232,7 +5372,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 4 spots",
@@ -5248,10 +5388,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T35",
-        "earnings": null,
+        "earnings": "$18,885",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5260,7 +5400,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 27 spots",
@@ -5276,10 +5416,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T29",
-        "earnings": null,
+        "earnings": "$13,625",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5288,7 +5428,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -5304,10 +5444,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T24",
-        "earnings": null,
+        "earnings": "$17,362",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5316,7 +5456,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -5332,10 +5472,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T19",
-        "earnings": null,
+        "earnings": "$31,915",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5344,7 +5484,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 24 spots",
@@ -5360,10 +5500,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$486,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5372,7 +5512,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 998 spots",
@@ -5388,10 +5528,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T31",
-        "earnings": null,
+        "earnings": "$20,300",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5400,7 +5540,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 968 spots",
@@ -5416,10 +5556,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T22",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5428,7 +5568,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 18 spots",
@@ -5444,10 +5584,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "T82",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5456,7 +5596,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 12 spots",
@@ -5472,10 +5612,10 @@
         "name": "Tiger Woods",
         "dgId": 5321,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Phil Mickelson",
@@ -5484,7 +5624,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 996 spots",

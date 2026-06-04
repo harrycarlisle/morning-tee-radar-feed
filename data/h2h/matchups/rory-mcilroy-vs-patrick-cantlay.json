@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-patrick-cantlay",
-  "updatedAt": "2026-06-03T05:13:59.865Z",
+  "updatedAt": "2026-06-04T16:00:41.577Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -3260,10 +3260,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Patrick Cantlay",
@@ -3288,10 +3288,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T40",
-        "earnings": null,
+        "earnings": "$32,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Patrick Cantlay",

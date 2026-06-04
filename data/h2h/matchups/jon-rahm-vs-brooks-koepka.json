@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-brooks-koepka",
-  "updatedAt": "2026-06-03T05:25:21.469Z",
+  "updatedAt": "2026-06-04T16:12:03.897Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 84,
-    "playerAWins": 43,
-    "playerBWins": 39,
+    "sharedStarts": 88,
+    "playerAWins": 46,
+    "playerBWins": 40,
     "ties": 2
   },
   "events": [
@@ -1572,6 +1572,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-12-02",
+      "eventId": 478,
+      "eventName": "Hero World Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-10-28",
       "eventId": 489,
       "eventName": "World Golf Championships-HSBC Champions",
@@ -1876,6 +1904,34 @@
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-04",
+      "eventId": 473,
+      "eventName": "World Golf Championships-Mexico Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "DNS",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 20 spots",
       "counted": true
     },
     {
@@ -2216,6 +2272,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-05-07",
+      "eventId": 480,
+      "eventName": "Wells Fargo Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 38 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-04-09",
       "eventId": 14,
       "eventName": "Masters Tournament",
@@ -2344,14 +2428,14 @@
       "playerB": {
         "name": "Brooks Koepka",
         "dgId": 16243,
-        "finish": "2",
+        "finish": "CUT",
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
-      "h2hWinner": "brooks-koepka",
-      "edge": "Brooks by 13 spots",
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 984 spots",
       "counted": true
     },
     {
@@ -2376,10 +2460,38 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 16 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 53 spots",
       "counted": true
     },
     {
@@ -2404,7 +2516,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "h2hWinner": "brooks-koepka",
       "edge": "Brooks by 10 spots",

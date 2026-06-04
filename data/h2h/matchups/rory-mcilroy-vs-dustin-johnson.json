@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-dustin-johnson",
-  "updatedAt": "2026-06-03T05:20:04.899Z",
+  "updatedAt": "2026-06-04T16:06:47.162Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -25,8 +25,8 @@
   "summary": {
     "since": 2008,
     "sharedStarts": 164,
-    "playerAWins": 84,
-    "playerBWins": 70,
+    "playerAWins": 83,
+    "playerBWins": 71,
     "ties": 10
   },
   "events": [
@@ -3204,10 +3204,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T59",
-        "earnings": null,
+        "earnings": "$17,680",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3232,10 +3232,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T47",
-        "earnings": null,
+        "earnings": "$20,826",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3260,10 +3260,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T19",
-        "earnings": null,
+        "earnings": "$93,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3288,10 +3288,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$206,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3316,10 +3316,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T27",
-        "earnings": null,
+        "earnings": "$73,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3344,10 +3344,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3372,10 +3372,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T41",
-        "earnings": null,
+        "earnings": "$37,324",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3400,10 +3400,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T57",
-        "earnings": null,
+        "earnings": "$13,702",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3428,10 +3428,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$237,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3456,10 +3456,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T25",
-        "earnings": null,
+        "earnings": "$56,040",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3484,10 +3484,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T45",
-        "earnings": null,
+        "earnings": "$18,153",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3512,10 +3512,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$163,750",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3540,10 +3540,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "WD",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3568,10 +3568,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$205,760",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3596,10 +3596,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3624,10 +3624,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3652,10 +3652,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T24",
-        "earnings": null,
+        "earnings": "$56,700",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3680,10 +3680,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,445,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3708,10 +3708,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T5",
-        "earnings": null,
+        "earnings": "$276,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3736,10 +3736,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T60",
-        "earnings": null,
+        "earnings": "$19,291",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3764,10 +3764,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3792,10 +3792,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T7",
-        "earnings": null,
+        "earnings": "$168,700",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3820,10 +3820,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3876,10 +3876,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T64",
-        "earnings": null,
+        "earnings": "$15,400",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3904,10 +3904,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T6",
-        "earnings": null,
+        "earnings": "$215,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3932,10 +3932,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T25",
-        "earnings": null,
+        "earnings": "$62,923",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3960,10 +3960,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -3988,10 +3988,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "5",
-        "earnings": null,
+        "earnings": "$248,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4016,10 +4016,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4044,10 +4044,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T15",
-        "earnings": null,
+        "earnings": "$128,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4072,10 +4072,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$129,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4100,10 +4100,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "4",
-        "earnings": null,
+        "earnings": "$300,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4128,10 +4128,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T37",
-        "earnings": null,
+        "earnings": "$33,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4156,10 +4156,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T37",
-        "earnings": null,
+        "earnings": "$34,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4184,10 +4184,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T56",
-        "earnings": null,
+        "earnings": "$16,875",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4212,10 +4212,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$435,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4240,10 +4240,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T9",
-        "earnings": null,
+        "earnings": "$125,833",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4267,11 +4267,11 @@
       "playerA": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
+        "finish": "CUT",
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4282,8 +4282,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 11 spots",
+      "h2hWinner": "dustin-johnson",
+      "edge": "Dustin by 985 spots",
       "counted": true
     },
     {
@@ -4296,10 +4296,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4324,10 +4324,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$156,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4352,10 +4352,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4380,10 +4380,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,170,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4408,10 +4408,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4436,10 +4436,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T65",
-        "earnings": null,
+        "earnings": "$40,625",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4464,10 +4464,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$435,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4492,10 +4492,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T68",
-        "earnings": null,
+        "earnings": "$39,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4519,11 +4519,11 @@
       "playerA": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T47",
-        "earnings": null,
+        "finish": "T10",
+        "earnings": "$154,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4535,7 +4535,7 @@
         "manual": false
       },
       "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 952 spots",
+      "edge": "Rory by 989 spots",
       "counted": true
     },
     {
@@ -4548,10 +4548,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T10",
-        "earnings": null,
+        "earnings": "$154,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4576,10 +4576,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4604,10 +4604,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T58",
-        "earnings": null,
+        "earnings": "$12,597",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4632,10 +4632,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T20",
-        "earnings": null,
+        "earnings": "$71,400",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4660,10 +4660,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T19",
-        "earnings": null,
+        "earnings": "$64,328",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",
@@ -4688,10 +4688,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T20",
-        "earnings": null,
+        "earnings": "$80,142",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Dustin Johnson",

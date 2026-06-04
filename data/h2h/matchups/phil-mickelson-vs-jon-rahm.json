@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-jon-rahm",
-  "updatedAt": "2026-06-03T05:48:23.474Z",
+  "updatedAt": "2026-06-04T16:35:10.416Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 87,
-    "playerAWins": 23,
-    "playerBWins": 61,
-    "ties": 3
+    "sharedStarts": 94,
+    "playerAWins": 25,
+    "playerBWins": 65,
+    "ties": 4
   },
   "events": [
     {
@@ -759,6 +759,34 @@
       "counted": true
     },
     {
+      "year": 2021,
+      "date": "2021-01-10",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 23 spots",
+      "counted": true
+    },
+    {
       "year": 2020,
       "date": "2020-11-15",
       "eventId": 14,
@@ -840,6 +868,34 @@
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 65 spots",
       "counted": true
     },
     {
@@ -1264,6 +1320,34 @@
     },
     {
       "year": 2019,
+      "date": "2019-05-26",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-05-19",
       "eventId": 33,
       "eventName": "PGA Championship",
@@ -1432,6 +1516,34 @@
     },
     {
       "year": 2019,
+      "date": "2019-01-27",
+      "eventId": 4,
+      "eventName": "Farmers Insurance Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-01-20",
       "eventId": 2,
       "eventName": "Desert Classic",
@@ -1456,6 +1568,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-10-28",
+      "eventId": 489,
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
       "counted": true
     },
     {
@@ -1908,6 +2048,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-09-24",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 23 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-09-17",
       "eventId": 28,
       "eventName": "BMW Championship",
@@ -2072,6 +2240,34 @@
       },
       "h2hWinner": "jon-rahm",
       "edge": "Jon by 955 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 951 spots",
       "counted": true
     },
     {
@@ -2395,7 +2591,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jon Rahm",
@@ -2423,7 +2619,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jon Rahm",
@@ -2451,7 +2647,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Jon Rahm",

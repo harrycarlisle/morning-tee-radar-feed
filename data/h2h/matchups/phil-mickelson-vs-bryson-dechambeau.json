@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-bryson-dechambeau",
-  "updatedAt": "2026-06-03T05:48:23.598Z",
+  "updatedAt": "2026-06-04T16:35:10.545Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 91,
-    "playerAWins": 30,
-    "playerBWins": 52,
-    "ties": 9
+    "sharedStarts": 100,
+    "playerAWins": 32,
+    "playerBWins": 58,
+    "ties": 10
   },
   "events": [
     {
@@ -787,6 +787,34 @@
       "counted": true
     },
     {
+      "year": 2021,
+      "date": "2021-01-10",
+      "eventId": 16,
+      "eventName": "Sentry Tournament of Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 23 spots",
+      "counted": true
+    },
+    {
       "year": 2020,
       "date": "2020-11-15",
       "eventId": 14,
@@ -816,6 +844,34 @@
     },
     {
       "year": 2020,
+      "date": "2020-10-11",
+      "eventId": 47,
+      "eventName": "Shriners Hospitals for Children Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 53 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
       "date": "2020-09-20",
       "eventId": 26,
       "eventName": "U.S. Open",
@@ -840,6 +896,34 @@
       },
       "h2hWinner": "bryson-dechambeau",
       "edge": "Bryson by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-30",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 16 spots",
       "counted": true
     },
     {
@@ -952,6 +1036,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 945 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-07-05",
+      "eventId": 524,
+      "eventName": "Rocket Mortgage Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T74",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 73 spots",
       "counted": true
     },
     {
@@ -1376,6 +1488,34 @@
     },
     {
       "year": 2019,
+      "date": "2019-05-26",
+      "eventId": 21,
+      "eventName": "Charles Schwab Challenge",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2019,
       "date": "2019-05-19",
       "eventId": 33,
       "eventName": "PGA Championship",
@@ -1740,6 +1880,34 @@
     },
     {
       "year": 2018,
+      "date": "2018-06-24",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 990 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
       "date": "2018-06-17",
       "eventId": 26,
       "eventName": "U.S. Open",
@@ -1876,6 +2044,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2018,
+      "date": "2018-03-18",
+      "eventId": 9,
+      "eventName": "Arnold Palmer Invitational presented by Mastercard",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "bryson-dechambeau",
+      "edge": "Bryson by 997 spots",
       "counted": true
     },
     {
@@ -2216,6 +2412,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T48",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 951 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-06-11",
       "eventId": 25,
       "eventName": "FedEx St. Jude Classic",
@@ -2451,7 +2675,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",
@@ -2479,7 +2703,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",
@@ -2507,7 +2731,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",
@@ -2524,6 +2748,34 @@
     },
     {
       "year": 2016,
+      "date": "2016-05-29",
+      "eventId": 21,
+      "eventName": "DEAN & DELUCA Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 970 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
       "date": "2016-05-08",
       "eventId": 480,
       "eventName": "Wells Fargo Championship",
@@ -2535,7 +2787,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",
@@ -2563,7 +2815,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",
@@ -2591,7 +2843,7 @@
         "earnings": null,
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Bryson DeChambeau",

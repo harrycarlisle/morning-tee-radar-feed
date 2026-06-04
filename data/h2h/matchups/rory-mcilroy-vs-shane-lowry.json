@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-shane-lowry",
-  "updatedAt": "2026-06-03T05:19:39.671Z",
+  "updatedAt": "2026-06-04T16:01:06.888Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -25,8 +25,8 @@
   "summary": {
     "since": 2009,
     "sharedStarts": 140,
-    "playerAWins": 101,
-    "playerBWins": 32,
+    "playerAWins": 100,
+    "playerBWins": 33,
     "ties": 7
   },
   "events": [
@@ -3708,10 +3708,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T8",
-        "earnings": null,
+        "earnings": "$206,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3736,10 +3736,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T27",
-        "earnings": null,
+        "earnings": "$73,500",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3764,10 +3764,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "CUT",
-        "earnings": null,
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3792,10 +3792,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T57",
-        "earnings": null,
+        "earnings": "$13,702",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3820,10 +3820,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "2",
-        "earnings": null,
+        "earnings": "$669,600",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3848,10 +3848,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T45",
-        "earnings": null,
+        "earnings": "$18,153",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3876,10 +3876,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "1",
-        "earnings": null,
+        "earnings": "$1,440,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3904,10 +3904,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T3",
-        "earnings": null,
+        "earnings": "$435,000",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3931,11 +3931,11 @@
       "playerA": {
         "name": "Rory McIlroy",
         "dgId": 10091,
-        "finish": "T3",
-        "earnings": null,
+        "finish": "CUT",
+        "earnings": "$0",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
@@ -3946,8 +3946,8 @@
         "dgPoints": null,
         "manual": false
       },
-      "h2hWinner": "rory-mcilroy",
-      "edge": "Rory by 34 spots",
+      "h2hWinner": "shane-lowry",
+      "edge": "Shane by 962 spots",
       "counted": true
     },
     {
@@ -3960,10 +3960,10 @@
         "name": "Rory McIlroy",
         "dgId": 10091,
         "finish": "T68",
-        "earnings": null,
+        "earnings": "$39,250",
         "fedExCupPoints": null,
         "dgPoints": null,
-        "manual": false
+        "manual": true
       },
       "playerB": {
         "name": "Shane Lowry",
