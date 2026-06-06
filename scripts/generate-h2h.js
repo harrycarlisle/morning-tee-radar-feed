@@ -116,8 +116,25 @@ const PLAYERS = {
   tommy: { name: "Fleetwood, Tommy", displayName: "Tommy Fleetwood", slug: "tommy-fleetwood", dgId: 12294, country: "ENG" },
   phil: { name: "Mickelson, Phil", displayName: "Phil Mickelson", slug: "phil-mickelson", dgId: 1547, country: "USA" },
   tiger: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
-  jack: { name: "Nicklaus, Jack", displayName: "Jack Nicklaus", slug: "jack-nicklaus", dgId: null, country: "USA", manualOnly: true },
-  
+
+  jack: {
+    name: "Nicklaus, Jack",
+    displayName: "Jack Nicklaus",
+    slug: "jack-nicklaus",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  byron: {
+    name: "Nelson, Byron",
+    displayName: "Byron Nelson",
+    slug: "byron-nelson",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
   jt: { name: "Thomas, Justin", displayName: "Justin Thomas", slug: "justin-thomas", dgId: 14139, country: "USA" },
   spieth: { name: "Spieth, Jordan", displayName: "Jordan Spieth", slug: "jordan-spieth", dgId: 14636, country: "USA" },
   cantlay: { name: "Cantlay, Patrick", displayName: "Patrick Cantlay", slug: "patrick-cantlay", dgId: 15466, country: "USA" },
@@ -147,6 +164,46 @@ function m(playerA, playerB, startYear = 2020, dataNote = null) {
     ...(dataNote ? { dataNote } : {})
   };
 }
+
+const PRIME_SEASONS = {
+  "byron-nelson": {
+    year: "1945",
+    label: "1945, 18-win season"
+  },
+  "jack-nicklaus": {
+    year: "1972",
+    label: "1972, Masters and U.S. Open season"
+  },
+  "tiger-woods": {
+    year: "2000",
+    label: "2000, peak Tiger"
+  },
+  "phil-mickelson": {
+    year: "2005",
+    label: "2005, major-winning prime"
+  },
+  "rory-mcilroy": {
+    year: "2014",
+    label: "2014, two-major season"
+  },
+  "scottie-scheffler": {
+    year: "2024",
+    label: "2024, dominant modern season"
+  },
+  "bryson-dechambeau": {
+    year: "2024",
+    label: "2024, U.S. Open season"
+  }
+};
+
+const PRIME_MATCHUPS = [
+  { playerA: p("byron"), playerB: p("jack") },
+  { playerA: p("byron"), playerB: p("tiger") },
+  { playerA: p("jack"), playerB: p("tiger") },
+  { playerA: p("tiger"), playerB: p("scottie") },
+  { playerA: p("scottie"), playerB: p("bryson") },
+  { playerA: p("rory"), playerB: p("bryson") }
+];
 
 const MATCHUPS = [
   m("scottie", "rory", 2020),
@@ -244,6 +301,10 @@ const MATCHUPS = [
   m("phil", "hideki", 2013, "Uses manual Phil Mickelson and Hideki Matsuyama results before 2017 where available, then automatic results from 2017 onward."),
   m("phil", "dj", 2008, "Uses manual Phil Mickelson and Dustin Johnson results before 2017 where available, then automatic results from 2017 onward."),
 
+  m("jack", "tiger", 1996, "Uses manual Jack Nicklaus results where available, plus Tiger Woods results from manual and automatic sources."),
+  m("jack", "phil", 1992, "Uses manual Jack Nicklaus results where available, plus Phil Mickelson results from manual and automatic sources."),
+  m("jack", "rory", 2007, "Uses manual Jack Nicklaus results where available, plus Rory McIlroy results from manual and automatic sources."),
+
   m("ludvig", "rahm", 2023),
   m("ludvig", "scottie", 2023),
   m("ludvig", "bryson", 2023),
@@ -253,11 +314,7 @@ const MATCHUPS = [
   m("brooks", "collin", 2019),
   m("brooks", "viktor", 2019),
 
-  m("rahm", "camSmith", 2016, "Uses manual results before 2017 where available, then automatic results from 2017 onward."),
-
-  m("jack", "tiger", 1996, "Uses manual Jack Nicklaus results where available, plus Tiger Woods results from manual and automatic sources."),
-m("jack", "phil", 1992, "Uses manual Jack Nicklaus results where available, plus Phil Mickelson results from manual and automatic sources."),
-m("jack", "rory", 2007, "Uses manual Jack Nicklaus results where available, plus Rory McIlroy results from manual and automatic sources."),
+  m("rahm", "camSmith", 2016, "Uses manual results before 2017 where available, then automatic results from 2017 onward.")
 ];
 
 const REQUEST_DELAY_MS = 500;
@@ -384,9 +441,9 @@ function sortEventsNewestFirst(events) {
 }
 
 async function getEventList(startYear) {
-const url = dataGolfUrl("historical-raw-data/event-list", {
-  tour: TOUR
-});
+  const url = dataGolfUrl("historical-raw-data/event-list", {
+    tour: TOUR
+  });
 
   const data = await fetchJson(url);
 
@@ -409,6 +466,7 @@ const url = dataGolfUrl("historical-raw-data/event-list", {
       }))
   );
 }
+
 async function getEventResults(event) {
   const cacheKey = `${event.tour || TOUR}:${event.year}:${event.eventId}`;
 
@@ -427,16 +485,16 @@ async function getEventResults(event) {
   const data = await fetchJson(url);
 
   const rows = Array.isArray(data)
-  ? data
-  : data.scores ||
-    data.event_stats ||
-    data.results ||
-    data.data ||
-    data.event_results ||
-    data.players ||
-    data.event_data ||
-    data.finishes ||
-    [];
+    ? data
+    : data.scores ||
+      data.event_stats ||
+      data.results ||
+      data.data ||
+      data.event_results ||
+      data.players ||
+      data.event_data ||
+      data.finishes ||
+      [];
 
   eventResultsCache.set(cacheKey, rows);
   return rows;
@@ -462,6 +520,206 @@ function validateMatchup(matchup) {
   }
 }
 
+function getFinish(event) {
+  return event?.finish ?? event?.position ?? "";
+}
+
+function getToPar(event) {
+  return event?.toPar ?? event?.overall ?? null;
+}
+
+function isWinValue(value) {
+  const raw = String(value || "").trim().toUpperCase();
+  return raw === "1" || raw === "P1";
+}
+
+function isWdOrDqValue(value) {
+  const raw = String(value || "").trim().toUpperCase();
+  return raw === "W/D" || raw === "WD" || raw === "DQ" || raw === "DNS";
+}
+
+function isMissedCutValue(value) {
+  const raw = String(value || "").trim().toUpperCase();
+  return raw === "CUT" || raw === "MC";
+}
+
+function isCountableStartValue(value) {
+  const raw = String(value || "").trim().toUpperCase();
+
+  if (!raw || raw === "-") return false;
+  if (isWdOrDqValue(raw)) return false;
+
+  return true;
+}
+
+function isMadeCutValue(value) {
+  if (!isCountableStartValue(value)) return false;
+  return !isMissedCutValue(value);
+}
+
+function finishNumber(value) {
+  if (!value) return null;
+
+  const raw = String(value).trim().toUpperCase();
+
+  if (raw === "CUT" || raw === "MC") return 999;
+  if (raw === "W/D" || raw === "WD" || raw === "DQ" || raw === "DNS" || raw === "-") return null;
+
+  const cleaned = raw.replace(/^P/, "").replace(/^T/, "");
+  const match = cleaned.match(/\d+/);
+
+  return match ? Number(match[0]) : null;
+}
+
+function parseToPar(value) {
+  if (value === null || value === undefined) return null;
+
+  const text = String(value).trim();
+
+  if (!text || text === "-") return null;
+  if (text.toUpperCase() === "E") return 0;
+
+  const number = Number(text.replace("+", ""));
+
+  if (!Number.isFinite(number)) return null;
+
+  if (Math.abs(number) > 60) return null;
+
+  return number;
+}
+
+function isMajorSeasonEvent(event) {
+  const name = String(event?.tournament || event?.eventName || "").toLowerCase();
+
+  return (
+    name.includes("masters") ||
+    name.includes("u.s. open") ||
+    name.includes("us open") ||
+    name.includes("pga championship") ||
+    name.includes("the open championship")
+  );
+}
+
+function getPrimeSeason(player) {
+  const manual = loadManualResults(player.slug);
+  const prime = PRIME_SEASONS[player.slug];
+
+  if (!manual) {
+    throw new Error(`Missing manual results file for ${player.displayName}`);
+  }
+
+  if (!prime) {
+    throw new Error(`Missing prime season config for ${player.displayName}`);
+  }
+
+  const season = manual.seasons?.[prime.year];
+
+  if (!season || !Array.isArray(season.events)) {
+    throw new Error(`Missing ${prime.year} season for ${player.displayName}`);
+  }
+
+  return {
+    player,
+    year: prime.year,
+    label: prime.label,
+    events: season.events
+  };
+}
+
+function summarizePrimeSeason(primeSeason) {
+  const allEvents = primeSeason.events || [];
+
+  const officialEvents = allEvents.filter((event) => {
+    return event.official !== false && event.officialStart !== false && event.unofficial !== true;
+  });
+
+  const countableEvents = officialEvents.filter((event) => {
+    return isCountableStartValue(getFinish(event));
+  });
+
+  const madeCuts = countableEvents.filter((event) => {
+    return isMadeCutValue(getFinish(event));
+  });
+
+  const wins = countableEvents.filter((event) => {
+    return isWinValue(getFinish(event));
+  }).length;
+
+  const majors = countableEvents.filter((event) => {
+    return isMajorSeasonEvent(event) && isWinValue(getFinish(event));
+  }).length;
+
+  const top5s = countableEvents.filter((event) => {
+    const finish = finishNumber(getFinish(event));
+    return finish !== null && finish <= 5;
+  }).length;
+
+  const top10s = countableEvents.filter((event) => {
+    const finish = finishNumber(getFinish(event));
+    return finish !== null && finish <= 10;
+  }).length;
+
+  const finishValues = madeCuts
+    .map((event) => finishNumber(getFinish(event)))
+    .filter((value) => value !== null && value < 999);
+
+  const toParValues = madeCuts
+    .map((event) => parseToPar(getToPar(event)))
+    .filter((value) => value !== null);
+
+  const averageFinish = finishValues.length
+    ? finishValues.reduce((sum, value) => sum + value, 0) / finishValues.length
+    : null;
+
+  const averageScoreToPar = toParValues.length
+    ? toParValues.reduce((sum, value) => sum + value, 0) / toParValues.length
+    : null;
+
+  return {
+    player: primeSeason.player,
+    year: primeSeason.year,
+    label: primeSeason.label,
+
+    eventsPlayed: countableEvents.length,
+    officialEvents: officialEvents.length,
+
+    wins,
+    majors,
+    top5s,
+    top10s,
+
+    madeCuts: madeCuts.length,
+    missedCuts: countableEvents.length - madeCuts.length,
+
+    cutRate: countableEvents.length ? madeCuts.length / countableEvents.length : null,
+    winRate: countableEvents.length ? wins / countableEvents.length : null,
+    top10Rate: countableEvents.length ? top10s / countableEvents.length : null,
+
+    averageFinish,
+    averageScoreToPar,
+
+    events: allEvents
+  };
+}
+
+function roundMetric(value, digits = 1) {
+  if (value === null || value === undefined || Number.isNaN(value)) return null;
+  return Number(value.toFixed(digits));
+}
+
+function comparePrimeMetric(playerAValue, playerBValue, lowerIsBetter = false) {
+  if (playerAValue === null || playerAValue === undefined) return "playerB";
+  if (playerBValue === null || playerBValue === undefined) return "playerA";
+
+  if (playerAValue === playerBValue) return "tie";
+
+  if (lowerIsBetter) {
+    return playerAValue < playerBValue ? "playerA" : "playerB";
+  }
+
+  return playerAValue > playerBValue ? "playerA" : "playerB";
+}
+
 async function buildMatchup(matchup) {
   const { playerA, playerB, startYear } = matchup;
   const manualA = loadManualResults(playerA.slug);
@@ -479,29 +737,29 @@ async function buildMatchup(matchup) {
 
   const dataGolfEvents = await getEventList(startYear);
 
-const manualEvents = [
-  ...getManualEventsForRange(manualA, startYear),
-  ...getManualEventsForRange(manualB, startYear)
-];
+  const manualEvents = [
+    ...getManualEventsForRange(manualA, startYear),
+    ...getManualEventsForRange(manualB, startYear)
+  ];
 
-const eventMap = new Map();
+  const eventMap = new Map();
 
-[...dataGolfEvents, ...manualEvents].forEach((event) => {
-  const key = `${event.year}:${normalizeEventName(event.eventName)}`;
-  const existing = eventMap.get(key);
+  [...dataGolfEvents, ...manualEvents].forEach((event) => {
+    const key = `${event.year}:${normalizeEventName(event.eventName)}`;
+    const existing = eventMap.get(key);
 
-  if (!existing) {
-    eventMap.set(key, event);
-    return;
-  }
+    if (!existing) {
+      eventMap.set(key, event);
+      return;
+    }
 
-  if (!existing.date && event.date) {
-    eventMap.set(key, event);
-  }
-});
+    if (!existing.date && event.date) {
+      eventMap.set(key, event);
+    }
+  });
 
-const allEvents = sortEventsNewestFirst(Array.from(eventMap.values()));
-const sharedStarts = [];
+  const allEvents = sortEventsNewestFirst(Array.from(eventMap.values()));
+  const sharedStarts = [];
 
   console.log("");
   console.log(`[H2H] Building ${playerA.displayName} vs ${playerB.displayName}`);
@@ -511,19 +769,19 @@ const sharedStarts = [];
     const event = allEvents[i];
 
     try {
-  console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
+      console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
-  const results = event.manualEvent ? [] : await getEventResults(event);
+      const results = event.manualEvent ? [] : await getEventResults(event);
 
-  let playerAResult = playerA.dgId
-  ? results.find((row) => Number(row.dg_id) === playerA.dgId)
-  : null;
+      let playerAResult = playerA.dgId
+        ? results.find((row) => Number(row.dg_id) === playerA.dgId)
+        : null;
 
-let playerBResult = playerB.dgId
-  ? results.find((row) => Number(row.dg_id) === playerB.dgId)
-  : null;
+      let playerBResult = playerB.dgId
+        ? results.find((row) => Number(row.dg_id) === playerB.dgId)
+        : null;
 
-       if ((!playerAResult || event.year < 2017) && manualA) {
+      if ((!playerAResult || event.year < 2017) && manualA) {
         const manualEvent = findManualResult(manualA, event);
 
         if (manualEvent) {
@@ -649,8 +907,133 @@ let playerBResult = playerB.dgId
   console.log(`[H2H] Shared starts: ${countedStarts.length}`);
 }
 
+async function buildPrimeMatchup(matchup) {
+  const { playerA, playerB } = matchup;
+
+  console.log("");
+  console.log(`[H2H] Building Prime Scorecard: ${playerA.displayName} vs ${playerB.displayName}`);
+
+  const primeA = summarizePrimeSeason(getPrimeSeason(playerA));
+  const primeB = summarizePrimeSeason(getPrimeSeason(playerB));
+
+  const metrics = [
+    {
+      key: "wins",
+      label: "Wins",
+      playerA: primeA.wins,
+      playerB: primeB.wins,
+      winner: comparePrimeMetric(primeA.wins, primeB.wins)
+    },
+    {
+      key: "majors",
+      label: "Majors",
+      playerA: primeA.majors,
+      playerB: primeB.majors,
+      winner: comparePrimeMetric(primeA.majors, primeB.majors)
+    },
+    {
+      key: "top5s",
+      label: "Top 5s",
+      playerA: primeA.top5s,
+      playerB: primeB.top5s,
+      winner: comparePrimeMetric(primeA.top5s, primeB.top5s)
+    },
+    {
+      key: "top10s",
+      label: "Top 10s",
+      playerA: primeA.top10s,
+      playerB: primeB.top10s,
+      winner: comparePrimeMetric(primeA.top10s, primeB.top10s)
+    },
+    {
+      key: "eventsPlayed",
+      label: "Events played",
+      playerA: primeA.eventsPlayed,
+      playerB: primeB.eventsPlayed,
+      winner: "neutral"
+    },
+    {
+      key: "cutRate",
+      label: "Cut rate",
+      playerA: roundMetric(primeA.cutRate === null ? null : primeA.cutRate * 100, 1),
+      playerB: roundMetric(primeB.cutRate === null ? null : primeB.cutRate * 100, 1),
+      suffix: "%",
+      winner: comparePrimeMetric(primeA.cutRate, primeB.cutRate)
+    },
+    {
+      key: "averageFinish",
+      label: "Average finish",
+      playerA: roundMetric(primeA.averageFinish, 1),
+      playerB: roundMetric(primeB.averageFinish, 1),
+      winner: comparePrimeMetric(primeA.averageFinish, primeB.averageFinish, true)
+    },
+    {
+      key: "averageScoreToPar",
+      label: "Average score to par",
+      playerA: roundMetric(primeA.averageScoreToPar, 1),
+      playerB: roundMetric(primeB.averageScoreToPar, 1),
+      winner: comparePrimeMetric(primeA.averageScoreToPar, primeB.averageScoreToPar, true)
+    },
+    {
+      key: "winRate",
+      label: "Win rate",
+      playerA: roundMetric(primeA.winRate === null ? null : primeA.winRate * 100, 1),
+      playerB: roundMetric(primeB.winRate === null ? null : primeB.winRate * 100, 1),
+      suffix: "%",
+      winner: comparePrimeMetric(primeA.winRate, primeB.winRate)
+    },
+    {
+      key: "top10Rate",
+      label: "Top 10 rate",
+      playerA: roundMetric(primeA.top10Rate === null ? null : primeA.top10Rate * 100, 1),
+      playerB: roundMetric(primeB.top10Rate === null ? null : primeB.top10Rate * 100, 1),
+      suffix: "%",
+      winner: comparePrimeMetric(primeA.top10Rate, primeB.top10Rate)
+    }
+  ];
+
+  const playerAMetricWins = metrics.filter((metric) => metric.winner === "playerA").length;
+  const playerBMetricWins = metrics.filter((metric) => metric.winner === "playerB").length;
+  const metricTies = metrics.filter((metric) => metric.winner === "tie").length;
+
+  const output = {
+    matchupId: `${playerA.slug}-vs-${playerB.slug}-prime`,
+    type: "prime-scorecard",
+    updatedAt: new Date().toISOString(),
+    source: "Manual player results",
+    rules: {
+      mainStat: "prime season scorecard",
+      explanation: "This compares each player's selected peak season. It is not based on shared starts.",
+      counting: "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+      dataNote: "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+    },
+    playerA,
+    playerB,
+    primeA,
+    primeB,
+    summary: {
+      playerAMetricWins,
+      playerBMetricWins,
+      metricTies,
+      totalMetrics: metrics.filter((metric) => metric.winner !== "neutral").length
+    },
+    metrics
+  };
+
+  const outputDir = path.join(process.cwd(), "data", "h2h", "prime-matchups");
+  fs.mkdirSync(outputDir, { recursive: true });
+
+  const outputPath = path.join(outputDir, `${output.matchupId}.json`);
+  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+
+  console.log(`[H2H] Wrote ${outputPath}`);
+  console.log(`[H2H] ${playerA.displayName} metric wins: ${playerAMetricWins}`);
+  console.log(`[H2H] ${playerB.displayName} metric wins: ${playerBMetricWins}`);
+  console.log(`[H2H] Metric ties: ${metricTies}`);
+}
+
 async function main() {
-  console.log(`[H2H] Starting ${MATCHUPS.length} matchups...`);
+  console.log(`[H2H] Starting ${MATCHUPS.length} shared-start matchups...`);
 
   const matchupsToRun = TEST_ONLY_TIGER_RORY
     ? MATCHUPS.filter(
@@ -662,6 +1045,18 @@ async function main() {
 
   for (const matchup of matchupsToRun) {
     await buildMatchup(matchup);
+  }
+
+  console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} prime scorecards...`);
+
+  for (const matchup of PRIME_MATCHUPS) {
+    try {
+      await buildPrimeMatchup(matchup);
+    } catch (error) {
+      console.warn(
+        `[H2H] Skipped Prime Scorecard ${matchup.playerA.displayName} vs ${matchup.playerB.displayName}: ${error.message}`
+      );
+    }
   }
 }
 
