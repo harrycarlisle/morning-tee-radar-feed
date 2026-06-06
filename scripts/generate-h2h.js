@@ -75,6 +75,34 @@ function findManualResult(manualData, event) {
   return null;
 }
 
+function getManualEventsForRange(manualData, startYear) {
+  if (!manualData?.seasons) return [];
+
+  const events = [];
+
+  for (const season of Object.values(manualData.seasons)) {
+    if (!season?.events) continue;
+
+    season.events.forEach((manualEvent) => {
+      const year = Number(String(manualEvent.date || "").slice(0, 4));
+
+      if (!year || year < startYear || year > CURRENT_YEAR) return;
+      if (manualEvent.officialStart === false) return;
+
+      events.push({
+        year,
+        date: manualEvent.date || "",
+        eventId: `manual-${normalizeEventName(manualEvent.tournament)}-${year}`,
+        eventName: manualEvent.tournament,
+        tour: TOUR,
+        manualEvent: true
+      });
+    });
+  }
+
+  return events;
+}
+
 const PLAYERS = {
   scottie: { name: "Scheffler, Scottie", displayName: "Scottie Scheffler", slug: "scottie-scheffler", dgId: 18417, country: "USA" },
   rory: { name: "McIlroy, Rory", displayName: "Rory McIlroy", slug: "rory-mcilroy", dgId: 10091, country: "NIR" },
@@ -88,7 +116,8 @@ const PLAYERS = {
   tommy: { name: "Fleetwood, Tommy", displayName: "Tommy Fleetwood", slug: "tommy-fleetwood", dgId: 12294, country: "ENG" },
   phil: { name: "Mickelson, Phil", displayName: "Phil Mickelson", slug: "phil-mickelson", dgId: 1547, country: "USA" },
   tiger: { name: "Woods, Tiger", displayName: "Tiger Woods", slug: "tiger-woods", dgId: 5321, country: "USA" },
-
+  jack: { name: "Nicklaus, Jack", displayName: "Jack Nicklaus", slug: "jack-nicklaus", dgId: null, country: "USA", manualOnly: true },
+  
   jt: { name: "Thomas, Justin", displayName: "Justin Thomas", slug: "justin-thomas", dgId: 14139, country: "USA" },
   spieth: { name: "Spieth, Jordan", displayName: "Jordan Spieth", slug: "jordan-spieth", dgId: 14636, country: "USA" },
   cantlay: { name: "Cantlay, Patrick", displayName: "Patrick Cantlay", slug: "patrick-cantlay", dgId: 15466, country: "USA" },
@@ -224,7 +253,11 @@ const MATCHUPS = [
   m("brooks", "collin", 2019),
   m("brooks", "viktor", 2019),
 
-  m("rahm", "camSmith", 2016, "Uses manual results before 2017 where available, then automatic results from 2017 onward.")
+  m("rahm", "camSmith", 2016, "Uses manual results before 2017 where available, then automatic results from 2017 onward."),
+
+  m("jack", "tiger", 1996, "Uses manual Jack Nicklaus results where available, plus Tiger Woods results from manual and automatic sources."),
+m("jack", "phil", 1992, "Uses manual Jack Nicklaus results where available, plus Phil Mickelson results from manual and automatic sources."),
+m("jack", "rory", 2007, "Uses manual Jack Nicklaus results where available, plus Rory McIlroy results from manual and automatic sources."),
 ];
 
 const REQUEST_DELAY_MS = 500;
@@ -416,8 +449,13 @@ function matchupId(playerA, playerB) {
 function validateMatchup(matchup) {
   const missing = [];
 
-  if (!matchup.playerA?.dgId) missing.push(matchup.playerA?.displayName || "Player A");
-  if (!matchup.playerB?.dgId) missing.push(matchup.playerB?.displayName || "Player B");
+  if (!matchup.playerA?.dgId && !matchup.playerA?.manualOnly) {
+    missing.push(matchup.playerA?.displayName || "Player A");
+  }
+
+  if (!matchup.playerB?.dgId && !matchup.playerB?.manualOnly) {
+    missing.push(matchup.playerB?.displayName || "Player B");
+  }
 
   if (missing.length) {
     throw new Error(`Missing DataGolf ID for ${missing.join(" and ")}`);
@@ -439,8 +477,31 @@ async function buildMatchup(matchup) {
 
   validateMatchup(matchup);
 
-  const allEvents = await getEventList(startYear);
-  const sharedStarts = [];
+  const dataGolfEvents = await getEventList(startYear);
+
+const manualEvents = [
+  ...getManualEventsForRange(manualA, startYear),
+  ...getManualEventsForRange(manualB, startYear)
+];
+
+const eventMap = new Map();
+
+[...dataGolfEvents, ...manualEvents].forEach((event) => {
+  const key = `${event.year}:${normalizeEventName(event.eventName)}`;
+  const existing = eventMap.get(key);
+
+  if (!existing) {
+    eventMap.set(key, event);
+    return;
+  }
+
+  if (!existing.date && event.date) {
+    eventMap.set(key, event);
+  }
+});
+
+const allEvents = sortEventsNewestFirst(Array.from(eventMap.values()));
+const sharedStarts = [];
 
   console.log("");
   console.log(`[H2H] Building ${playerA.displayName} vs ${playerB.displayName}`);
@@ -452,10 +513,15 @@ async function buildMatchup(matchup) {
     try {
   console.log(`[H2H] ${i + 1}/${allEvents.length}: ${event.year} ${event.eventName}`);
 
-  const results = await getEventResults(event);
+  const results = event.manualEvent ? [] : await getEventResults(event);
 
-  let playerAResult = results.find((row) => Number(row.dg_id) === playerA.dgId);
-  let playerBResult = results.find((row) => Number(row.dg_id) === playerB.dgId);
+  let playerAResult = playerA.dgId
+  ? results.find((row) => Number(row.dg_id) === playerA.dgId)
+  : null;
+
+let playerBResult = playerB.dgId
+  ? results.find((row) => Number(row.dg_id) === playerB.dgId)
+  : null;
 
        if ((!playerAResult || event.year < 2017) && manualA) {
         const manualEvent = findManualResult(manualA, event);
