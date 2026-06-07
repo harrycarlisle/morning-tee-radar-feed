@@ -236,10 +236,10 @@ const PRIME_SEASONS = {
     label: "2005, major-winning prime"
   },
  "rory-mcilroy": {
-  year: "2013-2014",
-  displayYear: "2014",
-  label: "2014, two-major season"
-  }
+    year: "2013-2014",
+    displayYear: "2014",
+    label: "2014, two-major season"
+  },
   "scottie-scheffler": {
     year: "2024",
     label: "2024, dominant modern season"
