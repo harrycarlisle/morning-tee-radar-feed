@@ -127,13 +127,13 @@ const PLAYERS = {
   },
 
   nickFaldo: {
-  name: "Faldo, Nick",
-  displayName: "Nick Faldo",
-  slug: "nick-faldo",
-  dgId: null,
-  country: "ENG",
-  manualOnly: true
-},
+    name: "Faldo, Nick",
+    displayName: "Nick Faldo",
+    slug: "nick-faldo",
+    dgId: null,
+    country: "ENG",
+    manualOnly: true
+  },
 
   byron: {
     name: "Nelson, Byron",
@@ -157,6 +157,24 @@ const PLAYERS = {
     name: "Fowler, Rickie",
     displayName: "Rickie Fowler",
     slug: "rickie-fowler",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  vijay: {
+    name: "Singh, Vijay",
+    displayName: "Vijay Singh",
+    slug: "vijay-singh",
+    dgId: null,
+    country: "FIJ",
+    manualOnly: true
+  },
+
+  arnoldPalmer: {
+    name: "Palmer, Arnold",
+    displayName: "Arnold Palmer",
+    slug: "arnold-palmer",
     dgId: null,
     country: "USA",
     manualOnly: true
@@ -198,8 +216,8 @@ const PRIME_SEASONS = {
     label: "1945, 18-win season"
   },
   "nick-faldo": {
-  year: "1990",
-  label: "1990, Masters and Open season"
+    year: "1990",
+    label: "1990, Masters and Open season"
   },
   "sam-snead": {
     year: "1950",
@@ -236,43 +254,58 @@ const PRIME_SEASONS = {
   "rickie-fowler": {
     year: "2015",
     label: "2015, peak Rickie"
+  },
+  "vijay-singh": {
+    year: "2004",
+    label: "2004, nine-win season"
+  },
+  "arnold-palmer": {
+    year: "1960",
+    label: "1960, Masters and U.S. Open season"
   }
 };
 
-/*
-  Prime vs Prime only generates when both players have manual files
-  and the selected season exists inside those files.
-
-  Safe to add players to PLAYERS and PRIME_SEASONS before their files exist.
-  Do not add them to PRIME_MATCHUPS until the manual JSON is uploaded.
-*/
 const PRIME_MATCHUPS = [
+  // Modern / default
   { playerA: p("scottie"), playerB: p("rory") },
+  { playerA: p("rory"), playerB: p("tiger") },
+  { playerA: p("rory"), playerB: p("jack") },
+  { playerA: p("scottie"), playerB: p("tiger") },
   { playerA: p("scottie"), playerB: p("jack") },
   { playerA: p("scottie"), playerB: p("nickFaldo") },
 
+  // Tiger / Jack / Byron core
   { playerA: p("jack"), playerB: p("tiger") },
-  { playerA: p("tiger"), playerB: p("scottie") },
-
-  { playerA: p("byron"), playerB: p("jack") },
   { playerA: p("byron"), playerB: p("tiger") },
+  { playerA: p("byron"), playerB: p("jack") },
+
+  // Nick Faldo
+  { playerA: p("nickFaldo"), playerB: p("jack") },
+  { playerA: p("nickFaldo"), playerB: p("tiger") },
   { playerA: p("byron"), playerB: p("nickFaldo") },
 
-  { playerA: p("nickFaldo"), playerB: p("jack") },
-  { playerA: p("nickFaldo"), playerB: p("tiger") }
+  // Brooks
+  { playerA: p("brooks"), playerB: p("tiger") },
+  { playerA: p("brooks"), playerB: p("jack") },
+  { playerA: p("brooks"), playerB: p("rory") },
+  { playerA: p("brooks"), playerB: p("scottie") },
 
-  // Add these only after Bryson's manual file has seasons["2024"]:
-  // { playerA: p("scottie"), playerB: p("bryson") },
-  // { playerA: p("rory"), playerB: p("bryson") },
+  // Vijay Singh
+  { playerA: p("vijay"), playerB: p("tiger") },
+  { playerA: p("vijay"), playerB: p("jack") },
+  { playerA: p("vijay"), playerB: p("byron") },
+  { playerA: p("vijay"), playerB: p("rory") },
+  { playerA: p("vijay"), playerB: p("scottie") },
+  { playerA: p("vijay"), playerB: p("nickFaldo") },
 
-  // Add these after Rickie Fowler's manual file exists with seasons["2015"]:
-  // { playerA: p("rickie"), playerB: p("reed") },
-  // { playerA: p("rickie"), playerB: p("rory") },
-
-  // Add these after Patrick Reed's manual file exists with seasons["2018"]:
-  // { playerA: p("reed"), playerB: p("rory") },
-  // { playerA: p("reed"), playerB: p("bryson") }
+  // Arnold Palmer
+  { playerA: p("arnoldPalmer"), playerB: p("jack") },
+  { playerA: p("arnoldPalmer"), playerB: p("tiger") },
+  { playerA: p("arnoldPalmer"), playerB: p("byron") },
+  { playerA: p("arnoldPalmer"), playerB: p("rory") },
+  { playerA: p("arnoldPalmer"), playerB: p("nickFaldo") }
 ];
+
 const MATCHUPS = [
   m("scottie", "rory", 2020),
   m("scottie", "bryson", 2020),
@@ -1109,6 +1142,11 @@ async function main() {
     console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} Prime vs Prime matchups...`);
 
     for (const matchup of PRIME_MATCHUPS) {
+      if (!matchup.playerA || !matchup.playerB) {
+        console.warn("[H2H] Skipped Prime vs Prime matchup because one player key is missing.");
+        continue;
+      }
+
       try {
         await buildPrimeMatchup(matchup);
       } catch (error) {
