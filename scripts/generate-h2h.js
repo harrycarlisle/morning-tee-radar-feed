@@ -225,7 +225,7 @@ const PRIME_SEASONS = {
   },
   "jack-nicklaus": {
     year: "1972",
-    label: "1972, Masters and U.S. Open season"
+    label: "1972, Year of the Golden Bear"
   },
   "tiger-woods": {
     year: "2000",
