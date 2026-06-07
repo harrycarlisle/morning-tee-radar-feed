@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T21:06:57.541Z",
+  "updatedAt": "2026-06-07T21:52:13.108Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-07T21:52:13.105Z",
+      "approvedAt": "2026-06-07T21:52:13.105Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ryan Gerard leads the Memorial Tournament presented by Workday at -12",
+      "summary": "Ryan Gerard is -4 today and -12 overall through 17. Closest chasers: Wyndham Clark (-11), J.T. Poston (-11), Tommy Fleetwood (-10).",
+      "quickRead": "Ryan Gerard holds the Memorial Tournament lead at 12-under par, shooting 4-under on his round and sitting at -12 through 17 holes.  Wyndham Clark (-11, finished) and J.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "J.T. Poston",
+          "score": "-11",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-10",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "45 min ago",
       "timestamp": "2026-06-07T21:06:53.798Z",
       "approvedAt": "2026-06-07T21:06:53.798Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-07T13:15:25.000Z",
       "approvedAt": "2026-06-07T21:06:54.750Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-07T20:44:58.241Z",
       "approvedAt": "2026-06-07T20:44:58.241Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-07T10:30:13.000Z",
       "approvedAt": "2026-06-07T19:16:11.703Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-07T17:50:49.000Z",
       "approvedAt": "2026-06-07T18:51:00.993Z",
       "status": "Confirmed",
@@ -307,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "45 min ago",
       "timestamp": "2026-06-07T21:06:43.722Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -321,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-07T20:29:43.722Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -337,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-07T21:06:56.528Z",
-      "approvedAt": "2026-06-07T21:06:56.528Z",
+      "timestamp": "2026-06-07T21:52:13.108Z",
+      "approvedAt": "2026-06-07T21:52:13.108Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads the Memorial Tournament presented by Workday at -11",
-      "summary": "Wyndham Clark is -5 today and -11 overall through 16. Closest chasers: Tommy Fleetwood (-11), J.T. Poston (-11), Ryan Gerard (-11).",
-      "quickRead": "Wyndham Clark is tied for the lead at 11-under par through 16 holes in Round 4 at the Memorial Tournament, shooting 5-under on the day, alongside Tommy Fleetwood, J. T.",
+      "title": "Ryan Gerard leads the Memorial Tournament presented by Workday at -12",
+      "summary": "Ryan Gerard is -4 today and -12 overall through 17. Closest chasers: Wyndham Clark (-11), J.T. Poston (-11), Tommy Fleetwood (-10).",
+      "quickRead": "Ryan Gerard holds the Memorial Tournament lead at 12-under par, shooting 4-under on his round and sitting at -12 through 17 holes.  Wyndham Clark (-11, finished) and J.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,34 +410,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
           "name": "Wyndham Clark",
           "score": "-11",
-          "thru": "16"
+          "thru": "F"
         },
         {
-          "pos": "T1",
-          "name": "Tommy Fleetwood",
-          "score": "-11",
-          "thru": "16"
-        },
-        {
-          "pos": "T1",
+          "pos": "T2",
           "name": "J.T. Poston",
           "score": "-11",
-          "thru": "15"
+          "thru": "17"
         },
         {
-          "pos": "T1",
-          "name": "Ryan Gerard",
-          "score": "-11",
-          "thru": "15"
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-10",
+          "thru": "F"
         },
         {
-          "pos": "T1",
+          "pos": "T4",
           "name": "Sam Burns",
-          "score": "-11",
-          "thru": "15"
+          "score": "-10",
+          "thru": "17"
         }
       ]
     }
