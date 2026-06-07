@@ -1,0 +1,34 @@
+{
+  "matchupId": "jack-nicklaus-vs-rory-mcilroy",
+  "updatedAt": "2026-06-07T00:27:27.670Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": "Uses manual Jack Nicklaus results where available, plus Rory McIlroy results from manual and automatic sources."
+  },
+  "playerA": {
+    "name": "Nicklaus, Jack",
+    "displayName": "Jack Nicklaus",
+    "slug": "jack-nicklaus",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
+  "summary": {
+    "since": 2007,
+    "sharedStarts": 0,
+    "playerAWins": 0,
+    "playerBWins": 0,
+    "ties": 0
+  },
+  "events": []
+}

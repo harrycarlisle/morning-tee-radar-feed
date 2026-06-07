@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-rory-mcilroy",
-  "updatedAt": "2026-06-04T21:09:05.467Z",
+  "updatedAt": "2026-06-07T00:21:57.659Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 2007,
-    "sharedStarts": 176,
-    "playerAWins": 57,
-    "playerBWins": 112,
-    "ties": 7
+    "sharedStarts": 180,
+    "playerAWins": 58,
+    "playerBWins": 114,
+    "ties": 8
   },
   "events": [
     {
@@ -4343,6 +4343,62 @@
       "counted": true
     },
     {
+      "year": 2011,
+      "date": "2011-02-27",
+      "eventId": "manual-world golf championships accenture match play championship-2011",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T17",
+        "earnings": "$95,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2010,
+      "date": "2010-11-07",
+      "eventId": "manual-world golf championships hsbc champions-2010",
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "5",
+        "earnings": "$250,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 36 spots",
+      "counted": true
+    },
+    {
       "year": 2010,
       "date": "2010-09-12",
       "eventId": 28,
@@ -4708,6 +4764,34 @@
     },
     {
       "year": 2009,
+      "date": "2009-11-08",
+      "eventId": "manual-world golf championships hsbc champions-2009",
+      "eventName": "World Golf Championships-HSBC Champions",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "4",
+        "earnings": "$315,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
       "date": "2009-08-16",
       "eventId": 33,
       "eventName": "PGA Championship",
@@ -4928,6 +5012,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 19 spots",
+      "counted": true
+    },
+    {
+      "year": 2009,
+      "date": "2009-03-01",
+      "eventId": "manual-world golf championships accenture match play championship-2009",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T5",
+        "earnings": "$270,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 4 spots",
       "counted": true
     },
     {

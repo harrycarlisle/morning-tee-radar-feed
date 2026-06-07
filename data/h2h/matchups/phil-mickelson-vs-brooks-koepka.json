@@ -1,6 +1,6 @@
 {
   "matchupId": "phil-mickelson-vs-brooks-koepka",
-  "updatedAt": "2026-06-04T21:09:05.675Z",
+  "updatedAt": "2026-06-07T00:21:57.810Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,9 +24,9 @@
   },
   "summary": {
     "since": 2012,
-    "sharedStarts": 143,
-    "playerAWins": 51,
-    "playerBWins": 78,
+    "sharedStarts": 145,
+    "playerAWins": 52,
+    "playerBWins": 79,
     "ties": 14
   },
   "events": [
@@ -2244,6 +2244,34 @@
     },
     {
       "year": 2017,
+      "date": "2017-03-22",
+      "eventId": "manual-world golf championships dell technologies match play-2017",
+      "eventName": "World Golf Championships-Dell Technologies Match Play",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2017,
       "date": "2017-03-05",
       "eventId": 473,
       "eventName": "World Golf Championships-Mexico Championship",
@@ -2744,6 +2772,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2016,
+      "date": "2016-03-23",
+      "eventId": "manual-world golf championships dell match play-2016",
+      "eventName": "World Golf Championships-Dell Match Play",
+      "tour": "pga",
+      "playerA": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "brooks-koepka",
+      "edge": "Brooks by 13 spots",
       "counted": true
     },
     {

@@ -1,6 +1,6 @@
 {
   "matchupId": "tiger-woods-vs-phil-mickelson",
-  "updatedAt": "2026-06-04T21:09:05.213Z",
+  "updatedAt": "2026-06-07T00:21:57.440Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,10 +24,10 @@
   },
   "summary": {
     "since": 1996,
-    "sharedStarts": 193,
-    "playerAWins": 110,
-    "playerBWins": 71,
-    "ties": 12
+    "sharedStarts": 279,
+    "playerAWins": 168,
+    "playerBWins": 96,
+    "ties": 15
   },
   "events": [
     {
@@ -228,6 +228,62 @@
     },
     {
       "year": 2020,
+      "date": "2020-11-12",
+      "eventId": "manual-masters tournament-2020",
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T38",
+        "earnings": "$50,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-11-12",
+      "eventId": "manual-masters tournament 2020-2020",
+      "eventName": "Masters Tournament (2020)",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T38",
+        "earnings": "$50,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2020,
       "date": "2020-10-25",
       "eventId": 527,
       "eventName": "ZOZO CHAMPIONSHIP @ SHERWOOD",
@@ -277,6 +333,34 @@
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2020,
+      "date": "2020-09-17",
+      "eventId": "manual-u s open 2020-2020",
+      "eventName": "U.S. Open (2020)",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
       },
       "h2hWinner": "tie",
       "edge": "Tie",
@@ -641,6 +725,34 @@
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2019,
+      "date": "2019-04-11",
+      "eventId": "manual-masters tournament-2019",
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$2,070,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 17 spots",
@@ -3784,6 +3896,34 @@
     },
     {
       "year": 2007,
+      "date": "2007-02-25",
+      "eventId": "manual-world golf championships accenture match play championship-2007",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": "$130,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2007,
       "date": "2007-01-28",
       "eventId": 4,
       "eventName": "Buick Invitational",
@@ -4004,6 +4144,62 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2006,
+      "date": "2006-03-05",
+      "eventId": "manual-ford championship at doral-2006",
+      "eventName": "Ford Championship at Doral",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$990,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 2006,
+      "date": "2006-02-26",
+      "eventId": "manual-world golf championships accenture match play championship-2006",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": "$125,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
       "counted": true
     },
     {
@@ -4288,6 +4484,62 @@
     },
     {
       "year": 2005,
+      "date": "2005-03-06",
+      "eventId": "manual-ford championship at doral-2005",
+      "eventName": "Ford Championship at Doral",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$990,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2005,
+      "date": "2005-02-27",
+      "eventId": "manual-world golf championships accenture match play championship-2005",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T17",
+        "earnings": "$85,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2005,
       "date": "2005-01-23",
       "eventId": 4,
       "eventName": "Buick Invitational",
@@ -4568,6 +4820,34 @@
     },
     {
       "year": 2004,
+      "date": "2004-02-29",
+      "eventId": "manual-world golf championships accenture match play championship-2004",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,200,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 2004,
       "date": "2004-02-15",
       "eventId": 4,
       "eventName": "Buick Invitational",
@@ -4592,6 +4872,90 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 6 spots",
+      "counted": true
+    },
+    {
+      "year": 2003,
+      "date": "2003-10-26",
+      "eventId": "manual-funai classic at walt disney world resort-2003",
+      "eventName": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$298,666",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 28 spots",
+      "counted": true
+    },
+    {
+      "year": 2003,
+      "date": "2003-10-05",
+      "eventId": "manual-world golf championships american express championship-2003",
+      "eventName": "World Golf Championships-American Express Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,050,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 37 spots",
+      "counted": true
+    },
+    {
+      "year": 2003,
+      "date": "2003-08-24",
+      "eventId": "manual-world golf championships nec invitational-2003",
+      "eventName": "World Golf Championships-NEC Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": "$235,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 19 spots",
       "counted": true
     },
     {
@@ -4652,6 +5016,34 @@
     },
     {
       "year": 2003,
+      "date": "2003-07-06",
+      "eventId": "manual-100th western open golf digest-2003",
+      "eventName": "100th Western Open presented by Golf Digest",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$810,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T30",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 29 spots",
+      "counted": true
+    },
+    {
+      "year": 2003,
       "date": "2003-06-15",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -4707,6 +5099,146 @@
       "counted": true
     },
     {
+      "year": 2003,
+      "date": "2003-03-02",
+      "eventId": "manual-world golf championships accenture match play championship-2003",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,050,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2003,
+      "date": "2003-02-16",
+      "eventId": "manual-buick invitational-2003",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$810,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-11-03",
+      "eventId": "manual-tour championship coca cola-2002",
+      "eventName": "THE TOUR Championship presented by Coca-Cola",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T7",
+        "earnings": "$165,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-09-22",
+      "eventId": "manual-world golf championships american express championship-2002",
+      "eventName": "World Golf Championships-American Express Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-08-25",
+      "eventId": "manual-world golf championships nec invitational-2002",
+      "eventName": "World Golf Championships-NEC Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "4",
+        "earnings": "$215,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 5 spots",
+      "counted": true
+    },
+    {
       "year": 2002,
       "date": "2002-08-18",
       "eventId": 33,
@@ -4732,6 +5264,34 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-08-11",
+      "eventId": "manual-buick open-2002",
+      "eventName": "Buick Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$594,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 28 spots",
       "counted": true
     },
     {
@@ -4764,6 +5324,34 @@
     },
     {
       "year": 2002,
+      "date": "2002-07-21",
+      "eventId": "manual-open championship-2002",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2002,
       "date": "2002-06-16",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -4788,6 +5376,62 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-05-26",
+      "eventId": "manual-memorial tournament-2002",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T22",
+        "earnings": "$43,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-05-12",
+      "eventId": "manual-verizon byron nelson classic-2002",
+      "eventName": "Verizon Byron Nelson Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "3",
+        "earnings": "$326,400",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 14 spots",
       "counted": true
     },
     {
@@ -4844,6 +5488,146 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-03-17",
+      "eventId": "manual-bay hill invitational cooper tires-2002",
+      "eventName": "Bay Hill Invitational presented by Cooper Tires",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$720,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 2 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-02-24",
+      "eventId": "manual-world golf championships accenture match play championship-2002",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T33",
+        "earnings": "$27,500",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-02-10",
+      "eventId": "manual-buick invitational-2002",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": "$131,400",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2002,
+      "date": "2002-02-03",
+      "eventId": "manual-atandt pebble beach national pro am-2002",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": "$84,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 987 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-08-26",
+      "eventId": "manual-world golf championships nec invitational-2001",
+      "eventName": "World Golf Championships-NEC Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 7 spots",
       "counted": true
     },
     {
@@ -4904,6 +5688,62 @@
     },
     {
       "year": 2001,
+      "date": "2001-07-22",
+      "eventId": "manual-open championship-2001",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": "$91,733",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-07-08",
+      "eventId": "manual-advil western open-2001",
+      "eventName": "Advil Western Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T20",
+        "earnings": "$33,381",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T42",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
       "date": "2001-06-17",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -4928,6 +5768,34 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 5 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-05-13",
+      "eventId": "manual-verizon byron nelson classic-2001",
+      "eventName": "Verizon Byron Nelson Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$234,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 25 spots",
       "counted": true
     },
     {
@@ -4987,6 +5855,230 @@
       "counted": true
     },
     {
+      "year": 2001,
+      "date": "2001-03-18",
+      "eventId": "manual-bay hill invitational-2001",
+      "eventName": "Bay Hill Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$630,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-02-25",
+      "eventId": "manual-nissan open-2001",
+      "eventName": "Nissan Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T13",
+        "earnings": "$58,285",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 986 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-02-11",
+      "eventId": "manual-buick invitational-2001",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "4",
+        "earnings": "$168,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "P1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-02-04",
+      "eventId": "manual-atandt pebble beach national pro am-2001",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T13",
+        "earnings": "$68,571",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-01-28",
+      "eventId": "manual-phoenix open-2001",
+      "eventName": "Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": "$152,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 994 spots",
+      "counted": true
+    },
+    {
+      "year": 2001,
+      "date": "2001-01-14",
+      "eventId": "manual-mercedes championships-2001",
+      "eventName": "Mercedes Championships",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T8",
+        "earnings": "$99,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-11-05",
+      "eventId": "manual-tour championship-2000",
+      "eventName": "THE TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": "$540,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-08-27",
+      "eventId": "manual-world golf championships nec invitational-2000",
+      "eventName": "World Golf Championships-NEC Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 3 spots",
+      "counted": true
+    },
+    {
       "year": 2000,
       "date": "2000-08-20",
       "eventId": 33,
@@ -5012,6 +6104,34 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-08-13",
+      "eventId": "manual-buick open-2000",
+      "eventName": "Buick Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T11",
+        "earnings": "$57,240",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 7 spots",
       "counted": true
     },
     {
@@ -5044,6 +6164,62 @@
     },
     {
       "year": 2000,
+      "date": "2000-07-23",
+      "eventId": "manual-open championship-2000",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$800,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-07-09",
+      "eventId": "manual-advil western open-2000",
+      "eventName": "Advil Western Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T23",
+        "earnings": "$26,700",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 976 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
       "date": "2000-06-18",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -5068,6 +6244,34 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 15 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-05-14",
+      "eventId": "manual-gte byron nelson classic-2000",
+      "eventName": "GTE Byron Nelson Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": "$176,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "PT2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
       "counted": true
     },
     {
@@ -5124,6 +6328,230 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 997 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-03-19",
+      "eventId": "manual-bay hill invitational-2000",
+      "eventName": "Bay Hill Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$540,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 45 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-02-27",
+      "eventId": "manual-world golf championships accenture match play championship-2000",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": "$500,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-02-13",
+      "eventId": "manual-buick invitational-2000",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$264,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 2000,
+      "date": "2000-02-06",
+      "eventId": "manual-atandt pebble beach national pro am-2000",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$720,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 60 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-11-07",
+      "eventId": "manual-world golf championships american express championship-1999",
+      "eventName": "World Golf Championships-American Express Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "P1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 39 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-10-31",
+      "eventId": "manual-tour championship-1999",
+      "eventName": "THE TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$900,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-08-29",
+      "eventId": "manual-world golf championships nec invitational-1999",
+      "eventName": "World Golf Championships-NEC Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-08-22",
+      "eventId": "manual-sprint international-1999",
+      "eventName": "Sprint International",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T37",
+        "earnings": "$12,480",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 21 spots",
       "counted": true
     },
     {
@@ -5184,6 +6612,34 @@
     },
     {
       "year": 1999,
+      "date": "1999-07-18",
+      "eventId": "manual-open championship-1999",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$196,791",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 1999,
       "date": "1999-06-20",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -5208,6 +6664,90 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-06-06",
+      "eventId": "manual-memorial tournament-1999",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$459,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-05-16",
+      "eventId": "manual-gte byron nelson classic-1999",
+      "eventName": "GTE Byron Nelson Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T7",
+        "earnings": "$96,750",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-04-18",
+      "eventId": "manual-mci classic-1999",
+      "eventName": "MCI Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T18",
+        "earnings": "$28,333",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 18 spots",
       "counted": true
     },
     {
@@ -5264,6 +6804,286 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-03-21",
+      "eventId": "manual-bay hill invitational-1999",
+      "eventName": "Bay Hill Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T56",
+        "earnings": "$5,625",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 51 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-02-28",
+      "eventId": "manual-world golf championships accenture match play championship-1999",
+      "eventName": "World Golf Championships-Accenture Match Play Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": "$150,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 4 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-02-21",
+      "eventId": "manual-nissan open-1999",
+      "eventName": "Nissan Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$209,066",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T15",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-02-14",
+      "eventId": "manual-buick invitational-1999",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$486,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 998 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-02-07",
+      "eventId": "manual-atandt pebble beach national pro am-1999",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T53",
+        "earnings": "$6,220",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 32 spots",
+      "counted": true
+    },
+    {
+      "year": 1999,
+      "date": "1999-01-31",
+      "eventId": "manual-phoenix open-1999",
+      "eventName": "Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "3",
+        "earnings": "$204,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 58 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-11-01",
+      "eventId": "manual-tour championship-1998",
+      "eventName": "THE TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "20",
+        "earnings": "$76,800",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-10-25",
+      "eventId": "manual-national car rental golf classic disney-1998",
+      "eventName": "National Car Rental Golf Classic/Disney",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T7",
+        "earnings": "$60,250",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 992 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-08-30",
+      "eventId": "manual-nec world series of golf-1998",
+      "eventName": "NEC World Series of Golf",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T5",
+        "earnings": "$85,500",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-08-23",
+      "eventId": "manual-sprint international-1998",
+      "eventName": "Sprint International",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "4",
+        "earnings": "$96,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 2 spots",
       "counted": true
     },
     {
@@ -5324,6 +7144,62 @@
     },
     {
       "year": 1998,
+      "date": "1998-07-19",
+      "eventId": "manual-open championship-1998",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T18",
+        "earnings": "$41,833",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-06-28",
+      "eventId": "manual-motorola western open-1998",
+      "eventName": "Motorola Western Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": "$49,225",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T35",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 26 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
       "date": "1998-06-21",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -5348,6 +7224,62 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-05-31",
+      "eventId": "manual-memorial tournament-1998",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T51",
+        "earnings": "$5,148",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 948 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-05-17",
+      "eventId": "manual-gte byron nelson golf classic-1998",
+      "eventName": "GTE Byron Nelson Golf Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": "$52,500",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 6 spots",
       "counted": true
     },
     {
@@ -5404,6 +7336,230 @@
       },
       "h2hWinner": "phil-mickelson",
       "edge": "Phil by 27 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-03-22",
+      "eventId": "manual-bay hill invitational-1998",
+      "eventName": "Bay Hill Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T13",
+        "earnings": "$37,500",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 52 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-03-01",
+      "eventId": "manual-nissan open-1998",
+      "eventName": "Nissan Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "P2",
+        "earnings": "$226,800",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 50 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-02-08",
+      "eventId": "manual-buick invitational-1998",
+      "eventName": "Buick Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$109,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T49",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 46 spots",
+      "counted": true
+    },
+    {
+      "year": 1998,
+      "date": "1998-02-01",
+      "eventId": "manual-atandt pebble beach national pro am-1998",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-01-11",
+      "eventId": "manual-mercedes championships-1998",
+      "eventName": "Mercedes Championships",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$149,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-11-02",
+      "eventId": "manual-tour championship-1997",
+      "eventName": "THE TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T12",
+        "earnings": "$97,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-10-26",
+      "eventId": "manual-las vegas invitational-1997",
+      "eventName": "Las Vegas Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T36",
+        "earnings": "$8,662",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 22 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-08-24",
+      "eventId": "manual-nec world series of golf-1997",
+      "eventName": "NEC World Series of Golf",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$114,400",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 1 spot",
       "counted": true
     },
     {
@@ -5464,6 +7620,34 @@
     },
     {
       "year": 1997,
+      "date": "1997-07-20",
+      "eventId": "manual-open championship-1997",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T19",
+        "earnings": "$31,915",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
       "date": "1997-06-15",
       "eventId": 26,
       "eventName": "U.S. Open Championship",
@@ -5488,6 +7672,62 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 24 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-05-25",
+      "eventId": "manual-mastercard colonial-1997",
+      "eventName": "MasterCard Colonial",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": "$70,400",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-05-18",
+      "eventId": "manual-gte byron nelson golf classic-1997",
+      "eventName": "GTE Byron Nelson Golf Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$324,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 11 spots",
       "counted": true
     },
     {
@@ -5547,6 +7787,174 @@
       "counted": true
     },
     {
+      "year": 1997,
+      "date": "1997-03-23",
+      "eventId": "manual-bay hill invitational-1997",
+      "eventName": "Bay Hill Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": "$42,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 8 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-02-02",
+      "eventId": "manual-atandt pebble beach national pro am-1997",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$167,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 31 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-01-26",
+      "eventId": "manual-phoenix open-1997",
+      "eventName": "Phoenix Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T18",
+        "earnings": "$20,250",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 11 spots",
+      "counted": true
+    },
+    {
+      "year": 1997,
+      "date": "1997-01-12",
+      "eventId": "manual-mercedes championships-1997",
+      "eventName": "Mercedes Championships",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "P1",
+        "earnings": "$216,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 10 spots",
+      "counted": true
+    },
+    {
+      "year": 1996,
+      "date": "1996-10-27",
+      "eventId": "manual-tour championship-1996",
+      "eventName": "THE TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T21",
+        "earnings": "$55,800",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "phil-mickelson",
+      "edge": "Phil by 9 spots",
+      "counted": true
+    },
+    {
+      "year": 1996,
+      "date": "1996-10-06",
+      "eventId": "manual-las vegas invitational-1996",
+      "eventName": "Las Vegas Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "P1",
+        "earnings": "$297,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 7 spots",
+      "counted": true
+    },
+    {
       "year": 1996,
       "date": "1996-07-21",
       "eventId": 100,
@@ -5572,6 +7980,34 @@
       },
       "h2hWinner": "tiger-woods",
       "edge": "Tiger by 18 spots",
+      "counted": true
+    },
+    {
+      "year": 1996,
+      "date": "1996-07-21",
+      "eventId": "manual-open championship-1996",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T82",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T94",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "tiger-woods",
+      "edge": "Tiger by 12 spots",
       "counted": true
     },
     {

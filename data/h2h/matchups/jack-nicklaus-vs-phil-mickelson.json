@@ -1,0 +1,1736 @@
+{
+  "matchupId": "jack-nicklaus-vs-phil-mickelson",
+  "updatedAt": "2026-06-07T00:27:27.483Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": "Uses manual Jack Nicklaus results where available, plus Phil Mickelson results from manual and automatic sources."
+  },
+  "playerA": {
+    "name": "Nicklaus, Jack",
+    "displayName": "Jack Nicklaus",
+    "slug": "jack-nicklaus",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Mickelson, Phil",
+    "displayName": "Phil Mickelson",
+    "slug": "phil-mickelson",
+    "dgId": 1547,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 1992,
+    "sharedStarts": 0,
+    "playerAWins": 0,
+    "playerBWins": 0,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2005,
+      "date": "2005-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2005,
+      "date": "2005-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2005,
+      "date": "2005-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2004,
+      "date": "2004-04-11",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2003,
+      "date": "2003-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2002,
+      "date": "2002-05-26",
+      "eventId": "manual-memorial tournament-2002",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2001,
+      "date": "2001-05-06",
+      "eventId": "manual-compaq classic of new orleans-2001",
+      "eventName": "Compaq Classic of New Orleans",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2001,
+      "date": "2001-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-08-20",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-07-23",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-07-23",
+      "eventId": "manual-open championship-2000",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T16",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-05-07",
+      "eventId": "manual-compaq classic of new orleans-2000",
+      "eventName": "COMPAQ Classic of New Orleans",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-03-05",
+      "eventId": "manual-doral ryder open-2000",
+      "eventName": "Doral-Ryder Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-02-06",
+      "eventId": "manual-atandt pebble beach national pro am-2000",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T61",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-07-18",
+      "eventId": "manual-open championship-1999",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-06-20",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-06-06",
+      "eventId": "manual-memorial tournament-1999",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-07-19",
+      "eventId": "manual-open championship-1998",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T10",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-05-31",
+      "eventId": "manual-memorial tournament-1998",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-02-01",
+      "eventId": "manual-atandt pebble beach national pro am-1998",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-08-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-07-20",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-07-20",
+      "eventId": "manual-open championship-1997",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T43",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-03-09",
+      "eventId": "manual-doral ryder open-1997",
+      "eventName": "Doral-Ryder Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-02-02",
+      "eventId": "manual-atandt pebble beach national pro am-1997",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-11-03",
+      "eventId": "manual-sarazen world open championship-1996",
+      "eventName": "Sarazen World Open Championship*",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-08-11",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-07-21",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-07-21",
+      "eventId": "manual-open championship-1996",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T94",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T94",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-06-02",
+      "eventId": "manual-memorial tournament-1996",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T71",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-03-03",
+      "eventId": "manual-doral ryder open-1996",
+      "eventName": "Doral-Ryder Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T38",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-02-04",
+      "eventId": "manual-atandt pebble beach national pro am-1996",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CNL",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-08-20",
+      "eventId": "manual-sprint international-1995",
+      "eventName": "Sprint International",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-08-13",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-07-23",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-07-23",
+      "eventId": "manual-open championship-1995",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-06-04",
+      "eventId": "manual-memorial tournament-1995",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T59",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-03-26",
+      "eventId": 11,
+      "eventName": "THE PLAYERS Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-03-19",
+      "eventId": "manual-nestle invitational-1995",
+      "eventName": "Nestle Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1995,
+      "date": "1995-02-05",
+      "eventId": "manual-atandt pebble beach national pro am-1995",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1994,
+      "date": "1994-08-14",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1994,
+      "date": "1994-07-17",
+      "eventId": 100,
+      "eventName": "Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1994,
+      "date": "1994-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1994,
+      "date": "1994-02-13",
+      "eventId": "manual-nissan los angeles open-1994",
+      "eventName": "Nissan Los Angeles Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T27",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-09-12",
+      "eventId": "manual-canadian open-1993",
+      "eventName": "Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "DQ",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-08-22",
+      "eventId": "manual-international-1993",
+      "eventName": "The International",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-08-15",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T6",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-06-06",
+      "eventId": "manual-memorial tournament-1993",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-04-11",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T34",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1993,
+      "date": "1993-03-07",
+      "eventId": "manual-doral ryder open-1993",
+      "eventName": "Doral-Ryder Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1992,
+      "date": "1992-08-23",
+      "eventId": "manual-international-1992",
+      "eventName": "The International",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1992,
+      "date": "1992-07-19",
+      "eventId": 100,
+      "eventName": "Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1992,
+      "date": "1992-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Phil Mickelson",
+        "dgId": 1547,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    }
+  ]
+}

@@ -1,0 +1,1115 @@
+{
+  "matchupId": "jack-nicklaus-vs-tiger-woods",
+  "updatedAt": "2026-06-07T00:21:58.933Z",
+  "source": "DataGolf Historical Event Data plus manual player results where needed",
+  "rules": {
+    "mainStat": "shared-start wins",
+    "explanation": "This compares tournaments where both players were in the same field.",
+    "counting": "Better finish wins the shared start. Tied finishes count as ties. WD and DQ are excluded by default. Missed cuts count below made cuts.",
+    "dataNote": "Uses manual Jack Nicklaus results where available, plus Tiger Woods results from manual and automatic sources."
+  },
+  "playerA": {
+    "name": "Nicklaus, Jack",
+    "displayName": "Jack Nicklaus",
+    "slug": "jack-nicklaus",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Woods, Tiger",
+    "displayName": "Tiger Woods",
+    "slug": "tiger-woods",
+    "dgId": 5321,
+    "country": "USA"
+  },
+  "summary": {
+    "since": 1996,
+    "sharedStarts": 0,
+    "playerAWins": 0,
+    "playerBWins": 0,
+    "ties": 0
+  },
+  "events": [
+    {
+      "year": 2005,
+      "date": "2005-07-17",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": "$700,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2005,
+      "date": "2005-06-19",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "2",
+        "earnings": "$700,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2005,
+      "date": "2005-06-05",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$286,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2005,
+      "date": "2005-04-10",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,260,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2004,
+      "date": "2004-06-06",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "3",
+        "earnings": "$357,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2004,
+      "date": "2004-04-11",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T22",
+        "earnings": "$70,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2003,
+      "date": "2003-06-01",
+      "eventId": "manual-memorial tournament-2003",
+      "eventName": "the Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T4",
+        "earnings": "$220,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2003,
+      "date": "2003-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T15",
+        "earnings": "$93,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2003,
+      "date": "2003-03-23",
+      "eventId": "manual-bay hill invitational cooper tires-2003",
+      "eventName": "Bay Hill Invitational presented by Cooper Tires",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$810,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2002,
+      "date": "2002-05-26",
+      "eventId": "manual-memorial tournament-2002",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T22",
+        "earnings": "$43,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2001,
+      "date": "2001-06-03",
+      "eventId": "manual-memorial tournament-2001",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$738,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2001,
+      "date": "2001-04-08",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$1,008,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-08-20",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$900,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-07-23",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$759,150",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-07-23",
+      "eventId": "manual-open championship-2000",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$800,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-06-18",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$800,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-05-28",
+      "eventId": "manual-memorial tournament-2000",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$558,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-04-09",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "5",
+        "earnings": "$184,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 2000,
+      "date": "2000-02-06",
+      "eventId": "manual-atandt pebble beach national pro am-2000",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$720,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-07-18",
+      "eventId": "manual-open championship-1999",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$196,791",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-06-20",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T3",
+        "earnings": "$196,791",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1999,
+      "date": "1999-06-06",
+      "eventId": "manual-memorial tournament-1999",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$459,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-07-19",
+      "eventId": "manual-open championship-1998",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T18",
+        "earnings": "$41,833",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T18",
+        "earnings": "$41,833",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-05-31",
+      "eventId": "manual-memorial tournament-1998",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T51",
+        "earnings": "$5,148",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-04-12",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T8",
+        "earnings": "$89,600",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-03-08",
+      "eventId": "manual-doral ryder open-1998",
+      "eventName": "Doral-Ryder Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T9",
+        "earnings": "$48,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1998,
+      "date": "1998-02-01",
+      "eventId": "manual-atandt pebble beach national pro am-1998",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "WD",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-08-17",
+      "eventId": 33,
+      "eventName": "PGA Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T29",
+        "earnings": "$13,625",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-07-20",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T24",
+        "earnings": "$17,362",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-07-20",
+      "eventId": "manual-open championship-1997",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T19",
+        "earnings": "$31,915",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-06-15",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T19",
+        "earnings": "$31,915",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-06-01",
+      "eventId": "manual-memorial tournament-1997",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T67",
+        "earnings": "$3,800",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-04-13",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "1",
+        "earnings": "$486,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1997,
+      "date": "1997-02-02",
+      "eventId": "manual-atandt pebble beach national pro am-1997",
+      "eventName": "AT&T Pebble Beach National Pro-Am",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T2",
+        "earnings": "$167,200",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-11-03",
+      "eventId": "manual-sarazen world open championship-1996",
+      "eventName": "Sarazen World Open Championship*",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T22",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-07-21",
+      "eventId": 100,
+      "eventName": "British Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T22",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-07-21",
+      "eventId": "manual-open championship-1996",
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T82",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-06-16",
+      "eventId": 26,
+      "eventName": "U.S. Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "T82",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    },
+    {
+      "year": 1996,
+      "date": "1996-04-14",
+      "eventId": 14,
+      "eventName": "Masters Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jack Nicklaus",
+        "dgId": null,
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Tiger Woods",
+        "dgId": 5321,
+        "finish": "CUT",
+        "earnings": "$0",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "unknown",
+      "edge": "Unknown result",
+      "counted": false
+    }
+  ]
+}
