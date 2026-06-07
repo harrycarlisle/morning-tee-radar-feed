@@ -236,7 +236,7 @@ const PRIME_SEASONS = {
     label: "2005, major-winning prime"
   },
   "rory-mcilroy": {
-    year: "2014",
+    year: "2013-2014",
     label: "2014, two-major season"
   },
   "scottie-scheffler": {
