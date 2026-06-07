@@ -1,7 +1,7 @@
 {
-  "matchupId": "nick-faldo-vs-jack-nicklaus-prime",
+  "matchupId": "vijay-singh-vs-jack-nicklaus-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-07T21:26:44.485Z",
+  "updatedAt": "2026-06-07T21:26:44.492Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,11 +10,11 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "Faldo, Nick",
-    "displayName": "Nick Faldo",
-    "slug": "nick-faldo",
+    "name": "Singh, Vijay",
+    "displayName": "Vijay Singh",
+    "slug": "vijay-singh",
     "dgId": null,
-    "country": "ENG",
+    "country": "FIJ",
     "manualOnly": true
   },
   "playerB": {
@@ -27,154 +27,239 @@
   },
   "primeA": {
     "player": {
-      "name": "Faldo, Nick",
-      "displayName": "Nick Faldo",
-      "slug": "nick-faldo",
+      "name": "Singh, Vijay",
+      "displayName": "Vijay Singh",
+      "slug": "vijay-singh",
       "dgId": null,
-      "country": "ENG",
+      "country": "FIJ",
       "manualOnly": true
     },
-    "year": "1990",
-    "label": "1990, Masters and Open season",
-    "eventsPlayed": 9,
-    "officialEvents": 9,
-    "wins": 2,
-    "majors": 2,
-    "top5s": 4,
-    "top10s": 4,
-    "madeCuts": 9,
-    "missedCuts": 0,
-    "cutRate": 1,
-    "winRate": 0.2222222222222222,
-    "top10Rate": 0.4444444444444444,
-    "averageFinish": 11.444444444444445,
-    "averageScoreToPar": -5.375,
+    "year": "2004",
+    "label": "2004, nine-win season",
+    "eventsPlayed": 29,
+    "officialEvents": 29,
+    "wins": 9,
+    "majors": 1,
+    "top5s": 14,
+    "top10s": 18,
+    "madeCuts": 28,
+    "missedCuts": 1,
+    "cutRate": 0.9655172413793104,
+    "winRate": 0.3103448275862069,
+    "top10Rate": 0.6206896551724138,
+    "averageFinish": 11.571428571428571,
+    "averageScoreToPar": -8.777777777777779,
     "events": [
       {
-        "date": "1990-03-25",
-        "tournament": "Nestle Invitational",
-        "finish": "T13",
-        "r1": 74,
-        "r2": 67,
-        "r3": 69,
-        "r4": 72,
-        "total": 282,
-        "toPar": "-6",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2004-01-11",
+        "tournament": "Mercedes Championships",
+        "finish": "2",
+        "toPar": "-21",
+        "earnings": "$600,000"
       },
       {
-        "date": "1990-04-01",
-        "tournament": "Independent Insurance Agent Open",
-        "finish": "T15",
-        "r1": 70,
-        "r2": 73,
-        "r3": 64,
-        "r4": null,
-        "total": 207,
-        "toPar": "-9",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
-      },
-      {
-        "date": "1990-04-08",
-        "tournament": "Masters Tournament",
-        "finish": "P1",
-        "r1": 71,
-        "r2": 72,
-        "r3": 66,
-        "r4": 69,
-        "total": 278,
+        "date": "2004-01-18",
+        "tournament": "Sony Open in Hawaii",
+        "finish": "T10",
         "toPar": "-10",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "earnings": "$110,400"
       },
       {
-        "date": "1990-04-15",
-        "tournament": "MCI Heritage Golf Classic",
-        "finish": "T16",
-        "r1": 68,
-        "r2": 69,
-        "r3": 70,
-        "r4": 74,
-        "total": 281,
-        "toPar": "-3",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
-      },
-      {
-        "date": "1990-06-10",
-        "tournament": "Centel Western Open",
-        "finish": "T32",
-        "r1": 72,
-        "r2": 75,
-        "r3": 70,
-        "r4": 74,
-        "total": 291,
-        "toPar": "+3",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
-      },
-      {
-        "date": "1990-06-17",
-        "tournament": "U.S. Open Championship",
+        "date": "2004-02-01",
+        "tournament": "FBR Open",
         "finish": "T3",
-        "r1": 72,
-        "r2": 72,
-        "r3": 68,
-        "r4": 69,
-        "total": 281,
-        "toPar": "-7",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "toPar": "-15",
+        "earnings": "$301,600"
       },
       {
-        "date": "1990-07-22",
-        "tournament": "The Open Championship",
+        "date": "2004-02-08",
+        "tournament": "AT&T Pebble Beach National Pro-Am",
         "finish": "1",
-        "r1": 67,
-        "r2": 65,
-        "r3": 67,
-        "r4": 71,
-        "total": 270,
-        "toPar": "-18",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "toPar": "-16",
+        "earnings": "$954,000"
       },
       {
-        "date": "1990-08-12",
+        "date": "2004-02-15",
+        "tournament": "Buick Invitational",
+        "finish": "CUT",
+        "toPar": "E",
+        "earnings": "$0"
+      },
+      {
+        "date": "2004-02-22",
+        "tournament": "Nissan Open",
+        "finish": "T24",
+        "toPar": "-6",
+        "earnings": "$37,140"
+      },
+      {
+        "date": "2004-02-29",
+        "tournament": "World Golf Championships-Accenture Match Play Championship",
+        "finish": "T17",
+        "toPar": null,
+        "earnings": "$75,000"
+      },
+      {
+        "date": "2004-03-21",
+        "tournament": "Bay Hill Invitational Presented by MasterCard",
+        "finish": "T31",
+        "toPar": "-2",
+        "earnings": "$27,166"
+      },
+      {
+        "date": "2004-03-28",
+        "tournament": "THE PLAYERS Championship",
+        "finish": "T13",
+        "toPar": "-4",
+        "earnings": "$154,666"
+      },
+      {
+        "date": "2004-04-11",
+        "tournament": "Masters Tournament",
+        "finish": "T6",
+        "toPar": "-2",
+        "earnings": "$189,893"
+      },
+      {
+        "date": "2004-04-25",
+        "tournament": "Shell Houston Open",
+        "finish": "1",
+        "toPar": "-11",
+        "earnings": "$900,000"
+      },
+      {
+        "date": "2004-05-02",
+        "tournament": "HP Classic of New Orleans",
+        "finish": "1",
+        "toPar": "-22",
+        "earnings": "$918,000"
+      },
+      {
+        "date": "2004-05-09",
+        "tournament": "Wachovia Championship",
+        "finish": "T10",
+        "toPar": "-7",
+        "earnings": "$128,800"
+      },
+      {
+        "date": "2004-05-16",
+        "tournament": "EDS Byron Nelson Championship",
+        "finish": "T59",
+        "toPar": "+1",
+        "earnings": "$12,470"
+      },
+      {
+        "date": "2004-06-06",
+        "tournament": "the Memorial Tournament",
+        "finish": "T24",
+        "toPar": "-1",
+        "earnings": "$39,725"
+      },
+      {
+        "date": "2004-06-13",
+        "tournament": "Buick Classic",
+        "finish": "T4",
+        "toPar": "-10",
+        "earnings": "$217,000"
+      },
+      {
+        "date": "2004-06-20",
+        "tournament": "U.S. Open Championship",
+        "finish": "T28",
+        "toPar": "+13",
+        "earnings": "$51,774"
+      },
+      {
+        "date": "2004-07-04",
+        "tournament": "Cialis Western Open",
+        "finish": "T17",
+        "toPar": "-3",
+        "earnings": "$64,960"
+      },
+      {
+        "date": "2004-07-11",
+        "tournament": "John Deere Classic",
+        "finish": "T4",
+        "toPar": "-14",
+        "earnings": "$149,625"
+      },
+      {
+        "date": "2004-07-18",
+        "tournament": "The Open Championship",
+        "finish": "T20",
+        "toPar": "+1",
+        "earnings": "$71,346"
+      },
+      {
+        "date": "2004-08-01",
+        "tournament": "Buick Open",
+        "finish": "1",
+        "toPar": "-23",
+        "earnings": "$810,000"
+      },
+      {
+        "date": "2004-08-15",
         "tournament": "PGA Championship",
-        "finish": "T19",
-        "r1": 71,
-        "r2": 75,
-        "r3": 80,
-        "r4": 69,
-        "total": 295,
-        "toPar": "+7",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "finish": "P1",
+        "toPar": "-8",
+        "earnings": "$1,125,000"
       },
       {
-        "date": "1990-11-25",
-        "tournament": "Skins Game",
-        "finish": "T3",
-        "r1": null,
-        "r2": null,
-        "r3": null,
-        "r4": null,
-        "total": null,
-        "toPar": "-",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2004-08-22",
+        "tournament": "World Golf Championships-NEC Invitational",
+        "finish": "T32",
+        "toPar": "+3",
+        "earnings": "$51,000"
+      },
+      {
+        "date": "2004-09-06",
+        "tournament": "Deutsche Bank Championship",
+        "finish": "1",
+        "toPar": "-16",
+        "earnings": "$900,000"
+      },
+      {
+        "date": "2004-09-12",
+        "tournament": "Bell Canadian Open",
+        "finish": "P1",
+        "toPar": "-9",
+        "earnings": "$810,000"
+      },
+      {
+        "date": "2004-09-26",
+        "tournament": "84 LUMBER Classic",
+        "finish": "1",
+        "toPar": "-15",
+        "earnings": "$756,000"
+      },
+      {
+        "date": "2004-10-24",
+        "tournament": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+        "finish": "T2",
+        "toPar": "-19",
+        "earnings": "$369,600"
+      },
+      {
+        "date": "2004-10-31",
+        "tournament": "Chrysler Championship",
+        "finish": "1",
+        "toPar": "-18",
+        "earnings": "$900,000"
+      },
+      {
+        "date": "2004-11-07",
+        "tournament": "THE TOUR Championship presented by Coca-Cola",
+        "finish": "9",
+        "toPar": "-3",
+        "earnings": "$180,000"
+      },
+      {
+        "date": "2004-12-12",
+        "tournament": "Target World Challenge",
+        "finish": "T8",
+        "toPar": "-5",
+        "earnings": "$205,000",
+        "officialStart": false
       }
     ]
   },
@@ -446,73 +531,73 @@
     ]
   },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 7,
-    "metricTies": 2,
+    "playerAMetricWins": 4,
+    "playerBMetricWins": 5,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 2,
+      "playerA": 9,
       "playerB": 7,
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
+      "playerA": 1,
       "playerB": 2,
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 4,
+      "playerA": 14,
       "playerB": 11,
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 4,
+      "playerA": 18,
       "playerB": 14,
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 9,
+      "playerA": 29,
       "playerB": 19,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Cut rate",
-      "playerA": 100,
+      "playerA": 96.6,
       "playerB": 100,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 11.4,
+      "playerA": 11.6,
       "playerB": 9.6,
       "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -5.4,
+      "playerA": -8.8,
       "playerB": -6.2,
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 22.2,
+      "playerA": 31,
       "playerB": 36.8,
       "suffix": "%",
       "winner": "playerB"
@@ -520,7 +605,7 @@
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 44.4,
+      "playerA": 62.1,
       "playerB": 73.7,
       "suffix": "%",
       "winner": "playerB"
