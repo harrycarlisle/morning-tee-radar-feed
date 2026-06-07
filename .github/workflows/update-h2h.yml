@@ -44,7 +44,9 @@ jobs:
         env:
           DATAGOLF_API_KEY: ${{ secrets.DATAGOLF_API_KEY }}
           H2H_RUN_MODE: ${{ github.event.inputs.run_mode || 'all' }}
-        run: node scripts/generate-h2h.js
+        run: |
+          echo "H2H_RUN_MODE=$H2H_RUN_MODE"
+          node scripts/generate-h2h.js
 
       - name: Commit updated H2H data
         run: |
