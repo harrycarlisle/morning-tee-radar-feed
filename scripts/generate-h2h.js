@@ -235,10 +235,11 @@ const PRIME_SEASONS = {
     year: "2005",
     label: "2005, major-winning prime"
   },
-  "rory-mcilroy": {
-    year: "2013-2014",
-    label: "2014, two-major season"
-  },
+ "rory-mcilroy": {
+  year: "2013-2014",
+  displayYear: "2014",
+  label: "2014, two-major season"
+  }
   "scottie-scheffler": {
     year: "2024",
     label: "2024, dominant modern season"
@@ -1110,8 +1111,16 @@ async function buildPrimeMatchup(matchup) {
     },
     playerA,
     playerB,
-    primeA,
-    primeB,
+    primeA: {
+      year: primeA.year,
+      displayYear: primeA.displayYear || primeA.year,
+      label: primeA.label
+    },
+    primeB: {
+      year: primeB.year,
+      displayYear: primeB.displayYear || primeB.year,
+      label: primeB.label
+    },
     summary: {
       playerAMetricWins,
       playerBMetricWins,
