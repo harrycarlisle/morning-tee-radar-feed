@@ -259,11 +259,11 @@ const PRIME_MATCHUPS = [
   { playerA: p("byron"), playerB: p("nickFaldo") },
 
   { playerA: p("nickFaldo"), playerB: p("jack") },
-  { playerA: p("nickFaldo"), playerB: p("tiger") },
+  { playerA: p("nickFaldo"), playerB: p("tiger") }
 
+  // Add these only after Bryson's manual file has seasons["2024"]:
   // { playerA: p("scottie"), playerB: p("bryson") },
- // { playerA: p("rory"), playerB: p("bryson") }
-];
+  // { playerA: p("rory"), playerB: p("bryson") },
 
   // Add these after Rickie Fowler's manual file exists with seasons["2015"]:
   // { playerA: p("rickie"), playerB: p("reed") },
@@ -273,7 +273,6 @@ const PRIME_MATCHUPS = [
   // { playerA: p("reed"), playerB: p("rory") },
   // { playerA: p("reed"), playerB: p("bryson") }
 ];
-
 const MATCHUPS = [
   m("scottie", "rory", 2020),
   m("scottie", "bryson", 2020),
