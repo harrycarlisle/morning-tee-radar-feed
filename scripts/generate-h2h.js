@@ -135,6 +135,24 @@ const PLAYERS = {
     manualOnly: true
   },
 
+  samSnead: {
+    name: "Snead, Sam",
+    displayName: "Sam Snead",
+    slug: "sam-snead",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  rickie: {
+    name: "Fowler, Rickie",
+    displayName: "Rickie Fowler",
+    slug: "rickie-fowler",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
   jt: { name: "Thomas, Justin", displayName: "Justin Thomas", slug: "justin-thomas", dgId: 14139, country: "USA" },
   spieth: { name: "Spieth, Jordan", displayName: "Jordan Spieth", slug: "jordan-spieth", dgId: 14636, country: "USA" },
   cantlay: { name: "Cantlay, Patrick", displayName: "Patrick Cantlay", slug: "patrick-cantlay", dgId: 15466, country: "USA" },
@@ -170,6 +188,10 @@ const PRIME_SEASONS = {
     year: "1945",
     label: "1945, 18-win season"
   },
+  "sam-snead": {
+    year: "1950",
+    label: "1950, 11-win season"
+  },
   "jack-nicklaus": {
     year: "1972",
     label: "1972, Masters and U.S. Open season"
@@ -193,16 +215,46 @@ const PRIME_SEASONS = {
   "bryson-dechambeau": {
     year: "2024",
     label: "2024, U.S. Open season"
+  },
+  "patrick-reed": {
+    year: "2018",
+    label: "2018, Masters season"
+  },
+  "rickie-fowler": {
+    year: "2015",
+    label: "2015, peak Rickie"
   }
 };
 
+/*
+  Prime vs Prime only generates when both players have manual files
+  and the selected season exists inside those files.
+
+  Safe to add players to PLAYERS and PRIME_SEASONS before their files exist.
+  Do not add them to PRIME_MATCHUPS until the manual JSON is uploaded.
+*/
 const PRIME_MATCHUPS = [
-  { playerA: p("byron"), playerB: p("jack") },
-  { playerA: p("byron"), playerB: p("tiger") },
+  { playerA: p("scottie"), playerB: p("rory") },
   { playerA: p("jack"), playerB: p("tiger") },
   { playerA: p("tiger"), playerB: p("scottie") },
   { playerA: p("scottie"), playerB: p("bryson") },
   { playerA: p("rory"), playerB: p("bryson") }
+
+  // Add these after Byron's manual file exists with seasons["1945"]:
+  // { playerA: p("byron"), playerB: p("jack") },
+  // { playerA: p("byron"), playerB: p("tiger") },
+
+  // Add these after Sam Snead's manual file exists with seasons["1950"]:
+  // { playerA: p("samSnead"), playerB: p("byron") },
+  // { playerA: p("samSnead"), playerB: p("jack") },
+
+  // Add these after Rickie Fowler's manual file exists with seasons["2015"]:
+  // { playerA: p("rickie"), playerB: p("reed") },
+  // { playerA: p("rickie"), playerB: p("rory") },
+
+  // Add these after Patrick Reed's manual file exists with seasons["2018"]:
+  // { playerA: p("reed"), playerB: p("rory") },
+  // { playerA: p("reed"), playerB: p("bryson") }
 ];
 
 const MATCHUPS = [
@@ -911,7 +963,7 @@ async function buildPrimeMatchup(matchup) {
   const { playerA, playerB } = matchup;
 
   console.log("");
-  console.log(`[H2H] Building Prime Scorecard: ${playerA.displayName} vs ${playerB.displayName}`);
+  console.log(`[H2H] Building Prime vs Prime: ${playerA.displayName} vs ${playerB.displayName}`);
 
   const primeA = summarizePrimeSeason(getPrimeSeason(playerA));
   const primeB = summarizePrimeSeason(getPrimeSeason(playerB));
@@ -1002,8 +1054,8 @@ async function buildPrimeMatchup(matchup) {
     updatedAt: new Date().toISOString(),
     source: "Manual player results",
     rules: {
-      mainStat: "prime season scorecard",
-      explanation: "This compares each player's selected peak season. It is not based on shared starts.",
+      mainStat: "Prime vs Prime",
+      explanation: "This compares each player's best selected year of their career. It is not based on shared starts.",
       counting: "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
       dataNote: "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
     },
@@ -1047,14 +1099,14 @@ async function main() {
     await buildMatchup(matchup);
   }
 
-  console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} prime scorecards...`);
+  console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} Prime vs Prime matchups...`);
 
   for (const matchup of PRIME_MATCHUPS) {
     try {
       await buildPrimeMatchup(matchup);
     } catch (error) {
       console.warn(
-        `[H2H] Skipped Prime Scorecard ${matchup.playerA.displayName} vs ${matchup.playerB.displayName}: ${error.message}`
+        `[H2H] Skipped Prime vs Prime ${matchup.playerA.displayName} vs ${matchup.playerB.displayName}: ${error.message}`
       );
     }
   }
