@@ -1103,36 +1103,4 @@ async function buildPrimeMatchup(matchup) {
 async function main() {
   const RUN_MODE = process.env.H2H_RUN_MODE || "all";
 
-  if (RUN_MODE === "prime" || RUN_MODE === "all") {
-    console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} Prime vs Prime matchups...`);
-
-    for (const matchup of PRIME_MATCHUPS) {
-      try {
-        await buildPrimeMatchup(matchup);
-      } catch (error) {
-        console.warn(
-          `[H2H] Skipped Prime vs Prime ${matchup.playerA.displayName} vs ${matchup.playerB.displayName}: ${error.message}`
-        );
-      }
-    }
-  }
-
-  if (RUN_MODE === "prime") {
-    console.log("[H2H] Prime-only run complete.");
-    return;
-  }
-
-  console.log(`[H2H] Starting ${MATCHUPS.length} shared-start matchups...`);
-
-  const matchupsToRun = TEST_ONLY_TIGER_RORY
-    ? MATCHUPS.filter(
-        (matchup) =>
-          matchup.playerA.slug === "tiger-woods" &&
-          matchup.playerB.slug === "rory-mcilroy"
-      )
-    : MATCHUPS;
-
-  for (const matchup of matchupsToRun) {
-    await buildMatchup(matchup);
-  }
-}
+  console.log(`[H2H] Run
