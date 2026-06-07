@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T17:11:11.913Z",
+  "updatedAt": "2026-06-07T17:11:13.070Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -197,8 +197,8 @@
     {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler Takes Advantage of Crucial Rule as Official's Decis...",
-      "summary": "Scottie Scheffler got a free drop under Rule 16.",
-      "quickRead": "Scottie Scheffler got a free drop under Rule 16. 1 after his tee shot on the par-5 7th at Muirfield Village came to rest on a sprinkler head, moved it to the right fairway, then hit 3-wood to 8 feet and drained the eagle putt.",
+      "summary": "Scottie Scheffler got a favorable free-drop ruling under Rule 16.",
+      "quickRead": "Scottie Scheffler got a favorable free-drop ruling under Rule 16. 1 after his tee shot on the Memorial’s par-5 7th came to rest on a sprinkler head, moved it one club length to the nearest point of complete relief, then hit 3-wood to 8 feet and drained the eagle putt.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -206,7 +206,7 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-takes-advantage-crucial-103013535.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-takes-advantage-crucial-103013535.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
       "timestamp": "2026-06-07T10:30:13.000Z"
     },
     {
@@ -225,19 +225,19 @@
       "timestamp": "2026-06-07T11:00:00.000Z"
     },
     {
-      "label": "STORY TO WATCH",
-      "title": "Weather Turns Memorial Tournament Into Sunday Marathon",
-      "summary": "Weather forced the Memorial Tournament to suspend Round 3 after a second delay, leaving J.",
-      "quickRead": "Weather forced the Memorial Tournament to suspend Round 3 after a second delay, leaving J. T.",
+      "label": "MAJOR WATCH",
+      "title": "Charley Hull in contention behind Nelly Korda ahead of Women’s US Ope...",
+      "summary": "Hull is chasing her first major title and finds herself three strokes behind Korda and Sei Young Kim",
+      "quickRead": "Hull is chasing her first major title and finds herself three strokes behind Korda and Sei Young Kim",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/weather-turns-memorial-tournament-sunday-003426035.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/weather-turns-memorial-tournament-sunday-003426035.html",
+      "url": "https://sports.yahoo.com/articles/charley-hull-contention-behind-nelly-110951766.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/charley-hull-contention-behind-nelly-110951766.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-07T00:34:26.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/charley-hull.png",
+      "timestamp": "2026-06-07T11:09:51.000Z"
     }
   ],
   "checking": {
@@ -285,5 +285,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-07T17:11:12.896Z",
+      "approvedAt": "2026-06-07T17:11:12.896Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston is E today and -12 overall through 1. Closest chasers: Ryan Gerard (-8), Sam Burns (-8), Wyndham Clark (-6).",
+      "quickRead": "J.T. Poston is E today and -12 overall through 1. Closest chasers: Ryan Gerard (-8), Sam Burns (-8), Wyndham Clark (-6).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.T. Poston",
+          "score": "-12",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Wyndham Clark",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-6",
+          "thru": "2"
+        }
+      ]
+    }
+  ]
 }
