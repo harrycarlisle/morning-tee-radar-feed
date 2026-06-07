@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T20:45:01.014Z",
+  "updatedAt": "2026-06-07T21:06:53.800Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-07T21:06:53.798Z",
+      "approvedAt": "2026-06-07T21:06:53.798Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads the Memorial Tournament presented by Workday at -11",
+      "summary": "Wyndham Clark is -5 today and -11 overall through 16. Closest chasers: Tommy Fleetwood (-11), J.T. Poston (-11), Ryan Gerard (-11).",
+      "quickRead": "Wyndham Clark is tied for the lead at 11-under par through 16 holes in Round 4 at the Memorial Tournament, shooting 5-under on the day, alongside Tommy Fleetwood, J. T.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "16"
+        },
+        {
+          "pos": "T1",
+          "name": "Tommy Fleetwood",
+          "score": "-11",
+          "thru": "16"
+        },
+        {
+          "pos": "T1",
+          "name": "J.T. Poston",
+          "score": "-11",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
+          "name": "Ryan Gerard",
+          "score": "-11",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
+          "name": "Sam Burns",
+          "score": "-11",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "21 min ago",
       "timestamp": "2026-06-07T20:44:58.241Z",
       "approvedAt": "2026-06-07T20:44:58.241Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "14"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-07T19:15:28.712Z",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-07T17:56:44.000Z",
       "approvedAt": "2026-06-07T19:16:11.705Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-07T11:00:00.000Z",
       "approvedAt": "2026-06-07T19:15:30.095Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-07T18:51:00.020Z",
       "approvedAt": "2026-06-07T18:51:00.020Z",
       "status": "Live",
@@ -238,7 +291,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-07T17:50:49.000Z",
       "approvedAt": "2026-06-07T18:51:00.993Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-07T17:00:48.000Z",
       "approvedAt": "2026-06-07T17:11:07.509Z",
       "status": "Confirmed",
@@ -272,25 +325,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/tyrrell-hatton-holds-win-second-170048442.html",
       "sourceUrl": "https://sports.yahoo.com/articles/tyrrell-hatton-holds-win-second-170048442.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-06-07T13:15:25.000Z",
-      "approvedAt": "2026-06-07T17:11:09.877Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Paige Spiranac Surprised By What She's Witnessing At Women's U.S. Open",
-      "summary": "Paige Spiranac has been on hand at the women's U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/paige-spiranac-surprised-shes-witnessing-131525725.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/paige-spiranac-surprised-shes-witnessing-131525725.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "22 min ago",
       "timestamp": "2026-06-07T20:44:44.118Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "59 min ago",
       "timestamp": "2026-06-07T20:07:44.118Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-07T20:45:00.021Z",
-      "approvedAt": "2026-06-07T20:45:00.021Z",
+      "timestamp": "2026-06-07T21:06:53.800Z",
+      "approvedAt": "2026-06-07T21:06:53.800Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -10",
-      "summary": "J.T. Poston is +2 today and -10 overall through 14. Closest chasers: Ryan Gerard (-10), Sam Burns (-10), Wyndham Clark (-9).",
-      "quickRead": "J.T. Poston is +2 today and -10 overall through 14. Closest chasers: Ryan Gerard (-10), Sam Burns (-10), Wyndham Clark (-9).",
+      "title": "Wyndham Clark leads the Memorial Tournament presented by Workday at -11",
+      "summary": "Wyndham Clark is -5 today and -11 overall through 16. Closest chasers: Tommy Fleetwood (-11), J.T. Poston (-11), Ryan Gerard (-11).",
+      "quickRead": "Wyndham Clark is tied for the lead at 11-under par through 16 holes in Round 4 at the Memorial Tournament, shooting 5-under on the day, alongside Tommy Fleetwood, J. T.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -411,33 +445,33 @@
       "leaders": [
         {
           "pos": "T1",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "16"
+        },
+        {
+          "pos": "T1",
+          "name": "Tommy Fleetwood",
+          "score": "-11",
+          "thru": "16"
+        },
+        {
+          "pos": "T1",
           "name": "J.T. Poston",
-          "score": "-10",
-          "thru": "14"
+          "score": "-11",
+          "thru": "15"
         },
         {
           "pos": "T1",
           "name": "Ryan Gerard",
-          "score": "-10",
-          "thru": "14"
+          "score": "-11",
+          "thru": "15"
         },
         {
           "pos": "T1",
           "name": "Sam Burns",
-          "score": "-10",
-          "thru": "14"
-        },
-        {
-          "pos": "T4",
-          "name": "Wyndham Clark",
-          "score": "-9",
-          "thru": "14"
-        },
-        {
-          "pos": "T4",
-          "name": "Tommy Fleetwood",
-          "score": "-9",
-          "thru": "14"
+          "score": "-11",
+          "thru": "15"
         }
       ]
     }
