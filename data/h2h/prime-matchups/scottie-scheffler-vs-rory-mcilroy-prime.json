@@ -1,7 +1,7 @@
 {
-  "matchupId": "scottie-scheffler-vs-nick-faldo-prime",
+  "matchupId": "scottie-scheffler-vs-rory-mcilroy-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-07T21:34:34.651Z",
+  "updatedAt": "2026-06-07T21:34:34.640Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -17,12 +17,11 @@
     "country": "USA"
   },
   "playerB": {
-    "name": "Faldo, Nick",
-    "displayName": "Nick Faldo",
-    "slug": "nick-faldo",
-    "dgId": null,
-    "country": "ENG",
-    "manualOnly": true
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
   },
   "primeA": {
     "player": {
@@ -347,154 +346,153 @@
   },
   "primeB": {
     "player": {
-      "name": "Faldo, Nick",
-      "displayName": "Nick Faldo",
-      "slug": "nick-faldo",
-      "dgId": null,
-      "country": "ENG",
-      "manualOnly": true
+      "name": "McIlroy, Rory",
+      "displayName": "Rory McIlroy",
+      "slug": "rory-mcilroy",
+      "dgId": 10091,
+      "country": "NIR"
     },
-    "year": "1990",
-    "label": "1990, Masters and Open season",
-    "eventsPlayed": 9,
-    "officialEvents": 9,
-    "wins": 2,
+    "year": "2013-2014",
+    "label": "2014, two-major season",
+    "eventsPlayed": 18,
+    "officialEvents": 18,
+    "wins": 3,
     "majors": 2,
-    "top5s": 4,
-    "top10s": 4,
-    "madeCuts": 9,
+    "top5s": 6,
+    "top10s": 12,
+    "madeCuts": 18,
     "missedCuts": 0,
     "cutRate": 1,
-    "winRate": 0.2222222222222222,
-    "top10Rate": 0.4444444444444444,
-    "averageFinish": 11.444444444444445,
-    "averageScoreToPar": -5.375,
+    "winRate": 0.16666666666666666,
+    "top10Rate": 0.6666666666666666,
+    "averageFinish": 9.333333333333334,
+    "averageScoreToPar": -7.235294117647059,
     "events": [
       {
-        "date": "1990-03-25",
-        "tournament": "Nestle Invitational",
-        "finish": "T13",
-        "r1": 74,
-        "r2": 67,
-        "r3": 69,
-        "r4": 72,
-        "total": 282,
-        "toPar": "-6",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2013-10-31",
+        "tournament": "World Golf Championships-HSBC Champions",
+        "finish": "T6",
+        "toPar": "-15",
+        "earnings": "$231,500"
       },
       {
-        "date": "1990-04-01",
-        "tournament": "Independent Insurance Agent Open",
-        "finish": "T15",
-        "r1": 70,
-        "r2": 73,
-        "r3": 64,
-        "r4": null,
-        "total": 207,
-        "toPar": "-9",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2013-12-05",
+        "tournament": "Northwestern Mutual World Challenge",
+        "finish": "11",
+        "toPar": "E",
+        "earnings": "$115,000"
       },
       {
-        "date": "1990-04-08",
+        "date": "2014-02-19",
+        "tournament": "World Golf Championships-Accenture Match Play Championship",
+        "finish": "T17",
+        "toPar": "-",
+        "earnings": "$99,000"
+      },
+      {
+        "date": "2014-02-27",
+        "tournament": "The Honda Classic",
+        "finish": "PT2",
+        "toPar": "-8",
+        "earnings": "$448,000"
+      },
+      {
+        "date": "2014-03-06",
+        "tournament": "World Golf Championships-Cadillac Championship",
+        "finish": "T25",
+        "toPar": "+5",
+        "earnings": "$76,000"
+      },
+      {
+        "date": "2014-04-03",
+        "tournament": "Shell Houston Open",
+        "finish": "T7",
+        "toPar": "-8",
+        "earnings": "$186,240"
+      },
+      {
+        "date": "2014-04-10",
         "tournament": "Masters Tournament",
-        "finish": "P1",
-        "r1": 71,
-        "r2": 72,
-        "r3": 66,
-        "r4": 69,
-        "total": 278,
-        "toPar": "-10",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "finish": "T8",
+        "toPar": "E",
+        "earnings": "$234,000"
       },
       {
-        "date": "1990-04-15",
-        "tournament": "MCI Heritage Golf Classic",
-        "finish": "T16",
-        "r1": 68,
-        "r2": 69,
-        "r3": 70,
-        "r4": 74,
-        "total": 281,
-        "toPar": "-3",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2014-05-01",
+        "tournament": "Wells Fargo Championship",
+        "finish": "T8",
+        "toPar": "-8",
+        "earnings": "$200,100"
       },
       {
-        "date": "1990-06-10",
-        "tournament": "Centel Western Open",
-        "finish": "T32",
-        "r1": 72,
-        "r2": 75,
-        "r3": 70,
-        "r4": 74,
-        "total": 291,
-        "toPar": "+3",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2014-05-08",
+        "tournament": "THE PLAYERS Championship",
+        "finish": "T6",
+        "toPar": "-9",
+        "earnings": "$313,000"
       },
       {
-        "date": "1990-06-17",
-        "tournament": "U.S. Open Championship",
-        "finish": "T3",
-        "r1": 72,
-        "r2": 72,
-        "r3": 68,
-        "r4": 69,
-        "total": 281,
-        "toPar": "-7",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2014-05-29",
+        "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+        "finish": "T15",
+        "toPar": "-6",
+        "earnings": "$102,300"
       },
       {
-        "date": "1990-07-22",
+        "date": "2014-06-12",
+        "tournament": "U.S. Open",
+        "finish": "T23",
+        "toPar": "+6",
+        "earnings": "$79,968"
+      },
+      {
+        "date": "2014-07-17",
         "tournament": "The Open Championship",
         "finish": "1",
-        "r1": 67,
-        "r2": 65,
-        "r3": 67,
-        "r4": 71,
-        "total": 270,
-        "toPar": "-18",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "toPar": "-17",
+        "earnings": "$1,665,787"
       },
       {
-        "date": "1990-08-12",
+        "date": "2014-07-31",
+        "tournament": "World Golf Championships-Bridgestone Invitational",
+        "finish": "1",
+        "toPar": "-15",
+        "earnings": "$1,530,000"
+      },
+      {
+        "date": "2014-08-07",
         "tournament": "PGA Championship",
-        "finish": "T19",
-        "r1": 71,
-        "r2": 75,
-        "r3": 80,
-        "r4": 69,
-        "total": 295,
-        "toPar": "+7",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "finish": "1",
+        "toPar": "-16",
+        "earnings": "$1,800,000"
       },
       {
-        "date": "1990-11-25",
-        "tournament": "Skins Game",
-        "finish": "T3",
-        "r1": null,
-        "r2": null,
-        "r3": null,
-        "r4": null,
-        "total": null,
-        "toPar": "-",
-        "fedExCupRank": null,
-        "fedExCupPoints": null,
-        "earnings": null
+        "date": "2014-08-21",
+        "tournament": "The Barclays",
+        "finish": "T22",
+        "toPar": "-5",
+        "earnings": "$70,200"
+      },
+      {
+        "date": "2014-08-29",
+        "tournament": "Deutsche Bank Championship",
+        "finish": "T5",
+        "toPar": "-11",
+        "earnings": "$304,000"
+      },
+      {
+        "date": "2014-09-04",
+        "tournament": "BMW Championship",
+        "finish": "T8",
+        "toPar": "-8",
+        "earnings": "$232,000"
+      },
+      {
+        "date": "2014-09-11",
+        "tournament": "TOUR Championship by Coca-Cola",
+        "finish": "T2",
+        "toPar": "-8",
+        "earnings": "$708,000"
       }
     ]
   },
@@ -509,7 +507,7 @@
       "key": "wins",
       "label": "Wins",
       "playerA": 8,
-      "playerB": 2,
+      "playerB": 3,
       "winner": "playerA"
     },
     {
@@ -523,21 +521,21 @@
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 13,
-      "playerB": 4,
+      "playerB": 6,
       "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
       "playerA": 17,
-      "playerB": 4,
+      "playerB": 12,
       "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
       "playerA": 20,
-      "playerB": 9,
+      "playerB": 18,
       "winner": "neutral"
     },
     {
@@ -552,21 +550,21 @@
       "key": "averageFinish",
       "label": "Average finish",
       "playerA": 7.3,
-      "playerB": 11.4,
+      "playerB": 9.3,
       "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
       "playerA": -13.4,
-      "playerB": -5.4,
+      "playerB": -7.2,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
       "playerA": 40,
-      "playerB": 22.2,
+      "playerB": 16.7,
       "suffix": "%",
       "winner": "playerA"
     },
@@ -574,7 +572,7 @@
       "key": "top10Rate",
       "label": "Top 10 rate",
       "playerA": 85,
-      "playerB": 44.4,
+      "playerB": 66.7,
       "suffix": "%",
       "winner": "playerA"
     }

@@ -1,7 +1,7 @@
 {
-  "matchupId": "jack-nicklaus-vs-tiger-woods-prime",
+  "matchupId": "rory-mcilroy-vs-jack-nicklaus-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-07T21:34:34.653Z",
+  "updatedAt": "2026-06-07T21:34:34.645Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,6 +10,13 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
+  "playerB": {
     "name": "Nicklaus, Jack",
     "displayName": "Jack Nicklaus",
     "slug": "jack-nicklaus",
@@ -17,14 +24,159 @@
     "country": "USA",
     "manualOnly": true
   },
-  "playerB": {
-    "name": "Woods, Tiger",
-    "displayName": "Tiger Woods",
-    "slug": "tiger-woods",
-    "dgId": 5321,
-    "country": "USA"
-  },
   "primeA": {
+    "player": {
+      "name": "McIlroy, Rory",
+      "displayName": "Rory McIlroy",
+      "slug": "rory-mcilroy",
+      "dgId": 10091,
+      "country": "NIR"
+    },
+    "year": "2013-2014",
+    "label": "2014, two-major season",
+    "eventsPlayed": 18,
+    "officialEvents": 18,
+    "wins": 3,
+    "majors": 2,
+    "top5s": 6,
+    "top10s": 12,
+    "madeCuts": 18,
+    "missedCuts": 0,
+    "cutRate": 1,
+    "winRate": 0.16666666666666666,
+    "top10Rate": 0.6666666666666666,
+    "averageFinish": 9.333333333333334,
+    "averageScoreToPar": -7.235294117647059,
+    "events": [
+      {
+        "date": "2013-10-31",
+        "tournament": "World Golf Championships-HSBC Champions",
+        "finish": "T6",
+        "toPar": "-15",
+        "earnings": "$231,500"
+      },
+      {
+        "date": "2013-12-05",
+        "tournament": "Northwestern Mutual World Challenge",
+        "finish": "11",
+        "toPar": "E",
+        "earnings": "$115,000"
+      },
+      {
+        "date": "2014-02-19",
+        "tournament": "World Golf Championships-Accenture Match Play Championship",
+        "finish": "T17",
+        "toPar": "-",
+        "earnings": "$99,000"
+      },
+      {
+        "date": "2014-02-27",
+        "tournament": "The Honda Classic",
+        "finish": "PT2",
+        "toPar": "-8",
+        "earnings": "$448,000"
+      },
+      {
+        "date": "2014-03-06",
+        "tournament": "World Golf Championships-Cadillac Championship",
+        "finish": "T25",
+        "toPar": "+5",
+        "earnings": "$76,000"
+      },
+      {
+        "date": "2014-04-03",
+        "tournament": "Shell Houston Open",
+        "finish": "T7",
+        "toPar": "-8",
+        "earnings": "$186,240"
+      },
+      {
+        "date": "2014-04-10",
+        "tournament": "Masters Tournament",
+        "finish": "T8",
+        "toPar": "E",
+        "earnings": "$234,000"
+      },
+      {
+        "date": "2014-05-01",
+        "tournament": "Wells Fargo Championship",
+        "finish": "T8",
+        "toPar": "-8",
+        "earnings": "$200,100"
+      },
+      {
+        "date": "2014-05-08",
+        "tournament": "THE PLAYERS Championship",
+        "finish": "T6",
+        "toPar": "-9",
+        "earnings": "$313,000"
+      },
+      {
+        "date": "2014-05-29",
+        "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+        "finish": "T15",
+        "toPar": "-6",
+        "earnings": "$102,300"
+      },
+      {
+        "date": "2014-06-12",
+        "tournament": "U.S. Open",
+        "finish": "T23",
+        "toPar": "+6",
+        "earnings": "$79,968"
+      },
+      {
+        "date": "2014-07-17",
+        "tournament": "The Open Championship",
+        "finish": "1",
+        "toPar": "-17",
+        "earnings": "$1,665,787"
+      },
+      {
+        "date": "2014-07-31",
+        "tournament": "World Golf Championships-Bridgestone Invitational",
+        "finish": "1",
+        "toPar": "-15",
+        "earnings": "$1,530,000"
+      },
+      {
+        "date": "2014-08-07",
+        "tournament": "PGA Championship",
+        "finish": "1",
+        "toPar": "-16",
+        "earnings": "$1,800,000"
+      },
+      {
+        "date": "2014-08-21",
+        "tournament": "The Barclays",
+        "finish": "T22",
+        "toPar": "-5",
+        "earnings": "$70,200"
+      },
+      {
+        "date": "2014-08-29",
+        "tournament": "Deutsche Bank Championship",
+        "finish": "T5",
+        "toPar": "-11",
+        "earnings": "$304,000"
+      },
+      {
+        "date": "2014-09-04",
+        "tournament": "BMW Championship",
+        "finish": "T8",
+        "toPar": "-8",
+        "earnings": "$232,000"
+      },
+      {
+        "date": "2014-09-11",
+        "tournament": "TOUR Championship by Coca-Cola",
+        "finish": "T2",
+        "toPar": "-8",
+        "earnings": "$708,000"
+      }
+    ]
+  },
+  "primeB": {
     "player": {
       "name": "Nicklaus, Jack",
       "displayName": "Jack Nicklaus",
@@ -291,236 +443,46 @@
       }
     ]
   },
-  "primeB": {
-    "player": {
-      "name": "Woods, Tiger",
-      "displayName": "Tiger Woods",
-      "slug": "tiger-woods",
-      "dgId": 5321,
-      "country": "USA"
-    },
-    "year": "2000",
-    "label": "2000, peak Tiger",
-    "eventsPlayed": 20,
-    "officialEvents": 20,
-    "wins": 9,
-    "majors": 3,
-    "top5s": 17,
-    "top10s": 17,
-    "madeCuts": 20,
-    "missedCuts": 0,
-    "cutRate": 1,
-    "winRate": 0.45,
-    "top10Rate": 0.85,
-    "averageFinish": 4.3,
-    "averageScoreToPar": -13.842105263157896,
-    "events": [
-      {
-        "date": "2000-01-02",
-        "tournament": "Williams World Challenge",
-        "finish": "10",
-        "toPar": "+2",
-        "earnings": "$130,000",
-        "officialStart": false
-      },
-      {
-        "date": "2000-01-09",
-        "tournament": "Mercedes Championships",
-        "finish": "1",
-        "toPar": "-16",
-        "earnings": "$522,000"
-      },
-      {
-        "date": "2000-02-06",
-        "tournament": "AT&T Pebble Beach National Pro-Am",
-        "finish": "1",
-        "toPar": "-15",
-        "earnings": "$720,000"
-      },
-      {
-        "date": "2000-02-13",
-        "tournament": "Buick Invitational",
-        "finish": "T2",
-        "toPar": "-14",
-        "earnings": "$264,000"
-      },
-      {
-        "date": "2000-02-20",
-        "tournament": "Nissan Open",
-        "finish": "T18",
-        "toPar": "-5",
-        "earnings": "$37,731"
-      },
-      {
-        "date": "2000-02-27",
-        "tournament": "World Golf Championships-Accenture Match Play Championship",
-        "finish": "2",
-        "toPar": null,
-        "earnings": "$500,000"
-      },
-      {
-        "date": "2000-03-19",
-        "tournament": "Bay Hill Invitational",
-        "finish": "1",
-        "toPar": "-18",
-        "earnings": "$540,000"
-      },
-      {
-        "date": "2000-03-26",
-        "tournament": "THE PLAYERS Championship",
-        "finish": "2",
-        "toPar": "-9",
-        "earnings": "$648,000"
-      },
-      {
-        "date": "2000-04-09",
-        "tournament": "Masters Tournament",
-        "finish": "5",
-        "toPar": "-4",
-        "earnings": "$184,000"
-      },
-      {
-        "date": "2000-05-14",
-        "tournament": "GTE Byron Nelson Classic",
-        "finish": "T4",
-        "toPar": "-10",
-        "earnings": "$176,000"
-      },
-      {
-        "date": "2000-05-28",
-        "tournament": "Memorial Tournament",
-        "finish": "1",
-        "toPar": "-19",
-        "earnings": "$558,000"
-      },
-      {
-        "date": "2000-06-18",
-        "tournament": "U.S. Open Championship",
-        "finish": "1",
-        "toPar": "-12",
-        "earnings": "$800,000"
-      },
-      {
-        "date": "2000-07-09",
-        "tournament": "Advil Western Open",
-        "finish": "T23",
-        "toPar": "-7",
-        "earnings": "$26,700"
-      },
-      {
-        "date": "2000-07-23",
-        "tournament": "The Open Championship",
-        "finish": "1",
-        "toPar": "-19",
-        "earnings": "$759,150"
-      },
-      {
-        "date": "2000-08-13",
-        "tournament": "Buick Open",
-        "finish": "T11",
-        "toPar": "-13",
-        "earnings": "$57,240"
-      },
-      {
-        "date": "2000-08-20",
-        "tournament": "PGA Championship",
-        "finish": "1",
-        "toPar": "-18",
-        "earnings": "$900,000"
-      },
-      {
-        "date": "2000-08-27",
-        "tournament": "World Golf Championships-NEC Invitational",
-        "finish": "1",
-        "toPar": "-21",
-        "earnings": "$1,000,000"
-      },
-      {
-        "date": "2000-09-10",
-        "tournament": "Bell Canadian Open",
-        "finish": "1",
-        "toPar": "-22",
-        "earnings": "$594,000"
-      },
-      {
-        "date": "2000-10-29",
-        "tournament": "National Car Rental Golf Classic Disney",
-        "finish": "3",
-        "toPar": "-23",
-        "earnings": "$204,000"
-      },
-      {
-        "date": "2000-11-05",
-        "tournament": "THE TOUR Championship",
-        "finish": "2",
-        "toPar": "-11",
-        "earnings": "$540,000"
-      },
-      {
-        "date": "2000-11-12",
-        "tournament": "World Golf Championships-American Express Championship",
-        "finish": "T5",
-        "toPar": "-7",
-        "earnings": "$157,500"
-      },
-      {
-        "date": "2000-12-03",
-        "tournament": "Williams World Challenge",
-        "finish": "2",
-        "toPar": "-20",
-        "earnings": "$500,000",
-        "officialStart": false
-      },
-      {
-        "date": "2000-12-10",
-        "tournament": "World Golf Championships-EMC World Cup",
-        "finish": "T1",
-        "toPar": "-34",
-        "earnings": "$500,000",
-        "officialStart": false
-      }
-    ]
-  },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
-    "metricTies": 1,
+    "playerAMetricWins": 2,
+    "playerBMetricWins": 5,
+    "metricTies": 2,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 7,
-      "playerB": 9,
+      "playerA": 3,
+      "playerB": 7,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
       "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerB": 2,
+      "winner": "tie"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 11,
-      "playerB": 17,
+      "playerA": 6,
+      "playerB": 11,
       "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 14,
-      "playerB": 17,
+      "playerA": 12,
+      "playerB": 14,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 19,
-      "playerB": 20,
+      "playerA": 18,
+      "playerB": 19,
       "winner": "neutral"
     },
     {
@@ -534,30 +496,30 @@
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 9.6,
-      "playerB": 4.3,
-      "winner": "playerB"
+      "playerA": 9.3,
+      "playerB": 9.6,
+      "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -6.2,
-      "playerB": -13.8,
-      "winner": "playerB"
+      "playerA": -7.2,
+      "playerB": -6.2,
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 36.8,
-      "playerB": 45,
+      "playerA": 16.7,
+      "playerB": 36.8,
       "suffix": "%",
       "winner": "playerB"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 73.7,
-      "playerB": 85,
+      "playerA": 66.7,
+      "playerB": 73.7,
       "suffix": "%",
       "winner": "playerB"
     }
