@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T17:11:14.162Z",
+  "updatedAt": "2026-06-07T18:51:00.023Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "10 min ago",
+      "time": "Just now",
+      "timestamp": "2026-06-07T18:51:00.020Z",
+      "approvedAt": "2026-06-07T18:51:00.020Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
+      "quickRead": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.T. Poston",
+          "score": "-12",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-9",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-9",
+          "thru": "7"
+        },
+        {
+          "pos": "4",
+          "name": "Wyndham Clark",
+          "score": "-8",
+          "thru": "8"
+        },
+        {
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-7",
+          "thru": "8"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-07T17:00:48.000Z",
       "approvedAt": "2026-06-07T17:11:07.509Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tyrrell-hatton-holds-win-second-170048442.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-07T13:15:25.000Z",
       "approvedAt": "2026-06-07T17:11:09.877Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-07T11:10:00.000Z",
       "approvedAt": "2026-06-07T15:21:06.786Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-07T00:34:26.000Z",
       "approvedAt": "2026-06-07T15:21:09.119Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-07T11:09:51.000Z",
       "approvedAt": "2026-06-07T13:42:58.291Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charley-hull.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-07T10:30:13.000Z",
       "approvedAt": "2026-06-07T13:43:00.616Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-07T11:00:00.000Z",
       "approvedAt": "2026-06-07T13:43:00.617Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-06-06T21:49:59.000Z",
       "approvedAt": "2026-06-07T13:43:00.617Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-urged-rule-change-214959483.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-06-07T02:42:01.000Z",
-      "approvedAt": "2026-06-07T10:25:24.591Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "U.S Women's Open 2026: Nelly Korda, Sei Young Kim co-lead heading into Sunday's...",
-      "summary": "Moving Day certainly lived up to its name during the third round of the 2026 U.S Women’s Open at Riviera.",
-      "quickRead": "Moving Day certainly lived up to its name during the third round of the 2026 U.S Women’s Open at Riviera.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/u-womens-open-2026-nelly-024201981.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/u-womens-open-2026-nelly-024201981.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-07T17:10:29.267Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-07T16:33:29.267Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -288,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-07T17:11:12.896Z",
-      "approvedAt": "2026-06-07T17:11:12.896Z",
+      "timestamp": "2026-06-07T18:51:00.023Z",
+      "approvedAt": "2026-06-07T18:51:00.023Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -12",
-      "summary": "J.T. Poston is E today and -12 overall through 1. Closest chasers: Ryan Gerard (-8), Sam Burns (-8), Wyndham Clark (-6).",
-      "quickRead": "J.T. Poston is E today and -12 overall through 1. Closest chasers: Ryan Gerard (-8), Sam Burns (-8), Wyndham Clark (-6).",
+      "summary": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
+      "quickRead": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -311,31 +345,31 @@
           "pos": "1",
           "name": "J.T. Poston",
           "score": "-12",
-          "thru": "1"
+          "thru": "7"
         },
         {
           "pos": "T2",
           "name": "Ryan Gerard",
-          "score": "-8",
-          "thru": "1"
+          "score": "-9",
+          "thru": "7"
         },
         {
           "pos": "T2",
           "name": "Sam Burns",
-          "score": "-8",
-          "thru": "1"
+          "score": "-9",
+          "thru": "7"
         },
         {
-          "pos": "T4",
+          "pos": "4",
           "name": "Wyndham Clark",
-          "score": "-6",
-          "thru": "2"
+          "score": "-8",
+          "thru": "8"
         },
         {
-          "pos": "T4",
+          "pos": "5",
           "name": "Tommy Fleetwood",
-          "score": "-6",
-          "thru": "2"
+          "score": "-7",
+          "thru": "8"
         }
       ]
     }
