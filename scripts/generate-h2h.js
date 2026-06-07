@@ -126,6 +126,15 @@ const PLAYERS = {
     manualOnly: true
   },
 
+  nickFaldo: {
+  name: "Faldo, Nick",
+  displayName: "Nick Faldo",
+  slug: "nick-faldo",
+  dgId: null,
+  country: "ENG",
+  manualOnly: true
+},
+
   byron: {
     name: "Nelson, Byron",
     displayName: "Byron Nelson",
@@ -188,6 +197,10 @@ const PRIME_SEASONS = {
     year: "1945",
     label: "1945, 18-win season"
   },
+  "nick-faldo": {
+  year: "1990",
+  label: "1990, Masters and Open season"
+  },
   "sam-snead": {
     year: "1950",
     label: "1950, 11-win season"
@@ -235,18 +248,22 @@ const PRIME_SEASONS = {
 */
 const PRIME_MATCHUPS = [
   { playerA: p("scottie"), playerB: p("rory") },
+  { playerA: p("scottie"), playerB: p("jack") },
+  { playerA: p("scottie"), playerB: p("nickFaldo") },
+
   { playerA: p("jack"), playerB: p("tiger") },
   { playerA: p("tiger"), playerB: p("scottie") },
-  { playerA: p("scottie"), playerB: p("bryson") },
-  { playerA: p("rory"), playerB: p("bryson") }
 
-  // Add these after Byron's manual file exists with seasons["1945"]:
-  // { playerA: p("byron"), playerB: p("jack") },
-  // { playerA: p("byron"), playerB: p("tiger") },
+  { playerA: p("byron"), playerB: p("jack") },
+  { playerA: p("byron"), playerB: p("tiger") },
+  { playerA: p("byron"), playerB: p("nickFaldo") },
 
-  // Add these after Sam Snead's manual file exists with seasons["1950"]:
-  // { playerA: p("samSnead"), playerB: p("byron") },
-  // { playerA: p("samSnead"), playerB: p("jack") },
+  { playerA: p("nickFaldo"), playerB: p("jack") },
+  { playerA: p("nickFaldo"), playerB: p("tiger") },
+
+  // { playerA: p("scottie"), playerB: p("bryson") },
+ // { playerA: p("rory"), playerB: p("bryson") }
+];
 
   // Add these after Rickie Fowler's manual file exists with seasons["2015"]:
   // { playerA: p("rickie"), playerB: p("reed") },
