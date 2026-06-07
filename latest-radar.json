@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T23:00:28.129Z",
+  "updatedAt": "2026-06-07T23:01:01.089Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,61 @@
   ],
   "today": [
     {
+      "time": "Just now",
+      "timestamp": "2026-06-07T23:01:01.085Z",
+      "approvedAt": "2026-06-07T23:01:01.086Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.T. Poston wins the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
+      "quickRead": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.T. Poston",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-10",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "44 min ago",
       "timestamp": "2026-06-07T22:16:09.000Z",
       "approvedAt": "2026-06-07T23:00:23.687Z",
@@ -37,9 +92,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-makes-complaint-u-221609067.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "10 hours ago",
       "timestamp": "2026-06-07T12:43:00.000Z",
@@ -303,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-07T21:52:15.613Z",
-      "approvedAt": "2026-06-07T21:52:15.613Z",
+      "timestamp": "2026-06-07T23:01:01.089Z",
+      "approvedAt": "2026-06-07T23:01:01.089Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ryan Gerard leads the Memorial Tournament presented by Workday at -12",
-      "summary": "Ryan Gerard is -4 today and -12 overall through 17. Closest chasers: Wyndham Clark (-11), J.T. Poston (-11), Tommy Fleetwood (-10).",
-      "quickRead": "Ryan Gerard holds the Memorial Tournament lead at 12-under par, shooting 4-under on his round and sitting at -12 through 17 holes.  Wyndham Clark (-11, finished) and J.",
+      "title": "J.T. Poston wins the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
+      "quickRead": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -324,21 +377,21 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Ryan Gerard",
+          "name": "J.T. Poston",
           "score": "-12",
-          "thru": "17"
-        },
-        {
-          "pos": "T2",
-          "name": "Wyndham Clark",
-          "score": "-11",
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "J.T. Poston",
+          "pos": "2",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Wyndham Clark",
           "score": "-11",
-          "thru": "17"
+          "thru": "F"
         },
         {
           "pos": "T4",
@@ -350,7 +403,7 @@
           "pos": "T4",
           "name": "Sam Burns",
           "score": "-10",
-          "thru": "17"
+          "thru": "F"
         }
       ]
     }
