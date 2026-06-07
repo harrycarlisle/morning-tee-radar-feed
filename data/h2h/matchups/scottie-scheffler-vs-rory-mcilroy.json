@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-06-07T01:33:37.588Z",
+  "updatedAt": "2026-06-07T15:20:50.179Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,8 +24,8 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 91,
-    "playerAWins": 50,
+    "sharedStarts": 93,
+    "playerAWins": 52,
     "playerBWins": 35,
     "ties": 6
   },
@@ -760,6 +760,34 @@
     },
     {
       "year": 2024,
+      "date": "2024-06-06",
+      "eventId": "manual-memorial tournament-2024",
+      "eventName": "Memorial Tournament",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": "$4,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T15",
+        "earnings": "$329,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
       "date": "2024-05-19",
       "eventId": 33,
       "eventName": "PGA Championship",
@@ -893,6 +921,34 @@
         "fedExCupPoints": null,
         "dgPoints": null,
         "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-07",
+      "eventId": "manual-arnold palmer invitational-2024",
+      "eventName": "Arnold Palmer Invitational",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": "$4,000,000",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T21",
+        "earnings": "$224,750",
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": true
       },
       "h2hWinner": "scottie-scheffler",
       "edge": "Scottie by 20 spots",
