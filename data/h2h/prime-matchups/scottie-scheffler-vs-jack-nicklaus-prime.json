@@ -1,0 +1,696 @@
+{
+  "matchupId": "scottie-scheffler-vs-jack-nicklaus-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-07T18:25:44.102Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Nicklaus, Jack",
+    "displayName": "Jack Nicklaus",
+    "slug": "jack-nicklaus",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "primeA": {
+    "player": {
+      "name": "Scheffler, Scottie",
+      "displayName": "Scottie Scheffler",
+      "slug": "scottie-scheffler",
+      "dgId": 18417,
+      "country": "USA"
+    },
+    "year": "2024",
+    "label": "2024, dominant modern season",
+    "eventsPlayed": 20,
+    "officialEvents": 20,
+    "wins": 8,
+    "majors": 1,
+    "top5s": 13,
+    "top10s": 17,
+    "madeCuts": 20,
+    "missedCuts": 0,
+    "cutRate": 1,
+    "winRate": 0.4,
+    "top10Rate": 0.85,
+    "averageFinish": 7.3,
+    "averageScoreToPar": -13.4,
+    "events": [
+      {
+        "date": "2024-01-04",
+        "tournament": "The Sentry",
+        "finish": "T5",
+        "toPar": "-25",
+        "rounds": [
+          66,
+          64,
+          71,
+          66
+        ],
+        "total": 267,
+        "earnings": "$690,500"
+      },
+      {
+        "date": "2024-01-18",
+        "tournament": "The American Express",
+        "finish": "T17",
+        "toPar": "-21",
+        "rounds": [
+          67,
+          66,
+          69,
+          65
+        ],
+        "total": 267,
+        "earnings": "$132,300"
+      },
+      {
+        "date": "2024-02-01",
+        "tournament": "AT&T Pebble Beach Pro-Am",
+        "finish": "T6",
+        "toPar": "-13",
+        "rounds": [
+          69,
+          64,
+          70,
+          null
+        ],
+        "total": 203,
+        "earnings": "$642,500"
+      },
+      {
+        "date": "2024-02-08",
+        "tournament": "WM Phoenix Open",
+        "finish": "T3",
+        "toPar": "-18",
+        "rounds": [
+          68,
+          66,
+          66,
+          66
+        ],
+        "total": 266,
+        "earnings": "$519,200"
+      },
+      {
+        "date": "2024-02-15",
+        "tournament": "The Genesis Invitational",
+        "finish": "T10",
+        "toPar": "-8",
+        "rounds": [
+          68,
+          70,
+          70,
+          68
+        ],
+        "total": 276,
+        "earnings": "$455,000"
+      },
+      {
+        "date": "2024-03-07",
+        "tournament": "Arnold Palmer Invitational presented by Mastercard",
+        "finish": "1",
+        "toPar": "-15",
+        "rounds": [
+          70,
+          67,
+          70,
+          66
+        ],
+        "total": 273,
+        "earnings": "$4,000,000"
+      },
+      {
+        "date": "2024-03-14",
+        "tournament": "THE PLAYERS Championship",
+        "finish": "1",
+        "toPar": "-20",
+        "rounds": [
+          67,
+          69,
+          68,
+          64
+        ],
+        "total": 268,
+        "earnings": "$4,500,000"
+      },
+      {
+        "date": "2024-03-28",
+        "tournament": "Texas Children's Houston Open",
+        "finish": "T2",
+        "toPar": "-11",
+        "rounds": [
+          65,
+          70,
+          66,
+          68
+        ],
+        "total": 269,
+        "earnings": "$553,735"
+      },
+      {
+        "date": "2024-04-11",
+        "tournament": "Masters Tournament",
+        "finish": "1",
+        "toPar": "-11",
+        "rounds": [
+          66,
+          72,
+          71,
+          68
+        ],
+        "total": 277,
+        "earnings": "$3,600,000"
+      },
+      {
+        "date": "2024-04-18",
+        "tournament": "RBC Heritage",
+        "finish": "1",
+        "toPar": "-19",
+        "rounds": [
+          69,
+          65,
+          63,
+          68
+        ],
+        "total": 265,
+        "earnings": "$3,600,000"
+      },
+      {
+        "date": "2024-05-16",
+        "tournament": "PGA Championship",
+        "finish": "T8",
+        "toPar": "-13",
+        "rounds": [
+          67,
+          66,
+          73,
+          65
+        ],
+        "total": 271,
+        "earnings": "$521,417"
+      },
+      {
+        "date": "2024-05-23",
+        "tournament": "Charles Schwab Challenge",
+        "finish": "T2",
+        "toPar": "-9",
+        "rounds": [
+          72,
+          65,
+          63,
+          71
+        ],
+        "total": 271,
+        "earnings": "$809,900"
+      },
+      {
+        "date": "2024-06-06",
+        "tournament": "the Memorial Tournament presented by Workday",
+        "finish": "1",
+        "toPar": "-8",
+        "rounds": [
+          67,
+          68,
+          71,
+          74
+        ],
+        "total": 280,
+        "earnings": "$4,000,000"
+      },
+      {
+        "date": "2024-06-13",
+        "tournament": "U.S. Open",
+        "finish": "T41",
+        "toPar": "+8",
+        "rounds": [
+          71,
+          74,
+          71,
+          72
+        ],
+        "total": 288,
+        "earnings": "$72,305"
+      },
+      {
+        "date": "2024-06-20",
+        "tournament": "Travelers Championship",
+        "finish": "P1",
+        "toPar": "-22",
+        "rounds": [
+          65,
+          64,
+          64,
+          65
+        ],
+        "total": 258,
+        "earnings": "$3,600,000"
+      },
+      {
+        "date": "2024-07-18",
+        "tournament": "The Open Championship",
+        "finish": "T7",
+        "toPar": "-1",
+        "rounds": [
+          70,
+          70,
+          71,
+          72
+        ],
+        "total": 283,
+        "earnings": "$451,833"
+      },
+      {
+        "date": "2024-08-01",
+        "tournament": "Men's Olympic Golf Competition",
+        "finish": "1",
+        "toPar": "-19",
+        "rounds": [
+          67,
+          69,
+          67,
+          62
+        ],
+        "total": 265,
+        "earnings": "$-"
+      },
+      {
+        "date": "2024-08-15",
+        "tournament": "FedEx St. Jude Championship",
+        "finish": "4",
+        "toPar": "-14",
+        "rounds": [
+          66,
+          65,
+          69,
+          66
+        ],
+        "total": 266,
+        "earnings": "$960,000"
+      },
+      {
+        "date": "2024-08-22",
+        "tournament": "BMW Championship",
+        "finish": "T33",
+        "toPar": "+1",
+        "rounds": [
+          71,
+          72,
+          74,
+          72
+        ],
+        "total": 289,
+        "earnings": "$119,666"
+      },
+      {
+        "date": "2024-08-29",
+        "tournament": "TOUR Championship",
+        "finish": "1",
+        "toPar": "-30",
+        "rounds": [
+          65,
+          66,
+          66,
+          67
+        ],
+        "total": null,
+        "earnings": "$-"
+      },
+      {
+        "date": "2024-12-05",
+        "tournament": "Hero World Challenge",
+        "finish": "1",
+        "toPar": "-25",
+        "rounds": [
+          67,
+          64,
+          69,
+          63
+        ],
+        "total": 263,
+        "earnings": "$1,000,000",
+        "unofficial": true
+      }
+    ]
+  },
+  "primeB": {
+    "player": {
+      "name": "Nicklaus, Jack",
+      "displayName": "Jack Nicklaus",
+      "slug": "jack-nicklaus",
+      "dgId": null,
+      "country": "USA",
+      "manualOnly": true
+    },
+    "year": "1972",
+    "label": "1972, Masters and U.S. Open season",
+    "eventsPlayed": 19,
+    "officialEvents": 19,
+    "wins": 7,
+    "majors": 2,
+    "top5s": 11,
+    "top10s": 14,
+    "madeCuts": 19,
+    "missedCuts": 0,
+    "cutRate": 1,
+    "winRate": 0.3684210526315789,
+    "top10Rate": 0.7368421052631579,
+    "averageFinish": 9.631578947368421,
+    "averageScoreToPar": -6.235294117647059,
+    "events": [
+      {
+        "date": "1972-01-16",
+        "tournament": "Bing Crosby National Pro-Am",
+        "position": "P1",
+        "overall": "-4",
+        "round1": "66",
+        "round2": "74",
+        "round3": "71",
+        "round4": "73",
+        "total": "284",
+        "official": true
+      },
+      {
+        "date": "1972-01-30",
+        "tournament": "Andy Williams-San Diego Open Invitational",
+        "position": "T32",
+        "overall": "-3",
+        "round1": "73",
+        "round2": "68",
+        "round3": "72",
+        "round4": "72",
+        "total": "285",
+        "official": true
+      },
+      {
+        "date": "1972-02-06",
+        "tournament": "Hawaiian Open",
+        "position": "T44",
+        "overall": "-3",
+        "round1": "70",
+        "round2": "71",
+        "round3": "73",
+        "round4": "71",
+        "total": "285",
+        "official": true
+      },
+      {
+        "date": "1972-02-13",
+        "tournament": "Bob Hope Desert Classic",
+        "position": "T10",
+        "overall": "-9",
+        "round1": "68",
+        "round2": "72",
+        "round3": "74",
+        "round4": "69",
+        "total": "351",
+        "official": true
+      },
+      {
+        "date": "1972-02-27",
+        "tournament": "Jackie Gleason's Inverrary Classic",
+        "position": "2",
+        "overall": "-9",
+        "round1": "73",
+        "round2": "68",
+        "round3": "71",
+        "round4": "67",
+        "total": "279",
+        "official": true
+      },
+      {
+        "date": "1972-03-05",
+        "tournament": "Doral-Eastern Open",
+        "position": "1",
+        "overall": "-12",
+        "round1": "71",
+        "round2": "71",
+        "round3": "64",
+        "round4": "70",
+        "total": "276",
+        "official": true
+      },
+      {
+        "date": "1972-03-12",
+        "tournament": "Florida Citrus Open",
+        "position": "T10",
+        "overall": "-7",
+        "round1": "70",
+        "round2": "72",
+        "round3": "70",
+        "round4": "69",
+        "total": "281",
+        "official": true
+      },
+      {
+        "date": "1972-03-26",
+        "tournament": "Greater New Orleans Open",
+        "position": "T2",
+        "overall": "-8",
+        "round1": "66",
+        "round2": "70",
+        "round3": "71",
+        "round4": "73",
+        "total": "280",
+        "official": true
+      },
+      {
+        "date": "1972-04-09",
+        "tournament": "Masters Tournament",
+        "position": "1",
+        "overall": "-2",
+        "round1": "68",
+        "round2": "71",
+        "round3": "73",
+        "round4": "74",
+        "total": "286",
+        "official": true
+      },
+      {
+        "date": "1972-04-23",
+        "tournament": "Tournament of Champions",
+        "position": "P2",
+        "overall": "-8",
+        "round1": "70",
+        "round2": "71",
+        "round3": "67",
+        "round4": "72",
+        "total": "280",
+        "official": true
+      },
+      {
+        "date": "1972-04-30",
+        "tournament": "Byron Nelson Golf Classic",
+        "position": "T29",
+        "overall": "+4",
+        "round1": "69",
+        "round2": "71",
+        "round3": "73",
+        "round4": "71",
+        "total": "284",
+        "official": true
+      },
+      {
+        "date": "1972-05-28",
+        "tournament": "Atlanta Classic",
+        "position": "T18",
+        "overall": "-3",
+        "round1": "70",
+        "round2": "64",
+        "round3": "75",
+        "round4": "76",
+        "total": "285",
+        "official": true
+      },
+      {
+        "date": "1972-06-18",
+        "tournament": "U.S. Open Championship",
+        "position": "1",
+        "overall": "+2",
+        "round1": "71",
+        "round2": "73",
+        "round3": "72",
+        "round4": "74",
+        "total": "290",
+        "official": true
+      },
+      {
+        "date": "1972-07-15",
+        "tournament": "The Open Championship*",
+        "position": "2",
+        "overall": "-5",
+        "round1": "70",
+        "round2": "72",
+        "round3": "71",
+        "round4": "66",
+        "total": "279",
+        "official": false
+      },
+      {
+        "date": "1972-08-06",
+        "tournament": "PGA Championship",
+        "position": "T13",
+        "overall": "+7",
+        "round1": "72",
+        "round2": "75",
+        "round3": "68",
+        "round4": "72",
+        "total": "287",
+        "official": true
+      },
+      {
+        "date": "1972-08-13",
+        "tournament": "Westchester Classic",
+        "position": "1",
+        "overall": "-18",
+        "round1": "65",
+        "round2": "67",
+        "round3": "70",
+        "round4": "68",
+        "total": "270",
+        "official": true
+      },
+      {
+        "date": "1972-08-27",
+        "tournament": "U.S. Professional Match Play Championship",
+        "position": "1",
+        "overall": "-",
+        "round1": null,
+        "round2": null,
+        "round3": null,
+        "round4": null,
+        "total": null,
+        "official": true
+      },
+      {
+        "date": "1972-10-22",
+        "tournament": "Kaiser International Open Invitational",
+        "position": "T9",
+        "overall": "+281",
+        "round1": "69",
+        "round2": "71",
+        "round3": "69",
+        "round4": "72",
+        "total": "281",
+        "official": true
+      },
+      {
+        "date": "1972-10-29",
+        "tournament": "Sahara Invitational",
+        "position": "T5",
+        "overall": "-12",
+        "round1": "66",
+        "round2": "69",
+        "round3": "73",
+        "round4": "68",
+        "total": "276",
+        "official": true
+      },
+      {
+        "date": "1972-12-03",
+        "tournament": "Walt Disney World Open Invitational",
+        "position": "1",
+        "overall": "-21",
+        "round1": "68",
+        "round2": "68",
+        "round3": "67",
+        "round4": "64",
+        "total": "267",
+        "official": true
+      }
+    ]
+  },
+  "summary": {
+    "playerAMetricWins": 7,
+    "playerBMetricWins": 1,
+    "metricTies": 1,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 8,
+      "playerB": 7,
+      "winner": "playerA"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 1,
+      "playerB": 2,
+      "winner": "playerB"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 13,
+      "playerB": 11,
+      "winner": "playerA"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 17,
+      "playerB": 14,
+      "winner": "playerA"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 20,
+      "playerB": 19,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Cut rate",
+      "playerA": 100,
+      "playerB": 100,
+      "suffix": "%",
+      "winner": "tie"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 7.3,
+      "playerB": 9.6,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": -13.4,
+      "playerB": -6.2,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 40,
+      "playerB": 36.8,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 85,
+      "playerB": 73.7,
+      "suffix": "%",
+      "winner": "playerA"
+    }
+  ]
+}
