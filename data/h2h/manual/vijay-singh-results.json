@@ -1,0 +1,3894 @@
+{
+  "player": "Vijay Singh",
+  "slug": "vijay-singh",
+  "source": "PGA Tour results page screenshots",
+  "seasons": {
+    "1998": {
+      "starts": 14,
+      "wins": 2,
+      "seasonNote": "Visible partial-season results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "1998-06-14",
+          "tournament": "Buick Classic",
+          "finish": "T24",
+          "toPar": "-1",
+          "earnings": "$13,927"
+        },
+        {
+          "date": "1998-06-21",
+          "tournament": "U.S. Open Championship",
+          "finish": "T25",
+          "toPar": "+12",
+          "earnings": "$25,640"
+        },
+        {
+          "date": "1998-06-28",
+          "tournament": "Motorola Western Open",
+          "finish": "2",
+          "toPar": "-15",
+          "earnings": "$237,600"
+        },
+        {
+          "date": "1998-07-05",
+          "tournament": "Canon Greater Hartford Open",
+          "finish": "T12",
+          "toPar": "-10",
+          "earnings": "$44,000"
+        },
+        {
+          "date": "1998-07-19",
+          "tournament": "The Open Championship",
+          "finish": "T19",
+          "toPar": "+10",
+          "earnings": "$28,326"
+        },
+        {
+          "date": "1998-08-09",
+          "tournament": "Buick Open",
+          "finish": "T8",
+          "toPar": "-11",
+          "earnings": "$50,400"
+        },
+        {
+          "date": "1998-08-16",
+          "tournament": "PGA Championship",
+          "finish": "1",
+          "toPar": "-9",
+          "earnings": "$540,000"
+        },
+        {
+          "date": "1998-08-23",
+          "tournament": "Sprint International",
+          "finish": "1",
+          "toPar": null,
+          "earnings": "$360,000"
+        },
+        {
+          "date": "1998-08-30",
+          "tournament": "NEC World Series of Golf",
+          "finish": "T14",
+          "toPar": "+1",
+          "earnings": "$38,250"
+        },
+        {
+          "date": "1998-09-06",
+          "tournament": "Greater Milwaukee Open",
+          "finish": "T42",
+          "toPar": "-6",
+          "earnings": "$6,300"
+        },
+        {
+          "date": "1998-09-13",
+          "tournament": "Bell Canadian Open",
+          "finish": "T22",
+          "toPar": "-4",
+          "earnings": "$22,880"
+        },
+        {
+          "date": "1998-10-04",
+          "tournament": "Buick Challenge",
+          "finish": "T58",
+          "toPar": "-5",
+          "earnings": "$3,315"
+        },
+        {
+          "date": "1998-10-25",
+          "tournament": "National Car Rental Golf Classic/Disney",
+          "finish": "T12",
+          "toPar": "-9",
+          "earnings": "$42,000"
+        },
+        {
+          "date": "1998-11-01",
+          "tournament": "THE TOUR Championship",
+          "finish": "P2",
+          "toPar": "-6",
+          "earnings": "$432,000"
+        },
+        {
+          "date": "1998-11-19",
+          "tournament": "MasterCard PGA Grand Slam",
+          "finish": "2",
+          "toPar": null,
+          "earnings": "$250,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "1999": {
+      "starts": 15,
+      "wins": 1,
+      "seasonNote": "Strong season with a win at the Honda Classic and several top-10 finishes.",
+      "events": [
+        {
+          "date": "1999-01-10",
+          "tournament": "Mercedes Championships",
+          "finish": "4",
+          "toPar": "-16",
+          "earnings": "$124,800"
+        },
+        {
+          "date": "1999-01-17",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T38",
+          "toPar": "+1",
+          "earnings": "$10,400"
+        },
+        {
+          "date": "1999-01-31",
+          "tournament": "Phoenix Open",
+          "finish": "W/D",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "1999-02-07",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T10",
+          "toPar": "-4",
+          "earnings": "$64,400"
+        },
+        {
+          "date": "1999-02-21",
+          "tournament": "Nissan Open",
+          "finish": "T50",
+          "toPar": "-1",
+          "earnings": "$6,701"
+        },
+        {
+          "date": "1999-02-28",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$50,000"
+        },
+        {
+          "date": "1999-03-07",
+          "tournament": "Doral-Ryder Open",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "1999-03-14",
+          "tournament": "Honda Classic",
+          "finish": "1",
+          "toPar": "-11",
+          "earnings": "$468,000"
+        },
+        {
+          "date": "1999-03-21",
+          "tournament": "Bay Hill Invitational",
+          "finish": "T11",
+          "toPar": "-7",
+          "earnings": "$60,000"
+        },
+        {
+          "date": "1999-03-28",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T20",
+          "toPar": "+5",
+          "earnings": "$60,333"
+        },
+        {
+          "date": "1999-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "T24",
+          "toPar": "+3",
+          "earnings": "$35,200"
+        },
+        {
+          "date": "1999-04-18",
+          "tournament": "MCI Classic",
+          "finish": "T18",
+          "toPar": "-4",
+          "earnings": "$28,333"
+        },
+        {
+          "date": "1999-04-25",
+          "tournament": "Greater Greensboro Chrysler Classic",
+          "finish": "T9",
+          "toPar": "-10",
+          "earnings": "$70,200"
+        },
+        {
+          "date": "1999-05-02",
+          "tournament": "Shell Houston Open",
+          "finish": "T5",
+          "toPar": "-5",
+          "earnings": "$84,750"
+        },
+        {
+          "date": "1999-05-23",
+          "tournament": "MasterCard Colonial",
+          "finish": "T11",
+          "toPar": "-5",
+          "earnings": "$50,680"
+        }
+      ]
+    },
+    "2000": {
+      "starts": 23,
+      "wins": 1,
+      "seasonNote": "Won the Masters Tournament and posted a deep run of top finishes across the season.",
+      "events": [
+        {
+          "date": "2000-01-02",
+          "tournament": "Williams World Challenge",
+          "finish": "3",
+          "toPar": "-5",
+          "earnings": "$350,000",
+          "officialStart": false
+        },
+        {
+          "date": "2000-01-09",
+          "tournament": "Mercedes Championships",
+          "finish": "T8",
+          "toPar": "-3",
+          "earnings": "$79,000"
+        },
+        {
+          "date": "2000-01-16",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T19",
+          "toPar": "-3",
+          "earnings": "$37,700"
+        },
+        {
+          "date": "2000-01-30",
+          "tournament": "Phoenix Open",
+          "finish": "T41",
+          "toPar": "-3",
+          "earnings": "$10,609"
+        },
+        {
+          "date": "2000-02-06",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T2",
+          "toPar": "-13",
+          "earnings": "$352,000"
+        },
+        {
+          "date": "2000-02-20",
+          "tournament": "Nissan Open",
+          "finish": "T18",
+          "toPar": "-5",
+          "earnings": "$37,731"
+        },
+        {
+          "date": "2000-02-27",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T33",
+          "toPar": null,
+          "earnings": "$25,000"
+        },
+        {
+          "date": "2000-03-05",
+          "tournament": "Doral-Ryder Open",
+          "finish": "T36",
+          "toPar": "-8",
+          "earnings": "$12,916"
+        },
+        {
+          "date": "2000-03-12",
+          "tournament": "Honda Classic",
+          "finish": "T50",
+          "toPar": "-8",
+          "earnings": "$6,893"
+        },
+        {
+          "date": "2000-03-19",
+          "tournament": "Bay Hill Invitational",
+          "finish": "T29",
+          "toPar": "-3",
+          "earnings": "$17,866"
+        },
+        {
+          "date": "2000-03-26",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T33",
+          "toPar": "+4",
+          "earnings": "$32,400"
+        },
+        {
+          "date": "2000-04-09",
+          "tournament": "Masters Tournament",
+          "finish": "1",
+          "toPar": "-10",
+          "earnings": "$828,000"
+        },
+        {
+          "date": "2000-04-16",
+          "tournament": "MCI Classic",
+          "finish": "T3",
+          "toPar": "-9",
+          "earnings": "$128,250"
+        },
+        {
+          "date": "2000-05-07",
+          "tournament": "COMPAQ Classic of New Orleans",
+          "finish": "T24",
+          "toPar": "-9",
+          "earnings": "$27,540"
+        },
+        {
+          "date": "2000-05-14",
+          "tournament": "GTE Byron Nelson Classic",
+          "finish": "T41",
+          "toPar": "+1",
+          "earnings": "$13,620"
+        },
+        {
+          "date": "2000-05-21",
+          "tournament": "MasterCard Colonial",
+          "finish": "T41",
+          "toPar": "+1",
+          "earnings": "$12,210"
+        },
+        {
+          "date": "2000-05-28",
+          "tournament": "Memorial Tournament",
+          "finish": "T33",
+          "toPar": "-2",
+          "earnings": "$16,378"
+        },
+        {
+          "date": "2000-06-11",
+          "tournament": "Buick Classic",
+          "finish": "T24",
+          "toPar": "+1",
+          "earnings": "$24,900"
+        },
+        {
+          "date": "2000-06-18",
+          "tournament": "U.S. Open Championship",
+          "finish": "T8",
+          "toPar": "+7",
+          "earnings": "$112,766"
+        },
+        {
+          "date": "2000-07-09",
+          "tournament": "Advil Western Open",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2000-07-23",
+          "tournament": "The Open Championship",
+          "finish": "T11",
+          "toPar": "-7",
+          "earnings": "$56,345"
+        },
+        {
+          "date": "2000-08-06",
+          "tournament": "The International Presented by Qwest",
+          "finish": "T9",
+          "toPar": null,
+          "earnings": "$98,000"
+        },
+        {
+          "date": "2000-08-13",
+          "tournament": "Buick Open",
+          "finish": "T11",
+          "toPar": "-13",
+          "earnings": "$57,240"
+        },
+        {
+          "date": "2000-08-20",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2000-10-29",
+          "tournament": "National Car Rental Golf Classic Disney",
+          "finish": "T18",
+          "toPar": "-15",
+          "earnings": "$37,800"
+        },
+        {
+          "date": "2000-11-05",
+          "tournament": "THE TOUR Championship",
+          "finish": "T3",
+          "toPar": "-7",
+          "earnings": "$261,666"
+        },
+        {
+          "date": "2000-11-12",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "T3",
+          "toPar": "-8",
+          "earnings": "$287,000"
+        },
+        {
+          "date": "2000-11-26",
+          "tournament": "Skins Game",
+          "finish": "2",
+          "toPar": null,
+          "earnings": "$260,000",
+          "officialStart": false
+        },
+        {
+          "date": "2000-12-03",
+          "tournament": "Williams World Challenge",
+          "finish": "T6",
+          "toPar": "-8",
+          "earnings": "$212,500",
+          "officialStart": false
+        }
+      ]
+    },
+    "2001": {
+      "starts": 26,
+      "wins": 0,
+      "seasonNote": "Extremely consistent season with repeated top-10 finishes and runner-up results.",
+      "events": [
+        {
+          "date": "2001-01-07",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$50,000"
+        },
+        {
+          "date": "2001-01-14",
+          "tournament": "Mercedes Championships",
+          "finish": "T3",
+          "toPar": "-16",
+          "earnings": "$203,000"
+        },
+        {
+          "date": "2001-01-21",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T22",
+          "toPar": "-5",
+          "earnings": "$36,057"
+        },
+        {
+          "date": "2001-01-28",
+          "tournament": "Phoenix Open",
+          "finish": "T36",
+          "toPar": "-4",
+          "earnings": "$17,625"
+        },
+        {
+          "date": "2001-02-04",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "2",
+          "toPar": "-15",
+          "earnings": "$432,000"
+        },
+        {
+          "date": "2001-03-04",
+          "tournament": "Genuity Championship",
+          "finish": "T3",
+          "toPar": "-14",
+          "earnings": "$234,000"
+        },
+        {
+          "date": "2001-03-18",
+          "tournament": "Bay Hill Invitational",
+          "finish": "T4",
+          "toPar": "-9",
+          "earnings": "$137,812"
+        },
+        {
+          "date": "2001-03-25",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "2",
+          "toPar": "-13",
+          "earnings": "$648,000"
+        },
+        {
+          "date": "2001-04-08",
+          "tournament": "Masters Tournament",
+          "finish": "T18",
+          "toPar": "-6",
+          "earnings": "$81,200"
+        },
+        {
+          "date": "2001-04-15",
+          "tournament": "WORLDCOM CLASSIC-The Heritage of Golf",
+          "finish": "T3",
+          "toPar": "-10",
+          "earnings": "$168,000"
+        },
+        {
+          "date": "2001-04-22",
+          "tournament": "Shell Houston Open",
+          "finish": "T6",
+          "toPar": "-5",
+          "earnings": "$113,900"
+        },
+        {
+          "date": "2001-05-13",
+          "tournament": "Verizon Byron Nelson Classic",
+          "finish": "T11",
+          "toPar": "-11",
+          "earnings": "$78,954"
+        },
+        {
+          "date": "2001-05-20",
+          "tournament": "MasterCard Colonial",
+          "finish": "T11",
+          "toPar": "-6",
+          "earnings": "$88,000"
+        },
+        {
+          "date": "2001-06-03",
+          "tournament": "Memorial Tournament",
+          "finish": "T5",
+          "toPar": "-8",
+          "earnings": "$155,800"
+        },
+        {
+          "date": "2001-06-17",
+          "tournament": "U.S. Open Championship",
+          "finish": "T7",
+          "toPar": "+2",
+          "earnings": "$125,172"
+        },
+        {
+          "date": "2001-06-24",
+          "tournament": "Buick Classic",
+          "finish": "T6",
+          "toPar": "-10",
+          "earnings": "$121,625"
+        },
+        {
+          "date": "2001-07-08",
+          "tournament": "Advil Western Open",
+          "finish": "T10",
+          "toPar": "-10",
+          "earnings": "$82,800"
+        },
+        {
+          "date": "2001-07-22",
+          "tournament": "The Open Championship",
+          "finish": "T13",
+          "toPar": "-4",
+          "earnings": "$57,310"
+        },
+        {
+          "date": "2001-08-05",
+          "tournament": "The INTERNATIONAL Presented by Qwest",
+          "finish": "T3",
+          "toPar": null,
+          "earnings": "$208,000"
+        },
+        {
+          "date": "2001-08-19",
+          "tournament": "PGA Championship",
+          "finish": "T51",
+          "toPar": "+2",
+          "earnings": "$11,343"
+        },
+        {
+          "date": "2001-08-26",
+          "tournament": "World Golf Championships-NEC Invitational",
+          "finish": "T13",
+          "toPar": "-2",
+          "earnings": "$100,500"
+        },
+        {
+          "date": "2001-09-09",
+          "tournament": "Bell Canadian Open",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2001-09-16",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "CNL",
+          "toPar": null,
+          "earnings": "$0",
+          "officialStart": false
+        },
+        {
+          "date": "2001-09-23",
+          "tournament": "Marconi Pennsylvania Classic",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2001-10-21",
+          "tournament": "National Car Rental Golf Classic Disney",
+          "finish": "T6",
+          "toPar": "-18",
+          "earnings": "$99,328"
+        },
+        {
+          "date": "2001-10-28",
+          "tournament": "Buick Challenge",
+          "finish": "T10",
+          "toPar": "-13",
+          "earnings": "$88,400"
+        },
+        {
+          "date": "2001-11-04",
+          "tournament": "THE TOUR Championship",
+          "finish": "17",
+          "toPar": "-6",
+          "earnings": "$102,000"
+        },
+        {
+          "date": "2001-11-18",
+          "tournament": "World Golf Championships-EMC World Cup",
+          "finish": "T8",
+          "toPar": "-19",
+          "earnings": "$35,000",
+          "officialStart": false
+        },
+        {
+          "date": "2001-12-16",
+          "tournament": "Williams World Challenge",
+          "finish": "2",
+          "toPar": "-12",
+          "earnings": "$500,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2002": {
+      "starts": 29,
+      "wins": 2,
+      "seasonNote": "Won the Shell Houston Open and TOUR Championship, with frequent top-10 finishes throughout the year.",
+      "events": [
+        {
+          "date": "2002-01-27",
+          "tournament": "Phoenix Open",
+          "finish": "T8",
+          "toPar": "-12",
+          "earnings": "$100,000"
+        },
+        {
+          "date": "2002-02-03",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T8",
+          "toPar": "-7",
+          "earnings": "$112,000"
+        },
+        {
+          "date": "2002-02-10",
+          "tournament": "Buick Invitational",
+          "finish": "T11",
+          "toPar": "-8",
+          "earnings": "$86,400"
+        },
+        {
+          "date": "2002-02-17",
+          "tournament": "Nissan Open",
+          "finish": "T34",
+          "toPar": "-4",
+          "earnings": "$19,980"
+        },
+        {
+          "date": "2002-02-24",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$55,000"
+        },
+        {
+          "date": "2002-03-03",
+          "tournament": "Genuity Championship",
+          "finish": "T5",
+          "toPar": "-8",
+          "earnings": "$159,330"
+        },
+        {
+          "date": "2002-03-17",
+          "tournament": "Bay Hill Invitational presented by Cooper Tires",
+          "finish": "T15",
+          "toPar": "-4",
+          "earnings": "$60,000"
+        },
+        {
+          "date": "2002-03-24",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2002-03-31",
+          "tournament": "Shell Houston Open",
+          "finish": "1",
+          "toPar": "-22",
+          "earnings": "$720,000"
+        },
+        {
+          "date": "2002-04-07",
+          "tournament": "BellSouth Classic",
+          "finish": "T39",
+          "toPar": "+1",
+          "earnings": "$14,060"
+        },
+        {
+          "date": "2002-04-14",
+          "tournament": "Masters Tournament",
+          "finish": "7",
+          "toPar": "-5",
+          "earnings": "$187,600"
+        },
+        {
+          "date": "2002-05-12",
+          "tournament": "Verizon Byron Nelson Classic",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2002-05-19",
+          "tournament": "MasterCard Colonial",
+          "finish": "T12",
+          "toPar": "-3",
+          "earnings": "$79,242"
+        },
+        {
+          "date": "2002-05-26",
+          "tournament": "Memorial Tournament",
+          "finish": "T4",
+          "toPar": "-11",
+          "earnings": "$169,650"
+        },
+        {
+          "date": "2002-06-09",
+          "tournament": "Buick Classic",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2002-06-16",
+          "tournament": "U.S. Open Championship",
+          "finish": "T30",
+          "toPar": "+12",
+          "earnings": "$35,639"
+        },
+        {
+          "date": "2002-06-23",
+          "tournament": "Canon Greater Hartford Open",
+          "finish": "T33",
+          "toPar": "-3",
+          "earnings": "$21,133"
+        },
+        {
+          "date": "2002-07-07",
+          "tournament": "Advil Western Open",
+          "finish": "T15",
+          "toPar": "-10",
+          "earnings": "$64,000"
+        },
+        {
+          "date": "2002-07-21",
+          "tournament": "The Open Championship",
+          "finish": "CUT",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2002-08-04",
+          "tournament": "The INTERNATIONAL Presented by Qwest",
+          "finish": "T30",
+          "toPar": null,
+          "earnings": "$27,945"
+        },
+        {
+          "date": "2002-08-11",
+          "tournament": "Buick Open",
+          "finish": "T43",
+          "toPar": "-6",
+          "earnings": "$9,642"
+        },
+        {
+          "date": "2002-08-18",
+          "tournament": "PGA Championship",
+          "finish": "8",
+          "toPar": "-1",
+          "earnings": "$159,000"
+        },
+        {
+          "date": "2002-08-25",
+          "tournament": "World Golf Championships-NEC Invitational",
+          "finish": "T11",
+          "toPar": "-6",
+          "earnings": "$78,750"
+        },
+        {
+          "date": "2002-09-01",
+          "tournament": "Air Canada Championship",
+          "finish": "T3",
+          "toPar": "-13",
+          "earnings": "$182,000"
+        },
+        {
+          "date": "2002-09-08",
+          "tournament": "Bell Canadian Open",
+          "finish": "T6",
+          "toPar": "-14",
+          "earnings": "$134,000"
+        },
+        {
+          "date": "2002-09-22",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "3",
+          "toPar": "-21",
+          "earnings": "$367,500"
+        },
+        {
+          "date": "2002-10-27",
+          "tournament": "Buick Challenge",
+          "finish": "T41",
+          "toPar": "-13",
+          "earnings": "$13,690"
+        },
+        {
+          "date": "2002-11-03",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "1",
+          "toPar": "-12",
+          "earnings": "$900,000"
+        },
+        {
+          "date": "2002-12-08",
+          "tournament": "Target World Challenge presented by Williams",
+          "finish": "T12",
+          "toPar": "-7",
+          "earnings": "$138,750",
+          "officialStart": false
+        },
+        {
+          "date": "2002-12-15",
+          "tournament": "World Golf Championships-EMC World Cup",
+          "finish": "T10",
+          "toPar": "-26",
+          "earnings": "$30,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2003": {
+      "starts": 26,
+      "wins": 4,
+      "seasonNote": "Breakout elite season with four PGA TOUR wins and a runner-up finish at The Open Championship.",
+      "events": [
+        {
+          "date": "2003-01-12",
+          "tournament": "Mercedes Championships",
+          "finish": "T4",
+          "toPar": "-22",
+          "earnings": "$224,000"
+        },
+        {
+          "date": "2003-01-19",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T20",
+          "toPar": "-7",
+          "earnings": "$46,928"
+        },
+        {
+          "date": "2003-01-26",
+          "tournament": "Phoenix Open",
+          "finish": "1",
+          "toPar": "-23",
+          "earnings": "$720,000"
+        },
+        {
+          "date": "2003-02-09",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T28",
+          "toPar": "-1",
+          "earnings": "$30,500"
+        },
+        {
+          "date": "2003-03-23",
+          "tournament": "Bay Hill Invitational presented by Cooper Tires",
+          "finish": "T20",
+          "toPar": "-3",
+          "earnings": "$50,580"
+        },
+        {
+          "date": "2003-03-30",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2003-04-13",
+          "tournament": "Masters Tournament",
+          "finish": "T6",
+          "toPar": "-1",
+          "earnings": "$208,500"
+        },
+        {
+          "date": "2003-04-27",
+          "tournament": "Shell Houston Open",
+          "finish": "T9",
+          "toPar": "-12",
+          "earnings": "$117,000"
+        },
+        {
+          "date": "2003-05-04",
+          "tournament": "HP Classic of New Orleans",
+          "finish": "T11",
+          "toPar": "-14",
+          "earnings": "$106,000"
+        },
+        {
+          "date": "2003-05-11",
+          "tournament": "Wachovia Championship",
+          "finish": "T2",
+          "toPar": "-8",
+          "earnings": "$418,133"
+        },
+        {
+          "date": "2003-05-18",
+          "tournament": "EDS Byron Nelson Championship",
+          "finish": "1",
+          "toPar": "-15",
+          "earnings": "$1,008,000"
+        },
+        {
+          "date": "2003-06-01",
+          "tournament": "the Memorial Tournament",
+          "finish": "T4",
+          "toPar": "-9",
+          "earnings": "$220,000"
+        },
+        {
+          "date": "2003-06-15",
+          "tournament": "U.S. Open Championship",
+          "finish": "T20",
+          "toPar": "+3",
+          "earnings": "$64,170"
+        },
+        {
+          "date": "2003-06-22",
+          "tournament": "Buick Classic",
+          "finish": "T18",
+          "toPar": "-6",
+          "earnings": "$67,500"
+        },
+        {
+          "date": "2003-07-06",
+          "tournament": "100th Western Open presented by Golf Digest",
+          "finish": "11",
+          "toPar": "-11",
+          "earnings": "$112,500"
+        },
+        {
+          "date": "2003-07-20",
+          "tournament": "The Open Championship",
+          "finish": "T2",
+          "toPar": "E",
+          "earnings": "$548,412"
+        },
+        {
+          "date": "2003-08-03",
+          "tournament": "Buick Open",
+          "finish": "T8",
+          "toPar": "-16",
+          "earnings": "$112,000"
+        },
+        {
+          "date": "2003-08-10",
+          "tournament": "The INTERNATIONAL",
+          "finish": "T2",
+          "toPar": null,
+          "earnings": "$440,000"
+        },
+        {
+          "date": "2003-08-17",
+          "tournament": "PGA Championship",
+          "finish": "T34",
+          "toPar": "+11",
+          "earnings": "$29,000"
+        },
+        {
+          "date": "2003-08-24",
+          "tournament": "World Golf Championships-NEC Invitational",
+          "finish": "T6",
+          "toPar": "-5",
+          "earnings": "$163,333"
+        },
+        {
+          "date": "2003-09-01",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "4",
+          "toPar": "-14",
+          "earnings": "$240,000"
+        },
+        {
+          "date": "2003-09-07",
+          "tournament": "Bell Canadian Open",
+          "finish": "T6",
+          "toPar": "-5",
+          "earnings": "$145,950"
+        },
+        {
+          "date": "2003-09-14",
+          "tournament": "John Deere Classic",
+          "finish": "1",
+          "toPar": "-16",
+          "earnings": "$630,000"
+        },
+        {
+          "date": "2003-10-05",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "T2",
+          "toPar": "-4",
+          "earnings": "$405,000"
+        },
+        {
+          "date": "2003-10-26",
+          "tournament": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+          "finish": "1",
+          "toPar": "-23",
+          "earnings": "$720,000"
+        },
+        {
+          "date": "2003-11-02",
+          "tournament": "Chrysler Championship",
+          "finish": "2",
+          "toPar": "-9",
+          "earnings": "$518,400"
+        },
+        {
+          "date": "2003-11-09",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "T5",
+          "toPar": "-8",
+          "earnings": "$228,000"
+        },
+        {
+          "date": "2003-12-14",
+          "tournament": "Target World Challenge presented by Williams",
+          "finish": "7",
+          "toPar": "-2",
+          "earnings": "$205,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2004": {
+      "starts": 29,
+      "wins": 9,
+      "seasonNote": "Career-defining season with nine PGA TOUR wins, including the PGA Championship and the Deutsche Bank Championship.",
+      "events": [
+        {
+          "date": "2004-01-11",
+          "tournament": "Mercedes Championships",
+          "finish": "2",
+          "toPar": "-21",
+          "earnings": "$600,000"
+        },
+        {
+          "date": "2004-01-18",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T10",
+          "toPar": "-10",
+          "earnings": "$110,400"
+        },
+        {
+          "date": "2004-02-01",
+          "tournament": "FBR Open",
+          "finish": "T3",
+          "toPar": "-15",
+          "earnings": "$301,600"
+        },
+        {
+          "date": "2004-02-08",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "1",
+          "toPar": "-16",
+          "earnings": "$954,000"
+        },
+        {
+          "date": "2004-02-15",
+          "tournament": "Buick Invitational",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2004-02-22",
+          "tournament": "Nissan Open",
+          "finish": "T24",
+          "toPar": "-6",
+          "earnings": "$37,140"
+        },
+        {
+          "date": "2004-02-29",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$75,000"
+        },
+        {
+          "date": "2004-03-21",
+          "tournament": "Bay Hill Invitational Presented by MasterCard",
+          "finish": "T31",
+          "toPar": "-2",
+          "earnings": "$27,166"
+        },
+        {
+          "date": "2004-03-28",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T13",
+          "toPar": "-4",
+          "earnings": "$154,666"
+        },
+        {
+          "date": "2004-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "T6",
+          "toPar": "-2",
+          "earnings": "$189,893"
+        },
+        {
+          "date": "2004-04-25",
+          "tournament": "Shell Houston Open",
+          "finish": "1",
+          "toPar": "-11",
+          "earnings": "$900,000"
+        },
+        {
+          "date": "2004-05-02",
+          "tournament": "HP Classic of New Orleans",
+          "finish": "1",
+          "toPar": "-22",
+          "earnings": "$918,000"
+        },
+        {
+          "date": "2004-05-09",
+          "tournament": "Wachovia Championship",
+          "finish": "T10",
+          "toPar": "-7",
+          "earnings": "$128,800"
+        },
+        {
+          "date": "2004-05-16",
+          "tournament": "EDS Byron Nelson Championship",
+          "finish": "T59",
+          "toPar": "+1",
+          "earnings": "$12,470"
+        },
+        {
+          "date": "2004-06-06",
+          "tournament": "the Memorial Tournament",
+          "finish": "T24",
+          "toPar": "-1",
+          "earnings": "$39,725"
+        },
+        {
+          "date": "2004-06-13",
+          "tournament": "Buick Classic",
+          "finish": "T4",
+          "toPar": "-10",
+          "earnings": "$217,000"
+        },
+        {
+          "date": "2004-06-20",
+          "tournament": "U.S. Open Championship",
+          "finish": "T28",
+          "toPar": "+13",
+          "earnings": "$51,774"
+        },
+        {
+          "date": "2004-07-04",
+          "tournament": "Cialis Western Open",
+          "finish": "T17",
+          "toPar": "-3",
+          "earnings": "$64,960"
+        },
+        {
+          "date": "2004-07-11",
+          "tournament": "John Deere Classic",
+          "finish": "T4",
+          "toPar": "-14",
+          "earnings": "$149,625"
+        },
+        {
+          "date": "2004-07-18",
+          "tournament": "The Open Championship",
+          "finish": "T20",
+          "toPar": "+1",
+          "earnings": "$71,346"
+        },
+        {
+          "date": "2004-08-01",
+          "tournament": "Buick Open",
+          "finish": "1",
+          "toPar": "-23",
+          "earnings": "$810,000"
+        },
+        {
+          "date": "2004-08-15",
+          "tournament": "PGA Championship",
+          "finish": "P1",
+          "toPar": "-8",
+          "earnings": "$1,125,000"
+        },
+        {
+          "date": "2004-08-22",
+          "tournament": "World Golf Championships-NEC Invitational",
+          "finish": "T32",
+          "toPar": "+3",
+          "earnings": "$51,000"
+        },
+        {
+          "date": "2004-09-06",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "1",
+          "toPar": "-16",
+          "earnings": "$900,000"
+        },
+        {
+          "date": "2004-09-12",
+          "tournament": "Bell Canadian Open",
+          "finish": "P1",
+          "toPar": "-9",
+          "earnings": "$810,000"
+        },
+        {
+          "date": "2004-09-26",
+          "tournament": "84 LUMBER Classic",
+          "finish": "1",
+          "toPar": "-15",
+          "earnings": "$756,000"
+        },
+        {
+          "date": "2004-10-24",
+          "tournament": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+          "finish": "T2",
+          "toPar": "-19",
+          "earnings": "$369,600"
+        },
+        {
+          "date": "2004-10-31",
+          "tournament": "Chrysler Championship",
+          "finish": "1",
+          "toPar": "-18",
+          "earnings": "$900,000"
+        },
+        {
+          "date": "2004-11-07",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "9",
+          "toPar": "-3",
+          "earnings": "$180,000"
+        },
+        {
+          "date": "2004-12-12",
+          "tournament": "Target World Challenge",
+          "finish": "T8",
+          "toPar": "-5",
+          "earnings": "$205,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2005": {
+      "starts": 28,
+      "wins": 4,
+      "seasonNote": "Another elite season with multiple wins and top finishes across majors, WGC events, and playoff-style fields.",
+      "events": [
+        {
+          "date": "2005-01-09",
+          "tournament": "Mercedes Championships",
+          "finish": "T5",
+          "toPar": "-18",
+          "earnings": "$211,333"
+        },
+        {
+          "date": "2005-01-16",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "1",
+          "toPar": "-11",
+          "earnings": "$864,000"
+        },
+        {
+          "date": "2005-01-23",
+          "tournament": "Buick Invitational",
+          "finish": "T24",
+          "toPar": "-5",
+          "earnings": "$38,880"
+        },
+        {
+          "date": "2005-02-06",
+          "tournament": "FBR Open",
+          "finish": "T11",
+          "toPar": "-7",
+          "earnings": "$100,100"
+        },
+        {
+          "date": "2005-02-13",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2005-02-27",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$85,000"
+        },
+        {
+          "date": "2005-03-06",
+          "tournament": "Ford Championship at Doral",
+          "finish": "T3",
+          "toPar": "-19",
+          "earnings": "$319,000"
+        },
+        {
+          "date": "2005-03-13",
+          "tournament": "The Honda Classic",
+          "finish": "PT2",
+          "toPar": "-14",
+          "earnings": "$484,000"
+        },
+        {
+          "date": "2005-03-20",
+          "tournament": "Bay Hill Invitational Presented by MasterCard",
+          "finish": "T2",
+          "toPar": "-10",
+          "earnings": "$440,000"
+        },
+        {
+          "date": "2005-03-27",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T12",
+          "toPar": "-4",
+          "earnings": "$156,800"
+        },
+        {
+          "date": "2005-04-10",
+          "tournament": "Masters Tournament",
+          "finish": "T5",
+          "toPar": "-4",
+          "earnings": "$237,300"
+        },
+        {
+          "date": "2005-04-24",
+          "tournament": "Shell Houston Open",
+          "finish": "P1",
+          "toPar": "-13",
+          "earnings": "$900,000"
+        },
+        {
+          "date": "2005-05-01",
+          "tournament": "Zurich Classic of New Orleans",
+          "finish": "T21",
+          "toPar": "-5",
+          "earnings": "$53,192"
+        },
+        {
+          "date": "2005-05-08",
+          "tournament": "Wachovia Championship",
+          "finish": "P1",
+          "toPar": "-12",
+          "earnings": "$1,080,000"
+        },
+        {
+          "date": "2005-05-15",
+          "tournament": "EDS Byron Nelson Championship",
+          "finish": "T3",
+          "toPar": "-11",
+          "earnings": "$322,400"
+        },
+        {
+          "date": "2005-06-05",
+          "tournament": "the Memorial Tournament",
+          "finish": "CUT",
+          "toPar": "+7",
+          "earnings": "$0"
+        },
+        {
+          "date": "2005-06-12",
+          "tournament": "Booz Allen Classic",
+          "finish": "T29",
+          "toPar": "-5",
+          "earnings": "$30,437"
+        },
+        {
+          "date": "2005-06-19",
+          "tournament": "U.S. Open Championship",
+          "finish": "T6",
+          "toPar": "+6",
+          "earnings": "$187,813"
+        },
+        {
+          "date": "2005-06-26",
+          "tournament": "Barclays Classic",
+          "finish": "T7",
+          "toPar": "-3",
+          "earnings": "$173,218"
+        },
+        {
+          "date": "2005-07-03",
+          "tournament": "Cialis Western Open",
+          "finish": "T13",
+          "toPar": "-4",
+          "earnings": "$96,666"
+        },
+        {
+          "date": "2005-07-17",
+          "tournament": "The Open Championship",
+          "finish": "T5",
+          "toPar": "-7",
+          "earnings": "$214,060"
+        },
+        {
+          "date": "2005-07-31",
+          "tournament": "Buick Open",
+          "finish": "1",
+          "toPar": "-24",
+          "earnings": "$828,000"
+        },
+        {
+          "date": "2005-08-14",
+          "tournament": "PGA Championship",
+          "finish": "T10",
+          "toPar": "E",
+          "earnings": "$131,800"
+        },
+        {
+          "date": "2005-08-21",
+          "tournament": "World Golf Championships-NEC Invitational",
+          "finish": "T3",
+          "toPar": "-4",
+          "earnings": "$353,666"
+        },
+        {
+          "date": "2005-09-11",
+          "tournament": "Bell Canadian Open",
+          "finish": "T7",
+          "toPar": "-1",
+          "earnings": "$155,833"
+        },
+        {
+          "date": "2005-09-18",
+          "tournament": "84 LUMBER Classic",
+          "finish": "T13",
+          "toPar": "-7",
+          "earnings": "$82,500"
+        },
+        {
+          "date": "2005-10-09",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "T6",
+          "toPar": "-5",
+          "earnings": "$187,500"
+        },
+        {
+          "date": "2005-10-23",
+          "tournament": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+          "finish": "CUT",
+          "toPar": "-4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2005-10-30",
+          "tournament": "Chrysler Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2005-11-06",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "T4",
+          "toPar": "-7",
+          "earnings": "$283,833"
+        }
+      ]
+    },
+    "2006": {
+      "starts": 27,
+      "wins": 1,
+      "seasonNote": "Won the Barclays Classic and remained a consistent top-tier player through another full season.",
+      "events": [
+        {
+          "date": "2006-01-08",
+          "tournament": "Mercedes Championships",
+          "finish": "P2",
+          "toPar": "-8",
+          "earnings": "$630,000"
+        },
+        {
+          "date": "2006-01-15",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "6",
+          "toPar": "-9",
+          "earnings": "$183,600"
+        },
+        {
+          "date": "2006-02-05",
+          "tournament": "FBR Open",
+          "finish": "T20",
+          "toPar": "-8",
+          "earnings": "$54,228"
+        },
+        {
+          "date": "2006-02-12",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T7",
+          "toPar": "-9",
+          "earnings": "$157,140"
+        },
+        {
+          "date": "2006-02-26",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T9",
+          "toPar": null,
+          "earnings": "$125,000"
+        },
+        {
+          "date": "2006-03-05",
+          "tournament": "Ford Championship at Doral",
+          "finish": "T15",
+          "toPar": "-11",
+          "earnings": "$88,000"
+        },
+        {
+          "date": "2006-03-19",
+          "tournament": "Bay Hill Invitational Presented by MasterCard",
+          "finish": "7",
+          "toPar": "-9",
+          "earnings": "$184,250"
+        },
+        {
+          "date": "2006-03-26",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T8",
+          "toPar": "-3",
+          "earnings": "$208,000"
+        },
+        {
+          "date": "2006-04-09",
+          "tournament": "Masters Tournament",
+          "finish": "T8",
+          "toPar": "-3",
+          "earnings": "$210,000"
+        },
+        {
+          "date": "2006-04-23",
+          "tournament": "Shell Houston Open",
+          "finish": "T36",
+          "toPar": "-2",
+          "earnings": "$24,234"
+        },
+        {
+          "date": "2006-05-07",
+          "tournament": "Wachovia Championship",
+          "finish": "T38",
+          "toPar": "+3",
+          "earnings": "$24,570"
+        },
+        {
+          "date": "2006-05-14",
+          "tournament": "EDS Byron Nelson Championship",
+          "finish": "T48",
+          "toPar": "E",
+          "earnings": "$15,141"
+        },
+        {
+          "date": "2006-06-04",
+          "tournament": "the Memorial Tournament",
+          "finish": "T38",
+          "toPar": "+3",
+          "earnings": "$25,300"
+        },
+        {
+          "date": "2006-06-11",
+          "tournament": "Barclays Classic",
+          "finish": "1",
+          "toPar": "-10",
+          "earnings": "$1,035,000"
+        },
+        {
+          "date": "2006-06-18",
+          "tournament": "U.S. Open Championship",
+          "finish": "T6",
+          "toPar": "+8",
+          "earnings": "$183,255"
+        },
+        {
+          "date": "2006-07-09",
+          "tournament": "Cialis Western Open",
+          "finish": "T4",
+          "toPar": "-9",
+          "earnings": "$181,250"
+        },
+        {
+          "date": "2006-07-23",
+          "tournament": "The Open Championship",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2006-08-06",
+          "tournament": "Buick Open",
+          "finish": "T11",
+          "toPar": "-17",
+          "earnings": "$105,600"
+        },
+        {
+          "date": "2006-08-20",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2006-08-27",
+          "tournament": "World Golf Championships-Bridgestone Invitational",
+          "finish": "T45",
+          "toPar": "+6",
+          "earnings": "$44,500"
+        },
+        {
+          "date": "2006-09-04",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "2",
+          "toPar": "-14",
+          "earnings": "$594,000"
+        },
+        {
+          "date": "2006-09-10",
+          "tournament": "Canadian Open",
+          "finish": "T35",
+          "toPar": "-2",
+          "earnings": "$24,125"
+        },
+        {
+          "date": "2006-09-17",
+          "tournament": "84 LUMBER Classic",
+          "finish": "T27",
+          "toPar": "-4",
+          "earnings": "$28,136"
+        },
+        {
+          "date": "2006-10-01",
+          "tournament": "World Golf Championships-American Express Championship",
+          "finish": "T56",
+          "toPar": "+8",
+          "earnings": "$38,500"
+        },
+        {
+          "date": "2006-10-22",
+          "tournament": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+          "finish": "T5",
+          "toPar": "-19",
+          "earnings": "$161,575"
+        },
+        {
+          "date": "2006-10-29",
+          "tournament": "Chrysler Championship",
+          "finish": "T19",
+          "toPar": "-3",
+          "earnings": "$62,010"
+        },
+        {
+          "date": "2006-11-05",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "T8",
+          "toPar": "-2",
+          "earnings": "$215,000"
+        }
+      ]
+    },
+    "2007": {
+      "starts": 27,
+      "wins": 2,
+      "seasonNote": "Won the Mercedes-Benz Championship and Arnold Palmer Invitational, then stayed in contention throughout the FedExCup season.",
+      "events": [
+        {
+          "date": "2007-01-07",
+          "tournament": "Mercedes-Benz Championship",
+          "finish": "1",
+          "toPar": "-14",
+          "earnings": "$1,100,000"
+        },
+        {
+          "date": "2007-01-14",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T34",
+          "toPar": "-3",
+          "earnings": "$26,325"
+        },
+        {
+          "date": "2007-01-28",
+          "tournament": "Buick Invitational",
+          "finish": "T39",
+          "toPar": "-3",
+          "earnings": "$21,320"
+        },
+        {
+          "date": "2007-02-04",
+          "tournament": "FBR Open",
+          "finish": "7",
+          "toPar": "-15",
+          "earnings": "$201,000"
+        },
+        {
+          "date": "2007-02-11",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T11",
+          "toPar": "-9",
+          "earnings": "$116,600"
+        },
+        {
+          "date": "2007-02-18",
+          "tournament": "Nissan Open",
+          "finish": "T29",
+          "toPar": "-4",
+          "earnings": "$34,580"
+        },
+        {
+          "date": "2007-02-25",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$90,000"
+        },
+        {
+          "date": "2007-03-11",
+          "tournament": "PODS Championship",
+          "finish": "T19",
+          "toPar": "-3",
+          "earnings": "$57,637"
+        },
+        {
+          "date": "2007-03-18",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "1",
+          "toPar": "-8",
+          "earnings": "$990,000"
+        },
+        {
+          "date": "2007-03-25",
+          "tournament": "World Golf Championships-CA Championship",
+          "finish": "T11",
+          "toPar": "-3",
+          "earnings": "$111,000"
+        },
+        {
+          "date": "2007-04-08",
+          "tournament": "Masters Tournament",
+          "finish": "T13",
+          "toPar": "+8",
+          "earnings": "$135,937"
+        },
+        {
+          "date": "2007-04-29",
+          "tournament": "EDS Byron Nelson Championship",
+          "finish": "T13",
+          "toPar": "-6",
+          "earnings": "$111,300"
+        },
+        {
+          "date": "2007-05-06",
+          "tournament": "Wachovia Championship",
+          "finish": "T7",
+          "toPar": "-7",
+          "earnings": "$196,350"
+        },
+        {
+          "date": "2007-05-13",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T44",
+          "toPar": "+1",
+          "earnings": "$26,010"
+        },
+        {
+          "date": "2007-06-03",
+          "tournament": "the Memorial Tournament presented by Morgan Stanley",
+          "finish": "T15",
+          "toPar": "-9",
+          "earnings": "$93,000"
+        },
+        {
+          "date": "2007-06-10",
+          "tournament": "Stanford St. Jude Championship",
+          "finish": "T30",
+          "toPar": "+3",
+          "earnings": "$34,133"
+        },
+        {
+          "date": "2007-06-17",
+          "tournament": "U.S. Open Championship",
+          "finish": "T20",
+          "toPar": "+14",
+          "earnings": "$86,200"
+        },
+        {
+          "date": "2007-06-24",
+          "tournament": "Travelers Championship",
+          "finish": "4",
+          "toPar": "-10",
+          "earnings": "$288,000"
+        },
+        {
+          "date": "2007-07-08",
+          "tournament": "AT&T National",
+          "finish": "T12",
+          "toPar": "E",
+          "earnings": "$110,571"
+        },
+        {
+          "date": "2007-07-22",
+          "tournament": "The Open Championship",
+          "finish": "T27",
+          "toPar": "+2",
+          "earnings": "$57,952"
+        },
+        {
+          "date": "2007-07-29",
+          "tournament": "Canadian Open presented by Franklin Templeton Investments",
+          "finish": "2",
+          "toPar": "-15",
+          "earnings": "$540,000"
+        },
+        {
+          "date": "2007-08-05",
+          "tournament": "World Golf Championships-Bridgestone Invitational",
+          "finish": "T56",
+          "toPar": "+15",
+          "earnings": "$39,500"
+        },
+        {
+          "date": "2007-08-12",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2007-08-26",
+          "tournament": "The Barclays",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2007-09-03",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "T60",
+          "toPar": "+1",
+          "earnings": "$15,120"
+        },
+        {
+          "date": "2007-09-09",
+          "tournament": "BMW Championship",
+          "finish": "64",
+          "toPar": "+6",
+          "earnings": "$14,840"
+        },
+        {
+          "date": "2007-09-16",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "T7",
+          "toPar": "-10",
+          "earnings": "$231,000"
+        },
+        {
+          "date": "2007-12-16",
+          "tournament": "Target World Challenge",
+          "finish": "T8",
+          "toPar": "-6",
+          "earnings": "$225,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2008": {
+      "starts": 22,
+      "wins": 3,
+      "seasonNote": "Won the WGC-Bridgestone Invitational, The Barclays, and Deutsche Bank Championship during a strong late-season run.",
+      "events": [
+        {
+          "date": "2008-01-06",
+          "tournament": "Mercedes-Benz Championship",
+          "finish": "T12",
+          "toPar": "-11",
+          "earnings": "$130,000"
+        },
+        {
+          "date": "2008-01-13",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T45",
+          "toPar": "E",
+          "earnings": "$15,518"
+        },
+        {
+          "date": "2008-01-27",
+          "tournament": "Buick Invitational",
+          "finish": "T23",
+          "toPar": "-1",
+          "earnings": "$44,980"
+        },
+        {
+          "date": "2008-02-03",
+          "tournament": "FBR Open",
+          "finish": "CUT",
+          "toPar": "-1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2008-02-10",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "P2",
+          "toPar": "-10",
+          "earnings": "$648,000"
+        },
+        {
+          "date": "2008-02-17",
+          "tournament": "Northern Trust Open",
+          "finish": "T36",
+          "toPar": "E",
+          "earnings": "$27,318"
+        },
+        {
+          "date": "2008-02-24",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T5",
+          "toPar": null,
+          "earnings": "$260,000"
+        },
+        {
+          "date": "2008-03-16",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T3",
+          "toPar": "-7",
+          "earnings": "$301,600"
+        },
+        {
+          "date": "2008-03-23",
+          "tournament": "World Golf Championships-CA Championship",
+          "finish": "T2",
+          "toPar": "-16",
+          "earnings": "$530,000"
+        },
+        {
+          "date": "2008-04-13",
+          "tournament": "Masters Tournament",
+          "finish": "T14",
+          "toPar": "+1",
+          "earnings": "$135,000"
+        },
+        {
+          "date": "2008-05-04",
+          "tournament": "Wachovia Championship",
+          "finish": "T17",
+          "toPar": "-4",
+          "earnings": "$89,600"
+        },
+        {
+          "date": "2008-05-11",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2008-06-08",
+          "tournament": "Stanford St. Jude Championship",
+          "finish": "T11",
+          "toPar": "-1",
+          "earnings": "$144,000"
+        },
+        {
+          "date": "2008-06-15",
+          "tournament": "U.S. Open Championship",
+          "finish": "T65",
+          "toPar": "+14",
+          "earnings": "$16,514"
+        },
+        {
+          "date": "2008-06-22",
+          "tournament": "Travelers Championship",
+          "finish": "5",
+          "toPar": "-14",
+          "earnings": "$240,000"
+        },
+        {
+          "date": "2008-07-20",
+          "tournament": "The Open Championship",
+          "finish": "CUT",
+          "toPar": "+11",
+          "earnings": "$0"
+        },
+        {
+          "date": "2008-08-03",
+          "tournament": "World Golf Championships-Bridgestone Invitational",
+          "finish": "1",
+          "toPar": "-10",
+          "earnings": "$1,350,000"
+        },
+        {
+          "date": "2008-08-10",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+12",
+          "earnings": "$0"
+        },
+        {
+          "date": "2008-08-17",
+          "tournament": "Wyndham Championship",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2008-08-24",
+          "tournament": "The Barclays",
+          "finish": "P1",
+          "toPar": "-8",
+          "earnings": "$1,260,000"
+        },
+        {
+          "date": "2008-09-01",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "1",
+          "toPar": "-22",
+          "earnings": "$1,260,000"
+        },
+        {
+          "date": "2008-09-07",
+          "tournament": "BMW Championship",
+          "finish": "T44",
+          "toPar": "E",
+          "earnings": "$21,163"
+        },
+        {
+          "date": "2008-09-28",
+          "tournament": "THE TOUR Championship presented by Coca-Cola",
+          "finish": "T22",
+          "toPar": "+9",
+          "earnings": "$127,400"
+        },
+        {
+          "date": "2008-12-21",
+          "tournament": "Chevron World Challenge presented by Bank of America",
+          "finish": "1",
+          "toPar": "-11",
+          "earnings": "$1,350,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2009": {
+      "starts": 21,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2009-01-11",
+          "tournament": "Mercedes-Benz Championship",
+          "finish": "T27",
+          "toPar": "-5",
+          "earnings": "$59,500"
+        },
+        {
+          "date": "2009-02-15",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-02-22",
+          "tournament": "Northern Trust Open",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-03-01",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T17",
+          "toPar": null,
+          "earnings": "$95,000"
+        },
+        {
+          "date": "2009-03-15",
+          "tournament": "World Golf Championships-CA Championship",
+          "finish": "T53",
+          "toPar": "-2",
+          "earnings": "$46,000"
+        },
+        {
+          "date": "2009-03-29",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T59",
+          "toPar": "+10",
+          "earnings": "$13,080"
+        },
+        {
+          "date": "2009-04-05",
+          "tournament": "Shell Houston Open",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-04-12",
+          "tournament": "Masters Tournament",
+          "finish": "T30",
+          "toPar": "-1",
+          "earnings": "$46,575"
+        },
+        {
+          "date": "2009-05-03",
+          "tournament": "Quail Hollow Championship",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-05-10",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T9",
+          "toPar": "-4",
+          "earnings": "$237,500"
+        },
+        {
+          "date": "2009-05-24",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "T16",
+          "toPar": "-8",
+          "earnings": "$91,185"
+        },
+        {
+          "date": "2009-05-31",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "T6",
+          "toPar": "-14",
+          "earnings": "$215,450"
+        },
+        {
+          "date": "2009-06-07",
+          "tournament": "the Memorial Tournament",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-06-21",
+          "tournament": "U.S. Open Championship",
+          "finish": "T27",
+          "toPar": "+6",
+          "earnings": "$56,041"
+        },
+        {
+          "date": "2009-06-28",
+          "tournament": "Travelers Championship",
+          "finish": "T51",
+          "toPar": "-5",
+          "earnings": "$13,965"
+        },
+        {
+          "date": "2009-07-05",
+          "tournament": "AT&T National",
+          "finish": "T7",
+          "toPar": "-6",
+          "earnings": "$180,750"
+        },
+        {
+          "date": "2009-07-19",
+          "tournament": "The Open Championship",
+          "finish": "T38",
+          "toPar": "+6",
+          "earnings": "$31,176"
+        },
+        {
+          "date": "2009-08-09",
+          "tournament": "World Golf Championships-Bridgestone Invitational",
+          "finish": "T29",
+          "toPar": "+1",
+          "earnings": "$67,000"
+        },
+        {
+          "date": "2009-08-16",
+          "tournament": "PGA Championship",
+          "finish": "T16",
+          "toPar": "+1",
+          "earnings": "$106,566"
+        },
+        {
+          "date": "2009-08-30",
+          "tournament": "The Barclays",
+          "finish": "CUT",
+          "toPar": "+8",
+          "earnings": "$0"
+        },
+        {
+          "date": "2009-09-07",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "T54",
+          "toPar": "-2",
+          "earnings": "$17,025"
+        }
+      ]
+    },
+    "2010": {
+      "starts": 24,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2010-01-17",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T52",
+          "toPar": "-1",
+          "earnings": "$12,697"
+        },
+        {
+          "date": "2010-02-07",
+          "tournament": "Northern Trust Open",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-02-14",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T35",
+          "toPar": "-6",
+          "earnings": "$26,744"
+        },
+        {
+          "date": "2010-02-21",
+          "tournament": "World Golf Championships-Accenture Match Play Championship",
+          "finish": "T33",
+          "toPar": null,
+          "earnings": "$45,000"
+        },
+        {
+          "date": "2010-03-07",
+          "tournament": "The Honda Classic",
+          "finish": "T4",
+          "toPar": "-6",
+          "earnings": "$246,400"
+        },
+        {
+          "date": "2010-03-14",
+          "tournament": "World Golf Championships-CA Championship",
+          "finish": "T11",
+          "toPar": "-9",
+          "earnings": "$126,666"
+        },
+        {
+          "date": "2010-04-04",
+          "tournament": "Shell Houston Open",
+          "finish": "W/D",
+          "toPar": null,
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+10",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-05-02",
+          "tournament": "Quail Hollow Championship",
+          "finish": "CUT",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-05-09",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "-1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-05-16",
+          "tournament": "Valero Texas Open",
+          "finish": "T64",
+          "toPar": "+1",
+          "earnings": "$12,078"
+        },
+        {
+          "date": "2010-05-23",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "CUT",
+          "toPar": "+8",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-05-30",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "T33",
+          "toPar": "-9",
+          "earnings": "$33,480"
+        },
+        {
+          "date": "2010-06-06",
+          "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+          "finish": "T12",
+          "toPar": "-8",
+          "earnings": "$117,600"
+        },
+        {
+          "date": "2010-06-20",
+          "tournament": "U.S. Open Championship",
+          "finish": "T40",
+          "toPar": "+13",
+          "earnings": "$34,722"
+        },
+        {
+          "date": "2010-06-27",
+          "tournament": "Travelers Championship",
+          "finish": "T13",
+          "toPar": "-10",
+          "earnings": "$99,750"
+        },
+        {
+          "date": "2010-07-04",
+          "tournament": "AT&T National",
+          "finish": "T9",
+          "toPar": "-3",
+          "earnings": "$173,600"
+        },
+        {
+          "date": "2010-07-18",
+          "tournament": "The Open Championship",
+          "finish": "T37",
+          "toPar": "-1",
+          "earnings": "$33,791"
+        },
+        {
+          "date": "2010-08-08",
+          "tournament": "World Golf Championships-Bridgestone Invitational",
+          "finish": "T58",
+          "toPar": "+6",
+          "earnings": "$44,000"
+        },
+        {
+          "date": "2010-08-15",
+          "tournament": "PGA Championship",
+          "finish": "T39",
+          "toPar": "E",
+          "earnings": "$25,933"
+        },
+        {
+          "date": "2010-08-29",
+          "tournament": "The Barclays",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2010-09-06",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "T11",
+          "toPar": "-10",
+          "earnings": "$148,928"
+        },
+        {
+          "date": "2010-09-12",
+          "tournament": "BMW Championship",
+          "finish": "T24",
+          "toPar": "+1",
+          "earnings": "$60,750"
+        },
+        {
+          "date": "2010-11-14",
+          "tournament": "Children's Miracle Network Classic",
+          "finish": "T12",
+          "toPar": "-13",
+          "earnings": "$92,120"
+        }
+      ]
+    },
+    "2011": {
+      "starts": 25,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2011-01-16",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T57",
+          "toPar": "-2",
+          "earnings": "$11,880"
+        },
+        {
+          "date": "2011-01-30",
+          "tournament": "Farmers Insurance Open",
+          "finish": "T20",
+          "toPar": "-5",
+          "earnings": "$65,192"
+        },
+        {
+          "date": "2011-02-06",
+          "tournament": "Waste Management Phoenix Open",
+          "finish": "T3",
+          "toPar": "-16",
+          "earnings": "$353,800"
+        },
+        {
+          "date": "2011-02-13",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T26",
+          "toPar": "-4",
+          "earnings": "$46,620"
+        },
+        {
+          "date": "2011-02-20",
+          "tournament": "Northern Trust Open",
+          "finish": "2",
+          "toPar": "-10",
+          "earnings": "$702,000"
+        },
+        {
+          "date": "2011-03-06",
+          "tournament": "The Honda Classic",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-03-13",
+          "tournament": "World Golf Championships-Cadillac Championship",
+          "finish": "T22",
+          "toPar": "-5",
+          "earnings": "$83,000"
+        },
+        {
+          "date": "2011-03-20",
+          "tournament": "Transitions Championship",
+          "finish": "T51",
+          "toPar": "-2",
+          "earnings": "$12,943"
+        },
+        {
+          "date": "2011-03-27",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-04-10",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+10",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-05-01",
+          "tournament": "Zurich Classic of New Orleans",
+          "finish": "T65",
+          "toPar": "+2",
+          "earnings": "$13,376"
+        },
+        {
+          "date": "2011-05-08",
+          "tournament": "Wells Fargo Championship",
+          "finish": "T9",
+          "toPar": "-10",
+          "earnings": "$150,428"
+        },
+        {
+          "date": "2011-05-15",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-05-22",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-05-29",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "T27",
+          "toPar": "+5",
+          "earnings": "$46,150"
+        },
+        {
+          "date": "2011-06-05",
+          "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+          "finish": "T37",
+          "toPar": "-2",
+          "earnings": "$27,900"
+        },
+        {
+          "date": "2011-06-26",
+          "tournament": "Travelers Championship",
+          "finish": "T43",
+          "toPar": "-8",
+          "earnings": "$18,840"
+        },
+        {
+          "date": "2011-07-03",
+          "tournament": "AT&T National",
+          "finish": "W/D",
+          "toPar": "-2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-08-14",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+10",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-08-21",
+          "tournament": "Wyndham Championship",
+          "finish": "T4",
+          "toPar": "-13",
+          "earnings": "$196,040"
+        },
+        {
+          "date": "2011-08-28",
+          "tournament": "The Barclays",
+          "finish": "T3",
+          "toPar": "-16",
+          "earnings": "$464,000"
+        },
+        {
+          "date": "2011-09-05",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-09-18",
+          "tournament": "BMW Championship",
+          "finish": "67",
+          "toPar": "+15",
+          "earnings": "$16,480"
+        },
+        {
+          "date": "2011-09-25",
+          "tournament": "TOUR Championship by Coca-Cola",
+          "finish": "T16",
+          "toPar": "E",
+          "earnings": "$162,400"
+        },
+        {
+          "date": "2011-10-16",
+          "tournament": "The McGladrey Classic",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2011-10-30",
+          "tournament": "CIMB Asia Pacific Classic Malaysia",
+          "finish": "T7",
+          "toPar": "-14",
+          "earnings": "$175,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2012": {
+      "starts": 27,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2012-01-12",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T46",
+          "toPar": "-3",
+          "earnings": "$14,708"
+        },
+        {
+          "date": "2012-01-26",
+          "tournament": "Farmers Insurance Open",
+          "finish": "T13",
+          "toPar": "-9",
+          "earnings": "$96,666"
+        },
+        {
+          "date": "2012-02-02",
+          "tournament": "Waste Management Phoenix Open",
+          "finish": "W/D",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2012-02-09",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T25",
+          "toPar": "-6",
+          "earnings": "$51,040"
+        },
+        {
+          "date": "2012-02-16",
+          "tournament": "Northern Trust Open",
+          "finish": "33",
+          "toPar": "+1",
+          "earnings": "$38,940"
+        },
+        {
+          "date": "2012-03-08",
+          "tournament": "World Golf Championships-Cadillac Championship",
+          "finish": "T66",
+          "toPar": "+7",
+          "earnings": "$39,750"
+        },
+        {
+          "date": "2012-03-15",
+          "tournament": "Transitions Championship",
+          "finish": "T63",
+          "toPar": "E",
+          "earnings": "$11,660"
+        },
+        {
+          "date": "2012-03-22",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T24",
+          "toPar": "-1",
+          "earnings": "$49,800"
+        },
+        {
+          "date": "2012-04-05",
+          "tournament": "Masters Tournament",
+          "finish": "T27",
+          "toPar": "+2",
+          "earnings": "$56,800"
+        },
+        {
+          "date": "2012-05-03",
+          "tournament": "Wells Fargo Championship",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2012-05-10",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2012-05-17",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "T9",
+          "toPar": "-5",
+          "earnings": "$156,000"
+        },
+        {
+          "date": "2012-05-24",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "T47",
+          "toPar": "+4",
+          "earnings": "$16,240"
+        },
+        {
+          "date": "2012-05-31",
+          "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+          "finish": "T16",
+          "toPar": "+1",
+          "earnings": "$99,200"
+        },
+        {
+          "date": "2012-06-14",
+          "tournament": "U.S. Open",
+          "finish": "CUT",
+          "toPar": "+13",
+          "earnings": "$0"
+        },
+        {
+          "date": "2012-06-21",
+          "tournament": "Travelers Championship",
+          "finish": "T37",
+          "toPar": "-5",
+          "earnings": "$24,000"
+        },
+        {
+          "date": "2012-06-28",
+          "tournament": "AT&T National",
+          "finish": "T49",
+          "toPar": "+8",
+          "earnings": "$15,527"
+        },
+        {
+          "date": "2012-07-05",
+          "tournament": "The Greenbrier Classic",
+          "finish": "T33",
+          "toPar": "-6",
+          "earnings": "$32,940"
+        },
+        {
+          "date": "2012-07-19",
+          "tournament": "The Open Championship",
+          "finish": "T9",
+          "toPar": "E",
+          "earnings": "$124,343"
+        },
+        {
+          "date": "2012-07-26",
+          "tournament": "RBC Canadian Open",
+          "finish": "T7",
+          "toPar": "-12",
+          "earnings": "$162,066"
+        },
+        {
+          "date": "2012-08-09",
+          "tournament": "PGA Championship",
+          "finish": "T36",
+          "toPar": "+3",
+          "earnings": "$34,750"
+        },
+        {
+          "date": "2012-08-23",
+          "tournament": "The Barclays",
+          "finish": "T46",
+          "toPar": "+2",
+          "earnings": "$21,080"
+        },
+        {
+          "date": "2012-08-31",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "T26",
+          "toPar": "-5",
+          "earnings": "$54,444"
+        },
+        {
+          "date": "2012-09-06",
+          "tournament": "BMW Championship",
+          "finish": "8",
+          "toPar": "-15",
+          "earnings": "$248,000"
+        },
+        {
+          "date": "2012-10-04",
+          "tournament": "Justin Timberlake Shriners Hospitals for Children Open",
+          "finish": "T36",
+          "toPar": "-7",
+          "earnings": "$18,922"
+        },
+        {
+          "date": "2012-10-11",
+          "tournament": "Frys.com Open",
+          "finish": "T4",
+          "toPar": "-14",
+          "earnings": "$196,875"
+        },
+        {
+          "date": "2012-10-18",
+          "tournament": "The McGladrey Classic",
+          "finish": "T27",
+          "toPar": "-7",
+          "earnings": "$22,550"
+        },
+        {
+          "date": "2012-12-07",
+          "tournament": "Franklin Templeton Shootout",
+          "finish": "T3",
+          "toPar": "-28",
+          "earnings": "$140,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2013": {
+      "starts": 22,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2013-01-10",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T20",
+          "toPar": "-11",
+          "earnings": "$60,666"
+        },
+        {
+          "date": "2013-01-24",
+          "tournament": "Farmers Insurance Open",
+          "finish": "T27",
+          "toPar": "-4",
+          "earnings": "$41,480"
+        },
+        {
+          "date": "2013-02-07",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T50",
+          "toPar": "-2",
+          "earnings": "$15,184"
+        },
+        {
+          "date": "2013-02-14",
+          "tournament": "Northern Trust Open",
+          "finish": "T51",
+          "toPar": "+3",
+          "earnings": "$15,444"
+        },
+        {
+          "date": "2013-03-14",
+          "tournament": "Tampa Bay Championship presented by EverBank",
+          "finish": "T38",
+          "toPar": "+1",
+          "earnings": "$23,650"
+        },
+        {
+          "date": "2013-03-21",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T57",
+          "toPar": "+4",
+          "earnings": "$13,702"
+        },
+        {
+          "date": "2013-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "T38",
+          "toPar": "+4",
+          "earnings": "$32,000"
+        },
+        {
+          "date": "2013-04-18",
+          "tournament": "RBC Heritage",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-05-09",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-05-16",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "T80",
+          "toPar": "+4",
+          "earnings": "$11,926"
+        },
+        {
+          "date": "2013-05-23",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-05-30",
+          "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-06-20",
+          "tournament": "Travelers Championship",
+          "finish": "T43",
+          "toPar": "-2",
+          "earnings": "$19,626"
+        },
+        {
+          "date": "2013-06-27",
+          "tournament": "AT&T National",
+          "finish": "T34",
+          "toPar": "+1",
+          "earnings": "$30,095"
+        },
+        {
+          "date": "2013-07-04",
+          "tournament": "The Greenbrier Classic",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-07-18",
+          "tournament": "The Open Championship",
+          "finish": "CUT",
+          "toPar": "+12",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-07-25",
+          "tournament": "RBC Canadian Open",
+          "finish": "T31",
+          "toPar": "-6",
+          "earnings": "$30,426"
+        },
+        {
+          "date": "2013-08-08",
+          "tournament": "PGA Championship",
+          "finish": "T68",
+          "toPar": "+10",
+          "earnings": "$15,150"
+        },
+        {
+          "date": "2013-08-15",
+          "tournament": "Wyndham Championship",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-10-10",
+          "tournament": "Frys.com Open",
+          "finish": "2",
+          "toPar": "-15",
+          "earnings": "$540,000"
+        },
+        {
+          "date": "2013-10-17",
+          "tournament": "Shriners Hospitals for Children Open",
+          "finish": "T23",
+          "toPar": "-12",
+          "earnings": "$53,400"
+        },
+        {
+          "date": "2013-11-07",
+          "tournament": "The McGladrey Classic",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2013-11-21",
+          "tournament": "ISPS HANDA World Cup of Golf",
+          "finish": "T25",
+          "toPar": "+3",
+          "earnings": "$56,000",
+          "officialStart": false
+        }
+      ]
+    },
+    "2014": {
+      "starts": 24,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2014-01-09",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-01-23",
+          "tournament": "Farmers Insurance Open",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-01-30",
+          "tournament": "Waste Management Phoenix Open",
+          "finish": "77",
+          "toPar": "+8",
+          "earnings": "$11,532"
+        },
+        {
+          "date": "2014-02-06",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-02-13",
+          "tournament": "Northern Trust Open",
+          "finish": "T45",
+          "toPar": "-1",
+          "earnings": "$18,779"
+        },
+        {
+          "date": "2014-02-27",
+          "tournament": "The Honda Classic",
+          "finish": "T63",
+          "toPar": "+4",
+          "earnings": "$12,660"
+        },
+        {
+          "date": "2014-03-13",
+          "tournament": "Valspar Championship",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-03-20",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T20",
+          "toPar": "-4",
+          "earnings": "$67,166"
+        },
+        {
+          "date": "2014-04-10",
+          "tournament": "Masters Tournament",
+          "finish": "T37",
+          "toPar": "+7",
+          "earnings": "$40,500"
+        },
+        {
+          "date": "2014-04-17",
+          "tournament": "RBC Heritage",
+          "finish": "CUT",
+          "toPar": "+7",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-04-24",
+          "tournament": "Zurich Classic of New Orleans",
+          "finish": "T62",
+          "toPar": "-2",
+          "earnings": "$14,416"
+        },
+        {
+          "date": "2014-05-01",
+          "tournament": "Wells Fargo Championship",
+          "finish": "T30",
+          "toPar": "-3",
+          "earnings": "$40,106"
+        },
+        {
+          "date": "2014-05-15",
+          "tournament": "HP Byron Nelson Championship",
+          "finish": "T37",
+          "toPar": "-2",
+          "earnings": "$30,403"
+        },
+        {
+          "date": "2014-05-22",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "T70",
+          "toPar": "+5",
+          "earnings": "$12,672"
+        },
+        {
+          "date": "2014-05-29",
+          "tournament": "the Memorial Tournament presented by Nationwide Insurance",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-06-19",
+          "tournament": "Travelers Championship",
+          "finish": "T31",
+          "toPar": "-6",
+          "earnings": "$32,296"
+        },
+        {
+          "date": "2014-06-26",
+          "tournament": "Quicken Loans National",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-07-03",
+          "tournament": "The Greenbrier Classic",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-07-24",
+          "tournament": "RBC Canadian Open",
+          "finish": "T43",
+          "toPar": "-3",
+          "earnings": "$16,986"
+        },
+        {
+          "date": "2014-08-07",
+          "tournament": "PGA Championship",
+          "finish": "T35",
+          "toPar": "-3",
+          "earnings": "$44,920"
+        },
+        {
+          "date": "2014-08-21",
+          "tournament": "The Barclays",
+          "finish": "T68",
+          "toPar": "+5",
+          "earnings": "$16,240"
+        },
+        {
+          "date": "2014-08-29",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "T35",
+          "toPar": "-4",
+          "earnings": "$36,950"
+        },
+        {
+          "date": "2014-10-09",
+          "tournament": "Frys.com Open",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2014-10-16",
+          "tournament": "Shriners Hospitals for Children Open",
+          "finish": "T49",
+          "toPar": "-7",
+          "earnings": "$15,301"
+        }
+      ]
+    },
+    "2015": {
+      "starts": 23,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2015-01-15",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-02-12",
+          "tournament": "AT&T Pebble Beach National Pro-Am",
+          "finish": "T34",
+          "toPar": "-11",
+          "earnings": "$33,611"
+        },
+        {
+          "date": "2015-02-19",
+          "tournament": "Northern Trust Open",
+          "finish": "T12",
+          "toPar": "-3",
+          "earnings": "$147,400"
+        },
+        {
+          "date": "2015-02-26",
+          "tournament": "The Honda Classic",
+          "finish": "CUT",
+          "toPar": "+10",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-03-12",
+          "tournament": "Valspar Championship",
+          "finish": "T10",
+          "toPar": "-4",
+          "earnings": "$126,428"
+        },
+        {
+          "date": "2015-03-19",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "T57",
+          "toPar": "-2",
+          "earnings": "$14,175"
+        },
+        {
+          "date": "2015-04-09",
+          "tournament": "Masters Tournament",
+          "finish": "54",
+          "toPar": "+7",
+          "earnings": "$23,200"
+        },
+        {
+          "date": "2015-04-16",
+          "tournament": "RBC Heritage",
+          "finish": "T51",
+          "toPar": "-3",
+          "earnings": "$14,071"
+        },
+        {
+          "date": "2015-05-07",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T63",
+          "toPar": "+1",
+          "earnings": "$21,200"
+        },
+        {
+          "date": "2015-05-14",
+          "tournament": "Wells Fargo Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-05-21",
+          "tournament": "Crowne Plaza Invitational at Colonial",
+          "finish": "T43",
+          "toPar": "-2",
+          "earnings": "$18,993"
+        },
+        {
+          "date": "2015-05-28",
+          "tournament": "AT&T Byron Nelson",
+          "finish": "T39",
+          "toPar": "-5",
+          "earnings": "$27,690"
+        },
+        {
+          "date": "2015-06-04",
+          "tournament": "the Memorial Tournament presented by Nationwide",
+          "finish": "T11",
+          "toPar": "-10",
+          "earnings": "$148,800"
+        },
+        {
+          "date": "2015-06-25",
+          "tournament": "Travelers Championship",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-07-02",
+          "tournament": "The Greenbrier Classic",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-07-09",
+          "tournament": "John Deere Classic",
+          "finish": "T18",
+          "toPar": "-12",
+          "earnings": "$59,220"
+        },
+        {
+          "date": "2015-07-23",
+          "tournament": "RBC Canadian Open",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-07-30",
+          "tournament": "Quicken Loans National",
+          "finish": "T52",
+          "toPar": "-3",
+          "earnings": "$15,467"
+        },
+        {
+          "date": "2015-08-13",
+          "tournament": "PGA Championship",
+          "finish": "T37",
+          "toPar": "-3",
+          "earnings": "$39,200"
+        },
+        {
+          "date": "2015-08-20",
+          "tournament": "Wyndham Championship",
+          "finish": "T31",
+          "toPar": "-9",
+          "earnings": "$30,625"
+        },
+        {
+          "date": "2015-08-27",
+          "tournament": "The Barclays",
+          "finish": "T66",
+          "toPar": "+5",
+          "earnings": "$17,077"
+        },
+        {
+          "date": "2015-10-22",
+          "tournament": "Shriners Hospitals for Children Open",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2015-11-19",
+          "tournament": "The RSM Classic",
+          "finish": "T44",
+          "toPar": "-6",
+          "earnings": "$16,473"
+        }
+      ]
+    },
+    "2016": {
+      "starts": 23,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2016-01-14",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T50",
+          "toPar": "-8",
+          "earnings": "$13,881"
+        },
+        {
+          "date": "2016-02-11",
+          "tournament": "AT&T Pebble Beach Pro-Am",
+          "finish": "CUT",
+          "toPar": "+12",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-02-18",
+          "tournament": "Northern Trust Open",
+          "finish": "T45",
+          "toPar": "-2",
+          "earnings": "$19,059"
+        },
+        {
+          "date": "2016-02-25",
+          "tournament": "The Honda Classic",
+          "finish": "T6",
+          "toPar": "-3",
+          "earnings": "$211,975"
+        },
+        {
+          "date": "2016-03-10",
+          "tournament": "Valspar Championship",
+          "finish": "T64",
+          "toPar": "+8",
+          "earnings": "$12,932"
+        },
+        {
+          "date": "2016-03-17",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-03-31",
+          "tournament": "Shell Houston Open",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-04-07",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-04-14",
+          "tournament": "RBC Heritage",
+          "finish": "T66",
+          "toPar": "+9",
+          "earnings": "$12,213"
+        },
+        {
+          "date": "2016-04-28",
+          "tournament": "Zurich Classic of New Orleans",
+          "finish": "T48",
+          "toPar": "-5",
+          "earnings": "$16,968"
+        },
+        {
+          "date": "2016-05-05",
+          "tournament": "Wells Fargo Championship",
+          "finish": "T77",
+          "toPar": "+8",
+          "earnings": "$13,505"
+        },
+        {
+          "date": "2016-05-12",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T28",
+          "toPar": "-3",
+          "earnings": "$68,325"
+        },
+        {
+          "date": "2016-05-26",
+          "tournament": "DEAN & DELUCA Invitational",
+          "finish": "T34",
+          "toPar": "-1",
+          "earnings": "$32,411"
+        },
+        {
+          "date": "2016-06-23",
+          "tournament": "Quicken Loans National",
+          "finish": "2",
+          "toPar": "-14",
+          "earnings": "$745,200"
+        },
+        {
+          "date": "2016-07-14",
+          "tournament": "The Open Championship",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-07-21",
+          "tournament": "RBC Canadian Open",
+          "finish": "T59",
+          "toPar": "E",
+          "earnings": "$13,039"
+        },
+        {
+          "date": "2016-07-28",
+          "tournament": "PGA Championship",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-08-04",
+          "tournament": "Travelers Championship",
+          "finish": "T56",
+          "toPar": "-3",
+          "earnings": "$14,718"
+        },
+        {
+          "date": "2016-08-25",
+          "tournament": "The Barclays",
+          "finish": "T53",
+          "toPar": "+3",
+          "earnings": "$19,404"
+        },
+        {
+          "date": "2016-09-02",
+          "tournament": "Deutsche Bank Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-10-20",
+          "tournament": "CIMB Classic",
+          "finish": "T33",
+          "toPar": "-8",
+          "earnings": "$36,983"
+        },
+        {
+          "date": "2016-11-03",
+          "tournament": "Shriners Hospitals for Children Open",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2016-11-17",
+          "tournament": "The RSM Classic",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2017": {
+      "starts": 16,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2017-01-12",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T57",
+          "toPar": "-7",
+          "earnings": "$13,320"
+        },
+        {
+          "date": "2017-02-09",
+          "tournament": "AT&T Pebble Beach Pro-Am",
+          "finish": "CUT",
+          "toPar": "+14",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-02-16",
+          "tournament": "Genesis Open",
+          "finish": "CUT",
+          "toPar": "+1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-03-09",
+          "tournament": "Valspar Championship",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-03-16",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-04-06",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-04-13",
+          "tournament": "RBC Heritage",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-05-04",
+          "tournament": "Wells Fargo Championship",
+          "finish": "CUT",
+          "toPar": "+7",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-05-11",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "T16",
+          "toPar": "-1",
+          "earnings": "$152,250"
+        },
+        {
+          "date": "2017-06-01",
+          "tournament": "the Memorial Tournament presented by Nationwide",
+          "finish": "CUT",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-06-08",
+          "tournament": "FedEx St. Jude Classic",
+          "finish": "T72",
+          "toPar": "+3",
+          "earnings": "$12,352"
+        },
+        {
+          "date": "2017-06-22",
+          "tournament": "Travelers Championship",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-07-06",
+          "tournament": "The Greenbrier Classic",
+          "finish": "CUT",
+          "toPar": "+4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2017-07-27",
+          "tournament": "RBC Canadian Open",
+          "finish": "T14",
+          "toPar": "-15",
+          "earnings": "$102,000"
+        },
+        {
+          "date": "2017-08-10",
+          "tournament": "PGA Championship",
+          "finish": "66",
+          "toPar": "+10",
+          "earnings": "$20,400"
+        },
+        {
+          "date": "2017-11-02",
+          "tournament": "Shriners Hospitals for Children Open",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2018": {
+      "starts": 9,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2018-01-11",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2018-02-08",
+          "tournament": "AT&T Pebble Beach Pro-Am",
+          "finish": "CUT",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2018-02-15",
+          "tournament": "Genesis Open",
+          "finish": "T73",
+          "toPar": "+8",
+          "earnings": "$13,896"
+        },
+        {
+          "date": "2018-03-15",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2018-04-05",
+          "tournament": "Masters Tournament",
+          "finish": "49",
+          "toPar": "+7",
+          "earnings": "$28,600"
+        },
+        {
+          "date": "2018-05-03",
+          "tournament": "Wells Fargo Championship",
+          "finish": "CUT",
+          "toPar": "+7",
+          "earnings": "$0"
+        },
+        {
+          "date": "2018-05-31",
+          "tournament": "the Memorial Tournament presented by Nationwide",
+          "finish": "69",
+          "toPar": "+1",
+          "earnings": "$17,978"
+        },
+        {
+          "date": "2018-07-05",
+          "tournament": "A Military Tribute at The Greenbrier",
+          "finish": "T56",
+          "toPar": "-2",
+          "earnings": "$16,060"
+        },
+        {
+          "date": "2018-08-09",
+          "tournament": "PGA Championship",
+          "finish": "78",
+          "toPar": "+3",
+          "earnings": "$18,800"
+        }
+      ]
+    },
+    "2019": {
+      "starts": 6,
+      "wins": 0,
+      "seasonNote": "Results from the PGA TOUR results page screenshots.",
+      "events": [
+        {
+          "date": "2019-01-10",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2019-02-14",
+          "tournament": "Genesis Open",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2019-02-28",
+          "tournament": "The Honda Classic",
+          "finish": "6",
+          "toPar": "-6",
+          "earnings": "$244,800"
+        },
+        {
+          "date": "2019-03-07",
+          "tournament": "Arnold Palmer Invitational presented by MasterCard",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2019-03-14",
+          "tournament": "THE PLAYERS Championship",
+          "finish": "CUT",
+          "toPar": "+5",
+          "earnings": "$0"
+        },
+        {
+          "date": "2019-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+12",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2020": {
+      "starts": 9,
+      "wins": 0,
+      "seasonNote": "Played a limited PGA TOUR schedule, with his only made cut coming at the Memorial Tournament.",
+      "events": [
+        {
+          "date": "2020-01-09",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-02-27",
+          "tournament": "The Honda Classic",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-03-05",
+          "tournament": "Arnold Palmer Invitational presented by Mastercard",
+          "finish": "CUT",
+          "toPar": "+9",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-06-18",
+          "tournament": "RBC Heritage",
+          "finish": "CUT",
+          "toPar": "-1",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-06-25",
+          "tournament": "Travelers Championship",
+          "finish": "CUT",
+          "toPar": "+3",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-07-02",
+          "tournament": "Rocket Mortgage Classic",
+          "finish": "CUT",
+          "toPar": "-4",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-07-09",
+          "tournament": "Workday Charity Open",
+          "finish": "CUT",
+          "toPar": "E",
+          "earnings": "$0"
+        },
+        {
+          "date": "2020-07-16",
+          "tournament": "the Memorial Tournament presented by Nationwide",
+          "finish": "T62",
+          "toPar": "+12",
+          "earnings": "$20,088"
+        },
+        {
+          "date": "2020-11-12",
+          "tournament": "Masters Tournament (2020)",
+          "finish": "W/D",
+          "toPar": "+3",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2021": {
+      "starts": 3,
+      "wins": 0,
+      "seasonNote": "Made three PGA TOUR starts, missing the cut in each.",
+      "events": [
+        {
+          "date": "2021-01-14",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "CUT",
+          "toPar": "+2",
+          "earnings": "$0"
+        },
+        {
+          "date": "2021-03-18",
+          "tournament": "The Honda Classic",
+          "finish": "CUT",
+          "toPar": "+7",
+          "earnings": "$0"
+        },
+        {
+          "date": "2021-04-08",
+          "tournament": "Masters Tournament (2021)",
+          "finish": "CUT",
+          "toPar": "+15",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2022": {
+      "starts": 1,
+      "wins": 0,
+      "seasonNote": "Made one PGA TOUR start, missing the cut at the Masters.",
+      "events": [
+        {
+          "date": "2022-04-07",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+14",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2023": {
+      "starts": 1,
+      "wins": 0,
+      "seasonNote": "Made one PGA TOUR start, missing the cut at the Masters.",
+      "events": [
+        {
+          "date": "2023-04-06",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+6",
+          "earnings": "$0"
+        }
+      ]
+    },
+    "2024": {
+      "starts": 1,
+      "wins": 0,
+      "seasonNote": "Made the cut at the Masters and finished T58.",
+      "events": [
+        {
+          "date": "2024-04-11",
+          "tournament": "Masters Tournament",
+          "finish": "T58",
+          "toPar": "+14",
+          "earnings": "$45,000"
+        }
+      ]
+    },
+    "2026": {
+      "starts": 2,
+      "wins": 0,
+      "seasonNote": "Made the cut at the Sony Open in Hawaii, then missed the cut at the Masters.",
+      "events": [
+        {
+          "date": "2026-01-15",
+          "tournament": "Sony Open in Hawaii",
+          "finish": "T40",
+          "toPar": "-5",
+          "earnings": "$31,522"
+        },
+        {
+          "date": "2026-04-09",
+          "tournament": "Masters Tournament",
+          "finish": "CUT",
+          "toPar": "+10",
+          "earnings": "$0"
+        }
+      ]
+    }
+  }
+}
