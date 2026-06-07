@@ -2,8 +2,19 @@ name: Update Golf H2H Data
 
 on:
   workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "What to generate"
+        required: true
+        default: "prime"
+        type: choice
+        options:
+          - prime
+          - all
+
   schedule:
     # Runs every Monday at 9:15 AM ET during daylight saving time
+    # Scheduled runs default to "all" in the env below
     - cron: "15 13 * * 1"
 
 permissions:
@@ -32,13 +43,16 @@ jobs:
       - name: Generate H2H data
         env:
           DATAGOLF_API_KEY: ${{ secrets.DATAGOLF_API_KEY }}
+          H2H_RUN_MODE: ${{ github.event.inputs.run_mode || 'all' }}
         run: node scripts/generate-h2h.js
 
       - name: Commit updated H2H data
         run: |
           git config user.name "morning-tee-bot"
           git config user.email "actions@github.com"
-          git add data/h2h/players.json data/h2h/matchups/*.json
+
+          git add data/h2h
+
           if git diff --cached --quiet; then
             echo "No H2H changes to commit."
           else
