@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-07T18:51:04.606Z",
+  "updatedAt": "2026-06-07T19:15:28.716Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-07T19:15:28.712Z",
+      "approvedAt": "2026-06-07T19:15:28.712Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston is E today and -12 overall through 8. Closest chasers: Wyndham Clark (-9), Ryan Gerard (-9), Sam Burns (-9).",
+      "quickRead": "J.T. Poston is E today and -12 overall through 8. Closest chasers: Wyndham Clark (-9), Ryan Gerard (-9), Sam Burns (-9).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.T. Poston",
+          "score": "-12",
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-9",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-9",
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-9",
+          "thru": "8"
+        },
+        {
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-8",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "24 min ago",
       "timestamp": "2026-06-07T18:51:00.020Z",
       "approvedAt": "2026-06-07T18:51:00.020Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "8"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-07T17:50:49.000Z",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-07T17:00:48.000Z",
       "approvedAt": "2026-06-07T17:11:07.509Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-07T13:15:25.000Z",
       "approvedAt": "2026-06-07T17:11:09.877Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-07T11:10:00.000Z",
       "approvedAt": "2026-06-07T15:21:06.786Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-07T11:09:51.000Z",
       "approvedAt": "2026-06-07T13:42:58.291Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-takes-advantage-crucial-103013535.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-06-07T11:00:00.000Z",
-      "approvedAt": "2026-06-07T13:43:00.617Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy reveals what Jack Nicklaus told him to change about his game just...",
-      "summary": "Rory McIlroy is desperate to win The Memorial Tournament at some point in his career.",
-      "quickRead": "Rory McIlroy said Jack Nicklaus told him “to play more cut shots, especially on these greens to get it to land softer,” advice Nicklaus offered when they had lunch a couple weeks ago.  McIlroy is still chasing his first Memorial win at Muirfield Village, where he says the course often takes driver out of his hands and neutralizes one of his biggest weapons.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-jack-nicklaus-110000324.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-jack-nicklaus-110000324.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "24 min ago",
       "timestamp": "2026-06-07T18:50:42.255Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-07T18:13:42.256Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-07T18:51:03.600Z",
-      "approvedAt": "2026-06-07T18:51:03.600Z",
+      "timestamp": "2026-06-07T19:15:28.716Z",
+      "approvedAt": "2026-06-07T19:15:28.716Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "J.T. Poston leads the Memorial Tournament presented by Workday at -12",
-      "summary": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
-      "quickRead": "J.T. Poston is E today and -12 overall through 7. Closest chasers: Ryan Gerard (-9), Sam Burns (-9), Wyndham Clark (-8).",
+      "summary": "J.T. Poston is E today and -12 overall through 8. Closest chasers: Wyndham Clark (-9), Ryan Gerard (-9), Sam Burns (-9).",
+      "quickRead": "J.T. Poston is E today and -12 overall through 8. Closest chasers: Wyndham Clark (-9), Ryan Gerard (-9), Sam Burns (-9).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -345,31 +379,31 @@
           "pos": "1",
           "name": "J.T. Poston",
           "score": "-12",
-          "thru": "7"
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-9",
+          "thru": "9"
         },
         {
           "pos": "T2",
           "name": "Ryan Gerard",
           "score": "-9",
-          "thru": "7"
+          "thru": "8"
         },
         {
           "pos": "T2",
           "name": "Sam Burns",
           "score": "-9",
-          "thru": "7"
-        },
-        {
-          "pos": "4",
-          "name": "Wyndham Clark",
-          "score": "-8",
           "thru": "8"
         },
         {
           "pos": "5",
           "name": "Tommy Fleetwood",
-          "score": "-7",
-          "thru": "8"
+          "score": "-8",
+          "thru": "9"
         }
       ]
     }
