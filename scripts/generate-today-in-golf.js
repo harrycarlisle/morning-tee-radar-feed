@@ -38,12 +38,15 @@ function getETParts(date = new Date()) {
 
   const get = (type) => parts.find((part) => part.type === type)?.value || "";
 
+  const rawHour = Number(get("hour"));
+  const normalizedHour = rawHour === 24 ? 0 : rawHour;
+
   return {
     weekday: get("weekday"),
     year: get("year"),
     month: get("month"),
     day: get("day"),
-    hour: Number(get("hour")),
+    hour: normalizedHour,
     minute: Number(get("minute")),
     dateKey: `${get("year")}-${get("month")}-${get("day")}`
   };
@@ -78,9 +81,9 @@ function getEditionNow(currentTodayJson = null) {
     if (!hasAlreadyRun(currentTodayJson, "midday")) return "midday";
   }
 
-  if (et.hour >= 20) {
-    if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
-  }
+ if (et.hour >= 20 && et.hour < 24) {
+  if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
+}
 
   return null;
 }
@@ -329,13 +332,22 @@ function filterStoriesForEdition(stories, edition) {
     return true;
   });
 
-  const primaryStories = recentWindowStories.length >= 3
-    ? recentWindowStories
-    : todaysStories;
+  const now = Date.now();
+const recentStories = stories.filter((item) => {
+  const timestamp = getItemTimestamp(item);
+  if (!timestamp) return false;
 
-  if (primaryStories.length >= 3) return primaryStories.slice(0, 16);
+  const ageHours = (now - timestamp) / 3600000;
+  return ageHours <= 36;
+});
 
-  return stories.slice(0, 16);
+const primaryStories = recentWindowStories.length
+  ? recentWindowStories
+  : todaysStories.length
+    ? todaysStories
+    : recentStories;
+
+return primaryStories.slice(0, 16);
 }
 
 function hasAlreadyRun(todayJson, edition) {
@@ -745,7 +757,12 @@ async function main() {
     return;
   }
 
-  const finalEdition = edition || "morning";
+  if (!edition) {
+  console.log("No eligible Today In Golf edition window found. Skipping.");
+  return;
+}
+
+const finalEdition = edition;
 
   if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, finalEdition)) {
     console.log(`Today In Golf already generated for ${finalEdition} today. Skipping.`);
