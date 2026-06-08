@@ -723,6 +723,7 @@ function getPrimeSeason(player) {
   return {
     player,
     year: prime.year,
+    displayYear: prime.displayYear || prime.year,
     label: prime.label,
     events: season.events
   };
@@ -780,6 +781,7 @@ function summarizePrimeSeason(primeSeason) {
   return {
     player: primeSeason.player,
     year: primeSeason.year,
+    displayYear: primeSeason.displayYear || primeSeason.year,
     label: primeSeason.label,
 
     eventsPlayed: countableEvents.length,
@@ -1056,7 +1058,7 @@ async function buildPrimeMatchup(matchup) {
     },
     {
       key: "cutRate",
-      label: "Cut rate",
+      label: "Made-cut rate",
       playerA: roundMetric(primeA.cutRate === null ? null : primeA.cutRate * 100, 1),
       playerB: roundMetric(primeB.cutRate === null ? null : primeB.cutRate * 100, 1),
       suffix: "%",
