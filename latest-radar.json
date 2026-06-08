@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-08T00:01:33.848Z",
+  "updatedAt": "2026-06-08T00:01:34.774Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -274,7 +274,7 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-becomes-only-second-233000461.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-becomes-only-second-233000461.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
       "timestamp": "2026-06-07T23:30:00.000Z"
     },
     {
@@ -304,7 +304,7 @@
       "url": "https://sports.yahoo.com/articles/paul-mcginley-reveals-true-feelings-175644346.html",
       "sourceUrl": "https://sports.yahoo.com/articles/paul-mcginley-reveals-true-feelings-175644346.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-06-07T17:56:44.000Z"
     }
   ],
@@ -356,8 +356,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-08T00:01:31.020Z",
-      "approvedAt": "2026-06-08T00:01:31.020Z",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Cameron Young wins THE PLAYERS Championship at -13",
+      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
+      "quickRead": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE PLAYERS Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Cameron Young",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Matt Fitzpatrick",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Xander Schauffele",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Robert MacIntyre",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
+          "score": "-9",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -403,6 +456,1066 @@
           "pos": "T3",
           "name": "Justin Rose",
           "score": "-10",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Aaron Rai wins PGA Championship at -9",
+      "summary": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
+      "quickRead": "Aaron Rai wins PGA Championship at -9. Nearest finishers: Jon Rahm (-6), Alex Smalley (-6), Justin Thomas (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "PGA Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Aaron Rai",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jon Rahm",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Justin Thomas",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Ludvig Åberg",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Collin Morikawa wins AT&T Pebble Beach Pro-Am at -22",
+      "summary": "Collin Morikawa wins AT&T Pebble Beach Pro-Am at -22. Nearest finishers: Min Woo Lee (-21), Sepp Straka (-21), Scottie Scheffler (-20).",
+      "quickRead": "Collin Morikawa wins AT&T Pebble Beach Pro-Am at -22. Nearest finishers: Min Woo Lee (-21), Sepp Straka (-21), Scottie Scheffler (-20).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "AT&T Pebble Beach Pro-Am",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Collin Morikawa",
+          "score": "-22",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Min Woo Lee",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Sepp Straka",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Scottie Scheffler",
+          "score": "-20",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-20",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jacob Bridgeman wins The Genesis Invitational at -18",
+      "summary": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "quickRead": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Genesis Invitational",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jacob Bridgeman",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Kurt Kitayama",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Rory McIlroy",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Adam Scott",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Aldrich Potgieter",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Akshay Bhatia wins Arnold Palmer Invitational presented by Mastercard at -15",
+      "summary": "Akshay Bhatia wins Arnold Palmer Invitational presented by Mastercard at -15. Nearest finishers: Daniel Berger (-15), Ludvig Åberg (-12), Cameron Young (-12).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Arnold Palmer Invitational presented by Mastercard",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Akshay Bhatia",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Daniel Berger",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Ludvig Åberg",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Cameron Young",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Collin Morikawa",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Matt Fitzpatrick wins RBC Heritage at -18",
+      "summary": "Matt Fitzpatrick wins RBC Heritage at -18. Nearest finishers: Scottie Scheffler (-18), Si Woo Kim (-16), Collin Morikawa (-13).",
+      "quickRead": "Matt Fitzpatrick wins RBC Heritage at -18. Nearest finishers: Scottie Scheffler (-18), Si Woo Kim (-16), Collin Morikawa (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Heritage",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Matt Fitzpatrick",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Scottie Scheffler",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Si Woo Kim",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Collin Morikawa",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Harris English",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Cameron Young wins Cadillac Championship at -19",
+      "summary": "Cameron Young wins Cadillac Championship at -19. Nearest finishers: Scottie Scheffler (-13), Ben Griffin (-12), Adam Scott (-11).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Cadillac Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Cameron Young",
+          "score": "-19",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Scottie Scheffler",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Ben Griffin",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Adam Scott",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Sepp Straka",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Kristoffer Reitan wins Truist Championship at -15",
+      "summary": "Kristoffer Reitan wins Truist Championship at -15. Nearest finishers: Rickie Fowler (-13), Nicolai Højgaard (-13), Alex Fitzpatrick (-12).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Truist Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Kristoffer Reitan",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Rickie Fowler",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Nicolai Højgaard",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Alex Fitzpatrick",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Tommy Fleetwood",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.T. Poston wins the Memorial Tournament presented by Workday at -12",
+      "summary": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
+      "quickRead": "J.T. Poston wins the Memorial Tournament presented by Workday at -12. Nearest finishers: Ryan Gerard (-12), Wyndham Clark (-11), Tommy Fleetwood (-10).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "the Memorial Tournament presented by Workday",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.T. Poston",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-10",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30",
+      "summary": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30. Nearest finishers: Si Woo Kim (-27), Scottie Scheffler (-25), Jackson Suber (-23).",
+      "quickRead": "Wyndham Clark wins THE CJ CUP Byron Nelson at -30. Nearest finishers: Si Woo Kim (-27), Scottie Scheffler (-25), Jackson Suber (-23).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "THE CJ CUP Byron Nelson",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-30",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Si Woo Kim",
+          "score": "-27",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Scottie Scheffler",
+          "score": "-25",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Jackson Suber",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Keith Mitchell",
+          "score": "-22",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Gary Woodland wins Texas Children's Houston Open at -21",
+      "summary": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "quickRead": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Texas Children's Houston Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Gary Woodland",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Nicolai Højgaard",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Sam Stevens",
+          "score": "-14",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Russell Henley wins Charles Schwab Challenge at -12",
+      "summary": "Russell Henley wins Charles Schwab Challenge at -12. Nearest finishers: Eric Cole (-12), Ben Griffin (-11), Alex Smalley (-11).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Charles Schwab Challenge",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Russell Henley",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Eric Cole",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Ben Griffin",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Alex Smalley",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Mac Meissner",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "J.J. Spaun wins Valero Texas Open at -17",
+      "summary": "J.J. Spaun wins Valero Texas Open at -17. Nearest finishers: Matt Wallace (-16), Michael Kim (-16), Robert MacIntyre (-16).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Valero Texas Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "J.J. Spaun",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Wallace",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Michael Kim",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Robert MacIntyre",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Andrew Putnam",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Justin Rose wins Farmers Insurance Open at -23",
+      "summary": "Justin Rose wins Farmers Insurance Open at -23. Nearest finishers: Pierceson Coody (-16), Si Woo Kim (-16), Ryo Hisatsune (-16).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Farmers Insurance Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Justin Rose",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Pierceson Coody",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryo Hisatsune",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Jake Knapp",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Chris Gotterup wins WM Phoenix Open at -16",
+      "summary": "Chris Gotterup wins WM Phoenix Open at -16. Nearest finishers: Hideki Matsuyama (-16), Scottie Scheffler (-15), Akshay Bhatia (-15).",
+      "quickRead": "Chris Gotterup wins WM Phoenix Open at -16. Nearest finishers: Hideki Matsuyama (-16), Scottie Scheffler (-15), Akshay Bhatia (-15).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "WM Phoenix Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Chris Gotterup",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Hideki Matsuyama",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Scottie Scheffler",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Akshay Bhatia",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Si Woo Kim",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.705Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17",
+      "summary": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17. Nearest finishers: Taylor Moore (-15), Shane Lowry (-15), Austin Smotherman (-15).",
+      "quickRead": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17. Nearest finishers: Taylor Moore (-15), Shane Lowry (-15), Austin Smotherman (-15).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Cognizant Classic in The Palm Beaches",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Nico Echavarria",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Taylor Moore",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Shane Lowry",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Austin Smotherman",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Ricky Castillo",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.705Z",
+      "approvedAt": "2026-06-08T00:01:34.706Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler wins The American Express at -27",
+      "summary": "Scottie Scheffler wins The American Express at -27. Nearest finishers: Jason Day (-23), Ryan Gerard (-23), Matt McCarty (-23).",
+      "quickRead": "Scottie Scheffler wins The American Express at -27. Nearest finishers: Jason Day (-23), Ryan Gerard (-23), Matt McCarty (-23).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The American Express",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-27",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jason Day",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt McCarty",
+          "score": "-23",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Andrew Putnam",
+          "score": "-23",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.706Z",
+      "approvedAt": "2026-06-08T00:01:34.706Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Chris Gotterup wins Sony Open in Hawaii at -16",
+      "summary": "Chris Gotterup wins Sony Open in Hawaii at -16. Nearest finishers: Ryan Gerard (-14), Patrick Rodgers (-13), Robert MacIntyre (-12).",
+      "quickRead": "Chris Gotterup wins Sony Open in Hawaii at -16. Nearest finishers: Ryan Gerard (-14), Patrick Rodgers (-13), Robert MacIntyre (-12).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Sony Open in Hawaii",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Chris Gotterup",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Ryan Gerard",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Patrick Rodgers",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Robert MacIntyre",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Jacob Bridgeman",
+          "score": "-12",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.706Z",
+      "approvedAt": "2026-06-08T00:01:34.706Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Matt Fitzpatrick wins Valspar Championship at -11",
+      "summary": "Matt Fitzpatrick wins Valspar Championship at -11. Nearest finishers: David Lipsky (-10), Jordan Smith (-9), Xander Schauffele (-8).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Valspar Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Matt Fitzpatrick",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "David Lipsky",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Xander Schauffele",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Marco Penge",
+          "score": "-8",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.706Z",
+      "approvedAt": "2026-06-08T00:01:34.706Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ricky Castillo wins Puerto Rico Open at -17",
+      "summary": "Ricky Castillo wins Puerto Rico Open at -17. Nearest finishers: Chandler Blanchet (-16), Blades Brown (-14), Davis Thompson (-13).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Puerto Rico Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ricky Castillo",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Chandler Blanchet",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Blades Brown",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Davis Thompson",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Paul Peterson",
+          "score": "-12",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-08T00:01:34.706Z",
+      "approvedAt": "2026-06-08T00:01:34.706Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Brandt Snedeker wins ONEflight Myrtle Beach Classic at -18",
+      "summary": "Brandt Snedeker wins ONEflight Myrtle Beach Classic at -18. Nearest finishers: Mark Hubbard (-17), Beau Hossler (-16), Kevin Roy (-16).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ONEflight Myrtle Beach Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Brandt Snedeker",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Mark Hubbard",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Beau Hossler",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Kevin Roy",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Aaron Rai",
+          "score": "-15",
           "thru": "F"
         }
       ]
