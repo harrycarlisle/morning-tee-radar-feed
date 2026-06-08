@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-patrick-cantlay",
-  "updatedAt": "2026-06-07T15:20:51.473Z",
+  "updatedAt": "2026-06-08T17:27:33.088Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 97,
-    "playerAWins": 61,
+    "sharedStarts": 98,
+    "playerAWins": 62,
     "playerBWins": 30,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 5 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

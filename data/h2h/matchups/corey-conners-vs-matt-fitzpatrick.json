@@ -1,6 +1,6 @@
 {
   "matchupId": "corey-conners-vs-matt-fitzpatrick",
-  "updatedAt": "2026-06-07T16:30:07.889Z",
+  "updatedAt": "2026-06-08T18:36:37.355Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 110,
+    "sharedStarts": 111,
     "playerAWins": 48,
-    "playerBWins": 56,
+    "playerBWins": 57,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 17 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

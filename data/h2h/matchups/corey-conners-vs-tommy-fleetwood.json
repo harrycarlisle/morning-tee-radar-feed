@@ -1,6 +1,6 @@
 {
   "matchupId": "corey-conners-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-07T16:30:08.041Z",
+  "updatedAt": "2026-06-08T18:36:37.472Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 112,
+    "sharedStarts": 113,
     "playerAWins": 46,
-    "playerBWins": 59,
+    "playerBWins": 60,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "53",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 49 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-shane-lowry",
-  "updatedAt": "2026-06-07T16:19:02.903Z",
+  "updatedAt": "2026-06-08T18:25:35.071Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2009,
-    "sharedStarts": 140,
-    "playerAWins": 100,
+    "sharedStarts": 141,
+    "playerAWins": 101,
     "playerBWins": 33,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Shane Lowry",
+        "dgId": 13900,
+        "finish": "T22",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 10 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

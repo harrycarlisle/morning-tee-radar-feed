@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-justin-thomas",
-  "updatedAt": "2026-06-07T15:20:51.279Z",
+  "updatedAt": "2026-06-08T17:27:32.745Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 106,
-    "playerAWins": 70,
+    "sharedStarts": 107,
+    "playerAWins": 71,
     "playerBWins": 30,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 7 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

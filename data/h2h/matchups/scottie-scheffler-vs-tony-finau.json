@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-tony-finau",
-  "updatedAt": "2026-06-07T15:20:51.962Z",
+  "updatedAt": "2026-06-08T17:27:33.960Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 112,
-    "playerAWins": 83,
+    "sharedStarts": 113,
+    "playerAWins": 84,
     "playerBWins": 22,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 17 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-24",

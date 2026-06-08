@@ -1,6 +1,6 @@
 {
   "matchupId": "sam-burns-vs-sahith-theegala",
-  "updatedAt": "2026-06-07T16:30:07.496Z",
+  "updatedAt": "2026-06-08T18:36:37.175Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 89,
-    "playerAWins": 45,
+    "sharedStarts": 90,
+    "playerAWins": 46,
     "playerBWins": 40,
     "ties": 4
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 28 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

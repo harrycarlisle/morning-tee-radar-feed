@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-wyndham-clark",
-  "updatedAt": "2026-06-07T15:20:51.865Z",
+  "updatedAt": "2026-06-08T17:27:33.804Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 105,
+    "sharedStarts": 106,
     "playerAWins": 81,
-    "playerBWins": 21,
+    "playerBWins": 22,
     "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 9 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-24",

@@ -1,6 +1,6 @@
 {
   "matchupId": "ludvig-aberg-vs-scottie-scheffler",
-  "updatedAt": "2026-06-07T16:53:32.326Z",
+  "updatedAt": "2026-06-08T19:05:13.956Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 41,
+    "sharedStarts": 42,
     "playerAWins": 7,
-    "playerBWins": 33,
+    "playerBWins": 34,
     "ties": 1
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "39",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 27 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

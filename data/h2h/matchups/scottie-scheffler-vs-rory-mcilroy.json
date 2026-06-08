@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-06-07T15:20:50.179Z",
+  "updatedAt": "2026-06-08T17:27:31.217Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 93,
+    "sharedStarts": 94,
     "playerAWins": 52,
     "playerBWins": 35,
-    "ties": 6
+    "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

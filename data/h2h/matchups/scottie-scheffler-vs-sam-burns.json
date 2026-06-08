@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-sam-burns",
-  "updatedAt": "2026-06-07T15:20:51.668Z",
+  "updatedAt": "2026-06-08T17:27:33.452Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 117,
+    "sharedStarts": 118,
     "playerAWins": 81,
-    "playerBWins": 29,
+    "playerBWins": 30,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 8 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-patrick-cantlay",
-  "updatedAt": "2026-06-07T16:30:06.405Z",
+  "updatedAt": "2026-06-08T18:36:36.895Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 135,
+    "sharedStarts": 136,
     "playerAWins": 60,
-    "playerBWins": 66,
+    "playerBWins": 67,
     "ties": 9
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "eventId": 23,
+      "eventName": "the Memorial Tournament presented by Workday",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 2 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",
