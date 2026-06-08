@@ -1,7 +1,7 @@
 {
   "matchupId": "nick-faldo-vs-tiger-woods-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-07T21:54:05.062Z",
+  "updatedAt": "2026-06-08T00:17:59.235Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -78,7 +78,7 @@
     },
     {
       "key": "cutRate",
-      "label": "Cut rate",
+      "label": "Made-cut rate",
       "playerA": 100,
       "playerB": 100,
       "suffix": "%",
