@@ -359,7 +359,7 @@ const PRIME_MATCHUPS = [
   { playerA: p("arnoldPalmer"), playerB: p("tiger") },
   { playerA: p("arnoldPalmer"), playerB: p("byron") },
   { playerA: p("arnoldPalmer"), playerB: p("rory") },
-  { playerA: p("arnoldPalmer"), playerB: p("nickFaldo") }
+  { playerA: p("arnoldPalmer"), playerB: p("nickFaldo") },
 
   // Ernie Els
   { playerA: p("ernieEls"), playerB: p("tiger") },
@@ -378,7 +378,7 @@ const PRIME_MATCHUPS = [
   // Jason Day
   { playerA: p("jasonDay"), playerB: p("rory") },
   { playerA: p("jasonDay"), playerB: p("scottie") },
-  { playerA: p("jasonDay"), playerB: p("brooks") },
+  { playerA: p("jasonDay"), playerB: p("brooks") }
 ];
 
 const MATCHUPS = [
