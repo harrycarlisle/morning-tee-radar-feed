@@ -375,10 +375,18 @@ const PRIME_MATCHUPS = [
   { playerA: p("davisLoveIII"), playerB: p("tiger") },
   { playerA: p("davisLoveIII"), playerB: p("phil") },
 
-  // Jason Day
+   // Jason Day
   { playerA: p("jasonDay"), playerB: p("rory") },
   { playerA: p("jasonDay"), playerB: p("scottie") },
-  { playerA: p("jasonDay"), playerB: p("brooks") }
+  { playerA: p("jasonDay"), playerB: p("brooks") },
+
+  // Extra high-value Prime matchups
+  { playerA: p("ernieEls"), playerB: p("jack") },
+  { playerA: p("ernieEls"), playerB: p("vijay") },
+  { playerA: p("fredCouples"), playerB: p("rory") },
+  { playerA: p("davisLoveIII"), playerB: p("ernieEls") },
+  { playerA: p("jasonDay"), playerB: p("tiger") },
+  { playerA: p("jasonDay"), playerB: p("phil") }
 ];
 
 const MATCHUPS = [
