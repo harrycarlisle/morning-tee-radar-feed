@@ -180,6 +180,42 @@ const PLAYERS = {
     manualOnly: true
   },
 
+    ernieEls: {
+    name: "Els, Ernie",
+    displayName: "Ernie Els",
+    slug: "ernie-els",
+    dgId: null,
+    country: "RSA",
+    manualOnly: true
+  },
+
+  fredCouples: {
+    name: "Couples, Fred",
+    displayName: "Fred Couples",
+    slug: "fred-couples",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  davisLoveIII: {
+    name: "Love III, Davis",
+    displayName: "Davis Love III",
+    slug: "davis-love-iii",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  jasonDay: {
+    name: "Day, Jason",
+    displayName: "Jason Day",
+    slug: "jason-day",
+    dgId: null,
+    country: "AUS",
+    manualOnly: true
+  },
+
   jt: { name: "Thomas, Justin", displayName: "Justin Thomas", slug: "justin-thomas", dgId: 14139, country: "USA" },
   spieth: { name: "Spieth, Jordan", displayName: "Jordan Spieth", slug: "jordan-spieth", dgId: 14636, country: "USA" },
   cantlay: { name: "Cantlay, Patrick", displayName: "Patrick Cantlay", slug: "patrick-cantlay", dgId: 15466, country: "USA" },
@@ -263,7 +299,26 @@ const PRIME_SEASONS = {
   "arnold-palmer": {
     year: "1960",
     label: "1960, Masters and U.S. Open season"
-  }
+  },
+    "ernie-els": {
+    year: "1994",
+    label: "1994, U.S. Open breakthrough season"
+  },
+
+  "fred-couples": {
+    year: "1992",
+    label: "1992, Masters season"
+  },
+
+  "davis-love-iii": {
+    year: "1997",
+    label: "1997, PGA Championship season"
+  },
+
+  "jason-day": {
+    year: "2015",
+    label: "2015, PGA Championship season"
+  },
 };
 
 const PRIME_MATCHUPS = [
@@ -305,6 +360,25 @@ const PRIME_MATCHUPS = [
   { playerA: p("arnoldPalmer"), playerB: p("byron") },
   { playerA: p("arnoldPalmer"), playerB: p("rory") },
   { playerA: p("arnoldPalmer"), playerB: p("nickFaldo") }
+
+  // Ernie Els
+  { playerA: p("ernieEls"), playerB: p("tiger") },
+  { playerA: p("ernieEls"), playerB: p("rory") },
+  { playerA: p("ernieEls"), playerB: p("phil") },
+
+  // Fred Couples
+  { playerA: p("fredCouples"), playerB: p("tiger") },
+  { playerA: p("fredCouples"), playerB: p("jack") },
+  { playerA: p("fredCouples"), playerB: p("phil") },
+
+  // Davis Love III
+  { playerA: p("davisLoveIII"), playerB: p("tiger") },
+  { playerA: p("davisLoveIII"), playerB: p("phil") },
+
+  // Jason Day
+  { playerA: p("jasonDay"), playerB: p("rory") },
+  { playerA: p("jasonDay"), playerB: p("scottie") },
+  { playerA: p("jasonDay"), playerB: p("brooks") },
 ];
 
 const MATCHUPS = [
