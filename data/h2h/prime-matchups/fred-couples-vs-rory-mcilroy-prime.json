@@ -1,7 +1,7 @@
 {
-  "matchupId": "scottie-scheffler-vs-nick-faldo-prime",
+  "matchupId": "fred-couples-vs-rory-mcilroy-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-09T18:56:05.945Z",
+  "updatedAt": "2026-06-09T18:56:05.991Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,43 +10,43 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "Scheffler, Scottie",
-    "displayName": "Scottie Scheffler",
-    "slug": "scottie-scheffler",
-    "dgId": 18417,
-    "country": "USA"
-  },
-  "playerB": {
-    "name": "Faldo, Nick",
-    "displayName": "Nick Faldo",
-    "slug": "nick-faldo",
+    "name": "Couples, Fred",
+    "displayName": "Fred Couples",
+    "slug": "fred-couples",
     "dgId": null,
-    "country": "ENG",
+    "country": "USA",
     "manualOnly": true
   },
+  "playerB": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
   "primeA": {
-    "year": "2024",
-    "displayYear": "2024",
-    "label": "2024, dominant modern season"
+    "year": "1992",
+    "displayYear": "1992",
+    "label": "1992, Masters season"
   },
   "primeB": {
-    "year": "1990",
-    "displayYear": "1990",
-    "label": "1990, Masters and Open season"
+    "year": "2013-2014",
+    "displayYear": "2014",
+    "label": "2014, two-major season"
   },
   "summary": {
-    "playerAMetricWins": 7,
-    "playerBMetricWins": 1,
-    "metricTies": 1,
+    "playerAMetricWins": 2,
+    "playerBMetricWins": 5,
+    "metricTies": 2,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 8,
-      "playerB": 2,
-      "winner": "playerA"
+      "playerA": 3,
+      "playerB": 3,
+      "winner": "tie"
     },
     {
       "key": "majors",
@@ -58,61 +58,61 @@
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 13,
-      "playerB": 4,
+      "playerA": 9,
+      "playerB": 6,
       "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 17,
-      "playerB": 4,
-      "winner": "playerA"
+      "playerA": 12,
+      "playerB": 12,
+      "winner": "tie"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 20,
-      "playerB": 9,
+      "playerA": 22,
+      "playerB": 18,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
-      "playerA": 100,
+      "playerA": 90.9,
       "playerB": 100,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 7.3,
-      "playerB": 11.4,
-      "winner": "playerA"
+      "playerA": 11.5,
+      "playerB": 9.3,
+      "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -13.4,
-      "playerB": -5.4,
+      "playerA": -8.1,
+      "playerB": -7.2,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 40,
-      "playerB": 22.2,
+      "playerA": 13.6,
+      "playerB": 16.7,
       "suffix": "%",
-      "winner": "playerA"
+      "winner": "playerB"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 85,
-      "playerB": 44.4,
+      "playerA": 54.5,
+      "playerB": 66.7,
       "suffix": "%",
-      "winner": "playerA"
+      "winner": "playerB"
     }
   ]
 }
