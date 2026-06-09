@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-jack-nicklaus-prime",
+  "matchupId": "fred-couples-vs-jack-nicklaus-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-09T18:53:36.682Z",
+  "updatedAt": "2026-06-09T18:53:36.720Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,11 +10,12 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
+    "name": "Couples, Fred",
+    "displayName": "Fred Couples",
+    "slug": "fred-couples",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
   },
   "playerB": {
     "name": "Nicklaus, Jack",
@@ -25,9 +26,9 @@
     "manualOnly": true
   },
   "primeA": {
-    "year": "2013-2014",
-    "displayYear": "2014",
-    "label": "2014, two-major season"
+    "year": "1992",
+    "displayYear": "1992",
+    "label": "1992, Masters season"
   },
   "primeB": {
     "year": "1972",
@@ -35,9 +36,9 @@
     "label": "1972, Year of the Golden Bear"
   },
   "summary": {
-    "playerAMetricWins": 2,
-    "playerBMetricWins": 5,
-    "metricTies": 2,
+    "playerAMetricWins": 1,
+    "playerBMetricWins": 8,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
@@ -51,14 +52,14 @@
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
+      "playerA": 1,
       "playerB": 2,
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 6,
+      "playerA": 9,
       "playerB": 11,
       "winner": "playerB"
     },
@@ -72,36 +73,36 @@
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 18,
+      "playerA": 22,
       "playerB": 19,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
-      "playerA": 100,
+      "playerA": 90.9,
       "playerB": 100,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 9.3,
+      "playerA": 11.5,
       "playerB": 9.6,
-      "winner": "playerA"
+      "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -7.2,
+      "playerA": -8.1,
       "playerB": -6.2,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 16.7,
+      "playerA": 13.6,
       "playerB": 36.8,
       "suffix": "%",
       "winner": "playerB"
@@ -109,7 +110,7 @@
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 66.7,
+      "playerA": 54.5,
       "playerB": 73.7,
       "suffix": "%",
       "winner": "playerB"
