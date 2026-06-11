@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-11T03:29:00.772Z",
+  "updatedAt": "2026-06-11T08:40:44.381Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "7 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-11T08:40:44.378Z",
+      "approvedAt": "2026-06-11T08:40:44.378Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben Silverman wins RBC Canadian Open at -",
+      "summary": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
+      "quickRead": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Ben Silverman",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Matti Schmid",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Mac Meissner",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Keith Mitchell",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Kevin Roy",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "12 hours ago",
       "timestamp": "2026-06-10T20:22:26.000Z",
       "approvedAt": "2026-06-11T03:28:56.102Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/little-bit-trauma-collin-morikawa-202226164.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-10T22:48:03.000Z",
       "approvedAt": "2026-06-11T03:28:57.940Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-10T19:19:02.000Z",
       "approvedAt": "2026-06-10T23:23:01.355Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "13 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-10T13:34:28.000Z",
       "approvedAt": "2026-06-10T20:24:10.005Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-10T14:30:00.000Z",
       "approvedAt": "2026-06-10T16:56:00.611Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/64-old-golfer-hit-longest-143000944.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-06-10T13:01:42.000Z",
-      "approvedAt": "2026-06-10T16:56:00.613Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler, Cameron Young in dead heat on PGA Tour season money list",
-      "summary": "Scottie Scheffler and Cameron Young are tied for the lead in the 2026 PGA Tour money race with 12 million each.",
-      "quickRead": "Scottie Scheffler and Cameron Young are tied for the lead in the 2026 PGA Tour money race with 12 million each.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-cameron-young-dead-130142587.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-cameron-young-dead-130142587.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/cameron-young.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-06-11T03:28:46.121Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-11T02:51:46.122Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -285,5 +319,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-06-11T08:40:44.381Z",
+      "approvedAt": "2026-06-11T08:40:44.381Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben Silverman wins RBC Canadian Open at -",
+      "summary": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
+      "quickRead": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Ben Silverman",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Matti Schmid",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Mac Meissner",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Keith Mitchell",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Kevin Roy",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ]
 }
