@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-11T08:40:51.534Z",
+  "updatedAt": "2026-06-11T13:56:41.398Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-11T13:56:41.395Z",
+      "approvedAt": "2026-06-11T13:56:41.395Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Taylor Moore leads RBC Canadian Open at -5",
+      "summary": "Taylor Moore is -5 today and -5 overall through 6. Closest chasers: Brice Garnett (-4), Mac Meissner (-3), Roger Sloan (-3).",
+      "quickRead": "Taylor Moore grabbed the early first-round lead at the RBC Canadian Open at TPC Toronto’s North Course, sitting at 5-under through six holes, one shot clear of Brice Garnett (4-under through five).  Mac Meissner and Roger Sloan were the next closest at 3-under, with a crowded group at 3-under and 2-under keeping the top of the leaderboard tight as Round 1 continued.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Taylor Moore",
+          "score": "-5",
+          "thru": "6"
+        },
+        {
+          "pos": "2",
+          "name": "Brice Garnett",
+          "score": "-4",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Mac Meissner",
+          "score": "-3",
+          "thru": "11"
+        },
+        {
+          "pos": "T3",
+          "name": "Roger Sloan",
+          "score": "-3",
+          "thru": "9*"
+        },
+        {
+          "pos": "T3",
+          "name": "Sam Ryder",
+          "score": "-3",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-06-11T08:40:44.378Z",
       "approvedAt": "2026-06-11T08:40:44.378Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "9 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-10T23:11:45.000Z",
       "approvedAt": "2026-06-11T08:40:46.164Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-10T20:22:26.000Z",
       "approvedAt": "2026-06-11T03:28:56.102Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-10T22:48:03.000Z",
       "approvedAt": "2026-06-11T03:28:57.940Z",
       "status": "Confirmed",
@@ -151,26 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "Yesterday",
-      "timestamp": "2026-06-09T08:45:00.000Z",
-      "approvedAt": "2026-06-09T10:56:55.083Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "'She Lived Six Months More': LPGA Legend Shares Tiger Woods' Kind Gesture That...",
-      "summary": "Tiger Woods’ legendary achievements have been dissected for decades, yet his legacy off the course remains increasingly complicated.",
-      "quickRead": "Dottie Pepper said she asked Ian Baker-Finch to reach Tiger Woods, and Woods called Pepper’s high-school friend Kim Galvin as she fought a rare cancer—“Tiger Woods picked up the phone, and I swear she lived another six months because of that conversation. ” Pepper said the moment showed Woods’ impact off the course and how personal gestures, not trophies, are what she most values about covering Tiger.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/she-lived-six-months-more-084500425.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/she-lived-six-months-more-084500425.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "13 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-10T19:19:02.000Z",
       "approvedAt": "2026-06-10T23:23:01.355Z",
       "status": "Confirmed",
@@ -208,7 +242,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "19 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-10T13:34:28.000Z",
       "approvedAt": "2026-06-10T20:24:10.005Z",
       "status": "Confirmed",
@@ -245,21 +279,6 @@
     },
     {
       "label": "STORY TO WATCH",
-      "title": "Bryson DeChambeau ‘trying to find way back’ to PGA Tour: Brandel Cham...",
-      "summary": "Two-time US Open winner Bryson DeChambeau may want to make his way back to the PGA Tour.",
-      "quickRead": "Two-time US Open winner Bryson DeChambeau may want to make his way back to the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-trying-way-back-231145176.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-trying-way-back-231145176.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-06-10T23:11:45.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
       "title": "'A Little Bit of Trauma': Collin Morikawa Shares Lingering Injury Con...",
       "summary": "After ending a winless drought of more than two years with a victory at Pebble Beach in February, Collin Morikawa appeared to have regained momentum.",
       "quickRead": "After ending a winless drought of more than two years with a victory at Pebble Beach in February, Collin Morikawa appeared to have regained momentum.",
@@ -272,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png",
       "timestamp": "2026-06-10T20:22:26.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "PGA Tour schedule upheaval claims its first tournament",
+      "summary": "The Rocket Classic (formerly Rocket Mortgage Classic) will end after its 2026 edition, with Rocket Mortgage declining its option to keep sponsoring...",
+      "quickRead": "The Rocket Classic (formerly Rocket Mortgage Classic) will end after its 2026 edition, with Rocket Mortgage declining its option to keep sponsoring the Detroit PGA Tour stop in 2027.  The event’s weaker post-Open Championship fields and the Tour’s looming “two-track” schedule overhaul under CEO Brian Rolapp make it the first tournament pushed out as the PGA Tour reshapes its calendar.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/pga-tour-schedule-upheaval-claims-015723966.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-schedule-upheaval-claims-015723966.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-06-10T01:57:23.000Z"
     }
   ],
   "checking": {
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-06-11T08:40:35.593Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-11T08:03:35.593Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-11T08:40:49.976Z",
-      "approvedAt": "2026-06-11T08:40:49.976Z",
+      "timestamp": "2026-06-11T13:56:41.398Z",
+      "approvedAt": "2026-06-11T13:56:41.398Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ben Silverman wins RBC Canadian Open at -",
-      "summary": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
-      "quickRead": "Ben Silverman wins RBC Canadian Open at -. Nearest finishers: Matti Schmid (-), Mac Meissner (-), Keith Mitchell (-).",
+      "title": "Taylor Moore leads RBC Canadian Open at -5",
+      "summary": "Taylor Moore is -5 today and -5 overall through 6. Closest chasers: Brice Garnett (-4), Mac Meissner (-3), Roger Sloan (-3).",
+      "quickRead": "Taylor Moore grabbed the early first-round lead at the RBC Canadian Open at TPC Toronto’s North Course, sitting at 5-under through six holes, one shot clear of Brice Garnett (4-under through five).  Mac Meissner and Roger Sloan were the next closest at 3-under, with a crowded group at 3-under and 2-under keeping the top of the leaderboard tight as Round 1 continued.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -342,34 +376,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "-",
-          "name": "Ben Silverman",
-          "score": "-",
-          "thru": "1"
+          "pos": "1",
+          "name": "Taylor Moore",
+          "score": "-5",
+          "thru": "6"
         },
         {
-          "pos": "-",
-          "name": "Matti Schmid",
-          "score": "-",
-          "thru": "1"
+          "pos": "2",
+          "name": "Brice Garnett",
+          "score": "-4",
+          "thru": "5"
         },
         {
-          "pos": "-",
+          "pos": "T3",
           "name": "Mac Meissner",
-          "score": "-",
-          "thru": "1"
+          "score": "-3",
+          "thru": "11"
         },
         {
-          "pos": "-",
-          "name": "Keith Mitchell",
-          "score": "-",
-          "thru": "10"
+          "pos": "T3",
+          "name": "Roger Sloan",
+          "score": "-3",
+          "thru": "9*"
         },
         {
-          "pos": "-",
-          "name": "Kevin Roy",
-          "score": "-",
-          "thru": "10"
+          "pos": "T3",
+          "name": "Sam Ryder",
+          "score": "-3",
+          "thru": "9"
         }
       ]
     }
