@@ -52,38 +52,45 @@ function getETParts(date = new Date()) {
   };
 }
 
+function isValidEdition(value) {
+  return value === "morning" || value === "midday" || value === "evening";
+}
+
+function getCurrentWindowEdition() {
+  const et = getETParts();
+
+  if (et.hour >= 8 && et.hour < 12) return "morning";
+  if (et.hour >= 12 && et.hour < 20) return "midday";
+  if (et.hour >= 20 && et.hour < 24) return "evening";
+
+  return null;
+}
+
+function getMostRecentEligibleEdition() {
+  const et = getETParts();
+
+  if (et.hour >= 20) return "evening";
+  if (et.hour >= 12) return "midday";
+  if (et.hour >= 8) return "morning";
+
+  // Before 8 AM ET, do not generate a future edition automatically.
+  return null;
+}
+
 function getEditionNow(currentTodayJson = null) {
-  if (
-    MANUAL_EDITION === "morning" ||
-    MANUAL_EDITION === "midday" ||
-    MANUAL_EDITION === "evening"
-  ) {
+  if (isValidEdition(MANUAL_EDITION)) {
     return MANUAL_EDITION;
   }
 
-  const et = getETParts();
+  const windowEdition = getCurrentWindowEdition();
 
-  // Run after the intended publish times, with catch-up windows:
-  // 8:00 AM to 11:59 AM ET = morning
-  // 12:00 PM to 7:59 PM ET = midday
-  // 8:00 PM to 11:59 PM ET = evening
-  //
-  // The GitHub workflow should be scheduled for:
-  // 8:01 AM ET, 12:01 PM ET, and 8:01 PM ET.
-  // If GitHub starts a few minutes late, this still publishes the right edition.
-  // It will not publish a future edition early.
-
-  if (et.hour >= 8 && et.hour < 12) {
-    if (!hasAlreadyRun(currentTodayJson, "morning")) return "morning";
+  if (!windowEdition) {
+    return null;
   }
 
-  if (et.hour >= 12 && et.hour < 20) {
-    if (!hasAlreadyRun(currentTodayJson, "midday")) return "midday";
+  if (!hasAlreadyRun(currentTodayJson, windowEdition)) {
+    return windowEdition;
   }
-
- if (et.hour >= 20 && et.hour < 24) {
-  if (!hasAlreadyRun(currentTodayJson, "evening")) return "evening";
-}
 
   return null;
 }
@@ -333,21 +340,21 @@ function filterStoriesForEdition(stories, edition) {
   });
 
   const now = Date.now();
-const recentStories = stories.filter((item) => {
-  const timestamp = getItemTimestamp(item);
-  if (!timestamp) return false;
+  const recentStories = stories.filter((item) => {
+    const timestamp = getItemTimestamp(item);
+    if (!timestamp) return false;
 
-  const ageHours = (now - timestamp) / 3600000;
-  return ageHours <= 36;
-});
+    const ageHours = (now - timestamp) / 3600000;
+    return ageHours <= 36;
+  });
 
-const primaryStories = recentWindowStories.length
-  ? recentWindowStories
-  : todaysStories.length
-    ? todaysStories
-    : recentStories;
+  const primaryStories = recentWindowStories.length
+    ? recentWindowStories
+    : todaysStories.length
+      ? todaysStories
+      : recentStories;
 
-return primaryStories.slice(0, 16);
+  return primaryStories.slice(0, 16);
 }
 
 function hasAlreadyRun(todayJson, edition) {
@@ -470,14 +477,7 @@ function isLowValueBriefingItem(item) {
 function getBriefingTopicKey(item) {
   const text = `${item?.headline || ""} ${item?.text || ""}`.toLowerCase();
 
- if (
-  text.includes("liv") ||
-  text.includes("saudi") ||
-  text.includes("pif")
-) {
-  return "liv";
-}
-
+  if (text.includes("liv") || text.includes("saudi") || text.includes("pif")) return "liv";
   if (text.includes("bryson") || text.includes("dechambeau")) return "bryson";
   if (text.includes("pga tour")) return "pga-tour";
   if (text.includes("scottie") || text.includes("scheffler")) return "scheffler";
@@ -692,53 +692,53 @@ See all stories →
 
   let response = null;
 
-for (let attempt = 1; attempt <= 3; attempt += 1) {
-  response = await fetch("https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${OPENAI_API_KEY}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model: "gpt-4.1-mini",
-      input: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt }
-      ],
-      text: {
-        format: {
-          type: "json_schema",
-          name: "today_in_golf",
-          strict: true,
-          schema
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    response = await fetch("https://api.openai.com/v1/responses", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${OPENAI_API_KEY}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: "gpt-4.1-mini",
+        input: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: userPrompt }
+        ],
+        text: {
+          format: {
+            type: "json_schema",
+            name: "today_in_golf",
+            strict: true,
+            schema
+          }
         }
-      }
-    })
-  });
+      })
+    });
 
-  if (response.ok) break;
+    if (response.ok) break;
 
-  const errorText = await response.text();
-  console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${errorText}`);
+    const errorText = await response.text();
+    console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${errorText}`);
 
-  if (attempt < 3) {
-    await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+    if (attempt < 3) {
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+    }
   }
-}
 
-if (!response || !response.ok) {
-  console.warn("[Today In Golf] OpenAI failed after 3 attempts. Keeping existing briefing.");
-  return null;
-}
+  if (!response || !response.ok) {
+    console.warn("[Today In Golf] OpenAI failed after 3 attempts. Keeping existing briefing.");
+    return null;
+  }
 
-const result = await response.json();
+  const result = await response.json();
 
   const outputText =
     result.output_text ||
     result.output?.flatMap((item) => item.content || [])
       ?.find((content) => content.type === "output_text")?.text;
 
-    if (!outputText) {
+  if (!outputText) {
     console.warn("[Today In Golf] No output text returned from OpenAI. Keeping existing briefing.");
     return null;
   }
@@ -749,35 +749,41 @@ const result = await response.json();
 async function main() {
   const radarData = readJson(RADAR_PATH, {});
   const currentTodayJson = readJson(TODAY_PATH, null);
+  const et = getETParts();
 
-  const edition = getEditionNow(currentTodayJson);
+  console.log(`[Today In Golf] Current ET: ${et.dateKey} ${String(et.hour).padStart(2, "0")}:${String(et.minute).padStart(2, "0")}`);
+  console.log(`[Today In Golf] MANUAL_EDITION=${MANUAL_EDITION}`);
+  console.log(`[Today In Golf] FORCE_RUN=${FORCE_RUN}`);
 
-  if (!edition && !FORCE_RUN) {
+  let edition = getEditionNow(currentTodayJson);
+
+  if (!edition && FORCE_RUN) {
+    edition = isValidEdition(MANUAL_EDITION) ? MANUAL_EDITION : getMostRecentEligibleEdition();
+    console.log(`[Today In Golf] Force run edition resolved to: ${edition || "none"}`);
+  }
+
+  if (!edition) {
     console.log("No eligible Today In Golf edition window found. Skipping.");
     return;
   }
 
-  if (!edition) {
-  console.log("No eligible Today In Golf edition window found. Skipping.");
-  return;
-}
-
-const finalEdition = edition;
-
-  if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, finalEdition)) {
-    console.log(`Today In Golf already generated for ${finalEdition} today. Skipping.`);
+  if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, edition)) {
+    console.log(`Today In Golf already generated for ${edition} today. Skipping.`);
     return;
   }
 
   const storyPool = buildStoryPool(radarData);
-  const storiesForEdition = filterStoriesForEdition(storyPool, finalEdition);
+  console.log(`[Today In Golf] Story pool size: ${storyPool.length}`);
+
+  const storiesForEdition = filterStoriesForEdition(storyPool, edition);
+  console.log(`[Today In Golf] Stories selected for ${edition}: ${storiesForEdition.length}`);
 
   if (!storiesForEdition.length) {
     console.log("No stories found. Keeping existing today-in-golf.json.");
     return;
   }
 
-    const generated = await generateBriefing(storiesForEdition, finalEdition);
+  const generated = await generateBriefing(storiesForEdition, edition);
 
   if (!generated) {
     console.log("OpenAI returned no usable briefing. Keeping existing today-in-golf.json.");
@@ -795,8 +801,8 @@ const finalEdition = edition;
   const output = {
     active: true,
     lastUpdated: now.toISOString(),
-    edition: finalEdition,
-    label: getLabel(finalEdition),
+    edition,
+    label: getLabel(edition),
     title: "Today In Golf",
     summary: "A 30-second briefing on today’s biggest golf stories.",
     items: cleanedItems,
@@ -806,7 +812,7 @@ const finalEdition = edition;
 
   writeJson(TODAY_PATH, output);
 
-  console.log(`Updated ${TODAY_PATH} for ${finalEdition}`);
+  console.log(`Updated ${TODAY_PATH} for ${edition}`);
   console.log(JSON.stringify(output, null, 2));
 }
 
