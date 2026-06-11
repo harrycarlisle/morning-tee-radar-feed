@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-11T13:56:47.101Z",
+  "updatedAt": "2026-06-11T17:36:08.491Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-11T17:36:08.488Z",
+      "approvedAt": "2026-06-11T17:36:08.488Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sahith Theegala wins RBC Canadian Open at -6",
+      "summary": "Sahith Theegala wins RBC Canadian Open at -6. Nearest finishers: Sam Ryder (-5), Tony Finau (-5), Ricky Castillo (-5).",
+      "quickRead": "Sahith Theegala won the RBC Canadian Open at TPC Toronto (North Course) by shooting 64 to finish at 6-under, one shot clear of a four-way tie for second at 5-under (Sam Ryder, Tony Finau, Ricky Castillo and Brice Garnett).  The opening-round win gives Theegala an early FedExCup boost and sets the tone for the week as the chase group sits immediately behind him.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sahith Theegala",
+          "score": "-6",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Ryder",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Tony Finau",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ricky Castillo",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Brice Garnett",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-11T13:56:41.395Z",
       "approvedAt": "2026-06-11T13:56:41.395Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-11T09:30:00.000Z",
       "approvedAt": "2026-06-11T13:56:42.698Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-10T14:30:00.000Z",
       "approvedAt": "2026-06-11T13:56:42.700Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-11T08:40:44.378Z",
       "approvedAt": "2026-06-11T08:40:44.378Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-10T23:11:45.000Z",
       "approvedAt": "2026-06-11T08:40:46.164Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-06-10T20:22:26.000Z",
       "approvedAt": "2026-06-11T03:28:56.102Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-06-10T19:19:02.000Z",
       "approvedAt": "2026-06-10T23:23:01.355Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/people-dont-want-lpga-pro-191902572.html",
       "sourceUrl": "https://sports.yahoo.com/articles/people-dont-want-lpga-pro-191902572.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-06-09T21:09:30.000Z",
-      "approvedAt": "2026-06-10T20:24:10.004Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "Nelly Korda relishes major season break at Dow Championship, forms Team Legally...",
-      "summary": "World No.",
-      "quickRead": "Nelly Korda said playing the Dow Championship team event is a “nice” break in the middle of major season because it helps players avoid getting “burned out, mentally,” and she’s teaming with Olivia Cowan as “Team Legally Blonde,” with Korda even promising to wear all pink for a day.  The pair will play the LPGA’s only official team event (foursomes Thu/Sat, fourball Fri/Sun), where no world ranking points are awarded but the winners still earn an official LPGA Tour victory.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/nelly-korda-relishes-major-season-210930169.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-relishes-major-season-210930169.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-11T13:56:30.924Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-11T13:19:30.924Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-11T13:56:45.798Z",
-      "approvedAt": "2026-06-11T13:56:45.798Z",
+      "timestamp": "2026-06-11T17:36:08.491Z",
+      "approvedAt": "2026-06-11T17:36:08.492Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Taylor Moore leads RBC Canadian Open at -5",
-      "summary": "Taylor Moore is -5 today and -5 overall through 6. Closest chasers: Brice Garnett (-4), Mac Meissner (-3), Roger Sloan (-3).",
-      "quickRead": "Taylor Moore grabbed the early first-round lead at the RBC Canadian Open at TPC Toronto’s North Course, sitting at 5-under through six holes, one shot clear of Brice Garnett (4-under through five).  Mac Meissner and Roger Sloan were the next closest at 3-under, with a crowded group at 3-under and 2-under keeping the top of the leaderboard tight as Round 1 continued.",
+      "title": "Sahith Theegala wins RBC Canadian Open at -6",
+      "summary": "Sahith Theegala wins RBC Canadian Open at -6. Nearest finishers: Sam Ryder (-5), Tony Finau (-5), Ricky Castillo (-5).",
+      "quickRead": "Sahith Theegala won the RBC Canadian Open at TPC Toronto (North Course) by shooting 64 to finish at 6-under, one shot clear of a four-way tie for second at 5-under (Sam Ryder, Tony Finau, Ricky Castillo and Brice Garnett).  The opening-round win gives Theegala an early FedExCup boost and sets the tone for the week as the chase group sits immediately behind him.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -377,33 +411,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Taylor Moore",
-          "score": "-5",
-          "thru": "6"
+          "name": "Sahith Theegala",
+          "score": "-6",
+          "thru": "F*"
         },
         {
-          "pos": "2",
-          "name": "Brice Garnett",
-          "score": "-4",
-          "thru": "5"
-        },
-        {
-          "pos": "T3",
-          "name": "Mac Meissner",
-          "score": "-3",
-          "thru": "11"
-        },
-        {
-          "pos": "T3",
-          "name": "Roger Sloan",
-          "score": "-3",
-          "thru": "9*"
-        },
-        {
-          "pos": "T3",
+          "pos": "T2",
           "name": "Sam Ryder",
-          "score": "-3",
-          "thru": "9"
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Tony Finau",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ricky Castillo",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Brice Garnett",
+          "score": "-5",
+          "thru": "F"
         }
       ]
     }
