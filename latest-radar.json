@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-12T12:52:00.900Z",
+  "updatedAt": "2026-06-12T16:41:56.506Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-12T16:41:56.503Z",
+      "approvedAt": "2026-06-12T16:41:56.503Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben James leads RBC Canadian Open at -9",
+      "summary": "Ben James is -6 today and -9 overall through 15. Closest chasers: Ryan Fox (-8), Brooks Koepka (-8), Sam Burns (-8).",
+      "quickRead": "Ben James grabbed the early RBC Canadian Open lead by reaching 9-under par through 15 holes in Round 2, shooting 6-under on the day.  He’s only one clear of a three-way tie at 8-under featuring Ryan Fox, Brooks Koepka, and Sam Burns, with the cut line sitting at 2-under at TPC Toronto.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ben James",
+          "score": "-9",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Fox",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Brooks Koepka",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "17*"
+        },
+        {
+          "pos": "T2",
+          "name": "Haotong Li",
+          "score": "-8",
+          "thru": "13*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-12T12:51:53.970Z",
       "approvedAt": "2026-06-12T12:51:53.970Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-12T05:28:50.000Z",
       "approvedAt": "2026-06-12T12:51:55.695Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-06-11T19:35:02.000Z",
       "approvedAt": "2026-06-12T12:51:55.695Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-11T22:30:00.000Z",
       "approvedAt": "2026-06-12T08:20:30.837Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/russell-henley.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-11T22:59:04.000Z",
       "approvedAt": "2026-06-12T03:28:50.278Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-11T20:47:40.000Z",
       "approvedAt": "2026-06-12T03:28:52.123Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-12T00:30:00.000Z",
       "approvedAt": "2026-06-12T03:28:52.123Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-11T22:01:28.000Z",
       "approvedAt": "2026-06-12T03:28:52.124Z",
       "status": "Confirmed",
@@ -206,59 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/dow-championship-opens-three-team-220128318.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-06-11T23:18:10.406Z",
-      "approvedAt": "2026-06-11T23:18:10.406Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Sahith Theegala leads RBC Canadian Open at -6",
-      "summary": "Sahith Theegala is -6 today and -6 overall through F*. Closest chasers: Emiliano Grillo (-6), Eric Cole (-6), Brooks Koepka (-6).",
-      "quickRead": "Sahith Theegala shot a 6-under 64 to take the Round 1 lead at the RBC Canadian Open, tied at -6 with Emiliano Grillo, Eric Cole, Brooks Koepka and Sam Burns at TPC Toronto (North Course).  With a five-way logjam up top and a pack one shot back at -5 (including Tony Finau and Shane Lowry), Friday is set up to turn into a shootout for early separation.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Sahith Theegala",
-          "score": "-6",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Emiliano Grillo",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Eric Cole",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Brooks Koepka",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Sam Burns",
-          "score": "-6",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -326,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-12T12:51:33.576Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-12T12:14:33.576Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-12T12:51:59.392Z",
-      "approvedAt": "2026-06-12T12:51:59.392Z",
+      "timestamp": "2026-06-12T16:41:56.506Z",
+      "approvedAt": "2026-06-12T16:41:56.506Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sam Burns leads RBC Canadian Open at -7",
-      "summary": "Sam Burns is -1 today and -7 overall through 3*. Closest chasers: Erik van Rooyen (-6), Emiliano Grillo (-6), Brooks Koepka (-6).",
-      "quickRead": "Sam Burns held the RBC Canadian Open lead at 7-under, playing his opening round at 1-under through three holes after a 64 at TPC Toronto’s North Course.  Erik van Rooyen, Emiliano Grillo, and Brooks Koepka were one shot back at 6-under, keeping the top of the leaderboard tight early with the cut line projected at 2-under.",
+      "title": "Ben James leads RBC Canadian Open at -9",
+      "summary": "Ben James is -6 today and -9 overall through 15. Closest chasers: Ryan Fox (-8), Brooks Koepka (-8), Sam Burns (-8).",
+      "quickRead": "Ben James grabbed the early RBC Canadian Open lead by reaching 9-under par through 15 holes in Round 2, shooting 6-under on the day.  He’s only one clear of a three-way tie at 8-under featuring Ryan Fox, Brooks Koepka, and Sam Burns, with the cut line sitting at 2-under at TPC Toronto.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -377,33 +377,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Sam Burns",
-          "score": "-7",
-          "thru": "3*"
+          "name": "Ben James",
+          "score": "-9",
+          "thru": "15"
         },
         {
           "pos": "T2",
-          "name": "Erik van Rooyen",
-          "score": "-6",
-          "thru": "7*"
-        },
-        {
-          "pos": "T2",
-          "name": "Emiliano Grillo",
-          "score": "-6",
-          "thru": "7*"
+          "name": "Ryan Fox",
+          "score": "-8",
+          "thru": "F*"
         },
         {
           "pos": "T2",
           "name": "Brooks Koepka",
-          "score": "-6",
-          "thru": "4*"
+          "score": "-8",
+          "thru": "F*"
         },
         {
           "pos": "T2",
-          "name": "Doug Ghim",
-          "score": "-6",
-          "thru": "1*"
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "17*"
+        },
+        {
+          "pos": "T2",
+          "name": "Haotong Li",
+          "score": "-8",
+          "thru": "13*"
         }
       ]
     }
