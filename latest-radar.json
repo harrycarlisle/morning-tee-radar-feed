@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T17:18:22.270Z",
+  "updatedAt": "2026-06-13T18:48:55.836Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-13T18:48:55.833Z",
+      "approvedAt": "2026-06-13T18:48:55.833Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads RBC Canadian Open at -11",
+      "summary": "Wyndham Clark is -7 today and -11 overall through F. Closest chasers: Jimmy Stanger (-11), Jesper Svensson (-11), Billy Horschel (-10).",
+      "quickRead": "Wyndham Clark posted a 7-under 63 to finish at 11-under 199 and hold the RBC Canadian Open lead, with Jimmy Stanger and Jesper Svensson tied with him at -11 and Billy Horschel one back at -10.  With multiple players sharing the top spot and several contenders within a shot, the weekend at TPC Toronto is set up for a tight finish.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Jimmy Stanger",
+          "score": "-11",
+          "thru": "8"
+        },
+        {
+          "pos": "T1",
+          "name": "Jesper Svensson",
+          "score": "-11",
+          "thru": "6"
+        },
+        {
+          "pos": "T4",
+          "name": "Billy Horschel",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Brice Garnett",
+          "score": "-10",
+          "thru": "8"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T17:18:17.863Z",
       "approvedAt": "2026-06-13T17:18:17.863Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-13T10:30:00.000Z",
       "approvedAt": "2026-06-13T15:30:11.046Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-06-12T20:38:04.000Z",
       "approvedAt": "2026-06-13T15:30:12.841Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-12T18:46:55.000Z",
       "approvedAt": "2026-06-13T15:30:12.842Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-2.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-13T13:49:53.325Z",
       "approvedAt": "2026-06-13T13:49:53.325Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-13T11:30:00.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-13T12:01:11.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-13T01:24:01.000Z",
       "approvedAt": "2026-06-13T10:24:44.624Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scheffler-seeks-career-slam-us-012401977.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-06-13T04:22:53.000Z",
-      "approvedAt": "2026-06-13T07:42:43.935Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 RBC Canadian Open Saturday tee times: Round 3 pairings",
-      "summary": "Full 2026 RBC Canadian Open tee times for Saturday's third round at TPC Toronto, featuring Sam Burns, Brooks Koepka and more.",
-      "quickRead": "Ben James leads the 2026 RBC Canadian Open at 10-under after a second-round 63 and tees off Saturday at 1:45 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-rbc-canadian-open-saturday-042253375.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-rbc-canadian-open-saturday-042253375.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -294,18 +328,18 @@
     },
     {
       "label": "LIV WATCH",
-      "title": "Nelly Korda contending on LPGA yet again, this time at Dow team event...",
-      "summary": "Nelly Korda and Olivia Cowan grabbed the Dow Championship clubhouse lead after 36 holes by firing a second-round 60 in Friday’s four-ball format, p...",
-      "quickRead": "Nelly Korda and Olivia Cowan grabbed the Dow Championship clubhouse lead after 36 holes by firing a second-round 60 in Friday’s four-ball format, piling up 11 birdies to reach 10-under at Midland Country Club.  Their “Legally Blonde” duo was later passed by Ayaka Furue and Yuna Nishimura (61 to 11-under), but Korda’s 2026 run remains absurd: four wins, three runner-ups, and no worse than T-8 in eight starts.",
+      "title": "Southern Arizona golf delivers charm, surprises, some Hollywood history",
+      "summary": "Southern Arizona’s Tucson region has about 40 public and private golf courses, with The Club at Starr Pass a standout—its famed sixth hole follows...",
+      "quickRead": "Southern Arizona’s Tucson region has about 40 public and private golf courses, with The Club at Starr Pass a standout—its famed sixth hole follows a 19th-century stagecoach “shortcut,” and the course hosted amateur Phil Mickelson’s 1991 Tucson Open win despite a triple bogey.  Starr Pass was renovated and reopened last October (new TifEagle Bermuda greens on all three nines, restored bunkers) and recently hosted PGA Tour Q-School Stage 2, strengthening Tucson’s case as an under-the-radar golf trip.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/nelly-korda-contending-lpga-yet-184655192.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-contending-lpga-yet-184655192.html",
+      "url": "https://travel.yahoo.com/guides/articles/southern-arizona-golf-delivers-charm-120111782.html",
+      "sourceUrl": "https://travel.yahoo.com/guides/articles/southern-arizona-golf-delivers-charm-120111782.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-2.png",
-      "timestamp": "2026-06-12T18:46:55.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-06-13T12:01:11.000Z"
     }
   ],
   "checking": {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T17:18:10.976Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T16:41:10.976Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-13T17:18:19.818Z",
-      "approvedAt": "2026-06-13T17:18:19.818Z",
+      "timestamp": "2026-06-13T18:48:55.836Z",
+      "approvedAt": "2026-06-13T18:48:55.836Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "David Skinns leads RBC Canadian Open at -10",
-      "summary": "David Skinns is -6 today and -10 overall through 15. Closest chasers: Ben James (-10), Jacob Bridgeman (-9), Viktor Hovland (-9).",
-      "quickRead": "David Skinns grabbed the RBC Canadian Open lead at 10-under, playing his third round in 6-under through 15 holes at TPC Toronto at Osprey Valley.  Ben James is tied at -10, with Jacob Bridgeman and Viktor Hovland one back at -9, setting up a tight finish with several big names (including Brooks Koepka at -8) still in the hunt.",
+      "title": "Wyndham Clark leads RBC Canadian Open at -11",
+      "summary": "Wyndham Clark is -7 today and -11 overall through F. Closest chasers: Jimmy Stanger (-11), Jesper Svensson (-11), Billy Horschel (-10).",
+      "quickRead": "Wyndham Clark posted a 7-under 63 to finish at 11-under 199 and hold the RBC Canadian Open lead, with Jimmy Stanger and Jesper Svensson tied with him at -11 and Billy Horschel one back at -10.  With multiple players sharing the top spot and several contenders within a shot, the weekend at TPC Toronto is set up for a tight finish.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -377,33 +411,33 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "David Skinns",
-          "score": "-10",
-          "thru": "15"
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
         },
         {
           "pos": "T1",
-          "name": "Ben James",
-          "score": "-10",
-          "thru": "1"
+          "name": "Jimmy Stanger",
+          "score": "-11",
+          "thru": "8"
         },
         {
-          "pos": "T3",
-          "name": "Jacob Bridgeman",
-          "score": "-9",
-          "thru": "F"
+          "pos": "T1",
+          "name": "Jesper Svensson",
+          "score": "-11",
+          "thru": "6"
         },
         {
-          "pos": "T3",
-          "name": "Viktor Hovland",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Billy Horschel",
-          "score": "-9",
-          "thru": "15"
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Brice Garnett",
+          "score": "-10",
+          "thru": "8"
         }
       ]
     }
