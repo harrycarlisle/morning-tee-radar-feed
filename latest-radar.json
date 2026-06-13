@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T21:10:09.548Z",
+  "updatedAt": "2026-06-13T21:10:10.762Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -76,6 +76,25 @@
   "alsoMoving": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-06-13T19:24:10.000Z",
+      "approvedAt": "2026-06-13T21:10:10.760Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "What's up with Tiger & Phil? Questions persist as another major looms",
+      "summary": "It's hard to imagine that both Tiger Woods and Phil Mickelson would all vanish from the sport's landscape and even its screen-scape.",
+      "quickRead": "It's hard to imagine that both Tiger Woods and Phil Mickelson would all vanish from the sport's landscape and even its screen-scape.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/whats-tiger-phil-questions-persist-192410861.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/whats-tiger-phil-questions-persist-192410861.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
+    },
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T19:18:38.570Z",
       "approvedAt": "2026-06-13T19:18:38.570Z",
       "status": "Live",
@@ -129,59 +148,6 @@
     },
     {
       "time": "2 hours ago",
-      "timestamp": "2026-06-13T18:48:55.833Z",
-      "approvedAt": "2026-06-13T18:48:55.833Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark leads RBC Canadian Open at -11",
-      "summary": "Wyndham Clark is -7 today and -11 overall through F. Closest chasers: Jimmy Stanger (-11), Jesper Svensson (-11), Billy Horschel (-10).",
-      "quickRead": "Wyndham Clark posted a 7-under 63 to finish at 11-under 199 and hold the RBC Canadian Open lead, with Jimmy Stanger and Jesper Svensson tied with him at -11 and Billy Horschel one back at -10.  With multiple players sharing the top spot and several contenders within a shot, the weekend at TPC Toronto is set up for a tight finish.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Wyndham Clark",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Jimmy Stanger",
-          "score": "-11",
-          "thru": "8"
-        },
-        {
-          "pos": "T1",
-          "name": "Jesper Svensson",
-          "score": "-11",
-          "thru": "6"
-        },
-        {
-          "pos": "T4",
-          "name": "Billy Horschel",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Brice Garnett",
-          "score": "-10",
-          "thru": "8"
-        }
-      ]
-    },
-    {
-      "time": "2 hours ago",
       "timestamp": "2026-06-13T18:13:12.000Z",
       "approvedAt": "2026-06-13T18:48:56.766Z",
       "status": "Confirmed",
@@ -198,59 +164,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-told-must-change-181312345.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-06-13T17:18:17.863Z",
-      "approvedAt": "2026-06-13T17:18:17.863Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "David Skinns leads RBC Canadian Open at -10",
-      "summary": "David Skinns is -6 today and -10 overall through 15. Closest chasers: Ben James (-10), Jacob Bridgeman (-9), Viktor Hovland (-9).",
-      "quickRead": "David Skinns grabbed the RBC Canadian Open lead at 10-under, playing his third round in 6-under through 15 holes at TPC Toronto at Osprey Valley.  Ben James is tied at -10, with Jacob Bridgeman and Viktor Hovland one back at -9, setting up a tight finish with several big names (including Brooks Koepka at -8) still in the hunt.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "David Skinns",
-          "score": "-10",
-          "thru": "15"
-        },
-        {
-          "pos": "T1",
-          "name": "Ben James",
-          "score": "-10",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Jacob Bridgeman",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Viktor Hovland",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Billy Horschel",
-          "score": "-9",
-          "thru": "15"
-        }
-      ]
     },
     {
       "time": "10 hours ago",
