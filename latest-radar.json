@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T18:49:00.547Z",
+  "updatedAt": "2026-06-13T19:18:38.573Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-13T19:18:38.570Z",
+      "approvedAt": "2026-06-13T19:18:38.570Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jackson Suber leads RBC Canadian Open at -12",
+      "summary": "Jackson Suber is -3 today and -12 overall through 7. Closest chasers: Wyndham Clark (-11), Jesper Svensson (-11), Billy Horschel (-10).",
+      "quickRead": "Jackson Suber is leading the 2026 RBC Canadian Open at 12-under par, 3-under for his round through seven holes, with Wyndham Clark and Jesper Svensson one back at 11-under.  Billy Horschel is at 10-under after posting a third-round 64, keeping the top of the board packed as the leaders try to separate on moving day at TPC Toronto’s North Course.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-12",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jesper Svensson",
+          "score": "-11",
+          "thru": "8"
+        },
+        {
+          "pos": "T4",
+          "name": "Billy Horschel",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Sudarshan Yellamaraju",
+          "score": "-10",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "29 min ago",
       "timestamp": "2026-06-13T18:48:55.833Z",
       "approvedAt": "2026-06-13T18:48:55.833Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "8"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "35 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T18:13:12.000Z",
       "approvedAt": "2026-06-13T18:48:56.766Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T17:18:17.863Z",
       "approvedAt": "2026-06-13T17:18:17.863Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-13T12:01:11.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://travel.yahoo.com/guides/articles/southern-arizona-golf-delivers-charm-120111782.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-06-13T01:24:01.000Z",
-      "approvedAt": "2026-06-13T10:24:44.624Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scheffler seeks career Slam with US Open win at Shinnecock",
-      "summary": "World number one Scottie Scheffler will try to become the seventh golfer to complete the career Grand Slam by winning the 126th US Open, which starts Thursday at Shinnecock Hills.\"Winning...",
-      "quickRead": "World number one Scottie Scheffler will try to become the seventh golfer to complete the career Grand Slam by winning the 126th US Open, which starts Thursday at Shinnecock Hills.\"Winning...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scheffler-seeks-career-slam-us-012401977.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-seeks-career-slam-us-012401977.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-06-13T18:48:49.319Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T18:11:49.319Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-13T18:48:59.498Z",
-      "approvedAt": "2026-06-13T18:48:59.498Z",
+      "timestamp": "2026-06-13T19:18:38.573Z",
+      "approvedAt": "2026-06-13T19:18:38.573Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads RBC Canadian Open at -11",
-      "summary": "Wyndham Clark is -7 today and -11 overall through F. Closest chasers: Jimmy Stanger (-11), Jesper Svensson (-11), Billy Horschel (-10).",
-      "quickRead": "Wyndham Clark posted a 7-under 63 to finish at 11-under 199 and hold the RBC Canadian Open lead, with Jimmy Stanger and Jesper Svensson tied with him at -11 and Billy Horschel one back at -10.  With multiple players sharing the top spot and several contenders within a shot, the weekend at TPC Toronto is set up for a tight finish.",
+      "title": "Jackson Suber leads RBC Canadian Open at -12",
+      "summary": "Jackson Suber is -3 today and -12 overall through 7. Closest chasers: Wyndham Clark (-11), Jesper Svensson (-11), Billy Horschel (-10).",
+      "quickRead": "Jackson Suber is leading the 2026 RBC Canadian Open at 12-under par, 3-under for his round through seven holes, with Wyndham Clark and Jesper Svensson one back at 11-under.  Billy Horschel is at 10-under after posting a third-round 64, keeping the top of the board packed as the leaders try to separate on moving day at TPC Toronto’s North Course.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -376,22 +410,22 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-12",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
           "name": "Wyndham Clark",
           "score": "-11",
           "thru": "F"
         },
         {
-          "pos": "T1",
-          "name": "Jimmy Stanger",
-          "score": "-11",
-          "thru": "8"
-        },
-        {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Jesper Svensson",
           "score": "-11",
-          "thru": "6"
+          "thru": "8"
         },
         {
           "pos": "T4",
@@ -401,9 +435,9 @@
         },
         {
           "pos": "T4",
-          "name": "Brice Garnett",
+          "name": "Sudarshan Yellamaraju",
           "score": "-10",
-          "thru": "8"
+          "thru": "F"
         }
       ]
     }
