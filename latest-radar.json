@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T19:18:41.389Z",
+  "updatedAt": "2026-06-13T21:10:09.548Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-13T21:10:09.545Z",
+      "approvedAt": "2026-06-13T21:10:09.545Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jesper Svensson leads RBC Canadian Open at -13",
+      "summary": "Jesper Svensson is -4 today and -13 overall through 16. Closest chasers: Jackson Suber (-13), Bud Cauley (-12), Wyndham Clark (-11).",
+      "quickRead": "Jesper Svensson holds the RBC Canadian Open lead at 13-under, shooting 4-under on his round and standing -13 through 16 holes, tied with Jackson Suber (-13 through 15).  Bud Cauley is one back at -12 through 17, with Wyndham Clark at -11 after a 63, setting up a tight finish as the leaders close out their rounds at TPC Toronto.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jesper Svensson",
+          "score": "-13",
+          "thru": "16"
+        },
+        {
+          "pos": "T1",
+          "name": "Jackson Suber",
+          "score": "-13",
+          "thru": "15"
+        },
+        {
+          "pos": "3",
+          "name": "Bud Cauley",
+          "score": "-12",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Wyndham Clark",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Brice Garnett",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T19:18:38.570Z",
       "approvedAt": "2026-06-13T19:18:38.570Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "29 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T18:48:55.833Z",
       "approvedAt": "2026-06-13T18:48:55.833Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T18:13:12.000Z",
       "approvedAt": "2026-06-13T18:48:56.766Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-13T17:18:17.863Z",
       "approvedAt": "2026-06-13T17:18:17.863Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-13T10:30:00.000Z",
       "approvedAt": "2026-06-13T15:30:11.046Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-12T20:38:04.000Z",
       "approvedAt": "2026-06-13T15:30:12.841Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-2.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-13T11:30:00.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -274,43 +327,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brandel-chamblee-urges-lpga-tour-113000809.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-06-13T12:01:11.000Z",
-      "approvedAt": "2026-06-13T13:49:54.331Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Southern Arizona golf delivers charm, surprises, some Hollywood history",
-      "summary": "There are some standout golf courses in the greater Tucson region, including Starr Pass, La Paloma and Tubac Golf Resort.",
-      "quickRead": "Southern Arizona’s Tucson region has about 40 public and private golf courses, with The Club at Starr Pass a standout—its famed sixth hole follows a 19th-century stagecoach “shortcut,” and the course hosted amateur Phil Mickelson’s 1991 Tucson Open win despite a triple bogey.  Starr Pass was renovated and reopened last October (new TifEagle Bermuda greens on all three nines, restored bunkers) and recently hosted PGA Tour Q-School Stage 2, strengthening Tucson’s case as an under-the-radar golf trip.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://travel.yahoo.com/guides/articles/southern-arizona-golf-delivers-charm-120111782.html",
-      "sourceUrl": "https://travel.yahoo.com/guides/articles/southern-arizona-golf-delivers-charm-120111782.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "STORY TO WATCH",
-      "title": "At Canadian Open, PGA Tour's future schedule changes has left everyon...",
-      "summary": "Everyone’s asking whether the RBC Canadian Open will be a top-tier “Track 1” event or a lower-tier “Track 2” stop in the PGA Tour’s proposed two-tr...",
-      "quickRead": "Everyone’s asking whether the RBC Canadian Open will be a top-tier “Track 1” event or a lower-tier “Track 2” stop in the PGA Tour’s proposed two-track schedule—and whether it can stay a true “Open” if a set, limited field replaces qualifying.  Nick Taylor said a Track 1, closed-field Canadian Open “would certainly suck” and would “probably obviously lose the Open name,” while Corey Conners hopes the event still thrives and keeps giving young Canadians PGA Tour starts.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-06-12T20:38:04.000Z"
-    },
     {
       "label": "LPGA WATCH",
       "title": "Brandel Chamblee urges LPGA Tour to make change after what one fan to...",
@@ -340,6 +359,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "timestamp": "2026-06-13T18:13:12.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "At Canadian Open, PGA Tour's future schedule changes has left everyon...",
+      "summary": "Everyone’s asking whether the RBC Canadian Open will be a top-tier “Track 1” event or a lower-tier “Track 2” stop in the PGA Tour’s proposed two-tr...",
+      "quickRead": "Everyone’s asking whether the RBC Canadian Open will be a top-tier “Track 1” event or a lower-tier “Track 2” stop in the PGA Tour’s proposed two-track schedule—and whether it can stay a true “Open” if a set, limited field replaces qualifying.  Nick Taylor said a Track 1, closed-field Canadian Open “would certainly suck” and would “probably obviously lose the Open name,” while Corey Conners hopes the event still thrives and keeps giving young Canadians PGA Tour starts.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-06-12T20:38:04.000Z"
     }
   ],
   "checking": {
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T19:18:34.142Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T18:41:34.142Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-13T19:18:40.379Z",
-      "approvedAt": "2026-06-13T19:18:40.380Z",
+      "timestamp": "2026-06-13T21:10:09.548Z",
+      "approvedAt": "2026-06-13T21:10:09.548Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber leads RBC Canadian Open at -12",
-      "summary": "Jackson Suber is -3 today and -12 overall through 7. Closest chasers: Wyndham Clark (-11), Jesper Svensson (-11), Billy Horschel (-10).",
-      "quickRead": "Jackson Suber is leading the 2026 RBC Canadian Open at 12-under par, 3-under for his round through seven holes, with Wyndham Clark and Jesper Svensson one back at 11-under.  Billy Horschel is at 10-under after posting a third-round 64, keeping the top of the board packed as the leaders try to separate on moving day at TPC Toronto’s North Course.",
+      "title": "Jesper Svensson leads RBC Canadian Open at -13",
+      "summary": "Jesper Svensson is -4 today and -13 overall through 16. Closest chasers: Jackson Suber (-13), Bud Cauley (-12), Wyndham Clark (-11).",
+      "quickRead": "Jesper Svensson holds the RBC Canadian Open lead at 13-under, shooting 4-under on his round and standing -13 through 16 holes, tied with Jackson Suber (-13 through 15).  Bud Cauley is one back at -12 through 17, with Wyndham Clark at -11 after a 63, setting up a tight finish as the leaders close out their rounds at TPC Toronto.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -410,33 +444,33 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-12",
-          "thru": "7"
+          "pos": "T1",
+          "name": "Jesper Svensson",
+          "score": "-13",
+          "thru": "16"
         },
         {
-          "pos": "T2",
+          "pos": "T1",
+          "name": "Jackson Suber",
+          "score": "-13",
+          "thru": "15"
+        },
+        {
+          "pos": "3",
+          "name": "Bud Cauley",
+          "score": "-12",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
           "name": "Wyndham Clark",
           "score": "-11",
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Jesper Svensson",
+          "pos": "T4",
+          "name": "Brice Garnett",
           "score": "-11",
-          "thru": "8"
-        },
-        {
-          "pos": "T4",
-          "name": "Billy Horschel",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Sudarshan Yellamaraju",
-          "score": "-10",
           "thru": "F"
         }
       ]
