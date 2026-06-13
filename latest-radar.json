@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T02:54:37.188Z",
+  "updatedAt": "2026-06-13T07:42:43.939Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-06-13T04:22:53.000Z",
+      "approvedAt": "2026-06-13T07:42:43.935Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 RBC Canadian Open Saturday tee times: Round 3 pairings",
+      "summary": "Full 2026 RBC Canadian Open tee times for Saturday's third round at TPC Toronto, featuring Sam Burns, Brooks Koepka and more.",
+      "quickRead": "Ben James leads the 2026 RBC Canadian Open at 10-under after a second-round 63 and tees off Saturday at 1:45 p. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-rbc-canadian-open-saturday-042253375.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-rbc-canadian-open-saturday-042253375.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "11 hours ago",
       "timestamp": "2026-06-12T20:03:47.045Z",
       "approvedAt": "2026-06-12T20:03:47.045Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-13T01:25:10.000Z",
       "approvedAt": "2026-06-13T02:54:33.539Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-13T00:08:26.000Z",
       "approvedAt": "2026-06-13T02:54:33.540Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/viktor-hovland-3.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-12T20:38:04.000Z",
       "approvedAt": "2026-06-12T23:13:20.622Z",
       "status": "Confirmed",
@@ -132,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-12T18:46:55.000Z",
       "approvedAt": "2026-06-12T23:13:20.624Z",
       "status": "Confirmed",
@@ -151,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-2.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-12T12:00:00.000Z",
       "approvedAt": "2026-06-12T23:13:20.624Z",
       "status": "Confirmed",
@@ -170,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-12T18:45:37.000Z",
       "approvedAt": "2026-06-12T20:03:48.668Z",
       "status": "Confirmed",
@@ -206,59 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jordan-spieth-says-found-brutally-003000040.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-06-12T16:41:56.503Z",
-      "approvedAt": "2026-06-12T16:41:56.503Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Ben James leads RBC Canadian Open at -9",
-      "summary": "Ben James is -6 today and -9 overall through 15. Closest chasers: Ryan Fox (-8), Brooks Koepka (-8), Sam Burns (-8).",
-      "quickRead": "Ben James grabbed the early RBC Canadian Open lead by reaching 9-under par through 15 holes in Round 2, shooting 6-under on the day.  He’s only one clear of a three-way tie at 8-under featuring Ryan Fox, Brooks Koepka, and Sam Burns, with the cut line sitting at 2-under at TPC Toronto.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Ben James",
-          "score": "-9",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
-          "name": "Ryan Fox",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Brooks Koepka",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Sam Burns",
-          "score": "-8",
-          "thru": "17*"
-        },
-        {
-          "pos": "T2",
-          "name": "Haotong Li",
-          "score": "-8",
-          "thru": "13*"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -279,18 +245,18 @@
     },
     {
       "label": "LIV WATCH",
-      "title": "Nelly Korda contending on LPGA yet again, this time at Dow team event...",
-      "summary": "Nelly Korda and Olivia Cowan shot a second-round 60 in Friday’s four-ball at the Dow Championship, piling up 11 birdies to reach 10-under through 3...",
-      "quickRead": "Nelly Korda and Olivia Cowan shot a second-round 60 in Friday’s four-ball at the Dow Championship, piling up 11 birdies to reach 10-under through 36 holes and briefly take the clubhouse lead after opening with a 70.  They were later passed by Ayaka Furue and Yuna Nishimura at 11-under, but Korda’s red-hot 2026 form keeps her team firmly in the hunt heading into the weekend.",
+      "title": "Brooks Koepka confirms if any PGA Tour players have told him they’re...",
+      "summary": "Brooks Koepka said no PGA Tour players have told him they’re unhappy he was allowed back, adding, “I haven’t heard — at least nobody said it to my...",
+      "quickRead": "Brooks Koepka said no PGA Tour players have told him they’re unhappy he was allowed back, adding, “I haven’t heard — at least nobody said it to my face about anything.  A lot of, ‘we’re glad you’re back.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/nelly-korda-contending-lpga-yet-184655192.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-contending-lpga-yet-184655192.html",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-confirms-pga-tour-120000909.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-confirms-pga-tour-120000909.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-12T18:46:55.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
+      "timestamp": "2026-06-12T12:00:00.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -326,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-06-13T02:54:22.874Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-13T02:17:22.874Z",
       "status": "Trending",
       "signal": "Reddit find",
