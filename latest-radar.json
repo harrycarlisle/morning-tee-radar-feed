@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T15:30:17.322Z",
+  "updatedAt": "2026-06-13T17:18:17.866Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-13T17:18:17.863Z",
+      "approvedAt": "2026-06-13T17:18:17.863Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "David Skinns leads RBC Canadian Open at -10",
+      "summary": "David Skinns is -6 today and -10 overall through 15. Closest chasers: Ben James (-10), Jacob Bridgeman (-9), Viktor Hovland (-9).",
+      "quickRead": "David Skinns grabbed the RBC Canadian Open lead at 10-under, playing his third round in 6-under through 15 holes at TPC Toronto at Osprey Valley.  Ben James is tied at -10, with Jacob Bridgeman and Viktor Hovland one back at -9, setting up a tight finish with several big names (including Brooks Koepka at -8) still in the hunt.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "David Skinns",
+          "score": "-10",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
+          "name": "Ben James",
+          "score": "-10",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Jacob Bridgeman",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Viktor Hovland",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Billy Horschel",
+          "score": "-9",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-06-13T10:30:00.000Z",
       "approvedAt": "2026-06-13T15:30:11.046Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/decision-made-charlie-woods-involvement-103000916.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-06-12T20:38:04.000Z",
       "approvedAt": "2026-06-13T15:30:12.841Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-06-12T18:46:55.000Z",
       "approvedAt": "2026-06-13T15:30:12.842Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-2.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-13T13:49:53.325Z",
       "approvedAt": "2026-06-13T13:49:53.325Z",
       "status": "Live",
@@ -132,7 +185,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-13T11:30:00.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-13T12:01:11.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-13T01:24:01.000Z",
       "approvedAt": "2026-06-13T10:24:44.624Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-13T04:22:53.000Z",
       "approvedAt": "2026-06-13T07:42:43.935Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-rbc-canadian-open-saturday-042253375.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-06-13T01:25:10.000Z",
-      "approvedAt": "2026-06-13T02:54:33.539Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "USGA aims to keep control as US Open returns to Shinnecock",
-      "summary": "After organizers \"lost the course\" and desperately watered greens between groups in the past two US Opens at Shinnecock, there's hope for improvement when the 126th US Open begins Thursda...",
-      "quickRead": "After organizers \"lost the course\" and desperately watered greens between groups in the past two US Opens at Shinnecock, there's hope for improvement when the 126th US Open begins Thursda...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/usga-aims-keep-control-us-012510869.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/usga-aims-keep-control-us-012510869.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T15:29:56.499Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T14:52:56.499Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-13T15:30:14.726Z",
-      "approvedAt": "2026-06-13T15:30:14.727Z",
+      "timestamp": "2026-06-13T17:18:17.866Z",
+      "approvedAt": "2026-06-13T17:18:17.866Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ben James leads RBC Canadian Open at -10",
-      "summary": "Ben James is -10 overall through 1. Closest chasers: Sam Burns (-9), Jackson Suber (-9), Haotong Li (-9).",
-      "quickRead": "Ben James is the RBC Canadian Open leader at 10-under after shooting 67-63 (130) at TPC Toronto’s North Course, with Sam Burns, Jackson Suber, Haotong Li, Jesper Svensson and Keith Mitchell one shot back at 9-under.  With Brooks Koepka and Tommy Fleetwood also in the hunt at 8-under, the weekend is set up for a tight finish with a crowded leaderboard and plenty of star power within two shots.",
+      "title": "David Skinns leads RBC Canadian Open at -10",
+      "summary": "David Skinns is -6 today and -10 overall through 15. Closest chasers: Ben James (-10), Jacob Bridgeman (-9), Viktor Hovland (-9).",
+      "quickRead": "David Skinns grabbed the RBC Canadian Open lead at 10-under, playing his third round in 6-under through 15 holes at TPC Toronto at Osprey Valley.  Ben James is tied at -10, with Jacob Bridgeman and Viktor Hovland one back at -9, setting up a tight finish with several big names (including Brooks Koepka at -8) still in the hunt.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -342,34 +376,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "David Skinns",
+          "score": "-10",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
           "name": "Ben James",
           "score": "-10",
           "thru": "1"
         },
         {
-          "pos": "T2",
-          "name": "Sam Burns",
+          "pos": "T3",
+          "name": "Jacob Bridgeman",
           "score": "-9",
-          "thru": "1"
+          "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Jackson Suber",
+          "pos": "T3",
+          "name": "Viktor Hovland",
           "score": "-9",
-          "thru": "1"
+          "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Haotong Li",
+          "pos": "T3",
+          "name": "Billy Horschel",
           "score": "-9",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jesper Svensson",
-          "score": "-9",
-          "thru": "1"
+          "thru": "15"
         }
       ]
     }
