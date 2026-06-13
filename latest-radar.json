@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-13T13:49:58.007Z",
+  "updatedAt": "2026-06-13T15:30:11.049Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "5 hours ago",
+      "timestamp": "2026-06-13T10:30:00.000Z",
+      "approvedAt": "2026-06-13T15:30:11.046Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Decision made on Charlie Woods’ involvement in upcoming US Open",
+      "summary": "Charlie Woods might not be playing in the US Open at Shinnecock, but he’s played his part in the event already.",
+      "quickRead": "Charlie Woods might not be playing in the US Open at Shinnecock, but he’s played his part in the event already.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/decision-made-charlie-woods-involvement-103000916.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/decision-made-charlie-woods-involvement-103000916.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T13:49:53.325Z",
       "approvedAt": "2026-06-13T13:49:53.325Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-13T11:30:00.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-13T12:01:11.000Z",
       "approvedAt": "2026-06-13T13:49:54.331Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-13T01:24:01.000Z",
       "approvedAt": "2026-06-13T10:24:44.624Z",
       "status": "Confirmed",
@@ -132,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-13T04:22:53.000Z",
       "approvedAt": "2026-06-13T07:42:43.935Z",
       "status": "Confirmed",
@@ -151,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-12T20:03:47.045Z",
       "approvedAt": "2026-06-12T20:03:47.045Z",
       "status": "Live",
@@ -204,7 +223,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-13T01:25:10.000Z",
       "approvedAt": "2026-06-13T02:54:33.539Z",
       "status": "Confirmed",
@@ -223,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-13T00:08:26.000Z",
       "approvedAt": "2026-06-13T02:54:33.540Z",
       "status": "Confirmed",
@@ -240,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-brought-1-driver-000826480.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/viktor-hovland-3.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-06-12T20:38:04.000Z",
-      "approvedAt": "2026-06-12T23:13:20.622Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "At Canadian Open, PGA Tour's future schedule changes has left everyone with 1 q...",
-      "summary": "As the PGA Tour's future schedule starts to take shape, players and tournaments like the RBC Canadian Open are wondering the same thing.",
-      "quickRead": "The big question at the RBC Canadian Open is whether it will be a “Track 1” top-tier event or a “Track 2” event under CEO Brian Rolapp’s proposed two-track PGA Tour schedule—and if it becomes Track 1 with a set field, players like Nick Taylor say it would “probably obviously lose the Open name” because you couldn’t earn your way in.  That matters because Track 1 is envisioned as ~20 events with ~120 players and $20M purses, and stars may be discouraged or barred from Track 2, potentially keeping Canadians from playing their national open every year.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/canadian-open-pga-tours-future-203804133.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-13T13:49:45.781Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-13T13:12:45.781Z",
       "status": "Trending",
       "signal": "Reddit find",
