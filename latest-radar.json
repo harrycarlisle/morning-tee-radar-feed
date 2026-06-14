@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T20:46:33.668Z",
+  "updatedAt": "2026-06-14T21:06:10.008Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-14T21:06:10.005Z",
+      "approvedAt": "2026-06-14T21:06:10.005Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Bud Cauley leads RBC Canadian Open at -18",
+      "summary": "Bud Cauley is -6 today and -18 overall through 15. Closest chasers: Jimmy Stanger (-14), Viktor Hovland (-13), Matt Fitzpatrick (-13).",
+      "quickRead": "Bud Cauley holds the RBC Canadian Open lead at 18-under after reaching the 15th hole in Round 4 at 6-under for the day.  Jimmy Stanger is four back at 14-under, with Viktor Hovland and Matt Fitzpatrick next at 13-under as the final stretch at TPC Toronto sets up a chase to catch Cauley.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Bud Cauley",
+          "score": "-18",
+          "thru": "15"
+        },
+        {
+          "pos": "2",
+          "name": "Jimmy Stanger",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Viktor Hovland",
+          "score": "-13",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Ryan Fox",
+          "score": "-13",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "19 min ago",
       "timestamp": "2026-06-14T20:46:30.811Z",
       "approvedAt": "2026-06-14T20:46:30.811Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "14"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-14T19:20:10.220Z",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-14T18:52:32.048Z",
       "approvedAt": "2026-06-14T18:52:32.048Z",
       "status": "Live",
@@ -272,7 +325,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -306,25 +359,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-06-14T12:30:00.000Z",
-      "approvedAt": "2026-06-14T13:52:14.827Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka on course to challenge personal career record just ahead of the U...",
-      "summary": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in on one of the greatest putting performanc...",
-      "quickRead": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in on one of the greatest putting performanc...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "19 min ago",
       "timestamp": "2026-06-14T20:46:22.298Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +442,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "56 min ago",
       "timestamp": "2026-06-14T20:09:22.298Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +458,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T20:46:32.687Z",
-      "approvedAt": "2026-06-14T20:46:32.687Z",
+      "timestamp": "2026-06-14T21:06:10.008Z",
+      "approvedAt": "2026-06-14T21:06:10.008Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Bud Cauley leads RBC Canadian Open at -17",
-      "summary": "Bud Cauley is -5 today and -17 overall through 14. Closest chasers: Matt Fitzpatrick (-14), Ryan Fox (-14), Jimmy Stanger (-14).",
-      "quickRead": "Bud Cauley is leading the RBC Canadian Open at 17-under, playing his final round in 5-under through 14 holes, with Matt Fitzpatrick, Ryan Fox, and Jimmy Stanger three back at 14-under.  With Cauley still on the course at TPC Toronto, the chase group has little margin for error down the closing stretch as he tries to close out the win.",
+      "title": "Bud Cauley leads RBC Canadian Open at -18",
+      "summary": "Bud Cauley is -6 today and -18 overall through 15. Closest chasers: Jimmy Stanger (-14), Viktor Hovland (-13), Matt Fitzpatrick (-13).",
+      "quickRead": "Bud Cauley holds the RBC Canadian Open lead at 18-under after reaching the 15th hole in Round 4 at 6-under for the day.  Jimmy Stanger is four back at 14-under, with Viktor Hovland and Matt Fitzpatrick next at 13-under as the final stretch at TPC Toronto sets up a chase to catch Cauley.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -446,32 +480,32 @@
         {
           "pos": "1",
           "name": "Bud Cauley",
-          "score": "-17",
-          "thru": "14"
-        },
-        {
-          "pos": "T2",
-          "name": "Matt Fitzpatrick",
-          "score": "-14",
-          "thru": "16"
-        },
-        {
-          "pos": "T2",
-          "name": "Ryan Fox",
-          "score": "-14",
-          "thru": "16"
-        },
-        {
-          "pos": "T2",
-          "name": "Jimmy Stanger",
-          "score": "-14",
+          "score": "-18",
           "thru": "15"
         },
         {
-          "pos": "T2",
-          "name": "Jackson Suber",
+          "pos": "2",
+          "name": "Jimmy Stanger",
           "score": "-14",
-          "thru": "14"
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Viktor Hovland",
+          "score": "-13",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Ryan Fox",
+          "score": "-13",
+          "thru": "17"
         }
       ]
     }
