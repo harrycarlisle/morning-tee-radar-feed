@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T23:03:57.369Z",
+  "updatedAt": "2026-06-14T23:36:56.809Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "57 min ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-06-14T21:19:00.000Z",
+      "approvedAt": "2026-06-14T23:36:56.805Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "US Open Golf: History, qualifications, courses, most titles, youngest winners...",
+      "summary": "Take a look at some answers to FAQs about the U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/us-open-golf-history-qualifications-211900142.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/us-open-golf-history-qualifications-211900142.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T22:06:06.853Z",
       "approvedAt": "2026-06-14T22:06:06.853Z",
       "status": "Live",
@@ -71,9 +92,7 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-14T22:02:46.000Z",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-14T21:06:10.005Z",
       "approvedAt": "2026-06-14T21:06:10.005Z",
       "status": "Live",
@@ -147,7 +166,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-14T12:30:00.000Z",
       "approvedAt": "2026-06-14T21:06:11.415Z",
       "status": "Confirmed",
@@ -166,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -185,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-14T15:12:09.000Z",
       "approvedAt": "2026-06-14T15:47:02.541Z",
       "status": "Confirmed",
@@ -307,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "33 min ago",
       "timestamp": "2026-06-14T23:03:43.562Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -321,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T22:26:43.562Z",
       "status": "Trending",
       "signal": "Reddit find",
