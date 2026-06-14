@@ -174,18 +174,14 @@ function isTournamentFinalSafe(item) {
     status === "final" ||
     status === "complete" ||
     status === "completed" ||
-    resultType === "winner" ||
-    signal.includes("winner") ||
     signal.includes("final result") ||
     signal.includes("final leaderboard") ||
     text.includes("final result") ||
     text.includes("final leaderboard") ||
     text.includes("tournament is complete") ||
     text.includes("event is complete") ||
-    text.includes("wins ") ||
-    text.includes(" won ") ||
-    text.includes(" winner") ||
-    text.includes(" title");
+    text.includes("official final") ||
+    text.includes("completed final round");
 
   const mondayRecapSignal =
     weekday === "Mon" &&
@@ -207,11 +203,15 @@ function removeUnsafeWinnerLanguage(value, item) {
 
   if (isTournamentFinalSafe(item)) return text;
 
-  return text
+return text
     .replace(/\bwins\b/gi, "leads")
     .replace(/\bwon\b/gi, "leads")
     .replace(/\bwinner\b/gi, "leader")
     .replace(/\bchampion\b/gi, "leader")
+    .replace(/\bcaptured\b/gi, "leads")
+    .replace(/\bsecured victory\b/gi, "moved into position")
+    .replace(/\bsecured the victory\b/gi, "moved into position")
+    .replace(/\bclaimed victory\b/gi, "moved into position")
     .replace(/\bclaimed the title\b/gi, "moved into the lead")
     .replace(/\bclaims the title\b/gi, "moves into the lead")
     .replace(/\bfinishing five strokes ahead\b/gi, "sitting five strokes ahead")
@@ -425,12 +425,20 @@ function cleanGeneratedText(value) {
   let text = String(value || "");
 
   const nowET = getETParts();
-  const safeToSayWon = nowET.weekday === "Sun" || nowET.weekday === "Mon";
+  const safeToSayWon = false;
 
   if (!safeToSayWon) {
     text = text
       .replace(/\bwins\b/gi, "leads")
       .replace(/\bwon\b/gi, "leads")
+      .replace(/\bwinner\b/gi, "leader")
+      .replace(/\bchampion\b/gi, "leader")
+      .replace(/\bcaptured\b/gi, "leads")
+      .replace(/\bsecured victory\b/gi, "moved into position")
+      .replace(/\bsecured the victory\b/gi, "moved into position")
+      .replace(/\bclaimed victory\b/gi, "moved into position")
+      .replace(/\bclaimed the title\b/gi, "moved into the lead")
+      .replace(/\bclaims the title\b/gi, "moves into the lead")
       .replace(/\bwinner\b/gi, "leader")
       .replace(/\bchampion\b/gi, "leader")
       .replace(/\bclaimed the title\b/gi, "moved into the lead")
