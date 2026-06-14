@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T19:20:13.368Z",
+  "updatedAt": "2026-06-14T20:46:30.815Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-14T20:46:30.811Z",
+      "approvedAt": "2026-06-14T20:46:30.811Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Bud Cauley leads RBC Canadian Open at -17",
+      "summary": "Bud Cauley is -5 today and -17 overall through 14. Closest chasers: Matt Fitzpatrick (-14), Ryan Fox (-14), Jimmy Stanger (-14).",
+      "quickRead": "Bud Cauley is leading the RBC Canadian Open at 17-under, playing his final round in 5-under through 14 holes, with Matt Fitzpatrick, Ryan Fox, and Jimmy Stanger three back at 14-under.  With Cauley still on the course at TPC Toronto, the chase group has little margin for error down the closing stretch as he tries to close out the win.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Bud Cauley",
+          "score": "-17",
+          "thru": "14"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Fox",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Jimmy Stanger",
+          "score": "-14",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Jackson Suber",
+          "score": "-14",
+          "thru": "14"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T19:20:10.220Z",
       "approvedAt": "2026-06-14T19:20:10.221Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "13"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T19:18:58.096Z",
       "approvedAt": "2026-06-14T19:18:58.096Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "27 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T18:52:32.048Z",
       "approvedAt": "2026-06-14T18:52:32.048Z",
       "status": "Live",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -200,7 +253,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-14T15:12:09.000Z",
       "approvedAt": "2026-06-14T15:47:02.541Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-14T11:45:51.000Z",
       "approvedAt": "2026-06-14T13:52:12.479Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-14T12:30:00.000Z",
       "approvedAt": "2026-06-14T13:52:14.827Z",
       "status": "Confirmed",
@@ -274,59 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-06-13T23:00:21.922Z",
-      "approvedAt": "2026-06-13T23:00:21.922Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jackson Suber wins RBC Canadian Open at -13",
-      "summary": "Jackson Suber wins RBC Canadian Open at -13. Nearest finishers: Bud Cauley (-12), Wyndham Clark (-11), Brice Garnett (-11).",
-      "quickRead": "Jackson Suber won the 2026 RBC Canadian Open at TPC Toronto (Osprey Valley’s North Course), finishing at 13-under and beating Bud Cauley by one shot as Suber closed with a 66.  Wyndham Clark, Brice Garnett, Tommy Fleetwood and Jesper Svensson tied for third at 11-under, making it a tight leaderboard that swung on Suber’s ability to protect a narrow margin to the finish.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Bud Cauley",
-          "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Wyndham Clark",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Brice Garnett",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Tommy Fleetwood",
-          "score": "-11",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -394,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T19:19:59.890Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -408,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-14T18:42:59.890Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -424,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T19:20:12.203Z",
-      "approvedAt": "2026-06-14T19:20:12.203Z",
+      "timestamp": "2026-06-14T20:46:30.815Z",
+      "approvedAt": "2026-06-14T20:46:30.815Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jimmy Stanger leads RBC Canadian Open at -14",
-      "summary": "Jimmy Stanger is -4 today and -14 overall through 10. Closest chasers: Jackson Suber (-14), Bud Cauley (-14), Viktor Hovland (-13).",
-      "quickRead": "Jimmy Stanger is leading the RBC Canadian Open at 14-under par, shooting 4-under in his final round through 10 holes at TPC Toronto (Osprey Valley’s North Course).  He’s being chased by Jackson Suber and Bud Cauley at 14-under with Viktor Hovland one back at 13-under, setting up a tight finish with multiple players in contention.",
+      "title": "Bud Cauley leads RBC Canadian Open at -17",
+      "summary": "Bud Cauley is -5 today and -17 overall through 14. Closest chasers: Matt Fitzpatrick (-14), Ryan Fox (-14), Jimmy Stanger (-14).",
+      "quickRead": "Bud Cauley is leading the RBC Canadian Open at 17-under, playing his final round in 5-under through 14 holes, with Matt Fitzpatrick, Ryan Fox, and Jimmy Stanger three back at 14-under.  With Cauley still on the course at TPC Toronto, the chase group has little margin for error down the closing stretch as he tries to close out the win.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -444,34 +444,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Bud Cauley",
+          "score": "-17",
+          "thru": "14"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Fox",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
           "name": "Jimmy Stanger",
           "score": "-14",
-          "thru": "10"
+          "thru": "15"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Jackson Suber",
           "score": "-14",
-          "thru": "9"
-        },
-        {
-          "pos": "T1",
-          "name": "Bud Cauley",
-          "score": "-14",
-          "thru": "8"
-        },
-        {
-          "pos": "4",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "11"
-        },
-        {
-          "pos": "T5",
-          "name": "Matthew Anderson",
-          "score": "-12",
-          "thru": "13"
+          "thru": "14"
         }
       ]
     }
