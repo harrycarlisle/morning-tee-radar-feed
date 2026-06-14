@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T21:06:14.827Z",
+  "updatedAt": "2026-06-14T22:06:06.856Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-14T22:06:06.853Z",
+      "approvedAt": "2026-06-14T22:06:06.853Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Bud Cauley wins RBC Canadian Open at -17",
+      "summary": "Bud Cauley wins RBC Canadian Open at -17. Nearest finishers: Matt Fitzpatrick (-15), Viktor Hovland (-14), Jimmy Stanger (-13).",
+      "quickRead": "Bud Cauley wins RBC Canadian Open at -17. Nearest finishers: Matt Fitzpatrick (-15), Viktor Hovland (-14), Jimmy Stanger (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Bud Cauley",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Matt Fitzpatrick",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Viktor Hovland",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Jimmy Stanger",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Brice Garnett",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "59 min ago",
       "timestamp": "2026-06-14T21:06:10.005Z",
       "approvedAt": "2026-06-14T21:06:10.005Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-14T12:30:00.000Z",
       "approvedAt": "2026-06-14T21:06:11.415Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "19 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T20:46:30.811Z",
       "approvedAt": "2026-06-14T20:46:30.811Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-14T15:12:09.000Z",
       "approvedAt": "2026-06-14T15:47:02.541Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-14T11:45:51.000Z",
       "approvedAt": "2026-06-14T13:52:12.479Z",
       "status": "Confirmed",
@@ -288,7 +341,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T21:05:58.236Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -302,7 +355,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T20:28:58.236Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -318,14 +371,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T21:06:13.598Z",
-      "approvedAt": "2026-06-14T21:06:13.598Z",
+      "timestamp": "2026-06-14T22:06:06.856Z",
+      "approvedAt": "2026-06-14T22:06:06.856Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Bud Cauley leads RBC Canadian Open at -18",
-      "summary": "Bud Cauley is -6 today and -18 overall through 15. Closest chasers: Jimmy Stanger (-14), Viktor Hovland (-13), Matt Fitzpatrick (-13).",
-      "quickRead": "Bud Cauley holds the RBC Canadian Open lead at 18-under after reaching the 15th hole in Round 4 at 6-under for the day.  Jimmy Stanger is four back at 14-under, with Viktor Hovland and Matt Fitzpatrick next at 13-under as the final stretch at TPC Toronto sets up a chase to catch Cauley.",
+      "title": "Bud Cauley wins RBC Canadian Open at -17",
+      "summary": "Bud Cauley wins RBC Canadian Open at -17. Nearest finishers: Matt Fitzpatrick (-15), Viktor Hovland (-14), Jimmy Stanger (-13).",
+      "quickRead": "Bud Cauley wins RBC Canadian Open at -17. Nearest finishers: Matt Fitzpatrick (-15), Viktor Hovland (-14), Jimmy Stanger (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -340,32 +393,32 @@
         {
           "pos": "1",
           "name": "Bud Cauley",
-          "score": "-18",
-          "thru": "15"
+          "score": "-17",
+          "thru": "F"
         },
         {
           "pos": "2",
-          "name": "Jimmy Stanger",
-          "score": "-14",
-          "thru": "16"
-        },
-        {
-          "pos": "T3",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
           "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "17"
+          "score": "-15",
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Ryan Fox",
+          "pos": "3",
+          "name": "Viktor Hovland",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Jimmy Stanger",
           "score": "-13",
-          "thru": "17"
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Brice Garnett",
+          "score": "-13",
+          "thru": "F"
         }
       ]
     }
