@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T17:16:32.392Z",
+  "updatedAt": "2026-06-14T18:52:32.051Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-14T18:52:32.048Z",
+      "approvedAt": "2026-06-14T18:52:32.048Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jackson Suber leads RBC Canadian Open at -15",
+      "summary": "Jackson Suber is -2 today and -15 overall through 7. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-13), Matthew Anderson (-12).",
+      "quickRead": "Jackson Suber holds the RBC Canadian Open lead at 15-under par, 2-under on his final round through seven holes at TPC Toronto’s North Course.  Jimmy Stanger is one back at 14-under, with Bud Cauley at 13-under and a three-way tie for fourth at 12-under (Matthew Anderson, Viktor Hovland, Sam Burns) keeping the chase tight.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-15",
+          "thru": "7"
+        },
+        {
+          "pos": "2",
+          "name": "Jimmy Stanger",
+          "score": "-14",
+          "thru": "8"
+        },
+        {
+          "pos": "3",
+          "name": "Bud Cauley",
+          "score": "-13",
+          "thru": "7"
+        },
+        {
+          "pos": "T4",
+          "name": "Matthew Anderson",
+          "score": "-12",
+          "thru": "12"
+        },
+        {
+          "pos": "T4",
+          "name": "Viktor Hovland",
+          "score": "-12",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-withdraws-rbc-canadian-151504315.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-14T15:12:09.000Z",
       "approvedAt": "2026-06-14T15:47:02.541Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-14T11:45:51.000Z",
       "approvedAt": "2026-06-14T13:52:12.479Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-14T12:30:00.000Z",
       "approvedAt": "2026-06-14T13:52:14.827Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-13T23:00:21.922Z",
       "approvedAt": "2026-06-13T23:00:21.922Z",
       "status": "Live",
@@ -170,7 +223,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-14T01:44:50.000Z",
       "approvedAt": "2026-06-14T08:11:37.000Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-06-13T22:30:38.000Z",
       "approvedAt": "2026-06-13T23:00:23.485Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/south-korean-duo-takes-dow-223038059.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-06-13T19:24:10.000Z",
-      "approvedAt": "2026-06-13T21:10:10.760Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "What's up with Tiger & Phil? Questions persist as another major looms",
-      "summary": "It's hard to imagine that both Tiger Woods and Phil Mickelson would all vanish from the sport's landscape and even its screen-scape.",
-      "quickRead": "It's hard to imagine that both Tiger Woods and Phil Mickelson would all vanish from the sport's landscape and even its screen-scape.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/whats-tiger-phil-questions-persist-192410861.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/whats-tiger-phil-questions-persist-192410861.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T17:16:00.944Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-14T16:39:00.945Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T17:16:31.010Z",
-      "approvedAt": "2026-06-14T17:16:31.010Z",
+      "timestamp": "2026-06-14T18:52:32.051Z",
+      "approvedAt": "2026-06-14T18:52:32.051Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber leads RBC Canadian Open at -14",
-      "summary": "Jackson Suber is -1 today and -14 overall through 1. Closest chasers: Jimmy Stanger (-13), Bud Cauley (-13), Sam Burns (-12).",
-      "quickRead": "Jackson Suber led the RBC Canadian Open at 14-under par in Round 4 at TPC Toronto (North Course), sitting at -1 for the day through his first hole.  Jimmy Stanger and Bud Cauley were one back at -13, with Sam Burns at -12 as the closest chasers as the final-round leaderboard tightened early.",
+      "title": "Jackson Suber leads RBC Canadian Open at -15",
+      "summary": "Jackson Suber is -2 today and -15 overall through 7. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-13), Matthew Anderson (-12).",
+      "quickRead": "Jackson Suber holds the RBC Canadian Open lead at 15-under par, 2-under on his final round through seven holes at TPC Toronto’s North Course.  Jimmy Stanger is one back at 14-under, with Bud Cauley at 13-under and a three-way tie for fourth at 12-under (Matthew Anderson, Viktor Hovland, Sam Burns) keeping the chase tight.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -344,32 +378,32 @@
         {
           "pos": "1",
           "name": "Jackson Suber",
-          "score": "-14",
-          "thru": "1"
+          "score": "-15",
+          "thru": "7"
         },
         {
-          "pos": "T2",
+          "pos": "2",
           "name": "Jimmy Stanger",
-          "score": "-13",
-          "thru": "3"
+          "score": "-14",
+          "thru": "8"
         },
         {
-          "pos": "T2",
+          "pos": "3",
           "name": "Bud Cauley",
           "score": "-13",
-          "thru": "1"
+          "thru": "7"
         },
         {
           "pos": "T4",
-          "name": "Sam Burns",
+          "name": "Matthew Anderson",
           "score": "-12",
-          "thru": "4"
+          "thru": "12"
         },
         {
           "pos": "T4",
-          "name": "Tommy Fleetwood",
+          "name": "Viktor Hovland",
           "score": "-12",
-          "thru": "2"
+          "thru": "9"
         }
       ]
     }
