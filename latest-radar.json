@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T21:06:10.008Z",
+  "updatedAt": "2026-06-14T21:06:11.418Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -75,6 +75,25 @@
   ],
   "alsoMoving": [
     {
+      "time": "8 hours ago",
+      "timestamp": "2026-06-14T12:30:00.000Z",
+      "approvedAt": "2026-06-14T21:06:11.415Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Brooks Koepka on course to challenge personal career record just ahead of the U...",
+      "summary": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in on one of the greatest putting performanc...",
+      "quickRead": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in on one of the greatest putting performanc...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    },
+    {
       "time": "19 min ago",
       "timestamp": "2026-06-14T20:46:30.811Z",
       "approvedAt": "2026-06-14T20:46:30.811Z",
@@ -124,165 +143,6 @@
           "name": "Jackson Suber",
           "score": "-14",
           "thru": "14"
-        }
-      ]
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-06-14T19:20:10.220Z",
-      "approvedAt": "2026-06-14T19:20:10.221Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jimmy Stanger leads RBC Canadian Open at -14",
-      "summary": "Jimmy Stanger is -4 today and -14 overall through 10. Closest chasers: Jackson Suber (-14), Bud Cauley (-14), Viktor Hovland (-13).",
-      "quickRead": "Jimmy Stanger is leading the RBC Canadian Open at 14-under par, shooting 4-under in his final round through 10 holes at TPC Toronto (Osprey Valley’s North Course).  He’s being chased by Jackson Suber and Bud Cauley at 14-under with Viktor Hovland one back at 13-under, setting up a tight finish with multiple players in contention.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Jimmy Stanger",
-          "score": "-14",
-          "thru": "10"
-        },
-        {
-          "pos": "T1",
-          "name": "Jackson Suber",
-          "score": "-14",
-          "thru": "9"
-        },
-        {
-          "pos": "T1",
-          "name": "Bud Cauley",
-          "score": "-14",
-          "thru": "8"
-        },
-        {
-          "pos": "4",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "11"
-        },
-        {
-          "pos": "T5",
-          "name": "Matthew Anderson",
-          "score": "-12",
-          "thru": "13"
-        }
-      ]
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-06-14T19:18:58.096Z",
-      "approvedAt": "2026-06-14T19:18:58.096Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jackson Suber leads RBC Canadian Open at -15",
-      "summary": "Jackson Suber is -2 today and -15 overall through 8. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-14), Viktor Hovland (-13).",
-      "quickRead": "Jackson Suber led the RBC Canadian Open at 15-under par, 2-under on his round through eight holes, with Jimmy Stanger and Bud Cauley one shot back at 14-under and Viktor Hovland two back at 13-under.  With the final round in progress at TPC Toronto, Suber’s cushion is slim, and a hot stretch from the chasing pack could flip the leaderboard quickly.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-15",
-          "thru": "8"
-        },
-        {
-          "pos": "T2",
-          "name": "Jimmy Stanger",
-          "score": "-14",
-          "thru": "10"
-        },
-        {
-          "pos": "T2",
-          "name": "Bud Cauley",
-          "score": "-14",
-          "thru": "8"
-        },
-        {
-          "pos": "4",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "11"
-        },
-        {
-          "pos": "T5",
-          "name": "Matthew Anderson",
-          "score": "-12",
-          "thru": "13"
-        }
-      ]
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-06-14T18:52:32.048Z",
-      "approvedAt": "2026-06-14T18:52:32.048Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jackson Suber leads RBC Canadian Open at -15",
-      "summary": "Jackson Suber is -2 today and -15 overall through 7. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-13), Matthew Anderson (-12).",
-      "quickRead": "Jackson Suber holds the RBC Canadian Open lead at 15-under par, 2-under on his final round through seven holes at TPC Toronto’s North Course.  Jimmy Stanger is one back at 14-under, with Bud Cauley at 13-under and a three-way tie for fourth at 12-under (Matthew Anderson, Viktor Hovland, Sam Burns) keeping the chase tight.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-15",
-          "thru": "7"
-        },
-        {
-          "pos": "2",
-          "name": "Jimmy Stanger",
-          "score": "-14",
-          "thru": "8"
-        },
-        {
-          "pos": "3",
-          "name": "Bud Cauley",
-          "score": "-13",
-          "thru": "7"
-        },
-        {
-          "pos": "T4",
-          "name": "Matthew Anderson",
-          "score": "-12",
-          "thru": "12"
-        },
-        {
-          "pos": "T4",
-          "name": "Viktor Hovland",
-          "score": "-12",
-          "thru": "9"
         }
       ]
     },
