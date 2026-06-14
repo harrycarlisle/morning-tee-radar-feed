@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T18:52:35.042Z",
+  "updatedAt": "2026-06-14T19:18:58.098Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-14T19:18:58.096Z",
+      "approvedAt": "2026-06-14T19:18:58.096Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jackson Suber leads RBC Canadian Open at -15",
+      "summary": "Jackson Suber is -2 today and -15 overall through 8. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-14), Viktor Hovland (-13).",
+      "quickRead": "Jackson Suber led the RBC Canadian Open at 15-under par, 2-under on his round through eight holes, with Jimmy Stanger and Bud Cauley one shot back at 14-under and Viktor Hovland two back at 13-under.  With the final round in progress at TPC Toronto, Suber’s cushion is slim, and a hot stretch from the chasing pack could flip the leaderboard quickly.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "RBC Canadian Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-15",
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Jimmy Stanger",
+          "score": "-14",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Bud Cauley",
+          "score": "-14",
+          "thru": "8"
+        },
+        {
+          "pos": "4",
+          "name": "Viktor Hovland",
+          "score": "-13",
+          "thru": "11"
+        },
+        {
+          "pos": "T5",
+          "name": "Matthew Anderson",
+          "score": "-12",
+          "thru": "13"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "26 min ago",
       "timestamp": "2026-06-14T18:52:32.048Z",
       "approvedAt": "2026-06-14T18:52:32.048Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-14T15:12:09.000Z",
       "approvedAt": "2026-06-14T15:47:02.541Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-06-13T23:00:21.922Z",
       "approvedAt": "2026-06-13T23:00:21.922Z",
       "status": "Live",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/hard-instantly-earning-tour-card-014450840.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-06-13T22:30:38.000Z",
-      "approvedAt": "2026-06-13T23:00:23.485Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "South Korean duo takes Dow Championship lead in LPGA team event as Korda and Co...",
-      "summary": "Hyo Joo Kim and Hye-Jin Choi handled a swirling wind Saturday and made enough birdies to be among only six teams who broke par, posting a 1-under 69 in foursomes to build a one-shot lead ...",
-      "quickRead": "Hyo Joo Kim and Hye-Jin Choi shot a 1-under 69 in Saturday’s alternate-shot (foursomes) to reach 10-under 200 and take a one-shot lead at the Dow Championship, while Nelly Korda and Olivia Cowan stumbled to a 76 with just one birdie to sit six back in a tie for 13th.  With Sunday switching to better-ball (fourballs), Korda/Cowan need a low round to chase down the South Korean duo, while Alison Lee/Lilia Vu dropped to third after a triple bogey when Vu’s tee shot went out of bounds.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/south-korean-duo-takes-dow-223038059.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/south-korean-duo-takes-dow-223038059.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "26 min ago",
       "timestamp": "2026-06-14T18:52:23.333Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T18:15:23.333Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T18:52:34.004Z",
-      "approvedAt": "2026-06-14T18:52:34.005Z",
+      "timestamp": "2026-06-14T19:18:58.098Z",
+      "approvedAt": "2026-06-14T19:18:58.098Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Jackson Suber leads RBC Canadian Open at -15",
-      "summary": "Jackson Suber is -2 today and -15 overall through 7. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-13), Matthew Anderson (-12).",
-      "quickRead": "Jackson Suber holds the RBC Canadian Open lead at 15-under par, 2-under on his final round through seven holes at TPC Toronto’s North Course.  Jimmy Stanger is one back at 14-under, with Bud Cauley at 13-under and a three-way tie for fourth at 12-under (Matthew Anderson, Viktor Hovland, Sam Burns) keeping the chase tight.",
+      "summary": "Jackson Suber is -2 today and -15 overall through 8. Closest chasers: Jimmy Stanger (-14), Bud Cauley (-14), Viktor Hovland (-13).",
+      "quickRead": "Jackson Suber led the RBC Canadian Open at 15-under par, 2-under on his round through eight holes, with Jimmy Stanger and Bud Cauley one shot back at 14-under and Viktor Hovland two back at 13-under.  With the final round in progress at TPC Toronto, Suber’s cushion is slim, and a hot stretch from the chasing pack could flip the leaderboard quickly.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -379,31 +413,31 @@
           "pos": "1",
           "name": "Jackson Suber",
           "score": "-15",
-          "thru": "7"
+          "thru": "8"
         },
         {
-          "pos": "2",
+          "pos": "T2",
           "name": "Jimmy Stanger",
+          "score": "-14",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Bud Cauley",
           "score": "-14",
           "thru": "8"
         },
         {
-          "pos": "3",
-          "name": "Bud Cauley",
+          "pos": "4",
+          "name": "Viktor Hovland",
           "score": "-13",
-          "thru": "7"
+          "thru": "11"
         },
         {
-          "pos": "T4",
+          "pos": "T5",
           "name": "Matthew Anderson",
           "score": "-12",
-          "thru": "12"
-        },
-        {
-          "pos": "T4",
-          "name": "Viktor Hovland",
-          "score": "-12",
-          "thru": "9"
+          "thru": "13"
         }
       ]
     }
