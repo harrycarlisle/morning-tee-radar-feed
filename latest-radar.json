@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T17:16:29.966Z",
+  "updatedAt": "2026-06-14T17:16:31.125Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -259,19 +259,19 @@
       "timestamp": "2026-06-14T15:12:09.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Brooks Koepka on course to challenge personal career record just ahea...",
-      "summary": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in o...",
-      "quickRead": "Brooks Koepka may have taken himself out of contention on Saturday at the RBC Canadian Open, but the five-time major champion is still closing in on one of the greatest putting performanc...",
+      "label": "STORY TO WATCH",
+      "title": "Brooks Koepka withdraws from RBC Canadian Open with hand injury",
+      "summary": "A day after revealing he could hardly grip a golf club, Brooks Koepka has withdrawn ahead of the final round at the RBC Canadian Open.",
+      "quickRead": "A day after revealing he could hardly grip a golf club, Brooks Koepka has withdrawn ahead of the final round at the RBC Canadian Open.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-course-challenge-personal-123000744.html",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-withdraws-rbc-canadian-151504315.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-withdraws-rbc-canadian-151504315.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-14T12:30:00.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
+      "timestamp": "2026-06-14T15:15:04.000Z"
     }
   ],
   "checking": {
@@ -322,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T15:47:05.687Z",
-      "approvedAt": "2026-06-14T15:47:05.687Z",
+      "timestamp": "2026-06-14T17:16:31.010Z",
+      "approvedAt": "2026-06-14T17:16:31.010Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber leads RBC Canadian Open at -13",
-      "summary": "Jackson Suber is -13 overall through 1. Closest chasers: Bud Cauley (-12), Wyndham Clark (-11), Brice Garnett (-11).",
-      "quickRead": "Jackson Suber holds the RBC Canadian Open lead at 13-under after three rounds (66-65-66), one shot clear of Bud Cauley at -12, with Wyndham Clark, Brice Garnett, Tommy Fleetwood and Jesper Svensson tied at -11.  Sunday sets up a tight finish at TPC Toronto with multiple proven winners within two shots and Suber trying to close out from the final group.",
+      "title": "Jackson Suber leads RBC Canadian Open at -14",
+      "summary": "Jackson Suber is -1 today and -14 overall through 1. Closest chasers: Jimmy Stanger (-13), Bud Cauley (-13), Sam Burns (-12).",
+      "quickRead": "Jackson Suber led the RBC Canadian Open at 14-under par in Round 4 at TPC Toronto (North Course), sitting at -1 for the day through his first hole.  Jimmy Stanger and Bud Cauley were one back at -13, with Sam Burns at -12 as the closest chasers as the final-round leaderboard tightened early.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -344,32 +344,32 @@
         {
           "pos": "1",
           "name": "Jackson Suber",
+          "score": "-14",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Jimmy Stanger",
+          "score": "-13",
+          "thru": "3"
+        },
+        {
+          "pos": "T2",
+          "name": "Bud Cauley",
           "score": "-13",
           "thru": "1"
         },
         {
-          "pos": "2",
-          "name": "Bud Cauley",
+          "pos": "T4",
+          "name": "Sam Burns",
           "score": "-12",
-          "thru": "1"
+          "thru": "4"
         },
         {
-          "pos": "T3",
-          "name": "Wyndham Clark",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Brice Garnett",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Tommy Fleetwood",
-          "score": "-11",
-          "thru": "1"
+          "score": "-12",
+          "thru": "2"
         }
       ]
     }
