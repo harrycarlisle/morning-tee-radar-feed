@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-viktor-hovland",
-  "updatedAt": "2026-06-08T19:05:14.961Z",
+  "updatedAt": "2026-06-15T20:12:25.946Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -30,6 +30,34 @@
     "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-14",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "WD",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "excluded",
+      "edge": "Excluded due to WD/DQ",
+      "counted": false
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

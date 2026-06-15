@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-viktor-hovland",
-  "updatedAt": "2026-06-08T18:36:36.040Z",
+  "updatedAt": "2026-06-15T19:44:04.965Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 114,
+    "sharedStarts": 115,
     "playerAWins": 59,
-    "playerBWins": 49,
+    "playerBWins": 50,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-14",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T29",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 26 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

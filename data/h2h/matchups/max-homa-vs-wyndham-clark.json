@@ -1,6 +1,6 @@
 {
   "matchupId": "max-homa-vs-wyndham-clark",
-  "updatedAt": "2026-06-08T18:36:37.266Z",
+  "updatedAt": "2026-06-15T19:44:06.016Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 106,
+    "sharedStarts": 107,
     "playerAWins": 53,
-    "playerBWins": 41,
+    "playerBWins": 42,
     "ties": 12
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-14",
+      "eventId": 32,
+      "eventName": "RBC Canadian Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "T20",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 9 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,7 +1,7 @@
 {
-  "matchupId": "fred-couples-vs-jack-nicklaus-prime",
+  "matchupId": "jason-day-vs-rory-mcilroy-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-15T18:01:14.612Z",
+  "updatedAt": "2026-06-15T18:01:14.622Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,34 +10,33 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "Couples, Fred",
-    "displayName": "Fred Couples",
-    "slug": "fred-couples",
+    "name": "Day, Jason",
+    "displayName": "Jason Day",
+    "slug": "jason-day",
     "dgId": null,
-    "country": "USA",
+    "country": "AUS",
     "manualOnly": true
   },
   "playerB": {
-    "name": "Nicklaus, Jack",
-    "displayName": "Jack Nicklaus",
-    "slug": "jack-nicklaus",
-    "dgId": null,
-    "country": "USA",
-    "manualOnly": true
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
   },
   "primeA": {
-    "year": "1992",
-    "displayYear": "1992",
-    "label": "1992, Masters season"
+    "year": "2015",
+    "displayYear": "2015",
+    "label": "2015, PGA Championship season"
   },
   "primeB": {
-    "year": "1972",
-    "displayYear": "1972",
-    "label": "1972, Year of the Golden Bear"
+    "year": "2013-2014",
+    "displayYear": "2014",
+    "label": "2014, two-major season"
   },
   "summary": {
-    "playerAMetricWins": 1,
-    "playerBMetricWins": 8,
+    "playerAMetricWins": 4,
+    "playerBMetricWins": 5,
     "metricTies": 0,
     "totalMetrics": 9
   },
@@ -45,9 +44,9 @@
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 3,
-      "playerB": 7,
-      "winner": "playerB"
+      "playerA": 5,
+      "playerB": 3,
+      "winner": "playerA"
     },
     {
       "key": "majors",
@@ -60,27 +59,27 @@
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 9,
-      "playerB": 11,
-      "winner": "playerB"
+      "playerB": 6,
+      "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 12,
-      "playerB": 14,
+      "playerA": 11,
+      "playerB": 12,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 22,
-      "playerB": 19,
+      "playerA": 20,
+      "playerB": 18,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
-      "playerA": 90.9,
+      "playerA": 90,
       "playerB": 100,
       "suffix": "%",
       "winner": "playerB"
@@ -88,30 +87,30 @@
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 11.5,
-      "playerB": 9.6,
+      "playerA": 11.6,
+      "playerB": 9.3,
       "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -8.1,
-      "playerB": -6.2,
+      "playerA": -10.9,
+      "playerB": -7.2,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 13.6,
-      "playerB": 36.8,
+      "playerA": 25,
+      "playerB": 16.7,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 54.5,
-      "playerB": 73.7,
+      "playerA": 55,
+      "playerB": 66.7,
       "suffix": "%",
       "winner": "playerB"
     }
