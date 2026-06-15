@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-15T09:58:26.861Z",
+  "updatedAt": "2026-06-15T15:48:18.389Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,62 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
-      "timestamp": "2026-06-15T00:04:15.769Z",
-      "approvedAt": "2026-06-15T00:04:15.769Z",
-      "status": "Live",
-      "signal": "Leaderboard",
+      "time": "4 hours ago",
+      "timestamp": "2026-06-15T11:00:00.000Z",
+      "approvedAt": "2026-06-15T15:48:18.385Z",
+      "status": "Confirmed",
+      "signal": "RSS",
       "category": "PGA TOUR",
-      "title": "Jacob Bridgeman wins The Genesis Invitational at -18",
-      "summary": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
-      "quickRead": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "title": "PGA Tour told what they must say to Bryson DeChambeau if he asks to rejoin from...",
+      "summary": "Bryson DeChambeau parted ways with the PGA Tour way back in 2022 as he jumped ship to LIV Golf along with some other huge names in the game.",
+      "quickRead": "Tom Lehman said the PGA Tour should tell Bryson DeChambeau to “start over” and “earn your way back up,” adding that returning LIV players “would be the last guys on the PGA Tour totem poll” and shouldn’t walk back in ahead of loyal members.  The stance matters as DeChambeau’s LIV deal expires after this season and, with PIF ending funding, he may seek a return—but the Tour could make him rebuild status from the bottom.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Genesis Invitational",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jacob Bridgeman",
-          "score": "-18",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Kurt Kitayama",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Rory McIlroy",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Adam Scott",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "5",
-          "name": "Aldrich Potgieter",
-          "score": "-15",
-          "thru": "F"
-        }
-      ]
+      "url": "https://sports.yahoo.com/articles/pga-tour-told-must-bryson-110000175.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-told-must-bryson-110000175.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "alsoMoving": [
     {
-      "time": "49 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-15T09:08:46.000Z",
       "approvedAt": "2026-06-15T09:58:22.045Z",
       "status": "Confirmed",
@@ -94,7 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-14T20:30:00.000Z",
       "approvedAt": "2026-06-15T03:41:45.639Z",
       "status": "Confirmed",
@@ -113,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-14T22:23:51.000Z",
       "approvedAt": "2026-06-15T03:41:45.640Z",
       "status": "Confirmed",
@@ -132,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-14T11:45:51.000Z",
       "approvedAt": "2026-06-15T00:04:17.043Z",
       "status": "Confirmed",
@@ -151,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-14T21:19:00.000Z",
       "approvedAt": "2026-06-14T23:36:56.805Z",
       "status": "Confirmed",
@@ -170,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-14T22:02:46.000Z",
       "approvedAt": "2026-06-14T23:03:53.879Z",
       "status": "Confirmed",
@@ -189,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-14T12:30:00.000Z",
       "approvedAt": "2026-06-14T21:06:11.415Z",
       "status": "Confirmed",
@@ -208,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-06-14T15:15:04.000Z",
       "approvedAt": "2026-06-14T15:47:00.749Z",
       "status": "Confirmed",
@@ -244,6 +210,21 @@
       "timestamp": "2026-06-14T11:45:51.000Z"
     },
     {
+      "label": "LIV WATCH",
+      "title": "PGA Tour told what they must say to Bryson DeChambeau if he asks to r...",
+      "summary": "Tom Lehman said the PGA Tour should tell Bryson DeChambeau to “start over” and “earn your way back up,” adding that returning LIV players “would be...",
+      "quickRead": "Tom Lehman said the PGA Tour should tell Bryson DeChambeau to “start over” and “earn your way back up,” adding that returning LIV players “would be the last guys on the PGA Tour totem poll” and shouldn’t walk back in ahead of loyal members.  The stance matters as DeChambeau’s LIV deal expires after this season and, with PIF ending funding, he may seek a return—but the Tour could make him rebuild status from the bottom.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/pga-tour-told-must-bryson-110000175.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-told-must-bryson-110000175.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-06-15T11:00:00.000Z"
+    },
+    {
       "label": "MAJOR WATCH",
       "title": "This news is not good for Brooks Koepka ahead of next week’s U.S. Open",
       "summary": "The five-time major champion withdrew from the Canadian Open with a hand injury and his status is unclear for Shinnecock Hills, where he won his se...",
@@ -257,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
       "timestamp": "2026-06-14T15:12:09.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "RBC Canadian Open purse, payouts: Bud Cauley grabs inaugural PGA Tour...",
-      "summary": "Bud Cauley's first career win has earned him a spot in next week's major championship.",
-      "quickRead": "Bud Cauley's first career win has earned him a spot in next week's major championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/breaking-news/article/rbc-canadian-open-purse-payouts-bud-cauley-grabs-inaugural-pga-tour-win-in-toronto-earns-us-open-spot-220246941.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/breaking-news/article/rbc-canadian-open-purse-payouts-bud-cauley-grabs-inaugural-pga-tour-win-in-toronto-earns-us-open-spot-220246941.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-06-14T22:02:46.000Z"
     }
   ],
   "checking": {
@@ -292,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-06-15T09:58:03.051Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-15T09:21:03.051Z",
       "status": "Trending",
       "signal": "Reddit find",
