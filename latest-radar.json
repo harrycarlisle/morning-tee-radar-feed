@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-15T00:04:15.773Z",
+  "updatedAt": "2026-06-15T00:04:17.045Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,6 +74,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "12 hours ago",
+      "timestamp": "2026-06-14T11:45:51.000Z",
+      "approvedAt": "2026-06-15T00:04:17.043Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Brooks Koepka Faces Injury Scare at $9.8M Event Only a Week Before U.S. Open",
+      "summary": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
+      "quickRead": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-06-14T21:19:00.000Z",
@@ -164,59 +183,6 @@
       "sourceUrl": "https://sports.yahoo.com/golf/breaking-news/article/rbc-canadian-open-purse-payouts-bud-cauley-grabs-inaugural-pga-tour-win-in-toronto-earns-us-open-spot-220246941.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-06-14T21:06:10.005Z",
-      "approvedAt": "2026-06-14T21:06:10.005Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Bud Cauley leads RBC Canadian Open at -18",
-      "summary": "Bud Cauley is -6 today and -18 overall through 15. Closest chasers: Jimmy Stanger (-14), Viktor Hovland (-13), Matt Fitzpatrick (-13).",
-      "quickRead": "Bud Cauley holds the RBC Canadian Open lead at 18-under after reaching the 15th hole in Round 4 at 6-under for the day.  Jimmy Stanger is four back at 14-under, with Viktor Hovland and Matt Fitzpatrick next at 13-under as the final stretch at TPC Toronto sets up a chase to catch Cauley.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Bud Cauley",
-          "score": "-18",
-          "thru": "15"
-        },
-        {
-          "pos": "2",
-          "name": "Jimmy Stanger",
-          "score": "-14",
-          "thru": "16"
-        },
-        {
-          "pos": "T3",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
-          "name": "Ryan Fox",
-          "score": "-13",
-          "thru": "17"
-        }
-      ]
     },
     {
       "time": "11 hours ago",
