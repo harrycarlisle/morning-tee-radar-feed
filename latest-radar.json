@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-14T23:37:02.122Z",
+  "updatedAt": "2026-06-15T00:04:15.773Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,61 @@
   ],
   "today": [
     {
+      "time": "Just now",
+      "timestamp": "2026-06-15T00:04:15.769Z",
+      "approvedAt": "2026-06-15T00:04:15.769Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jacob Bridgeman wins The Genesis Invitational at -18",
+      "summary": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "quickRead": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Genesis Invitational",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jacob Bridgeman",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Kurt Kitayama",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Rory McIlroy",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Adam Scott",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Aldrich Potgieter",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "2 hours ago",
       "timestamp": "2026-06-14T21:19:00.000Z",
       "approvedAt": "2026-06-14T23:36:56.805Z",
@@ -37,9 +92,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/us-open-golf-history-qualifications-211900142.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-14T22:06:06.853Z",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-14T22:02:46.000Z",
       "approvedAt": "2026-06-14T23:03:53.879Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-14T14:00:00.000Z",
       "approvedAt": "2026-06-14T15:47:02.542Z",
       "status": "Confirmed",
@@ -240,43 +293,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-tweet-send-clear-140000563.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-06-14T11:45:51.000Z",
-      "approvedAt": "2026-06-14T13:52:12.479Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka Faces Injury Scare at $9.8M Event Only a Week Before U.S. Open",
-      "summary": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
-      "quickRead": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "STORY TO WATCH",
-      "title": "Brooks Koepka Faces Injury Scare at $9.8M Event Only a Week Before U...",
-      "summary": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
-      "quickRead": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
-      "timestamp": "2026-06-14T11:45:51.000Z"
-    },
     {
       "label": "MAJOR WATCH",
       "title": "This news is not good for Brooks Koepka ahead of next week’s U.S. Open",
@@ -291,6 +310,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
       "timestamp": "2026-06-14T15:12:09.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Brooks Koepka Faces Injury Scare at $9.8M Event Only a Week Before U...",
+      "summary": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
+      "quickRead": "Brooks Koepka finally looked like his old self after a long adjustment period following his PGA Tour return.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-injury-scare-114551071.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
+      "timestamp": "2026-06-14T11:45:51.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "27 min ago",
       "timestamp": "2026-06-14T23:36:49.448Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-14T22:59:49.448Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-14T23:37:00.393Z",
-      "approvedAt": "2026-06-14T23:37:00.393Z",
+      "timestamp": "2026-06-15T00:04:15.773Z",
+      "approvedAt": "2026-06-15T00:04:15.773Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Bud Cauley wins RBC Canadian Open at -17",
-      "summary": "Bud Cauley wins RBC Canadian Open at -17. Nearest finishers: Matt Fitzpatrick (-15), Viktor Hovland (-14), Jimmy Stanger (-13).",
-      "quickRead": "Bud Cauley won the 2026 RBC Canadian Open at TPC Toronto (Osprey Valley) at 17-under 263, closing with a 65 to beat Matt Fitzpatrick by two shots, with Viktor Hovland third at 14-under.  Cauley earns $1,764,000 and 500 FedExCup points, a big boost for his season as the Tour heads into the next stretch of summer events.",
+      "title": "Jacob Bridgeman wins The Genesis Invitational at -18",
+      "summary": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
+      "quickRead": "Jacob Bridgeman wins The Genesis Invitational at -18. Nearest finishers: Kurt Kitayama (-17), Rory McIlroy (-17), Adam Scott (-16).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -371,38 +405,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "RBC Canadian Open",
+      "tournament": "The Genesis Invitational",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Bud Cauley",
+          "name": "Jacob Bridgeman",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Kurt Kitayama",
           "score": "-17",
           "thru": "F"
         },
         {
-          "pos": "2",
-          "name": "Matt Fitzpatrick",
+          "pos": "T2",
+          "name": "Rory McIlroy",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Adam Scott",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Aldrich Potgieter",
           "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Viktor Hovland",
-          "score": "-14",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Jimmy Stanger",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Brice Garnett",
-          "score": "-13",
           "thru": "F"
         }
       ]
