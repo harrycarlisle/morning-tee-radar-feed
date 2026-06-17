@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-17T16:53:11.783Z",
+  "updatedAt": "2026-06-17T20:07:17.939Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "2 hours ago",
+      "timestamp": "2026-06-17T17:29:13.000Z",
+      "approvedAt": "2026-06-17T20:07:17.936Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "U.S. Open preview: Scottie Scheffler's Grand Slam bid, Rory McIlroy's two goals...",
+      "summary": "The 126th U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/u-open-preview-scottie-schefflers-172913284.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/u-open-preview-scottie-schefflers-172913284.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-06-17T14:34:10.000Z",
       "approvedAt": "2026-06-17T16:53:06.231Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/youngest-u-open-golfer-lives-143410165.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-17T10:01:40.000Z",
       "approvedAt": "2026-06-17T16:53:08.428Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "53 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-17T16:00:00.000Z",
       "approvedAt": "2026-06-17T16:53:08.428Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-17T09:30:00.000Z",
       "approvedAt": "2026-06-17T13:38:53.966Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-17T12:30:00.000Z",
       "approvedAt": "2026-06-17T13:38:56.523Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-17T11:30:00.000Z",
       "approvedAt": "2026-06-17T13:38:56.523Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-17T01:21:45.000Z",
       "approvedAt": "2026-06-17T08:58:19.216Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-06-16T21:22:43.000Z",
       "approvedAt": "2026-06-17T08:58:21.454Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/feels-hit-funny-bone-brooks-212243851.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-06-16T20:03:25.000Z",
-      "approvedAt": "2026-06-17T03:35:26.907Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy, Scottie Scheffler U.S. Open tee times revealed",
-      "summary": "The tee times for the 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-scottie-scheffler-u-200325562.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-scottie-scheffler-u-200325562.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-17T16:52:52.634Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-17T16:15:52.634Z",
       "status": "Trending",
       "signal": "Reddit find",
