@@ -180,7 +180,7 @@ const PLAYERS = {
     manualOnly: true
   },
 
-    ernieEls: {
+  ernieEls: {
     name: "Els, Ernie",
     displayName: "Ernie Els",
     slug: "ernie-els",
@@ -213,6 +213,51 @@ const PLAYERS = {
     slug: "jason-day",
     dgId: null,
     country: "AUS",
+    manualOnly: true
+  },
+
+  adamScott: {
+    name: "Scott, Adam",
+    displayName: "Adam Scott",
+    slug: "adam-scott",
+    dgId: null,
+    country: "AUS",
+    manualOnly: true
+  },
+
+  benHogan: {
+    name: "Hogan, Ben",
+    displayName: "Ben Hogan",
+    slug: "ben-hogan",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  bubbaWatson: {
+    name: "Watson, Bubba",
+    displayName: "Bubba Watson",
+    slug: "bubba-watson",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  jimFuryk: {
+    name: "Furyk, Jim",
+    displayName: "Jim Furyk",
+    slug: "jim-furyk",
+    dgId: null,
+    country: "USA",
+    manualOnly: true
+  },
+
+  justinRose: {
+    name: "Rose, Justin",
+    displayName: "Justin Rose",
+    slug: "justin-rose",
+    dgId: null,
+    country: "ENG",
     manualOnly: true
   },
 
@@ -300,7 +345,7 @@ const PRIME_SEASONS = {
     year: "1960",
     label: "1960, Masters and U.S. Open season"
   },
-    "ernie-els": {
+  "ernie-els": {
     year: "1994",
     label: "1994, U.S. Open breakthrough season"
   },
@@ -375,7 +420,7 @@ const PRIME_MATCHUPS = [
   { playerA: p("davisLoveIII"), playerB: p("tiger") },
   { playerA: p("davisLoveIII"), playerB: p("phil") },
 
-   // Jason Day
+  // Jason Day
   { playerA: p("jasonDay"), playerB: p("rory") },
   { playerA: p("jasonDay"), playerB: p("scottie") },
   { playerA: p("jasonDay"), playerB: p("brooks") },
@@ -386,7 +431,43 @@ const PRIME_MATCHUPS = [
   { playerA: p("fredCouples"), playerB: p("rory") },
   { playerA: p("davisLoveIII"), playerB: p("ernieEls") },
   { playerA: p("jasonDay"), playerB: p("tiger") },
-  { playerA: p("jasonDay"), playerB: p("phil") }
+  { playerA: p("jasonDay"), playerB: p("phil") },
+
+  // Adam Scott
+  { playerA: p("adamScott"), playerB: p("tiger") },
+  { playerA: p("adamScott"), playerB: p("rory") },
+  { playerA: p("adamScott"), playerB: p("phil") },
+  { playerA: p("adamScott"), playerB: p("jasonDay") },
+  { playerA: p("adamScott"), playerB: p("justinRose") },
+  { playerA: p("adamScott"), playerB: p("bubbaWatson") },
+
+  // Ben Hogan
+  { playerA: p("benHogan"), playerB: p("tiger") },
+  { playerA: p("benHogan"), playerB: p("jack") },
+  { playerA: p("benHogan"), playerB: p("byron") },
+  { playerA: p("benHogan"), playerB: p("samSnead") },
+  { playerA: p("benHogan"), playerB: p("arnoldPalmer") },
+
+  // Bubba Watson
+  { playerA: p("bubbaWatson"), playerB: p("phil") },
+  { playerA: p("bubbaWatson"), playerB: p("tiger") },
+  { playerA: p("bubbaWatson"), playerB: p("adamScott") },
+  { playerA: p("bubbaWatson"), playerB: p("jasonDay") },
+
+  // Jim Furyk
+  { playerA: p("jimFuryk"), playerB: p("tiger") },
+  { playerA: p("jimFuryk"), playerB: p("phil") },
+  { playerA: p("jimFuryk"), playerB: p("davisLoveIII") },
+  { playerA: p("jimFuryk"), playerB: p("ernieEls") },
+  { playerA: p("jimFuryk"), playerB: p("justinRose") },
+
+  // Justin Rose
+  { playerA: p("justinRose"), playerB: p("rory") },
+  { playerA: p("justinRose"), playerB: p("tiger") },
+  { playerA: p("justinRose"), playerB: p("phil") },
+  { playerA: p("justinRose"), playerB: p("adamScott") },
+  { playerA: p("justinRose"), playerB: p("jasonDay") }
+
 ];
 
 const MATCHUPS = [
