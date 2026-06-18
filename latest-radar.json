@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-18T08:41:11.528Z",
+  "updatedAt": "2026-06-18T12:48:51.156Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-18T12:48:51.153Z",
+      "approvedAt": "2026-06-18T12:48:51.153Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "James Nicholas leads U.S. Open at E",
+      "summary": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
+      "quickRead": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "James Nicholas",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Caleb Surratt",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Ethan Fang",
+          "score": "E",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Jayden Schaper",
+          "score": "E",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Jackson Suber",
+          "score": "E",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T08:41:07.578Z",
       "approvedAt": "2026-06-18T08:41:07.578Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-17T21:49:36.000Z",
       "approvedAt": "2026-06-18T03:28:23.163Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-17T23:40:57.000Z",
       "approvedAt": "2026-06-18T03:28:24.969Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-18T00:57:08.000Z",
       "approvedAt": "2026-06-18T03:28:24.970Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-17T17:29:13.000Z",
       "approvedAt": "2026-06-17T20:07:17.936Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-17T20:40:00.000Z",
       "approvedAt": "2026-06-17T23:20:08.208Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-17T22:08:09.000Z",
       "approvedAt": "2026-06-17T23:20:08.209Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-17T16:57:33.000Z",
       "approvedAt": "2026-06-17T20:07:20.226Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-praised-spotted-doing-165733619.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-06-17T18:13:20.000Z",
-      "approvedAt": "2026-06-17T20:07:20.227Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brace for impact: Shinnecock's winds could turn the U.S. Open into a survival test",
-      "summary": "Shinnecock is the most revered and fearsome test in major championship golf, a windswept brute capable of bringing anyone and everyone in the field to their knees.",
-      "quickRead": "Shinnecock is the most revered and fearsome test in major championship golf, a windswept brute capable of bringing anyone and everyone in the field to their knees.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/brace-for-impact-shinnecocks-winds-could-turn-the-us-open-into-a-survival-test-181320761.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/brace-for-impact-shinnecocks-winds-could-turn-the-us-open-into-a-survival-test-181320761.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -259,19 +293,19 @@
       "timestamp": "2026-06-17T23:40:57.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "U.S. Open 2026: Brandel Chamblee has an interesting theory about Scot...",
-      "summary": "On Live From, Brandel Chamblee breaks down Scottie Scheffler's golf swing",
-      "quickRead": "On Live From, Brandel Chamblee breaks down Scottie Scheffler's golf swing",
+      "label": "STORY TO WATCH",
+      "title": "Bryson DeChambeau praised for what he was spotted doing with Jackson...",
+      "summary": "Bryson DeChambeau and Jackson Koivun are both in the US Open field at Shinnecock Hills this week.",
+      "quickRead": "Bryson DeChambeau and Jackson Koivun are both in the US Open field at Shinnecock Hills this week.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/u-open-2026-brandel-chamblee-220809126.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/u-open-2026-brandel-chamblee-220809126.html",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-praised-spotted-doing-165733619.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-praised-spotted-doing-165733619.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
-      "timestamp": "2026-06-17T22:08:09.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-06-17T16:57:33.000Z"
     }
   ],
   "checking": {
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T08:40:58.540Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T08:03:58.540Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-18T08:41:10.089Z",
-      "approvedAt": "2026-06-18T08:41:10.089Z",
+      "timestamp": "2026-06-18T12:48:51.156Z",
+      "approvedAt": "2026-06-18T12:48:51.156Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "James Nicholas wins U.S. Open at -",
-      "summary": "James Nicholas wins U.S. Open at -. Nearest finishers: Taylor Montgomery (-), Caleb Surratt (-), Chandler Phillips (-).",
-      "quickRead": "James Nicholas wins U.S. Open at -. Nearest finishers: Taylor Montgomery (-), Caleb Surratt (-), Chandler Phillips (-).",
+      "title": "James Nicholas leads U.S. Open at E",
+      "summary": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
+      "quickRead": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -342,34 +376,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "-",
+          "pos": "T1",
           "name": "James Nicholas",
-          "score": "-",
-          "thru": "1"
+          "score": "E",
+          "thru": "2"
         },
         {
-          "pos": "-",
-          "name": "Taylor Montgomery",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
+          "pos": "T1",
           "name": "Caleb Surratt",
-          "score": "-",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Ethan Fang",
+          "score": "E",
           "thru": "1"
         },
         {
-          "pos": "-",
-          "name": "Chandler Phillips",
-          "score": "-",
-          "thru": "10"
+          "pos": "T1",
+          "name": "Jayden Schaper",
+          "score": "E",
+          "thru": "1"
         },
         {
-          "pos": "-",
-          "name": "Harry Higgs",
-          "score": "-",
-          "thru": "10"
+          "pos": "T1",
+          "name": "Jackson Suber",
+          "score": "E",
+          "thru": "1"
         }
       ]
     }
