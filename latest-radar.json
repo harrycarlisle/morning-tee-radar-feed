@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-18T16:54:17.124Z",
+  "updatedAt": "2026-06-18T20:18:51.641Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-18T20:18:51.638Z",
+      "approvedAt": "2026-06-18T20:18:51.639Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sam Stevens leads U.S. Open at -2",
+      "summary": "Sam Stevens is -2 today and -2 overall through F*. Closest chasers: Ryder Cowan (-2), Aaron Rai (-2), Wyndham Clark (-2).",
+      "quickRead": "Sam Stevens is -2 today and -2 overall through F*. Closest chasers: Ryder Cowan (-2), Aaron Rai (-2), Wyndham Clark (-2).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sam Stevens",
+          "score": "-2",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Ryder Cowan",
+          "score": "-2",
+          "thru": "6*"
+        },
+        {
+          "pos": "T1",
+          "name": "Aaron Rai",
+          "score": "-2",
+          "thru": "4*"
+        },
+        {
+          "pos": "T1",
+          "name": "Wyndham Clark",
+          "score": "-2",
+          "thru": "2*"
+        },
+        {
+          "pos": "T5",
+          "name": "Rory McIlroy",
+          "score": "-1",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-18T16:54:12.106Z",
       "approvedAt": "2026-06-18T16:54:12.106Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "9*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "28 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-18T16:25:46.253Z",
       "approvedAt": "2026-06-18T16:25:46.253Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-18T12:49:47.000Z",
       "approvedAt": "2026-06-18T16:25:47.536Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-18T14:57:48.000Z",
       "approvedAt": "2026-06-18T16:25:47.537Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-18T12:48:51.153Z",
       "approvedAt": "2026-06-18T12:48:51.153Z",
       "status": "Live",
@@ -219,7 +272,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-18T04:40:01.000Z",
       "approvedAt": "2026-06-18T12:48:53.049Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-18T11:40:20.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-18T11:02:40.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -272,25 +325,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/2026-us-open-round-1-110240248.html",
       "sourceUrl": "https://sports.yahoo.com/articles/2026-us-open-round-1-110240248.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-06-18T10:00:00.000Z",
-      "approvedAt": "2026-06-18T12:48:53.050Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The changes the USGA have made to Shinnecock after ominous US Open weather fore...",
-      "summary": "The 2026 US Open at Shinnecock Hills has the chance to be the most difficult major championship in years.",
-      "quickRead": "The 2026 US Open at Shinnecock Hills has the chance to be the most difficult major championship in years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/changes-usga-made-shinnecock-ominous-100000116.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/changes-usga-made-shinnecock-ominous-100000116.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-18T16:54:00.623Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +408,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T16:17:00.623Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +424,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-18T16:54:15.516Z",
-      "approvedAt": "2026-06-18T16:54:15.516Z",
+      "timestamp": "2026-06-18T20:18:51.641Z",
+      "approvedAt": "2026-06-18T20:18:51.641Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sam Stevens leads U.S. Open at -1",
-      "summary": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
-      "quickRead": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
+      "title": "Sam Stevens leads U.S. Open at -2",
+      "summary": "Sam Stevens is -2 today and -2 overall through F*. Closest chasers: Ryder Cowan (-2), Aaron Rai (-2), Wyndham Clark (-2).",
+      "quickRead": "Sam Stevens is -2 today and -2 overall through F*. Closest chasers: Ryder Cowan (-2), Aaron Rai (-2), Wyndham Clark (-2).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -412,32 +446,32 @@
         {
           "pos": "T1",
           "name": "Sam Stevens",
-          "score": "-1",
-          "thru": "13*"
+          "score": "-2",
+          "thru": "F*"
         },
         {
           "pos": "T1",
-          "name": "Kristoffer Reitan",
-          "score": "-1",
-          "thru": "11*"
+          "name": "Ryder Cowan",
+          "score": "-2",
+          "thru": "6*"
         },
         {
           "pos": "T1",
-          "name": "Sam Burns",
-          "score": "-1",
-          "thru": "10*"
+          "name": "Aaron Rai",
+          "score": "-2",
+          "thru": "4*"
         },
         {
           "pos": "T1",
-          "name": "Patrick Reed",
-          "score": "-1",
-          "thru": "9"
+          "name": "Wyndham Clark",
+          "score": "-2",
+          "thru": "2*"
         },
         {
-          "pos": "T1",
-          "name": "Ludvig Åberg",
+          "pos": "T5",
+          "name": "Rory McIlroy",
           "score": "-1",
-          "thru": "9*"
+          "thru": "F*"
         }
       ]
     }
