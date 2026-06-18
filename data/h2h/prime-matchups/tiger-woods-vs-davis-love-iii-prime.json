@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-tiger-woods-prime",
+  "matchupId": "tiger-woods-vs-davis-love-iii-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.038Z",
+  "updatedAt": "2026-06-18T16:12:41.081Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,108 +10,109 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
-  },
-  "playerB": {
     "name": "Woods, Tiger",
     "displayName": "Tiger Woods",
     "slug": "tiger-woods",
     "dgId": 5321,
     "country": "USA"
   },
-  "primeA": {
-    "year": "2013-2014",
-    "displayYear": "2014",
-    "label": "2014, two-major season"
+  "playerB": {
+    "name": "Love III, Davis",
+    "displayName": "Davis Love III",
+    "slug": "davis-love-iii",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
   },
-  "primeB": {
+  "primeA": {
     "year": "2000",
     "displayYear": "2000",
     "label": "2000, peak Tiger"
   },
+  "primeB": {
+    "year": "1997",
+    "displayYear": "1997",
+    "label": "1997, PGA Championship season"
+  },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
-    "metricTies": 1,
+    "playerAMetricWins": 9,
+    "playerBMetricWins": 0,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 3,
-      "playerB": 9,
-      "winner": "playerB"
+      "playerA": 9,
+      "playerB": 2,
+      "winner": "playerA"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerA": 3,
+      "playerB": 1,
+      "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 6,
-      "playerB": 17,
-      "winner": "playerB"
+      "playerA": 17,
+      "playerB": 3,
+      "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 12,
-      "playerB": 17,
-      "winner": "playerB"
+      "playerA": 17,
+      "playerB": 13,
+      "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 18,
-      "playerB": 20,
+      "playerA": 20,
+      "playerB": 23,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
       "playerA": 100,
-      "playerB": 100,
+      "playerB": 95.7,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerA"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 9.3,
-      "playerB": 4.3,
-      "winner": "playerB"
+      "playerA": 4.3,
+      "playerB": 19.2,
+      "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -7.2,
-      "playerB": -13.8,
-      "winner": "playerB"
+      "playerA": -13.8,
+      "playerB": -4.8,
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 16.7,
-      "playerB": 45,
+      "playerA": 45,
+      "playerB": 8.7,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 66.7,
-      "playerB": 85,
+      "playerA": 85,
+      "playerB": 56.5,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     }
   ]
 }

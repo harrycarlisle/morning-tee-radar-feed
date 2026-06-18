@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-tiger-woods-prime",
+  "matchupId": "rory-mcilroy-vs-ernie-els-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.038Z",
+  "updatedAt": "2026-06-18T16:12:41.050Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -17,11 +17,12 @@
     "country": "NIR"
   },
   "playerB": {
-    "name": "Woods, Tiger",
-    "displayName": "Tiger Woods",
-    "slug": "tiger-woods",
-    "dgId": 5321,
-    "country": "USA"
+    "name": "Els, Ernie",
+    "displayName": "Ernie Els",
+    "slug": "ernie-els",
+    "dgId": null,
+    "country": "RSA",
+    "manualOnly": true
   },
   "primeA": {
     "year": "2013-2014",
@@ -29,14 +30,14 @@
     "label": "2014, two-major season"
   },
   "primeB": {
-    "year": "2000",
-    "displayYear": "2000",
-    "label": "2000, peak Tiger"
+    "year": "1994",
+    "displayYear": "1994",
+    "label": "1994, U.S. Open breakthrough season"
   },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
-    "metricTies": 1,
+    "playerAMetricWins": 9,
+    "playerBMetricWins": 0,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
@@ -44,74 +45,74 @@
       "key": "wins",
       "label": "Wins",
       "playerA": 3,
-      "playerB": 9,
-      "winner": "playerB"
+      "playerB": 1,
+      "winner": "playerA"
     },
     {
       "key": "majors",
       "label": "Majors",
       "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerB": 1,
+      "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 6,
-      "playerB": 17,
-      "winner": "playerB"
+      "playerB": 3,
+      "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
       "playerA": 12,
-      "playerB": 17,
-      "winner": "playerB"
+      "playerB": 4,
+      "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
       "playerA": 18,
-      "playerB": 20,
+      "playerB": 11,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
       "playerA": 100,
-      "playerB": 100,
+      "playerB": 90.9,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerA"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
       "playerA": 9.3,
-      "playerB": 4.3,
-      "winner": "playerB"
+      "playerB": 20,
+      "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
       "playerA": -7.2,
-      "playerB": -13.8,
-      "winner": "playerB"
+      "playerB": -2.1,
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
       "playerA": 16.7,
-      "playerB": 45,
+      "playerB": 9.1,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
       "playerA": 66.7,
-      "playerB": 85,
+      "playerB": 36.4,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-tiger-woods-prime",
+  "matchupId": "rory-mcilroy-vs-jason-day-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.038Z",
+  "updatedAt": "2026-06-18T16:12:41.056Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -17,11 +17,12 @@
     "country": "NIR"
   },
   "playerB": {
-    "name": "Woods, Tiger",
-    "displayName": "Tiger Woods",
-    "slug": "tiger-woods",
-    "dgId": 5321,
-    "country": "USA"
+    "name": "Day, Jason",
+    "displayName": "Jason Day",
+    "slug": "jason-day",
+    "dgId": null,
+    "country": "AUS",
+    "manualOnly": true
   },
   "primeA": {
     "year": "2013-2014",
@@ -29,14 +30,14 @@
     "label": "2014, two-major season"
   },
   "primeB": {
-    "year": "2000",
-    "displayYear": "2000",
-    "label": "2000, peak Tiger"
+    "year": "2015",
+    "displayYear": "2015",
+    "label": "2015, PGA Championship season"
   },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
-    "metricTies": 1,
+    "playerAMetricWins": 5,
+    "playerBMetricWins": 4,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
@@ -44,29 +45,29 @@
       "key": "wins",
       "label": "Wins",
       "playerA": 3,
-      "playerB": 9,
+      "playerB": 5,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
       "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerB": 1,
+      "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 6,
-      "playerB": 17,
+      "playerB": 9,
       "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
       "playerA": 12,
-      "playerB": 17,
-      "winner": "playerB"
+      "playerB": 11,
+      "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
@@ -79,29 +80,29 @@
       "key": "cutRate",
       "label": "Made-cut rate",
       "playerA": 100,
-      "playerB": 100,
+      "playerB": 90,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerA"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
       "playerA": 9.3,
-      "playerB": 4.3,
-      "winner": "playerB"
+      "playerB": 11.6,
+      "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
       "playerA": -7.2,
-      "playerB": -13.8,
+      "playerB": -10.9,
       "winner": "playerB"
     },
     {
       "key": "winRate",
       "label": "Win rate",
       "playerA": 16.7,
-      "playerB": 45,
+      "playerB": 25,
       "suffix": "%",
       "winner": "playerB"
     },
@@ -109,9 +110,9 @@
       "key": "top10Rate",
       "label": "Top 10 rate",
       "playerA": 66.7,
-      "playerB": 85,
+      "playerB": 55,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     }
   ]
 }

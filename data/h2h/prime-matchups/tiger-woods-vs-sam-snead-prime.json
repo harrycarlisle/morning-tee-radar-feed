@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-tiger-woods-prime",
+  "matchupId": "tiger-woods-vs-sam-snead-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.038Z",
+  "updatedAt": "2026-06-18T16:12:41.074Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,32 +10,33 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
-  },
-  "playerB": {
     "name": "Woods, Tiger",
     "displayName": "Tiger Woods",
     "slug": "tiger-woods",
     "dgId": 5321,
     "country": "USA"
   },
-  "primeA": {
-    "year": "2013-2014",
-    "displayYear": "2014",
-    "label": "2014, two-major season"
+  "playerB": {
+    "name": "Snead, Sam",
+    "displayName": "Sam Snead",
+    "slug": "sam-snead",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
   },
-  "primeB": {
+  "primeA": {
     "year": "2000",
     "displayYear": "2000",
     "label": "2000, peak Tiger"
   },
+  "primeB": {
+    "year": "1950",
+    "displayYear": "1950",
+    "label": "1950, 11-win season"
+  },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
+    "playerAMetricWins": 3,
+    "playerBMetricWins": 5,
     "metricTies": 1,
     "totalMetrics": 9
   },
@@ -43,36 +44,36 @@
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 3,
-      "playerB": 9,
+      "playerA": 9,
+      "playerB": 10,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerA": 3,
+      "playerB": 0,
+      "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 6,
-      "playerB": 17,
+      "playerA": 17,
+      "playerB": 22,
       "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 12,
-      "playerB": 17,
+      "playerA": 17,
+      "playerB": 28,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 18,
-      "playerB": 20,
+      "playerA": 20,
+      "playerB": 31,
       "winner": "neutral"
     },
     {
@@ -86,30 +87,30 @@
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 9.3,
-      "playerB": 4.3,
+      "playerA": 4.3,
+      "playerB": 4.2,
       "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -7.2,
-      "playerB": -13.8,
-      "winner": "playerB"
+      "playerA": -13.8,
+      "playerB": -6.2,
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 16.7,
-      "playerB": 45,
+      "playerA": 45,
+      "playerB": 32.3,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 66.7,
-      "playerB": 85,
+      "playerA": 85,
+      "playerB": 90.3,
       "suffix": "%",
       "winner": "playerB"
     }

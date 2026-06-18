@@ -1,7 +1,7 @@
 {
-  "matchupId": "rory-mcilroy-vs-tiger-woods-prime",
+  "matchupId": "scottie-scheffler-vs-vijay-singh-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.038Z",
+  "updatedAt": "2026-06-18T16:12:41.015Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -10,32 +10,33 @@
     "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
   },
   "playerA": {
-    "name": "McIlroy, Rory",
-    "displayName": "Rory McIlroy",
-    "slug": "rory-mcilroy",
-    "dgId": 10091,
-    "country": "NIR"
-  },
-  "playerB": {
-    "name": "Woods, Tiger",
-    "displayName": "Tiger Woods",
-    "slug": "tiger-woods",
-    "dgId": 5321,
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
     "country": "USA"
   },
+  "playerB": {
+    "name": "Singh, Vijay",
+    "displayName": "Vijay Singh",
+    "slug": "vijay-singh",
+    "dgId": null,
+    "country": "FIJ",
+    "manualOnly": true
+  },
   "primeA": {
-    "year": "2013-2014",
-    "displayYear": "2014",
-    "label": "2014, two-major season"
+    "year": "2024",
+    "displayYear": "2024",
+    "label": "2024, dominant modern season"
   },
   "primeB": {
-    "year": "2000",
-    "displayYear": "2000",
-    "label": "2000, peak Tiger"
+    "year": "2004",
+    "displayYear": "2004",
+    "label": "2004, nine-win season"
   },
   "summary": {
-    "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
+    "playerAMetricWins": 5,
+    "playerBMetricWins": 3,
     "metricTies": 1,
     "totalMetrics": 9
   },
@@ -43,75 +44,75 @@
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 3,
+      "playerA": 8,
       "playerB": 9,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
-      "playerB": 3,
-      "winner": "playerB"
+      "playerA": 1,
+      "playerB": 1,
+      "winner": "tie"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 6,
-      "playerB": 17,
+      "playerA": 13,
+      "playerB": 14,
       "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 12,
-      "playerB": 17,
+      "playerA": 17,
+      "playerB": 18,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 18,
-      "playerB": 20,
+      "playerA": 20,
+      "playerB": 29,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
       "playerA": 100,
-      "playerB": 100,
+      "playerB": 96.6,
       "suffix": "%",
-      "winner": "tie"
+      "winner": "playerA"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 9.3,
-      "playerB": 4.3,
-      "winner": "playerB"
+      "playerA": 7.3,
+      "playerB": 11.6,
+      "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -7.2,
-      "playerB": -13.8,
-      "winner": "playerB"
+      "playerA": -13.4,
+      "playerB": -8.8,
+      "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 16.7,
-      "playerB": 45,
+      "playerA": 40,
+      "playerB": 31,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 66.7,
-      "playerB": 85,
+      "playerA": 85,
+      "playerB": 62.1,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "playerA"
     }
   ]
 }
