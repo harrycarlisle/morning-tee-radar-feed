@@ -1,7 +1,22 @@
 {
   "active": true,
-  "updatedAt": "2026-06-18T12:48:57.576Z",
+  "updatedAt": "2026-06-18T12:49:00.560Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "4 hours ago",
+      "timestamp": "2026-06-18T08:03:58.540Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-06-18T12:49:00.560Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "4 hours ago",
@@ -1872,22 +1887,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-06-10T08:03:45.577Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "PGA Tour schedule upheaval claims its first tournament",
-      "summary": "The Rocket Classic (formerly Rocket Mortgage Classic) will leave the PGA Tour schedule after its 2026 edition in Detroit, with title sponsor Rocket...",
-      "quickRead": "The Rocket Classic (formerly Rocket Mortgage Classic) will leave the PGA Tour schedule after its 2026 edition in Detroit, with title sponsor Rocket Mortgage declining its option to continue in 2027.  It’s the first event to fall amid CEO Brian Rolapp’s coming “two-track” schedule shift toward fewer, higher-purse tournaments—pressure that has also grown because the Rocket Classic often drew weaker fields on the post-Open, pre-playoffs stretch.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-schedule-upheaval-claims-015723966.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-schedule-upheaval-claims-015723966.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-06-10T01:57:23.000Z",
-      "archivedAt": "2026-06-10T02:54:51.589Z"
     }
   ]
 }
