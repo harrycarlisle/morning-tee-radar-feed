@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-18T16:25:52.359Z",
+  "updatedAt": "2026-06-18T16:54:12.108Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-18T16:54:12.106Z",
+      "approvedAt": "2026-06-18T16:54:12.106Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sam Stevens leads U.S. Open at -1",
+      "summary": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
+      "quickRead": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sam Stevens",
+          "score": "-1",
+          "thru": "13*"
+        },
+        {
+          "pos": "T1",
+          "name": "Kristoffer Reitan",
+          "score": "-1",
+          "thru": "11*"
+        },
+        {
+          "pos": "T1",
+          "name": "Sam Burns",
+          "score": "-1",
+          "thru": "10*"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Reed",
+          "score": "-1",
+          "thru": "9"
+        },
+        {
+          "pos": "T1",
+          "name": "Ludvig Åberg",
+          "score": "-1",
+          "thru": "9*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "28 min ago",
       "timestamp": "2026-06-18T16:25:46.253Z",
       "approvedAt": "2026-06-18T16:25:46.253Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "11*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T12:49:47.000Z",
       "approvedAt": "2026-06-18T16:25:47.536Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T12:48:51.153Z",
       "approvedAt": "2026-06-18T12:48:51.153Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-18T04:40:01.000Z",
       "approvedAt": "2026-06-18T12:48:53.049Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-18T11:40:20.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/changes-usga-made-shinnecock-ominous-100000116.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-06-17T21:49:36.000Z",
-      "approvedAt": "2026-06-18T03:28:23.163Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau recognizes major struggles before 2026 US Open",
-      "summary": "Bryson DeChambeau will take the course at Shinnecock Hills Golf Club for the 126th playing of the U.S.",
-      "quickRead": "Bryson DeChambeau will take the course at Shinnecock Hills Golf Club for the 126th playing of the U.S.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-recognizes-major-struggles-214936231.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-recognizes-major-struggles-214936231.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "28 min ago",
       "timestamp": "2026-06-18T16:25:31.512Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-18T15:48:31.512Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-18T16:25:51.020Z",
-      "approvedAt": "2026-06-18T16:25:51.021Z",
+      "timestamp": "2026-06-18T16:54:12.108Z",
+      "approvedAt": "2026-06-18T16:54:12.108Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sam Burns leads U.S. Open at -1",
-      "summary": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
-      "quickRead": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
+      "title": "Sam Stevens leads U.S. Open at -1",
+      "summary": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
+      "quickRead": "Sam Stevens is -1 today and -1 overall through 13*. Closest chasers: Kristoffer Reitan (-1), Sam Burns (-1), Patrick Reed (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -377,33 +411,33 @@
       "leaders": [
         {
           "pos": "T1",
+          "name": "Sam Stevens",
+          "score": "-1",
+          "thru": "13*"
+        },
+        {
+          "pos": "T1",
+          "name": "Kristoffer Reitan",
+          "score": "-1",
+          "thru": "11*"
+        },
+        {
+          "pos": "T1",
           "name": "Sam Burns",
           "score": "-1",
-          "thru": "8*"
+          "thru": "10*"
         },
         {
           "pos": "T1",
           "name": "Patrick Reed",
           "score": "-1",
-          "thru": "7"
+          "thru": "9"
         },
         {
           "pos": "T1",
           "name": "Ludvig Åberg",
           "score": "-1",
-          "thru": "8*"
-        },
-        {
-          "pos": "T1",
-          "name": "Ben James",
-          "score": "-1",
-          "thru": "6*"
-        },
-        {
-          "pos": "T5",
-          "name": "Sam Stevens",
-          "score": "E",
-          "thru": "11*"
+          "thru": "9*"
         }
       ]
     }
