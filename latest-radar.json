@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-18T12:49:02.152Z",
+  "updatedAt": "2026-06-18T16:25:46.256Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-18T16:25:46.253Z",
+      "approvedAt": "2026-06-18T16:25:46.253Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sam Burns leads U.S. Open at -1",
+      "summary": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
+      "quickRead": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sam Burns",
+          "score": "-1",
+          "thru": "8*"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Reed",
+          "score": "-1",
+          "thru": "7"
+        },
+        {
+          "pos": "T1",
+          "name": "Ludvig Åberg",
+          "score": "-1",
+          "thru": "8*"
+        },
+        {
+          "pos": "T1",
+          "name": "Ben James",
+          "score": "-1",
+          "thru": "6*"
+        },
+        {
+          "pos": "T5",
+          "name": "Sam Stevens",
+          "score": "E",
+          "thru": "11*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-18T12:48:51.153Z",
       "approvedAt": "2026-06-18T12:48:51.153Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-18T04:40:01.000Z",
       "approvedAt": "2026-06-18T12:48:53.049Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T11:40:20.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-18T11:02:40.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-18T10:00:00.000Z",
       "approvedAt": "2026-06-18T12:48:53.050Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-18T08:41:07.578Z",
       "approvedAt": "2026-06-18T08:41:07.578Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-17T21:49:36.000Z",
       "approvedAt": "2026-06-18T03:28:23.163Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-17T23:40:57.000Z",
       "approvedAt": "2026-06-18T03:28:24.969Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-problem-scottie-scheffler-given-234057900.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-06-18T00:57:08.000Z",
-      "approvedAt": "2026-06-18T03:28:24.970Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Most majors post-Tiger? The list tells a remarkably simple story",
-      "summary": "As majors play on without Tiger or Phil, it's worth exploring: Who has the most men's majors since them?",
-      "quickRead": "As majors play on without Tiger or Phil, it's worth exploring: Who has the most men's majors since them?",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/most-majors-post-tiger-list-005708646.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/most-majors-post-tiger-list-005708646.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-18T12:48:39.547Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-18T12:11:39.548Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-18T12:48:59.035Z",
-      "approvedAt": "2026-06-18T12:48:59.035Z",
+      "timestamp": "2026-06-18T16:25:46.256Z",
+      "approvedAt": "2026-06-18T16:25:46.256Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "James Nicholas leads U.S. Open at E",
-      "summary": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
-      "quickRead": "James Nicholas is E today and E overall through 2. Closest chasers: Caleb Surratt (E), Ethan Fang (E), Jayden Schaper (E).",
+      "title": "Sam Burns leads U.S. Open at -1",
+      "summary": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
+      "quickRead": "Sam Burns is -1 today and -1 overall through 8*. Closest chasers: Patrick Reed (-1), Ludvig Åberg (-1), Ben James (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -377,33 +411,33 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "James Nicholas",
-          "score": "E",
-          "thru": "2"
+          "name": "Sam Burns",
+          "score": "-1",
+          "thru": "8*"
         },
         {
           "pos": "T1",
-          "name": "Caleb Surratt",
-          "score": "E",
-          "thru": "2"
+          "name": "Patrick Reed",
+          "score": "-1",
+          "thru": "7"
         },
         {
           "pos": "T1",
-          "name": "Ethan Fang",
-          "score": "E",
-          "thru": "1"
+          "name": "Ludvig Åberg",
+          "score": "-1",
+          "thru": "8*"
         },
         {
           "pos": "T1",
-          "name": "Jayden Schaper",
-          "score": "E",
-          "thru": "1"
+          "name": "Ben James",
+          "score": "-1",
+          "thru": "6*"
         },
         {
-          "pos": "T1",
-          "name": "Jackson Suber",
+          "pos": "T5",
+          "name": "Sam Stevens",
           "score": "E",
-          "thru": "1"
+          "thru": "11*"
         }
       ]
     }
