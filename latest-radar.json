@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-19T16:30:35.088Z",
+  "updatedAt": "2026-06-19T19:43:20.107Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-19T19:43:20.104Z",
+      "approvedAt": "2026-06-19T19:43:20.104Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Harry Higgs (-3).",
+      "quickRead": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Harry Higgs (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Xander Schauffele",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Harry Higgs",
+          "score": "-3",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Max Greyserman",
+          "score": "-3",
+          "thru": "4"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T16:30:29.979Z",
       "approvedAt": "2026-06-19T16:30:29.979Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-19T14:00:00.000Z",
       "approvedAt": "2026-06-19T16:30:30.999Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-19T13:30:20.000Z",
       "approvedAt": "2026-06-19T16:30:31.000Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-19T14:29:48.000Z",
       "approvedAt": "2026-06-19T16:30:31.000Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-19T13:32:30.881Z",
       "approvedAt": "2026-06-19T13:32:30.881Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-19T13:00:00.000Z",
       "approvedAt": "2026-06-19T13:32:32.291Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-19T12:58:09.000Z",
       "approvedAt": "2026-06-19T13:32:32.292Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-19T11:31:00.000Z",
       "approvedAt": "2026-06-19T13:32:32.292Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/watch-bryson-dechambeau-hits-427-214622232.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-06-19T03:38:12.000Z",
-      "approvedAt": "2026-06-19T09:03:57.709Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "That U.S. Open fan who appeared to grab Rory McIlroy's ball? There's a plot twist",
-      "summary": "A fan appeared to pick up Rory McIlroy's ball in the opening round of the U.S.",
-      "quickRead": "A fan appeared to pick up Rory McIlroy's ball in the opening round of the U.S.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/u-open-fan-appeared-grab-033812469.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/u-open-fan-appeared-grab-033812469.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T16:30:16.782Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T15:53:16.782Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-19T16:30:33.925Z",
-      "approvedAt": "2026-06-19T16:30:33.925Z",
+      "timestamp": "2026-06-19T19:43:20.107Z",
+      "approvedAt": "2026-06-19T19:43:20.107Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Wyndham Clark leads U.S. Open at -7",
-      "summary": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
-      "quickRead": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
+      "summary": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Harry Higgs (-3).",
+      "quickRead": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Harry Higgs (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -379,31 +413,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-7",
-          "thru": "15"
+          "thru": "F"
         },
         {
           "pos": "T2",
-          "name": "Collin Morikawa",
+          "name": "Matt Fitzpatrick",
           "score": "-3",
-          "thru": "16"
+          "thru": "F"
         },
         {
           "pos": "T2",
           "name": "Xander Schauffele",
           "score": "-3",
-          "thru": "13*"
+          "thru": "F*"
         },
         {
-          "pos": "4",
-          "name": "Sam Stevens",
-          "score": "-2",
-          "thru": "1"
+          "pos": "T2",
+          "name": "Harry Higgs",
+          "score": "-3",
+          "thru": "11"
         },
         {
-          "pos": "T5",
-          "name": "Matt Fitzpatrick",
-          "score": "-1",
-          "thru": "15"
+          "pos": "T2",
+          "name": "Max Greyserman",
+          "score": "-3",
+          "thru": "4"
         }
       ]
     }
