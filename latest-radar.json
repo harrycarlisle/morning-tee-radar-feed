@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-19T21:05:22.633Z",
+  "updatedAt": "2026-06-19T22:51:48.591Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-06-19T22:51:48.589Z",
+      "approvedAt": "2026-06-19T22:51:48.589Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark wins U.S. Open at -7",
+      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Xander Schauffele",
+          "score": "-3",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Stevens",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Collin Morikawa",
+          "score": "-2",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T19:43:20.104Z",
       "approvedAt": "2026-06-19T19:43:20.104Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "4"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-19T15:45:02.000Z",
       "approvedAt": "2026-06-19T21:05:17.533Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-19T18:02:53.000Z",
       "approvedAt": "2026-06-19T21:05:17.533Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T19:30:08.000Z",
       "approvedAt": "2026-06-19T19:43:21.452Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T19:00:00.000Z",
       "approvedAt": "2026-06-19T19:43:21.453Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-19T17:53:32.000Z",
       "approvedAt": "2026-06-19T19:43:21.453Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-19T16:30:29.979Z",
       "approvedAt": "2026-06-19T16:30:29.979Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-19T14:00:00.000Z",
       "approvedAt": "2026-06-19T16:30:30.999Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-criticized-did-just-140000583.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-06-19T13:30:20.000Z",
-      "approvedAt": "2026-06-19T16:30:31.000Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "LIV golfer penalized for club throw at U.S. Open, cards 11",
-      "summary": "This LIV Golf player received a two-stroke penalty for throwing a club at the US Open marking a first under new rule for 'serious misconduct.'",
-      "quickRead": "This LIV Golf player received a two-stroke penalty for throwing a club at the US Open marking a first under new rule for 'serious misconduct.'",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golfer-penalized-club-throw-133020411.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golfer-penalized-club-throw-133020411.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-19T21:05:03.438Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-19T20:28:03.438Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-19T21:05:21.302Z",
-      "approvedAt": "2026-06-19T21:05:21.302Z",
+      "timestamp": "2026-06-19T22:51:48.591Z",
+      "approvedAt": "2026-06-19T22:51:48.591Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -7",
-      "summary": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
-      "quickRead": "Wyndham Clark is -1 today and -7 overall through F. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "title": "Wyndham Clark wins U.S. Open at -7",
+      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -397,13 +431,13 @@
           "pos": "T2",
           "name": "Sam Stevens",
           "score": "-3",
-          "thru": "14"
+          "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Sam Burns",
-          "score": "-3",
-          "thru": "11"
+          "pos": "T5",
+          "name": "Collin Morikawa",
+          "score": "-2",
+          "thru": "F"
         }
       ]
     }
