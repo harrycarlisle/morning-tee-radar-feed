@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-19T09:04:03.600Z",
+  "updatedAt": "2026-06-19T13:32:30.884Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-19T13:32:30.881Z",
+      "approvedAt": "2026-06-19T13:32:30.881Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -6",
+      "summary": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
+      "quickRead": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-6",
+          "thru": "4"
+        },
+        {
+          "pos": "T2",
+          "name": "Max McGreevy",
+          "score": "-3",
+          "thru": "8*"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-3",
+          "thru": "5"
+        },
+        {
+          "pos": "T2",
+          "name": "Dustin Johnson",
+          "score": "-3",
+          "thru": "4"
+        },
+        {
+          "pos": "T5",
+          "name": "William Mouw",
+          "score": "-2",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-06-19T03:50:40.492Z",
       "approvedAt": "2026-06-19T03:50:40.492Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-19T03:38:12.000Z",
       "approvedAt": "2026-06-19T09:03:57.709Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-19T00:43:09.000Z",
       "approvedAt": "2026-06-19T09:03:57.710Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-19T00:14:09.000Z",
       "approvedAt": "2026-06-19T03:50:41.473Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-18T22:27:22.000Z",
       "approvedAt": "2026-06-19T03:50:41.474Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-19T01:20:26.000Z",
       "approvedAt": "2026-06-19T03:50:41.475Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-18T23:41:30.512Z",
       "approvedAt": "2026-06-18T23:41:30.512Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-18T20:48:17.000Z",
       "approvedAt": "2026-06-18T23:41:31.780Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-rises-pga-tour-204817788.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-06-18T21:55:45.000Z",
-      "approvedAt": "2026-06-18T23:41:31.781Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scheffler shoots 2 over at windy US Open, will need to rebound to complete the...",
-      "summary": "There was Scheffler jumping up and down in a bunker situated 150 yards shy of the green — and 10 feet lower than the fairway — to catch a glimpse of the flag on the putting surface ahead.",
-      "quickRead": "There was Scheffler jumping up and down in a bunker situated 150 yards shy of the green — and 10 feet lower than the fairway — to catch a glimpse of the flag on the putting surface ahead.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scheffler-shoots-2-over-windy-215545842.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-shoots-2-over-windy-215545842.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-06-19T09:03:41.704Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-19T08:26:41.705Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-19T09:04:02.283Z",
-      "approvedAt": "2026-06-19T09:04:02.283Z",
+      "timestamp": "2026-06-19T13:32:30.884Z",
+      "approvedAt": "2026-06-19T13:32:30.884Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Wyndham Clark leads U.S. Open at -6",
-      "summary": "Wyndham Clark is -6 today and -6 overall through 16*. Closest chasers: Sam Stevens (-2), Ryder Cowan (-2), Max McGreevy (-2).",
-      "quickRead": "Wyndham Clark is -6 today and -6 overall through 16*. Closest chasers: Sam Stevens (-2), Ryder Cowan (-2), Max McGreevy (-2).",
+      "summary": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
+      "quickRead": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -379,31 +413,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-6",
-          "thru": "16*"
-        },
-        {
-          "pos": "T2",
-          "name": "Sam Stevens",
-          "score": "-2",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Ryder Cowan",
-          "score": "-2",
-          "thru": "F*"
+          "thru": "4"
         },
         {
           "pos": "T2",
           "name": "Max McGreevy",
-          "score": "-2",
-          "thru": "F"
+          "score": "-3",
+          "thru": "8*"
         },
         {
           "pos": "T2",
           "name": "Matt Fitzpatrick",
+          "score": "-3",
+          "thru": "5"
+        },
+        {
+          "pos": "T2",
+          "name": "Dustin Johnson",
+          "score": "-3",
+          "thru": "4"
+        },
+        {
+          "pos": "T5",
+          "name": "William Mouw",
           "score": "-2",
-          "thru": "16*"
+          "thru": "9"
         }
       ]
     }
