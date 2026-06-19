@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-19T13:32:39.541Z",
+  "updatedAt": "2026-06-19T16:30:29.981Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-19T16:30:29.979Z",
+      "approvedAt": "2026-06-19T16:30:29.979Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
+      "quickRead": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-7",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Collin Morikawa",
+          "score": "-3",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Xander Schauffele",
+          "score": "-3",
+          "thru": "13*"
+        },
+        {
+          "pos": "4",
+          "name": "Sam Stevens",
+          "score": "-2",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Matt Fitzpatrick",
+          "score": "-1",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-06-19T13:32:30.881Z",
       "approvedAt": "2026-06-19T13:32:30.881Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "9"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "32 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T13:00:00.000Z",
       "approvedAt": "2026-06-19T13:32:32.291Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "34 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T12:58:09.000Z",
       "approvedAt": "2026-06-19T13:32:32.292Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-19T11:31:00.000Z",
       "approvedAt": "2026-06-19T13:32:32.292Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-19T03:50:40.492Z",
       "approvedAt": "2026-06-19T03:50:40.492Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-06-19T03:38:12.000Z",
       "approvedAt": "2026-06-19T09:03:57.709Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-19T00:43:09.000Z",
       "approvedAt": "2026-06-19T09:03:57.710Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-19T00:14:09.000Z",
       "approvedAt": "2026-06-19T03:50:41.473Z",
       "status": "Confirmed",
@@ -240,43 +293,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-down-day-making-001409857.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-06-18T22:27:22.000Z",
-      "approvedAt": "2026-06-19T03:50:41.474Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy fights through ‘tough’ US Open conditions to finish first round at...",
-      "summary": "Rory McIlroy had one singular thought in his mind entering the U.S.",
-      "quickRead": "Rory McIlroy had one singular thought in his mind entering the U.S.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-fights-tough-us-222722489.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fights-tough-us-222722489.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "U.S. Open 2026: Jon Rahm, Bryson DeChambeau lead the 13 LIV Golf memb...",
-      "summary": "Jon Rahm is entering this week fresh off his runner-up finish at the PGA Championship.",
-      "quickRead": "Jon Rahm is entering this week fresh off his runner-up finish at the PGA Championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/us-open-2026-jon-rahm-bryson-dechambeau-lead-the-13-liv-golf-members-competing-this-week-at-shinnecock-155248499.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/us-open-2026-jon-rahm-bryson-dechambeau-lead-the-13-liv-golf-members-competing-this-week-at-shinnecock-155248499.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-06-16T15:52:48.000Z"
-    },
     {
       "label": "STAR WATCH",
       "title": "Why Rory McIlroy and Scottie Scheffler got seriously unlucky after de...",
@@ -291,6 +310,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "timestamp": "2026-06-19T13:00:00.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "U.S. Open 2026: Jon Rahm, Bryson DeChambeau lead the 13 LIV Golf memb...",
+      "summary": "Jon Rahm is entering this week fresh off his runner-up finish at the PGA Championship.",
+      "quickRead": "Jon Rahm is entering this week fresh off his runner-up finish at the PGA Championship.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/article/us-open-2026-jon-rahm-bryson-dechambeau-lead-the-13-liv-golf-members-competing-this-week-at-shinnecock-155248499.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/article/us-open-2026-jon-rahm-bryson-dechambeau-lead-the-13-liv-golf-members-competing-this-week-at-shinnecock-155248499.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-06-16T15:52:48.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-06-19T13:32:19.953Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +374,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-19T12:55:19.953Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-19T13:32:36.283Z",
-      "approvedAt": "2026-06-19T13:32:36.283Z",
+      "timestamp": "2026-06-19T16:30:29.981Z",
+      "approvedAt": "2026-06-19T16:30:29.982Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -6",
-      "summary": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
-      "quickRead": "Wyndham Clark is E today and -6 overall through 4. Closest chasers: Max McGreevy (-3), Matt Fitzpatrick (-3), Dustin Johnson (-3).",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
+      "quickRead": "Wyndham Clark is -1 today and -7 overall through 15. Closest chasers: Collin Morikawa (-3), Xander Schauffele (-3), Sam Stevens (-2).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -378,32 +412,32 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-6",
-          "thru": "4"
+          "score": "-7",
+          "thru": "15"
         },
         {
           "pos": "T2",
-          "name": "Max McGreevy",
+          "name": "Collin Morikawa",
           "score": "-3",
-          "thru": "8*"
+          "thru": "16"
         },
         {
           "pos": "T2",
-          "name": "Matt Fitzpatrick",
+          "name": "Xander Schauffele",
           "score": "-3",
-          "thru": "5"
+          "thru": "13*"
         },
         {
-          "pos": "T2",
-          "name": "Dustin Johnson",
-          "score": "-3",
-          "thru": "4"
+          "pos": "4",
+          "name": "Sam Stevens",
+          "score": "-2",
+          "thru": "1"
         },
         {
           "pos": "T5",
-          "name": "William Mouw",
-          "score": "-2",
-          "thru": "9"
+          "name": "Matt Fitzpatrick",
+          "score": "-1",
+          "thru": "15"
         }
       ]
     }
