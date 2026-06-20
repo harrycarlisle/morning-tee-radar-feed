@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-20T13:51:41.063Z",
+  "updatedAt": "2026-06-20T13:51:44.063Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -240,7 +240,7 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-further-023000353.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-further-023000353.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-06-20T02:30:00.000Z"
     },
     {
@@ -322,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-20T02:53:09.416Z",
-      "approvedAt": "2026-06-20T02:53:09.416Z",
+      "timestamp": "2026-06-20T13:51:43.952Z",
+      "approvedAt": "2026-06-20T13:51:43.952Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark wins U.S. Open at -7",
-      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
-      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -345,31 +345,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-7",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Matt Fitzpatrick",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Xander Schauffele",
           "score": "-3",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sam Stevens",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Tom Kim",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
