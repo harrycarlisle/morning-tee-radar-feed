@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-20T02:53:07.493Z",
+  "updatedAt": "2026-06-20T02:53:09.572Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -240,7 +240,7 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-further-023000353.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-further-023000353.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-06-20T02:30:00.000Z"
     },
     {
@@ -322,8 +322,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-19T22:51:53.337Z",
-      "approvedAt": "2026-06-19T22:51:53.337Z",
+      "timestamp": "2026-06-20T02:53:09.416Z",
+      "approvedAt": "2026-06-20T02:53:09.416Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -366,9 +366,9 @@
           "thru": "F"
         },
         {
-          "pos": "T5",
-          "name": "Collin Morikawa",
-          "score": "-2",
+          "pos": "T2",
+          "name": "Tom Kim",
+          "score": "-3",
           "thru": "F"
         }
       ]
