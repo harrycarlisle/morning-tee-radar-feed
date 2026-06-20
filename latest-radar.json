@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-20T07:46:41.483Z",
+  "updatedAt": "2026-06-20T13:51:36.007Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "7 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-20T13:51:36.004Z",
+      "approvedAt": "2026-06-20T13:51:36.004Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-7",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-3",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Xander Schauffele",
+          "score": "-3",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Stevens",
+          "score": "-3",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Tom Kim",
+          "score": "-3",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-06-20T03:04:28.000Z",
       "approvedAt": "2026-06-20T07:46:33.097Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-miss-030428445.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-20T02:04:46.000Z",
       "approvedAt": "2026-06-20T07:46:35.040Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-20T02:30:00.000Z",
       "approvedAt": "2026-06-20T02:53:03.075Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-20T00:50:00.000Z",
       "approvedAt": "2026-06-20T02:53:05.530Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-20T00:42:57.000Z",
       "approvedAt": "2026-06-20T02:53:05.530Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-19T22:51:48.589Z",
       "approvedAt": "2026-06-19T22:51:48.589Z",
       "status": "Live",
@@ -170,7 +223,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-19T21:49:04.000Z",
       "approvedAt": "2026-06-19T22:51:50.062Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-19T22:23:04.000Z",
       "approvedAt": "2026-06-19T22:51:50.062Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-bushes-off-us-220136023.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-06-19T15:45:02.000Z",
-      "approvedAt": "2026-06-19T21:05:17.533Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "US Open cut line tracker: Live projected line, big names in danger",
-      "summary": "Follow live updates for the 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/us-open-cut-line-tracker-154502989.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/us-open-cut-line-tracker-154502989.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-20T07:46:21.282Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-20T07:09:21.282Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -322,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-20T02:53:09.416Z",
-      "approvedAt": "2026-06-20T02:53:09.416Z",
+      "timestamp": "2026-06-20T13:51:36.007Z",
+      "approvedAt": "2026-06-20T13:51:36.007Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark wins U.S. Open at -7",
-      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
-      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
+      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Matt Fitzpatrick (-3), Xander Schauffele (-3), Sam Stevens (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -345,31 +379,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-7",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Matt Fitzpatrick",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Xander Schauffele",
           "score": "-3",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sam Stevens",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Tom Kim",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
