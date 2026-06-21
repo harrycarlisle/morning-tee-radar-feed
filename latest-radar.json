@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T20:52:15.876Z",
+  "updatedAt": "2026-06-21T21:09:44.481Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-06-21T21:09:44.478Z",
+      "approvedAt": "2026-06-21T21:09:44.478Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -5",
+      "summary": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-5",
+          "thru": "11"
+        },
+        {
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Keith Mitchell",
+          "score": "-1",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Tom Kim",
+          "score": "-1",
+          "thru": "11"
+        },
+        {
+          "pos": "T3",
+          "name": "Scottie Scheffler",
+          "score": "-1",
+          "thru": "11"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "17 min ago",
       "timestamp": "2026-06-21T20:52:15.873Z",
       "approvedAt": "2026-06-21T20:52:15.873Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "11"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-21T19:23:59.587Z",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T17:56:11.000Z",
       "approvedAt": "2026-06-21T19:03:54.953Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T12:00:00.000Z",
       "approvedAt": "2026-06-21T17:24:36.981Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-21T10:04:05.000Z",
       "approvedAt": "2026-06-21T17:24:36.981Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/us-open-weather-does-forecast-100405465.html",
       "sourceUrl": "https://sports.yahoo.com/articles/us-open-weather-does-forecast-100405465.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-06-21T13:30:00.000Z",
-      "approvedAt": "2026-06-21T15:48:40.810Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Why Dustin Johnson is LIV Golf’s only hope of avoiding further embarrassment af...",
-      "summary": "Dustin Johnson still needs to qualify for The Open Championship to stand any chance of making the cut at all four majors in the same calendar year for the first time since 2019.",
-      "quickRead": "Dustin Johnson is the only LIV Golf player who can still make the cut in all four majors in 2026, but he isn’t currently in the Open Championship field at Royal Birkdale and must qualify (via Final Qualifying or late DP World Tour spots) to even have the chance.  After LIV’s stars again stumbled at Shinnecock—Johnson made the weekend despite an eight, while Rahm and DeChambeau missed the cut—his Open status will determine whether LIV avoids a four-major-cut embarrassment.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-dustin-johnson-liv-golf-133000904.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-dustin-johnson-liv-golf-133000904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -356,14 +390,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T20:52:15.876Z",
-      "approvedAt": "2026-06-21T20:52:15.876Z",
+      "timestamp": "2026-06-21T21:09:44.481Z",
+      "approvedAt": "2026-06-21T21:09:44.481Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -4",
-      "summary": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
+      "title": "Wyndham Clark leads U.S. Open at -5",
+      "summary": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -378,31 +412,31 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-4",
-          "thru": "9"
+          "score": "-5",
+          "thru": "11"
         },
         {
           "pos": "2",
           "name": "Sam Burns",
           "score": "-3",
-          "thru": "13"
+          "thru": "14"
         },
         {
-          "pos": "3",
+          "pos": "T3",
           "name": "Keith Mitchell",
           "score": "-1",
-          "thru": "13"
+          "thru": "14"
         },
         {
-          "pos": "T4",
-          "name": "J.T. Poston",
-          "score": "E",
-          "thru": "17"
+          "pos": "T3",
+          "name": "Tom Kim",
+          "score": "-1",
+          "thru": "11"
         },
         {
-          "pos": "T4",
-          "name": "Sam Stevens",
-          "score": "E",
+          "pos": "T3",
+          "name": "Scottie Scheffler",
+          "score": "-1",
           "thru": "11"
         }
       ]
