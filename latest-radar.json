@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T17:24:39.961Z",
+  "updatedAt": "2026-06-21T19:03:54.019Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-21T19:03:54.016Z",
+      "approvedAt": "2026-06-21T19:03:54.016Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -6",
+      "summary": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Tommy Fleetwood",
+          "score": "-1",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Tom Kim",
+          "score": "-1",
+          "thru": "3"
+        },
+        {
+          "pos": "T3",
+          "name": "Sahith Theegala",
+          "score": "-1",
+          "thru": "3"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-06-21T13:38:28.000Z",
       "approvedAt": "2026-06-21T17:24:35.413Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/retief-goosen-recalls-brutal-2004-133828879.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-06-21T12:00:00.000Z",
       "approvedAt": "2026-06-21T17:24:36.981Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-21T10:04:05.000Z",
       "approvedAt": "2026-06-21T17:24:36.981Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-21T13:30:00.000Z",
       "approvedAt": "2026-06-21T15:48:40.810Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-21T07:27:02.000Z",
       "approvedAt": "2026-06-21T12:08:37.282Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-21T03:15:31.000Z",
       "approvedAt": "2026-06-21T12:08:39.221Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-21T03:15:40.000Z",
       "approvedAt": "2026-06-21T12:08:39.222Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-06-20T21:39:25.000Z",
       "approvedAt": "2026-06-21T02:49:22.240Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-06-21T00:26:29.000Z",
-      "approvedAt": "2026-06-21T02:49:23.943Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy fades at the US Open with 5 bogeys late after a three-hole run of...",
-      "summary": "When Rory McIlroy knocked in a 66-footer during a run of three straight birdies, he looked set for a big move at the U.S.",
-      "quickRead": "When Rory McIlroy knocked in a 66-footer during a run of three straight birdies, he looked set for a big move at the U.S.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-fades-us-open-002629252.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fades-us-open-002629252.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T15:48:27.332Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T15:11:27.332Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -288,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T17:24:39.789Z",
-      "approvedAt": "2026-06-21T17:24:39.789Z",
+      "timestamp": "2026-06-21T19:03:54.020Z",
+      "approvedAt": "2026-06-21T19:03:54.020Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -7",
-      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
+      "title": "Wyndham Clark leads U.S. Open at -6",
+      "summary": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -310,32 +344,32 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-7",
-          "thru": "1"
+          "score": "-6",
+          "thru": "2"
         },
         {
-          "pos": "T2",
-          "name": "Scottie Scheffler",
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Tommy Fleetwood",
           "score": "-1",
-          "thru": "1"
+          "thru": "5"
         },
         {
-          "pos": "T2",
-          "name": "Sahith Theegala",
-          "score": "-1",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
+          "pos": "T3",
           "name": "Tom Kim",
           "score": "-1",
-          "thru": "1"
+          "thru": "3"
         },
         {
-          "pos": "T2",
-          "name": "Sam Stevens",
+          "pos": "T3",
+          "name": "Sahith Theegala",
           "score": "-1",
-          "thru": "1"
+          "thru": "3"
         }
       ]
     }
