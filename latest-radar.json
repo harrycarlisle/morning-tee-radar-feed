@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T21:09:44.481Z",
+  "updatedAt": "2026-06-21T21:09:45.557Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,61 +21,6 @@
   "today": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T21:09:44.478Z",
-      "approvedAt": "2026-06-21T21:09:44.478Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -5",
-      "summary": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "U.S. Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Wyndham Clark",
-          "score": "-5",
-          "thru": "11"
-        },
-        {
-          "pos": "2",
-          "name": "Sam Burns",
-          "score": "-3",
-          "thru": "14"
-        },
-        {
-          "pos": "T3",
-          "name": "Keith Mitchell",
-          "score": "-1",
-          "thru": "14"
-        },
-        {
-          "pos": "T3",
-          "name": "Tom Kim",
-          "score": "-1",
-          "thru": "11"
-        },
-        {
-          "pos": "T3",
-          "name": "Scottie Scheffler",
-          "score": "-1",
-          "thru": "11"
-        }
-      ]
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "17 min ago",
       "timestamp": "2026-06-21T20:52:15.873Z",
       "approvedAt": "2026-06-21T20:52:15.873Z",
       "status": "Live",
@@ -126,6 +71,46 @@
           "thru": "11"
         }
       ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "39 min ago",
+      "timestamp": "2026-06-21T20:30:00.000Z",
+      "approvedAt": "2026-06-21T21:09:45.556Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "TV cameras catch what frustrated Rory McIlroy said after terrible shot during U...",
+      "summary": "Rory McIlroy was visibly frustrated during the final round of the 2026 US Open at Shinnecock Hills.",
+      "quickRead": "After Rory McIlroy chunked an approach into a greenside bunker on the par-4 3rd at Shinnecock Hills, Sky Sports’ mic caught him muttering, “Oh, don’t fat it though.  Oh, just go home, Rory.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tv-cameras-catch-frustrated-rory-203000477.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tv-cameras-catch-frustrated-rory-203000477.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    },
+    {
+      "time": "38 min ago",
+      "timestamp": "2026-06-21T20:31:41.000Z",
+      "approvedAt": "2026-06-21T21:09:45.556Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "What happens if the US Open goes to a playoff? Here’s how it works",
+      "summary": "Wyndham Clark's massive U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/happens-us-open-goes-playoff-203141499.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/happens-us-open-goes-playoff-203141499.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
       "time": "1 hour ago",
@@ -274,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/wyndham-clark-admits-feels-being-120000756.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-06-21T10:04:05.000Z",
-      "approvedAt": "2026-06-21T17:24:36.981Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "US Open weather: How does forecast find final round push for leaderboard?",
-      "summary": "The 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/us-open-weather-does-forecast-100405465.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/us-open-weather-does-forecast-100405465.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -390,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T21:09:44.481Z",
-      "approvedAt": "2026-06-21T21:09:44.481Z",
+      "timestamp": "2026-06-21T20:52:15.876Z",
+      "approvedAt": "2026-06-21T20:52:15.876Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -5",
-      "summary": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark is +2 today and -5 overall through 11. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tom Kim (-1).",
+      "title": "Wyndham Clark leads U.S. Open at -4",
+      "summary": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -412,31 +378,31 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-5",
-          "thru": "11"
+          "score": "-4",
+          "thru": "9"
         },
         {
           "pos": "2",
           "name": "Sam Burns",
           "score": "-3",
-          "thru": "14"
+          "thru": "13"
         },
         {
-          "pos": "T3",
+          "pos": "3",
           "name": "Keith Mitchell",
           "score": "-1",
-          "thru": "14"
+          "thru": "13"
         },
         {
-          "pos": "T3",
-          "name": "Tom Kim",
-          "score": "-1",
-          "thru": "11"
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
+          "thru": "17"
         },
         {
-          "pos": "T3",
-          "name": "Scottie Scheffler",
-          "score": "-1",
+          "pos": "T4",
+          "name": "Sam Stevens",
+          "score": "E",
           "thru": "11"
         }
       ]
