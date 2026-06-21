@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T22:10:11.515Z",
+  "updatedAt": "2026-06-21T22:10:12.557Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,61 +21,6 @@
   "today": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T22:10:11.511Z",
-      "approvedAt": "2026-06-21T22:10:11.512Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -4",
-      "summary": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "U.S. Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Wyndham Clark",
-          "score": "-4",
-          "thru": "15"
-        },
-        {
-          "pos": "2",
-          "name": "Sam Burns",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Tom Kim",
-          "score": "-2",
-          "thru": "16"
-        },
-        {
-          "pos": "T4",
-          "name": "J.T. Poston",
-          "score": "E",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "E",
-          "thru": "F"
-        }
-      ]
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "1 hour ago",
       "timestamp": "2026-06-21T20:52:15.873Z",
       "approvedAt": "2026-06-21T20:52:15.873Z",
       "status": "Live",
@@ -126,6 +71,27 @@
           "thru": "11"
         }
       ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-21T21:09:17.000Z",
+      "approvedAt": "2026-06-21T22:10:12.556Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "McIlroy races for exit after weekend US Open fade",
+      "summary": "Rory McIlroy came to Shinnecock ready to battle the brutal winds and fast greens for a US Open title and departed Sunday a clearly beaten golfer.Three bogeys in his first five holes Sunda...",
+      "quickRead": "Rory McIlroy came to Shinnecock ready to battle the brutal winds and fast greens for a US Open title and departed Sunday a clearly beaten golfer.Three bogeys in his first five holes Sunda...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mcilroy-races-exit-weekend-us-210917435.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-races-exit-weekend-us-210917435.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
       "time": "1 hour ago",
@@ -360,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-21T19:24:26.898Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -374,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "3 hours ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-21T18:47:26.898Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -390,14 +356,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T22:10:11.515Z",
-      "approvedAt": "2026-06-21T22:10:11.515Z",
+      "timestamp": "2026-06-21T20:52:15.876Z",
+      "approvedAt": "2026-06-21T20:52:15.876Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Wyndham Clark leads U.S. Open at -4",
-      "summary": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
+      "summary": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark is +3 today and -4 overall through 9. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), J.T. Poston (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -413,31 +379,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-4",
-          "thru": "15"
+          "thru": "9"
         },
         {
           "pos": "2",
           "name": "Sam Burns",
           "score": "-3",
-          "thru": "F"
+          "thru": "13"
         },
         {
           "pos": "3",
-          "name": "Tom Kim",
-          "score": "-2",
-          "thru": "16"
+          "name": "Keith Mitchell",
+          "score": "-1",
+          "thru": "13"
         },
         {
           "pos": "T4",
           "name": "J.T. Poston",
           "score": "E",
-          "thru": "F"
+          "thru": "17"
         },
         {
           "pos": "T4",
-          "name": "Keith Mitchell",
+          "name": "Sam Stevens",
           "score": "E",
-          "thru": "F"
+          "thru": "11"
         }
       ]
     }
