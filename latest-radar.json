@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T15:48:47.653Z",
+  "updatedAt": "2026-06-21T17:24:35.416Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-06-21T13:38:28.000Z",
+      "approvedAt": "2026-06-21T17:24:35.413Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Retief Goosen recalls his 'brutal' 2004 US Open victory at Shinnecock",
+      "summary": "Retief Goosen revisits his 2004 U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/retief-goosen-recalls-brutal-2004-133828879.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/retief-goosen-recalls-brutal-2004-133828879.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T13:30:00.000Z",
       "approvedAt": "2026-06-21T15:48:40.810Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/why-dustin-johnson-liv-golf-133000904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T07:27:02.000Z",
       "approvedAt": "2026-06-21T12:08:37.282Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-21T03:15:31.000Z",
       "approvedAt": "2026-06-21T12:08:39.221Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-06-21T03:15:40.000Z",
       "approvedAt": "2026-06-21T12:08:39.222Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-06-20T21:39:25.000Z",
       "approvedAt": "2026-06-21T02:49:22.240Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-21T00:26:29.000Z",
       "approvedAt": "2026-06-21T02:49:23.943Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-06-21T02:09:28.000Z",
       "approvedAt": "2026-06-21T02:49:23.944Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/xander-schauffele-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-06-20T23:03:23.965Z",
       "approvedAt": "2026-06-20T23:03:23.965Z",
       "status": "Live",
@@ -206,25 +225,6 @@
           "thru": "F"
         }
       ]
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-06-20T19:27:05.000Z",
-      "approvedAt": "2026-06-20T23:03:25.427Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Mid-amateur Stuart Grehan, 33, takes British Amateur title at Royal Liverpool",
-      "summary": "Stuart Grehan won the 2026 British Amateur, securing spots in the Open Championship, the Masters and the U.S.",
-      "quickRead": "Stuart Grehan won the 2026 British Amateur, securing spots in the Open Championship, the Masters and the U.S.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/mid-amateur-stuart-grehan-33-192705106.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/mid-amateur-stuart-grehan-33-192705106.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-06-21T15:48:27.332Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-21T15:11:27.332Z",
       "status": "Trending",
       "signal": "Reddit find",
