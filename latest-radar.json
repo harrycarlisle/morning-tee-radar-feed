@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T19:04:00.068Z",
+  "updatedAt": "2026-06-21T19:23:59.590Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-06-21T19:23:59.587Z",
+      "approvedAt": "2026-06-21T19:23:59.587Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark leads U.S. Open at -6",
+      "summary": "Wyndham Clark is +1 today and -6 overall through 3. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tyrrell Hatton (E).",
+      "quickRead": "Wyndham Clark is +1 today and -6 overall through 3. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tyrrell Hatton (E).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-6",
+          "thru": "3"
+        },
+        {
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "6"
+        },
+        {
+          "pos": "3",
+          "name": "Keith Mitchell",
+          "score": "-1",
+          "thru": "6"
+        },
+        {
+          "pos": "T4",
+          "name": "Tyrrell Hatton",
+          "score": "E",
+          "thru": "16"
+        },
+        {
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
+          "thru": "11"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-06-21T13:38:28.000Z",
       "approvedAt": "2026-06-21T17:24:35.413Z",
       "status": "Confirmed",
@@ -37,9 +92,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/retief-goosen-recalls-brutal-2004-133828879.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-21T17:56:11.000Z",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "27 min ago",
+      "time": "47 min ago",
       "timestamp": "2026-06-21T18:36:47.000Z",
       "approvedAt": "2026-06-21T19:03:54.954Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T10:04:05.000Z",
       "approvedAt": "2026-06-21T17:24:36.981Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-06-21T03:15:31.000Z",
-      "approvedAt": "2026-06-21T12:08:39.221Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler's Caddie Delivers Firm Message to PGA Tour Pro During U.S. Op...",
-      "summary": "Moving Day at Shinnecock Hills demanded patience.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-schefflers-caddie-delivers-firm-031531658.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-caddie-delivers-firm-031531658.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "20 min ago",
       "timestamp": "2026-06-21T19:03:46.611Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-06-21T18:26:46.611Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -288,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T19:03:59.080Z",
-      "approvedAt": "2026-06-21T19:03:59.080Z",
+      "timestamp": "2026-06-21T19:23:59.590Z",
+      "approvedAt": "2026-06-21T19:23:59.590Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Wyndham Clark leads U.S. Open at -6",
-      "summary": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
+      "summary": "Wyndham Clark is +1 today and -6 overall through 3. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tyrrell Hatton (E).",
+      "quickRead": "Wyndham Clark is +1 today and -6 overall through 3. Closest chasers: Sam Burns (-3), Keith Mitchell (-1), Tyrrell Hatton (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -311,31 +345,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-6",
-          "thru": "2"
+          "thru": "3"
         },
         {
           "pos": "2",
           "name": "Sam Burns",
           "score": "-3",
-          "thru": "5"
+          "thru": "6"
         },
         {
-          "pos": "T3",
-          "name": "Tommy Fleetwood",
+          "pos": "3",
+          "name": "Keith Mitchell",
           "score": "-1",
-          "thru": "5"
+          "thru": "6"
         },
         {
-          "pos": "T3",
-          "name": "Tom Kim",
-          "score": "-1",
-          "thru": "3"
+          "pos": "T4",
+          "name": "Tyrrell Hatton",
+          "score": "E",
+          "thru": "16"
         },
         {
-          "pos": "T3",
-          "name": "Sahith Theegala",
-          "score": "-1",
-          "thru": "3"
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
+          "thru": "11"
         }
       ]
     }
