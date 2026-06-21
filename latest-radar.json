@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T02:49:25.617Z",
+  "updatedAt": "2026-06-21T02:49:27.269Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -244,6 +244,21 @@
       "timestamp": "2026-06-20T18:30:00.000Z"
     },
     {
+      "label": "STAR WATCH",
+      "title": "Scheffler opens with bogeys while McIlroy pars at windy US Open",
+      "summary": "Scottie Scheffler started his US Open third round with back-to-back bogeys, missing a six-foot par putt at the par-3 second after finding a bunker...",
+      "quickRead": "Scottie Scheffler started his US Open third round with back-to-back bogeys, missing a six-foot par putt at the par-3 second after finding a bunker, while Rory McIlroy saved par at the first by getting up-and-down from a greenside bunker.  In whipping winds at Shinnecock, both began Saturday seven shots behind 36-hole leader Wyndham Clark, making a fast start crucial to keep the chase alive.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scheffler-opens-bogeys-while-mcilroy-183759896.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scheffler-opens-bogeys-while-mcilroy-183759896.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "timestamp": "2026-06-20T18:37:59.000Z"
+    },
+    {
       "label": "MAJOR WATCH",
       "title": "With Several Big Names Gone, This U.S. Open Has A Different Kind Of W...",
       "summary": "A major championship leaderboard is often defined by who is still around.",
@@ -255,23 +270,8 @@
       "url": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
       "sourceUrl": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png",
       "timestamp": "2026-06-20T21:39:25.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "Jing Yan maintains lead in the wind-swept Meijer LPGA Classic",
-      "summary": "Jing Yan shot a bogey-free 4-under 68 and birdied the par-5 18th to keep a one-shot lead at 14-under heading into Sunday at the wind-swept Meijer L...",
-      "quickRead": "Jing Yan shot a bogey-free 4-under 68 and birdied the par-5 18th to keep a one-shot lead at 14-under heading into Sunday at the wind-swept Meijer LPGA Classic at Blythefield.  England’s Lottie Woad is one back, with Cassie Porter two behind, as Yan tries for her first LPGA win just one week before the KPMG Women’s PGA at Hazeltine.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jing-yan-maintains-lead-wind-231202533.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jing-yan-maintains-lead-wind-231202533.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-20T23:12:02.000Z"
     }
   ],
   "checking": {
@@ -322,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-20T23:03:23.968Z",
-      "approvedAt": "2026-06-20T23:03:23.968Z",
+      "timestamp": "2026-06-21T02:49:27.188Z",
+      "approvedAt": "2026-06-21T02:49:27.189Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -6",
-      "summary": "Wyndham Clark is +1 today and -6 overall through 13. Closest chasers: Scottie Scheffler (-1), Tom Kim (-1), Sam Stevens (-1).",
-      "quickRead": "Wyndham Clark is +1 today and -6 overall through 13. Closest chasers: Scottie Scheffler (-1), Tom Kim (-1), Sam Stevens (-1).",
+      "title": "Wyndham Clark wins U.S. Open at -7",
+      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -344,8 +344,8 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-6",
-          "thru": "13"
+          "score": "-7",
+          "thru": "F"
         },
         {
           "pos": "T2",
@@ -355,20 +355,20 @@
         },
         {
           "pos": "T2",
+          "name": "Sahith Theegala",
+          "score": "-1",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
           "name": "Tom Kim",
           "score": "-1",
-          "thru": "14"
+          "thru": "F"
         },
         {
           "pos": "T2",
           "name": "Sam Stevens",
           "score": "-1",
-          "thru": "14"
-        },
-        {
-          "pos": "T5",
-          "name": "Emiliano Grillo",
-          "score": "E",
           "thru": "F"
         }
       ]
