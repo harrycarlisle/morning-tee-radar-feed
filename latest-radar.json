@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T12:08:41.192Z",
+  "updatedAt": "2026-06-21T12:08:42.979Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -230,21 +230,6 @@
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
-      "title": "Rory McIlroy falls out of US Open contention after back nine implosion",
-      "summary": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament —...",
-      "quickRead": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament — and finishing in a tie for seventh at th...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-21T07:27:02.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
       "title": "What was ‘amazing’ about Bryson DeChambeau’s US Open performance afte...",
       "summary": "What was “amazing” was that Bryson DeChambeau produced one of his best driving weeks of the year at Shinnecock—gaining more than 1.",
       "quickRead": "What was “amazing” was that Bryson DeChambeau produced one of his best driving weeks of the year at Shinnecock—gaining more than 1. 7 strokes off the tee in both rounds, including a 427-yard bomb—yet still missed the cut at 5-over.",
@@ -260,18 +245,33 @@
     },
     {
       "label": "MAJOR WATCH",
-      "title": "A 'Who's That?' list of dreamers joins Scheffler in 2nd at the US Ope...",
-      "summary": "Tom Kim, Sam Stevens and Sahith Theegala joined Scottie Scheffler in a four-way tie for second at 1-under 209 after Saturday’s third round at Shinn...",
-      "quickRead": "Tom Kim, Sam Stevens and Sahith Theegala joined Scottie Scheffler in a four-way tie for second at 1-under 209 after Saturday’s third round at Shinnecock, all six shots behind leader Wyndham Clark with 18 holes left.  Scheffler gets the featured final pairing with Clark as he tries to complete the career Grand Slam, while the three twenty-somethings chase a breakthrough with just one combined top-5 major finish.",
+      "title": "Rory McIlroy falls out of US Open contention after back nine implosion",
+      "summary": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament —...",
+      "quickRead": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament — and finishing in a tie for seventh at th...",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/whos-list-dreamers-joins-scheffler-004752926.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/whos-list-dreamers-joins-scheffler-004752926.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-21T00:47:52.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
+      "timestamp": "2026-06-21T07:27:02.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "With Several Big Names Gone, This U.S. Open Has A Different Kind Of W...",
+      "summary": "A major championship leaderboard is often defined by who is still around.",
+      "quickRead": "A major championship leaderboard is often defined by who is still around.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png",
+      "timestamp": "2026-06-20T21:39:25.000Z"
     }
   ],
   "checking": {
@@ -322,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T02:49:27.188Z",
-      "approvedAt": "2026-06-21T02:49:27.189Z",
+      "timestamp": "2026-06-21T12:08:42.876Z",
+      "approvedAt": "2026-06-21T12:08:42.876Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark wins U.S. Open at -7",
-      "summary": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark wins U.S. Open at -7. Nearest finishers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
+      "title": "Wyndham Clark leads U.S. Open at -7",
+      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -345,31 +345,31 @@
           "pos": "1",
           "name": "Wyndham Clark",
           "score": "-7",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Scottie Scheffler",
           "score": "-1",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sahith Theegala",
           "score": "-1",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Tom Kim",
           "score": "-1",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sam Stevens",
           "score": "-1",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
