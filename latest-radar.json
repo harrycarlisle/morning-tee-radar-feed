@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T19:03:58.241Z",
+  "updatedAt": "2026-06-21T19:03:59.168Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -195,21 +195,6 @@
   ],
   "weekRadar": [
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy falls out of US Open contention after back nine implosion",
-      "summary": "Rory McIlroy imploded on Shinnecock Hills’ back nine Saturday with five bogeys (10, 12, 14, 15 and 18) and a double bogey at No.",
-      "quickRead": "Rory McIlroy imploded on Shinnecock Hills’ back nine Saturday with five bogeys (10, 12, 14, 15 and 18) and a double bogey at No.  15, finishing the third round 3-over and dropping to 3-over overall, 10 shots behind leader Wyndham Clark.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-21T07:27:02.000Z"
-    },
-    {
       "label": "LIV WATCH",
       "title": "Scottie Scheffler's Caddie Delivers Firm Message to PGA Tour Pro Duri...",
       "summary": "With Scottie Scheffler charging at Shinnecock, caddie Ted Scott walked over to the 15th tee and yelled at Maverick McNealy to “move aside” so McNea...",
@@ -238,6 +223,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "timestamp": "2026-06-21T07:27:02.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Why Dustin Johnson is LIV Golf’s only hope of avoiding further embarr...",
+      "summary": "Dustin Johnson is the only LIV Golf player who can still make the cut in all four majors in 2026, but he isn’t currently in the Open Championship f...",
+      "quickRead": "Dustin Johnson is the only LIV Golf player who can still make the cut in all four majors in 2026, but he isn’t currently in the Open Championship field at Royal Birkdale and must qualify (via Final Qualifying or late DP World Tour spots) to even have the chance.  After LIV’s stars again stumbled at Shinnecock—Johnson made the weekend despite an eight, while Rahm and DeChambeau missed the cut—his Open status will determine whether LIV avoids a four-major-cut embarrassment.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/why-dustin-johnson-liv-golf-133000904.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/why-dustin-johnson-liv-golf-133000904.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-06-21T13:30:00.000Z"
     }
   ],
   "checking": {
@@ -288,14 +288,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T17:24:39.789Z",
-      "approvedAt": "2026-06-21T17:24:39.789Z",
+      "timestamp": "2026-06-21T19:03:59.080Z",
+      "approvedAt": "2026-06-21T19:03:59.080Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -7",
-      "summary": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
-      "quickRead": "Wyndham Clark is -7 overall through 1. Closest chasers: Scottie Scheffler (-1), Sahith Theegala (-1), Tom Kim (-1).",
+      "title": "Wyndham Clark leads U.S. Open at -6",
+      "summary": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
+      "quickRead": "Wyndham Clark is +1 today and -6 overall through 2. Closest chasers: Sam Burns (-3), Tommy Fleetwood (-1), Tom Kim (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -310,32 +310,32 @@
         {
           "pos": "1",
           "name": "Wyndham Clark",
-          "score": "-7",
-          "thru": "1"
+          "score": "-6",
+          "thru": "2"
         },
         {
-          "pos": "T2",
-          "name": "Scottie Scheffler",
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Tommy Fleetwood",
           "score": "-1",
-          "thru": "1"
+          "thru": "5"
         },
         {
-          "pos": "T2",
-          "name": "Sahith Theegala",
-          "score": "-1",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
+          "pos": "T3",
           "name": "Tom Kim",
           "score": "-1",
-          "thru": "1"
+          "thru": "3"
         },
         {
-          "pos": "T2",
-          "name": "Sam Stevens",
+          "pos": "T3",
+          "name": "Sahith Theegala",
           "score": "-1",
-          "thru": "1"
+          "thru": "3"
         }
       ]
     }
