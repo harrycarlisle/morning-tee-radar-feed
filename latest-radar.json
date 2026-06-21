@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T22:10:21.140Z",
+  "updatedAt": "2026-06-21T23:44:57.797Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -19,6 +19,27 @@
     }
   ],
   "today": [
+    {
+      "time": "13 min ago",
+      "timestamp": "2026-06-21T23:31:51.000Z",
+      "approvedAt": "2026-06-21T23:44:57.794Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Clark wins 2nd US Open title. Yamashita takes LPGA event in playoff",
+      "summary": "Six shots ahead at the start of the final round, Clark’s final act was two putts from just outside 50 feet for par that gave him a 3-over 73 and a one-shot victory over Burns.",
+      "quickRead": "Six shots ahead at the start of the final round, Clark’s final act was two putts from just outside 50 feet for par that gave him a 3-over 73 and a one-shot victory over Burns.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/clark-wins-2nd-us-open-233151964.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/clark-wins-2nd-us-open-233151964.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "2 hours ago",
       "timestamp": "2026-06-21T20:52:15.873Z",
@@ -71,11 +92,9 @@
           "thru": "11"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-21T21:09:17.000Z",
       "approvedAt": "2026-06-21T22:10:12.556Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T20:30:00.000Z",
       "approvedAt": "2026-06-21T21:09:45.556Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-21T20:31:41.000Z",
       "approvedAt": "2026-06-21T21:09:45.556Z",
       "status": "Confirmed",
@@ -132,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-21T19:23:59.587Z",
       "approvedAt": "2026-06-21T19:23:59.587Z",
       "status": "Live",
@@ -185,7 +204,7 @@
       ]
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-21T13:38:28.000Z",
       "approvedAt": "2026-06-21T17:24:35.413Z",
       "status": "Confirmed",
@@ -223,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-21T18:36:47.000Z",
       "approvedAt": "2026-06-21T19:03:54.954Z",
       "status": "Confirmed",
@@ -240,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/clark-scheffler-begin-final-round-183647620.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-06-21T17:30:00.000Z",
-      "approvedAt": "2026-06-21T19:03:54.954Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "He is the LIV golfer who once led the US Open on Sunday before posting an 82 in...",
-      "summary": "Dustin Johnson’s victory at the 2016 US Open would have been all the more satisfying because of what happened on a previous occasion when he had the lead ahead of the final round.",
-      "quickRead": "Dustin Johnson’s victory at the 2016 US Open would have been all the more satisfying because of what happened on a previous occasion when he had the lead ahead of the final round.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golfer-once-led-us-173000135.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golfer-once-led-us-173000135.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "57 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-21T22:09:59.806Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -340,7 +340,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-06-21T21:32:59.806Z",
       "status": "Trending",
       "signal": "Reddit find",
