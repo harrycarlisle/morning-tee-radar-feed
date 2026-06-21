@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-21T02:49:28.186Z",
+  "updatedAt": "2026-06-21T12:08:37.286Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "10 hours ago",
+      "time": "4 hours ago",
+      "timestamp": "2026-06-21T07:27:02.000Z",
+      "approvedAt": "2026-06-21T12:08:37.282Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy falls out of US Open contention after back nine implosion",
+      "summary": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament — and finishing in a tie for seventh at th...",
+      "quickRead": "McIlroy finished in the top 10 at both of the majors earlier this season, winning the Masters — his second consecutive victory in the tournament — and finishing in a tie for seventh at th...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-falls-us-open-072702612.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-06-20T21:39:25.000Z",
       "approvedAt": "2026-06-21T02:49:22.240Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/several-big-names-gone-u-213925014.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-06-21T00:26:29.000Z",
       "approvedAt": "2026-06-21T02:49:23.943Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T02:09:28.000Z",
       "approvedAt": "2026-06-21T02:49:23.944Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/xander-schauffele-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-06-20T23:03:23.965Z",
       "approvedAt": "2026-06-20T23:03:23.965Z",
       "status": "Live",
@@ -132,7 +151,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-06-20T19:27:05.000Z",
       "approvedAt": "2026-06-20T23:03:25.427Z",
       "status": "Confirmed",
@@ -151,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-20T18:30:00.000Z",
       "approvedAt": "2026-06-20T19:18:13.803Z",
       "status": "Confirmed",
@@ -170,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-06-20T18:37:59.000Z",
       "approvedAt": "2026-06-20T19:18:15.962Z",
       "status": "Confirmed",
@@ -189,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-06-20T15:47:22.000Z",
       "approvedAt": "2026-06-20T19:18:15.962Z",
       "status": "Confirmed",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brandel-chamblee-explains-why-tiger-154722755.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-06-20T03:04:28.000Z",
-      "approvedAt": "2026-06-20T07:46:33.097Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm, Bryson DeChambeau miss US Open cut as LIV Golf’s biggest stars struggle",
-      "summary": "Two of LIV Golf's biggest stars, Bryson DeChambeau and Jon Rahm, found themselves leaving the east end of Long Island earlier than expected.",
-      "quickRead": "Two of LIV Golf's biggest stars, Bryson DeChambeau and Jon Rahm, found themselves leaving the east end of Long Island earlier than expected.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-miss-030428445.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-bryson-dechambeau-miss-030428445.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T02:49:11.723Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -306,7 +306,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-21T02:12:11.724Z",
       "status": "Trending",
       "signal": "Reddit find",
