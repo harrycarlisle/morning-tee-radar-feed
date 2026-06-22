@@ -1,7 +1,7 @@
 {
   "matchupId": "fred-couples-vs-jason-day-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.331Z",
+  "updatedAt": "2026-06-22T19:35:06.033Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -36,73 +36,73 @@
     "label": "2015, PGA Championship season"
   },
   "summary": {
-    "playerAMetricWins": 3,
-    "playerBMetricWins": 4,
-    "metricTies": 2,
+    "playerAMetricWins": 0,
+    "playerBMetricWins": 9,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 3,
+      "playerA": 0,
       "playerB": 5,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 1,
+      "playerA": 0,
       "playerB": 1,
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 9,
+      "playerA": 0,
       "playerB": 9,
-      "winner": "tie"
+      "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 12,
+      "playerA": 0,
       "playerB": 11,
-      "winner": "playerA"
+      "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 22,
+      "playerA": 11,
       "playerB": 20,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
-      "playerA": 90.9,
+      "playerA": 72.7,
       "playerB": 90,
       "suffix": "%",
-      "winner": "playerA"
+      "winner": "playerB"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 11.5,
+      "playerA": 23.3,
       "playerB": 11.6,
-      "winner": "playerA"
+      "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -8.1,
+      "playerA": null,
       "playerB": -10.9,
       "winner": "playerB"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 13.6,
+      "playerA": 0,
       "playerB": 25,
       "suffix": "%",
       "winner": "playerB"
@@ -110,7 +110,7 @@
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 54.5,
+      "playerA": 0,
       "playerB": 55,
       "suffix": "%",
       "winner": "playerB"

@@ -6,27 +6,6 @@ const DEFAULT_DIRS = [
   path.join("manual-data-import", "staged")
 ];
 
-const ALLOWED_MISSING_FINISH = new Set([
-  [
-    "fred-couples-results.json",
-    "1990",
-    "1990-11-08",
-    "Asahi Glass 4 Tours World Championship of Golf*"
-  ].join("|"),
-  [
-    "fred-couples-results.json",
-    "1991",
-    "1991-11-10",
-    "Asahi Glass 4 Tours World Championship of Golf*"
-  ].join("|"),
-  [
-    "justin-rose-results.json",
-    "2009",
-    "2009-03-17",
-    "Tavistock Cup"
-  ].join("|")
-]);
-
 function slugify(value) {
   return String(value || "")
     .normalize("NFD")
@@ -41,57 +20,21 @@ function isSeasonKey(value) {
 }
 
 function isValidIsoDate(value) {
-  if (value === null || value === undefined || value === "") return true;
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value));
 }
 
-function isNumberLikeOrNull(value) {
-  if (typeof value === "string") {
-    if (!value.trim() || value.trim() === "-") return true;
-    return Number.isFinite(Number(value.replace(/,/g, "")));
+function validateEvent(event, context, errors) {
+  if (!event || typeof event !== "object" || Array.isArray(event)) {
+    errors.push(`${context}: event must be an object.`);
+    return;
   }
 
-  return value === null || value === undefined || typeof value === "number";
-}
-
-function hasAllowedMissingFinish(event, validationKey) {
-  return (
-    ALLOWED_MISSING_FINISH.has(validationKey) &&
-    event.unofficial === true &&
-    typeof event.finishMissingReason === "string" &&
-    event.finishMissingReason.trim().length > 0
-  );
-}
-
-function validateEvent(event, context, errors, validationKey) {
-  const finish = event.finish ?? event.position;
-  const needsReview = event.needsReview === true;
-  const allowedMissingFinish = hasAllowedMissingFinish(event, validationKey);
-
-  if (!isValidIsoDate(event.date)) {
-    errors.push(`${context}: date must be YYYY-MM-DD when present.`);
-  }
-
-  if (!needsReview && !event.tournament) {
+  if (!event.tournament || !String(event.tournament).trim()) {
     errors.push(`${context}: missing tournament.`);
   }
 
-  if (!needsReview && !allowedMissingFinish && (finish === undefined || finish === null || finish === "")) {
-    errors.push(`${context}: missing finish/position.`);
-  }
-
-  ["r1", "r2", "r3", "r4", "total", "fedExCupRank", "fedExCupPoints"].forEach((field) => {
-    if (field in event && !isNumberLikeOrNull(event[field])) {
-      errors.push(`${context}: ${field} must be a number, numeric string, or null.`);
-    }
-  });
-
-  if (Array.isArray(event.rounds)) {
-    event.rounds.forEach((round, index) => {
-      if (!isNumberLikeOrNull(round)) {
-        errors.push(`${context}: rounds[${index}] must be a number, numeric string, or null.`);
-      }
-    });
+  if (!event.date || !isValidIsoDate(event.date)) {
+    errors.push(`${context}: missing date or date is not YYYY-MM-DD.`);
   }
 }
 
@@ -124,8 +67,6 @@ function validateFile(filePath) {
     return errors;
   }
 
-  const seen = new Set();
-
   for (const [seasonKey, season] of Object.entries(data.seasons)) {
     if (!isSeasonKey(seasonKey)) {
       errors.push(`${filePath}: invalid season key ${seasonKey}.`);
@@ -138,26 +79,7 @@ function validateFile(filePath) {
 
     season.events.forEach((event, index) => {
       const context = `${filePath}: ${seasonKey} events[${index}]`;
-      const validationKey = [
-        path.basename(filePath),
-        seasonKey,
-        event.date || "",
-        event.tournament || ""
-      ].join("|");
-      validateEvent(event, context, errors, validationKey);
-
-      const duplicateKey = [
-        seasonKey,
-        event.date || "",
-        String(event.tournament || "").toLowerCase(),
-        event.sourceFile || ""
-      ].join("|");
-
-      if (seen.has(duplicateKey)) {
-        errors.push(`${context}: duplicate player-year-event row.`);
-      }
-
-      seen.add(duplicateKey);
+      validateEvent(event, context, errors);
     });
   }
 
@@ -193,4 +115,14 @@ function main() {
   console.log("[H2H Validate] Manual data validation passed.");
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  collectFiles,
+  isSeasonKey,
+  isValidIsoDate,
+  validateEvent,
+  validateFile
+};

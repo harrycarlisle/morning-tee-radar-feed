@@ -1,0 +1,118 @@
+{
+  "matchupId": "rory-mcilroy-vs-seve-ballesteros-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:06.530Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "McIlroy, Rory",
+    "displayName": "Rory McIlroy",
+    "slug": "rory-mcilroy",
+    "dgId": 10091,
+    "country": "NIR"
+  },
+  "playerB": {
+    "name": "Ballesteros, Seve",
+    "displayName": "Seve Ballesteros",
+    "slug": "seve-ballesteros",
+    "dgId": null,
+    "country": null,
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "2013-2014",
+    "displayYear": "2014",
+    "label": "2014, two-major season"
+  },
+  "primeB": {
+    "year": "1987",
+    "displayYear": "1987",
+    "label": "1987, best available manual season"
+  },
+  "summary": {
+    "playerAMetricWins": 8,
+    "playerBMetricWins": 0,
+    "metricTies": 1,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 3,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 2,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 6,
+      "playerB": 2,
+      "winner": "playerA"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 12,
+      "playerB": 3,
+      "winner": "playerA"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 18,
+      "playerB": 7,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 100,
+      "playerB": 100,
+      "suffix": "%",
+      "winner": "tie"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 9.3,
+      "playerB": 25.3,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": -7.2,
+      "playerB": null,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 16.7,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 66.7,
+      "playerB": 42.9,
+      "suffix": "%",
+      "winner": "playerA"
+    }
+  ]
+}

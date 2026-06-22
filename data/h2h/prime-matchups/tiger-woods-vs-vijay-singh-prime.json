@@ -1,7 +1,7 @@
 {
   "matchupId": "tiger-woods-vs-vijay-singh-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.068Z",
+  "updatedAt": "2026-06-22T19:35:06.617Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -35,9 +35,9 @@
     "label": "2004, nine-win season"
   },
   "summary": {
-    "playerAMetricWins": 7,
-    "playerBMetricWins": 1,
-    "metricTies": 1,
+    "playerAMetricWins": 9,
+    "playerBMetricWins": 0,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
@@ -45,42 +45,42 @@
       "key": "wins",
       "label": "Wins",
       "playerA": 9,
-      "playerB": 9,
-      "winner": "tie"
+      "playerB": 0,
+      "winner": "playerA"
     },
     {
       "key": "majors",
       "label": "Majors",
       "playerA": 3,
-      "playerB": 1,
+      "playerB": 0,
       "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 17,
-      "playerB": 14,
+      "playerB": 1,
       "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
       "playerA": 17,
-      "playerB": 18,
-      "winner": "playerB"
+      "playerB": 2,
+      "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
       "playerA": 20,
-      "playerB": 29,
+      "playerB": 15,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
       "playerA": 100,
-      "playerB": 96.6,
+      "playerB": 93.3,
       "suffix": "%",
       "winner": "playerA"
     },
@@ -88,21 +88,21 @@
       "key": "averageFinish",
       "label": "Average finish",
       "playerA": 4.3,
-      "playerB": 11.6,
+      "playerB": 23,
       "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
       "playerA": -13.8,
-      "playerB": -8.8,
+      "playerB": null,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
       "playerA": 45,
-      "playerB": 31,
+      "playerB": 0,
       "suffix": "%",
       "winner": "playerA"
     },
@@ -110,7 +110,7 @@
       "key": "top10Rate",
       "label": "Top 10 rate",
       "playerA": 85,
-      "playerB": 62.1,
+      "playerB": 13.3,
       "suffix": "%",
       "winner": "playerA"
     }

@@ -1,14 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const SOURCE_TAG = "manual-screenshot-import";
+const { validateFile } = require("./validate-h2h-manual-data");
+const { runSanityCheck } = require("./sanity-check-h2h-manual-data");
 
 function parseArgs(argv) {
   const args = {
     dryRun: false,
-    replaceExisting: false,
-    allowWarnings: false,
-    allowUnverifiedOcr: false,
     importDir: "manual-data-import",
     productionDir: path.join("data", "h2h", "manual")
   };
@@ -19,12 +17,6 @@ function parseArgs(argv) {
 
     if (arg === "--dry-run") {
       args.dryRun = true;
-    } else if (arg === "--replace-existing") {
-      args.replaceExisting = true;
-    } else if (arg === "--allow-warnings") {
-      args.allowWarnings = true;
-    } else if (arg === "--allow-unverified-ocr") {
-      args.allowUnverifiedOcr = true;
     } else if (arg === "--import-dir") {
       args.importDir = next;
       index += 1;
@@ -46,468 +38,221 @@ function writeJson(file, data) {
   fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
 }
 
-function eventYear(event, fallbackYear) {
-  const dateYear = String(event.date || "").match(/^(\d{4})-/)?.[1];
-  return dateYear || String(fallbackYear || "").slice(0, 4);
+function relative(file) {
+  return path.relative(process.cwd(), file).replace(/\\/g, "/");
 }
 
-function eventKey(event) {
-  return [
-    event.date || "",
-    String(event.tournament || "").trim().toLowerCase()
-  ].join("|");
+function timestamp() {
+  return new Date().toISOString().replace(/[:.]/g, "-");
 }
 
-function cloneEventForProduction(event) {
-  const {
-    needsReview,
-    reviewSeverity,
-    ...cleanEvent
-  } = event;
+function collectStagedFiles(stagedDir) {
+  if (!fs.existsSync(stagedDir)) return [];
+
+  return fs.readdirSync(stagedDir)
+    .filter((file) => file.endsWith("-results.json"))
+    .sort()
+    .map((file) => path.join(stagedDir, file));
+}
+
+function countData(data) {
+  const seasonEntries = Object.entries(data.seasons || {});
+  const eventRows = seasonEntries.reduce((sum, [, season]) => {
+    return sum + (Array.isArray(season.events) ? season.events.length : 0);
+  }, 0);
 
   return {
-    ...cleanEvent,
-    source: cleanEvent.source || SOURCE_TAG
+    seasons: seasonEntries.length,
+    eventRows
   };
 }
 
-function hasEmbeddedResultToken(tournament) {
-  return /\b(CUT|W\/D|WD|DQ|T?\d{1,3})$/i.test(String(tournament || "").trim());
-}
+function backupProductionDirectory(productionDir, importDir, generatedAt) {
+  const backupDir = path.join(importDir, "backups", `manual-production-${generatedAt}`);
 
-function promotionSafetyIssues(event) {
-  const issues = [];
-  const rounds = ["r1", "r2", "r3", "r4"]
-    .map((field) => event[field])
-    .filter((value) => value !== null && value !== undefined);
+  fs.mkdirSync(path.dirname(backupDir), { recursive: true });
 
-  if (hasEmbeddedResultToken(event.tournament)) {
-    issues.push("Tournament text appears to include a finish/result token.");
+  if (fs.existsSync(productionDir)) {
+    fs.cpSync(productionDir, backupDir, { recursive: true });
+  } else {
+    fs.mkdirSync(backupDir, { recursive: true });
   }
 
-  if (rounds.some((value) => Number(value) > 99)) {
-    issues.push("Round score columns appear shifted because a round field is greater than 99.");
-  }
-
-  if ((event.total === null || event.total === undefined) && rounds.length > 0) {
-    issues.push("Total is missing while round-score fields are populated.");
-  }
-
-  if (/^\d+(\.\d+)?$/.test(String(event.toPar || "")) && Math.abs(Number(event.toPar)) > 60) {
-    issues.push("To-par field appears to contain a FedEx or points value.");
-  }
-
-  return issues;
-}
-
-function isVerifiedEvent(event) {
-  return event.verified === true || event.manualVerified === true;
-}
-
-function groupStagedEventsByYear(stagedPlayer) {
-  const byYear = new Map();
-
-  for (const [seasonKey, season] of Object.entries(stagedPlayer.seasons || {})) {
-    for (const event of season.events || []) {
-      const year = eventYear(event, seasonKey);
-
-      if (!byYear.has(year)) {
-        byYear.set(year, {
-          events: [],
-          skippedDuplicateEvents: []
-        });
-      }
-
-      const group = byYear.get(year);
-      const key = eventKey(event);
-
-      if (group.events.some((existing) => eventKey(existing) === key)) {
-        group.skippedDuplicateEvents.push({
-          date: event.date || null,
-          tournament: event.tournament || null,
-          sourceFile: event.sourceFile || null
-        });
-        continue;
-      }
-
-      group.events.push(cloneEventForProduction(event));
-    }
-  }
-
-  for (const group of byYear.values()) {
-    group.events.sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")));
-  }
-
-  return byYear;
-}
-
-function buildEligibleGroups(promotableSummary, options) {
-  return promotableSummary.playerYears
-    .filter((group) => {
-      if (group.promotable !== true) return false;
-      if (Number(group.blockingCount || 0) !== 0) return false;
-      if (!options.allowWarnings && Number(group.warningCount || 0) !== 0) return false;
-      return true;
-    })
-    .sort((a, b) => a.playerSlug.localeCompare(b.playerSlug) || String(a.year).localeCompare(String(b.year)));
-}
-
-function productionTemplate(stagedPlayer) {
-  return {
-    player: stagedPlayer.player,
-    slug: stagedPlayer.slug,
-    source: SOURCE_TAG,
-    seasons: {}
-  };
-}
-
-function backupProductionFile(productionFile, backupDir) {
-  if (!fs.existsSync(productionFile)) return null;
-
-  fs.mkdirSync(backupDir, { recursive: true });
-  const backupFile = path.join(backupDir, path.basename(productionFile));
-  fs.copyFileSync(productionFile, backupFile);
-  return backupFile;
+  return backupDir;
 }
 
 function buildMarkdownReport(report) {
   const lines = [
-    "# Manual H2H Clean Promotion Report",
+    "# Manual H2H Promotion Report",
     "",
     "## Summary",
     "",
+    `- Generated at: ${report.generatedAt}`,
     `- Mode: ${report.dryRun ? "dry run" : "write"}`,
-    `- Replace existing years: ${report.replaceExisting ? "yes" : "no"}`,
-    `- Allow warning-only groups: ${report.allowWarnings ? "yes" : "no"}`,
-    `- Allow unverified OCR groups: ${report.allowUnverifiedOcr ? "yes" : "no"}`,
-    `- Promotable player-years in source summary: ${report.sourcePromotablePlayerYears}`,
-    `- Eligible player-years: ${report.eligiblePlayerYears}`,
-    `- Promoted player-years: ${report.promotedPlayerYears}`,
-    `- Skipped existing player-years: ${report.skippedExistingPlayerYears}`,
-    `- Skipped non-promotable player-years: ${report.skippedNotPromotablePlayerYears}`,
-    `- Skipped warning-only player-years: ${report.skippedWarningPlayerYears}`,
-    `- Skipped unverified OCR player-years: ${report.skippedUnverifiedOcrPlayerYears}`,
-    `- Skipped unsafe OCR player-years: ${report.skippedUnsafePlayerYears}`,
-    `- Production files changed: ${report.productionFilesChanged}`,
+    `- Staged files checked: ${report.stagedFilesChecked}`,
+    `- Player files promoted: ${report.playerFilesPromoted}`,
+    `- Seasons promoted: ${report.seasonsPromoted}`,
+    `- Event rows promoted: ${report.eventRowsPromoted}`,
+    `- Player files skipped: ${report.playerFilesSkipped}`,
+    `- Production files replaced: ${report.productionFilesReplaced}`,
     `- New production files: ${report.newProductionFiles}`,
-    `- Backups written: ${report.backups.length}`,
+    `- Existing production files preserved because no staged replacement exists: ${report.existingProductionFilesPreserved}`,
+    `- Backup location: ${report.backupLocation || (report.dryRun ? "not created during dry run" : "none")}`,
     "",
-    "## Promoted Player-Years",
+    "## Promoted Files",
     "",
-    "| Player | Slug | Year | Rows | Production file |",
-    "| --- | --- | --- | --- | --- |"
+    "| Player | Slug | Seasons | Event rows | Action | Production file |",
+    "| --- | --- | ---: | ---: | --- | --- |"
   ];
 
   for (const item of report.promoted) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.rowCount} | ${item.productionFile} |`);
+    lines.push(`| ${item.player} | ${item.slug} | ${item.seasons} | ${item.eventRows} | ${item.action} | ${item.productionFile} |`);
   }
 
   lines.push("");
-  lines.push("## Skipped Existing Production Years");
+  lines.push("## Skipped Files");
   lines.push("");
-  lines.push("| Player | Slug | Year | Reason |");
-  lines.push("| --- | --- | --- | --- |");
+  lines.push("| Staged file | Reason |");
+  lines.push("| --- | --- |");
 
-  for (const item of report.skippedExisting) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.reason} |`);
+  for (const item of report.skipped) {
+    lines.push(`| ${item.stagedFile} | ${item.reason} |`);
   }
 
   lines.push("");
-  lines.push("## Skipped Warning-Only Player-Years");
+  lines.push("## Replaced Production Files");
   lines.push("");
-  lines.push("| Player | Slug | Year | Warnings | Reason |");
-  lines.push("| --- | --- | --- | --- | --- |");
+  lines.push("| Production file | Backup |");
+  lines.push("| --- | --- |");
 
-  for (const item of report.skippedWarning) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.warningCount} | ${item.reason} |`);
-  }
-
-  lines.push("");
-  lines.push("## Skipped Non-Promotable Player-Years");
-  lines.push("");
-  lines.push("| Player | Slug | Year | Blocking | Warning | Reason |");
-  lines.push("| --- | --- | --- | --- | --- | --- |");
-
-  for (const item of report.skippedNotPromotable) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.blockingCount} | ${item.warningCount} | ${item.reason} |`);
-  }
-
-  lines.push("");
-  lines.push("## Skipped Unverified OCR Player-Years");
-  lines.push("");
-  lines.push("| Player | Slug | Year | Reason |");
-  lines.push("| --- | --- | --- | --- |");
-
-  for (const item of report.skippedUnverifiedOcr) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.reason} |`);
-  }
-
-  lines.push("");
-  lines.push("## Skipped Unsafe OCR Player-Years");
-  lines.push("");
-  lines.push("| Player | Slug | Year | Reason |");
-  lines.push("| --- | --- | --- | --- |");
-
-  for (const item of report.skippedUnsafe) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.reason} |`);
-  }
-
-  lines.push("");
-  lines.push("## Duplicate Staged Events Skipped");
-  lines.push("");
-  lines.push("| Player | Slug | Year | Date | Tournament |");
-  lines.push("| --- | --- | --- | --- | --- |");
-
-  for (const item of report.skippedDuplicateEvents) {
-    lines.push(`| ${item.player} | ${item.playerSlug} | ${item.year} | ${item.date || ""} | ${item.tournament || ""} |`);
+  for (const item of report.replaced) {
+    lines.push(`| ${item.productionFile} | ${report.backupLocation || "dry run only"} |`);
   }
 
   lines.push("");
   return `${lines.join("\n")}\n`;
 }
 
-function promoteCleanGroups(options) {
+function promoteStagedManualData(options) {
   const importDir = path.resolve(options.importDir);
-  const productionDir = path.resolve(options.productionDir);
-  const summaryPath = path.join(importDir, "promotable-summary.json");
   const stagedDir = path.join(importDir, "staged");
-  const reportPath = path.join(importDir, "promotion-report.json");
-  const markdownPath = path.join(importDir, "promotion-report.md");
-  const backupDir = path.join(importDir, "backups", "promotion");
-
-  const summary = readJson(summaryPath);
-  const sourcePromotableGroups = summary.playerYears
-    .filter((group) => group.promotable === true && Number(group.blockingCount || 0) === 0);
-  const eligibleGroups = buildEligibleGroups(summary, options);
-  const eligibleKeys = new Set(eligibleGroups.map((group) => `${group.playerSlug}|${group.year}`));
-  const skippedWarning = sourcePromotableGroups
-    .filter((group) => !options.allowWarnings && Number(group.warningCount || 0) > 0)
-    .map((group) => ({
-      player: group.player,
-      playerSlug: group.playerSlug,
-      year: group.year,
-      reviewCount: group.reviewCount,
-      blockingCount: group.blockingCount,
-      warningCount: group.warningCount,
-      reason: "Skipped by default because warning-only OCR still needs manual review."
-    }));
-  const skippedNotPromotable = summary.playerYears
-    .filter((group) => !group.promotable || Number(group.blockingCount || 0) !== 0)
-    .map((group) => ({
-      player: group.player,
-      playerSlug: group.playerSlug,
-      year: group.year,
-      blockingCount: group.blockingCount,
-      warningCount: group.warningCount,
-      reason: group.promotable ? "Skipped because blocking count is not zero." : "promotable-summary marks this player-year as not promotable."
-    }));
-  const stagedCache = new Map();
-  const productionCache = new Map();
-  const changedProduction = new Map();
+  const productionDir = path.resolve(options.productionDir);
+  const generatedAt = timestamp();
+  const stagedFiles = collectStagedFiles(stagedDir);
+  const productionFilesBefore = fs.existsSync(productionDir)
+    ? fs.readdirSync(productionDir).filter((file) => file.endsWith("-results.json"))
+    : [];
+  const stagedBasenames = new Set(stagedFiles.map((file) => path.basename(file)));
+  const backupDir = options.dryRun
+    ? null
+    : backupProductionDirectory(productionDir, importDir, generatedAt);
 
   const report = {
     generatedAt: new Date().toISOString(),
     dryRun: options.dryRun,
-    replaceExisting: options.replaceExisting,
-    allowWarnings: options.allowWarnings,
-    allowUnverifiedOcr: options.allowUnverifiedOcr,
-    importDir,
-    productionDir,
-    sourcePromotablePlayerYears: sourcePromotableGroups.length,
-    eligiblePlayerYears: eligibleGroups.length,
-    skippedNotPromotablePlayerYears: skippedNotPromotable.length,
-    skippedWarningPlayerYears: skippedWarning.length,
-    skippedUnverifiedOcrPlayerYears: 0,
-    skippedUnsafePlayerYears: 0,
-    promotedPlayerYears: 0,
-    skippedExistingPlayerYears: 0,
-    productionFilesChanged: 0,
+    importDir: relative(importDir),
+    stagedDir: relative(stagedDir),
+    productionDir: relative(productionDir),
+    backupLocation: backupDir ? relative(backupDir) : null,
+    stagedFilesChecked: stagedFiles.length,
+    playerFilesPromoted: 0,
+    seasonsPromoted: 0,
+    eventRowsPromoted: 0,
+    playerFilesSkipped: 0,
+    productionFilesReplaced: 0,
     newProductionFiles: 0,
+    existingProductionFilesPreserved: productionFilesBefore.filter((file) => !stagedBasenames.has(file)).length,
     promoted: [],
-    skippedExisting: [],
-    skippedNotPromotable,
-    skippedWarning,
-    skippedUnverifiedOcr: [],
-    skippedUnsafe: [],
-    skippedDuplicateEvents: [],
-    backups: []
+    skipped: [],
+    replaced: [],
+    preservedProductionFiles: productionFilesBefore
+      .filter((file) => !stagedBasenames.has(file))
+      .sort()
+      .map((file) => relative(path.join(productionDir, file)))
   };
 
-  for (const group of eligibleGroups) {
-    const stagedFile = path.join(stagedDir, `${group.playerSlug}-results.json`);
-    const productionFile = path.join(productionDir, `${group.playerSlug}-results.json`);
+  for (const stagedFile of stagedFiles) {
+    const validationErrors = validateFile(stagedFile);
 
-    if (!fs.existsSync(stagedFile)) {
-      report.skippedNotPromotable.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        blockingCount: group.blockingCount,
-        warningCount: group.warningCount,
-        reason: "Staged player file is missing."
+    if (validationErrors.length) {
+      report.skipped.push({
+        stagedFile: relative(stagedFile),
+        reason: "Hard schema validation failed.",
+        errors: validationErrors
       });
-      report.skippedNotPromotablePlayerYears += 1;
+      report.playerFilesSkipped += 1;
       continue;
     }
 
-    if (!stagedCache.has(group.playerSlug)) {
-      const stagedPlayer = readJson(stagedFile);
-      stagedCache.set(group.playerSlug, {
-        player: stagedPlayer,
-        byYear: groupStagedEventsByYear(stagedPlayer)
-      });
-    }
+    const data = readJson(stagedFile);
+    const counts = countData(data);
+    const productionFile = path.join(productionDir, path.basename(stagedFile));
+    const existed = fs.existsSync(productionFile);
 
-    const staged = stagedCache.get(group.playerSlug);
-    const stagedYear = staged.byYear.get(String(group.year));
-
-    if (!stagedYear || !stagedYear.events.length) {
-      report.skippedNotPromotable.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        blockingCount: group.blockingCount,
-        warningCount: group.warningCount,
-        reason: "No staged events found for this promotable player-year."
-      });
-      report.skippedNotPromotablePlayerYears += 1;
-      continue;
-    }
-
-    if (!options.allowUnverifiedOcr && !stagedYear.events.every(isVerifiedEvent)) {
-      report.skippedUnverifiedOcr.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        rowCount: stagedYear.events.length,
-        reason: "Skipped because OCR-derived rows have not been manually verified."
-      });
-      report.skippedUnverifiedOcrPlayerYears += 1;
-      continue;
-    }
-
-    const unsafeIssues = stagedYear.events.flatMap((event) => {
-      return promotionSafetyIssues(event).map((reason) => ({
-        reason,
-        date: event.date || null,
-        tournament: event.tournament || null,
-        sourceFile: event.sourceFile || null
-      }));
-    });
-
-    if (unsafeIssues.length) {
-      report.skippedUnsafe.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        rowCount: stagedYear.events.length,
-        reason: unsafeIssues[0].reason,
-        issues: unsafeIssues.slice(0, 20)
-      });
-      report.skippedUnsafePlayerYears += 1;
-      continue;
-    }
-
-    if (!productionCache.has(group.playerSlug)) {
-      const exists = fs.existsSync(productionFile);
-      productionCache.set(group.playerSlug, {
-        exists,
-        file: productionFile,
-        data: exists ? readJson(productionFile) : productionTemplate(staged.player)
-      });
-    }
-
-    const production = productionCache.get(group.playerSlug);
-    const existingSeason = production.data.seasons?.[group.year];
-
-    if (existingSeason && !options.replaceExisting) {
-      report.skippedExisting.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        productionFile: path.relative(process.cwd(), production.file).replace(/\\/g, "/"),
-        reason: "Production year already exists; default promotion preserves existing production data."
-      });
-      report.skippedExistingPlayerYears += 1;
-      continue;
-    }
-
-    if (!production.data.seasons) production.data.seasons = {};
-
-    production.data.seasons[group.year] = {
-      source: SOURCE_TAG,
-      promotedAt: report.generatedAt,
-      events: stagedYear.events
-    };
-
-    for (const duplicate of stagedYear.skippedDuplicateEvents) {
-      report.skippedDuplicateEvents.push({
-        player: group.player,
-        playerSlug: group.playerSlug,
-        year: group.year,
-        ...duplicate
-      });
-    }
-
-    changedProduction.set(group.playerSlug, production);
     report.promoted.push({
-      player: group.player,
-      playerSlug: group.playerSlug,
-      year: group.year,
-      rowCount: stagedYear.events.length,
-      reviewCount: group.reviewCount,
-      warningCount: group.warningCount,
-      productionFile: path.relative(process.cwd(), production.file).replace(/\\/g, "/"),
-      newFile: !production.exists
+      player: data.player,
+      slug: data.slug || path.basename(stagedFile).replace(/-results\.json$/, ""),
+      seasons: counts.seasons,
+      eventRows: counts.eventRows,
+      action: existed ? "replace existing production file" : "add new production file",
+      productionFile: relative(productionFile),
+      stagedFile: relative(stagedFile)
     });
-  }
 
-  report.promotedPlayerYears = report.promoted.length;
-  report.productionFilesChanged = changedProduction.size;
-  report.newProductionFiles = report.promoted.filter((item) => item.newFile).length
-    ? Array.from(changedProduction.values()).filter((item) => !item.exists).length
-    : 0;
+    if (existed) {
+      report.replaced.push({
+        productionFile: relative(productionFile),
+        stagedFile: relative(stagedFile)
+      });
+      report.productionFilesReplaced += 1;
+    } else {
+      report.newProductionFiles += 1;
+    }
+
+    report.playerFilesPromoted += 1;
+    report.seasonsPromoted += counts.seasons;
+    report.eventRowsPromoted += counts.eventRows;
+
+    if (!options.dryRun) {
+      fs.mkdirSync(productionDir, { recursive: true });
+      fs.copyFileSync(stagedFile, productionFile);
+    }
+  }
 
   if (!options.dryRun) {
-    for (const production of changedProduction.values()) {
-      const backup = backupProductionFile(production.file, backupDir);
-      if (backup) {
-        report.backups.push(path.relative(process.cwd(), backup).replace(/\\/g, "/"));
-      }
+    const sanityReport = runSanityCheck({
+      dataDir: productionDir,
+      reportDir: importDir
+    });
 
-      const sortedSeasons = Object.fromEntries(
-        Object.entries(production.data.seasons || {})
-          .sort(([yearA], [yearB]) => String(yearA).localeCompare(String(yearB)))
-      );
-      writeJson(production.file, {
-        ...production.data,
-        seasons: sortedSeasons
-      });
-    }
+    report.sanityReport = {
+      path: relative(path.join(importDir, "sanity-report.json")),
+      warningCount: sanityReport.warningCount,
+      topWarningTypes: sanityReport.topWarningTypes.slice(0, 10)
+    };
   }
 
-  writeJson(reportPath, report);
-  fs.writeFileSync(markdownPath, buildMarkdownReport(report));
+  writeJson(path.join(importDir, "promotion-report.json"), report);
+  fs.writeFileSync(path.join(importDir, "promotion-report.md"), buildMarkdownReport(report));
 
   return report;
 }
 
 function main() {
   const args = parseArgs(process.argv);
-  const report = promoteCleanGroups(args);
+  const report = promoteStagedManualData(args);
 
   console.log("[H2H Promote] Report:");
   console.log(JSON.stringify({
     dryRun: report.dryRun,
-    eligiblePlayerYears: report.eligiblePlayerYears,
-    promotedPlayerYears: report.promotedPlayerYears,
-    skippedExistingPlayerYears: report.skippedExistingPlayerYears,
-    skippedNotPromotablePlayerYears: report.skippedNotPromotablePlayerYears,
-    skippedWarningPlayerYears: report.skippedWarningPlayerYears,
-    skippedUnverifiedOcrPlayerYears: report.skippedUnverifiedOcrPlayerYears,
-    skippedUnsafePlayerYears: report.skippedUnsafePlayerYears,
-    productionFilesChanged: report.productionFilesChanged,
-    newProductionFiles: report.newProductionFiles
+    playerFilesPromoted: report.playerFilesPromoted,
+    seasonsPromoted: report.seasonsPromoted,
+    eventRowsPromoted: report.eventRowsPromoted,
+    playerFilesSkipped: report.playerFilesSkipped,
+    productionFilesReplaced: report.productionFilesReplaced,
+    newProductionFiles: report.newProductionFiles,
+    backupLocation: report.backupLocation,
+    sanityWarnings: report.sanityReport?.warningCount ?? null
   }, null, 2));
 }
 
@@ -516,6 +261,5 @@ if (require.main === module) {
 }
 
 module.exports = {
-  promoteCleanGroups,
-  groupStagedEventsByYear
+  promoteStagedManualData
 };

@@ -3,10 +3,6 @@ const path = require("path");
 
 const API_KEY = process.env.DATAGOLF_API_KEY;
 
-if (!API_KEY && process.env.NODE_ENV !== "test") {
-  throw new Error("Missing DATAGOLF_API_KEY environment variable.");
-}
-
 const TOUR = "pga";
 const CURRENT_YEAR = new Date().getFullYear();
 const TEST_ONLY_TIGER_RORY = false;
@@ -324,6 +320,50 @@ function m(playerA, playerB, startYear = 2020, dataNote = null) {
     startYear,
     ...(dataNote ? { dataNote } : {})
   };
+}
+
+function playerNameToLastFirst(displayName) {
+  const parts = String(displayName || "").trim().split(/\s+/);
+  if (parts.length < 2) return displayName;
+
+  const last = parts.pop();
+  return `${last}, ${parts.join(" ")}`;
+}
+
+function manualPlayerFromData(slug, data) {
+  const existing = Object.values(PLAYERS).find((player) => player.slug === slug);
+
+  if (existing) return existing;
+
+  const displayName = data.player || slug
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+
+  return {
+    name: playerNameToLastFirst(displayName),
+    displayName,
+    slug,
+    dgId: null,
+    country: data.country || null,
+    manualOnly: true
+  };
+}
+
+function loadManualPrimePlayers() {
+  const manualDir = path.join(process.cwd(), "data", "h2h", "manual");
+
+  if (!fs.existsSync(manualDir)) return [];
+
+  return fs.readdirSync(manualDir)
+    .filter((file) => file.endsWith("-results.json"))
+    .sort()
+    .map((file) => {
+      const slug = file.replace(/-results\.json$/, "");
+      const data = loadManualResults(slug);
+      return data ? manualPlayerFromData(slug, data) : null;
+    })
+    .filter(Boolean);
 }
 
 const PRIME_SEASONS = {
@@ -853,6 +893,10 @@ function sleep(ms) {
 }
 
 function dataGolfUrl(endpoint, params = {}) {
+  if (!API_KEY && process.env.NODE_ENV !== "test") {
+    throw new Error("Missing DATAGOLF_API_KEY environment variable for DataGolf shared-start generation.");
+  }
+
   const url = new URL(`https://feeds.datagolf.com/${endpoint}`);
 
   for (const [key, value] of Object.entries(params)) {
@@ -1097,6 +1141,87 @@ function finishNumber(value) {
   return match ? Number(match[0]) : null;
 }
 
+function displayYearFromSeasonKey(seasonKey) {
+  const parts = String(seasonKey).split("-");
+
+  if (parts.length === 1) return seasonKey;
+
+  const start = parts[0];
+  const end = parts[1];
+
+  if (end.length === 2) {
+    return `${start.slice(0, 2)}${end}`;
+  }
+
+  return end;
+}
+
+function scorePrimeSeason(season) {
+  const events = Array.isArray(season?.events) ? season.events : [];
+  let score = 0;
+
+  for (const event of events) {
+    if (event.official === false || event.officialStart === false || event.unofficial === true) {
+      continue;
+    }
+
+    const finish = getFinish(event);
+    if (!isCountableStartValue(finish)) continue;
+
+    const rank = finishNumber(finish);
+    score += 1;
+
+    if (isWinValue(finish)) score += 1000;
+    if (rank !== null && rank <= 5) score += 100;
+    if (rank !== null && rank <= 10) score += 50;
+    if (rank !== null && rank <= 25) score += 10;
+    if (isMajorSeasonEvent(event) && isWinValue(finish)) score += 500;
+  }
+
+  return score;
+}
+
+function derivePrimeSeasonConfig(player, manual) {
+  const seasons = Object.entries(manual.seasons || {})
+    .filter(([, season]) => Array.isArray(season.events) && season.events.length)
+    .map(([year, season]) => ({
+      year,
+      score: scorePrimeSeason(season),
+      eventCount: season.events.length
+    }))
+    .sort((a, b) => b.score - a.score || b.eventCount - a.eventCount || String(b.year).localeCompare(String(a.year)));
+
+  const best = seasons[0];
+
+  if (!best) {
+    throw new Error(`No manual seasons available for ${player.displayName}`);
+  }
+
+  const displayYear = displayYearFromSeasonKey(best.year);
+
+  return {
+    year: best.year,
+    displayYear,
+    label: `${displayYear}, best available manual season`
+  };
+}
+
+function buildPrimeMatchups() {
+  const players = loadManualPrimePlayers();
+  const matchups = [];
+
+  for (let first = 0; first < players.length; first += 1) {
+    for (let second = first + 1; second < players.length; second += 1) {
+      matchups.push({
+        playerA: players[first],
+        playerB: players[second]
+      });
+    }
+  }
+
+  return matchups;
+}
+
 function parseToPar(value) {
   if (value === null || value === undefined) return null;
 
@@ -1128,15 +1253,15 @@ function isMajorSeasonEvent(event) {
 
 function getPrimeSeason(player) {
   const manual = loadManualResults(player.slug);
-  const prime = PRIME_SEASONS[player.slug];
 
   if (!manual) {
     throw new Error(`Missing manual results file for ${player.displayName}`);
   }
 
-  if (!prime) {
-    throw new Error(`Missing prime season config for ${player.displayName}`);
-  }
+  const configuredPrime = PRIME_SEASONS[player.slug];
+  const prime = configuredPrime && manual.seasons?.[configuredPrime.year]
+    ? configuredPrime
+    : derivePrimeSeasonConfig(player, manual);
 
   const season = manual.seasons?.[prime.year];
 
@@ -1537,9 +1662,11 @@ async function main() {
   console.log(`[H2H] Run mode: ${RUN_MODE}`);
 
   if (RUN_MODE === "prime" || RUN_MODE === "all") {
-    console.log(`[H2H] Starting ${PRIME_MATCHUPS.length} Prime vs Prime matchups...`);
+    const primeMatchups = buildPrimeMatchups();
 
-    for (const matchup of PRIME_MATCHUPS) {
+    console.log(`[H2H] Starting ${primeMatchups.length} Prime vs Prime matchups...`);
+
+    for (const matchup of primeMatchups) {
       if (!matchup.playerA || !matchup.playerB) {
         console.warn("[H2H] Skipped Prime vs Prime matchup because one player key is missing.");
         continue;
@@ -1558,6 +1685,10 @@ async function main() {
   if (RUN_MODE === "prime") {
     console.log("[H2H] Prime-only run complete.");
     return;
+  }
+
+  if (!API_KEY && process.env.NODE_ENV !== "test") {
+    throw new Error("Missing DATAGOLF_API_KEY environment variable for shared-start matchup generation. Run H2H_RUN_MODE=prime for manual-only Prime outputs.");
   }
 
   console.log(`[H2H] Starting ${MATCHUPS.length} shared-start matchups...`);
@@ -1583,8 +1714,10 @@ if (require.main === module) {
 }
 
 module.exports = {
+  buildPrimeMatchups,
   findManualResult,
   getManualEventsForRange,
+  getPrimeSeason,
   manualEventToResult,
   normalizeEventName,
   resolvePlayerResult

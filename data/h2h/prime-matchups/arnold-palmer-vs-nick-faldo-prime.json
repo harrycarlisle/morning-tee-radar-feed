@@ -1,7 +1,7 @@
 {
   "matchupId": "arnold-palmer-vs-nick-faldo-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T16:12:41.192Z",
+  "updatedAt": "2026-06-22T19:35:05.432Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -36,9 +36,9 @@
     "label": "1990, Masters and Open season"
   },
   "summary": {
-    "playerAMetricWins": 7,
+    "playerAMetricWins": 8,
     "playerBMetricWins": 1,
-    "metricTies": 1,
+    "metricTies": 0,
     "totalMetrics": 9
   },
   "metrics": [
@@ -46,35 +46,35 @@
       "key": "wins",
       "label": "Wins",
       "playerA": 8,
-      "playerB": 2,
+      "playerB": 0,
       "winner": "playerA"
     },
     {
       "key": "majors",
       "label": "Majors",
       "playerA": 2,
-      "playerB": 2,
-      "winner": "tie"
+      "playerB": 0,
+      "winner": "playerA"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
       "playerA": 19,
-      "playerB": 4,
+      "playerB": 0,
       "winner": "playerA"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
       "playerA": 22,
-      "playerB": 4,
+      "playerB": 0,
       "winner": "playerA"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
       "playerA": 29,
-      "playerB": 9,
+      "playerB": 4,
       "winner": "neutral"
     },
     {
@@ -89,21 +89,21 @@
       "key": "averageFinish",
       "label": "Average finish",
       "playerA": 6.6,
-      "playerB": 11.4,
+      "playerB": 20,
       "winner": "playerA"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
       "playerA": -6.7,
-      "playerB": -5.4,
+      "playerB": null,
       "winner": "playerA"
     },
     {
       "key": "winRate",
       "label": "Win rate",
       "playerA": 27.6,
-      "playerB": 22.2,
+      "playerB": 0,
       "suffix": "%",
       "winner": "playerA"
     },
@@ -111,7 +111,7 @@
       "key": "top10Rate",
       "label": "Top 10 rate",
       "playerA": 75.9,
-      "playerB": 44.4,
+      "playerB": 0,
       "suffix": "%",
       "winner": "playerA"
     }

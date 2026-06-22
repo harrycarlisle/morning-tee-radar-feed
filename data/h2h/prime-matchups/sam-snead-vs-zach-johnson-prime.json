@@ -1,0 +1,119 @@
+{
+  "matchupId": "sam-snead-vs-zach-johnson-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:06.564Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Snead, Sam",
+    "displayName": "Sam Snead",
+    "slug": "sam-snead",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Johnson, Zach",
+    "displayName": "Zach Johnson",
+    "slug": "zach-johnson",
+    "dgId": null,
+    "country": null,
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "1950",
+    "displayYear": "1950",
+    "label": "1950, 11-win season"
+  },
+  "primeB": {
+    "year": "2006",
+    "displayYear": "2006",
+    "label": "2006, best available manual season"
+  },
+  "summary": {
+    "playerAMetricWins": 3,
+    "playerBMetricWins": 3,
+    "metricTies": 3,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 0,
+      "playerB": 1,
+      "winner": "playerB"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 0,
+      "playerB": 1,
+      "winner": "playerB"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 2,
+      "playerB": 22,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 100,
+      "playerB": 72.7,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 13,
+      "playerB": 34.9,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": 14,
+      "playerB": null,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 0,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "tie"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 0,
+      "playerB": 4.5,
+      "suffix": "%",
+      "winner": "playerB"
+    }
+  ]
+}

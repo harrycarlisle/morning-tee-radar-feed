@@ -1,0 +1,119 @@
+{
+  "matchupId": "henrik-stenson-vs-vijay-singh-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:06.222Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Stenson, Henrik",
+    "displayName": "Henrik Stenson",
+    "slug": "henrik-stenson",
+    "dgId": null,
+    "country": null,
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Singh, Vijay",
+    "displayName": "Vijay Singh",
+    "slug": "vijay-singh",
+    "dgId": null,
+    "country": "FIJ",
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "2006",
+    "displayYear": "2006",
+    "label": "2006, best available manual season"
+  },
+  "primeB": {
+    "year": "2004",
+    "displayYear": "2004",
+    "label": "2004, nine-win season"
+  },
+  "summary": {
+    "playerAMetricWins": 1,
+    "playerBMetricWins": 4,
+    "metricTies": 4,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 1,
+      "playerB": 1,
+      "winner": "tie"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 1,
+      "playerB": 2,
+      "winner": "playerB"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 9,
+      "playerB": 15,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 77.8,
+      "playerB": 93.3,
+      "suffix": "%",
+      "winner": "playerB"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 30.4,
+      "playerB": 23,
+      "winner": "playerB"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": 13,
+      "playerB": null,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 0,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "tie"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 11.1,
+      "playerB": 13.3,
+      "suffix": "%",
+      "winner": "playerB"
+    }
+  ]
+}

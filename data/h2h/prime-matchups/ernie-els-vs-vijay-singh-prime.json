@@ -1,7 +1,7 @@
 {
   "matchupId": "ernie-els-vs-vijay-singh-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T15:53:20.776Z",
+  "updatedAt": "2026-06-22T19:35:06.015Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -37,81 +37,81 @@
   },
   "summary": {
     "playerAMetricWins": 0,
-    "playerBMetricWins": 8,
-    "metricTies": 1,
+    "playerBMetricWins": 5,
+    "metricTies": 4,
     "totalMetrics": 9
   },
   "metrics": [
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 1,
-      "playerB": 9,
-      "winner": "playerB"
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 1,
-      "playerB": 1,
+      "playerA": 0,
+      "playerB": 0,
       "winner": "tie"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 3,
-      "playerB": 14,
-      "winner": "playerB"
+      "playerA": 1,
+      "playerB": 1,
+      "winner": "tie"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 4,
-      "playerB": 18,
+      "playerA": 1,
+      "playerB": 2,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 11,
-      "playerB": 29,
+      "playerA": 9,
+      "playerB": 15,
       "winner": "neutral"
     },
     {
       "key": "cutRate",
       "label": "Made-cut rate",
-      "playerA": 90.9,
-      "playerB": 96.6,
+      "playerA": 88.9,
+      "playerB": 93.3,
       "suffix": "%",
       "winner": "playerB"
     },
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 20,
-      "playerB": 11.6,
+      "playerA": 26.4,
+      "playerB": 23,
       "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -2.1,
-      "playerB": -8.8,
+      "playerA": null,
+      "playerB": null,
       "winner": "playerB"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 9.1,
-      "playerB": 31,
+      "playerA": 0,
+      "playerB": 0,
       "suffix": "%",
-      "winner": "playerB"
+      "winner": "tie"
     },
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 36.4,
-      "playerB": 62.1,
+      "playerA": 11.1,
+      "playerB": 13.3,
       "suffix": "%",
       "winner": "playerB"
     }

@@ -1,0 +1,118 @@
+{
+  "matchupId": "bubba-watson-vs-scottie-scheffler-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:05.809Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Watson, Bubba",
+    "displayName": "Bubba Watson",
+    "slug": "bubba-watson",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Scheffler, Scottie",
+    "displayName": "Scottie Scheffler",
+    "slug": "scottie-scheffler",
+    "dgId": 18417,
+    "country": "USA"
+  },
+  "primeA": {
+    "year": "2006",
+    "displayYear": "2006",
+    "label": "2006, best available manual season"
+  },
+  "primeB": {
+    "year": "2024",
+    "displayYear": "2024",
+    "label": "2024, dominant modern season"
+  },
+  "summary": {
+    "playerAMetricWins": 0,
+    "playerBMetricWins": 9,
+    "metricTies": 0,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 0,
+      "playerB": 8,
+      "winner": "playerB"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 0,
+      "playerB": 1,
+      "winner": "playerB"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 1,
+      "playerB": 13,
+      "winner": "playerB"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 1,
+      "playerB": 17,
+      "winner": "playerB"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 23,
+      "playerB": 20,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 52.2,
+      "playerB": 100,
+      "suffix": "%",
+      "winner": "playerB"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 33,
+      "playerB": 7.3,
+      "winner": "playerB"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": null,
+      "playerB": -13.4,
+      "winner": "playerB"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 0,
+      "playerB": 40,
+      "suffix": "%",
+      "winner": "playerB"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 4.3,
+      "playerB": 85,
+      "suffix": "%",
+      "winner": "playerB"
+    }
+  ]
+}

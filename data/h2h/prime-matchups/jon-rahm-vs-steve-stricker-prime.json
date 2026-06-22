@@ -1,0 +1,118 @@
+{
+  "matchupId": "jon-rahm-vs-steve-stricker-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:06.369Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Rahm, Jon",
+    "displayName": "Jon Rahm",
+    "slug": "jon-rahm",
+    "dgId": 19195,
+    "country": "ESP"
+  },
+  "playerB": {
+    "name": "Stricker, Steve",
+    "displayName": "Steve Stricker",
+    "slug": "steve-stricker",
+    "dgId": null,
+    "country": null,
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "2016-2017",
+    "displayYear": "2017",
+    "label": "2017, best available manual season"
+  },
+  "primeB": {
+    "year": "1996",
+    "displayYear": "1996",
+    "label": "1996, best available manual season"
+  },
+  "summary": {
+    "playerAMetricWins": 8,
+    "playerBMetricWins": 0,
+    "metricTies": 1,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 1,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 9,
+      "playerB": 3,
+      "winner": "playerA"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 12,
+      "playerB": 3,
+      "winner": "playerA"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 24,
+      "playerB": 17,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 91.7,
+      "playerB": 88.2,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 18.8,
+      "playerB": 36.4,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": -7.2,
+      "playerB": 14.5,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 4.2,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 50,
+      "playerB": 17.6,
+      "suffix": "%",
+      "winner": "playerA"
+    }
+  ]
+}

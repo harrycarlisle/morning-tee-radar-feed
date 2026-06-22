@@ -1,0 +1,119 @@
+{
+  "matchupId": "bobby-locke-vs-fred-couples-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:05.623Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Locke, Bobby",
+    "displayName": "Bobby Locke",
+    "slug": "bobby-locke",
+    "dgId": null,
+    "country": null,
+    "manualOnly": true
+  },
+  "playerB": {
+    "name": "Couples, Fred",
+    "displayName": "Fred Couples",
+    "slug": "fred-couples",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "1948",
+    "displayYear": "1948",
+    "label": "1948, best available manual season"
+  },
+  "primeB": {
+    "year": "1992",
+    "displayYear": "1992",
+    "label": "1992, Masters season"
+  },
+  "summary": {
+    "playerAMetricWins": 5,
+    "playerBMetricWins": 1,
+    "metricTies": 3,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 0,
+      "playerB": 0,
+      "winner": "tie"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 6,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 6,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 10,
+      "playerB": 11,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 100,
+      "playerB": 72.7,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 5.4,
+      "playerB": 23.3,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": null,
+      "playerB": null,
+      "winner": "playerB"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 0,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "tie"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 60,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "playerA"
+    }
+  ]
+}

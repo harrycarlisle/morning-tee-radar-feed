@@ -1,0 +1,118 @@
+{
+  "matchupId": "brooks-koepka-vs-davis-love-iii-prime",
+  "type": "prime-scorecard",
+  "updatedAt": "2026-06-22T19:35:05.673Z",
+  "source": "Manual player results",
+  "rules": {
+    "mainStat": "Prime vs Prime",
+    "explanation": "This compares each player's best selected year of their career. It is not based on shared starts.",
+    "counting": "Metrics compare season dominance: wins, majors, top finishes, rates, average finish, and average score to par.",
+    "dataNote": "Historical score-to-par values above 60 or below -60 are ignored to avoid bad scraped total-score values."
+  },
+  "playerA": {
+    "name": "Koepka, Brooks",
+    "displayName": "Brooks Koepka",
+    "slug": "brooks-koepka",
+    "dgId": 16243,
+    "country": "USA"
+  },
+  "playerB": {
+    "name": "Love III, Davis",
+    "displayName": "Davis Love III",
+    "slug": "davis-love-iii",
+    "dgId": null,
+    "country": "USA",
+    "manualOnly": true
+  },
+  "primeA": {
+    "year": "2017-18",
+    "displayYear": "2018",
+    "label": "2018, best available manual season"
+  },
+  "primeB": {
+    "year": "1997",
+    "displayYear": "1997",
+    "label": "1997, PGA Championship season"
+  },
+  "summary": {
+    "playerAMetricWins": 8,
+    "playerBMetricWins": 1,
+    "metricTies": 0,
+    "totalMetrics": 9
+  },
+  "metrics": [
+    {
+      "key": "wins",
+      "label": "Wins",
+      "playerA": 2,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "majors",
+      "label": "Majors",
+      "playerA": 2,
+      "playerB": 0,
+      "winner": "playerA"
+    },
+    {
+      "key": "top5s",
+      "label": "Top 5s",
+      "playerA": 5,
+      "playerB": 2,
+      "winner": "playerA"
+    },
+    {
+      "key": "top10s",
+      "label": "Top 10s",
+      "playerA": 6,
+      "playerB": 3,
+      "winner": "playerA"
+    },
+    {
+      "key": "eventsPlayed",
+      "label": "Events played",
+      "playerA": 17,
+      "playerB": 14,
+      "winner": "neutral"
+    },
+    {
+      "key": "cutRate",
+      "label": "Made-cut rate",
+      "playerA": 88.2,
+      "playerB": 92.9,
+      "suffix": "%",
+      "winner": "playerB"
+    },
+    {
+      "key": "averageFinish",
+      "label": "Average finish",
+      "playerA": 16.7,
+      "playerB": 32.8,
+      "winner": "playerA"
+    },
+    {
+      "key": "averageScoreToPar",
+      "label": "Average score to par",
+      "playerA": -5.9,
+      "playerB": null,
+      "winner": "playerA"
+    },
+    {
+      "key": "winRate",
+      "label": "Win rate",
+      "playerA": 11.8,
+      "playerB": 0,
+      "suffix": "%",
+      "winner": "playerA"
+    },
+    {
+      "key": "top10Rate",
+      "label": "Top 10 rate",
+      "playerA": 35.3,
+      "playerB": 21.4,
+      "suffix": "%",
+      "winner": "playerA"
+    }
+  ]
+}

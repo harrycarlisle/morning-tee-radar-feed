@@ -1,7 +1,7 @@
 {
   "matchupId": "nick-faldo-vs-tiger-woods-prime",
   "type": "prime-scorecard",
-  "updatedAt": "2026-06-18T15:53:20.733Z",
+  "updatedAt": "2026-06-22T19:35:06.495Z",
   "source": "Manual player results",
   "rules": {
     "mainStat": "Prime vs Prime",
@@ -44,35 +44,35 @@
     {
       "key": "wins",
       "label": "Wins",
-      "playerA": 2,
+      "playerA": 0,
       "playerB": 9,
       "winner": "playerB"
     },
     {
       "key": "majors",
       "label": "Majors",
-      "playerA": 2,
+      "playerA": 0,
       "playerB": 3,
       "winner": "playerB"
     },
     {
       "key": "top5s",
       "label": "Top 5s",
-      "playerA": 4,
+      "playerA": 0,
       "playerB": 17,
       "winner": "playerB"
     },
     {
       "key": "top10s",
       "label": "Top 10s",
-      "playerA": 4,
+      "playerA": 0,
       "playerB": 17,
       "winner": "playerB"
     },
     {
       "key": "eventsPlayed",
       "label": "Events played",
-      "playerA": 9,
+      "playerA": 4,
       "playerB": 20,
       "winner": "neutral"
     },
@@ -87,21 +87,21 @@
     {
       "key": "averageFinish",
       "label": "Average finish",
-      "playerA": 11.4,
+      "playerA": 20,
       "playerB": 4.3,
       "winner": "playerB"
     },
     {
       "key": "averageScoreToPar",
       "label": "Average score to par",
-      "playerA": -5.4,
+      "playerA": null,
       "playerB": -13.8,
       "winner": "playerB"
     },
     {
       "key": "winRate",
       "label": "Win rate",
-      "playerA": 22.2,
+      "playerA": 0,
       "playerB": 45,
       "suffix": "%",
       "winner": "playerB"
@@ -109,7 +109,7 @@
     {
       "key": "top10Rate",
       "label": "Top 10 rate",
-      "playerA": 44.4,
+      "playerA": 0,
       "playerB": 85,
       "suffix": "%",
       "winner": "playerB"
