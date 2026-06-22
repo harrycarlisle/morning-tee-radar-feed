@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-06-22T15:20:14.199Z",
+  "updatedAt": "2026-06-22T19:22:16.031Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-22T17:30:00.000Z",
+      "approvedAt": "2026-06-22T19:22:14.425Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Where Rory McIlroy and Bryson DeChambeau’s driving stats ranked over the US Ope...",
+      "summary": "Rory McIlroy was once in contention to win the US Open, but he dramatically fell away as Wyndham Clark emerged victorious.",
+      "quickRead": "Rory McIlroy was once in contention to win the US Open, but he dramatically fell away as Wyndham Clark emerged victorious.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/where-rory-mcilroy-bryson-dechambeau-173000592.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/where-rory-mcilroy-bryson-dechambeau-173000592.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "archivedAt": "2026-06-22T19:22:16.031Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-22T14:00:00.000Z",
@@ -1875,26 +1895,6 @@
       "image": "",
       "timestamp": "2026-06-17T10:06:27.000Z",
       "archivedAt": "2026-06-17T13:39:00.300Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-06-17T12:30:00.000Z",
-      "approvedAt": "2026-06-17T13:38:56.523Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau’s chances of winning the US Open written off as he’s accused...",
-      "summary": "There appears to be too much uncertainty surrounding Bryson DeChambeau for the LIV Golf star to win the US Open at Shinnecock Hills this week.",
-      "quickRead": "There appears to be too much uncertainty surrounding Bryson DeChambeau for the LIV Golf star to win the US Open at Shinnecock Hills this week.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-chances-winning-us-123000195.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-chances-winning-us-123000195.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-06-17T13:38:57.730Z"
     }
   ]
 }
