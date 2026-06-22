@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-22T00:05:49.526Z",
+  "updatedAt": "2026-06-22T00:05:50.825Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -322,14 +322,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-06-21T22:10:17.644Z",
-      "approvedAt": "2026-06-21T22:10:17.644Z",
+      "timestamp": "2026-06-22T00:05:50.632Z",
+      "approvedAt": "2026-06-22T00:05:50.632Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Wyndham Clark leads U.S. Open at -4",
-      "summary": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark is +3 today and -4 overall through 15. Closest chasers: Sam Burns (-3), Tom Kim (-2), J.T. Poston (E).",
+      "title": "Cameron Young wins THE PLAYERS Championship at -13",
+      "summary": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
+      "quickRead": "Cameron Young wins THE PLAYERS Championship at -13. Nearest finishers: Matt Fitzpatrick (-12), Xander Schauffele (-11), Robert MacIntyre (-10).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -337,38 +337,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "U.S. Open",
+      "tournament": "THE PLAYERS Championship",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Wyndham Clark",
-          "score": "-4",
-          "thru": "15"
+          "name": "Cameron Young",
+          "score": "-13",
+          "thru": "F"
         },
         {
           "pos": "2",
-          "name": "Sam Burns",
-          "score": "-3",
+          "name": "Matt Fitzpatrick",
+          "score": "-12",
           "thru": "F"
         },
         {
           "pos": "3",
-          "name": "Tom Kim",
-          "score": "-2",
-          "thru": "16"
-        },
-        {
-          "pos": "T4",
-          "name": "J.T. Poston",
-          "score": "E",
+          "name": "Xander Schauffele",
+          "score": "-11",
           "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "E",
+          "pos": "4",
+          "name": "Robert MacIntyre",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
+          "score": "-9",
           "thru": "F"
         }
       ]
