@@ -54,6 +54,10 @@ function validateFile(filePath) {
     errors.push(`${filePath}: missing player.`);
   }
 
+  if (!data.slug) {
+    errors.push(`${filePath}: missing slug.`);
+  }
+
   if (data.slug && data.slug !== baseSlug) {
     errors.push(`${filePath}: slug ${data.slug} does not match filename slug ${baseSlug}.`);
   }
