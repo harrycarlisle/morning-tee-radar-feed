@@ -3,7 +3,7 @@ const path = require("path");
 
 const API_KEY = process.env.DATAGOLF_API_KEY;
 
-if (!API_KEY) {
+if (!API_KEY && process.env.NODE_ENV !== "test") {
   throw new Error("Missing DATAGOLF_API_KEY environment variable.");
 }
 
@@ -73,6 +73,41 @@ function findManualResult(manualData, event) {
   }
 
   return null;
+}
+
+function manualEventToResult(manualEvent) {
+  return {
+    fin_text: manualEvent.finish ?? manualEvent.position ?? null,
+    earnings: manualEvent.earnings ?? manualEvent.winnings ?? manualEvent.money ?? null,
+    fec_points: manualEvent.fedExCupPoints ?? manualEvent.fedexcup_points ?? null,
+    dg_points: null,
+    manual: true,
+    dataSource: "manual"
+  };
+}
+
+function resolvePlayerResult(player, manualData, event, apiResults) {
+  const manualEvent = findManualResult(manualData, event);
+
+  if (manualEvent) {
+    return manualEventToResult(manualEvent);
+  }
+
+  if (Number(event.year) < 2017 && manualData?.seasons) {
+    return null;
+  }
+
+  if (!player.dgId) return null;
+
+  const apiResult = apiResults.find((row) => Number(row.dg_id) === player.dgId);
+
+  if (!apiResult) return null;
+
+  return {
+    ...apiResult,
+    manual: false,
+    dataSource: "api"
+  };
 }
 
 function getManualEventsForRange(manualData, startYear) {
@@ -1266,58 +1301,19 @@ async function buildMatchup(matchup) {
 
       const results = event.manualEvent ? [] : await getEventResults(event);
 
-      let playerAResult = playerA.dgId
-        ? results.find((row) => Number(row.dg_id) === playerA.dgId)
-        : null;
+      const playerAResult = resolvePlayerResult(playerA, manualA, event, results);
+      const playerBResult = resolvePlayerResult(playerB, manualB, event, results);
 
-      let playerBResult = playerB.dgId
-        ? results.find((row) => Number(row.dg_id) === playerB.dgId)
-        : null;
-
-      if ((!playerAResult || event.year < 2017) && manualA) {
-        const manualEvent = findManualResult(manualA, event);
-
-        if (manualEvent) {
-          console.log(
-            "[H2H] Manual match found:",
-            playerA.slug,
-            event.year,
-            event.eventName,
-            manualEvent.tournament,
-            manualEvent.finish
-          );
-
-          playerAResult = {
-            fin_text: manualEvent.finish,
-            earnings: manualEvent.earnings ?? null,
-            fec_points: null,
-            dg_points: null,
-            manual: true
-          };
-        }
+      if (playerAResult?.dataSource === "manual") {
+        console.log("[H2H] Source manual:", playerA.slug, event.year, event.eventName, playerAResult.fin_text);
+      } else if (playerAResult?.dataSource === "api") {
+        console.log("[H2H] Source api:", playerA.slug, event.year, event.eventName, playerAResult.fin_text);
       }
 
-      if ((!playerBResult || event.year < 2017) && manualB) {
-        const manualEvent = findManualResult(manualB, event);
-
-        if (manualEvent) {
-          console.log(
-            "[H2H] Manual match found:",
-            playerB.slug,
-            event.year,
-            event.eventName,
-            manualEvent.tournament,
-            manualEvent.finish
-          );
-
-          playerBResult = {
-            fin_text: manualEvent.finish,
-            earnings: manualEvent.earnings ?? null,
-            fec_points: null,
-            dg_points: null,
-            manual: true
-          };
-        }
+      if (playerBResult?.dataSource === "manual") {
+        console.log("[H2H] Source manual:", playerB.slug, event.year, event.eventName, playerBResult.fin_text);
+      } else if (playerBResult?.dataSource === "api") {
+        console.log("[H2H] Source api:", playerB.slug, event.year, event.eventName, playerBResult.fin_text);
       }
 
       if (!playerAResult || !playerBResult) {
@@ -1339,7 +1335,8 @@ async function buildMatchup(matchup) {
           earnings: playerAResult.earnings ?? null,
           fedExCupPoints: playerAResult.fec_points ?? null,
           dgPoints: playerAResult.dg_points ?? null,
-          manual: !!playerAResult.manual
+          manual: !!playerAResult.manual,
+          dataSource: playerAResult.dataSource || (playerAResult.manual ? "manual" : "api")
         },
         playerB: {
           name: playerB.displayName,
@@ -1348,7 +1345,8 @@ async function buildMatchup(matchup) {
           earnings: playerBResult.earnings ?? null,
           fedExCupPoints: playerBResult.fec_points ?? null,
           dgPoints: playerBResult.dg_points ?? null,
-          manual: !!playerBResult.manual
+          manual: !!playerBResult.manual,
+          dataSource: playerBResult.dataSource || (playerBResult.manual ? "manual" : "api")
         },
         h2hWinner: comparison.winner,
         edge: comparison.edge,
@@ -1577,7 +1575,17 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  findManualResult,
+  getManualEventsForRange,
+  manualEventToResult,
+  normalizeEventName,
+  resolvePlayerResult
+};
