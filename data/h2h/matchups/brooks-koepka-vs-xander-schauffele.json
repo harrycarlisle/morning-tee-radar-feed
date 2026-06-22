@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-xander-schauffele",
-  "updatedAt": "2026-06-15T20:12:25.775Z",
+  "updatedAt": "2026-06-22T20:00:11.601Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2015,
-    "sharedStarts": 98,
+    "sharedStarts": 99,
     "playerAWins": 38,
-    "playerBWins": 50,
+    "playerBWins": 51,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 988 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,6 +1,6 @@
 {
   "matchupId": "sam-burns-vs-sahith-theegala",
-  "updatedAt": "2026-06-15T19:44:05.934Z",
+  "updatedAt": "2026-06-22T19:31:31.348Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 91,
-    "playerAWins": 47,
+    "sharedStarts": 92,
+    "playerAWins": 48,
     "playerBWins": 40,
     "ties": 4
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 9 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-14",

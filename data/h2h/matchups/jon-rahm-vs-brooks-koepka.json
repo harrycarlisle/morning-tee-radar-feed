@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-brooks-koepka",
-  "updatedAt": "2026-06-15T19:44:04.005Z",
+  "updatedAt": "2026-06-22T19:26:11.795Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 88,
+    "sharedStarts": 89,
     "playerAWins": 46,
     "playerBWins": 40,
-    "ties": 2
+    "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-brooks-koepka",
-  "updatedAt": "2026-06-15T18:35:48.477Z",
+  "updatedAt": "2026-06-22T18:22:24.476Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 55,
-    "playerAWins": 32,
+    "sharedStarts": 56,
+    "playerAWins": 33,
     "playerBWins": 18,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 995 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-24",

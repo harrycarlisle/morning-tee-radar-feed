@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-collin-morikawa",
-  "updatedAt": "2026-06-15T19:44:04.344Z",
+  "updatedAt": "2026-06-22T19:31:27.756Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 116,
-    "playerAWins": 66,
+    "sharedStarts": 117,
+    "playerAWins": 67,
     "playerBWins": 44,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 6 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

@@ -1,6 +1,6 @@
 {
   "matchupId": "ludvig-aberg-vs-bryson-dechambeau",
-  "updatedAt": "2026-06-15T20:12:25.600Z",
+  "updatedAt": "2026-06-22T20:00:11.355Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 10,
-    "playerAWins": 3,
+    "sharedStarts": 11,
+    "playerAWins": 4,
     "playerBWins": 5,
     "ties": 2
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Bryson DeChambeau",
+        "dgId": 19841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 982 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

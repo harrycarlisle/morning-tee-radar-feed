@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-viktor-hovland",
-  "updatedAt": "2026-06-15T19:21:22.716Z",
+  "updatedAt": "2026-06-22T19:08:31.209Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 96,
-    "playerAWins": 56,
+    "sharedStarts": 97,
+    "playerAWins": 57,
     "playerBWins": 34,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 967 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

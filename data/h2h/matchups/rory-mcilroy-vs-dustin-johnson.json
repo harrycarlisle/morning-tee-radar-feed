@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-dustin-johnson",
-  "updatedAt": "2026-06-15T19:44:02.807Z",
+  "updatedAt": "2026-06-22T19:26:09.330Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2008,
-    "sharedStarts": 164,
+    "sharedStarts": 165,
     "playerAWins": 83,
     "playerBWins": 71,
-    "ties": 10
+    "ties": 11
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Dustin Johnson",
+        "dgId": 12422,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

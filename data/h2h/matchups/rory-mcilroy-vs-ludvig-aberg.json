@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-ludvig-aberg",
-  "updatedAt": "2026-06-15T19:21:22.611Z",
+  "updatedAt": "2026-06-22T19:08:30.998Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 40,
+    "sharedStarts": 41,
     "playerAWins": 23,
-    "playerBWins": 15,
+    "playerBWins": 16,
     "ties": 2
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 15 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-07",

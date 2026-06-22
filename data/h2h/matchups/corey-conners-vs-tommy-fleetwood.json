@@ -1,6 +1,6 @@
 {
   "matchupId": "corey-conners-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-15T19:44:06.180Z",
+  "updatedAt": "2026-06-22T19:31:31.906Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 114,
+    "sharedStarts": 115,
     "playerAWins": 46,
-    "playerBWins": 61,
+    "playerBWins": 62,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T11",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 12 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-14",

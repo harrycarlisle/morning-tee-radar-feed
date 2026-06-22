@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-patrick-reed",
-  "updatedAt": "2026-06-15T19:44:02.917Z",
+  "updatedAt": "2026-06-22T19:26:09.538Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2011,
-    "sharedStarts": 142,
-    "playerAWins": 98,
+    "sharedStarts": 143,
+    "playerAWins": 99,
     "playerBWins": 37,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Reed",
+        "dgId": 14838,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 967 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-05-17",

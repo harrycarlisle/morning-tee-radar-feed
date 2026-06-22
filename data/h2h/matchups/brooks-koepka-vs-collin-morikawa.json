@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-collin-morikawa",
-  "updatedAt": "2026-06-15T20:12:25.858Z",
+  "updatedAt": "2026-06-22T20:00:11.789Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 52,
+    "sharedStarts": 53,
     "playerAWins": 15,
-    "playerBWins": 31,
+    "playerBWins": 32,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T17",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 982 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-14",

@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-patrick-cantlay",
-  "updatedAt": "2026-06-15T19:44:05.858Z",
+  "updatedAt": "2026-06-22T19:31:31.123Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 139,
-    "playerAWins": 51,
+    "sharedStarts": 140,
+    "playerAWins": 52,
     "playerBWins": 68,
     "ties": 20
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T56",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 943 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-07",

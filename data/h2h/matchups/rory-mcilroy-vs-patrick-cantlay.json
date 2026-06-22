@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-patrick-cantlay",
-  "updatedAt": "2026-06-15T19:32:46.006Z",
+  "updatedAt": "2026-06-22T19:19:59.384Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2012,
-    "sharedStarts": 117,
-    "playerAWins": 63,
+    "sharedStarts": 118,
+    "playerAWins": 64,
     "playerBWins": 46,
     "ties": 8
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-21",
+      "eventId": 26,
+      "eventName": "U.S. Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T32",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 967 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-07",
