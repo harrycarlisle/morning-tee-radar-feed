@@ -3773,7 +3773,8 @@
           "toPar": null,
           "rounds": [],
           "total": null,
-          "unofficial": true
+          "unofficial": true,
+          "finishMissingReason": "Unofficial team event; existing source data does not provide an individual finish."
         },
         {
           "date": "1990-11-18",
@@ -4096,7 +4097,8 @@
           "toPar": null,
           "rounds": [],
           "total": null,
-          "unofficial": true
+          "unofficial": true,
+          "finishMissingReason": "Unofficial team event; existing source data does not provide an individual finish."
         },
         {
           "date": "1991-11-24",

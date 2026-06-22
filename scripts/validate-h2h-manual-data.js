@@ -6,6 +6,27 @@ const DEFAULT_DIRS = [
   path.join("manual-data-import", "staged")
 ];
 
+const ALLOWED_MISSING_FINISH = new Set([
+  [
+    "fred-couples-results.json",
+    "1990",
+    "1990-11-08",
+    "Asahi Glass 4 Tours World Championship of Golf*"
+  ].join("|"),
+  [
+    "fred-couples-results.json",
+    "1991",
+    "1991-11-10",
+    "Asahi Glass 4 Tours World Championship of Golf*"
+  ].join("|"),
+  [
+    "justin-rose-results.json",
+    "2009",
+    "2009-03-17",
+    "Tavistock Cup"
+  ].join("|")
+]);
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFD")
@@ -33,9 +54,19 @@ function isNumberLikeOrNull(value) {
   return value === null || value === undefined || typeof value === "number";
 }
 
-function validateEvent(event, context, errors) {
+function hasAllowedMissingFinish(event, validationKey) {
+  return (
+    ALLOWED_MISSING_FINISH.has(validationKey) &&
+    event.unofficial === true &&
+    typeof event.finishMissingReason === "string" &&
+    event.finishMissingReason.trim().length > 0
+  );
+}
+
+function validateEvent(event, context, errors, validationKey) {
   const finish = event.finish ?? event.position;
   const needsReview = event.needsReview === true;
+  const allowedMissingFinish = hasAllowedMissingFinish(event, validationKey);
 
   if (!isValidIsoDate(event.date)) {
     errors.push(`${context}: date must be YYYY-MM-DD when present.`);
@@ -45,7 +76,7 @@ function validateEvent(event, context, errors) {
     errors.push(`${context}: missing tournament.`);
   }
 
-  if (!needsReview && (finish === undefined || finish === null || finish === "")) {
+  if (!needsReview && !allowedMissingFinish && (finish === undefined || finish === null || finish === "")) {
     errors.push(`${context}: missing finish/position.`);
   }
 
@@ -107,7 +138,13 @@ function validateFile(filePath) {
 
     season.events.forEach((event, index) => {
       const context = `${filePath}: ${seasonKey} events[${index}]`;
-      validateEvent(event, context, errors);
+      const validationKey = [
+        path.basename(filePath),
+        seasonKey,
+        event.date || "",
+        event.tournament || ""
+      ].join("|");
+      validateEvent(event, context, errors, validationKey);
 
       const duplicateKey = [
         seasonKey,

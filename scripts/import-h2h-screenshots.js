@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { spawnSync } = require("child_process");
+const { generateReviewReports, severityForReason } = require("./summarize-h2h-review");
 
 const DEFAULT_ZIP = process.env.H2H_SCREENSHOT_ZIP || "";
 const SOURCE_TAG = "manual-screenshot-import";
@@ -325,11 +326,16 @@ function parseEventsFromOcr(ocr, screenshot) {
       reasons.push(`Date OCR token was normalized from "${dateWord.text}".`);
     }
 
+    const severity = reasons.length
+      ? severityForReason(reasons.filter(Boolean).join(" "))
+      : null;
+
     if (reasons.length) {
       reviews.push({
         playerName: screenshot.playerName,
         playerSlug: screenshot.playerSlug,
         sourceScreenshot: screenshot.relativePath,
+        severity,
         reason: reasons.filter(Boolean).join(" "),
         partialData: event,
         partialText: ocr.text || ""
@@ -339,6 +345,7 @@ function parseEventsFromOcr(ocr, screenshot) {
     events.push({
       ...event,
       needsReview: reasons.length > 0,
+      reviewSeverity: severity,
       sourceFile: screenshot.relativePath
     });
   }
@@ -348,6 +355,7 @@ function parseEventsFromOcr(ocr, screenshot) {
       playerName: screenshot.playerName,
       playerSlug: screenshot.playerSlug,
       sourceScreenshot: screenshot.relativePath,
+      severity: "blocking",
       reason: "No date rows were detected by OCR.",
       partialText: ocr.text || ""
     });
@@ -462,6 +470,7 @@ function main() {
         playerName: screenshot.playerName,
         playerSlug: screenshot.playerSlug,
         sourceScreenshot: relativePath,
+        severity: "blocking",
         reason: screenshot.parseError
       };
       reviewNeeded.push(item);
@@ -478,6 +487,7 @@ function main() {
         playerName: screenshot.playerName,
         playerSlug: screenshot.playerSlug,
         sourceScreenshot: relativePath,
+        severity: "blocking",
         reason: ocr.error || "OCR failed.",
         partialExtractedText: ocr.text || ""
       };
@@ -517,6 +527,7 @@ function main() {
   };
 
   writeJson(path.join(outDir, "manifest.json"), manifest);
+  generateReviewReports(outDir);
   console.log("[H2H Import] Manifest:");
   console.log(JSON.stringify(manifest, null, 2));
 }
