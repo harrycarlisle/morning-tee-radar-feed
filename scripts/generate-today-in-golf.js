@@ -6,11 +6,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 const MANUAL_EDITION = process.env.MANUAL_EDITION || "auto";
 const FORCE_RUN = process.env.FORCE_RUN === "true";
-
-if (!OPENAI_API_KEY) {
-  console.error("Missing OPENAI_API_KEY");
-  process.exit(1);
-}
+const DRY_RUN_EDITION_LABELS = process.env.DRY_RUN_EDITION_LABELS === "true";
 
 function readJson(path, fallback) {
   try {
@@ -56,8 +52,8 @@ function isValidEdition(value) {
   return value === "morning" || value === "midday" || value === "evening";
 }
 
-function getCurrentWindowEdition() {
-  const et = getETParts();
+function getCurrentWindowEdition(date = new Date()) {
+  const et = getETParts(date);
 
   if (et.hour >= 8 && et.hour < 12) return "morning";
   if (et.hour >= 12 && et.hour < 20) return "midday";
@@ -66,8 +62,8 @@ function getCurrentWindowEdition() {
   return null;
 }
 
-function getMostRecentEligibleEdition() {
-  const et = getETParts();
+function getMostRecentEligibleEdition(date = new Date()) {
+  const et = getETParts(date);
 
   if (et.hour >= 20) return "evening";
   if (et.hour >= 12) return "midday";
@@ -77,18 +73,18 @@ function getMostRecentEligibleEdition() {
   return null;
 }
 
-function getEditionNow(currentTodayJson = null) {
+function getEditionNow(currentTodayJson = null, date = new Date()) {
   if (isValidEdition(MANUAL_EDITION)) {
     return MANUAL_EDITION;
   }
 
-  const windowEdition = getCurrentWindowEdition();
+  const windowEdition = getCurrentWindowEdition(date);
 
   if (!windowEdition) {
     return null;
   }
 
-  if (!hasAlreadyRun(currentTodayJson, windowEdition)) {
+  if (!hasAlreadyRun(currentTodayJson, windowEdition, date)) {
     return windowEdition;
   }
 
@@ -357,14 +353,65 @@ function filterStoriesForEdition(stories, edition) {
   return primaryStories.slice(0, 16);
 }
 
-function hasAlreadyRun(todayJson, edition) {
+function hasAlreadyRun(todayJson, edition, date = new Date()) {
   if (!todayJson || !todayJson.lastUpdated || !todayJson.edition) return false;
   if (todayJson.edition !== edition) return false;
 
-  const nowET = getETParts();
+  const nowET = getETParts(date);
   const lastET = getETParts(new Date(todayJson.lastUpdated));
 
   return nowET.dateKey === lastET.dateKey;
+}
+
+function hasReusableBriefingItems(todayJson) {
+  return Array.isArray(todayJson?.items) && todayJson.items.length >= 2;
+}
+
+function buildOutput({ edition, items, now = new Date() }) {
+  return {
+    active: true,
+    lastUpdated: now.toISOString(),
+    edition,
+    label: getLabel(edition),
+    title: "Today In Golf",
+    summary: "A 30-second briefing on todayâ€™s biggest golf stories.",
+    items,
+    url: "https://www.morningtee.com/search",
+    cta: "See all stories â†’"
+  };
+}
+
+function updateEditionMetadataOnly(currentTodayJson, edition, reason) {
+  if (!hasReusableBriefingItems(currentTodayJson)) {
+    console.log(`[Today In Golf] ${reason}. No reusable briefing items found. Keeping existing today-in-golf.json.`);
+    return false;
+  }
+
+  const output = buildOutput({
+    edition,
+    items: currentTodayJson.items
+  });
+
+  writeJson(TODAY_PATH, output);
+
+  console.log(`[Today In Golf] ${reason}. Updated edition metadata only for ${edition}.`);
+  console.log(JSON.stringify(output, null, 2));
+
+  return true;
+}
+
+function runEditionLabelDryRun() {
+  const checks = [
+    ["2026-06-23T12:01:00Z", "8:01 a.m. ET"],
+    ["2026-06-23T16:01:00Z", "12:01 p.m. ET"],
+    ["2026-06-24T00:01:00Z", "8:01 p.m. ET"]
+  ];
+
+  checks.forEach(([iso, label]) => {
+    const date = new Date(iso);
+    const edition = getCurrentWindowEdition(date);
+    console.log(`${label}: ${edition || "none"} -> ${edition ? getLabel(edition) : "No eligible edition"}`);
+  });
 }
 
 function simplifyLeaders(leaders) {
@@ -755,6 +802,16 @@ See all stories →
 }
 
 async function main() {
+  if (DRY_RUN_EDITION_LABELS) {
+    runEditionLabelDryRun();
+    return;
+  }
+
+  if (!OPENAI_API_KEY) {
+    console.error("Missing OPENAI_API_KEY");
+    process.exit(1);
+  }
+
   const radarData = readJson(RADAR_PATH, {});
   const currentTodayJson = readJson(TODAY_PATH, null);
   const et = getETParts();
@@ -787,21 +844,21 @@ async function main() {
   console.log(`[Today In Golf] Stories selected for ${edition}: ${storiesForEdition.length}`);
 
   if (!storiesForEdition.length) {
-    console.log("No stories found. Keeping existing today-in-golf.json.");
+    updateEditionMetadataOnly(currentTodayJson, edition, "No stories found");
     return;
   }
 
   const generated = await generateBriefing(storiesForEdition, edition);
 
   if (!generated) {
-    console.log("OpenAI returned no usable briefing. Keeping existing today-in-golf.json.");
+    updateEditionMetadataOnly(currentTodayJson, edition, "OpenAI returned no usable briefing");
     return;
   }
 
   const cleanedItems = cleanGeneratedItems(generated.items);
 
   if (cleanedItems.length < 2) {
-    console.log("Generated briefing had fewer than 2 usable items. Keeping existing today-in-golf.json.");
+    updateEditionMetadataOnly(currentTodayJson, edition, "Generated briefing had fewer than 2 usable items");
     return;
   }
 
