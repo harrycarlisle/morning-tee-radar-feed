@@ -8,6 +8,17 @@ const MANUAL_EDITION = process.env.MANUAL_EDITION || "auto";
 const FORCE_RUN = process.env.FORCE_RUN === "true";
 const DRY_RUN_EDITION_LABELS = process.env.DRY_RUN_EDITION_LABELS === "true";
 
+const TODAY_IN_GOLF_TITLE = "Today In Golf";
+const TODAY_IN_GOLF_SUMMARY = "A 30-second briefing on today's biggest golf stories.";
+const TODAY_IN_GOLF_CTA = "See all stories ->";
+
+function normalizeDisplayText(value) {
+  return String(value || "")
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201C\u201D]/g, "\"")
+    .replace(/[\u2013\u2014]/g, "-");
+}
+
 function readJson(path, fallback) {
   try {
     return JSON.parse(fs.readFileSync(path, "utf8"));
@@ -372,12 +383,12 @@ function buildOutput({ edition, items, now = new Date() }) {
     active: true,
     lastUpdated: now.toISOString(),
     edition,
-    label: getLabel(edition),
-    title: "Today In Golf",
-    summary: "A 30-second briefing on todayâ€™s biggest golf stories.",
+    label: normalizeDisplayText(getLabel(edition)),
+    title: normalizeDisplayText(TODAY_IN_GOLF_TITLE),
+    summary: normalizeDisplayText(TODAY_IN_GOLF_SUMMARY),
     items,
     url: "https://www.morningtee.com/search",
-    cta: "See all stories â†’"
+    cta: normalizeDisplayText(TODAY_IN_GOLF_CTA)
   };
 }
 
@@ -731,10 +742,10 @@ Avoid these phrases:
 - next thing to know
 
 The top summary must be exactly:
-A 30-second briefing on today’s biggest golf stories.
+${TODAY_IN_GOLF_SUMMARY}
 
 CTA must be:
-See all stories →
+${TODAY_IN_GOLF_CTA}
 `.trim();
 
   const userPrompt = JSON.stringify({
@@ -867,12 +878,12 @@ async function main() {
     active: true,
     lastUpdated: now.toISOString(),
     edition,
-    label: getLabel(edition),
-    title: "Today In Golf",
-    summary: "A 30-second briefing on today’s biggest golf stories.",
+    label: normalizeDisplayText(getLabel(edition)),
+    title: normalizeDisplayText(TODAY_IN_GOLF_TITLE),
+    summary: normalizeDisplayText(TODAY_IN_GOLF_SUMMARY),
     items: cleanedItems,
     url: "https://www.morningtee.com/search",
-    cta: "See all stories →"
+    cta: normalizeDisplayText(TODAY_IN_GOLF_CTA)
   };
 
   writeJson(TODAY_PATH, output);
