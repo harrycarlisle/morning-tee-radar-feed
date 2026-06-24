@@ -103,9 +103,9 @@ function getEditionNow(currentTodayJson = null, date = new Date()) {
 }
 
 function getLabel(edition) {
-  if (edition === "morning") return "Updated 8 AM ET";
-  if (edition === "midday") return "Updated 12 PM ET";
-  return "Updated 8 PM ET";
+  if (edition === "morning") return "Updated at 8 a.m. ET";
+  if (edition === "midday") return "Updated at 12 p.m. ET";
+  return "Updated at 8 p.m. ET";
 }
 
 function getItemTimestamp(item) {
