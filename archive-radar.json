@@ -1,7 +1,38 @@
 {
   "active": true,
-  "updatedAt": "2026-06-24T17:50:31.022Z",
+  "updatedAt": "2026-06-24T17:50:33.303Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "4 hours ago",
+      "timestamp": "2026-06-24T13:43:02.004Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-06-24T17:50:33.303Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Why the PGA Tour may have forced themselves into creating another Tig...",
+      "summary": "Tiger Woods opened up proceedings ahead of Brian Rolapp’s press conference on Tuesday with a few short words.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/why-pga-tour-may-forced-170000927.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/why-pga-tour-may-forced-170000927.html",
+      "source": "Yahoo Golf",
+      "image": "",
+      "timestamp": "2026-06-24T17:00:00.000Z",
+      "archivedAt": "2026-06-24T17:50:33.303Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "3 hours ago",
@@ -1860,46 +1891,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-06-18T20:18:54.283Z"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-06-18T17:30:00.000Z",
-      "approvedAt": "2026-06-18T20:18:53.206Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The PGA Tour warned it is making a big mistake after Rory McIlroy’s comments at...",
-      "summary": "The PGA Tour has been warned it is making a real error by pushing for the top players to not play in any track two events, following Rory McIlroy’s comments about the mooted split ahead o...",
-      "quickRead": "Rory McIlroy called the PGA Tour’s proposed “track two” events “glorified Korn Ferry Tour tournaments,” and journalist Alan Shipnuck said the Tour would be making “a mistake” if it discourages tier-one stars from playing them because the fields will be “very starless. ” The warning is that splitting the Tour into two tiers could gut non-signature events unless big names are required to make a few starts there, and McIlroy’s own role in creating the signature-event model is now backfiring.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-warned-making-big-173000210.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-warned-making-big-173000210.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
-      "archivedAt": "2026-06-18T20:18:54.283Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-06-18T14:57:48.000Z",
-      "approvedAt": "2026-06-18T16:25:47.537Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "McIlroy grabs early lead at fog-hit US Open",
-      "summary": "Rory McIlroy birdied two of his first three holes on Thursday to seize the early lead of the fog-hit US Open, while top-ranked Scottie Scheffler parred to began his bid for a career Grand...",
-      "quickRead": "Rory McIlroy birdied two of his first three holes on Thursday to seize the early lead of the fog-hit US Open, while top-ranked Scottie Scheffler parred to began his bid for a career Grand...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/mcilroy-grabs-early-lead-fog-145748239.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-grabs-early-lead-fog-145748239.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
-      "archivedAt": "2026-06-18T16:25:48.671Z"
     }
   ]
 }
