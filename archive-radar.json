@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-06-24T14:20:07.365Z",
+  "updatedAt": "2026-06-24T17:50:28.854Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-24T15:50:36.000Z",
+      "approvedAt": "2026-06-24T17:50:27.744Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "LIV Golf's Jon Rahm, Tyrrell Hatton officially in field at Genesis Scottish Open",
+      "summary": "LIV Golf stars Jon Rahm and Tyrrell Hatton are set to compete in the PGA Tour's co-sanctioned Genesis Scottish Open next month.",
+      "quickRead": "LIV Golf stars Jon Rahm and Tyrrell Hatton are set to compete in the PGA Tour's co-sanctioned Genesis Scottish Open next month.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/liv-golfs-jon-rahm-tyrrell-155036199.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/liv-golfs-jon-rahm-tyrrell-155036199.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
+      "archivedAt": "2026-06-24T17:50:28.854Z"
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-06-24T11:00:00.000Z",
@@ -1876,21 +1896,6 @@
       "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-06-18T12:49:00.560Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "4 hours ago",
-      "timestamp": "2026-06-18T08:40:58.540Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/worlds-biggest-bunker.png",
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-06-18T12:48:57.576Z"
     }
   ]
 }
