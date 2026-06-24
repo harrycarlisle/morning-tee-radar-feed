@@ -1,7 +1,42 @@
 {
   "active": true,
-  "updatedAt": "2026-06-24T17:50:28.854Z",
+  "updatedAt": "2026-06-24T17:50:31.022Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "time": "3 hours ago",
+      "timestamp": "2026-06-24T14:20:02.004Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "Is this the world’s biggest bunker?",
+      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/worlds-biggest-bunker.png",
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "archivedAt": "2026-06-24T17:50:31.022Z"
+    },
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-24T16:38:57.000Z",
+      "approvedAt": "2026-06-24T17:50:29.950Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Clark and Scheffler switch from tough US Open to rain-softened Travelers Champi...",
+      "summary": "Two days of rain gave way to a clearing sky Wednesday at the Travelers Championship, a reminder that his week could be a soft re-entry into the post-U.S.",
+      "quickRead": "Two days of rain gave way to a clearing sky Wednesday at the Travelers Championship, a reminder that his week could be a soft re-entry into the post-U.S.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/clark-scheffler-switch-tough-us-163857030.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/clark-scheffler-switch-tough-us-163857030.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler.png",
+      "archivedAt": "2026-06-24T17:50:31.022Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-06-24T15:50:36.000Z",
@@ -1865,37 +1900,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
       "archivedAt": "2026-06-18T16:25:48.671Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Career Grand Slams in golf: How Scottie Scheffler can join Rory McIlr...",
-      "summary": "Here's what to know about Scheffler's quest for golf immortality.",
-      "quickRead": "Here's what to know about Scheffler's quest for golf immortality.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/career-grand-slams-golf-scottie-124947715.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/career-grand-slams-golf-scottie-124947715.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilroy.png",
-      "timestamp": "2026-06-18T12:49:47.000Z",
-      "archivedAt": "2026-06-18T16:25:48.671Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "4 hours ago",
-      "timestamp": "2026-06-18T08:03:58.540Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "A golf course hot dog built for the internet",
-      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
-      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
-      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
-      "archivedAt": "2026-06-18T12:49:00.560Z"
     }
   ]
 }
