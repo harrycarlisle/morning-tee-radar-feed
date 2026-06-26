@@ -228,7 +228,8 @@ const PLAYER_IMAGE_MAP = [
   {
     terms: ["nelly korda", "korda"],
     images: [
-      "/images/nelly-korda-2.png"
+      "/images/nelly-korda-versus.png",
+      "/images/nelly-korda-olivia-cowan.png"
     ]
   },
   {
@@ -253,10 +254,9 @@ const PLAYER_IMAGE_MAP = [
   {
     terms: ["rory mcilroy", "rory", "mcilroy"],
     images: [
-      "/images/rory-mcilroy.png",
-      "/images/rory-mcilroy-1.png",
-      "/images/rory-mcilroy-2.png",
-      "/images/rory-mcilroy-3.png"
+      "/images/rory-mcilory-1.png",
+      "/images/rory-mcilory-2.png",
+      "/images/rory-mcilory-8.png"
     ]
   },
   {
@@ -274,12 +274,9 @@ const PLAYER_IMAGE_MAP = [
   {
     terms: ["scottie scheffler", "scheffler"],
     images: [
-      "/images/scottie-scheffler.png",
-      "/images/scottie-scheffler-1.png",
-      "/images/scottie-scheffler-2.png",
-      "/images/scottie-scheffler-3.png",
-      "/images/scottie-scheffler-4.png",
-      "/images/scottie-scheffler-5.png"
+      "/images/scottie-scheffler-5.png",
+      "/images/Scottie-Scheffler-1.png",
+      "/images/Scottie-Scheffler-2.png"
     ]
   },
   {
@@ -347,21 +344,40 @@ const PLAYER_IMAGE_MAP = [
   {
     terms: ["xander schauffele", "schauffele", "xander"],
     images: [
-      "/images/xander-schauffele-1.png"
+      "/images/golf-placeholder-3.png"
     ]
   }
 ];
 
 const PLACEHOLDER_IMAGES = [
   "/images/golf-placeholder-1.png",
-  "/images/golf-placeholder-2.png",
   "/images/golf-placeholder-3.png",
-  "/images/golf-placeholder-4.png"
+  "/images/golf-placeholder-5.png",
+  "/images/golf-placeholder-6.png",
+  "/images/golf-placeholder-7.png"
 ];
 
 const CATEGORY_PLACEHOLDER_IMAGES = {
   NCAA: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865",
   LPGA: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
+};
+
+const BROKEN_FEED_IMAGE_REPLACEMENTS = {
+  [`${FEED_BASE_URL}/images/rory-mcilroy.png`]: `${FEED_BASE_URL}/images/rory-mcilory-1.png`,
+  [`${FEED_BASE_URL}/images/rory-mcilroy-1.png`]: `${FEED_BASE_URL}/images/rory-mcilory-1.png`,
+  [`${FEED_BASE_URL}/images/rory-mcilroy-2.png`]: `${FEED_BASE_URL}/images/rory-mcilory-2.png`,
+  [`${FEED_BASE_URL}/images/rory-mcilroy-3.png`]: `${FEED_BASE_URL}/images/rory-mcilory-8.png`,
+  [`${FEED_BASE_URL}/images/scottie-scheffler.png`]: `${FEED_BASE_URL}/images/scottie-scheffler-5.png`,
+  [`${FEED_BASE_URL}/images/scottie-scheffler-1.png`]: `${FEED_BASE_URL}/images/Scottie-Scheffler-1.png`,
+  [`${FEED_BASE_URL}/images/scottie-scheffler-2.png`]: `${FEED_BASE_URL}/images/Scottie-Scheffler-2.png`,
+  [`${FEED_BASE_URL}/images/scottie-scheffler-3.png`]: `${FEED_BASE_URL}/images/scottie-scheffler-5.png`,
+  [`${FEED_BASE_URL}/images/scottie-scheffler-4.png`]: `${FEED_BASE_URL}/images/Scottie-Scheffler-1.png`,
+  [`${FEED_BASE_URL}/images/nelly-korda-2.png`]: `${FEED_BASE_URL}/images/nelly-korda-versus.png`,
+  [`${FEED_BASE_URL}/images/golf-placeholder-2.png`]: `${FEED_BASE_URL}/images/golf-placeholder-3.png`,
+  [`${FEED_BASE_URL}/images/golf-placeholder-4.png`]: `${FEED_BASE_URL}/images/golf-placeholder-5.png`,
+  [`${FEED_BASE_URL}/images/xander-schauffele-1.png`]: `${FEED_BASE_URL}/images/golf-placeholder-3.png`,
+  [`${FEED_BASE_URL}/golf-internet-images/worlds-biggest-bunker.png`]: `${FEED_BASE_URL}/images/golf-placeholder-3.png`,
+  [`${FEED_BASE_URL}/golf-internet-images/hot-dog.png`]: `${FEED_BASE_URL}/images/golf-placeholder-3.png`
 };
 
 const TOURNAMENT_TERMS = [
@@ -1160,7 +1176,16 @@ function getImageMatchForItem(item) {
 }
 
 function attachImageIfMissing(item, imageUsage = {}) {
-  if (!item || item.image) return item;
+  if (!item) return item;
+
+  if (item.image && BROKEN_FEED_IMAGE_REPLACEMENTS[item.image]) {
+    return {
+      ...item,
+      image: BROKEN_FEED_IMAGE_REPLACEMENTS[item.image]
+    };
+  }
+
+  if (item.image) return item;
 
   if (isLeaderboardRadarItem(item)) {
     return item;
