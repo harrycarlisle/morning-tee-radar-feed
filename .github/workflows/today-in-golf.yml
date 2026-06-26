@@ -2,17 +2,17 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # Runs at 8 AM, 12 PM, and 8 PM ET during daylight saving time.
-    # GitHub cron uses UTC.
-    - cron: "1 12 * * *"
-    - cron: "1 16 * * *"
-    - cron: "1 0 * * *"
+    # Runs shortly after 8 AM, 12 PM, and 8 PM ET during daylight saving time.
+    # GitHub cron uses UTC; minute 17 avoids the top-of-hour schedule spike.
+    - cron: "17 12 * * *"
+    - cron: "17 16 * * *"
+    - cron: "17 0 * * *"
 
-    # Runs at 8 AM, 12 PM, and 8 PM ET during standard time.
+    # Runs shortly after 8 AM, 12 PM, and 8 PM ET during standard time.
     # These keep the schedule correct when Eastern Time shifts.
-    - cron: "1 13 * * *"
-    - cron: "1 17 * * *"
-    - cron: "1 1 * * *"
+    - cron: "17 13 * * *"
+    - cron: "17 17 * * *"
+    - cron: "17 1 * * *"
 
   workflow_dispatch:
     inputs:
