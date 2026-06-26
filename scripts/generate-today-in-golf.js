@@ -7,10 +7,16 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const MANUAL_EDITION = process.env.MANUAL_EDITION || "auto";
 const FORCE_RUN = process.env.FORCE_RUN === "true";
 const DRY_RUN_EDITION_LABELS = process.env.DRY_RUN_EDITION_LABELS === "true";
+const DRY_RUN_TODAY_IN_GOLF_INPUTS = process.env.DRY_RUN_TODAY_IN_GOLF_INPUTS === "true";
+const SIMULATE_TODAY_IN_GOLF_FALLBACK = process.env.SIMULATE_TODAY_IN_GOLF_FALLBACK === "true";
 
 const TODAY_IN_GOLF_TITLE = "Today In Golf";
 const TODAY_IN_GOLF_SUMMARY = "A 30-second briefing on today's biggest golf stories.";
 const TODAY_IN_GOLF_CTA = "See all stories ->";
+
+let lastGenerationFailureReason = "";
+let lastGenerationFailureStage = "";
+let lastRunDiagnostics = createDiagnosticMetadata();
 
 function normalizeDisplayText(value) {
   return String(value || "")
@@ -378,34 +384,201 @@ function hasReusableBriefingItems(todayJson) {
   return Array.isArray(todayJson?.items) && todayJson.items.length >= 2;
 }
 
-function buildOutput({ edition, items, now = new Date() }) {
+function normalizeBriefingItemsForCompare(items) {
+  if (!Array.isArray(items)) return "[]";
+
+  return JSON.stringify(items.map((item) => ({
+    headline: String(item?.headline || "").trim(),
+    text: String(item?.text || "").trim()
+  })));
+}
+
+function haveBriefingItemsChanged(nextItems, previousItems) {
+  return normalizeBriefingItemsForCompare(nextItems) !== normalizeBriefingItemsForCompare(previousItems);
+}
+
+function getPreviousItemsLastUpdated(todayJson) {
+  return todayJson?.itemsLastUpdated ||
+    todayJson?.lastSuccessfulStoryUpdate ||
+    todayJson?.lastUpdated ||
+    null;
+}
+
+function getPreviousItemsEdition(todayJson) {
+  return todayJson?.itemsEdition || todayJson?.edition || null;
+}
+
+function createDiagnosticMetadata(overrides = {}) {
+  return {
+    sourceItemsLoaded: null,
+    candidateItemsSelected: null,
+    openaiAttempted: false,
+    openaiOutputLength: null,
+    generatedItemsCount: null,
+    cleanedItemsCount: null,
+    rejectedItemsCount: null,
+    rejectedReasons: [],
+    diagnosticUpdatedAt: new Date().toISOString(),
+    ...overrides
+  };
+}
+
+function updateDiagnosticMetadata(overrides = {}) {
+  lastRunDiagnostics = createDiagnosticMetadata({
+    ...lastRunDiagnostics,
+    ...overrides,
+    diagnosticUpdatedAt: new Date().toISOString()
+  });
+}
+
+function summarizeRejectedReasons(rejectedItems) {
+  if (!Array.isArray(rejectedItems) || !rejectedItems.length) return [];
+
+  const counts = new Map();
+  rejectedItems.forEach((item) => {
+    const reason = String(item?.reason || "unknown").slice(0, 80);
+    counts.set(reason, (counts.get(reason) || 0) + 1);
+  });
+
+  return Array.from(counts.entries())
+    .map(([reason, count]) => ({ reason, count }))
+    .slice(0, 5);
+}
+
+function summarizeSourceCounts(data) {
+  const groups = {
+    today: Array.isArray(data.today) ? data.today.length : 0,
+    liveLeaderboards: Array.isArray(data.liveLeaderboards) ? data.liveLeaderboards.length : 0,
+    alsoMoving: Array.isArray(data.alsoMoving) ? data.alsoMoving.length : 0,
+    weekRadar: Array.isArray(data.weekRadar || data.week_radar) ? (data.weekRadar || data.week_radar).length : 0
+  };
+
+  return {
+    updatedAt: data?.updatedAt || "",
+    total: Object.values(groups).reduce((sum, count) => sum + count, 0),
+    groups
+  };
+}
+
+function summarizeStoryForLog(item) {
+  const timestamp = getItemTimestamp(item);
+
+  return {
+    title: String(item?.title || "").slice(0, 140),
+    source: item?.source || item?.sourceName || "",
+    category: item?.category || item?.label || item?.signal || "",
+    timestamp: timestamp ? new Date(timestamp).toISOString() : "",
+    url: item?.sourceUrl || item?.url || ""
+  };
+}
+
+function logStoryDiagnostics({ radarData, storyPool, storiesForEdition, edition }) {
+  const sourceCounts = summarizeSourceCounts(radarData);
+
+  updateDiagnosticMetadata({
+    sourceItemsLoaded: sourceCounts.total,
+    candidateItemsSelected: storiesForEdition.length
+  });
+
+  console.log(`[Today In Golf] Source file updatedAt: ${sourceCounts.updatedAt || "unknown"}`);
+  console.log(`[Today In Golf] Source items loaded: ${sourceCounts.total} ${JSON.stringify(sourceCounts.groups)}`);
+  console.log(`[Today In Golf] Story pool size after filtering/dedupe: ${storyPool.length}`);
+  console.log(`[Today In Golf] Stories selected for ${edition}: ${storiesForEdition.length}`);
+  console.log("[Today In Golf] Top selected candidate stories:");
+  storiesForEdition.slice(0, 8).forEach((item, index) => {
+    console.log(`[Today In Golf] Candidate ${index + 1}: ${JSON.stringify(summarizeStoryForLog(item))}`);
+  });
+}
+
+function runTodayInGolfInputsDryRun({ radarData, edition, storyPool, storiesForEdition }) {
+  const currentTournamentStates = getCurrentTournamentStates(storiesForEdition);
+  const promptStories = storiesForEdition.map(simplifyStoryForPrompt);
+
+  console.log(`[Today In Golf] DRY_RUN_TODAY_IN_GOLF_INPUTS=true. OpenAI call skipped.`);
+  console.log(`[Today In Golf] Prompt story count: ${promptStories.length}`);
+  console.log(JSON.stringify({
+    edition,
+    label: getLabel(edition),
+    currentEasternTime: getETParts(),
+    currentTournamentStates,
+    stories: promptStories.slice(0, 8)
+  }, null, 2));
+}
+
+function buildOutput({ edition, items, now = new Date(), metadata = {} }) {
+  const nowIso = now.toISOString();
+
   return {
     active: true,
-    lastUpdated: now.toISOString(),
+    lastUpdated: nowIso,
     edition,
     label: normalizeDisplayText(getLabel(edition)),
     title: normalizeDisplayText(TODAY_IN_GOLF_TITLE),
     summary: normalizeDisplayText(TODAY_IN_GOLF_SUMMARY),
     items,
+    itemsLastUpdated: metadata.itemsLastUpdated || nowIso,
+    itemsEdition: metadata.itemsEdition || edition,
+    usedFallback: Boolean(metadata.usedFallback),
+    fallbackReason: metadata.fallbackReason || "",
+    fallbackStage: metadata.fallbackStage || "",
+    lastSuccessfulStoryUpdate: metadata.lastSuccessfulStoryUpdate || nowIso,
+    itemsChanged: metadata.itemsChanged !== undefined ? Boolean(metadata.itemsChanged) : true,
+    sourceItemsLoaded: metadata.sourceItemsLoaded ?? null,
+    candidateItemsSelected: metadata.candidateItemsSelected ?? null,
+    openaiAttempted: metadata.openaiAttempted ?? false,
+    openaiOutputLength: metadata.openaiOutputLength ?? null,
+    generatedItemsCount: metadata.generatedItemsCount ?? null,
+    cleanedItemsCount: metadata.cleanedItemsCount ?? null,
+    rejectedItemsCount: metadata.rejectedItemsCount ?? null,
+    rejectedReasons: Array.isArray(metadata.rejectedReasons) ? metadata.rejectedReasons.slice(0, 5) : [],
+    diagnosticUpdatedAt: metadata.diagnosticUpdatedAt || nowIso,
     url: "https://www.morningtee.com/search",
     cta: normalizeDisplayText(TODAY_IN_GOLF_CTA)
   };
 }
 
-function updateEditionMetadataOnly(currentTodayJson, edition, reason) {
+function normalizeFallbackDetails(reasonOrDetails, defaultStage = "unknown") {
+  if (typeof reasonOrDetails === "object" && reasonOrDetails) {
+    return {
+      reason: reasonOrDetails.reason || "unknown_fallback",
+      stage: reasonOrDetails.stage || defaultStage
+    };
+  }
+
+  return {
+    reason: reasonOrDetails || "unknown_fallback",
+    stage: defaultStage
+  };
+}
+
+function updateEditionMetadataOnly(currentTodayJson, edition, reasonOrDetails) {
+  const fallbackDetails = normalizeFallbackDetails(reasonOrDetails);
+
   if (!hasReusableBriefingItems(currentTodayJson)) {
-    console.log(`[Today In Golf] ${reason}. No reusable briefing items found. Keeping existing today-in-golf.json.`);
+    console.log(`[Today In Golf] ${fallbackDetails.reason}. No reusable briefing items found. Keeping existing today-in-golf.json.`);
     return false;
   }
 
   const output = buildOutput({
     edition,
-    items: currentTodayJson.items
+    items: currentTodayJson.items,
+    metadata: {
+      itemsLastUpdated: getPreviousItemsLastUpdated(currentTodayJson),
+      itemsEdition: getPreviousItemsEdition(currentTodayJson),
+      usedFallback: true,
+      fallbackReason: fallbackDetails.reason,
+      fallbackStage: fallbackDetails.stage,
+      lastSuccessfulStoryUpdate: currentTodayJson?.lastSuccessfulStoryUpdate || getPreviousItemsLastUpdated(currentTodayJson),
+      itemsChanged: false,
+      ...lastRunDiagnostics
+    }
   });
 
   writeJson(TODAY_PATH, output);
 
-  console.log(`[Today In Golf] ${reason}. Updated edition metadata only for ${edition}.`);
+  console.warn(`[Today In Golf] Fallback used: ${fallbackDetails.reason}. Updated edition metadata only for ${edition}.`);
+  console.warn(`[Today In Golf] Fallback stage: ${fallbackDetails.stage}.`);
+  console.warn(`[Today In Golf] Items carried from ${output.itemsEdition || "unknown edition"} at ${output.itemsLastUpdated || "unknown time"}.`);
   console.log(JSON.stringify(output, null, 2));
 
   return true;
@@ -540,6 +713,27 @@ function isLowValueBriefingItem(item) {
   return lowValuePatterns.some((pattern) => pattern.test(text));
 }
 
+function getLowValueBriefingReason(item) {
+  const text = `${item?.headline || ""} ${item?.text || ""}`.toLowerCase();
+
+  const lowValueReasons = [
+    ["reddit", /\breddit\b/],
+    ["r/golf", /\br\/golf\b/],
+    ["hot dog", /\bhot dog\b/],
+    ["meme", /\bmeme\b/],
+    ["viral joke", /\bviral joke\b/],
+    ["bunker debate", /\bbunker debate\b/],
+    ["biggest bunker", /\bbiggest bunker\b/],
+    ["sand area", /\bsand area\b/],
+    ["waste area", /\bwaste area\b/],
+    ["food post", /\bfood post\b/],
+    ["golf internet", /\bgolf internet\b/]
+  ];
+
+  const match = lowValueReasons.find(([, pattern]) => pattern.test(text));
+  return match ? match[0] : "";
+}
+
 function getBriefingTopicKey(item) {
   const text = `${item?.headline || ""} ${item?.text || ""}`.toLowerCase();
 
@@ -558,33 +752,77 @@ function getBriefingTopicKey(item) {
   return "";
 }
 
-function cleanGeneratedItems(items) {
-  if (!Array.isArray(items)) return [];
+function analyzeGeneratedItems(items) {
+  if (!Array.isArray(items)) {
+    return {
+      cleanedItems: [],
+      rejectedItems: [{ reason: "generated items was not an array" }]
+    };
+  }
 
   const usedTopics = new Set();
+  const cleanedItems = [];
+  const rejectedItems = [];
 
-  return items
-    .filter((item) => item && item.headline && item.text)
-    .filter((item) => !isLowValueBriefingItem(item))
-    .map((item) => ({
+  items.forEach((item) => {
+    if (!item || !item.headline || !item.text) {
+      rejectedItems.push({
+        reason: "missing headline or text",
+        item
+      });
+      return;
+    }
+
+    const lowValueReason = getLowValueBriefingReason(item);
+    if (lowValueReason) {
+      rejectedItems.push({
+        reason: `low-value briefing item: ${lowValueReason}`,
+        item
+      });
+      return;
+    }
+
+    const cleanedItem = {
       headline: cleanGeneratedText(item.headline),
       text: cleanGeneratedText(item.text)
-    }))
-    .filter((item) => {
-      const topicKey = getBriefingTopicKey(item);
+    };
 
-      if (!topicKey) return true;
-      if (usedTopics.has(topicKey)) return false;
+    const topicKey = getBriefingTopicKey(cleanedItem);
+    if (topicKey && usedTopics.has(topicKey)) {
+      rejectedItems.push({
+        reason: `duplicate topic: ${topicKey}`,
+        item: cleanedItem
+      });
+      return;
+    }
 
-      usedTopics.add(topicKey);
-      return true;
-    })
-    .slice(0, 4);
+    if (topicKey) usedTopics.add(topicKey);
+
+    if (cleanedItems.length < 4) {
+      cleanedItems.push(cleanedItem);
+    } else {
+      rejectedItems.push({
+        reason: "over max item count",
+        item: cleanedItem
+      });
+    }
+  });
+
+  return {
+    cleanedItems,
+    rejectedItems
+  };
+}
+
+function cleanGeneratedItems(items) {
+  return analyzeGeneratedItems(items).cleanedItems;
 }
 
 async function generateBriefing(stories, edition) {
   const label = getLabel(edition);
   const currentTournamentStates = getCurrentTournamentStates(stories);
+  lastGenerationFailureReason = "";
+  lastGenerationFailureStage = "";
 
   const schema = {
     type: "object",
@@ -759,6 +997,9 @@ ${TODAY_IN_GOLF_CTA}
   let response = null;
 
   for (let attempt = 1; attempt <= 3; attempt += 1) {
+    console.log(`[Today In Golf] OpenAI attempt ${attempt} starting. Candidate stories: ${stories.length}.`);
+    updateDiagnosticMetadata({ openaiAttempted: true });
+
     response = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: {
@@ -785,6 +1026,8 @@ ${TODAY_IN_GOLF_CTA}
     if (response.ok) break;
 
     const errorText = await response.text();
+    lastGenerationFailureReason = "openai_request_failed";
+    lastGenerationFailureStage = "openai_request";
     console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${errorText}`);
 
     if (attempt < 3) {
@@ -793,11 +1036,21 @@ ${TODAY_IN_GOLF_CTA}
   }
 
   if (!response || !response.ok) {
+    lastGenerationFailureReason = lastGenerationFailureReason || "openai_request_failed";
+    lastGenerationFailureStage = lastGenerationFailureStage || "openai_request";
     console.warn("[Today In Golf] OpenAI failed after 3 attempts. Keeping existing briefing.");
     return null;
   }
 
-  const result = await response.json();
+  let result = null;
+  try {
+    result = await response.json();
+  } catch (error) {
+    lastGenerationFailureReason = "openai_json_parse_failed";
+    lastGenerationFailureStage = "openai_response";
+    console.warn(`[Today In Golf] OpenAI response JSON parse failed: ${error.message}`);
+    return null;
+  }
 
   const outputText =
     result.output_text ||
@@ -805,22 +1058,31 @@ ${TODAY_IN_GOLF_CTA}
       ?.find((content) => content.type === "output_text")?.text;
 
   if (!outputText) {
+    lastGenerationFailureReason = "openai_empty_output";
+    lastGenerationFailureStage = "openai_response";
+    updateDiagnosticMetadata({ openaiOutputLength: 0 });
     console.warn("[Today In Golf] No output text returned from OpenAI. Keeping existing briefing.");
     return null;
   }
 
-  return JSON.parse(outputText);
+  updateDiagnosticMetadata({ openaiOutputLength: outputText.length });
+  console.log(`[Today In Golf] OpenAI output text length: ${outputText.length}`);
+
+  try {
+    return JSON.parse(outputText);
+  } catch (error) {
+    lastGenerationFailureReason = "openai_json_parse_failed";
+    lastGenerationFailureStage = "openai_parse";
+    console.warn(`[Today In Golf] OpenAI output JSON parse failed: ${error.message}`);
+    console.warn(`[Today In Golf] Output preview: ${outputText.slice(0, 500)}`);
+    return null;
+  }
 }
 
 async function main() {
   if (DRY_RUN_EDITION_LABELS) {
     runEditionLabelDryRun();
     return;
-  }
-
-  if (!OPENAI_API_KEY) {
-    console.error("Missing OPENAI_API_KEY");
-    process.exit(1);
   }
 
   const radarData = readJson(RADAR_PATH, {});
@@ -830,6 +1092,7 @@ async function main() {
   console.log(`[Today In Golf] Current ET: ${et.dateKey} ${String(et.hour).padStart(2, "0")}:${String(et.minute).padStart(2, "0")}`);
   console.log(`[Today In Golf] MANUAL_EDITION=${MANUAL_EDITION}`);
   console.log(`[Today In Golf] FORCE_RUN=${FORCE_RUN}`);
+  console.log(`[Today In Golf] OPENAI_API_KEY present: ${OPENAI_API_KEY ? "yes" : "no"}`);
 
   let edition = getEditionNow(currentTodayJson);
 
@@ -849,46 +1112,115 @@ async function main() {
   }
 
   const storyPool = buildStoryPool(radarData);
-  console.log(`[Today In Golf] Story pool size: ${storyPool.length}`);
-
   const storiesForEdition = filterStoriesForEdition(storyPool, edition);
-  console.log(`[Today In Golf] Stories selected for ${edition}: ${storiesForEdition.length}`);
+  logStoryDiagnostics({ radarData, storyPool, storiesForEdition, edition });
+
+  if (DRY_RUN_TODAY_IN_GOLF_INPUTS) {
+    runTodayInGolfInputsDryRun({ radarData, edition, storyPool, storiesForEdition });
+    return;
+  }
+
+  if (!OPENAI_API_KEY) {
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: "missing_openai_api_key",
+      stage: "configuration"
+    });
+    return;
+  }
+
+  if (SIMULATE_TODAY_IN_GOLF_FALLBACK) {
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: "simulated_fallback",
+      stage: "simulation"
+    });
+    return;
+  }
 
   if (!storiesForEdition.length) {
-    updateEditionMetadataOnly(currentTodayJson, edition, "No stories found");
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: "no_source_candidates",
+      stage: "source_selection"
+    });
     return;
   }
 
   const generated = await generateBriefing(storiesForEdition, edition);
 
   if (!generated) {
-    updateEditionMetadataOnly(currentTodayJson, edition, "OpenAI returned no usable briefing");
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: lastGenerationFailureReason || "unknown_fallback",
+      stage: lastGenerationFailureStage || "generation"
+    });
     return;
   }
 
-  const cleanedItems = cleanGeneratedItems(generated.items);
+  const generatedAnalysis = analyzeGeneratedItems(generated.items);
+  const cleanedItems = generatedAnalysis.cleanedItems;
+  const generatedItemsCount = Array.isArray(generated.items) ? generated.items.length : 0;
+  const rejectedReasons = summarizeRejectedReasons(generatedAnalysis.rejectedItems);
+  updateDiagnosticMetadata({
+    generatedItemsCount,
+    cleanedItemsCount: cleanedItems.length,
+    rejectedItemsCount: generatedAnalysis.rejectedItems.length,
+    rejectedReasons
+  });
+  console.log(`[Today In Golf] Generated item count before cleaning: ${Array.isArray(generated.items) ? generated.items.length : 0}`);
+  console.log(`[Today In Golf] Cleaned usable item count: ${cleanedItems.length}`);
+  console.log(`[Today In Golf] Cleaned items match existing exactly: ${haveBriefingItemsChanged(cleanedItems, currentTodayJson?.items) ? "no" : "yes"}`);
+  console.log(`[Today In Golf] Generated item headlines: ${JSON.stringify(Array.isArray(generated.items) ? generated.items.map((item) => item?.headline || "") : [])}`);
+  console.log(`[Today In Golf] Cleaned item headlines: ${JSON.stringify(cleanedItems.map((item) => item.headline))}`);
+
+  if (generatedAnalysis.rejectedItems.length) {
+    console.log(`[Today In Golf] Rejected generated items: ${JSON.stringify(generatedAnalysis.rejectedItems)}`);
+  }
 
   if (cleanedItems.length < 2) {
-    updateEditionMetadataOnly(currentTodayJson, edition, "Generated briefing had fewer than 2 usable items");
+    let fallbackReason = "generated_items_rejected";
+
+    if (generatedItemsCount === 0) {
+      fallbackReason = "generated_items_empty";
+    } else if (cleanedItems.length === 0) {
+      fallbackReason = "cleaned_items_empty";
+    }
+
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: fallbackReason,
+      stage: "item_cleaning"
+    });
     return;
   }
 
   const now = new Date();
-  const output = {
-    active: true,
-    lastUpdated: now.toISOString(),
+  const itemsChanged = haveBriefingItemsChanged(cleanedItems, currentTodayJson?.items);
+
+  if (!itemsChanged) {
+    updateEditionMetadataOnly(currentTodayJson, edition, {
+      reason: "generated_items_same_as_existing",
+      stage: "item_compare"
+    });
+    return;
+  }
+
+  const output = buildOutput({
     edition,
-    label: normalizeDisplayText(getLabel(edition)),
-    title: normalizeDisplayText(TODAY_IN_GOLF_TITLE),
-    summary: normalizeDisplayText(TODAY_IN_GOLF_SUMMARY),
     items: cleanedItems,
-    url: "https://www.morningtee.com/search",
-    cta: normalizeDisplayText(TODAY_IN_GOLF_CTA)
-  };
+    now,
+    metadata: {
+      itemsLastUpdated: itemsChanged ? now.toISOString() : getPreviousItemsLastUpdated(currentTodayJson),
+      itemsEdition: itemsChanged ? edition : getPreviousItemsEdition(currentTodayJson),
+      usedFallback: false,
+      fallbackReason: "",
+      fallbackStage: "",
+      lastSuccessfulStoryUpdate: now.toISOString(),
+      itemsChanged,
+      ...lastRunDiagnostics
+    }
+  });
 
   writeJson(TODAY_PATH, output);
 
   console.log(`Updated ${TODAY_PATH} for ${edition}`);
+  console.log(`[Today In Golf] Items changed: ${itemsChanged ? "yes" : "no"}`);
   console.log(JSON.stringify(output, null, 2));
 }
 
