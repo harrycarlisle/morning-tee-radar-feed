@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-06-26T14:13:26.631Z",
+  "updatedAt": "2026-06-26T14:13:28.963Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-26T12:30:00.000Z",
+      "approvedAt": "2026-06-26T14:13:27.855Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Matt Fitzpatrick makes statement about Scottie Scheffler after shooting 64 at t...",
+      "summary": "Scottie Scheffler has set the standard over the past few years, which players like Matt Fitzpatrick are striving to match.",
+      "quickRead": "Scottie Scheffler has set the standard over the past few years, which players like Matt Fitzpatrick are striving to match.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/matt-fitzpatrick-makes-statement-scottie-123000415.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/matt-fitzpatrick-makes-statement-scottie-123000415.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png",
+      "archivedAt": "2026-06-26T14:13:28.963Z"
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-06-26T11:02:01.000Z",
@@ -1875,26 +1895,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-06-19T21:05:18.741Z"
-    },
-    {
-      "time": "43 min ago",
-      "timestamp": "2026-06-19T19:00:00.000Z",
-      "approvedAt": "2026-06-19T19:43:21.453Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Collin Morikawa admits there’s still one shot he can’t hit at the US Open becau...",
-      "summary": "Collin Morikawa enjoyed a sensational second round of the US Open despite continuing to battle injury.",
-      "quickRead": "Collin Morikawa said his lingering back injury still won’t let him hit his usual iron “cut” into a right-to-left wind—“I can’t quite cut it as much as I want”—and he also can’t “hit the high bomb” off the tee when he wants.  Even so, he fired a five-under 65 at Shinnecock to reach 2-under and stay within five of leader Wyndham Clark heading into the weekend.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/collin-morikawa-admits-still-one-190000227.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-admits-still-one-190000227.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png",
-      "archivedAt": "2026-06-19T19:43:22.546Z"
     }
   ]
 }
