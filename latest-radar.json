@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-28T20:36:57.487Z",
+  "updatedAt": "2026-06-28T20:56:19.162Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "42 min ago",
+      "timestamp": "2026-06-28T20:13:45.000Z",
+      "approvedAt": "2026-06-28T20:56:19.159Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Trump says his renovation plans for a golf course will have Washington hosting...",
+      "summary": "President Donald Trump on Sunday surveyed several of his construction projects around the nation's capital, suggesting afterward that his redevelopment of the East Potomac Golf Links woul...",
+      "quickRead": "President Donald Trump on Sunday surveyed several of his construction projects around the nation's capital, suggesting afterward that his redevelopment of the East Potomac Golf Links woul...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-says-renovation-plans-golf-201345522.html",
+      "sourceUrl": "https://www.yahoo.com/news/politics/articles/trump-says-renovation-plans-golf-201345522.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "3 hours ago",
       "timestamp": "2026-06-28T17:20:24.000Z",
       "approvedAt": "2026-06-28T18:46:34.103Z",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-makes-surprising-admission-172024388.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-06-28T12:43:00.000Z",
       "approvedAt": "2026-06-28T20:36:54.800Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-06-28T17:40:32.000Z",
       "approvedAt": "2026-06-28T19:11:42.337Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-06-28T00:45:22.000Z",
       "approvedAt": "2026-06-28T02:57:38.797Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-quits-open-championship-181817506.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-06-28T12:30:00.000Z",
-      "approvedAt": "2026-06-28T13:26:19.374Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Why Scottie Scheffler should be most concerned about Viktor Hovland’s performan...",
-      "summary": "Viktor Hovland has reminded everyone of just how good he is over the first three days at the Travelers Championship, with the Norwegian one shot ahead of Scottie Scheffler going into the ...",
-      "quickRead": "Viktor Hovland has reminded everyone of just how good he is over the first three days at the Travelers Championship, with the Norwegian one shot ahead of Scottie Scheffler going into the ...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-scottie-scheffler-most-concerned-123000959.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-scottie-scheffler-most-concerned-123000959.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "19 min ago",
       "timestamp": "2026-06-28T20:36:49.787Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "56 min ago",
       "timestamp": "2026-06-28T19:59:49.787Z",
       "status": "Trending",
       "signal": "Reddit find",
