@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-28T20:56:22.642Z",
+  "updatedAt": "2026-06-28T21:44:45.106Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "42 min ago",
+      "time": "13 min ago",
+      "timestamp": "2026-06-28T21:31:44.000Z",
+      "approvedAt": "2026-06-28T21:44:45.103Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler ‘irritated’ by Viktor Hovland’s actions during final round at...",
+      "summary": "Dame Laura Davies believes that Scottie Scheffler made it clear just how frustrated he was with Viktor Hovland’s pace of play when the world number one headed to the next tee before the N...",
+      "quickRead": "Dame Laura Davies believes that Scottie Scheffler made it clear just how frustrated he was with Viktor Hovland’s pace of play when the world number one headed to the next tee before the N...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-irritated-viktor-hovland-213144787.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-irritated-viktor-hovland-213144787.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-06-28T20:13:45.000Z",
       "approvedAt": "2026-06-28T20:56:19.159Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://www.yahoo.com/news/politics/articles/trump-says-renovation-plans-golf-201345522.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-28T17:20:24.000Z",
       "approvedAt": "2026-06-28T18:46:34.103Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-06-28T12:43:00.000Z",
       "approvedAt": "2026-06-28T20:36:54.800Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-06-28T17:40:32.000Z",
       "approvedAt": "2026-06-28T19:11:42.337Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-06-28T16:30:00.000Z",
       "approvedAt": "2026-06-28T17:03:41.869Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-06-28T15:31:14.000Z",
       "approvedAt": "2026-06-28T17:03:44.408Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-06-28T11:00:00.000Z",
       "approvedAt": "2026-06-28T15:14:22.257Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-confirms-relationship-scottie-110000898.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-06-27T18:18:17.000Z",
-      "approvedAt": "2026-06-28T13:26:19.373Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Phil Mickelson Quits Open Championship Weeks After Misconduct Accusations",
-      "summary": "Phil Mickelson has spent most of this season away from professional golf because of a family health emergency.",
-      "quickRead": "Phil Mickelson has spent most of this season away from professional golf because of a family health emergency.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/phil-mickelson-quits-open-championship-181817506.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-quits-open-championship-181817506.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "48 min ago",
       "timestamp": "2026-06-28T20:56:14.478Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -272,7 +272,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-06-28T20:19:14.478Z",
       "status": "Trending",
       "signal": "Reddit find",
