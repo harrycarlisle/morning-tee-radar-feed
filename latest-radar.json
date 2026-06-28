@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-28T18:46:38.155Z",
+  "updatedAt": "2026-06-28T19:11:42.339Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-06-28T17:40:32.000Z",
+      "approvedAt": "2026-06-28T19:11:42.337Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Women’s PGA Championship live: Nelly Korda chases third straight major",
+      "summary": "Nelly Korda is tied for sixth at the 2026 Women's PGA Championship as she chases a historic third major title entering Championship Sunday:",
+      "quickRead": "Nelly Korda is tied for sixth at the 2026 Women's PGA Championship as she chases a historic third major title entering Championship Sunday:",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/women-pga-championship-live-nelly-174032918.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/women-pga-championship-live-nelly-174032918.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-06-28T16:30:00.000Z",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-travelers-championship-sunday-tee-045507142.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-06-27T23:07:44.000Z",
-      "approvedAt": "2026-06-28T02:57:41.258Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler reacts after losing the lead to Viktor Hovland at the Travele...",
-      "summary": "Viktor Hovland posted a third-round 64 on Saturday at the Travelers Championship to leapfrog Scottie Scheffler at the top of the leaderboard.",
-      "quickRead": "Viktor Hovland posted a third-round 64 on Saturday at the Travelers Championship to leapfrog Scottie Scheffler at the top of the leaderboard.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-reacts-losing-lead-230744821.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-reacts-losing-lead-230744821.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -236,7 +236,7 @@
       "url": "https://sports.yahoo.com/articles/women-pga-championship-live-nelly-174032918.html",
       "sourceUrl": "https://sports.yahoo.com/articles/women-pga-championship-live-nelly-174032918.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
       "timestamp": "2026-06-28T17:40:32.000Z"
     }
   ],
