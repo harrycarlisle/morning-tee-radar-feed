@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-patrick-cantlay",
-  "updatedAt": "2026-06-22T19:31:31.123Z",
+  "updatedAt": "2026-06-29T18:25:04.334Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 140,
+    "sharedStarts": 141,
     "playerAWins": 52,
-    "playerBWins": 68,
+    "playerBWins": 69,
     "ties": 20
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 52 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

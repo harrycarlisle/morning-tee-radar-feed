@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-collin-morikawa",
-  "updatedAt": "2026-06-22T18:22:23.849Z",
+  "updatedAt": "2026-06-29T17:16:08.737Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 107,
-    "playerAWins": 66,
+    "sharedStarts": 108,
+    "playerAWins": 67,
     "playerBWins": 31,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 1 spot",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

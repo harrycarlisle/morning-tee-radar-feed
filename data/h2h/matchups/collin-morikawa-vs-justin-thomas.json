@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-justin-thomas",
-  "updatedAt": "2026-06-22T19:31:29.580Z",
+  "updatedAt": "2026-06-29T18:25:03.235Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 117,
-    "playerAWins": 60,
+    "sharedStarts": 118,
+    "playerAWins": 61,
     "playerBWins": 47,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 11 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-viktor-hovland",
-  "updatedAt": "2026-06-22T19:31:29.184Z",
+  "updatedAt": "2026-06-29T18:25:02.638Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 116,
+    "sharedStarts": 117,
     "playerAWins": 60,
-    "playerBWins": 50,
+    "playerBWins": 51,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 2 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

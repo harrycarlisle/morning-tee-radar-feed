@@ -1,6 +1,6 @@
 {
   "matchupId": "matt-fitzpatrick-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-22T19:31:32.102Z",
+  "updatedAt": "2026-06-29T18:25:04.871Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2014,
-    "sharedStarts": 125,
-    "playerAWins": 46,
+    "sharedStarts": 126,
+    "playerAWins": 47,
     "playerBWins": 72,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "matt-fitzpatrick",
+      "edge": "Matt by 10 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

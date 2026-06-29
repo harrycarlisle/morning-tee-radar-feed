@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-xander-schauffele",
-  "updatedAt": "2026-06-22T18:22:23.341Z",
+  "updatedAt": "2026-06-29T17:16:08.488Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 105,
-    "playerAWins": 57,
+    "sharedStarts": 106,
+    "playerAWins": 58,
     "playerBWins": 40,
     "ties": 8
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 49 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

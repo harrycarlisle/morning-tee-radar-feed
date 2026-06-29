@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-tony-finau",
-  "updatedAt": "2026-06-22T18:22:26.004Z",
+  "updatedAt": "2026-06-29T17:16:09.923Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 113,
-    "playerAWins": 84,
+    "sharedStarts": 114,
+    "playerAWins": 85,
     "playerBWins": 22,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tony Finau",
+        "dgId": 11676,
+        "finish": "T55",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 53 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-07",

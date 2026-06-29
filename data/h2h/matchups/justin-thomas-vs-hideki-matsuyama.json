@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-hideki-matsuyama",
-  "updatedAt": "2026-06-22T19:31:30.560Z",
+  "updatedAt": "2026-06-29T18:25:03.982Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 188,
+    "sharedStarts": 189,
     "playerAWins": 94,
     "playerBWins": 79,
-    "ties": 15
+    "ties": 16
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

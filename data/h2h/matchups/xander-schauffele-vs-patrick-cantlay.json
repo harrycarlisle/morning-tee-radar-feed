@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-patrick-cantlay",
-  "updatedAt": "2026-06-22T19:31:28.799Z",
+  "updatedAt": "2026-06-29T18:25:02.413Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2015,
-    "sharedStarts": 144,
+    "sharedStarts": 145,
     "playerAWins": 66,
-    "playerBWins": 64,
+    "playerBWins": 65,
     "ties": 14
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 37 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

@@ -1,6 +1,6 @@
 {
   "matchupId": "corey-conners-vs-tommy-fleetwood",
-  "updatedAt": "2026-06-22T19:31:31.906Z",
+  "updatedAt": "2026-06-29T18:25:04.757Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 115,
-    "playerAWins": 46,
+    "sharedStarts": 116,
+    "playerAWins": 47,
     "playerBWins": 62,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "corey-conners",
+      "edge": "Corey by 7 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

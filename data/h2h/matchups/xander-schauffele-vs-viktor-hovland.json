@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-viktor-hovland",
-  "updatedAt": "2026-06-22T19:31:27.981Z",
+  "updatedAt": "2026-06-29T18:25:01.961Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 111,
+    "sharedStarts": 112,
     "playerAWins": 66,
-    "playerBWins": 38,
+    "playerBWins": 39,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T51",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 50 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

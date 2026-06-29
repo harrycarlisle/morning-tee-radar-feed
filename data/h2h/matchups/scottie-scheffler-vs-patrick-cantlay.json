@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-patrick-cantlay",
-  "updatedAt": "2026-06-22T18:22:25.066Z",
+  "updatedAt": "2026-06-29T17:16:09.381Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 99,
-    "playerAWins": 63,
+    "sharedStarts": 100,
+    "playerAWins": 64,
     "playerBWins": 30,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 12 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

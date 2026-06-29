@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-wyndham-clark",
-  "updatedAt": "2026-06-22T18:22:25.798Z",
+  "updatedAt": "2026-06-29T17:16:09.817Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 107,
-    "playerAWins": 81,
+    "sharedStarts": 108,
+    "playerAWins": 82,
     "playerBWins": 23,
     "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-06-28",
+      "eventId": 34,
+      "eventName": "Travelers Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",
