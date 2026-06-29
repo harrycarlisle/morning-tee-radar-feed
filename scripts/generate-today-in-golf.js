@@ -14,6 +14,21 @@ const TODAY_IN_GOLF_TITLE = "Today In Golf";
 const TODAY_IN_GOLF_SUMMARY = "A 30-second briefing on today's biggest golf stories.";
 const TODAY_IN_GOLF_CTA = "See all stories ->";
 
+const EDITION_BY_SCHEDULE_CRON = {
+  "17 12 * * *": "morning",
+  "17 13 * * *": "morning",
+  "17 16 * * *": "midday",
+  "17 17 * * *": "midday",
+  "17 0 * * *": "evening",
+  "17 1 * * *": "evening"
+};
+
+const EDITION_ORDER = {
+  morning: 1,
+  midday: 2,
+  evening: 3
+};
+
 let lastGenerationFailureReason = "";
 let lastGenerationFailureStage = "";
 let lastRunDiagnostics = createDiagnosticMetadata();
@@ -69,6 +84,25 @@ function isValidEdition(value) {
   return value === "morning" || value === "midday" || value === "evening";
 }
 
+function getScheduledEditionDetails() {
+  const eventPath = process.env.GITHUB_EVENT_PATH;
+
+  if (!eventPath) {
+    return {
+      schedule: "",
+      edition: null
+    };
+  }
+
+  const event = readJson(eventPath, {});
+  const schedule = String(event?.schedule || "").trim();
+
+  return {
+    schedule,
+    edition: EDITION_BY_SCHEDULE_CRON[schedule] || null
+  };
+}
+
 function getCurrentWindowEdition(date = new Date()) {
   const et = getETParts(date);
 
@@ -93,6 +127,12 @@ function getMostRecentEligibleEdition(date = new Date()) {
 function getEditionNow(currentTodayJson = null, date = new Date()) {
   if (isValidEdition(MANUAL_EDITION)) {
     return MANUAL_EDITION;
+  }
+
+  const scheduledEdition = getScheduledEditionDetails().edition;
+
+  if (scheduledEdition) {
+    return hasRunSameOrLaterEdition(currentTodayJson, scheduledEdition, date) ? null : scheduledEdition;
   }
 
   const windowEdition = getCurrentWindowEdition(date);
@@ -378,6 +418,16 @@ function hasAlreadyRun(todayJson, edition, date = new Date()) {
   const lastET = getETParts(new Date(todayJson.lastUpdated));
 
   return nowET.dateKey === lastET.dateKey;
+}
+
+function hasRunSameOrLaterEdition(todayJson, edition, date = new Date()) {
+  if (!todayJson || !todayJson.lastUpdated || !todayJson.edition) return false;
+  if (!EDITION_ORDER[edition] || !EDITION_ORDER[todayJson.edition]) return false;
+
+  const nowET = getETParts(date);
+  const lastET = getETParts(new Date(todayJson.lastUpdated));
+
+  return nowET.dateKey === lastET.dateKey && EDITION_ORDER[todayJson.edition] >= EDITION_ORDER[edition];
 }
 
 function hasReusableBriefingItems(todayJson) {
@@ -1088,11 +1138,16 @@ async function main() {
   const radarData = readJson(RADAR_PATH, {});
   const currentTodayJson = readJson(TODAY_PATH, null);
   const et = getETParts();
+  const scheduledEditionDetails = getScheduledEditionDetails();
 
   console.log(`[Today In Golf] Current ET: ${et.dateKey} ${String(et.hour).padStart(2, "0")}:${String(et.minute).padStart(2, "0")}`);
   console.log(`[Today In Golf] MANUAL_EDITION=${MANUAL_EDITION}`);
   console.log(`[Today In Golf] FORCE_RUN=${FORCE_RUN}`);
   console.log(`[Today In Golf] OPENAI_API_KEY present: ${OPENAI_API_KEY ? "yes" : "no"}`);
+  if (scheduledEditionDetails.schedule) {
+    console.log(`[Today In Golf] GitHub schedule: ${scheduledEditionDetails.schedule}`);
+    console.log(`[Today In Golf] Scheduled edition: ${scheduledEditionDetails.edition || "unmapped"}`);
+  }
 
   let edition = getEditionNow(currentTodayJson);
 
