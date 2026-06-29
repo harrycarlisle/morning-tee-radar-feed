@@ -3,11 +3,15 @@ const fs = require("fs");
 const RADAR_PATH = "latest-radar.json";
 const TODAY_PATH = "today-in-golf.json";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_ENDPOINT = "https://api.openai.com/v1/responses";
+const OPENAI_MODEL = "gpt-4.1-mini";
+const OPENAI_TIMEOUT_MS = null;
 
 const MANUAL_EDITION = process.env.MANUAL_EDITION || "auto";
 const FORCE_RUN = process.env.FORCE_RUN === "true";
 const DRY_RUN_EDITION_LABELS = process.env.DRY_RUN_EDITION_LABELS === "true";
 const DRY_RUN_TODAY_IN_GOLF_INPUTS = process.env.DRY_RUN_TODAY_IN_GOLF_INPUTS === "true";
+const DRY_RUN_OPENAI_CONFIG = process.env.DRY_RUN_OPENAI_CONFIG === "true";
 const SIMULATE_TODAY_IN_GOLF_FALLBACK = process.env.SIMULATE_TODAY_IN_GOLF_FALLBACK === "true";
 
 const TODAY_IN_GOLF_TITLE = "Today In Golf";
@@ -464,6 +468,16 @@ function createDiagnosticMetadata(overrides = {}) {
     candidateItemsSelected: null,
     openaiAttempted: false,
     openaiOutputLength: null,
+    openaiStatusCode: null,
+    openaiErrorType: "",
+    openaiErrorCode: "",
+    openaiErrorMessageShort: "",
+    openaiResponseBodyPreview: "",
+    openaiModel: OPENAI_MODEL,
+    openaiEndpoint: OPENAI_ENDPOINT,
+    openaiRequestId: "",
+    openaiRetryable: null,
+    openaiFailureAt: "",
     generatedItemsCount: null,
     cleanedItemsCount: null,
     rejectedItemsCount: null,
@@ -478,6 +492,120 @@ function updateDiagnosticMetadata(overrides = {}) {
     ...lastRunDiagnostics,
     ...overrides,
     diagnosticUpdatedAt: new Date().toISOString()
+  });
+}
+
+function sanitizeDiagnosticText(value, maxLength = 180) {
+  let text = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (OPENAI_API_KEY) {
+    text = text.split(OPENAI_API_KEY).join("[redacted_api_key]");
+  }
+
+  text = text.replace(/Bearer\s+[A-Za-z0-9._-]+/gi, "Bearer [redacted]");
+  text = text.replace(/sk-[A-Za-z0-9_-]+/g, "sk-[redacted]");
+
+  if (text.length <= maxLength) return text;
+
+  return text.slice(0, maxLength - 3).trimEnd() + "...";
+}
+
+function parseOpenAIErrorBody(bodyText) {
+  try {
+    const parsed = JSON.parse(bodyText);
+    const error = parsed?.error || {};
+
+    return {
+      type: String(error.type || ""),
+      code: String(error.code || ""),
+      message: String(error.message || "")
+    };
+  } catch (error) {
+    return {
+      type: "",
+      code: "",
+      message: bodyText
+    };
+  }
+}
+
+function classifyOpenAIError({ statusCode, type, code, message }) {
+  const text = `${type || ""} ${code || ""} ${message || ""}`.toLowerCase();
+
+  if (statusCode === 401 || statusCode === 403 || text.includes("invalid_api_key") || text.includes("authentication")) {
+    return "auth_error";
+  }
+
+  if (statusCode === 429 && (text.includes("insufficient_quota") || text.includes("quota"))) {
+    return "quota_exceeded";
+  }
+
+  if (statusCode === 429 || text.includes("rate_limit")) {
+    return "rate_limit";
+  }
+
+  if (text.includes("model_not_found") || text.includes("does not exist") || text.includes("invalid model")) {
+    return "invalid_model";
+  }
+
+  if (statusCode === 400 || text.includes("invalid_request")) {
+    return "invalid_request";
+  }
+
+  if (statusCode >= 500 || statusCode === 408) {
+    return "unknown_openai_error";
+  }
+
+  return "unknown_openai_error";
+}
+
+function isRetryableOpenAIError(statusCode, errorType) {
+  return errorType === "rate_limit" ||
+    errorType === "timeout" ||
+    errorType === "network_error" ||
+    statusCode === 408 ||
+    statusCode >= 500;
+}
+
+function recordOpenAIResponseFailure(response, bodyText, attempt) {
+  const parsedError = parseOpenAIErrorBody(bodyText);
+  const statusCode = response?.status || null;
+  const errorType = classifyOpenAIError({
+    statusCode,
+    ...parsedError
+  });
+
+  updateDiagnosticMetadata({
+    openaiStatusCode: statusCode,
+    openaiErrorType: errorType,
+    openaiErrorCode: sanitizeDiagnosticText(parsedError.code, 80),
+    openaiErrorMessageShort: sanitizeDiagnosticText(parsedError.message || bodyText, 180),
+    openaiResponseBodyPreview: sanitizeDiagnosticText(bodyText, 180),
+    openaiModel: OPENAI_MODEL,
+    openaiEndpoint: OPENAI_ENDPOINT,
+    openaiRequestId: sanitizeDiagnosticText(response?.headers?.get("x-request-id") || response?.headers?.get("request-id") || "", 80),
+    openaiRetryable: isRetryableOpenAIError(statusCode, errorType),
+    openaiFailureAt: `attempt_${attempt}_response`
+  });
+}
+
+function recordOpenAINetworkFailure(error, attempt) {
+  const message = error?.name === "AbortError" ? "OpenAI request timed out." : error?.message;
+  const errorType = error?.name === "AbortError" ? "timeout" : "network_error";
+
+  updateDiagnosticMetadata({
+    openaiStatusCode: null,
+    openaiErrorType: errorType,
+    openaiErrorCode: sanitizeDiagnosticText(error?.code || error?.name || "", 80),
+    openaiErrorMessageShort: sanitizeDiagnosticText(message || "OpenAI request failed before a response was returned.", 180),
+    openaiResponseBodyPreview: "",
+    openaiModel: OPENAI_MODEL,
+    openaiEndpoint: OPENAI_ENDPOINT,
+    openaiRequestId: "",
+    openaiRetryable: true,
+    openaiFailureAt: `attempt_${attempt}_network`
   });
 }
 
@@ -555,6 +683,23 @@ function runTodayInGolfInputsDryRun({ radarData, edition, storyPool, storiesForE
   }, null, 2));
 }
 
+function runOpenAIConfigDryRun({ stories, systemPrompt, userPrompt, requestBody }) {
+  console.log("[Today In Golf] DRY_RUN_OPENAI_CONFIG=true. OpenAI call skipped.");
+  console.log(JSON.stringify({
+    openaiApiKeyPresent: Boolean(OPENAI_API_KEY),
+    model: OPENAI_MODEL,
+    endpoint: OPENAI_ENDPOINT,
+    timeoutMs: OPENAI_TIMEOUT_MS,
+    requestBodyCanBeBuilt: Boolean(requestBody),
+    candidateCount: stories.length,
+    promptCharacterCount: systemPrompt.length + userPrompt.length,
+    systemPromptCharacterCount: systemPrompt.length,
+    userPromptCharacterCount: userPrompt.length,
+    requestBodyCharacterCount: JSON.stringify(requestBody).length,
+    sourcePayloadCount: stories.length
+  }, null, 2));
+}
+
 function buildOutput({ edition, items, now = new Date(), metadata = {} }) {
   const nowIso = now.toISOString();
 
@@ -577,6 +722,16 @@ function buildOutput({ edition, items, now = new Date(), metadata = {} }) {
     candidateItemsSelected: metadata.candidateItemsSelected ?? null,
     openaiAttempted: metadata.openaiAttempted ?? false,
     openaiOutputLength: metadata.openaiOutputLength ?? null,
+    openaiStatusCode: metadata.openaiStatusCode ?? null,
+    openaiErrorType: metadata.openaiErrorType || "",
+    openaiErrorCode: metadata.openaiErrorCode || "",
+    openaiErrorMessageShort: metadata.openaiErrorMessageShort || "",
+    openaiResponseBodyPreview: metadata.openaiResponseBodyPreview || "",
+    openaiModel: metadata.openaiModel || OPENAI_MODEL,
+    openaiEndpoint: metadata.openaiEndpoint || OPENAI_ENDPOINT,
+    openaiRequestId: metadata.openaiRequestId || "",
+    openaiRetryable: metadata.openaiRetryable ?? null,
+    openaiFailureAt: metadata.openaiFailureAt || "",
     generatedItemsCount: metadata.generatedItemsCount ?? null,
     cleanedItemsCount: metadata.cleanedItemsCount ?? null,
     rejectedItemsCount: metadata.rejectedItemsCount ?? null,
@@ -1044,41 +1199,83 @@ ${TODAY_IN_GOLF_CTA}
     stories: stories.map(simplifyStoryForPrompt)
   }, null, 2);
 
+  const requestBody = {
+    model: OPENAI_MODEL,
+    input: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt }
+    ],
+    text: {
+      format: {
+        type: "json_schema",
+        name: "today_in_golf",
+        strict: true,
+        schema
+      }
+    }
+  };
+
+  if (DRY_RUN_OPENAI_CONFIG) {
+    runOpenAIConfigDryRun({
+      stories,
+      systemPrompt,
+      userPrompt,
+      requestBody
+    });
+    return null;
+  }
+
   let response = null;
 
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     console.log(`[Today In Golf] OpenAI attempt ${attempt} starting. Candidate stories: ${stories.length}.`);
-    updateDiagnosticMetadata({ openaiAttempted: true });
-
-    response = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${OPENAI_API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: "gpt-4.1-mini",
-        input: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: userPrompt }
-        ],
-        text: {
-          format: {
-            type: "json_schema",
-            name: "today_in_golf",
-            strict: true,
-            schema
-          }
-        }
-      })
+    updateDiagnosticMetadata({
+      openaiAttempted: true,
+      openaiModel: OPENAI_MODEL,
+      openaiEndpoint: OPENAI_ENDPOINT
     });
 
-    if (response.ok) break;
+    try {
+      response = await fetch(OPENAI_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${OPENAI_API_KEY}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(requestBody)
+      });
+    } catch (error) {
+      lastGenerationFailureReason = "openai_request_failed";
+      lastGenerationFailureStage = "openai_request";
+      recordOpenAINetworkFailure(error, attempt);
+      console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed before response: ${sanitizeDiagnosticText(error?.message || error, 180)}`);
+
+      if (attempt < 3) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+      }
+
+      continue;
+    }
+
+    if (response.ok) {
+      updateDiagnosticMetadata({
+        openaiStatusCode: response.status,
+        openaiErrorType: "",
+        openaiErrorCode: "",
+        openaiErrorMessageShort: "",
+        openaiResponseBodyPreview: "",
+        openaiRequestId: sanitizeDiagnosticText(response.headers.get("x-request-id") || response.headers.get("request-id") || "", 80),
+        openaiRetryable: null,
+        openaiFailureAt: ""
+      });
+      break;
+    }
 
     const errorText = await response.text();
     lastGenerationFailureReason = "openai_request_failed";
     lastGenerationFailureStage = "openai_request";
-    console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${errorText}`);
+    recordOpenAIResponseFailure(response, errorText, attempt);
+    console.warn(`[Today In Golf] OpenAI attempt ${attempt} failed: ${response.status} ${sanitizeDiagnosticText(errorText, 180)}`);
 
     if (attempt < 3) {
       await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
@@ -1172,6 +1369,11 @@ async function main() {
 
   if (DRY_RUN_TODAY_IN_GOLF_INPUTS) {
     runTodayInGolfInputsDryRun({ radarData, edition, storyPool, storiesForEdition });
+    return;
+  }
+
+  if (DRY_RUN_OPENAI_CONFIG) {
+    await generateBriefing(storiesForEdition, edition);
     return;
   }
 
