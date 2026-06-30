@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-06-30T23:06:28.699Z",
+  "updatedAt": "2026-06-30T23:06:30.421Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -195,21 +195,6 @@
   ],
   "weekRadar": [
     {
-      "label": "MAJOR WATCH",
-      "title": "Lee Trevino insists Scottie Scheffler does one thing better than any...",
-      "summary": "Scottie Scheffler has unquestionably been the best golfer on the planet over the past few years.",
-      "quickRead": "Scottie Scheffler has unquestionably been the best golfer on the planet over the past few years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/lee-trevino-insists-scottie-scheffler-193000828.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/lee-trevino-insists-scottie-scheffler-193000828.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-30T19:30:00.000Z"
-    },
-    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler and Rory McIlroy looking for another moment to stan...",
       "summary": "The eight signature events were won by eight players, no different from last year when seven players won the seven $20 million tournaments.",
@@ -221,7 +206,7 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-looking-203632937.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-looking-203632937.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-06-30T20:36:32.000Z"
     },
     {
@@ -238,6 +223,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "timestamp": "2026-06-30T14:30:00.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "At John Deere Classic, Jordan Spieth, Zach Johnson dish on PGA Tour s...",
+      "summary": "Major champions Jordan Spieth and Zach Johnson each spoke on Tuesday about the PGA Tour's future structure.",
+      "quickRead": "Major champions Jordan Spieth and Zach Johnson each spoke on Tuesday about the PGA Tour's future structure.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/john-deere-classic-jordan-spieth-193511045.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/john-deere-classic-jordan-spieth-193511045.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png",
+      "timestamp": "2026-06-30T19:35:11.000Z"
     }
   ],
   "checking": {
@@ -259,7 +259,7 @@
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "Just now",
-      "timestamp": "2026-06-30T21:24:22.880Z",
+      "timestamp": "2026-06-30T23:06:24.337Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -273,7 +273,7 @@
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "time": "37 min ago",
-      "timestamp": "2026-06-30T20:47:22.880Z",
+      "timestamp": "2026-06-30T22:29:24.337Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
