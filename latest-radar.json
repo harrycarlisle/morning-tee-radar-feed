@@ -268,7 +268,13 @@
       "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic."
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
@@ -282,7 +288,13 @@
       "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20
     }
   ],
   "liveLeaderboards": []

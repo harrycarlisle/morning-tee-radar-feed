@@ -158,6 +158,11 @@ function getLabel(edition) {
   return "Updated at 8 p.m. ET";
 }
 
+function getDisplayLabel(edition, usedFallback = false) {
+  const label = getLabel(edition);
+  return usedFallback ? label.replace(/^Updated at/i, "Last checked at") : label;
+}
+
 function getItemTimestamp(item) {
   const possibleValues = [
     item?.approvedAt,
@@ -707,7 +712,7 @@ function buildOutput({ edition, items, now = new Date(), metadata = {} }) {
     active: true,
     lastUpdated: nowIso,
     edition,
-    label: normalizeDisplayText(getLabel(edition)),
+    label: normalizeDisplayText(getDisplayLabel(edition, Boolean(metadata.usedFallback))),
     title: normalizeDisplayText(TODAY_IN_GOLF_TITLE),
     summary: normalizeDisplayText(TODAY_IN_GOLF_SUMMARY),
     items,

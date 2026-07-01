@@ -569,10 +569,52 @@ function writeJsonFileSafe(filePath, value) {
   fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n");
 }
 
+function numberOrDefault(value, fallbackValue) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallbackValue;
+}
+
+function booleanOrDefault(value, fallbackValue) {
+  if (value === true || value === false) {
+    return value;
+  }
+
+  return fallbackValue;
+}
+
+function withGolfInternetDisplayGuards(item, defaults = {}) {
+  if (!item) return item;
+
+  const topSlotEligible = booleanOrDefault(
+    item.topSlotEligible,
+    defaults.topSlotEligible === true
+  );
+  const searchTopSlotEligible = booleanOrDefault(
+    item.searchTopSlotEligible,
+    defaults.searchTopSlotEligible === true || topSlotEligible
+  );
+
+  return {
+    ...item,
+    contentTier: item.contentTier || defaults.contentTier || "light",
+    homepageEligible: booleanOrDefault(item.homepageEligible, defaults.homepageEligible === true),
+    topSlotEligible,
+    searchTopSlotEligible,
+    searchPriority: numberOrDefault(
+      item.searchPriority,
+      numberOrDefault(defaults.searchPriority, searchTopSlotEligible ? 20 : -25)
+    ),
+    displayPriority: numberOrDefault(
+      item.displayPriority,
+      numberOrDefault(defaults.displayPriority, topSlotEligible ? 50 : 20)
+    )
+  };
+}
+
 function buildManualGolfInternetItem(item, index) {
   const timestamp = getSourceTimestampIso(item, index * 37);
 
-  return {
+  return withGolfInternetDisplayGuards({
     id: item.id || `manual-golf-internet:${item.url || item.title || index}`,
     time: formatTimeLabel(timestamp),
     timestamp,
@@ -583,8 +625,14 @@ function buildManualGolfInternetItem(item, index) {
     summary: item.summary || "A golf post is picking up attention online.",
     url: item.url || "#",
     source: item.source || "r/golf",
-    image: item.image || ""
-  };
+    image: item.image || "",
+    contentTier: item.contentTier,
+    homepageEligible: item.homepageEligible,
+    topSlotEligible: item.topSlotEligible,
+    searchTopSlotEligible: item.searchTopSlotEligible,
+    searchPriority: item.searchPriority,
+    displayPriority: item.displayPriority
+  });
 }
 
 function getManualGolfInternetItems() {
@@ -1786,7 +1834,13 @@ async function fetchGolfInternetItems() {
 
         const image = getRedditPreviewImage(post);
 
-        allItems.push({
+        const earnsSearchTopSlot =
+          veryStrongPost &&
+          post.ups >= 1000 &&
+          post.num_comments >= 100 &&
+          upvotesPerHour >= 40;
+
+        allItems.push(withGolfInternetDisplayGuards({
           id,
           time: formatTimeLabel(new Date(post.created_utc * 1000).toISOString()),
           timestamp: new Date(post.created_utc * 1000).toISOString(),
@@ -1810,7 +1864,13 @@ async function fetchGolfInternetItems() {
             Math.round(upvotesPerHour * 10) +
             (visualPost ? 75 : 0) +
             (hasPositiveSignal ? 50 : 0)
-        });
+        }, {
+          contentTier: earnsSearchTopSlot ? "high-signal" : "light",
+          searchTopSlotEligible: earnsSearchTopSlot,
+          topSlotEligible: earnsSearchTopSlot,
+          searchPriority: earnsSearchTopSlot ? 35 : -25,
+          displayPriority: earnsSearchTopSlot ? 65 : 20
+        }));
       }
     } catch (error) {
       console.error(`[Golf Internet] ${source.name} failed`, error);
@@ -3597,10 +3657,14 @@ async function autoPublishGolfInternetToGitHub(items) {
 
   const imageUsage = {};
 
- const nextGolfInternet = addDisplayTimesToRadarArray(
-  attachImagesToRadarArray(items.slice(0, 2), imageUsage),
-  0
-);
+  const guardedGolfInternet = items
+    .slice(0, 2)
+    .map((item) => withGolfInternetDisplayGuards(item));
+
+  const nextGolfInternet = addDisplayTimesToRadarArray(
+    attachImagesToRadarArray(guardedGolfInternet, imageUsage),
+    0
+  );
 
 const nextWeekRadar = buildWeekRadarFromStories(
   [
