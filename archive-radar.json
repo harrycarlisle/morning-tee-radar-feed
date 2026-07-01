@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-07-01T19:46:49.298Z",
+  "updatedAt": "2026-07-01T19:46:51.333Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "time": "Just now",
+      "timestamp": "2026-07-01T16:22:44.593Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "Is this the world’s biggest bunker?",
+      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "archivedAt": "2026-07-01T19:46:51.333Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "Rory McIlroy Sparks Fan Backlash Over Obvious Detail During Public Ap...",
@@ -1883,22 +1904,6 @@
       "source": "r/golf",
       "image": "https://morningteeradarfeed.netlify.app/golf-internet-images/hot-dog.png",
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
-      "archivedAt": "2026-06-24T17:50:33.303Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Why the PGA Tour may have forced themselves into creating another Tig...",
-      "summary": "Tiger Woods opened up proceedings ahead of Brian Rolapp’s press conference on Tuesday with a few short words.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-pga-tour-may-forced-170000927.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-pga-tour-may-forced-170000927.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-06-24T17:00:00.000Z",
       "archivedAt": "2026-06-24T17:50:33.303Z"
     }
   ]
