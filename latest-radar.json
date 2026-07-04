@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-04T02:28:34.338Z",
+  "updatedAt": "2026-07-04T06:44:06.090Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "5 hours ago",
+      "timestamp": "2026-07-04T01:16:12.000Z",
+      "approvedAt": "2026-07-04T06:44:06.086Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "George McNeill Leads U.S. Senior Open After Impressive 4-Under Round at Scioto",
+      "summary": "George McNeill has been around professional golf long enough to know when a leaderboard is telling the truth.",
+      "quickRead": "George McNeill has been around professional golf long enough to know when a leaderboard is telling the truth.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/george-mcneill-leads-u-senior-011612991.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/george-mcneill-leads-u-senior-011612991.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-07-03T21:25:13.000Z",
       "approvedAt": "2026-07-04T02:28:30.407Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/game-became-money-pga-tour-212513954.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-03T21:44:29.000Z",
       "approvedAt": "2026-07-03T22:57:54.688Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-03T20:24:15.000Z",
       "approvedAt": "2026-07-03T22:57:57.305Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-03T15:01:05.000Z",
       "approvedAt": "2026-07-03T17:19:51.700Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-03T17:03:40.000Z",
       "approvedAt": "2026-07-03T20:59:04.611Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-03T15:00:00.000Z",
       "approvedAt": "2026-07-03T15:50:43.405Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-03T14:10:41.000Z",
       "approvedAt": "2026-07-03T15:50:45.519Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/10-top-pga-tour-money-141041444.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-07-03T13:30:00.000Z",
-      "approvedAt": "2026-07-03T13:52:17.273Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm names the score you have be able to shoot to be considered good at golf",
-      "summary": "Does anyone actually believe they’re good at golf?",
-      "quickRead": "Jon Rahm said you can “say you’re good at golf” if you can “break 80 consistently,” adding that’s “probably really good at golf, honestly. ” It’s a sky-high bar—only about 5% to 9% of golfers can routinely shoot in the 70s—so Rahm’s benchmark basically puts “good” in elite-amateur territory.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-names-score-able-133000409.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-names-score-able-133000409.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-07-04T02:28:20.656Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-04T01:51:20.656Z",
       "status": "Trending",
       "signal": "Reddit find",
