@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-05T22:57:41.891Z",
+  "updatedAt": "2026-07-05T23:44:19.667Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-07-05T21:49:20.000Z",
+      "approvedAt": "2026-07-05T23:44:18.748Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Chris Gotterup wins John Deere Classic with a 62 and late help from Ben Kohles",
+      "summary": "Chris Gotterup is a three-time winner on the PGA Tour this year after claiming the John Deere Classic in a stunning victory over Ben Kohles on Sunday.",
+      "quickRead": "Chris Gotterup is a three-time winner on the PGA Tour this year after claiming the John Deere Classic in a stunning victory over Ben Kohles on Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/chris-gotterup-comes-behind-claim-214920954.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/chris-gotterup-comes-behind-claim-214920954.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-07-05T23:44:19.667Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-07-05T21:47:19.000Z",
@@ -1915,26 +1935,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "archivedAt": "2026-06-27T19:13:26.473Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-06-27T17:55:44.000Z",
-      "approvedAt": "2026-06-27T19:13:23.748Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau Breaks Down His U.S. Open Collapase",
-      "summary": "After the second round of the U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-down-u-175544548.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-down-u-175544548.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-06-27T19:13:24.615Z"
     }
   ]
 }
