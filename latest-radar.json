@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-05T22:57:45.257Z",
+  "updatedAt": "2026-07-05T23:44:18.754Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-07-05T21:49:20.000Z",
+      "approvedAt": "2026-07-05T23:44:18.748Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Chris Gotterup wins John Deere Classic with a 62 and late help from Ben Kohles",
+      "summary": "Chris Gotterup is a three-time winner on the PGA Tour this year after claiming the John Deere Classic in a stunning victory over Ben Kohles on Sunday.",
+      "quickRead": "Chris Gotterup is a three-time winner on the PGA Tour this year after claiming the John Deere Classic in a stunning victory over Ben Kohles on Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/chris-gotterup-comes-behind-claim-214920954.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/chris-gotterup-comes-behind-claim-214920954.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-05T21:47:19.000Z",
       "approvedAt": "2026-07-05T22:57:40.740Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/chris-gotterups-risky-penalty-area-214719450.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-05T16:43:00.000Z",
       "approvedAt": "2026-07-05T22:57:42.995Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-05T12:13:01.000Z",
       "approvedAt": "2026-07-05T13:21:12.880Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-05T17:18:59.000Z",
       "approvedAt": "2026-07-05T18:39:12.810Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-07-05T00:41:08.000Z",
       "approvedAt": "2026-07-05T17:03:50.704Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-07-05T00:30:58.000Z",
       "approvedAt": "2026-07-05T02:37:49.849Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-07-05T01:02:49.000Z",
       "approvedAt": "2026-07-05T02:37:51.600Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tours-schedule-change-1-010249225.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-07-04T20:30:16.000Z",
-      "approvedAt": "2026-07-04T22:53:52.862Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka Faces New Setback as Abrupt Withdrawal from $9M PGA Tour Event Ra...",
-      "summary": "Brooks Koepka looked set to end a streak that had quietly stretched for more than a decade.",
-      "quickRead": "Brooks Koepka abruptly withdrew from the $9 million Genesis Scottish Open, with the PGA Tour field list replacing him and Keith Mitchell with Max McGreevy and William Mouw.  The concern is whether the same hand/arm issue Koepka described recently—tingling between his ring and pinky fingers that affected his grip despite “absolutely no pain”—could jeopardize his Open Championship plans the following week.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-faces-setback-abrupt-203016546.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-faces-setback-abrupt-203016546.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "46 min ago",
       "timestamp": "2026-07-05T22:57:30.346Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-05T22:20:30.347Z",
       "status": "Trending",
       "signal": "Reddit find",
