@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-05T10:06:42.299Z",
+  "updatedAt": "2026-07-05T13:21:12.883Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-07-05T12:13:01.000Z",
+      "approvedAt": "2026-07-05T13:21:12.880Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 John Deere Classic Round 4 tee times & pairings for Sunday",
+      "summary": "The 2026 PGA Tour wraps up a busy Fourth of July weekend with the final round of the John Deere Classic at TPC Deere Run in Silvis, Illinois.",
+      "quickRead": "Lee Hodges and Lucas Glover start Sunday’s final round of the John Deere Classic tied for the lead at 16-under and play in the last group at 12:35 p. m.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-john-deere-classic-round-121301317.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-john-deere-classic-round-121301317.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "12 hours ago",
       "timestamp": "2026-07-05T00:30:58.000Z",
       "approvedAt": "2026-07-05T02:37:49.849Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/billy-horschel-issues-strong-message-003058028.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-05T01:02:49.000Z",
       "approvedAt": "2026-07-05T02:37:51.600Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-04T20:30:16.000Z",
       "approvedAt": "2026-07-04T22:53:52.862Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-04T20:55:36.000Z",
       "approvedAt": "2026-07-04T22:53:54.719Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-07-04T12:30:00.000Z",
       "approvedAt": "2026-07-04T13:13:54.665Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-07-04T10:30:00.000Z",
       "approvedAt": "2026-07-04T13:13:57.477Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/ian-poulter-says-former-ryder-103000159.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-07-03T15:00:00.000Z",
-      "approvedAt": "2026-07-04T13:13:57.477Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "PGA Tour players once roasted Phil Mickelson after revealed Tiger Woods’ only i...",
-      "summary": "Phil Mickelson and Tiger Woods enjoyed a thrilling rivalry throughout the late 1990s and on into the 2000s.",
-      "quickRead": "In 2003, Phil Mickelson said Tiger Woods’ only issue with him was that Tiger “hates that I can fly it past him now,” adding that Woods had “inferior equipment” despite a faster swing.  Mickelson got “barbecued” by the press and in the locker room for sounding uppity while Tiger led him 8–0 in majors, and Woods enjoyed the backlash, calling Phil a “smart aleck.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-players-once-roasted-150000234.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-players-once-roasted-150000234.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-05T10:06:34.744Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-05T09:29:34.745Z",
       "status": "Trending",
       "signal": "Reddit find",
