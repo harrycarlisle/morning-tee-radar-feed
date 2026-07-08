@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-07T04:18:17.793Z",
+  "lastUpdated": "2026-07-08T04:32:00.651Z",
   "edition": "evening",
   "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "PGA Tour Split Week",
-      "text": "This week the PGA Tour features the star-studded Genesis Scottish Open at The Renaissance Club in Scotland with players like Scottie Scheffler and Rory McIlroy, while the ISCO Championship occurs at Hurstbourne CC in Kentucky, focusing on FedExCup points and job security."
+      "headline": "Nelly Korda Headlines Evian",
+      "text": "Nelly Korda leads a loaded field at the LPGA Amundi Evian Championship in France, a major event with a scenic setting."
     },
     {
-      "headline": "David Howard's Major Debut",
-      "text": "David Howard qualified for the 154th Open at Royal Birkdale despite battling cystic fibrosis since age seven and overcoming severe health challenges, now aiming for low-amateur honors."
+      "headline": "Rahm’s Scottish Open Return",
+      "text": "Jon Rahm plays the 2026 Genesis Scottish Open after settling DP World Tour fines; a win here wouldn’t restore his PGA Tour status."
     },
     {
-      "headline": "Sergio Garcia Eyes DP World Tour Return",
-      "text": "Sergio Garcia plans to regain his DP World Tour card and return in 2027 amid LIV Golf's funding uncertainties, expecting to play about four European events this season."
+      "headline": "Hovland Backs Ryder Cup Picks",
+      "text": "Viktor Hovland says Jon Rahm and Tyrrell Hatton are crucial for Europe’s 2027 Ryder Cup team after they paid fines and met eligibility requirements."
     }
   ],
-  "itemsLastUpdated": "2026-07-07T04:18:17.793Z",
+  "itemsLastUpdated": "2026-07-08T04:32:00.651Z",
   "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-07T04:18:17.793Z",
+  "lastSuccessfulStoryUpdate": "2026-07-08T04:32:00.651Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 9,
   "openaiAttempted": true,
-  "openaiOutputLength": 914,
+  "openaiOutputLength": 685,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "4aebc8f8-53b5-49de-a7f2-23dc6540ff2c",
+  "openaiRequestId": "272dca7a-673c-40f1-837d-83546b7c2717",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-07T04:18:17.793Z",
+  "diagnosticUpdatedAt": "2026-07-08T04:32:00.650Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
