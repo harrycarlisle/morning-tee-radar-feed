@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-08T02:11:57.987Z",
+  "updatedAt": "2026-07-08T10:12:10.785Z",
   "stories": [
+    {
+      "time": "42 min ago",
+      "timestamp": "2026-07-08T09:30:00.000Z",
+      "approvedAt": "2026-07-08T10:12:09.430Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "LIV Golf has a golden opportunity at The Open Championship after what is happen...",
+      "summary": "LIV Golf’s performances at the major championships this season have been lackluster.",
+      "quickRead": "LIV Golf’s performances at the major championships this season have been lackluster.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/liv-golf-golden-opportunity-open-093000200.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-golden-opportunity-open-093000200.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-07-08T10:12:10.785Z"
+    },
     {
       "label": "MAJOR WATCH",
       "title": "Nelly Korda Headlines Loaded Amundi Evian Championship Field as LPGA...",
@@ -1915,26 +1935,6 @@
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
       "archivedAt": "2026-06-28T23:48:32.718Z"
-    },
-    {
-      "time": "17 min ago",
-      "timestamp": "2026-06-28T23:31:04.000Z",
-      "approvedAt": "2026-06-28T23:48:29.460Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Haeran Ryu wins KPMG Women’s PGA Championship, denying Nelly Korda’s run at his...",
-      "summary": "Haeran Ryu has broken Nelly Korda’s chokehold on the major championships for women’s golf in 2026.",
-      "quickRead": "Haeran Ryu has broken Nelly Korda’s chokehold on the major championships for women’s golf in 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/haeran-ryu-wins-kpmg-women-233104569.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-wins-kpmg-women-233104569.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
-      "archivedAt": "2026-06-28T23:48:30.498Z"
     }
   ]
 }
