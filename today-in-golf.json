@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-08T04:32:00.651Z",
+  "lastUpdated": "2026-07-09T04:15:29.105Z",
   "edition": "evening",
   "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Nelly Korda Headlines Evian",
-      "text": "Nelly Korda leads a loaded field at the LPGA Amundi Evian Championship in France, a major event with a scenic setting."
+      "headline": "Scottish Open Showcases Mixed Field",
+      "text": "The Genesis Scottish Open features seven LIV players including Jon Rahm and Tyrrell Hatton competing alongside PGA Tour stars Scottie Scheffler, Rory McIlroy, and Matt Fitzpatrick in a rare event blending top talents before The Open amid uncertainty over LIV's future after Saudi funding ends this season."
     },
     {
-      "headline": "Rahm’s Scottish Open Return",
-      "text": "Jon Rahm plays the 2026 Genesis Scottish Open after settling DP World Tour fines; a win here wouldn’t restore his PGA Tour status."
-    },
-    {
-      "headline": "Hovland Backs Ryder Cup Picks",
-      "text": "Viktor Hovland says Jon Rahm and Tyrrell Hatton are crucial for Europe’s 2027 Ryder Cup team after they paid fines and met eligibility requirements."
+      "headline": "Firestone Hosts Final PGA Tour Champions Event",
+      "text": "The Kaulig Companies Championship at Firestone Country Club’s South Course is the last PGA Tour event there after 72 years; from 2027 the Senior Players Championship moves to Newport Beach Country Club in California and will be renamed the Hoag Senior Players Championship."
     }
   ],
-  "itemsLastUpdated": "2026-07-08T04:32:00.651Z",
+  "itemsLastUpdated": "2026-07-09T04:15:29.105Z",
   "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-08T04:32:00.651Z",
+  "lastSuccessfulStoryUpdate": "2026-07-09T04:15:29.105Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 9,
   "openaiAttempted": true,
-  "openaiOutputLength": 685,
+  "openaiOutputLength": 1158,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "272dca7a-673c-40f1-837d-83546b7c2717",
+  "openaiRequestId": "91a7ba3c-8ace-4764-bb9f-3738c8bde729",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-08T04:32:00.650Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-07-09T04:15:29.105Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
