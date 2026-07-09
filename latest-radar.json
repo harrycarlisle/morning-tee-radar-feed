@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-09T14:47:12.462Z",
+  "updatedAt": "2026-07-09T17:51:42.108Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-07-09T17:51:42.105Z",
+      "approvedAt": "2026-07-09T17:51:42.105Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Steven Fisk leads ISCO Championship at -7",
+      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
+      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Stephan Jaeger",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Pontus Nyholm",
+          "score": "-6",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Patton Kizzire",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Adam Svensson",
+          "score": "-5",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-07-09T07:33:31.174Z",
       "approvedAt": "2026-07-09T07:33:31.174Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-09T12:02:42.000Z",
       "approvedAt": "2026-07-09T14:47:03.205Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-09T12:30:00.000Z",
       "approvedAt": "2026-07-09T14:47:03.206Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-09T13:30:00.000Z",
       "approvedAt": "2026-07-09T14:47:03.206Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-08T23:21:52.000Z",
       "approvedAt": "2026-07-09T10:55:19.615Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-09T06:00:23.000Z",
       "approvedAt": "2026-07-09T07:33:32.722Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-09T06:42:42.000Z",
       "approvedAt": "2026-07-09T07:33:32.722Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-07-08T16:48:24.000Z",
       "approvedAt": "2026-07-09T07:33:32.723Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottish-open-look-major-blend-164824959.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-07-08T17:48:37.000Z",
-      "approvedAt": "2026-07-09T02:30:23.159Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "We Can’t Have Rory McIlroy Playing Football This Close to The Open",
-      "summary": "You know what they say about lightning striking twice, but still, we can't have Rory McIlroy playing football (soccer for us Americans) this close to The Open.",
-      "quickRead": "You know what they say about lightning striking twice, but still, we can't have Rory McIlroy playing football (soccer for us Americans) this close to The Open.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/t-rory-mcilroy-playing-football-174837964.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/t-rory-mcilroy-playing-football-174837964.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-09T14:46:52.451Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-09T14:09:52.452Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,67 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-09T14:47:10.399Z",
-      "approvedAt": "2026-07-09T14:47:10.399Z",
+      "timestamp": "2026-07-09T17:51:42.108Z",
+      "approvedAt": "2026-07-09T17:51:42.108Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Genesis Scottish Open at -5",
-      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
-      "quickRead": "Tom Kim shot 65 (-5) to share the first-round lead at the Genesis Scottish Open with Bernd Wiesberger, Patrick Cantlay and Rory McIlroy, all at -5 at The Renaissance Club.  With Brooks Koepka, Min Woo Lee and others one back at -4, the leaderboard is tightly packed heading into Round 2 in North Berwick.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Tom Kim",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Bernd Wiesberger",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Patrick Cantlay",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Rory McIlroy",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T5",
-          "name": "Brooks Koepka",
-          "score": "-4",
-          "thru": "F*"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-09T14:47:10.399Z",
-      "approvedAt": "2026-07-09T14:47:10.399Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Steven Fisk leads ISCO Championship at -6",
-      "summary": "Steven Fisk is -6 today and -6 overall through 12. Closest chasers: Stephan Jaeger (-5), Ben Martin (-4), Nick Hardy (-4).",
-      "quickRead": "Steven Fisk is -6 today and -6 overall through 12. Closest chasers: Stephan Jaeger (-5), Ben Martin (-4), Nick Hardy (-4).",
+      "title": "Steven Fisk leads ISCO Championship at -7",
+      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
+      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -407,34 +388,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
           "name": "Steven Fisk",
-          "score": "-6",
-          "thru": "12"
+          "score": "-7",
+          "thru": "F"
         },
         {
-          "pos": "2",
+          "pos": "T1",
           "name": "Stephan Jaeger",
-          "score": "-5",
-          "thru": "12"
+          "score": "-7",
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Ben Martin",
-          "score": "-4",
-          "thru": "10*"
-        },
-        {
-          "pos": "T3",
-          "name": "Nick Hardy",
-          "score": "-4",
-          "thru": "8"
-        },
-        {
-          "pos": "T3",
+          "pos": "3",
           "name": "Pontus Nyholm",
-          "score": "-4",
-          "thru": "8*"
+          "score": "-6",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Patton Kizzire",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Adam Svensson",
+          "score": "-5",
+          "thru": "F*"
         }
       ]
     }
