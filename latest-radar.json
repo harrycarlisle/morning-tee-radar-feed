@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-09T10:55:23.792Z",
+  "updatedAt": "2026-07-09T14:47:01.599Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-07-09T14:47:01.596Z",
+      "approvedAt": "2026-07-09T14:47:01.597Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -5",
+      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim shot 65 (-5) to share the first-round lead at the Genesis Scottish Open with Bernd Wiesberger, Patrick Cantlay and Rory McIlroy, all at -5 at The Renaissance Club.  With Brooks Koepka, Min Woo Lee and others one back at -4, the leaderboard is tightly packed heading into Round 2 in North Berwick.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Bernd Wiesberger",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Cantlay",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T5",
+          "name": "Brooks Koepka",
+          "score": "-4",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-07-09T07:33:31.174Z",
       "approvedAt": "2026-07-09T07:33:31.174Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-08T23:21:52.000Z",
       "approvedAt": "2026-07-09T10:55:19.615Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-09T06:00:23.000Z",
       "approvedAt": "2026-07-09T07:33:32.722Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-09T06:42:42.000Z",
       "approvedAt": "2026-07-09T07:33:32.722Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-07-08T16:48:24.000Z",
       "approvedAt": "2026-07-09T07:33:32.723Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-08T17:48:37.000Z",
       "approvedAt": "2026-07-09T02:30:23.159Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-08T19:26:38.000Z",
       "approvedAt": "2026-07-08T23:00:48.701Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-08T19:07:56.000Z",
       "approvedAt": "2026-07-08T23:00:51.572Z",
       "status": "Confirmed",
@@ -206,42 +259,23 @@
       "sourceUrl": "https://sports.yahoo.com/articles/firing-firestone-pga-tour-saying-190756075.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-07-08T13:30:00.000Z",
-      "approvedAt": "2026-07-08T13:51:40.998Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy says if he thinks Jon Rahm should be able to play the Scottish Open",
-      "summary": "For the first time this year, Rory McIlroy and Jon Rahm will compete against one another outside of a major championship.",
-      "quickRead": "Rory McIlroy said Jon Rahm should be able to play the Scottish Open, arguing “having Jon in this event is better for the event than him not being here” and that he wants “all of the best players in the world play together. ” Rahm can tee it up because he’s still a DP World Tour member even though LIV players are banned from the PGA Tour, making this co-sanctioned week a rare non-major showdown between top stars.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-says-thinks-jon-133000900.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-thinks-jon-133000900.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy says if he thinks Jon Rahm should be able to play the Sc...",
-      "summary": "Rory McIlroy said Jon Rahm should be able to play the Scottish Open, arguing “having Jon in this event is better for the event than him not being h...",
-      "quickRead": "Rory McIlroy said Jon Rahm should be able to play the Scottish Open, arguing “having Jon in this event is better for the event than him not being here” and that he wants “all of the best players in the world play together. ” Rahm can tee it up because he’s still a DP World Tour member even though LIV players are banned from the PGA Tour, making this co-sanctioned week a rare non-major showdown between top stars.",
+      "label": "STAR WATCH",
+      "title": "McIlroy concern for Scottish Open under Tour revamp",
+      "summary": "Rory McIlroy warned the PGA Tour to “be careful” with its 2028 two-tier revamp because the Scottish Open could be shut out of the top “Championship...",
+      "quickRead": "Rory McIlroy warned the PGA Tour to “be careful” with its 2028 two-tier revamp because the Scottish Open could be shut out of the top “Championship” tier, saying, “You can’t call yourself a national open any more if it’s a closed-off tournament. ” If the Scottish Open isn’t treated as an exception, many elite PGA Tour players could be ineligible to play it despite its key role as The Open’s main tune-up and its co-sanctioning with the DP World Tour.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-says-thinks-jon-133000900.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-thinks-jon-133000900.html",
+      "url": "https://sports.yahoo.com/articles/mcilroy-concern-scottish-open-under-143945565.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-concern-scottish-open-under-143945565.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
-      "timestamp": "2026-07-08T13:30:00.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-09T06:42:42.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-09T10:54:56.010Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-09T10:17:56.010Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-09T07:33:37.290Z",
-      "approvedAt": "2026-07-09T07:33:37.290Z",
+      "timestamp": "2026-07-09T14:47:01.599Z",
+      "approvedAt": "2026-07-09T14:47:01.599Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Mac Meissner wins Genesis Scottish Open at -",
-      "summary": "Mac Meissner wins Genesis Scottish Open at -. Nearest finishers: Ryggs Johnston (-), Frederic LaCroix (-), Joost Luiten (-).",
-      "quickRead": "",
+      "title": "Tom Kim leads Genesis Scottish Open at -5",
+      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim shot 65 (-5) to share the first-round lead at the Genesis Scottish Open with Bernd Wiesberger, Patrick Cantlay and Rory McIlroy, all at -5 at The Renaissance Club.  With Brooks Koepka, Min Woo Lee and others one back at -4, the leaderboard is tightly packed heading into Round 2 in North Berwick.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -354,87 +388,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "-",
-          "name": "Mac Meissner",
-          "score": "-",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-5",
+          "thru": "F*"
         },
         {
-          "pos": "-",
-          "name": "Ryggs Johnston",
-          "score": "-",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Bernd Wiesberger",
+          "score": "-5",
+          "thru": "F*"
         },
         {
-          "pos": "-",
-          "name": "Frederic LaCroix",
-          "score": "-",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Patrick Cantlay",
+          "score": "-5",
+          "thru": "F*"
         },
         {
-          "pos": "-",
-          "name": "Joost Luiten",
-          "score": "-",
-          "thru": "10"
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-5",
+          "thru": "F*"
         },
         {
-          "pos": "-",
-          "name": "Martin Couvra",
-          "score": "-",
-          "thru": "10"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-09T07:33:37.290Z",
-      "approvedAt": "2026-07-09T07:33:37.290Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Nick Dunlap wins ISCO Championship at -",
-      "summary": "Nick Dunlap wins ISCO Championship at -. Nearest finishers: Jorge Campillo (-), Marcus Kinhult (-), Chad Ramey (-).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "-",
-          "name": "Nick Dunlap",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Jorge Campillo",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Marcus Kinhult",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Chad Ramey",
-          "score": "-",
-          "thru": "10"
-        },
-        {
-          "pos": "-",
-          "name": "Daniel Gavins",
-          "score": "-",
-          "thru": "10"
+          "pos": "T5",
+          "name": "Brooks Koepka",
+          "score": "-4",
+          "thru": "F*"
         }
       ]
     }
