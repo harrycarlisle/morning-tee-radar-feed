@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-09T21:19:23.965Z",
+  "updatedAt": "2026-07-09T21:19:26.534Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -244,10 +244,25 @@
       "timestamp": "2026-07-09T20:55:59.000Z"
     },
     {
-      "label": "MAJOR WATCH",
+      "label": "LIV WATCH",
+      "title": "Bryson DeChambeau should be seriously concerned for The Open after th...",
+      "summary": "Bryson DeChambeau skipped the Scottish Open links test while LIV peers struggled at Renaissance Club—Jon Rahm shot 73 to sit T-137, David Puig is +...",
+      "quickRead": "Bryson DeChambeau skipped the Scottish Open links test while LIV peers struggled at Renaissance Club—Jon Rahm shot 73 to sit T-137, David Puig is +5, and Tom McKibbin is the only LIV player inside the top 50—raising alarms that Bryson’s Open prep is lacking.  With DeChambeau already missing the cut in all three 2026 majors and analyst Johnson Wagner predicting he’ll miss another cut, his margin at Royal Birkdale is shrinking fast.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-seriously-concerned-open-203000950.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-seriously-concerned-open-203000950.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-07-09T20:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
       "title": "Rory McIlroy Reveals Retirement Timeline During Genesis Scottish Open",
-      "summary": "Rory McIlroy said he doesn’t necessarily expect to still be playing professionally into his late 40s, laughing off the idea of “another decade” and...",
-      "quickRead": "Rory McIlroy said he doesn’t necessarily expect to still be playing professionally into his late 40s, laughing off the idea of “another decade” and replying, “A decade?  Well, we’ll see.",
+      "summary": "Rory McIlroy said he doesn’t necessarily see himself still playing professionally in his late 40s, responding to a question about another decade on...",
+      "quickRead": "Rory McIlroy said he doesn’t necessarily see himself still playing professionally in his late 40s, responding to a question about another decade on tour with: “A decade?  Well, we’ll see,” while stressing he still needs to keep setting goals.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -255,23 +270,8 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-retirement-timeline-192507886.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-retirement-timeline-192507886.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-07-09T19:25:07.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "New PGA Tour Schedule Will Make Golfers ‘Eat What You Kill’",
-      "summary": "Xander Schauffele backed the PGA Tour’s revamped schedule, saying it’s “you eat what you kill” because “there will be cuts in all the events— you p...",
-      "quickRead": "Xander Schauffele backed the PGA Tour’s revamped schedule, saying it’s “you eat what you kill” because “there will be cuts in all the events— you play badly; you’re not making any money. ” The change reintroduces cuts everywhere and leans into a meritocracy/promotion-relegation feel, raising the stakes weekly and forcing players to perform to keep earning and climbing.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-schedule-golfers-eat-194312610.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-schedule-golfers-eat-194312610.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-09T19:43:12.000Z"
     }
   ],
   "checking": {
@@ -334,14 +334,67 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-09T17:51:42.108Z",
-      "approvedAt": "2026-07-09T17:51:42.108Z",
+      "timestamp": "2026-07-09T21:19:26.299Z",
+      "approvedAt": "2026-07-09T21:19:26.300Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -5",
+      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Bernd Wiesberger",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Cantlay",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Rasmus Højgaard",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-09T21:19:26.300Z",
+      "approvedAt": "2026-07-09T21:19:26.300Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Steven Fisk leads ISCO Championship at -7",
-      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
-      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Pontus Nyholm (-6), Patton Kizzire (-5).",
+      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Pontus Nyholm (-6).",
+      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Pontus Nyholm (-6).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -366,22 +419,22 @@
           "thru": "F"
         },
         {
-          "pos": "3",
+          "pos": "T1",
+          "name": "Lucas Glover",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
           "name": "Pontus Nyholm",
           "score": "-6",
           "thru": "F*"
         },
         {
           "pos": "T4",
-          "name": "Patton Kizzire",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Adam Svensson",
-          "score": "-5",
-          "thru": "F*"
+          "name": "Ben James",
+          "score": "-6",
+          "thru": "13"
         }
       ]
     }
