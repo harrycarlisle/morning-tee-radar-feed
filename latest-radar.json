@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-09T17:51:53.270Z",
+  "updatedAt": "2026-07-09T17:51:54.414Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -263,21 +263,6 @@
   ],
   "weekRadar": [
     {
-      "label": "MAJOR WATCH",
-      "title": "Scottie Scheffler now needs to back up his words with actions after h...",
-      "summary": "Scottie Scheffler has been the world’s number one golfer for 164 consecutive weeks.",
-      "quickRead": "Scottie Scheffler has been the world’s number one golfer for 164 consecutive weeks.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-now-needs-back-120000645.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-now-needs-back-120000645.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-09T12:00:00.000Z"
-    },
-    {
       "label": "LIV WATCH",
       "title": "Former LIV golfer admits he dreams of returning to the PGA Tour, ‘I w...",
       "summary": "Former LIV golfer Eugenio Chacarra said the PGA Tour “was the main goal” and that he “would love to play in that theatre,” calling it the place he’...",
@@ -295,8 +280,8 @@
     {
       "label": "MAJOR WATCH",
       "title": "Why Bryson DeChambeau has put even more pressure on his shoulders ahe...",
-      "summary": "Bryson DeChambeau is heading to The Open at Royal Birkdale needing to make his first major cut of 2026 after missing the weekend at all three earli...",
-      "quickRead": "Bryson DeChambeau is heading to The Open at Royal Birkdale needing to make his first major cut of 2026 after missing the weekend at all three earlier majors, adding pressure as his LIV Golf contract winds down.  With DeChambeau also skipping the stacked Scottish Open, a quiet two-week stretch could further weaken his leverage if he wants a future move back toward the PGA Tour.",
+      "summary": "Bryson DeChambeau has essentially framed The Open at Royal Birkdale as a must-respond moment after missing the cut at all three majors this season...",
+      "quickRead": "Bryson DeChambeau has essentially framed The Open at Royal Birkdale as a must-respond moment after missing the cut at all three majors this season, adding pressure because a fourth straight missed cut would further crater his leverage with his LIV Golf contract running down.  With DeChambeau skipping the stacked Scottish Open and the PGA Tour seen as holding the cards, a big Open week is now pivotal to his next-move bargaining power.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -304,8 +289,23 @@
       "url": "https://sports.yahoo.com/articles/why-bryson-dechambeau-put-even-123000639.html",
       "sourceUrl": "https://sports.yahoo.com/articles/why-bryson-dechambeau-put-even-123000639.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-07-09T12:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Rory McIlroy Did Not Want This News To Go Public Before the Open Cham...",
+      "summary": "Rory McIlroy said he wanted to keep his early Open Championship prep at Royal Birkdale quiet, but Sir Nick Faldo “couldn’t put his phone away” and...",
+      "quickRead": "Rory McIlroy said he wanted to keep his early Open Championship prep at Royal Birkdale quiet, but Sir Nick Faldo “couldn’t put his phone away” and posted a video of them together: “I would have liked not to have known that I was there. ” McIlroy still called Faldo “great,” said Faldo walked a few holes with him, and the scouting trip underscores how seriously he’s gearing up heading into the Scottish Open and then The Open.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-did-not-want-120242197.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-did-not-want-120242197.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-09T12:02:42.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-09T17:51:42.108Z",
-      "approvedAt": "2026-07-09T17:51:42.108Z",
+      "timestamp": "2026-07-09T17:51:54.228Z",
+      "approvedAt": "2026-07-09T17:51:54.228Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -5",
+      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Bernd Wiesberger",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Cantlay",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T5",
+          "name": "Brooks Koepka",
+          "score": "-4",
+          "thru": "F*"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-09T17:51:54.228Z",
+      "approvedAt": "2026-07-09T17:51:54.228Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
