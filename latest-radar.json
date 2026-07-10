@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T10:48:54.351Z",
+  "updatedAt": "2026-07-10T10:48:55.988Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -265,8 +265,8 @@
     {
       "label": "LIV WATCH",
       "title": "Seven-time PGA Tour winner suggests if he actually wants Bryson DeCha...",
-      "summary": "Webb Simpson said the PGA Tour would be helped by Bryson DeChambeau and Jon Rahm returning, but warned “it’s not going to be easy as it was for Bro...",
-      "quickRead": "Webb Simpson said the PGA Tour would be helped by Bryson DeChambeau and Jon Rahm returning, but warned “it’s not going to be easy as it was for Brooks” because “they had their opportunity… and they chose not to,” so harsher eligibility penalties should be expected.  He added he’d be surprised if their agents aren’t already talking with CEO Brian Rolapp and the Tour board about a path back as LIV’s future beyond 2026 looks shaky.",
+      "summary": "Webb Simpson has suggested that the PGA Tour would benefit from Jon Rahm and Bryson DeChambeau returning, but issued the LIV Golf pair with a warni...",
+      "quickRead": "Webb Simpson has suggested that the PGA Tour would benefit from Jon Rahm and Bryson DeChambeau returning, but issued the LIV Golf pair with a warning about what they can expect.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -274,7 +274,7 @@
       "url": "https://sports.yahoo.com/articles/seven-time-pga-tour-winner-223000586.html",
       "sourceUrl": "https://sports.yahoo.com/articles/seven-time-pga-tour-winner-223000586.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-07-09T22:30:00.000Z"
     },
     {
@@ -289,23 +289,23 @@
       "url": "https://sports.yahoo.com/articles/british-open-26-scheffler-gets-205559312.html",
       "sourceUrl": "https://sports.yahoo.com/articles/british-open-26-scheffler-gets-205559312.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-07-09T20:55:59.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy Reveals Retirement Timeline During Genesis Scottish Open",
-      "summary": "Rory McIlroy said he’s not sure he’ll still be playing professionally “another decade,” laughing “A decade?",
-      "quickRead": "Rory McIlroy said he’s not sure he’ll still be playing professionally “another decade,” laughing “A decade?  Well, we’ll see,” and hinting he doesn’t necessarily picture himself competing into his late 40s (around age 47).",
+      "label": "STORY TO WATCH",
+      "title": "Seven-time PGA Tour winner suggests if he actually wants Bryson DeCha...",
+      "summary": "Webb Simpson said the PGA Tour would be helped by Bryson DeChambeau and Jon Rahm returning, but warned “it’s not going to be easy as it was for Bro...",
+      "quickRead": "Webb Simpson said the PGA Tour would be helped by Bryson DeChambeau and Jon Rahm returning, but warned “it’s not going to be easy as it was for Brooks” because “they had their opportunity… and they chose not to,” so harsher eligibility penalties should be expected.  He added he’d be surprised if their agents aren’t already talking with CEO Brian Rolapp and the Tour board about a path back as LIV’s future beyond 2026 looks shaky.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-retirement-timeline-192507886.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-retirement-timeline-192507886.html",
+      "url": "https://sports.yahoo.com/articles/seven-time-pga-tour-winner-223000586.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/seven-time-pga-tour-winner-223000586.html",
       "source": "Yahoo Golf",
       "image": "",
-      "timestamp": "2026-07-09T19:25:07.000Z"
+      "timestamp": "2026-07-09T22:30:00.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T10:48:49.387Z",
-      "approvedAt": "2026-07-10T10:48:49.387Z",
+      "timestamp": "2026-07-10T10:48:55.684Z",
+      "approvedAt": "2026-07-10T10:48:55.684Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,6 +416,59 @@
           "name": "Darius Van Driel",
           "score": "-5",
           "thru": "17*"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-10T10:48:55.684Z",
+      "approvedAt": "2026-07-10T10:48:55.684Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Steven Fisk leads ISCO Championship at -7",
+      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
+      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Stephan Jaeger",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Lucas Glover",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Troy Merritt",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Pontus Nyholm",
+          "score": "-6",
+          "thru": "F*"
         }
       ]
     }
