@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T19:21:03.704Z",
+  "updatedAt": "2026-07-10T19:21:06.348Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "2 hours ago",
+      "timestamp": "2026-07-10T17:07:03.813Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-07-10T19:21:06.348Z"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-07-10T17:21:01.000Z",
@@ -1898,26 +1919,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "timestamp": "2026-07-01T21:08:56.000Z",
       "archivedAt": "2026-07-02T07:26:42.204Z"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-07-02T00:00:48.000Z",
-      "approvedAt": "2026-07-02T07:26:39.092Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "LPGA Midseason Review: Nelly Korda Leads, Haeran Ryu Shines as Season Remains C...",
-      "summary": "The LPGA Tour has reached the midpoint of its season with something every professional tour wants: a dominant star at the top, real depth behind her and enough unfinished business to make...",
-      "quickRead": "The LPGA Tour has reached the midpoint of its season with something every professional tour wants: a dominant star at the top, real depth behind her and enough unfinished business to make...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/lpga-midseason-review-nelly-korda-000048348.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/lpga-midseason-review-nelly-korda-000048348.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
-      "archivedAt": "2026-07-02T07:26:40.083Z"
     }
   ]
 }
