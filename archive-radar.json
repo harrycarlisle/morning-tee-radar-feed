@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T17:44:16.638Z",
+  "updatedAt": "2026-07-10T17:44:19.578Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "time": "3 hours ago",
+      "timestamp": "2026-07-10T14:10:45.569Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "Is this the world’s biggest bunker?",
+      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "archivedAt": "2026-07-10T17:44:19.578Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-07-10T15:56:36.000Z",
@@ -1894,26 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "archivedAt": "2026-07-01T23:09:03.104Z"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-07-01T20:55:50.000Z",
-      "approvedAt": "2026-07-01T23:09:00.211Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "'Find That as an Insult': Bryson DeChambeau Set to Face Harsh Reality as PGA To...",
-      "summary": "Bryson DeChambeau is one of the biggest stars in the sport.",
-      "quickRead": "Mark Allen said Bryson DeChambeau would “find that as an insult” if LIV folds and he has to “go back to the Challenger Series, playing for 4 million a week” to earn promotion to the PGA Tour’s top tier.  With the PGA Tour moving to a promotion-and-relegation Challenger/Championship system in 2028 and DeChambeau facing a one-year ban if he returns, his path back could require grinding lower-tier events unless the Tour creates an exception.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/insult-bryson-dechambeau-set-face-205550276.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/insult-bryson-dechambeau-set-face-205550276.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-07-01T23:09:01.153Z"
     }
   ]
 }
