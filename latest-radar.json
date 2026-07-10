@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T07:31:03.631Z",
+  "updatedAt": "2026-07-10T07:31:04.979Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -326,8 +326,8 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "4 hours ago",
-      "timestamp": "2026-07-10T02:32:30.220Z",
+      "time": "Just now",
+      "timestamp": "2026-07-10T07:30:45.660Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -346,8 +346,8 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "5 hours ago",
-      "timestamp": "2026-07-10T01:55:30.221Z",
+      "time": "37 min ago",
+      "timestamp": "2026-07-10T06:53:45.660Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T07:31:03.469Z",
-      "approvedAt": "2026-07-10T07:31:03.469Z",
+      "timestamp": "2026-07-10T07:30:54.572Z",
+      "approvedAt": "2026-07-10T07:30:54.572Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,59 +416,6 @@
           "name": "Rasmus Højgaard",
           "score": "-5",
           "thru": "10"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-10T07:31:03.469Z",
-      "approvedAt": "2026-07-10T07:31:03.469Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Steven Fisk leads ISCO Championship at -7",
-      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Lucas Glover",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Troy Merritt",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Pontus Nyholm",
-          "score": "-6",
-          "thru": "F*"
         }
       ]
     }
