@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T19:21:05.173Z",
+  "updatedAt": "2026-07-10T19:21:07.855Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -334,8 +334,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T17:44:13.694Z",
-      "approvedAt": "2026-07-10T17:44:13.694Z",
+      "timestamp": "2026-07-10T19:21:07.533Z",
+      "approvedAt": "2026-07-10T19:21:07.534Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Tom Kim (-9), Rory McIlroy (-9), Matt Fitzpatrick (-8).",
+      "quickRead": "Jordan Smith sits tied for the Genesis Scottish Open lead at 9-under (63-68), alongside Tom Kim (65-66) and Rory McIlroy (65-66), with Matt Fitzpatrick and Min Woo Lee one back at 8-under.  With a cut line at 2-under, the weekend is set up as a three-man shootout at The Renaissance Club, and McIlroy has a prime chance to seize momentum heading into The Open.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Matt Fitzpatrick",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Min Woo Lee",
+          "score": "-8",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-10T19:21:07.534Z",
+      "approvedAt": "2026-07-10T19:21:07.534Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -363,7 +416,7 @@
           "pos": "2",
           "name": "Chan Kim",
           "score": "-11",
-          "thru": "14"
+          "thru": "F"
         },
         {
           "pos": "T3",
@@ -378,10 +431,10 @@
           "thru": "F"
         },
         {
-          "pos": "5",
-          "name": "William Mouw",
-          "score": "-9",
-          "thru": "F*"
+          "pos": "T3",
+          "name": "Stephan Jaeger",
+          "score": "-10",
+          "thru": "7*"
         }
       ]
     }
