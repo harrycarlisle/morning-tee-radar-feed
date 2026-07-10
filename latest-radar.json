@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T14:11:02.460Z",
+  "updatedAt": "2026-07-10T17:44:13.694Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-10T17:44:13.691Z",
+      "approvedAt": "2026-07-10T17:44:13.691Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover leads ISCO Championship at -13",
+      "summary": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
+      "quickRead": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "2",
+          "name": "Chan Kim",
+          "score": "-11",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Jeong Weon Ko",
+          "score": "-10",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Aaron Wise",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "William Mouw",
+          "score": "-9",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T14:10:55.918Z",
       "approvedAt": "2026-07-10T14:10:55.918Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T11:02:03.000Z",
       "approvedAt": "2026-07-10T14:10:57.290Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T10:48:49.384Z",
       "approvedAt": "2026-07-10T10:48:49.384Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-09T20:55:59.000Z",
       "approvedAt": "2026-07-10T10:48:51.141Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-10T10:30:00.000Z",
       "approvedAt": "2026-07-10T10:48:51.142Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-09T22:30:00.000Z",
       "approvedAt": "2026-07-09T23:07:51.038Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-07-09T19:43:12.000Z",
       "approvedAt": "2026-07-10T02:32:43.456Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-07-09T19:25:07.000Z",
       "approvedAt": "2026-07-09T21:19:16.065Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-retirement-timeline-192507886.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-07-09T20:30:00.000Z",
-      "approvedAt": "2026-07-09T21:19:20.272Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau should be seriously concerned for The Open after the opening...",
-      "summary": "Bryson DeChambeau has reason to be extremely concerned ahead of The Open Championship based on the way that some of his fellow LIV Golf stars started the Scottish Open.",
-      "quickRead": "Bryson DeChambeau skipped the Scottish Open links test while LIV peers struggled at Renaissance Club—Jon Rahm shot 73 to sit T-137, David Puig is +5, and Tom McKibbin is the only LIV player inside the top 50—raising alarms that Bryson’s Open prep is lacking.  With DeChambeau already missing the cut in all three 2026 majors and analyst Johnson Wagner predicting he’ll miss another cut, his margin at Royal Birkdale is shrinking fast.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-seriously-concerned-open-203000950.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-seriously-concerned-open-203000950.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T14:10:45.569Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-10T13:33:45.569Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T14:11:01.041Z",
-      "approvedAt": "2026-07-10T14:11:01.041Z",
+      "timestamp": "2026-07-10T17:44:13.694Z",
+      "approvedAt": "2026-07-10T17:44:13.694Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jordan Smith leads Genesis Scottish Open at -9",
-      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Matt Fitzpatrick (-8), Nicolai Von Dellingshausen (-7), Rory McIlroy (-7).",
-      "quickRead": "Jordan Smith grabbed the early lead at the Genesis Scottish Open at 9-under (63-68) after shooting 7-under in Round 2 to finish two rounds at 131.  Matt Fitzpatrick is one back at -8, with Nicolai von Dellingshausen and Rory McIlroy tied for third at -7 as McIlroy played his opening round and the chase group stays within two heading into the weekend.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jordan Smith",
-          "score": "-9",
-          "thru": "F*"
-        },
-        {
-          "pos": "2",
-          "name": "Matt Fitzpatrick",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Nicolai Von Dellingshausen",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Rory McIlroy",
-          "score": "-7",
-          "thru": "5"
-        },
-        {
-          "pos": "T5",
-          "name": "Danny Willett",
-          "score": "-6",
-          "thru": "F*"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-10T14:11:01.041Z",
-      "approvedAt": "2026-07-10T14:11:01.041Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -9",
-      "summary": "Lucas Glover is -2 today and -9 overall through 6*. Closest chasers: Steven Fisk (-7), Stephan Jaeger (-7), Manuel Elvira (-6).",
-      "quickRead": "Lucas Glover is -2 today and -9 overall through 6*. Closest chasers: Steven Fisk (-7), Stephan Jaeger (-7), Manuel Elvira (-6).",
+      "title": "Lucas Glover leads ISCO Championship at -13",
+      "summary": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
+      "quickRead": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -443,32 +424,32 @@
         {
           "pos": "1",
           "name": "Lucas Glover",
-          "score": "-9",
-          "thru": "6*"
+          "score": "-13",
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Steven Fisk",
-          "score": "-7",
-          "thru": "10"
+          "pos": "2",
+          "name": "Chan Kim",
+          "score": "-11",
+          "thru": "14"
         },
         {
-          "pos": "T2",
-          "name": "Stephan Jaeger",
-          "score": "-7",
-          "thru": "10"
-        },
-        {
-          "pos": "T4",
-          "name": "Manuel Elvira",
-          "score": "-6",
-          "thru": "8*"
-        },
-        {
-          "pos": "T4",
+          "pos": "T3",
           "name": "Jeong Weon Ko",
-          "score": "-6",
-          "thru": "8*"
+          "score": "-10",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Aaron Wise",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "William Mouw",
+          "score": "-9",
+          "thru": "F*"
         }
       ]
     }
