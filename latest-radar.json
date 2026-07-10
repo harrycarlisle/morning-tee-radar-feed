@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T07:31:04.979Z",
+  "updatedAt": "2026-07-10T10:48:49.387Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-10T10:48:49.384Z",
+      "approvedAt": "2026-07-10T10:48:49.384Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -7 today and -9 overall through 14*. Closest chasers: Danny Willett (-6), Guido Migliozzi (-6), Matt Fitzpatrick (-6).",
+      "quickRead": "Jordan Smith grabbed the early Genesis Scottish Open lead at 9-under par, shooting 7-under on his round and sitting -9 through 14 holes.  He’s three clear of Danny Willett, Guido Migliozzi and Matt Fitzpatrick at -6, with a big group at -5 that includes Rory McIlroy, Patrick Cantlay and Tom Kim as the first-round scoring stays low at Renaissance Club.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "14*"
+        },
+        {
+          "pos": "T2",
+          "name": "Danny Willett",
+          "score": "-6",
+          "thru": "15*"
+        },
+        {
+          "pos": "T2",
+          "name": "Guido Migliozzi",
+          "score": "-6",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-6",
+          "thru": "11*"
+        },
+        {
+          "pos": "T5",
+          "name": "Darius Van Driel",
+          "score": "-5",
+          "thru": "17*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T07:30:54.569Z",
       "approvedAt": "2026-07-10T07:30:54.569Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-09T22:30:00.000Z",
       "approvedAt": "2026-07-09T23:07:51.038Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-09T19:43:12.000Z",
       "approvedAt": "2026-07-10T02:32:43.456Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-09T19:25:07.000Z",
       "approvedAt": "2026-07-09T21:19:16.065Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-07-09T20:30:00.000Z",
       "approvedAt": "2026-07-09T21:19:20.272Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-09T14:46:08.000Z",
       "approvedAt": "2026-07-09T21:19:20.274Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-09T18:23:02.000Z",
       "approvedAt": "2026-07-09T19:37:50.251Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-09T17:51:42.105Z",
       "approvedAt": "2026-07-09T17:51:42.105Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "F*"
         }
       ]
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-07-09T15:32:15.000Z",
-      "approvedAt": "2026-07-09T17:51:51.030Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy says Genesis Scottish Open is the 'perfect lead-in to the Open'",
-      "summary": "“We've got to be careful,” said Rory McIlroy.",
-      "quickRead": "Rory McIlroy warned the Genesis Scottish Open can’t become a closed, “Championship Series-only” event under the PGA Tour’s 2028 schedule, saying, “You can't call yourself a national Open anymore if it's a closed off tournament,” and calling it “the perfect lead-in to The Open Championship. ” His point matters because the Scottish Open’s pre-Open slot and mixed PGA Tour/DP World Tour field have become a proven model, and a tighter 120-man PGA Tour format could squeeze out national Opens’ identity and access.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-says-genesis-scottish-153215379.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-genesis-scottish-153215379.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T07:30:45.660Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T06:53:45.660Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T07:30:54.572Z",
-      "approvedAt": "2026-07-10T07:30:54.572Z",
+      "timestamp": "2026-07-10T10:48:49.387Z",
+      "approvedAt": "2026-07-10T10:48:49.387Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Genesis Scottish Open at -5",
-      "summary": "Tom Kim is -5 overall through 1. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
-      "quickRead": "Tom Kim opened the Genesis Scottish Open with a 65 (5-under) at The Renaissance Club to sit tied for the lead after Round 1 alongside Bernd Wiesberger, Patrick Cantlay, Rory McIlroy and Rasmus Højgaard.  A jam-packed top of the board has Scottie Scheffler at 2-under after a 68, setting up a tight Friday with multiple contenders already in the mid-60s.",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -7 today and -9 overall through 14*. Closest chasers: Danny Willett (-6), Guido Migliozzi (-6), Matt Fitzpatrick (-6).",
+      "quickRead": "Jordan Smith grabbed the early Genesis Scottish Open lead at 9-under par, shooting 7-under on his round and sitting -9 through 14 holes.  He’s three clear of Danny Willett, Guido Migliozzi and Matt Fitzpatrick at -6, with a big group at -5 that includes Rory McIlroy, Patrick Cantlay and Tom Kim as the first-round scoring stays low at Renaissance Club.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
-          "name": "Tom Kim",
-          "score": "-5",
-          "thru": "1"
+          "pos": "1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "14*"
         },
         {
-          "pos": "T1",
-          "name": "Bernd Wiesberger",
-          "score": "-5",
-          "thru": "1"
+          "pos": "T2",
+          "name": "Danny Willett",
+          "score": "-6",
+          "thru": "15*"
         },
         {
-          "pos": "T1",
-          "name": "Patrick Cantlay",
-          "score": "-5",
-          "thru": "1"
+          "pos": "T2",
+          "name": "Guido Migliozzi",
+          "score": "-6",
+          "thru": "12"
         },
         {
-          "pos": "T1",
-          "name": "Rory McIlroy",
-          "score": "-5",
-          "thru": "1"
+          "pos": "T2",
+          "name": "Matt Fitzpatrick",
+          "score": "-6",
+          "thru": "11*"
         },
         {
-          "pos": "T1",
-          "name": "Rasmus Højgaard",
+          "pos": "T5",
+          "name": "Darius Van Driel",
           "score": "-5",
-          "thru": "10"
+          "thru": "17*"
         }
       ]
     }
