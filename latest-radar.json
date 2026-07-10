@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T02:32:49.605Z",
+  "updatedAt": "2026-07-10T07:30:54.572Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-07-10T07:30:54.569Z",
+      "approvedAt": "2026-07-10T07:30:54.569Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -5",
+      "summary": "Tom Kim is -5 overall through 1. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim opened the Genesis Scottish Open with a 65 (5-under) at The Renaissance Club to sit tied for the lead after Round 1 alongside Bernd Wiesberger, Patrick Cantlay, Rory McIlroy and Rasmus Højgaard.  A jam-packed top of the board has Scottie Scheffler at 2-under after a 68, setting up a tight Friday with multiple contenders already in the mid-60s.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Bernd Wiesberger",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Patrick Cantlay",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Rasmus Højgaard",
+          "score": "-5",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-07-09T22:30:00.000Z",
       "approvedAt": "2026-07-09T23:07:51.038Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/seven-time-pga-tour-winner-223000586.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-09T19:43:12.000Z",
       "approvedAt": "2026-07-10T02:32:43.456Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-09T19:25:07.000Z",
       "approvedAt": "2026-07-09T21:19:16.065Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-09T20:30:00.000Z",
       "approvedAt": "2026-07-09T21:19:20.272Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-09T14:46:08.000Z",
       "approvedAt": "2026-07-09T21:19:20.274Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-09T18:23:02.000Z",
       "approvedAt": "2026-07-09T19:37:50.251Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-09T17:51:42.105Z",
       "approvedAt": "2026-07-09T17:51:42.105Z",
       "status": "Live",
@@ -189,7 +242,7 @@
       ]
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-09T15:32:15.000Z",
       "approvedAt": "2026-07-09T17:51:51.030Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-says-genesis-scottish-153215379.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-07-09T17:21:28.000Z",
-      "approvedAt": "2026-07-09T17:51:51.031Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy and Patrick Cantlay are part of a 4-way tie for the early lead at...",
-      "summary": "Brooks Koepka was among those one shot behind.",
-      "quickRead": "Rory McIlroy and Patrick Cantlay opened the Genesis Scottish Open with 5-under 65s to share the early lead with Tom Kim and Bernd Wiesberger, with McIlroy cashing in on the par 5s including an 18-foot eagle putt on his first hole (the par-5 10th).  Brooks Koepka sits one back, while Cantlay’s spark came from switching to a slightly heavier putter and finishing with three straight clutch par saves.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-patrick-cantlay-part-172128261.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-patrick-cantlay-part-172128261.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-07-10T02:32:30.220Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-10T01:55:30.221Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-09T23:07:55.262Z",
-      "approvedAt": "2026-07-09T23:07:55.262Z",
+      "timestamp": "2026-07-10T07:30:54.572Z",
+      "approvedAt": "2026-07-10T07:30:54.572Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Tom Kim leads Genesis Scottish Open at -5",
-      "summary": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
-      "quickRead": "Tom Kim is -5 today and -5 overall through F*. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "summary": "Tom Kim is -5 overall through 1. Closest chasers: Bernd Wiesberger (-5), Patrick Cantlay (-5), Rory McIlroy (-5).",
+      "quickRead": "Tom Kim opened the Genesis Scottish Open with a 65 (5-under) at The Renaissance Club to sit tied for the lead after Round 1 alongside Bernd Wiesberger, Patrick Cantlay, Rory McIlroy and Rasmus Højgaard.  A jam-packed top of the board has Scottie Scheffler at 2-under after a 68, setting up a tight Friday with multiple contenders already in the mid-60s.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,84 +391,31 @@
           "pos": "T1",
           "name": "Tom Kim",
           "score": "-5",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Bernd Wiesberger",
           "score": "-5",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Patrick Cantlay",
           "score": "-5",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Rory McIlroy",
           "score": "-5",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Rasmus Højgaard",
           "score": "-5",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-09T23:07:55.262Z",
-      "approvedAt": "2026-07-09T23:07:55.262Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Steven Fisk leads ISCO Championship at -7",
-      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Lucas Glover",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Troy Merritt",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Pontus Nyholm",
-          "score": "-6",
-          "thru": "F*"
+          "thru": "10"
         }
       ]
     }
