@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T17:44:17.987Z",
+  "updatedAt": "2026-07-10T17:44:21.049Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -278,21 +278,6 @@
       "timestamp": "2026-07-09T22:30:00.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "Will Scottie Scheffler miss the cut at Scottish Open? Live updates",
-      "summary": "The 2026 Scottish Open will see its field cut after Friday's second round.",
-      "quickRead": "The 2026 Scottish Open will see its field cut after Friday's second round.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/cut-line-scottish-open-live-110203872.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/cut-line-scottish-open-live-110203872.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-10T11:02:03.000Z"
-    },
-    {
       "label": "MAJOR WATCH",
       "title": "BRITISH OPEN '26: Scheffler gets last shot at a major in 2026 as Brit...",
       "summary": "The 2026 Open Championship (July 16-19) returns to Royal Birkdale, and it’ll be Scottie Scheffler’s last major chance of the year to extend a strea...",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-07-09T20:55:59.000Z"
+    },
+    {
+      "label": "LIV WATCH",
+      "title": "What is cut line at Scottish Open? Live updates on Scottie Scheffler...",
+      "summary": "The 2026 Scottish Open will see its field cut after Friday's second round.",
+      "quickRead": "The 2026 Scottish Open will see its field cut after Friday's second round.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/cut-line-scottish-open-live-110203872.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/cut-line-scottish-open-live-110203872.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "timestamp": "2026-07-10T11:02:03.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T17:44:13.694Z",
-      "approvedAt": "2026-07-10T17:44:13.694Z",
+      "timestamp": "2026-07-10T17:44:20.845Z",
+      "approvedAt": "2026-07-10T17:44:20.845Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Tom Kim (-9), Rory McIlroy (-9), Matt Fitzpatrick (-8).",
+      "quickRead": "Jordan Smith posted a second-round 63 to reach 9-under and share the Genesis Scottish Open lead with Tom Kim and Rory McIlroy, while Matt Fitzpatrick sits one shot back at 8-under.  With the pack bunched at the top through two rounds at The Renaissance Club, the weekend is set up for a tight shootout featuring McIlroy in contention on home-soil links prep.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-9",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-9",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Matt Fitzpatrick",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Min Woo Lee",
+          "score": "-8",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-10T17:44:20.845Z",
+      "approvedAt": "2026-07-10T17:44:20.845Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
