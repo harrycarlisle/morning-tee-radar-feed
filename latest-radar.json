@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T10:48:57.781Z",
+  "updatedAt": "2026-07-10T14:10:55.922Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-10T14:10:55.918Z",
+      "approvedAt": "2026-07-10T14:10:55.918Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Matt Fitzpatrick (-8), Nicolai Von Dellingshausen (-7), Rory McIlroy (-7).",
+      "quickRead": "Jordan Smith grabbed the early lead at the Genesis Scottish Open at 9-under (63-68) after shooting 7-under in Round 2 to finish two rounds at 131.  Matt Fitzpatrick is one back at -8, with Nicolai von Dellingshausen and Rory McIlroy tied for third at -7 as McIlroy played his opening round and the chase group stays within two heading into the weekend.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "2",
+          "name": "Matt Fitzpatrick",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Nicolai Von Dellingshausen",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Rory McIlroy",
+          "score": "-7",
+          "thru": "5"
+        },
+        {
+          "pos": "T5",
+          "name": "Danny Willett",
+          "score": "-6",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T10:48:49.384Z",
       "approvedAt": "2026-07-10T10:48:49.384Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-09T20:55:59.000Z",
       "approvedAt": "2026-07-10T10:48:51.141Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T10:30:00.000Z",
       "approvedAt": "2026-07-10T10:48:51.142Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T07:30:54.569Z",
       "approvedAt": "2026-07-10T07:30:54.569Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-09T22:30:00.000Z",
       "approvedAt": "2026-07-09T23:07:51.038Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-09T19:43:12.000Z",
       "approvedAt": "2026-07-10T02:32:43.456Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-09T19:25:07.000Z",
       "approvedAt": "2026-07-09T21:19:16.065Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-09T20:30:00.000Z",
       "approvedAt": "2026-07-09T21:19:20.272Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-seriously-concerned-open-203000950.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-07-09T14:46:08.000Z",
-      "approvedAt": "2026-07-09T21:19:20.274Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy shares Scottish Open lead after opening round",
-      "summary": "McIlroy, Tom Kim, Bernd Wiesberger and Patrick Cantlay set the early pace with rounds of 65",
-      "quickRead": "Rory McIlroy opened the Scottish Open with a five-under 65 to share the first-round lead with Tom Kim, Bernd Wiesberger and Patrick Cantlay at the Renaissance Club.  McIlroy credited driving it “particularly well,” highlighted by a 352-yard tee shot and a par-5 eagle, as he positions himself for a run at the title heading into Friday.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-shares-scottish-open-144608565.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-shares-scottish-open-144608565.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T10:48:40.291Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T10:11:40.292Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T10:48:55.684Z",
-      "approvedAt": "2026-07-10T10:48:55.684Z",
+      "timestamp": "2026-07-10T14:10:55.922Z",
+      "approvedAt": "2026-07-10T14:10:55.922Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Jordan Smith leads Genesis Scottish Open at -9",
-      "summary": "Jordan Smith is -7 today and -9 overall through 14*. Closest chasers: Danny Willett (-6), Guido Migliozzi (-6), Matt Fitzpatrick (-6).",
-      "quickRead": "Jordan Smith grabbed the early Genesis Scottish Open lead at 9-under par, shooting 7-under on his round and sitting -9 through 14 holes.  He’s three clear of Danny Willett, Guido Migliozzi and Matt Fitzpatrick at -6, with a big group at -5 that includes Rory McIlroy, Patrick Cantlay and Tom Kim as the first-round scoring stays low at Renaissance Club.",
+      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Matt Fitzpatrick (-8), Nicolai Von Dellingshausen (-7), Rory McIlroy (-7).",
+      "quickRead": "Jordan Smith grabbed the early lead at the Genesis Scottish Open at 9-under (63-68) after shooting 7-under in Round 2 to finish two rounds at 131.  Matt Fitzpatrick is one back at -8, with Nicolai von Dellingshausen and Rory McIlroy tied for third at -7 as McIlroy played his opening round and the chase group stays within two heading into the weekend.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,82 +425,29 @@
           "pos": "1",
           "name": "Jordan Smith",
           "score": "-9",
-          "thru": "14*"
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Danny Willett",
-          "score": "-6",
-          "thru": "15*"
-        },
-        {
-          "pos": "T2",
-          "name": "Guido Migliozzi",
-          "score": "-6",
-          "thru": "12"
-        },
-        {
-          "pos": "T2",
+          "pos": "2",
           "name": "Matt Fitzpatrick",
-          "score": "-6",
-          "thru": "11*"
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Nicolai Von Dellingshausen",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Rory McIlroy",
+          "score": "-7",
+          "thru": "5"
         },
         {
           "pos": "T5",
-          "name": "Darius Van Driel",
-          "score": "-5",
-          "thru": "17*"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-10T10:48:55.684Z",
-      "approvedAt": "2026-07-10T10:48:55.684Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Steven Fisk leads ISCO Championship at -7",
-      "summary": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickRead": "Steven Fisk is -7 today and -7 overall through F. Closest chasers: Stephan Jaeger (-7), Lucas Glover (-7), Troy Merritt (-7).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Stephan Jaeger",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Lucas Glover",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Troy Merritt",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Pontus Nyholm",
+          "name": "Danny Willett",
           "score": "-6",
           "thru": "F*"
         }
