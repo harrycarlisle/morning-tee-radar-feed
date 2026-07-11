@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T09:23:03.396Z",
+  "updatedAt": "2026-07-11T09:23:04.341Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -229,21 +229,6 @@
   ],
   "weekRadar": [
     {
-      "label": "STAR WATCH",
-      "title": "Scottie Scheffler Announces Changed Plans After Missed Cut During Gen...",
-      "summary": "After missing the cut at the Genesis Scottish Open, Scottie Scheffler said his Open Championship prep is “a little different than I was planning,”...",
-      "quickRead": "After missing the cut at the Genesis Scottish Open, Scottie Scheffler said his Open Championship prep is “a little different than I was planning,” and that he’ll “get down to Birkdale a little earlier than expected and get used to a new course. ” Scheffler’s level-par finish (two shots outside the cut) snapped his 78-event made-cut streak, but the extra days in England now become his built-in runway to defend the Claret Jug next week at Royal Birkdale.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-announces-changed-plans-225732533.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-announces-changed-plans-225732533.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-10T22:57:32.000Z"
-    },
-    {
       "label": "LIV WATCH",
       "title": "Seven-time PGA Tour winner suggests if he actually wants Bryson DeCha...",
       "summary": "Webb Simpson has suggested that the PGA Tour would benefit from Jon Rahm and Bryson DeChambeau returning, but issued the LIV Golf pair with a warni...",
@@ -260,9 +245,24 @@
     },
     {
       "label": "STAR WATCH",
+      "title": "Rory McIlroy in 3-way tie for Scottish Open lead, as Scottie Scheffle...",
+      "summary": "Rory McIlroy shot a 4-under 66 to reach 9-under and share the Scottish Open lead with Jordan Smith (63) and Tom Kim (66), while Scottie Scheffler m...",
+      "quickRead": "Rory McIlroy shot a 4-under 66 to reach 9-under and share the Scottish Open lead with Jordan Smith (63) and Tom Kim (66), while Scottie Scheffler missed the cut after a 72 ended his 78-cut streak.  Scheffler, who said he “got off to a poor start,” heads early to Royal Birkdale to prep for his Open title defense as McIlroy sits two rounds from another win.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-10T20:00:21.000Z"
+    },
+    {
+      "label": "STAR WATCH",
       "title": "Genesis Scottish Open Sets Up a Star-Studded Weekend as Scottie Schef...",
-      "summary": "The Genesis Scottish Open reached its halfway point Friday with exactly the kind of leaderboard a tournament wants one week before The Open Champio...",
-      "quickRead": "The Genesis Scottish Open reached its halfway point Friday with exactly the kind of leaderboard a tournament wants one week before The Open Championship.",
+      "summary": "World No.",
+      "quickRead": "World No.  1 Scottie Scheffler shot 72 to miss the cut at even par at the Genesis Scottish Open, ending his PGA Tour streak of 78 consecutive made cuts and snapping 35 straight top-25 finishes.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -270,7 +270,7 @@
       "url": "https://sports.yahoo.com/articles/genesis-scottish-open-sets-star-202958808.html",
       "sourceUrl": "https://sports.yahoo.com/articles/genesis-scottish-open-sets-star-202958808.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-07-10T20:29:58.000Z"
     }
   ],
@@ -334,8 +334,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-11T09:23:02.241Z",
-      "approvedAt": "2026-07-11T09:23:02.241Z",
+      "timestamp": "2026-07-11T09:23:04.260Z",
+      "approvedAt": "2026-07-11T09:23:04.260Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -382,6 +382,59 @@
           "name": "Min Woo Lee",
           "score": "-8",
           "thru": "1"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-11T09:23:04.260Z",
+      "approvedAt": "2026-07-11T09:23:04.261Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover wins ISCO Championship at -13",
+      "summary": "Lucas Glover wins ISCO Championship at -13. Nearest finishers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
+      "quickRead": "Lucas Glover won the ISCO Championship at 13-under, finishing two shots clear of runners-up Chan Kim and Steven Fisk at 11-under, with Jeong Weon Ko next at 10-under.  The win adds a PGA Tour title to Glover’s resume and jumps him up the FedExCup points list as the season pushes toward the playoff cut line.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Chan Kim",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Steven Fisk",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Jeong Weon Ko",
+          "score": "-10",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Aaron Wise",
+          "score": "-10",
+          "thru": "F"
         }
       ]
     }
