@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T02:09:17.333Z",
+  "updatedAt": "2026-07-11T06:09:17.531Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "9 hours ago",
+      "timestamp": "2026-07-10T20:29:58.000Z",
+      "approvedAt": "2026-07-11T06:09:17.528Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Genesis Scottish Open Sets Up a Star-Studded Weekend as Scottie Scheffler’s Str...",
+      "summary": "The Genesis Scottish Open reached its halfway point Friday with exactly the kind of leaderboard a tournament wants one week before The Open Championship.",
+      "quickRead": "World No.  1 Scottie Scheffler shot 72 to miss the cut at even par at the Genesis Scottish Open, ending his PGA Tour streak of 78 consecutive made cuts and snapping 35 straight top-25 finishes.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/genesis-scottish-open-sets-star-202958808.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/genesis-scottish-open-sets-star-202958808.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-07-10T20:00:21.000Z",
       "approvedAt": "2026-07-10T21:02:34.268Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-11T00:30:52.000Z",
       "approvedAt": "2026-07-11T02:09:10.797Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T23:23:08.000Z",
       "approvedAt": "2026-07-11T02:09:10.798Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-10T19:47:07.000Z",
       "approvedAt": "2026-07-10T21:02:36.514Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-10T20:09:55.000Z",
       "approvedAt": "2026-07-10T21:02:36.514Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-10T18:50:41.000Z",
       "approvedAt": "2026-07-10T19:20:58.924Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-10T17:11:18.000Z",
       "approvedAt": "2026-07-10T19:21:01.957Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-10T17:21:01.000Z",
       "approvedAt": "2026-07-10T19:21:01.958Z",
       "status": "Confirmed",
@@ -172,59 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/american-nelly-korda-misses-cut-172101156.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-07-10T17:44:13.691Z",
-      "approvedAt": "2026-07-10T17:44:13.691Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -13",
-      "summary": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
-      "quickRead": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Jeong Weon Ko (-10), Aaron Wise (-10).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-13",
-          "thru": "F*"
-        },
-        {
-          "pos": "2",
-          "name": "Chan Kim",
-          "score": "-11",
-          "thru": "14"
-        },
-        {
-          "pos": "T3",
-          "name": "Jeong Weon Ko",
-          "score": "-10",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Aaron Wise",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "5",
-          "name": "William Mouw",
-          "score": "-9",
-          "thru": "F*"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -292,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-07-11T02:08:59.443Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-11T01:31:59.443Z",
       "status": "Trending",
       "signal": "Reddit find",
