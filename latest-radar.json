@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T14:48:11.036Z",
+  "updatedAt": "2026-07-11T14:48:12.060Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -279,18 +279,18 @@
     },
     {
       "label": "STAR WATCH",
-      "title": "Scottie Scheffler Announces Changed Plans After Missed Cut During Gen...",
-      "summary": "Scottie Scheffler said missing the cut at the Genesis Scottish Open changes his Open Championship prep: “A little different than I was planning… I’...",
-      "quickRead": "Scottie Scheffler said missing the cut at the Genesis Scottish Open changes his Open Championship prep: “A little different than I was planning… I’ll figure out how I’ll get down to Birkdale and then kind of go from there,” aiming to get there earlier than expected.  His early exit also snapped a 78-event made-cut streak, and the extra days now give the defending Open champ more time to learn Royal Birkdale before trying to keep the Claret Jug.",
+      "title": "Scottie Scheffler and Nelly Korda had bad weeks - and still made history",
+      "summary": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
+      "quickRead": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-announces-changed-plans-225732533.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-announces-changed-plans-225732533.html",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-10T22:57:32.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
+      "timestamp": "2026-07-11T03:09:35.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -368,8 +368,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-11T14:48:09.752Z",
-      "approvedAt": "2026-07-11T14:48:09.752Z",
+      "timestamp": "2026-07-11T14:48:11.886Z",
+      "approvedAt": "2026-07-11T14:48:11.886Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Smith leads Genesis Scottish Open at -9",
+      "summary": "Jordan Smith is -9 overall through 1. Closest chasers: Tom Kim (-9), Rory McIlroy (-9), Matt Fitzpatrick (-8).",
+      "quickRead": "Jordan Smith is leading the Genesis Scottish Open at 9-under, tied with Tom Kim and Rory McIlroy, with Matt Fitzpatrick and Min Woo Lee one shot back at 8-under.  With Round 3 in progress at The Renaissance Club, the leaderboard is packed at the top, setting up a tight weekend where a couple birdies could swing the tournament quickly.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Matt Fitzpatrick",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Min Woo Lee",
+          "score": "-8",
+          "thru": "1"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-11T14:48:11.886Z",
+      "approvedAt": "2026-07-11T14:48:11.886Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
