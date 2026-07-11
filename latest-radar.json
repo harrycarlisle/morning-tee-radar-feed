@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T14:48:13.079Z",
+  "updatedAt": "2026-07-11T16:51:26.968Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-11T16:51:26.965Z",
+      "approvedAt": "2026-07-11T16:51:26.965Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Marcus Armitage leads Genesis Scottish Open at -9",
+      "summary": "Marcus Armitage is -4 today and -9 overall through 8. Closest chasers: Jordan Smith (-9), Tom Kim (-9), Rory McIlroy (-9).",
+      "quickRead": "Marcus Armitage is -4 today and -9 overall through 8. Closest chasers: Jordan Smith (-9), Tom Kim (-9), Rory McIlroy (-9).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Marcus Armitage",
+          "score": "-9",
+          "thru": "8"
+        },
+        {
+          "pos": "T1",
+          "name": "Jordan Smith",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Rory McIlroy",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Mac Meissner",
+          "score": "-8",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T14:48:09.749Z",
       "approvedAt": "2026-07-11T14:48:09.749Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-11T11:30:00.000Z",
       "approvedAt": "2026-07-11T13:07:38.744Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-11T03:09:35.000Z",
       "approvedAt": "2026-07-11T13:07:41.086Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-10T22:00:00.000Z",
       "approvedAt": "2026-07-11T13:07:41.086Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-11T09:23:02.237Z",
       "approvedAt": "2026-07-11T09:23:02.237Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-10T22:57:32.000Z",
       "approvedAt": "2026-07-11T11:00:18.137Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-10T20:29:58.000Z",
       "approvedAt": "2026-07-11T06:09:17.528Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-10T20:00:21.000Z",
       "approvedAt": "2026-07-10T21:02:34.268Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-07-11T00:30:52.000Z",
-      "approvedAt": "2026-07-11T02:09:10.797Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy’s Honest Verdict on Renaissance Club Explains Why He Tied the 36-H...",
-      "summary": "The wind dictated terms at The Renaissance Club on Friday.",
-      "quickRead": "Rory McIlroy said the Renaissance Club’s brutal crosswinds made it “hard to hit it close,” leaving the par-5 12th and drivable par-4 14th as “the only realistic opportunity on the back nine,” but he “did well to hang on” for a 4-under 66.  That round put him tied for the 36-hole Genesis Scottish Open lead at 9-under with Tom Kim and Jordan Smith, while Scottie Scheffler shot 72 to miss the cut and snap his 78-cut streak.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-honest-verdict-renaissance-003052390.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-honest-verdict-renaissance-003052390.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -279,21 +313,6 @@
     },
     {
       "label": "STAR WATCH",
-      "title": "Scottie Scheffler and Nelly Korda had bad weeks - and still made history",
-      "summary": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
-      "quickRead": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
-      "timestamp": "2026-07-11T03:09:35.000Z"
-    },
-    {
-      "label": "STAR WATCH",
       "title": "Rory McIlroy in 3-way tie for Scottish Open lead, as Scottie Scheffle...",
       "summary": "Rory McIlroy shot a 4-under 66 to reach 9-under and share the Scottish Open lead with Jordan Smith (63) and Tom Kim (66), while Scottie Scheffler m...",
       "quickRead": "Rory McIlroy shot a 4-under 66 to reach 9-under and share the Scottish Open lead with Jordan Smith (63) and Tom Kim (66), while Scottie Scheffler missed the cut after a 72 ended his 78-cut streak.  Scheffler, who said he “got off to a poor start,” heads early to Royal Birkdale to prep for his Open title defense as McIlroy sits two rounds from another win.",
@@ -306,6 +325,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-07-10T20:00:21.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Scottie Scheffler and Nelly Korda had bad weeks - and still made history",
+      "summary": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
+      "quickRead": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
+      "timestamp": "2026-07-11T03:09:35.000Z"
     }
   ],
   "checking": {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T14:48:03.651Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T14:11:03.651Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-11T14:48:11.886Z",
-      "approvedAt": "2026-07-11T14:48:11.886Z",
+      "timestamp": "2026-07-11T16:51:26.968Z",
+      "approvedAt": "2026-07-11T16:51:26.968Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jordan Smith leads Genesis Scottish Open at -9",
-      "summary": "Jordan Smith is -9 overall through 1. Closest chasers: Tom Kim (-9), Rory McIlroy (-9), Matt Fitzpatrick (-8).",
-      "quickRead": "Jordan Smith is leading the Genesis Scottish Open at 9-under, tied with Tom Kim and Rory McIlroy, with Matt Fitzpatrick and Min Woo Lee one shot back at 8-under.  With Round 3 in progress at The Renaissance Club, the leaderboard is packed at the top, setting up a tight weekend where a couple birdies could swing the tournament quickly.",
+      "title": "Marcus Armitage leads Genesis Scottish Open at -9",
+      "summary": "Marcus Armitage is -4 today and -9 overall through 8. Closest chasers: Jordan Smith (-9), Tom Kim (-9), Rory McIlroy (-9).",
+      "quickRead": "Marcus Armitage is -4 today and -9 overall through 8. Closest chasers: Jordan Smith (-9), Tom Kim (-9), Rory McIlroy (-9).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -387,6 +421,12 @@
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
+        {
+          "pos": "T1",
+          "name": "Marcus Armitage",
+          "score": "-9",
+          "thru": "8"
+        },
         {
           "pos": "T1",
           "name": "Jordan Smith",
@@ -406,69 +446,10 @@
           "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Matt Fitzpatrick",
+          "pos": "T5",
+          "name": "Mac Meissner",
           "score": "-8",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Min Woo Lee",
-          "score": "-8",
-          "thru": "1"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-11T14:48:11.886Z",
-      "approvedAt": "2026-07-11T14:48:11.886Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -13",
-      "summary": "Lucas Glover is -13 overall through 1. Closest chasers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
-      "quickRead": "Lucas Glover is -13 overall through 1. Closest chasers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Chan Kim",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Steven Fisk",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Jeong Weon Ko",
-          "score": "-10",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Aaron Wise",
-          "score": "-10",
-          "thru": "1"
+          "thru": "F"
         }
       ]
     }
