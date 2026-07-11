@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T18:54:47.925Z",
+  "updatedAt": "2026-07-11T20:41:56.490Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-11T20:41:56.487Z",
+      "approvedAt": "2026-07-11T20:41:56.487Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Thorbjornsen leads Genesis Scottish Open at -11",
+      "summary": "Michael Thorbjornsen is -5 today and -11 overall through 13. Closest chasers: Matt Fitzpatrick (-11), Johnny Keefer (-10), Kevin Roy (-10).",
+      "quickRead": "Michael Thorbjornsen is tied for the Genesis Scottish Open lead at 11-under par, reaching -11 through 13 holes of his third round after a five-under start.  Matt Fitzpatrick is also at -11 (through 8), with Johnny Keefer and Kevin Roy one shot back at -10 as play was suspended due to fog and Round 3 will resume at 2:00 a.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Thorbjornsen",
+          "score": "-11",
+          "thru": "13"
+        },
+        {
+          "pos": "T1",
+          "name": "Matt Fitzpatrick",
+          "score": "-11",
+          "thru": "8"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Kevin Roy",
+          "score": "-10",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Wyndham Clark",
+          "score": "-10",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-11T18:54:43.162Z",
       "approvedAt": "2026-07-11T18:54:43.163Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "14"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-11T17:12:52.000Z",
       "approvedAt": "2026-07-11T18:54:44.258Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-11T08:00:58.000Z",
       "approvedAt": "2026-07-11T18:54:44.259Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-11T16:51:26.965Z",
       "approvedAt": "2026-07-11T16:51:26.965Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-11T15:30:00.000Z",
       "approvedAt": "2026-07-11T16:51:27.915Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-11T14:58:13.000Z",
       "approvedAt": "2026-07-11T16:51:27.915Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-11T11:30:00.000Z",
       "approvedAt": "2026-07-11T13:07:38.744Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-11T03:09:35.000Z",
       "approvedAt": "2026-07-11T13:07:41.086Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-07-10T22:00:00.000Z",
-      "approvedAt": "2026-07-11T13:07:41.086Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Golf’s Two World No. 1 Players Share a Rare Destination: Off for the Weekend",
-      "summary": "There are very few guarantees in professional golf, but Scottie Scheffler and Nelly Korda advancing to the weekend had become about as dependable as anything the sport could offer.",
-      "quickRead": "Scottie Scheffler and Nelly Korda, golf’s two world No.  1 players, both missed the cut Friday in Europe—Scheffler at even par (68-72) at the Genesis Scottish Open and Korda at 1-over (74-69) at the Amundi Evian Championship, one shot outside the cut.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/golf-two-world-no-1-220000747.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/golf-two-world-no-1-220000747.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-11T18:54:30.819Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T18:17:30.819Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-11T18:54:46.803Z",
-      "approvedAt": "2026-07-11T18:54:46.803Z",
+      "timestamp": "2026-07-11T20:41:56.490Z",
+      "approvedAt": "2026-07-11T20:41:56.490Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Matt Fitzpatrick leads Genesis Scottish Open at -12",
-      "summary": "Matt Fitzpatrick is -4 today and -12 overall through 7. Closest chasers: Kevin Roy (-11), Michael Thorbjornsen (-11), Johnny Keefer (-10).",
-      "quickRead": "Matt Fitzpatrick is the solo leader at the Genesis Scottish Open at 12-under, playing Round 3 in 4-under through seven holes at The Renaissance Club.  He’s being chased by Kevin Roy and Michael Thorbjornsen at 11-under, with a crowded group at 10-under (including Wyndham Clark and Min Woo Lee) keeping the tournament tight heading into the back nine and Sunday.",
+      "title": "Michael Thorbjornsen leads Genesis Scottish Open at -11",
+      "summary": "Michael Thorbjornsen is -5 today and -11 overall through 13. Closest chasers: Matt Fitzpatrick (-11), Johnny Keefer (-10), Kevin Roy (-10).",
+      "quickRead": "Michael Thorbjornsen is tied for the Genesis Scottish Open lead at 11-under par, reaching -11 through 13 holes of his third round after a five-under start.  Matt Fitzpatrick is also at -11 (through 8), with Johnny Keefer and Kevin Roy one shot back at -10 as play was suspended due to fog and Round 3 will resume at 2:00 a.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,87 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Matt Fitzpatrick",
-          "score": "-12",
-          "thru": "7"
-        },
-        {
-          "pos": "T2",
-          "name": "Kevin Roy",
-          "score": "-11",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
+          "pos": "T1",
           "name": "Michael Thorbjornsen",
           "score": "-11",
           "thru": "13"
         },
         {
-          "pos": "T4",
+          "pos": "T1",
+          "name": "Matt Fitzpatrick",
+          "score": "-11",
+          "thru": "8"
+        },
+        {
+          "pos": "T3",
           "name": "Johnny Keefer",
           "score": "-10",
           "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Wyndham Clark",
-          "score": "-10",
-          "thru": "14"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-11T18:54:46.803Z",
-      "approvedAt": "2026-07-11T18:54:46.803Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -13",
-      "summary": "Lucas Glover is -13 overall through 1. Closest chasers: Zac Blair (-12), Steven Fisk (-11), Chan Kim (-11).",
-      "quickRead": "Lucas Glover is -13 overall through 1. Closest chasers: Zac Blair (-12), Steven Fisk (-11), Chan Kim (-11).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Zac Blair",
-          "score": "-12",
-          "thru": "11"
-        },
-        {
           "pos": "T3",
-          "name": "Steven Fisk",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Chan Kim",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T5",
-          "name": "Kristoffer Ventura",
+          "name": "Kevin Roy",
           "score": "-10",
           "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Wyndham Clark",
+          "score": "-10",
+          "thru": "15"
         }
       ]
     }
