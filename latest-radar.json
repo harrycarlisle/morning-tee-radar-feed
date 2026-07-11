@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-11T20:42:07.394Z",
+  "updatedAt": "2026-07-11T22:41:50.371Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-11T22:41:50.369Z",
+      "approvedAt": "2026-07-11T22:41:50.369Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is -2 today and -15 overall through 15. Closest chasers: Steven Fisk (-14), Stephan Jaeger (-13), Aaron Wise (-13).",
+      "quickRead": "Lucas Glover is -2 today and -15 overall through 15. Closest chasers: Steven Fisk (-14), Stephan Jaeger (-13), Aaron Wise (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "15"
+        },
+        {
+          "pos": "2",
+          "name": "Steven Fisk",
+          "score": "-14",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Stephan Jaeger",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Aaron Wise",
+          "score": "-13",
+          "thru": "17"
+        },
+        {
+          "pos": "T5",
+          "name": "Zac Blair",
+          "score": "-12",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-11T20:41:56.487Z",
       "approvedAt": "2026-07-11T20:41:56.487Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-11T13:58:38.000Z",
       "approvedAt": "2026-07-11T20:42:00.725Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-11T18:54:43.162Z",
       "approvedAt": "2026-07-11T18:54:43.163Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-11T17:12:52.000Z",
       "approvedAt": "2026-07-11T18:54:44.258Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-07-11T08:00:58.000Z",
       "approvedAt": "2026-07-11T18:54:44.259Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-11T15:30:00.000Z",
       "approvedAt": "2026-07-11T16:51:27.915Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-11T14:58:13.000Z",
       "approvedAt": "2026-07-11T16:51:27.915Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-11T11:30:00.000Z",
       "approvedAt": "2026-07-11T13:07:38.744Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/matt-fitzpatrick-assesses-playing-best-113000202.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/matt-fitzpatrick.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-07-11T03:09:35.000Z",
-      "approvedAt": "2026-07-11T13:07:41.086Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler and Nelly Korda had bad weeks - and still made history",
-      "summary": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
-      "quickRead": "Scottie Scheffler and Nelly Korda weren't their usual dominant selves this week, resulting in an odd bit of history-making.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-had-030935745.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T20:41:46.248Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-11T20:04:46.249Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-11T20:42:05.990Z",
-      "approvedAt": "2026-07-11T20:42:05.990Z",
+      "timestamp": "2026-07-11T22:41:50.371Z",
+      "approvedAt": "2026-07-11T22:41:50.372Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Thorbjornsen leads Genesis Scottish Open at -11",
-      "summary": "Michael Thorbjornsen is -5 today and -11 overall through 13. Closest chasers: Matt Fitzpatrick (-11), Johnny Keefer (-10), Kevin Roy (-10).",
-      "quickRead": "Michael Thorbjornsen is tied for the Genesis Scottish Open lead at 11-under par, reaching -11 through 13 holes of his third round after a five-under start.  Matt Fitzpatrick is also at -11 (through 8), with Johnny Keefer and Kevin Roy one shot back at -10 as play was suspended due to fog and Round 3 will resume at 2:00 a.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Michael Thorbjornsen",
-          "score": "-11",
-          "thru": "13"
-        },
-        {
-          "pos": "T1",
-          "name": "Matt Fitzpatrick",
-          "score": "-11",
-          "thru": "8"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Kevin Roy",
-          "score": "-10",
-          "thru": "16"
-        },
-        {
-          "pos": "T3",
-          "name": "Wyndham Clark",
-          "score": "-10",
-          "thru": "15"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-11T20:42:05.990Z",
-      "approvedAt": "2026-07-11T20:42:05.990Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -14",
-      "summary": "Lucas Glover is -1 today and -14 overall through 7. Closest chasers: Steven Fisk (-13), Zac Blair (-12), Tom Hoge (-12).",
-      "quickRead": "Lucas Glover is -1 today and -14 overall through 7. Closest chasers: Steven Fisk (-13), Zac Blair (-12), Tom Hoge (-12).",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is -2 today and -15 overall through 15. Closest chasers: Steven Fisk (-14), Stephan Jaeger (-13), Aaron Wise (-13).",
+      "quickRead": "Lucas Glover is -2 today and -15 overall through 15. Closest chasers: Steven Fisk (-14), Stephan Jaeger (-13), Aaron Wise (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -443,31 +424,31 @@
         {
           "pos": "1",
           "name": "Lucas Glover",
-          "score": "-14",
-          "thru": "7"
+          "score": "-15",
+          "thru": "15"
         },
         {
           "pos": "2",
           "name": "Steven Fisk",
-          "score": "-13",
-          "thru": "8"
+          "score": "-14",
+          "thru": "16"
         },
         {
           "pos": "T3",
-          "name": "Zac Blair",
-          "score": "-12",
+          "name": "Stephan Jaeger",
+          "score": "-13",
           "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Tom Hoge",
-          "score": "-12",
-          "thru": "13"
+          "name": "Aaron Wise",
+          "score": "-13",
+          "thru": "17"
         },
         {
           "pos": "T5",
-          "name": "Ben Silverman",
-          "score": "-11",
+          "name": "Zac Blair",
+          "score": "-12",
           "thru": "F"
         }
       ]
