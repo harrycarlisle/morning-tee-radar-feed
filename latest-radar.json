@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-10T22:56:30.252Z",
+  "updatedAt": "2026-07-11T02:09:09.542Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-07-11T02:09:09.539Z",
+      "approvedAt": "2026-07-11T02:09:09.539Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover wins ISCO Championship at -13",
+      "summary": "Lucas Glover wins ISCO Championship at -13. Nearest finishers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
+      "quickRead": "Lucas Glover won the ISCO Championship at 13-under par, beating Chan Kim and Steven Fisk by two shots at 11-under, with Jeong Weon Ko next at 10-under.  The win adds a PGA Tour title to Glover’s resume and delivers a big points-and-prize bump as the Tour heads deeper into the summer stretch.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-13",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Chan Kim",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Steven Fisk",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Jeong Weon Ko",
+          "score": "-10",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Aaron Wise",
+          "score": "-10",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T20:00:21.000Z",
       "approvedAt": "2026-07-10T21:02:34.268Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-10T19:47:07.000Z",
       "approvedAt": "2026-07-10T21:02:36.514Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "52 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-10T20:09:55.000Z",
       "approvedAt": "2026-07-10T21:02:36.514Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-10T18:50:41.000Z",
       "approvedAt": "2026-07-10T19:20:58.924Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-10T17:11:18.000Z",
       "approvedAt": "2026-07-10T19:21:01.957Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-10T17:21:01.000Z",
       "approvedAt": "2026-07-10T19:21:01.958Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-10T17:44:13.691Z",
       "approvedAt": "2026-07-10T17:44:13.691Z",
       "status": "Live",
@@ -189,7 +242,7 @@
       ]
     },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-10T14:39:15.000Z",
       "approvedAt": "2026-07-10T17:44:15.405Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-feelings-personal-143915986.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-07-10T15:56:36.000Z",
-      "approvedAt": "2026-07-10T17:44:15.406Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler Dealt Unfortunate News Days Before The Open Championship",
-      "summary": "Scottie Scheffler was dealt some concerning news at the Scottish Open as the star prepares for The Open Championship.",
-      "quickRead": "Scottie Scheffler was dealt some concerning news at the Scottish Open as the star prepares for The Open Championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-dealt-unfortunate-news-155636715.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-dealt-unfortunate-news-155636715.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T22:56:10.326Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-10T22:19:10.326Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,67 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-10T22:56:27.554Z",
-      "approvedAt": "2026-07-10T22:56:27.554Z",
+      "timestamp": "2026-07-11T02:09:09.542Z",
+      "approvedAt": "2026-07-11T02:09:09.542Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jordan Smith leads Genesis Scottish Open at -9",
-      "summary": "Jordan Smith is -7 today and -9 overall through F*. Closest chasers: Tom Kim (-9), Rory McIlroy (-9), Matt Fitzpatrick (-8).",
-      "quickRead": "Jordan Smith finished his second round with a 7-under 63 to reach 9-under par and share the Genesis Scottish Open lead with Tom Kim and Rory McIlroy at -9, with Matt Fitzpatrick one shot back at -8.  With the cut line at -2, the weekend sets up as a three-way battle at the top at Renaissance Club, with McIlroy in position to chase another big win on links-style turf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Jordan Smith",
-          "score": "-9",
-          "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Tom Kim",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Rory McIlroy",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Matt Fitzpatrick",
-          "score": "-8",
-          "thru": "F*"
-        },
-        {
-          "pos": "T4",
-          "name": "Min Woo Lee",
-          "score": "-8",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-10T22:56:27.554Z",
-      "approvedAt": "2026-07-10T22:56:27.554Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -13",
-      "summary": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
-      "quickRead": "Lucas Glover is -6 today and -13 overall through F*. Closest chasers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
+      "title": "Lucas Glover wins ISCO Championship at -13",
+      "summary": "Lucas Glover wins ISCO Championship at -13. Nearest finishers: Chan Kim (-11), Steven Fisk (-11), Jeong Weon Ko (-10).",
+      "quickRead": "Lucas Glover won the ISCO Championship at 13-under par, beating Chan Kim and Steven Fisk by two shots at 11-under, with Jeong Weon Ko next at 10-under.  The win adds a PGA Tour title to Glover’s resume and delivers a big points-and-prize bump as the Tour heads deeper into the summer stretch.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -422,7 +403,7 @@
           "pos": "T2",
           "name": "Steven Fisk",
           "score": "-11",
-          "thru": "16*"
+          "thru": "F*"
         },
         {
           "pos": "T4",
