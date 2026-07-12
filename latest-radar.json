@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T20:07:37.394Z",
+  "updatedAt": "2026-07-12T20:07:41.170Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -75,6 +75,25 @@
   ],
   "alsoMoving": [
     {
+      "time": "22 min ago",
+      "timestamp": "2026-07-12T19:45:37.000Z",
+      "approvedAt": "2026-07-12T20:07:41.168Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy didn't win Genesis Scottish Open, but took home the quote of the w...",
+      "summary": "It was a topsy turvy weekend at the Genesis Scottish Open for Rory McIlroy.",
+      "quickRead": "After yanking his approach on the 16th into the rough in the final round, Rory McIlroy blurted, “Oh my God… I am so bad at golf,” then repeated it louder.  He still shot a closing 6-under 64 to finish 12-under and T4 at the Genesis Scottish Open, and said he needs work before The Open at Royal Birkdale—especially practicing in a right-to-left wind to fix his path/face issues.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-didnt-win-genesis-194537557.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-didnt-win-genesis-194537557.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    },
+    {
       "time": "1 hour ago",
       "timestamp": "2026-07-12T18:59:34.781Z",
       "approvedAt": "2026-07-12T18:59:34.781Z",
@@ -129,59 +148,6 @@
     },
     {
       "time": "1 hour ago",
-      "timestamp": "2026-07-12T18:58:48.884Z",
-      "approvedAt": "2026-07-12T18:58:48.884Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under 263 after a closing 64 to beat Min Woo Lee by two shots.  Keita Nakajima, Johnny Keefer, Matt Fitzpatrick, and Robert MacIntyre tied for third at 13-under, while Rory McIlroy’s final-round 64 moved him to T7 at 12-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:30:00.000Z",
       "approvedAt": "2026-07-12T18:58:50.325Z",
       "status": "Confirmed",
@@ -198,59 +164,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-suggests-plans-now-183000723.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-07-12T18:29:30.248Z",
-      "approvedAt": "2026-07-12T18:29:30.248Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Tom Kim leads Genesis Scottish Open at -17",
-      "summary": "Tom Kim is -6 today and -17 overall through 17. Closest chasers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim is leading the Genesis Scottish Open at 17-under, shooting 6-under on Sunday and sitting 2 clear of Min Woo Lee (15-under) with one hole left at The Renaissance Club.  Keita Nakajima, Johnny Keefer, and Matt Fitzpatrick are the next closest at 13-under, while Rory McIlroy finished at 12-under, leaving Kim one hole from a big DP World Tour/PGA Tour co-sanctioned win.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "17"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "16"
-        }
-      ]
     },
     {
       "time": "2 hours ago",
