@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T21:05:58.379Z",
+  "updatedAt": "2026-07-12T22:06:41.376Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-12T22:06:41.373Z",
+      "approvedAt": "2026-07-12T22:06:41.373Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Taylor Pendrith leads ISCO Championship at -16",
+      "summary": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
+      "quickRead": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Taylor Pendrith",
+          "score": "-16",
+          "thru": "17"
+        },
+        {
+          "pos": "2",
+          "name": "Steven Fisk",
+          "score": "-15",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Davis Chatfield",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Kristoffer Ventura",
+          "score": "-14",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Ben Silverman",
+          "score": "-14",
+          "thru": "16"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T21:05:49.806Z",
       "approvedAt": "2026-07-12T21:05:49.806Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "11"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "26 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T20:39:14.626Z",
       "approvedAt": "2026-07-12T20:39:14.626Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "58 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T20:07:37.391Z",
       "approvedAt": "2026-07-12T20:07:37.391Z",
       "status": "Live",
@@ -181,7 +234,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T19:45:37.000Z",
       "approvedAt": "2026-07-12T20:07:41.168Z",
       "status": "Confirmed",
@@ -200,7 +253,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T18:59:34.781Z",
       "approvedAt": "2026-07-12T18:59:34.781Z",
       "status": "Live",
@@ -253,7 +306,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T18:30:00.000Z",
       "approvedAt": "2026-07-12T18:58:50.325Z",
       "status": "Confirmed",
@@ -272,7 +325,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T17:34:31.000Z",
       "approvedAt": "2026-07-12T18:29:31.574Z",
       "status": "Confirmed",
@@ -291,7 +344,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-12T16:30:00.000Z",
       "approvedAt": "2026-07-12T16:54:38.424Z",
       "status": "Confirmed",
@@ -308,25 +361,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-performed-open-championship-163000144.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-07-12T14:31:01.000Z",
-      "approvedAt": "2026-07-12T16:54:41.421Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Haeran Ryu Goes Back-to-Back in Playoff Thriller at Evian",
-      "summary": "Fresh off her first major title at the KPMG Women's PGA Championship, Ryu delivered another clutch performance to win the Amundi Evian Championship in a playoff over Brooke Henderson.",
-      "quickRead": "Fresh off her first major title at the KPMG Women's PGA Championship, Ryu delivered another clutch performance to win the Amundi Evian Championship in a playoff over Brooke Henderson.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/haeran-ryu-goes-back-back-143101006.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-goes-back-back-143101006.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -394,7 +428,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T21:05:34.106Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -414,7 +448,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T20:28:34.106Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -436,67 +470,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T21:05:52.458Z",
-      "approvedAt": "2026-07-12T21:05:52.458Z",
+      "timestamp": "2026-07-12T22:06:41.376Z",
+      "approvedAt": "2026-07-12T22:06:41.376Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under 263 after rounds of 65-66-68-64, earning $1,575,000 and 500 FedExCup points.  He beat runner-up Min Woo Lee by two shots at -15, with Keita Nakajima and Johnny Keefer next at -13, boosting Kim’s momentum heading into the Open Championship week.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T21:05:52.458Z",
-      "approvedAt": "2026-07-12T21:05:52.459Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -15",
-      "summary": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
-      "quickRead": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
+      "title": "Taylor Pendrith leads ISCO Championship at -16",
+      "summary": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
+      "quickRead": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -510,33 +491,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-15",
-          "thru": "9"
-        },
-        {
-          "pos": "T2",
           "name": "Taylor Pendrith",
-          "score": "-14",
-          "thru": "12"
+          "score": "-16",
+          "thru": "17"
         },
         {
-          "pos": "T2",
+          "pos": "2",
           "name": "Steven Fisk",
+          "score": "-15",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Davis Chatfield",
           "score": "-14",
-          "thru": "10"
+          "thru": "F"
         },
         {
-          "pos": "T4",
+          "pos": "T3",
           "name": "Kristoffer Ventura",
-          "score": "-13",
-          "thru": "13"
+          "score": "-14",
+          "thru": "17"
         },
         {
-          "pos": "T4",
+          "pos": "T3",
           "name": "Ben Silverman",
-          "score": "-13",
-          "thru": "11"
+          "score": "-14",
+          "thru": "16"
         }
       ]
     }
