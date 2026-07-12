@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T16:54:47.967Z",
+  "updatedAt": "2026-07-12T18:29:30.251Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "24 min ago",
+      "time": "Just now",
+      "timestamp": "2026-07-12T18:29:30.248Z",
+      "approvedAt": "2026-07-12T18:29:30.248Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -17",
+      "summary": "Tom Kim is -6 today and -17 overall through 17. Closest chasers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim is leading the Genesis Scottish Open at 17-under, shooting 6-under on Sunday and sitting 2 clear of Min Woo Lee (15-under) with one hole left at The Renaissance Club.  Keita Nakajima, Johnny Keefer, and Matt Fitzpatrick are the next closest at 13-under, while Rory McIlroy finished at 12-under, leaving Kim one hole from a big DP World Tour/PGA Tour co-sanctioned win.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "17"
+        },
+        {
+          "pos": "2",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "17"
+        },
+        {
+          "pos": "T3",
+          "name": "Keita Nakajima",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "16"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T16:30:00.000Z",
       "approvedAt": "2026-07-12T16:54:38.424Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-performed-open-championship-163000144.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T14:31:01.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T16:36:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "19 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T16:34:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T14:45:42.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T14:51:36.235Z",
       "approvedAt": "2026-07-12T14:51:36.235Z",
       "status": "Live",
@@ -170,7 +223,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-12T09:30:00.000Z",
       "approvedAt": "2026-07-12T14:51:41.013Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-12T12:02:46.000Z",
       "approvedAt": "2026-07-12T13:08:49.449Z",
       "status": "Confirmed",
@@ -204,25 +257,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/live-leaderboard-updates-kaulig-companies-120246019.html",
       "sourceUrl": "https://sports.yahoo.com/articles/live-leaderboard-updates-kaulig-companies-120246019.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-07-12T06:00:23.000Z",
-      "approvedAt": "2026-07-12T09:46:55.296Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Amundi Evian Championship leaderboard, live updates from Sunday's final round",
-      "summary": "Follow along with Golfweek for live updates, scores, highlights and more from the final round of the 2026 Amundi Evian Championship.",
-      "quickRead": "Follow along with Golfweek for live updates, scores, highlights and more from the final round of the 2026 Amundi Evian Championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-amundi-evian-championship-leaderboard-060023573.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-amundi-evian-championship-leaderboard-060023573.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T16:54:22.471Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T16:17:22.471Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T16:54:45.777Z",
-      "approvedAt": "2026-07-12T16:54:45.777Z",
+      "timestamp": "2026-07-12T18:29:30.251Z",
+      "approvedAt": "2026-07-12T18:29:30.251Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Genesis Scottish Open at -15",
-      "summary": "Tom Kim is -4 today and -15 overall through 11. Closest chasers: Keita Nakajima (-13), Johnny Keefer (-13), Matt Fitzpatrick (-13).",
-      "quickRead": "Tom Kim is -4 today and -15 overall through 11. Closest chasers: Keita Nakajima (-13), Johnny Keefer (-13), Matt Fitzpatrick (-13).",
+      "title": "Tom Kim leads Genesis Scottish Open at -17",
+      "summary": "Tom Kim is -6 today and -17 overall through 17. Closest chasers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim is leading the Genesis Scottish Open at 17-under, shooting 6-under on Sunday and sitting 2 clear of Min Woo Lee (15-under) with one hole left at The Renaissance Club.  Keita Nakajima, Johnny Keefer, and Matt Fitzpatrick are the next closest at 13-under, while Rory McIlroy finished at 12-under, leaving Kim one hole from a big DP World Tour/PGA Tour co-sanctioned win.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -356,85 +390,32 @@
         {
           "pos": "1",
           "name": "Tom Kim",
-          "score": "-15",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "13"
-        },
-        {
-          "pos": "T2",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "12"
-        },
-        {
-          "pos": "T2",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "10"
-        },
-        {
-          "pos": "T2",
-          "name": "Min Woo Lee",
-          "score": "-13",
-          "thru": "10"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T16:54:45.777Z",
-      "approvedAt": "2026-07-12T16:54:45.777Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -15",
-      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-15",
-          "thru": "1"
+          "score": "-17",
+          "thru": "17"
         },
         {
           "pos": "2",
-          "name": "Aaron Wise",
-          "score": "-14",
-          "thru": "1"
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "17"
         },
         {
           "pos": "T3",
-          "name": "Stephan Jaeger",
+          "name": "Keita Nakajima",
           "score": "-13",
-          "thru": "1"
+          "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Steven Fisk",
+          "name": "Johnny Keefer",
           "score": "-13",
-          "thru": "1"
+          "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Chan Kim",
+          "name": "Matt Fitzpatrick",
           "score": "-13",
-          "thru": "1"
+          "thru": "16"
         }
       ]
     }
