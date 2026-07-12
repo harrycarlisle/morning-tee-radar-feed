@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T20:39:17.633Z",
+  "updatedAt": "2026-07-12T20:39:24.153Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -402,8 +402,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T20:39:14.629Z",
-      "approvedAt": "2026-07-12T20:39:14.629Z",
+      "timestamp": "2026-07-12T20:39:23.792Z",
+      "approvedAt": "2026-07-12T20:39:23.792Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim wins Genesis Scottish Open at -17",
+      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Keita Nakajima",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-12T20:39:23.792Z",
+      "approvedAt": "2026-07-12T20:39:23.793Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
