@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T20:39:26.256Z",
+  "updatedAt": "2026-07-12T21:05:49.809Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-12T21:05:49.806Z",
+      "approvedAt": "2026-07-12T21:05:49.806Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
+      "quickRead": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Taylor Pendrith",
+          "score": "-14",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
+          "name": "Steven Fisk",
+          "score": "-14",
+          "thru": "10"
+        },
+        {
+          "pos": "T4",
+          "name": "Kristoffer Ventura",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Ben Silverman",
+          "score": "-13",
+          "thru": "11"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "26 min ago",
       "timestamp": "2026-07-12T20:39:14.626Z",
       "approvedAt": "2026-07-12T20:39:14.626Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "11"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "31 min ago",
+      "time": "58 min ago",
       "timestamp": "2026-07-12T20:07:37.391Z",
       "approvedAt": "2026-07-12T20:07:37.391Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "53 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T19:45:37.000Z",
       "approvedAt": "2026-07-12T20:07:41.168Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T18:59:34.781Z",
       "approvedAt": "2026-07-12T18:59:34.781Z",
       "status": "Live",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-goes-back-back-143101006.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-07-12T16:36:50.000Z",
-      "approvedAt": "2026-07-12T16:54:41.421Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "Haeran Ryu finishes off historic week with playoff victory in Evian",
-      "summary": "Haeran Ryu beat Brooke Henderson in a playoff to win the Evian Championship and join Nelly Korda as a two-time major winner this season",
-      "quickRead": "Haeran Ryu beat Brooke Henderson in a playoff to win the Evian Championship and join Nelly Korda as a two-time major winner this season",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/haeran-ryu-finishes-off-historic-163650579.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-finishes-off-historic-163650579.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "26 min ago",
       "timestamp": "2026-07-12T20:39:04.383Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +414,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T20:02:04.384Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,67 +436,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T20:39:23.792Z",
-      "approvedAt": "2026-07-12T20:39:23.792Z",
+      "timestamp": "2026-07-12T21:05:49.809Z",
+      "approvedAt": "2026-07-12T21:05:49.809Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T20:39:23.792Z",
-      "approvedAt": "2026-07-12T20:39:23.793Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Steven Fisk leads ISCO Championship at -14",
-      "summary": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
-      "quickRead": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
+      "quickRead": "Lucas Glover is E today and -15 overall through 9. Closest chasers: Taylor Pendrith (-14), Steven Fisk (-14), Kristoffer Ventura (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -475,32 +456,32 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Taylor Pendrith",
+          "score": "-14",
+          "thru": "12"
+        },
+        {
+          "pos": "T2",
           "name": "Steven Fisk",
           "score": "-14",
-          "thru": "8"
-        },
-        {
-          "pos": "T1",
-          "name": "Lucas Glover",
-          "score": "-14",
-          "thru": "7"
-        },
-        {
-          "pos": "T1",
-          "name": "Aaron Wise",
-          "score": "-14",
-          "thru": "7"
-        },
-        {
-          "pos": "T4",
-          "name": "Jackson Koivun",
-          "score": "-13",
-          "thru": "15"
+          "thru": "10"
         },
         {
           "pos": "T4",
           "name": "Kristoffer Ventura",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Ben Silverman",
           "score": "-13",
           "thru": "11"
         }
