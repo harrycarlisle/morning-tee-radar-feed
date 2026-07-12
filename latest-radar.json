@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T20:07:54.231Z",
+  "updatedAt": "2026-07-12T20:39:14.629Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-12T20:39:14.626Z",
+      "approvedAt": "2026-07-12T20:39:14.626Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Steven Fisk leads ISCO Championship at -14",
+      "summary": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
+      "quickRead": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-14",
+          "thru": "8"
+        },
+        {
+          "pos": "T1",
+          "name": "Lucas Glover",
+          "score": "-14",
+          "thru": "7"
+        },
+        {
+          "pos": "T1",
+          "name": "Aaron Wise",
+          "score": "-14",
+          "thru": "7"
+        },
+        {
+          "pos": "T4",
+          "name": "Jackson Koivun",
+          "score": "-13",
+          "thru": "15"
+        },
+        {
+          "pos": "T4",
+          "name": "Kristoffer Ventura",
+          "score": "-13",
+          "thru": "11"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "31 min ago",
       "timestamp": "2026-07-12T20:07:37.391Z",
       "approvedAt": "2026-07-12T20:07:37.391Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "22 min ago",
+      "time": "53 min ago",
       "timestamp": "2026-07-12T19:45:37.000Z",
       "approvedAt": "2026-07-12T20:07:41.168Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T18:30:00.000Z",
       "approvedAt": "2026-07-12T18:58:50.325Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T17:34:31.000Z",
       "approvedAt": "2026-07-12T18:29:31.574Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T16:30:00.000Z",
       "approvedAt": "2026-07-12T16:54:38.424Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-12T14:31:01.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T16:36:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -307,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "31 min ago",
       "timestamp": "2026-07-12T20:07:29.370Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -327,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T19:30:29.370Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -349,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T20:07:44.480Z",
-      "approvedAt": "2026-07-12T20:07:44.480Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T20:07:44.480Z",
-      "approvedAt": "2026-07-12T20:07:44.480Z",
+      "timestamp": "2026-07-12T20:39:14.629Z",
+      "approvedAt": "2026-07-12T20:39:14.629Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Steven Fisk leads ISCO Championship at -14",
-      "summary": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
-      "quickRead": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
+      "summary": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
+      "quickRead": "Steven Fisk is -1 today and -14 overall through 8. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Jackson Koivun (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -425,31 +425,31 @@
           "pos": "T1",
           "name": "Steven Fisk",
           "score": "-14",
-          "thru": "6"
+          "thru": "8"
         },
         {
           "pos": "T1",
           "name": "Lucas Glover",
           "score": "-14",
-          "thru": "5"
+          "thru": "7"
         },
         {
           "pos": "T1",
           "name": "Aaron Wise",
           "score": "-14",
-          "thru": "5"
+          "thru": "7"
         },
         {
-          "pos": "4",
-          "name": "Stephan Jaeger",
+          "pos": "T4",
+          "name": "Jackson Koivun",
           "score": "-13",
-          "thru": "6"
+          "thru": "15"
         },
         {
-          "pos": "T5",
-          "name": "Thomas Rosenmueller",
-          "score": "-12",
-          "thru": "F"
+          "pos": "T4",
+          "name": "Kristoffer Ventura",
+          "score": "-13",
+          "thru": "11"
         }
       ]
     }
