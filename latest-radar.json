@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T14:51:43.681Z",
+  "updatedAt": "2026-07-12T14:51:48.094Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -278,21 +278,6 @@
       "timestamp": "2026-07-09T22:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy Reveals the Secret That Fixed His Biggest Weakness on th...",
-      "summary": "Rory McIlroy says the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more forgiving T...",
-      "quickRead": "Rory McIlroy says the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more forgiving TaylorMade Spider putter, which has helped him eliminate the “bad” putting rounds that used to knock him out of contention.  He’s carrying that new confidence into the Genesis Scottish Open (tied for the lead at 9-under) as he fine-tunes for next week’s Open Championship at Royal Birkdale.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-11T20:39:27.000Z"
-    },
-    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler and Nelly Korda combine to create unwanted golfing...",
       "summary": "Scottie Scheffler and Nelly Korda are the two dominant forces in golf.",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
       "timestamp": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Rory McIlroy Reveals the Secret That Fixed His Biggest Weakness on th...",
+      "summary": "Rory McIlroy said the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more-forgiving T...",
+      "quickRead": "Rory McIlroy said the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more-forgiving TaylorMade Spider putter, which helped him eliminate the “bad days” that used to knock him out of tournaments.  He’s taking that renewed confidence into the Genesis Scottish Open lead share and into next week’s Open Championship at Royal Birkdale.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-11T20:39:27.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T14:51:36.238Z",
-      "approvedAt": "2026-07-12T14:51:36.238Z",
+      "timestamp": "2026-07-12T14:51:47.873Z",
+      "approvedAt": "2026-07-12T14:51:47.873Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,6 +416,59 @@
           "name": "Victor Perez",
           "score": "-11",
           "thru": "9"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-12T14:51:47.873Z",
+      "approvedAt": "2026-07-12T14:51:47.873Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Aaron Wise",
+          "score": "-14",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Stephan Jaeger",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Steven Fisk",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Chan Kim",
+          "score": "-13",
+          "thru": "1"
         }
       ]
     }
