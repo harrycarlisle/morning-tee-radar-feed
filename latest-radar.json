@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T18:59:46.299Z",
+  "updatedAt": "2026-07-12T20:07:37.394Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-12T20:07:37.391Z",
+      "approvedAt": "2026-07-12T20:07:37.391Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Steven Fisk leads ISCO Championship at -14",
+      "summary": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
+      "quickRead": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-14",
+          "thru": "6"
+        },
+        {
+          "pos": "T1",
+          "name": "Lucas Glover",
+          "score": "-14",
+          "thru": "5"
+        },
+        {
+          "pos": "T1",
+          "name": "Aaron Wise",
+          "score": "-14",
+          "thru": "5"
+        },
+        {
+          "pos": "4",
+          "name": "Stephan Jaeger",
+          "score": "-13",
+          "thru": "6"
+        },
+        {
+          "pos": "T5",
+          "name": "Thomas Rosenmueller",
+          "score": "-12",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:59:34.781Z",
       "approvedAt": "2026-07-12T18:59:34.781Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:58:48.884Z",
       "approvedAt": "2026-07-12T18:58:48.884Z",
       "status": "Live",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "29 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:30:00.000Z",
       "approvedAt": "2026-07-12T18:58:50.325Z",
       "status": "Confirmed",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "30 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:29:30.248Z",
       "approvedAt": "2026-07-12T18:29:30.248Z",
       "status": "Live",
@@ -200,7 +253,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T17:34:31.000Z",
       "approvedAt": "2026-07-12T18:29:31.574Z",
       "status": "Confirmed",
@@ -219,7 +272,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T16:30:00.000Z",
       "approvedAt": "2026-07-12T16:54:38.424Z",
       "status": "Confirmed",
@@ -238,7 +291,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-12T14:31:01.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T16:36:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-finishes-off-historic-163650579.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-07-12T16:34:50.000Z",
-      "approvedAt": "2026-07-12T16:54:41.421Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy's hilarious soundbite from the Scottish Open is an incredibly rela...",
-      "summary": "Rory McIlroy had a relatable moment of frustration at the Genesis Scottish Open after a costly mistake on the 16th.",
-      "quickRead": "After yanking his approach into the fescue from the 16th fairway at the Genesis Scottish Open, Rory McIlroy blurted on the broadcast, “Oh my God, I’m so bad at golf… I’m so bad at golf,” then could only salvage a bogey.  The mistake dropped him three back of Tom Kim with two holes left, effectively killing his late charge as he heads into next week’s Open Championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroys-hilarious-soundbite-scottish-163450165.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-hilarious-soundbite-scottish-163450165.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:59:23.008Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +414,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T18:22:23.008Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,67 +436,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T18:59:45.108Z",
-      "approvedAt": "2026-07-12T18:59:45.108Z",
+      "timestamp": "2026-07-12T20:07:37.394Z",
+      "approvedAt": "2026-07-12T20:07:37.394Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under after closing with a 6-under 64 to beat Min Woo Lee by two shots (Lee -15).  Keita Nakajima and Johnny Keefer tied for third at 13-under, with Matt Fitzpatrick and Robert MacIntyre also in that group, while Rory McIlroy’s final-round 64 lifted him to T7 at 12-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T18:59:45.108Z",
-      "approvedAt": "2026-07-12T18:59:45.108Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -15",
-      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "title": "Steven Fisk leads ISCO Championship at -14",
+      "summary": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
+      "quickRead": "Steven Fisk is -1 today and -14 overall through 6. Closest chasers: Lucas Glover (-14), Aaron Wise (-14), Stephan Jaeger (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -475,34 +456,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-15",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-14",
+          "thru": "6"
         },
         {
-          "pos": "2",
+          "pos": "T1",
+          "name": "Lucas Glover",
+          "score": "-14",
+          "thru": "5"
+        },
+        {
+          "pos": "T1",
           "name": "Aaron Wise",
           "score": "-14",
-          "thru": "1"
+          "thru": "5"
         },
         {
-          "pos": "T3",
+          "pos": "4",
           "name": "Stephan Jaeger",
           "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Steven Fisk",
-          "score": "-13",
-          "thru": "1"
+          "thru": "6"
         },
         {
           "pos": "T5",
           "name": "Thomas Rosenmueller",
           "score": "-12",
-          "thru": "15"
+          "thru": "F"
         }
       ]
     }
