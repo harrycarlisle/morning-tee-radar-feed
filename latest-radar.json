@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T18:29:37.844Z",
+  "updatedAt": "2026-07-12T18:58:48.887Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-12T18:58:48.884Z",
+      "approvedAt": "2026-07-12T18:58:48.884Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim wins Genesis Scottish Open at -17",
+      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under 263 after a closing 64 to beat Min Woo Lee by two shots.  Keita Nakajima, Johnny Keefer, Matt Fitzpatrick, and Robert MacIntyre tied for third at 13-under, while Rory McIlroy’s final-round 64 moved him to T7 at 12-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Keita Nakajima",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "29 min ago",
       "timestamp": "2026-07-12T18:29:30.248Z",
       "approvedAt": "2026-07-12T18:29:30.248Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "55 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T17:34:31.000Z",
       "approvedAt": "2026-07-12T18:29:31.574Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T16:30:00.000Z",
       "approvedAt": "2026-07-12T16:54:38.424Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T14:31:01.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T16:36:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T16:34:50.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T14:45:42.000Z",
       "approvedAt": "2026-07-12T16:54:41.421Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T14:51:36.235Z",
       "approvedAt": "2026-07-12T14:51:36.235Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "9"
         }
       ]
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-07-12T09:30:00.000Z",
-      "approvedAt": "2026-07-12T14:51:41.013Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Why Saturday at the Scottish Open could be a worrying sign of what is to come f...",
-      "summary": "Rory McIlroy may have only played eight holes on Saturday of the Scottish Open, but that was still enough for the Northern Irishman to take himself out of contention at The Renaissance Club.",
-      "quickRead": "Rory McIlroy played just eight holes in Saturday’s weather-delayed Scottish Open third round and still slid out of contention, making three bogeys with sloppy errors (including a fat tee shot on the par-3 5th and hacking to a bogey on the par-5 7th) before fog halted play.  The concern is his lighter schedule may be costing sharpness and momentum, making these sudden “nothing works” stretches more likely heading into The Open.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-saturday-scottish-open-could-093000086.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-saturday-scottish-open-could-093000086.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-07-12T18:29:16.480Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T17:52:16.480Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T18:29:36.482Z",
-      "approvedAt": "2026-07-12T18:29:36.482Z",
+      "timestamp": "2026-07-12T18:58:48.887Z",
+      "approvedAt": "2026-07-12T18:58:48.887Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Genesis Scottish Open at -17",
-      "summary": "Tom Kim is -6 today and -17 overall through 17. Closest chasers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim is leading the Genesis Scottish Open at 17-under, shooting 6-under on Sunday and sitting 2 clear of Min Woo Lee (15-under) with one hole left at The Renaissance Club.  Keita Nakajima, Johnny Keefer, and Matt Fitzpatrick are the next closest at 13-under, while Rory McIlroy finished at 12-under, leaving Kim one hole from a big DP World Tour/PGA Tour co-sanctioned win.",
+      "title": "Tom Kim wins Genesis Scottish Open at -17",
+      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under 263 after a closing 64 to beat Min Woo Lee by two shots.  Keita Nakajima, Johnny Keefer, Matt Fitzpatrick, and Robert MacIntyre tied for third at 13-under, while Rory McIlroy’s final-round 64 moved him to T7 at 12-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,13 +425,13 @@
           "pos": "1",
           "name": "Tom Kim",
           "score": "-17",
-          "thru": "17"
+          "thru": "F"
         },
         {
           "pos": "2",
           "name": "Min Woo Lee",
           "score": "-15",
-          "thru": "17"
+          "thru": "F"
         },
         {
           "pos": "T3",
@@ -415,60 +449,7 @@
           "pos": "T3",
           "name": "Matt Fitzpatrick",
           "score": "-13",
-          "thru": "16"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T18:29:36.482Z",
-      "approvedAt": "2026-07-12T18:29:36.482Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover leads ISCO Championship at -15",
-      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-15",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Aaron Wise",
-          "score": "-14",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Stephan Jaeger",
-          "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Steven Fisk",
-          "score": "-13",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Chan Kim",
-          "score": "-13",
-          "thru": "1"
+          "thru": "F"
         }
       ]
     }
