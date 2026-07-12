@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T09:46:58.908Z",
+  "updatedAt": "2026-07-12T09:46:59.762Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -244,21 +244,6 @@
       "timestamp": "2026-07-09T22:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy Reveals the Secret That Fixed His Biggest Weakness on th...",
-      "summary": "Rory McIlroy said his putting got fixed by eliminating the “bad day every now and again” on the greens, crediting coach Brad Faxon and switching to...",
-      "quickRead": "Rory McIlroy said his putting got fixed by eliminating the “bad day every now and again” on the greens, crediting coach Brad Faxon and switching to a more forgiving TaylorMade Spider putter: “I feel like I don’t have those days anymore. ” The payoff is him arriving at The Open tune-up at the Genesis Scottish Open tied for the lead at 9-under, with confidence high and a simplified, instinctive routine.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-11T20:39:27.000Z"
-    },
-    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler and Nelly Korda combine to create unwanted golfing...",
       "summary": "Scottie Scheffler and Nelly Korda are the two dominant forces in golf.",
@@ -270,8 +255,23 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-combine-153000437.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-nelly-korda-combine-153000437.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png",
       "timestamp": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Haeran Ryu Flirts With History, Fires 60 to Put Another Major Within...",
+      "summary": "Haeran Ryu shot an 11-under 60 in the third round of the Evian Championship, missing an eagle putt by inches at the par-5 18th that would’ve given...",
+      "quickRead": "Haeran Ryu shot an 11-under 60 in the third round of the Evian Championship, missing an eagle putt by inches at the par-5 18th that would’ve given her a historic 59 and made her the second LPGA player to break 60.  The 60 tied the second-lowest round in LPGA history, set the lowest round ever in a women’s major, and vaulted the reigning KPMG Women’s PGA champion into position to chase back-to-back majors.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/haeran-ryu-flirts-history-fires-135838878.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-flirts-history-fires-135838878.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-07-11T13:58:38.000Z"
     }
   ],
   "checking": {
@@ -334,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T06:29:26.833Z",
-      "approvedAt": "2026-07-12T06:29:26.833Z",
+      "timestamp": "2026-07-12T09:46:59.673Z",
+      "approvedAt": "2026-07-12T09:46:59.673Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Thorbjornsen leads Genesis Scottish Open at -11",
-      "summary": "Michael Thorbjornsen is -5 today and -11 overall through 15. Closest chasers: Min Woo Lee (-11), Matt Fitzpatrick (-11), Johnny Keefer (-10).",
-      "quickRead": "Michael Thorbjornsen is -5 today and -11 overall through 15. Closest chasers: Min Woo Lee (-11), Matt Fitzpatrick (-11), Johnny Keefer (-10).",
+      "title": "Robert MacIntyre leads Genesis Scottish Open at -12",
+      "summary": "Robert MacIntyre is -12 overall through 1. Closest chasers: Min Woo Lee (-12), Matt Fitzpatrick (-12), Michael Thorbjornsen (-11).",
+      "quickRead": "Robert MacIntyre is tied for the Genesis Scottish Open lead at 12-under (198) through three rounds, alongside Min Woo Lee and Matt Fitzpatrick, with Michael Thorbjornsen, Chris Gotterup and Tom Kim one back at 11-under.  Rory McIlroy sits at 6-under after a third-round 73, while the final-round tee times (leaders at 1:50 p.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -355,46 +355,46 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "Michael Thorbjornsen",
-          "score": "-11",
-          "thru": "15"
+          "name": "Robert MacIntyre",
+          "score": "-12",
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Min Woo Lee",
-          "score": "-11",
-          "thru": "10"
+          "score": "-12",
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Matt Fitzpatrick",
+          "score": "-12",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Thorbjornsen",
           "score": "-11",
-          "thru": "9"
+          "thru": "1"
         },
         {
           "pos": "T4",
-          "name": "Johnny Keefer",
-          "score": "-10",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Kevin Roy",
-          "score": "-10",
-          "thru": "F"
+          "name": "Chris Gotterup",
+          "score": "-11",
+          "thru": "1"
         }
       ]
     },
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T06:29:26.833Z",
-      "approvedAt": "2026-07-12T06:29:26.833Z",
+      "timestamp": "2026-07-12T09:46:59.673Z",
+      "approvedAt": "2026-07-12T09:46:59.673Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Lucas Glover wins ISCO Championship at -15",
       "summary": "Lucas Glover wins ISCO Championship at -15. Nearest finishers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickRead": "Lucas Glover won the ISCO Championship at 15-under, finishing one shot ahead of Aaron Wise (14-under), with Stephan Jaeger and Steven Fisk tied for third at 13-under.  The win holds off a tight final leaderboard and gives Glover another PGA TOUR title, while Wise’s runner-up and Jaeger’s top-three keep both trending in the right direction heading into the next stop.",
+      "quickRead": "Lucas Glover won the ISCO Championship at 15-under par, edging Aaron Wise by one shot, with Stephan Jaeger and Steven Fisk finishing two back at 13-under.  The victory gives Glover a PGA Tour title and the full winner’s haul of points and perks, while Wise’s runner-up stings after coming up a single stroke short.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
