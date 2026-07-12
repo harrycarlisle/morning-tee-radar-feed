@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T18:58:56.666Z",
+  "updatedAt": "2026-07-12T18:59:34.784Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -19,6 +19,61 @@
     }
   ],
   "today": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-12T18:59:34.781Z",
+      "approvedAt": "2026-07-12T18:59:34.781Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "ISCO Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Aaron Wise",
+          "score": "-14",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Stephan Jaeger",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Steven Fisk",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Thomas Rosenmueller",
+          "score": "-12",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "timestamp": "2026-07-12T18:58:48.884Z",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "28 min ago",
+      "time": "29 min ago",
       "timestamp": "2026-07-12T18:30:00.000Z",
       "approvedAt": "2026-07-12T18:58:50.325Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "29 min ago",
+      "time": "30 min ago",
       "timestamp": "2026-07-12T18:29:30.248Z",
       "approvedAt": "2026-07-12T18:29:30.248Z",
       "status": "Live",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-hilarious-soundbite-scottish-163450165.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-07-12T14:45:42.000Z",
-      "approvedAt": "2026-07-12T16:54:41.421Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "Haeran Ryu beats Brooke Henderson in playoff at Evian for second major win",
-      "summary": "It's the first time in LPGA history that two different players have won multiple majors in the same season.",
-      "quickRead": "It's the first time in LPGA history that two different players have won multiple majors in the same season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/haeran-ryu-beats-brooke-henderson-144542737.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-beats-brooke-henderson-144542737.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T18:58:48.887Z",
-      "approvedAt": "2026-07-12T18:58:48.887Z",
+      "timestamp": "2026-07-12T18:59:34.784Z",
+      "approvedAt": "2026-07-12T18:59:34.784Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under 263 after a closing 64 to beat Min Woo Lee by two shots.  Keita Nakajima, Johnny Keefer, Matt Fitzpatrick, and Robert MacIntyre tied for third at 13-under, while Rory McIlroy’s final-round 64 moved him to T7 at 12-under.",
+      "title": "Lucas Glover leads ISCO Championship at -15",
+      "summary": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
+      "quickRead": "Lucas Glover is -15 overall through 1. Closest chasers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -383,39 +417,39 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
+      "tournament": "ISCO Championship",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
-          "thru": "F"
+          "name": "Lucas Glover",
+          "score": "-15",
+          "thru": "1"
         },
         {
           "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
+          "name": "Aaron Wise",
+          "score": "-14",
+          "thru": "1"
         },
         {
           "pos": "T3",
-          "name": "Keita Nakajima",
+          "name": "Stephan Jaeger",
           "score": "-13",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T3",
-          "name": "Johnny Keefer",
+          "name": "Steven Fisk",
           "score": "-13",
-          "thru": "F"
+          "thru": "1"
         },
         {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
+          "pos": "T5",
+          "name": "Thomas Rosenmueller",
+          "score": "-12",
+          "thru": "15"
         }
       ]
     }
