@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T22:41:53.495Z",
+  "updatedAt": "2026-07-12T22:41:54.685Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,61 +21,6 @@
   "today": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T22:41:53.493Z",
-      "approvedAt": "2026-07-12T22:41:53.493Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Taylor Pendrith leads ISCO Championship at -16",
-      "summary": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
-      "quickRead": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Taylor Pendrith",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-16",
-          "thru": "17"
-        },
-        {
-          "pos": "T3",
-          "name": "Ben Silverman",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Aaron Wise",
-          "score": "-15",
-          "thru": "16"
-        },
-        {
-          "pos": "T5",
-          "name": "Davis Chatfield",
-          "score": "-14",
-          "thru": "F"
-        }
-      ]
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "35 min ago",
       "timestamp": "2026-07-12T22:06:41.373Z",
       "approvedAt": "2026-07-12T22:06:41.373Z",
       "status": "Live",
@@ -126,6 +71,27 @@
           "thru": "16"
         }
       ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
+      "timestamp": "2026-07-12T18:53:20.000Z",
+      "approvedAt": "2026-07-12T22:41:54.682Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Tom Kim fires a 64 to claim Genesis Scottish Open title and end near-three-year...",
+      "summary": "Tom Kim's Genesis Scottish Open victory ends a nearly three-year winless drought and secures automatic berths in the 2027 Masters and PGA Championship.",
+      "quickRead": "Tom Kim closed with a final-round 64 at The Renaissance Club to win the 2026 Genesis Scottish Open, his first PGA Tour victory since October 2023, holding off a late charge from Min Woo Lee after taking the lead from Matt Fitzpatrick.  The win locks up Masters and PGA Championship spots next season, boosts his confidence heading into this week’s Open Championship at Royal Birkdale, and signals his long winless stretch may be over.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tom-kim-fires-64-claim-185320357.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tom-kim-fires-64-claim-185320357.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
       "time": "1 hour ago",
@@ -360,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "35 min ago",
+      "time": "Just now",
       "timestamp": "2026-07-12T22:06:27.925Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "1 hour ago",
+      "time": "37 min ago",
       "timestamp": "2026-07-12T21:29:27.926Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,14 +368,67 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T22:41:53.495Z",
-      "approvedAt": "2026-07-12T22:41:53.495Z",
+      "timestamp": "2026-07-12T22:06:45.755Z",
+      "approvedAt": "2026-07-12T22:06:45.755Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim wins Genesis Scottish Open at -17",
+      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under after a closing 64 to beat Min Woo Lee by two shots, with Keita Nakajima and Johnny Keefer next at 13-under.  The win paid Kim $1,575,000 and 500 FedExCup points, giving him a big mid-summer boost heading into the next PGA Tour events.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Keita Nakajima",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-12T22:06:45.756Z",
+      "approvedAt": "2026-07-12T22:06:45.756Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Taylor Pendrith leads ISCO Championship at -16",
-      "summary": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
-      "quickRead": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
+      "summary": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
+      "quickRead": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -422,34 +441,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
           "name": "Taylor Pendrith",
           "score": "-16",
+          "thru": "17"
+        },
+        {
+          "pos": "2",
+          "name": "Steven Fisk",
+          "score": "-15",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Davis Chatfield",
+          "score": "-14",
           "thru": "F"
         },
         {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-16",
+          "pos": "T3",
+          "name": "Kristoffer Ventura",
+          "score": "-14",
           "thru": "17"
         },
         {
           "pos": "T3",
           "name": "Ben Silverman",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Aaron Wise",
-          "score": "-15",
-          "thru": "16"
-        },
-        {
-          "pos": "T5",
-          "name": "Davis Chatfield",
           "score": "-14",
-          "thru": "F"
+          "thru": "16"
         }
       ]
     }
