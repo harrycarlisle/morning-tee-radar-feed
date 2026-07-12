@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T18:59:39.979Z",
+  "updatedAt": "2026-07-12T18:59:45.257Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -402,8 +402,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T18:59:34.784Z",
-      "approvedAt": "2026-07-12T18:59:34.784Z",
+      "timestamp": "2026-07-12T18:59:45.108Z",
+      "approvedAt": "2026-07-12T18:59:45.108Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim wins Genesis Scottish Open at -17",
+      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
+      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under after closing with a 6-under 64 to beat Min Woo Lee by two shots (Lee -15).  Keita Nakajima and Johnny Keefer tied for third at 13-under, with Matt Fitzpatrick and Robert MacIntyre also in that group, while Rory McIlroy’s final-round 64 lifted him to T7 at 12-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Keita Nakajima",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-13",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-12T18:59:45.108Z",
+      "approvedAt": "2026-07-12T18:59:45.108Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
