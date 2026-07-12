@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T13:08:54.006Z",
+  "updatedAt": "2026-07-12T14:51:36.238Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-07-12T14:51:36.235Z",
+      "approvedAt": "2026-07-12T14:51:36.235Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tom Kim leads Genesis Scottish Open at -13",
+      "summary": "Tom Kim is -2 today and -13 overall through 4. Closest chasers: Robert MacIntyre (-13), Matt Fitzpatrick (-12), Min Woo Lee (-12).",
+      "quickRead": "Tom Kim moved to 13-under par to lead the Genesis Scottish Open as Round 4 got underway at The Renaissance Club, with Robert MacIntyre tied for the lead at -13 while Matt Fitzpatrick and Min Woo Lee sat one back at -12.  With McIlroy at -10 and several contenders within three shots, the closing stretch is set up for a tight finish and a possible playoff if the leaders don’t separate.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Genesis Scottish Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-13",
+          "thru": "4"
+        },
+        {
+          "pos": "T1",
+          "name": "Robert MacIntyre",
+          "score": "-13",
+          "thru": "3"
+        },
+        {
+          "pos": "T3",
+          "name": "Matt Fitzpatrick",
+          "score": "-12",
+          "thru": "3"
+        },
+        {
+          "pos": "T3",
+          "name": "Min Woo Lee",
+          "score": "-12",
+          "thru": "3"
+        },
+        {
+          "pos": "T5",
+          "name": "Victor Perez",
+          "score": "-11",
+          "thru": "9"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T12:02:46.000Z",
       "approvedAt": "2026-07-12T13:08:49.449Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/live-leaderboard-updates-kaulig-companies-120246019.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-12T06:00:23.000Z",
       "approvedAt": "2026-07-12T09:46:55.296Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-07-11T15:30:00.000Z",
       "approvedAt": "2026-07-12T09:46:57.815Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-12T02:13:29.367Z",
       "approvedAt": "2026-07-12T02:13:29.367Z",
       "status": "Live",
@@ -132,7 +185,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-11T19:34:49.000Z",
       "approvedAt": "2026-07-12T06:29:13.275Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-11T18:31:04.000Z",
       "approvedAt": "2026-07-12T06:29:13.275Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-11T20:39:27.000Z",
       "approvedAt": "2026-07-11T22:41:55.090Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-07-11T13:58:38.000Z",
       "approvedAt": "2026-07-11T20:42:00.725Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-flirts-history-fires-135838878.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-07-11T17:12:52.000Z",
-      "approvedAt": "2026-07-11T18:54:44.258Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tiger Woods Issues Big Advice to Rory McIlroy & Co. Names the ‘Enemy’ at the Op...",
-      "summary": "With the Open Championship just five days away, in an interview with Sun Day Red, Tiger Woods named the biggest enemy competitors like Rory McIlroy will face at the Royal Birkdale Golf Club.",
-      "quickRead": "Tiger Woods’ advice for Rory McIlroy and the rest at Royal Birkdale is to treat links golf as a ground game where “the air was your enemy,” meaning the wind—not another player—is the biggest threat at The Open.  Woods says the best approach is using the ground as “a friend” by keeping shots low and letting them run, because swirling sea breezes can wreck ball control and quickly turn rounds into disasters.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-issues-big-advice-171252531.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-issues-big-advice-171252531.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -259,19 +293,19 @@
       "timestamp": "2026-07-11T15:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Haeran Ryu Flirts With History, Fires 60 to Put Another Major Within...",
-      "summary": "Haeran Ryu shot an 11-under 60 in the third round of the Evian Championship, missing an eagle putt by inches at the par-5 18th that would’ve given...",
-      "quickRead": "Haeran Ryu shot an 11-under 60 in the third round of the Evian Championship, missing an eagle putt by inches at the par-5 18th that would’ve given her a historic 59 and made her the second LPGA player to break 60.  The 60 tied the second-lowest round in LPGA history, set the lowest round ever in a women’s major, and vaulted the reigning KPMG Women’s PGA champion into position to chase back-to-back majors.",
+      "label": "STAR WATCH",
+      "title": "Rory McIlroy Reveals the Secret That Fixed His Biggest Weakness on th...",
+      "summary": "Rory McIlroy said the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more-forgiving T...",
+      "quickRead": "Rory McIlroy said the “secret” to fixing his biggest weakness—putting—was working with putting coach Brad Faxon and switching to a more-forgiving TaylorMade Spider putter, which helped him eliminate the “bad days” that used to knock him out of tournaments.  He’s taking that renewed confidence into the Genesis Scottish Open lead share and into next week’s Open Championship at Royal Birkdale.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/haeran-ryu-flirts-history-fires-135838878.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-flirts-history-fires-135838878.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-secret-fixed-203927760.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-07-11T13:58:38.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-11T20:39:27.000Z"
     }
   ],
   "checking": {
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-12T13:08:41.052Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T12:31:41.052Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T13:08:52.759Z",
-      "approvedAt": "2026-07-12T13:08:52.759Z",
+      "timestamp": "2026-07-12T14:51:36.238Z",
+      "approvedAt": "2026-07-12T14:51:36.238Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Robert MacIntyre leads Genesis Scottish Open at -12",
-      "summary": "Robert MacIntyre is -12 overall through 1. Closest chasers: Min Woo Lee (-12), Matt Fitzpatrick (-12), Michael Thorbjornsen (-11).",
-      "quickRead": "Robert MacIntyre is -12 overall through 1. Closest chasers: Min Woo Lee (-12), Matt Fitzpatrick (-12), Michael Thorbjornsen (-11).",
+      "title": "Tom Kim leads Genesis Scottish Open at -13",
+      "summary": "Tom Kim is -2 today and -13 overall through 4. Closest chasers: Robert MacIntyre (-13), Matt Fitzpatrick (-12), Min Woo Lee (-12).",
+      "quickRead": "Tom Kim moved to 13-under par to lead the Genesis Scottish Open as Round 4 got underway at The Renaissance Club, with Robert MacIntyre tied for the lead at -13 while Matt Fitzpatrick and Min Woo Lee sat one back at -12.  With McIlroy at -10 and several contenders within three shots, the closing stretch is set up for a tight finish and a possible playoff if the leaders don’t separate.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -355,86 +389,33 @@
       "leaders": [
         {
           "pos": "T1",
+          "name": "Tom Kim",
+          "score": "-13",
+          "thru": "4"
+        },
+        {
+          "pos": "T1",
           "name": "Robert MacIntyre",
-          "score": "-12",
-          "thru": "1"
+          "score": "-13",
+          "thru": "3"
         },
         {
-          "pos": "T1",
-          "name": "Min Woo Lee",
-          "score": "-12",
-          "thru": "1"
-        },
-        {
-          "pos": "T1",
+          "pos": "T3",
           "name": "Matt Fitzpatrick",
           "score": "-12",
-          "thru": "1"
+          "thru": "3"
         },
         {
-          "pos": "T4",
-          "name": "Michael Thorbjornsen",
+          "pos": "T3",
+          "name": "Min Woo Lee",
+          "score": "-12",
+          "thru": "3"
+        },
+        {
+          "pos": "T5",
+          "name": "Victor Perez",
           "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Chris Gotterup",
-          "score": "-11",
-          "thru": "1"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T13:08:52.759Z",
-      "approvedAt": "2026-07-12T13:08:52.759Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Glover wins ISCO Championship at -15",
-      "summary": "Lucas Glover wins ISCO Championship at -15. Nearest finishers: Aaron Wise (-14), Stephan Jaeger (-13), Steven Fisk (-13).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Glover",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Aaron Wise",
-          "score": "-14",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Stephan Jaeger",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Steven Fisk",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Chan Kim",
-          "score": "-13",
-          "thru": "F"
+          "thru": "9"
         }
       ]
     }
