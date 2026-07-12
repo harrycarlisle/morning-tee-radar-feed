@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T22:41:58.160Z",
+  "updatedAt": "2026-07-12T22:41:59.093Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T22:06:45.755Z",
-      "approvedAt": "2026-07-12T22:06:45.755Z",
+      "timestamp": "2026-07-12T22:41:58.984Z",
+      "approvedAt": "2026-07-12T22:41:58.984Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Tom Kim wins Genesis Scottish Open at -17",
       "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under after a closing 64 to beat Min Woo Lee by two shots, with Keita Nakajima and Johnny Keefer next at 13-under.  The win paid Kim $1,575,000 and 500 FedExCup points, giving him a big mid-summer boost heading into the next PGA Tour events.",
+      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing at 17-under (263) with rounds of 65-66-68-64 to beat Min Woo Lee by two shots.  The victory earned Kim $1,575,000 and 500 FedExCup points, while Keita Nakajima and Johnny Keefer tied for third at 13-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -421,14 +421,14 @@
     },
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T22:06:45.756Z",
-      "approvedAt": "2026-07-12T22:06:45.756Z",
+      "timestamp": "2026-07-12T22:41:58.984Z",
+      "approvedAt": "2026-07-12T22:41:58.984Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Taylor Pendrith leads ISCO Championship at -16",
-      "summary": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
-      "quickRead": "Taylor Pendrith is -5 today and -16 overall through 17. Closest chasers: Steven Fisk (-15), Davis Chatfield (-14), Kristoffer Ventura (-14).",
+      "summary": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
+      "quickRead": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -441,34 +441,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
           "name": "Taylor Pendrith",
           "score": "-16",
-          "thru": "17"
-        },
-        {
-          "pos": "2",
-          "name": "Steven Fisk",
-          "score": "-15",
-          "thru": "14"
-        },
-        {
-          "pos": "T3",
-          "name": "Davis Chatfield",
-          "score": "-14",
           "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Kristoffer Ventura",
-          "score": "-14",
+          "pos": "T1",
+          "name": "Steven Fisk",
+          "score": "-16",
           "thru": "17"
         },
         {
           "pos": "T3",
           "name": "Ben Silverman",
-          "score": "-14",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Aaron Wise",
+          "score": "-15",
           "thru": "16"
+        },
+        {
+          "pos": "T5",
+          "name": "Davis Chatfield",
+          "score": "-14",
+          "thru": "F"
         }
       ]
     }
