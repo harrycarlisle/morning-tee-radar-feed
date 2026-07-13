@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-13T10:55:39.583Z",
+  "updatedAt": "2026-07-13T10:55:46.283Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-07-13T09:13:45.000Z",
+      "approvedAt": "2026-07-13T10:55:46.281Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler's missed cut doesn't affect position on PGA Tour money list",
+      "summary": "How the PGA Tour money list changed following the results of the Scottish Open.",
+      "quickRead": "How the PGA Tour money list changed following the results of the Scottish Open.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-schefflers-missed-cut-doesnt-091345117.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-missed-cut-doesnt-091345117.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    },
     {
       "time": "11 hours ago",
       "timestamp": "2026-07-12T23:11:19.000Z",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/wayward-shot-stopped-rory-mcilroys-223131820.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "16 hours ago",
-      "timestamp": "2026-07-12T18:53:20.000Z",
-      "approvedAt": "2026-07-12T22:41:54.682Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tom Kim fires a 64 to claim Genesis Scottish Open title and end near-three-year...",
-      "summary": "Tom Kim's Genesis Scottish Open victory ends a nearly three-year winless drought and secures automatic berths in the 2027 Masters and PGA Championship.",
-      "quickRead": "Tom Kim closed with a final-round 64 at The Renaissance Club to win the 2026 Genesis Scottish Open, his first PGA Tour victory since October 2023, holding off a late charge from Min Woo Lee after taking the lead from Matt Fitzpatrick.  The win locks up Masters and PGA Championship spots next season, boosts his confidence heading into this week’s Open Championship at Royal Birkdale, and signals his long winless stretch may be over.",
+      "label": "STAR WATCH",
+      "title": "Scottie Scheffler's missed cut doesn't affect position on PGA Tour mo...",
+      "summary": "How the PGA Tour money list changed following the results of the Scottish Open.",
+      "quickRead": "How the PGA Tour money list changed following the results of the Scottish Open.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tom-kim-fires-64-claim-185320357.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tom-kim-fires-64-claim-185320357.html",
+      "url": "https://sports.yahoo.com/articles/scottie-schefflers-missed-cut-doesnt-091345117.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-missed-cut-doesnt-091345117.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "timestamp": "2026-07-13T09:13:45.000Z"
+    },
     {
       "label": "LIV WATCH",
       "title": "Seven-time PGA Tour winner suggests if he actually wants Bryson DeCha...",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png",
       "timestamp": "2026-07-13T00:35:08.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy doesn’t hold back after brutal shot at Scottish Open: ‘I...",
-      "summary": "After flubbing his approach on the par-4 16th at the Genesis Scottish Open, Rory McIlroy muttered on the broadcast, “Oh my god, I’m so bad at golf...",
-      "quickRead": "After flubbing his approach on the par-4 16th at the Genesis Scottish Open, Rory McIlroy muttered on the broadcast, “Oh my god, I’m so bad at golf,” after missing the green badly and finding rough.  He made bogey there but bounced back with birdie on 17 and par on 18 to finish T-7 at 12-under, five back of winner Tom Kim, heading into The Open next week.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-doesn-t-hold-214226614.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesn-t-hold-214226614.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-07-12T21:42:26.000Z"
     }
   ],
   "checking": {
