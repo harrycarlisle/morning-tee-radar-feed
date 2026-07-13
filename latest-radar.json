@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-13T17:51:34.738Z",
+  "updatedAt": "2026-07-13T19:18:07.081Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,7 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-13T16:10:53.000Z",
       "approvedAt": "2026-07-13T17:51:26.306Z",
       "status": "Confirmed",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "5 hours ago",
+      "timestamp": "2026-07-13T14:01:35.000Z",
+      "approvedAt": "2026-07-13T19:18:07.078Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "8 reasons Royal Birkdale turns ordinary golf fans into Open Championship diehards",
+      "summary": "Every time The Open Championship returns to Royal Birkdale, the event feels special.",
+      "quickRead": "Every time The Open Championship returns to Royal Birkdale, the event feels special.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/8-reasons-royal-birkdale-turns-140135068.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/8-reasons-royal-birkdale-turns-140135068.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-07-13T17:00:45.000Z",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-missed-cut-doesnt-091345117.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-07-12T23:11:19.000Z",
-      "approvedAt": "2026-07-13T06:49:10.556Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tiger Woods' True Personality Out in the Open as Tom Kim Reveals His Kind Gestu...",
-      "summary": "Tom Kim ended a three-year wait for a PGA Tour win at the Genesis Scottish Open, closing with a bogey-free 64 to claim his fourth career title.",
-      "quickRead": "Tom Kim said Tiger Woods was “the first person that texted me” after Kim won the Genesis Scottish Open, adding it “shows you the person he is and how much he cares. ” Kim’s bogey-free 64 ended a three-year PGA Tour win drought and he credited access to Woods on his TGL team for being able to ask questions and learn how to approach the game.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-true-personality-open-231119293.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-true-personality-open-231119293.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "1 hour ago",
+      "time": "Just now",
       "timestamp": "2026-07-13T17:51:12.683Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
+      "time": "37 min ago",
       "timestamp": "2026-07-13T17:14:12.684Z",
       "status": "Trending",
       "signal": "Reddit find",
