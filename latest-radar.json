@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-12T23:45:31.658Z",
+  "updatedAt": "2026-07-13T02:15:20.029Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-07-13T02:15:20.026Z",
+      "approvedAt": "2026-07-13T02:15:20.026Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark wins U.S. Open at -4",
+      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-1",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Keith Mitchell",
+          "score": "E",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T22:06:41.373Z",
       "approvedAt": "2026-07-12T22:06:41.373Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "30 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T23:14:31.000Z",
       "approvedAt": "2026-07-12T23:45:23.314Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-12T22:02:39.000Z",
       "approvedAt": "2026-07-12T23:45:23.316Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T22:31:31.000Z",
       "approvedAt": "2026-07-12T23:08:49.311Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-12T18:53:20.000Z",
       "approvedAt": "2026-07-12T22:41:54.682Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-12T21:05:00.000Z",
       "approvedAt": "2026-07-12T22:06:42.477Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-12T14:31:01.000Z",
       "approvedAt": "2026-07-12T22:06:42.478Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-12T21:05:49.806Z",
       "approvedAt": "2026-07-12T21:05:49.806Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "11"
         }
       ]
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-07-12T19:45:37.000Z",
-      "approvedAt": "2026-07-12T20:07:41.168Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy didn't win Genesis Scottish Open, but took home the quote of the w...",
-      "summary": "It was a topsy turvy weekend at the Genesis Scottish Open for Rory McIlroy.",
-      "quickRead": "After yanking his approach on the 16th into the rough in the final round, Rory McIlroy blurted, “Oh my God… I am so bad at golf,” then repeated it louder.  He still shot a closing 6-under 64 to finish 12-under and T4 at the Genesis Scottish Open, and said he needs work before The Open at Royal Birkdale—especially practicing in a right-to-left wind to fix his path/face issues.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-didnt-win-genesis-194537557.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-didnt-win-genesis-194537557.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-07-12T23:45:09.708Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-12T23:08:09.709Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-12T23:45:27.377Z",
-      "approvedAt": "2026-07-12T23:45:27.377Z",
+      "timestamp": "2026-07-13T02:15:20.029Z",
+      "approvedAt": "2026-07-13T02:15:20.029Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim wins Genesis Scottish Open at -17",
-      "summary": "Tom Kim wins Genesis Scottish Open at -17. Nearest finishers: Min Woo Lee (-15), Keita Nakajima (-13), Johnny Keefer (-13).",
-      "quickRead": "Tom Kim won the 2026 Genesis Scottish Open at The Renaissance Club, finishing -17 after rounds of 65-66-68-64 to beat Min Woo Lee by two shots at -15.  Kim earned $1,575,000 and 500 FedExCup points, while Keita Nakajima and Johnny Keefer shared third at -13 as several big names (Rory McIlroy T7, Jon Rahm T36) finished back.",
+      "title": "Wyndham Clark wins U.S. Open at -4",
+      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -383,91 +417,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "Genesis Scottish Open",
+      "tournament": "U.S. Open",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Tom Kim",
-          "score": "-17",
+          "name": "Wyndham Clark",
+          "score": "-4",
           "thru": "F"
         },
         {
           "pos": "2",
-          "name": "Min Woo Lee",
-          "score": "-15",
+          "name": "Sam Burns",
+          "score": "-3",
           "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Keita Nakajima",
-          "score": "-13",
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-1",
           "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-13",
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
           "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Matt Fitzpatrick",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-12T23:45:27.377Z",
-      "approvedAt": "2026-07-12T23:45:27.377Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Taylor Pendrith leads ISCO Championship at -16",
-      "summary": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
-      "quickRead": "Taylor Pendrith is -5 today and -16 overall through F. Closest chasers: Steven Fisk (-16), Ben Silverman (-15), Aaron Wise (-15).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "ISCO Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Taylor Pendrith",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Steven Fisk",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Ben Silverman",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Aaron Wise",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Davis Chatfield",
-          "score": "-14",
+          "pos": "T4",
+          "name": "Keith Mitchell",
+          "score": "E",
           "thru": "F"
         }
       ]
