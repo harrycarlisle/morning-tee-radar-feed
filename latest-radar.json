@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-13T14:22:49.595Z",
+  "updatedAt": "2026-07-13T17:51:26.309Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-07-13T16:10:53.000Z",
+      "approvedAt": "2026-07-13T17:51:26.306Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "The Open 2026 round one and two tee times including Rory McIlroy and Scottie Sc...",
+      "summary": "Scheffler defends his title at an intriguing edition of the major at Royal Birkdale",
+      "quickRead": "Scheffler defends his title at an intriguing edition of the major at Royal Birkdale",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/open-2026-round-one-two-161053845.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/open-2026-round-one-two-161053845.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-07-13T09:30:00.000Z",
       "approvedAt": "2026-07-13T10:55:39.579Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-claimed-made-concerning-093000902.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-13T11:00:00.000Z",
       "approvedAt": "2026-07-13T14:22:45.615Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-13T11:31:03.000Z",
       "approvedAt": "2026-07-13T14:22:45.616Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-13T09:13:45.000Z",
       "approvedAt": "2026-07-13T10:55:46.281Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-12T23:11:19.000Z",
       "approvedAt": "2026-07-13T06:49:10.556Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-13T00:35:08.000Z",
       "approvedAt": "2026-07-13T06:49:13.864Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-12T21:42:26.000Z",
       "approvedAt": "2026-07-13T06:49:13.864Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-13T00:30:36.000Z",
       "approvedAt": "2026-07-13T06:49:13.864Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-loses-historic-streak-003036736.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-07-12T23:14:31.000Z",
-      "approvedAt": "2026-07-12T23:45:23.314Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Makes Honest Admission About Scottish Open Performance",
-      "summary": "Rory McIlroy offered an honest assessment of his play at the Genesis Scottish Open.",
-      "quickRead": "Rory McIlroy’s blunt admission after his Scottish Open hopes unraveled on Sunday was caught on a hot mic: “Oh my god, I’m so bad at golf! ” after pushing his approach into thick rough on the par-4 16th.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-makes-honest-admission-231431840.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-makes-honest-admission-231431840.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -210,6 +210,21 @@
       "timestamp": "2026-07-13T09:13:45.000Z"
     },
     {
+      "label": "MAJOR WATCH",
+      "title": "The Open 2026 round one and two tee times including Rory McIlroy and...",
+      "summary": "Scheffler defends his title at an intriguing edition of the major at Royal Birkdale",
+      "quickRead": "Scheffler defends his title at an intriguing edition of the major at Royal Birkdale",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/open-2026-round-one-two-161053845.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/open-2026-round-one-two-161053845.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-13T16:10:53.000Z"
+    },
+    {
       "label": "LIV WATCH",
       "title": "Seven-time PGA Tour winner suggests if he actually wants Bryson DeCha...",
       "summary": "Webb Simpson has suggested that the PGA Tour would benefit from Jon Rahm and Bryson DeChambeau returning, but issued the LIV Golf pair with a warni...",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-07-09T22:30:00.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "The PGA Tour lost its way. So why are we feeling so bullish on its fu...",
-      "summary": "The last few years have been rough for PGA Tour traditionalists, but the smart, extensive changes on the horizon give hope for a compelling competi...",
-      "quickRead": "The last few years have been rough for PGA Tour traditionalists, but the smart, extensive changes on the horizon give hope for a compelling competitive future",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-lost-way-why-110000011.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-lost-way-why-110000011.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-07-13T11:00:00.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-13T14:22:38.208Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-13T13:45:38.208Z",
       "status": "Trending",
       "signal": "Reddit find",
