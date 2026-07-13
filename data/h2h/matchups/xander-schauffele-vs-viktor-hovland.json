@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-viktor-hovland",
-  "updatedAt": "2026-07-06T18:07:43.033Z",
+  "updatedAt": "2026-07-13T17:33:42.741Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 112,
+    "sharedStarts": 113,
     "playerAWins": 66,
-    "playerBWins": 39,
+    "playerBWins": 40,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 986 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

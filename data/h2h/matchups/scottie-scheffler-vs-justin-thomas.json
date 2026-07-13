@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-justin-thomas",
-  "updatedAt": "2026-07-06T17:04:09.065Z",
+  "updatedAt": "2026-07-13T16:25:00.325Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 109,
+    "sharedStarts": 110,
     "playerAWins": 73,
-    "playerBWins": 30,
+    "playerBWins": 31,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 949 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

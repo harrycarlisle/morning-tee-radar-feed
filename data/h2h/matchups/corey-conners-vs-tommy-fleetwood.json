@@ -1,6 +1,6 @@
 {
   "matchupId": "corey-conners-vs-tommy-fleetwood",
-  "updatedAt": "2026-07-06T18:07:44.841Z",
+  "updatedAt": "2026-07-13T17:33:45.315Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 116,
+    "sharedStarts": 117,
     "playerAWins": 47,
-    "playerBWins": 62,
+    "playerBWins": 63,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Corey Conners",
+        "dgId": 17576,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 39 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

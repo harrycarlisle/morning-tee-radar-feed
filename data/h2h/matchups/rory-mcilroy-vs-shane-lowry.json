@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-shane-lowry",
-  "updatedAt": "2026-07-06T18:01:59.629Z",
+  "updatedAt": "2026-07-13T17:27:59.897Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2009,
-    "sharedStarts": 142,
-    "playerAWins": 102,
+    "sharedStarts": 143,
+    "playerAWins": 103,
     "playerBWins": 33,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Shane Lowry",
+        "dgId": 13900,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 992 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

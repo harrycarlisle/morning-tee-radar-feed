@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-justin-thomas",
-  "updatedAt": "2026-07-06T17:56:18.145Z",
+  "updatedAt": "2026-07-13T17:22:19.375Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 155,
-    "playerAWins": 86,
+    "sharedStarts": 156,
+    "playerAWins": 87,
     "playerBWins": 60,
     "ties": 9
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T50",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 43 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

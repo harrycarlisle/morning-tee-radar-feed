@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-brooks-koepka",
-  "updatedAt": "2026-07-06T18:07:42.585Z",
+  "updatedAt": "2026-07-13T17:33:42.054Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 89,
-    "playerAWins": 46,
+    "sharedStarts": 90,
+    "playerAWins": 47,
     "playerBWins": 40,
     "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T36",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 963 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

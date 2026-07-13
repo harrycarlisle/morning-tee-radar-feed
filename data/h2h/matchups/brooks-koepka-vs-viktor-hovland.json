@@ -1,6 +1,6 @@
 {
   "matchupId": "brooks-koepka-vs-viktor-hovland",
-  "updatedAt": "2026-07-06T18:36:19.685Z",
+  "updatedAt": "2026-07-13T18:02:22.250Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 57,
+    "sharedStarts": 58,
     "playerAWins": 22,
-    "playerBWins": 31,
+    "playerBWins": 32,
     "ties": 4
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Brooks Koepka",
+        "dgId": 16243,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 986 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

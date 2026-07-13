@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-patrick-cantlay",
-  "updatedAt": "2026-07-06T18:07:43.401Z",
+  "updatedAt": "2026-07-13T17:33:43.247Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2015,
-    "sharedStarts": 145,
+    "sharedStarts": 146,
     "playerAWins": 66,
     "playerBWins": 65,
-    "ties": 14
+    "ties": 15
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

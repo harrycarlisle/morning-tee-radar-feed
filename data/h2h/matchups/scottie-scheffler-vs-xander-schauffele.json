@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-xander-schauffele",
-  "updatedAt": "2026-07-06T17:04:08.510Z",
+  "updatedAt": "2026-07-13T16:24:59.497Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 106,
+    "sharedStarts": 107,
     "playerAWins": 58,
     "playerBWins": 40,
-    "ties": 8
+    "ties": 9
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

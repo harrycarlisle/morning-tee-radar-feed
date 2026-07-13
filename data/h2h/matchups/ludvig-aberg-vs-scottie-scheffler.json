@@ -1,6 +1,6 @@
 {
   "matchupId": "ludvig-aberg-vs-scottie-scheffler",
-  "updatedAt": "2026-07-06T18:31:03.759Z",
+  "updatedAt": "2026-07-13T18:02:21.498Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 44,
+    "sharedStarts": 45,
     "playerAWins": 7,
     "playerBWins": 36,
-    "ties": 1
+    "ties": 2
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-12",
+      "eventId": 541,
+      "eventName": "Genesis Scottish Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",
