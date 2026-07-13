@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-13T06:49:13.866Z",
+  "updatedAt": "2026-07-13T06:49:16.849Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -297,59 +297,5 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": [
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-13T02:15:20.029Z",
-      "approvedAt": "2026-07-13T02:15:20.029Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark wins U.S. Open at -4",
-      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "U.S. Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Wyndham Clark",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Sam Burns",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Tom Kim",
-          "score": "-1",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "J.T. Poston",
-          "score": "E",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "E",
-          "thru": "F"
-        }
-      ]
-    }
-  ]
+  "liveLeaderboards": []
 }
