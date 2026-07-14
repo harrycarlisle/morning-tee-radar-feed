@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-13T04:02:24.583Z",
+  "lastUpdated": "2026-07-14T04:17:02.947Z",
   "edition": "evening",
   "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Wyndham Clark leads U.S. Open",
-      "text": "Wyndham Clark finished the U.S. Open at -4, holding a one-shot lead over Sam Burns (-3) and three shots clear of Tom Kim (-1)."
+      "headline": "Oosthuizen Withdraws from Open",
+      "text": "2010 Open leader Louis Oosthuizen withdrew from the 2026 Open Championship at Royal Birkdale due to a back injury, with his spot going to 21-year-old LIV golfer Aldrich Potgieter."
     },
     {
-      "headline": "Zach Johnson leads senior major",
-      "text": "Zach Johnson leads the Kaulig Companies Champions Championship by six shots at 15-under 265, securing his first PGA Tour Champions major and a spot in next year's Players Championship."
+      "headline": "Woods Delays Return for Personal Reasons",
+      "text": "Tiger Woods put golf on hold while supporting his girlfriend, Vanessa Trump, through breast cancer and ongoing court issues, making a 2027 comeback the earliest possibility."
     },
     {
-      "headline": "Haeran Ryu repeats at Evian",
-      "text": "Haeran Ryu leads the Amundi Evian Championship in a playoff over Brooke Henderson for her second major in three weeks, after closing with a clutch two-putt birdie on the first extra hole."
+      "headline": "Korda and Ryu Dominate LPGA Majors",
+      "text": "Nelly Korda and Haeran Ryu each leads two LPGA majors in 2026, the first golfers to do so in the same calendar year, marking a defining season in women's golf."
     }
   ],
-  "itemsLastUpdated": "2026-07-13T04:02:24.583Z",
+  "itemsLastUpdated": "2026-07-14T04:17:02.947Z",
   "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-13T04:02:24.583Z",
+  "lastSuccessfulStoryUpdate": "2026-07-14T04:17:02.947Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 8,
+  "sourceItemsLoaded": 12,
+  "candidateItemsSelected": 10,
   "openaiAttempted": true,
-  "openaiOutputLength": 785,
+  "openaiOutputLength": 819,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_927c2d9543e847e299aeace8b5858956",
+  "openaiRequestId": "req_ed86d9b2666f425a9014d69447ad9ede",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-13T04:02:24.582Z",
+  "diagnosticUpdatedAt": "2026-07-14T04:17:02.947Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
