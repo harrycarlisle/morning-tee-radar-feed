@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-15T13:25:56.118Z",
+  "updatedAt": "2026-07-15T13:25:59.016Z",
   "stories": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-07-15T11:00:00.000Z",
+      "approvedAt": "2026-07-15T13:25:57.573Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "‘Dawgs Across The Pond For Season’s Final Major",
+      "summary": "Tournament: 154th Open Championship, July 16-19, 2025 Course: Royal Birkdale Golf Club, par 70, 7,223 yards.",
+      "quickRead": "The 154th Open Championship tees off at Royal Birkdale (par 70, 7,223 yards) with a $17 million purse ($3. 1 million to the winner), and Scottie Scheffler is the defending champion after beating Harris English by four shots.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/dawgs-across-pond-season-final-110000913.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/dawgs-across-pond-season-final-110000913.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-07-15T13:25:59.016Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-07-15T11:30:00.000Z",
@@ -1879,26 +1899,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-07-09T07:33:33.858Z"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-07-08T17:48:37.000Z",
-      "approvedAt": "2026-07-09T02:30:23.159Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "We Can’t Have Rory McIlroy Playing Football This Close to The Open",
-      "summary": "You know what they say about lightning striking twice, but still, we can't have Rory McIlroy playing football (soccer for us Americans) this close to The Open.",
-      "quickRead": "You know what they say about lightning striking twice, but still, we can't have Rory McIlroy playing football (soccer for us Americans) this close to The Open.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/t-rory-mcilroy-playing-football-174837964.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/t-rory-mcilroy-playing-football-174837964.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "archivedAt": "2026-07-09T02:30:24.306Z"
     }
   ]
 }
