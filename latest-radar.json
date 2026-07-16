@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T15:29:35.694Z",
+  "updatedAt": "2026-07-16T17:09:56.699Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-16T17:09:56.697Z",
+      "approvedAt": "2026-07-16T17:09:56.697Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Todd Clements wins Corales Puntacana Championship at -7",
+      "summary": "Todd Clements wins Corales Puntacana Championship at -7. Nearest finishers: Austin Eckroat (-6), Alejandro Del Rey (-6), David Ravetto (-5).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Todd Clements",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Austin Eckroat",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Alejandro Del Rey",
+          "score": "-6",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "David Ravetto",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Chan Kim",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T15:29:28.103Z",
       "approvedAt": "2026-07-16T15:29:28.103Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T15:25:24.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-16T11:12:16.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-16T06:13:02.403Z",
       "approvedAt": "2026-07-16T06:13:02.403Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-16T05:30:00.000Z",
       "approvedAt": "2026-07-16T13:39:44.829Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-16T10:30:00.000Z",
       "approvedAt": "2026-07-16T13:39:44.829Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-16T08:30:00.000Z",
       "approvedAt": "2026-07-16T10:03:24.031Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-16T02:08:50.000Z",
       "approvedAt": "2026-07-16T10:03:24.033Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-looking-snap-ugly-020850815.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-07-16T05:11:29.000Z",
-      "approvedAt": "2026-07-16T06:13:03.408Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Mercedes-Benz Marks the Return of the Claret Jug at The Open Championship",
-      "summary": "For over a decade, Mercedes-Benz has played a significant role in one of golf’s most iconic traditions.",
-      "quickRead": "Scottie Scheffler arrived at Royal Birkdale in a brand-new Mercedes‑Benz S‑Class carrying the Claret Jug and formally handed it to R&A CEO Mark Darbon to kick off the 154th Open Championship.  The “Return of the Claret Jug” ceremony—presented by Mercedes‑Benz since it became an Open Patron in 2011—puts the trophy on display before it’s awarded to this year’s Champion Golfer of the Year.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/mercedes-benz-marks-return-claret-051129023.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/mercedes-benz-marks-return-claret-051129023.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T15:29:18.447Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-16T14:52:18.447Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T15:29:34.071Z",
-      "approvedAt": "2026-07-16T15:29:34.071Z",
+      "timestamp": "2026-07-16T17:09:56.699Z",
+      "approvedAt": "2026-07-16T17:09:56.700Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads The Open Championship at -4",
-      "summary": "Sungjae Im is -4 today and -4 overall through F. Closest chasers: Dan Brown (-4), Thomas Detry (-3), Robert MacIntyre (-3).",
-      "quickRead": "Sungjae Im and Dan Brown share the early lead at Royal Birkdale after opening with 4-under 66s in Round 1 of the 2026 Open Championship, one shot clear of a six-man group at 3-under that includes Bryson DeChambeau, Thomas Detry and Robert MacIntyre.  Scottie Scheffler sits two back after a 2-under 68 while Rory McIlroy is even-par 70, setting up a packed leaderboard heading into Friday.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Sungjae Im",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Dan Brown",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Thomas Detry",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Robert MacIntyre",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Francesco Molinari",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T15:29:34.071Z",
-      "approvedAt": "2026-07-16T15:29:34.072Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements leads Corales Puntacana Championship at -8",
-      "summary": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
-      "quickRead": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
+      "title": "Todd Clements wins Corales Puntacana Championship at -7",
+      "summary": "Todd Clements wins Corales Puntacana Championship at -7. Nearest finishers: Austin Eckroat (-6), Alejandro Del Rey (-6), David Ravetto (-5).",
+      "quickRead": "",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -443,32 +424,32 @@
         {
           "pos": "1",
           "name": "Todd Clements",
-          "score": "-8",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
-          "name": "Chan Kim",
-          "score": "-6",
-          "thru": "17"
+          "score": "-7",
+          "thru": "F"
         },
         {
           "pos": "T2",
           "name": "Austin Eckroat",
           "score": "-6",
-          "thru": "15"
+          "thru": "F"
         },
         {
-          "pos": "4",
+          "pos": "T2",
           "name": "Alejandro Del Rey",
-          "score": "-5",
-          "thru": "13*"
+          "score": "-6",
+          "thru": "F*"
         },
         {
-          "pos": "T5",
-          "name": "Joel Girrbach",
-          "score": "-4",
-          "thru": "17"
+          "pos": "T4",
+          "name": "David Ravetto",
+          "score": "-5",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Chan Kim",
+          "score": "-5",
+          "thru": "F"
         }
       ]
     }
