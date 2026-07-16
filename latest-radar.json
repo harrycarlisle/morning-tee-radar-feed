@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T17:10:04.315Z",
+  "updatedAt": "2026-07-16T19:02:42.426Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-16T19:02:42.423Z",
+      "approvedAt": "2026-07-16T19:02:42.423Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jackson Suber wins The Open Championship at -5",
+      "summary": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
+      "quickRead": "Jackson Suber won the Open Championship at Royal Birkdale at 5-under, finishing one shot clear of Sungjae Im and Dan Brown (both -4), with Thomas Detry next at -3.  The win came off a closing 65, while top names like Scottie Scheffler (68, -2) and Bryson DeChambeau (67, -3) finished a few back.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Dan Brown",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Thomas Detry",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Robert MacIntyre",
+          "score": "-3",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T17:09:56.697Z",
       "approvedAt": "2026-07-16T17:09:56.697Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T15:50:00.000Z",
       "approvedAt": "2026-07-16T17:09:58.478Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "31 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-16T16:38:03.000Z",
       "approvedAt": "2026-07-16T17:09:58.479Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T15:41:19.000Z",
       "approvedAt": "2026-07-16T17:09:58.479Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T15:29:28.103Z",
       "approvedAt": "2026-07-16T15:29:28.103Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T15:25:24.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-16T11:12:16.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-16T05:30:00.000Z",
       "approvedAt": "2026-07-16T13:39:44.829Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/golf/live/british-open-thursday-live-updates-leaderboard-scottie-scheffler-is-on-a-heater-early-053000601.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-07-16T10:30:00.000Z",
-      "approvedAt": "2026-07-16T13:39:44.829Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau responds to claims he should have to play on the Korn Ferry T...",
-      "summary": "Bryson DeChambeau has unsurprisingly questioned the idea that he should be forced to start on the Korn Ferry Tour should he leave LIV Golf and attempt to return to the PGA Tour.",
-      "quickRead": "Bryson DeChambeau rejected the idea that LIV players should have to restart on the Korn Ferry Tour if LIV folds, saying it would be a “waste” and adding, “For players that do have exemptions I think it’s fair that we utilise those exemptions. ” His comments come amid uncertainty about LIV’s future and reported meetings between his team and PGA Tour officials, with a potential return route likely hinging on PGA Tour membership and exemption status.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-responds-claims-play-103000391.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-responds-claims-play-103000391.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -278,19 +312,19 @@
       "timestamp": "2026-07-16T05:30:00.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "Bryson DeChambeau responds to claims he should have to play on the Ko...",
-      "summary": "Bryson DeChambeau rejected the idea that LIV players should have to restart on the Korn Ferry Tour if LIV folds, saying it would be a “waste” and a...",
-      "quickRead": "Bryson DeChambeau rejected the idea that LIV players should have to restart on the Korn Ferry Tour if LIV folds, saying it would be a “waste” and adding, “For players that do have exemptions I think it’s fair that we utilise those exemptions. ” His comments come amid uncertainty about LIV’s future and reported meetings between his team and PGA Tour officials, with a potential return route likely hinging on PGA Tour membership and exemption status.",
+      "label": "MAJOR WATCH",
+      "title": "British Open 2026: Bryson DeChambeau isn't talking to the media, again",
+      "summary": "After shooting an opening-round 67 at Royal Birkdale, Bryson DeChambeau told the R&A he was declining to speak to TV or print media, answering only...",
+      "quickRead": "After shooting an opening-round 67 at Royal Birkdale, Bryson DeChambeau told the R&A he was declining to speak to TV or print media, answering only a few questions from an R&A official—his fifth straight major round in 2026 without post-round media.  It’s notable because he’s in contention (T-3, one back) amid major uncertainty about his future, with LIV’s funding shaken and his contract expiring after the year.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-responds-claims-play-103000391.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-responds-claims-play-103000391.html",
+      "url": "https://sports.yahoo.com/articles/british-open-2026-bryson-dechambeau-154119344.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/british-open-2026-bryson-dechambeau-154119344.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-07-16T10:30:00.000Z"
+      "timestamp": "2026-07-16T15:41:19.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T17:09:44.668Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-16T16:32:44.669Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T17:10:02.637Z",
-      "approvedAt": "2026-07-16T17:10:02.637Z",
+      "timestamp": "2026-07-16T19:02:42.426Z",
+      "approvedAt": "2026-07-16T19:02:42.426Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber leads The Open Championship at -5",
-      "summary": "Jackson Suber is -5 today and -5 overall through F. Closest chasers: Sungjae Im (-4), Dan Brown (-4), Pierceson Coody (-4).",
-      "quickRead": "Jackson Suber holds the early lead at The Open Championship at Royal Birkdale at 5-under par through 17 holes of Round 1, with Sungjae Im and Dan Brown a shot back at 4-under after opening 66s.  Bryson DeChambeau, Collin Morikawa and Robert MacIntyre sit two behind at 3-under, while Scottie Scheffler is 2-under after a 68 as the first-round leaderboard tightens.",
+      "title": "Jackson Suber wins The Open Championship at -5",
+      "summary": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
+      "quickRead": "Jackson Suber won the Open Championship at Royal Birkdale at 5-under, finishing one shot clear of Sungjae Im and Dan Brown (both -4), with Thomas Detry next at -3.  The win came off a closing 65, while top names like Scottie Scheffler (68, -2) and Bryson DeChambeau (67, -3) finished a few back.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -406,68 +440,15 @@
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Pierceson Coody",
-          "score": "-4",
-          "thru": "15"
-        },
-        {
-          "pos": "T5",
+          "pos": "T4",
           "name": "Thomas Detry",
           "score": "-3",
           "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T17:10:02.637Z",
-      "approvedAt": "2026-07-16T17:10:02.637Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements wins Corales Puntacana Championship at -7",
-      "summary": "Todd Clements wins Corales Puntacana Championship at -7. Nearest finishers: Austin Eckroat (-6), Alejandro Del Rey (-6), David Ravetto (-5).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Todd Clements",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Austin Eckroat",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Alejandro Del Rey",
-          "score": "-6",
-          "thru": "F*"
         },
         {
           "pos": "T4",
-          "name": "David Ravetto",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T4",
-          "name": "Chan Kim",
-          "score": "-5",
+          "name": "Robert MacIntyre",
+          "score": "-3",
           "thru": "F"
         }
       ]
