@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T19:02:42.426Z",
+  "updatedAt": "2026-07-16T19:02:43.908Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,6 +74,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-07-16T17:20:20.000Z",
+      "approvedAt": "2026-07-16T19:02:43.906Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Former Rebel Jackson Suber leads the Open Championship",
+      "summary": "You read that right.",
+      "quickRead": "Former Ole Miss golfer Jackson Suber shot 5-under 65 to lead after Round 1 of the Open Championship at Royal Birkdale, highlighted by six birdies and an eagle on 17 despite three bogeys.  He’s one clear of the nearest chasers and ahead of stars like Scottie Scheffler, Collin Morikawa, Bryson DeChambeau and Jordan Spieth, setting up a surprise weekend contender.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/former-rebel-jackson-suber-leads-172020457.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/former-rebel-jackson-suber-leads-172020457.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-07-16T17:09:56.697Z",
@@ -183,59 +202,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/british-open-2026-bryson-dechambeau-154119344.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-07-16T15:29:28.103Z",
-      "approvedAt": "2026-07-16T15:29:28.103Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements leads Corales Puntacana Championship at -8",
-      "summary": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
-      "quickRead": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Todd Clements",
-          "score": "-8",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
-          "name": "Chan Kim",
-          "score": "-6",
-          "thru": "17"
-        },
-        {
-          "pos": "T2",
-          "name": "Austin Eckroat",
-          "score": "-6",
-          "thru": "15"
-        },
-        {
-          "pos": "4",
-          "name": "Alejandro Del Rey",
-          "score": "-5",
-          "thru": "13*"
-        },
-        {
-          "pos": "T5",
-          "name": "Joel Girrbach",
-          "score": "-4",
-          "thru": "17"
-        }
-      ]
     },
     {
       "time": "3 hours ago",
