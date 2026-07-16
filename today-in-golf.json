@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-15T04:16:58.215Z",
+  "lastUpdated": "2026-07-16T04:25:46.889Z",
   "edition": "evening",
-  "label": "Last checked at 8 p.m. ET",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Oosthuizen Withdraws from Open",
-      "text": "2010 Open leader Louis Oosthuizen withdrew from the 2026 Open Championship at Royal Birkdale due to a back injury, with his spot going to 21-year-old LIV golfer Aldrich Potgieter."
+      "headline": "Bryson DeChambeau's Struggles",
+      "text": "Bryson DeChambeau faces missing the cut in all four majors this year, turning down the PGA Tour's return offer from LIV Golf amid LIV's financial collapse, and risking becoming the only under-40 multi-major leader to miss every major cut in 2026."
     },
     {
-      "headline": "Woods Delays Return for Personal Reasons",
-      "text": "Tiger Woods put golf on hold while supporting his girlfriend, Vanessa Trump, through breast cancer and ongoing court issues, making a 2027 comeback the earliest possibility."
-    },
-    {
-      "headline": "Korda and Ryu Dominate LPGA Majors",
-      "text": "Nelly Korda and Haeran Ryu each leads two LPGA majors in 2026, the first golfers to do so in the same calendar year, marking a defining season in women's golf."
+      "headline": "2026 Open Championship Changes",
+      "text": "The Open at Royal Birkdale features major course changes including a new par-3 15th and a 600-yard par-5 14th, challenging contenders as defending leader Scottie Scheffler seeks redemption after missing a cut for the first time since 2022."
     }
   ],
-  "itemsLastUpdated": "2026-07-14T04:17:02.947Z",
+  "itemsLastUpdated": "2026-07-16T04:25:46.889Z",
   "itemsEdition": "evening",
-  "usedFallback": true,
-  "fallbackReason": "generated_items_rejected",
-  "fallbackStage": "item_cleaning",
-  "lastSuccessfulStoryUpdate": "2026-07-14T04:17:02.947Z",
-  "itemsChanged": false,
+  "usedFallback": false,
+  "fallbackReason": "",
+  "fallbackStage": "",
+  "lastSuccessfulStoryUpdate": "2026-07-16T04:25:46.889Z",
+  "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 9,
+  "candidateItemsSelected": 10,
   "openaiAttempted": true,
-  "openaiOutputLength": 949,
+  "openaiOutputLength": 999,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,19 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_ab89f86e9f4740a48f5e9bfc0b0efb32",
+  "openaiRequestId": "req_95dd977ae55b420cb3acd6c13615483b",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 1,
-  "rejectedItemsCount": 2,
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
   "rejectedReasons": [
     {
       "reason": "duplicate topic: scheffler",
-      "count": 2
+      "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-07-15T04:16:58.215Z",
+  "diagnosticUpdatedAt": "2026-07-16T04:25:46.888Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
