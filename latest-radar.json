@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T10:03:29.991Z",
+  "updatedAt": "2026-07-16T13:39:43.754Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-16T13:39:43.751Z",
+      "approvedAt": "2026-07-16T13:39:43.751Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads The Open Championship at -4",
+      "summary": "Sungjae Im is -4 today and -4 overall through F. Closest chasers: Dan Brown (-4), Thomas Detry (-3), Robert MacIntyre (-3).",
+      "quickRead": "Alex Smalley is the early first-round leader at The Open Championship at Royal Birkdale, sitting at 5-under through 17 holes, with Sungjae Im and Dan Brown tied for second after matching 66s (4-under).  Thomas Detry, Robert MacIntyre and Francesco Molinari are one back at 3-under, while Scottie Scheffler is also 3-under through 15 as the opening round continues.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sungjae Im",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Dan Brown",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Thomas Detry",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Robert MacIntyre",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Francesco Molinari",
+          "score": "-3",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-07-16T06:13:02.403Z",
       "approvedAt": "2026-07-16T06:13:02.403Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-16T08:30:00.000Z",
       "approvedAt": "2026-07-16T10:03:24.031Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-16T02:08:50.000Z",
       "approvedAt": "2026-07-16T10:03:24.033Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-16T05:11:29.000Z",
       "approvedAt": "2026-07-16T06:13:03.408Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-15T19:30:00.000Z",
       "approvedAt": "2026-07-16T06:13:03.408Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-07-15T17:39:38.000Z",
       "approvedAt": "2026-07-15T19:03:27.906Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-15T17:44:31.000Z",
       "approvedAt": "2026-07-16T02:07:34.034Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-07-15T16:16:14.000Z",
       "approvedAt": "2026-07-16T02:07:34.034Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scheffler-seeks-redemption-fleetwood-returns-161614881.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "12 hours ago",
-      "timestamp": "2026-07-15T21:22:27.000Z",
-      "approvedAt": "2026-07-15T22:54:53.918Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "‘He’s a Bully’: Rory McIlroy’s Biggest Weapon Comes Under Fire Ahead of the Open",
-      "summary": "Rory McIlroy’s decision to play fewer events this year has sparked a debate about whether he can still summon the aggressive mindset that once dominated the sport.",
-      "quickRead": "Taylor Zarzour and Gary Williams say Rory McIlroy’s best weapon is being a “bully,” but his lighter 2026 schedule may be dulling that edge—Zarzour warned “you’re going to see [him] have a harder time… putting four rounds together” after weeks off and said you “can’t just turn it on” at The Open.  The concern is that fewer competitive reps have hurt his commitment/confidence with irons, making him more vulnerable to an off round against Scottie Scheffler, last year’s Open champion and this week’s betting favorite.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bully-rory-mcilroy-biggest-weapon-212227134.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bully-rory-mcilroy-biggest-weapon-212227134.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T10:03:14.138Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-16T09:26:14.138Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T10:03:28.729Z",
-      "approvedAt": "2026-07-16T10:03:28.729Z",
+      "timestamp": "2026-07-16T13:39:43.754Z",
+      "approvedAt": "2026-07-16T13:39:43.754Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Thomas Detry leads The Open Championship at -3",
-      "summary": "Thomas Detry is -3 today and -3 overall through F. Closest chasers: Robert MacIntyre (-3), Alex Smalley (-3), Sungjae Im (-2).",
-      "quickRead": "Thomas Detry posted a 3-under 67 to finish his opening round at Royal Birkdale tied for the lead at -3 with Robert MacIntyre, Dan Brown and Alex Smalley.  Sungjae Im and a group that includes Scottie Scheffler and Bryson DeChambeau sit one back at -2, setting up a crowded leaderboard early in The Open Championship.",
+      "title": "Sungjae Im leads The Open Championship at -4",
+      "summary": "Sungjae Im is -4 today and -4 overall through F. Closest chasers: Dan Brown (-4), Thomas Detry (-3), Robert MacIntyre (-3).",
+      "quickRead": "Alex Smalley is the early first-round leader at The Open Championship at Royal Birkdale, sitting at 5-under through 17 holes, with Sungjae Im and Dan Brown tied for second after matching 66s (4-under).  Thomas Detry, Robert MacIntyre and Francesco Molinari are one back at 3-under, while Scottie Scheffler is also 3-under through 15 as the opening round continues.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -355,86 +389,33 @@
       "leaders": [
         {
           "pos": "T1",
+          "name": "Sungjae Im",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Dan Brown",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
           "name": "Thomas Detry",
           "score": "-3",
           "thru": "F"
         },
         {
-          "pos": "T1",
+          "pos": "T3",
           "name": "Robert MacIntyre",
           "score": "-3",
-          "thru": "14"
+          "thru": "F"
         },
         {
-          "pos": "T1",
-          "name": "Alex Smalley",
+          "pos": "T3",
+          "name": "Francesco Molinari",
           "score": "-3",
-          "thru": "7"
-        },
-        {
-          "pos": "T4",
-          "name": "Sungjae Im",
-          "score": "-2",
-          "thru": "13"
-        },
-        {
-          "pos": "T4",
-          "name": "Dan Brown",
-          "score": "-2",
-          "thru": "13"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T10:03:28.729Z",
-      "approvedAt": "2026-07-16T10:03:28.729Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Fabián Gómez wins Corales Puntacana Championship at -",
-      "summary": "Fabián Gómez wins Corales Puntacana Championship at -. Nearest finishers: Jack Senior (-), Joel Girrbach (-), Seamus Power (-).",
-      "quickRead": "Fabián Gómez wins Corales Puntacana Championship at -. Nearest finishers: Jack Senior (-), Joel Girrbach (-), Seamus Power (-).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "-",
-          "name": "Fabián Gómez",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Jack Senior",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Joel Girrbach",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Seamus Power",
-          "score": "-",
-          "thru": "10"
-        },
-        {
-          "pos": "-",
-          "name": "Richie Ramsay",
-          "score": "-",
-          "thru": "10"
+          "thru": "F"
         }
       ]
     }
