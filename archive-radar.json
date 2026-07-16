@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T20:53:31.673Z",
+  "updatedAt": "2026-07-16T20:53:34.620Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "2 hours ago",
+      "timestamp": "2026-07-16T18:25:31.029Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-07-16T20:53:34.620Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "1 hour ago",
@@ -1882,26 +1903,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "archivedAt": "2026-07-10T21:02:37.704Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-07-10T20:00:21.000Z",
-      "approvedAt": "2026-07-10T21:02:34.268Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy in 3-way tie for Scottish Open lead, as Scottie Scheffler misses cut",
-      "summary": "Rory McIlroy took advantage of the scoring holes in windy conditions Friday and posted a 4-under 66 for a three-way share of the lead in a Scottish Open that no longer has Scottie Scheffler.",
-      "quickRead": "Rory McIlroy shot a 4-under 66 to reach 9-under and share the Scottish Open lead with Jordan Smith (63) and Tom Kim (66), while Scottie Scheffler missed the cut after a 72 ended his 78-cut streak.  Scheffler, who said he “got off to a poor start,” heads early to Royal Birkdale to prep for his Open title defense as McIlroy sits two rounds from another win.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-3-way-tie-200021166.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "archivedAt": "2026-07-10T21:02:35.371Z"
     }
   ]
 }
