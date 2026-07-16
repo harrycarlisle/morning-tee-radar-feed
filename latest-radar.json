@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T19:02:49.004Z",
+  "updatedAt": "2026-07-16T20:53:25.756Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-16T20:53:25.753Z",
+      "approvedAt": "2026-07-16T20:53:25.753Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Todd Clements leads Corales Puntacana Championship at -7",
+      "summary": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
+      "quickRead": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Todd Clements",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-7",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Austin Eckroat",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Alejandro Del Rey",
+          "score": "-6",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Nick Dunlap",
+          "score": "-6",
+          "thru": "15*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T19:02:42.423Z",
       "approvedAt": "2026-07-16T19:02:42.423Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T17:20:20.000Z",
       "approvedAt": "2026-07-16T19:02:43.906Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-16T17:09:56.697Z",
       "approvedAt": "2026-07-16T17:09:56.697Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-16T15:50:00.000Z",
       "approvedAt": "2026-07-16T17:09:58.478Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-16T16:38:03.000Z",
       "approvedAt": "2026-07-16T17:09:58.479Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-16T15:41:19.000Z",
       "approvedAt": "2026-07-16T17:09:58.479Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-16T15:25:24.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-16T11:12:16.000Z",
       "approvedAt": "2026-07-16T15:29:29.789Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/open-championship-leaderboard-live-updates-111216636.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-07-16T05:30:00.000Z",
-      "approvedAt": "2026-07-16T13:39:44.829Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "British Open Thursday live updates, leaderboard: Scottie Scheffler in the hunt...",
-      "summary": "For one last time in 2026, the race for a major championship title is on.",
-      "quickRead": "For one last time in 2026, the race for a major championship title is on.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/live/british-open-thursday-live-updates-leaderboard-scottie-scheffler-is-on-a-heater-early-053000601.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/live/british-open-thursday-live-updates-leaderboard-scottie-scheffler-is-on-a-heater-early-053000601.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T19:02:31.029Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-16T18:25:31.029Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T19:02:47.457Z",
-      "approvedAt": "2026-07-16T19:02:47.457Z",
+      "timestamp": "2026-07-16T20:53:25.756Z",
+      "approvedAt": "2026-07-16T20:53:25.756Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber wins The Open Championship at -5",
-      "summary": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
-      "quickRead": "Jackson Suber won the Open Championship at Royal Birkdale at 5-under, finishing one shot clear of Sungjae Im and Dan Brown (both -4), with Thomas Detry next at -3.  The win came off a closing 65, while top names like Scottie Scheffler (68, -2) and Bryson DeChambeau (67, -3) finished a few back.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Sungjae Im",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Dan Brown",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Thomas Detry",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Robert MacIntyre",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T19:02:47.457Z",
-      "approvedAt": "2026-07-16T19:02:47.457Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements wins Corales Puntacana Championship at -7",
-      "summary": "Todd Clements wins Corales Puntacana Championship at -7. Nearest finishers: Austin Eckroat (-6), Alejandro Del Rey (-6), David Ravetto (-5).",
-      "quickRead": "",
+      "title": "Todd Clements leads Corales Puntacana Championship at -7",
+      "summary": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
+      "quickRead": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -441,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
           "name": "Todd Clements",
           "score": "-7",
           "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "T1",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-7",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
           "name": "Austin Eckroat",
           "score": "-6",
           "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "T3",
           "name": "Alejandro Del Rey",
           "score": "-6",
           "thru": "F*"
         },
         {
-          "pos": "T4",
-          "name": "David Ravetto",
-          "score": "-5",
-          "thru": "F*"
-        },
-        {
-          "pos": "T4",
-          "name": "Chan Kim",
-          "score": "-5",
-          "thru": "F"
+          "pos": "T3",
+          "name": "Nick Dunlap",
+          "score": "-6",
+          "thru": "15*"
         }
       ]
     }
