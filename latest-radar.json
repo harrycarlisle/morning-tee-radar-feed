@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-16T13:39:51.713Z",
+  "updatedAt": "2026-07-16T15:29:28.106Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-16T15:29:28.103Z",
+      "approvedAt": "2026-07-16T15:29:28.103Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Todd Clements leads Corales Puntacana Championship at -8",
+      "summary": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
+      "quickRead": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Todd Clements",
+          "score": "-8",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Chan Kim",
+          "score": "-6",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Austin Eckroat",
+          "score": "-6",
+          "thru": "15"
+        },
+        {
+          "pos": "4",
+          "name": "Alejandro Del Rey",
+          "score": "-5",
+          "thru": "13*"
+        },
+        {
+          "pos": "T5",
+          "name": "Joel Girrbach",
+          "score": "-4",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-07-16T06:13:02.403Z",
       "approvedAt": "2026-07-16T06:13:02.403Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-16T05:30:00.000Z",
       "approvedAt": "2026-07-16T13:39:44.829Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-16T10:30:00.000Z",
       "approvedAt": "2026-07-16T13:39:44.829Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-16T08:30:00.000Z",
       "approvedAt": "2026-07-16T10:03:24.031Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-16T02:08:50.000Z",
       "approvedAt": "2026-07-16T10:03:24.033Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-16T05:11:29.000Z",
       "approvedAt": "2026-07-16T06:13:03.408Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-15T19:30:00.000Z",
       "approvedAt": "2026-07-16T06:13:03.408Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-07-15T17:39:38.000Z",
       "approvedAt": "2026-07-15T19:03:27.906Z",
       "status": "Confirmed",
@@ -204,25 +257,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-full-results-majors-173938250.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-full-results-majors-173938250.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-07-15T17:44:31.000Z",
-      "approvedAt": "2026-07-16T02:07:34.034Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "From major champion to major questions: What now for Bryson DeChambeau?",
-      "summary": "Two years removed from his second U.S.",
-      "quickRead": "Bryson DeChambeau has missed the cut in all three majors this season, turned down the PGA Tour’s offered return pathway from LIV, and now faces an uncertain future as LIV’s reported financial collapse erodes his leverage.  Heading into The Open—where Nick Faldo said DeChambeau has “zero clue of strategy”—he risks becoming the only under-40 multi-major winner to miss all four major cuts in a year.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/from-major-champion-to-major-questions-what-now-for-bryson-dechambeau-174431536.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/from-major-champion-to-major-questions-what-now-for-bryson-dechambeau-174431536.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -259,19 +293,19 @@
       "timestamp": "2026-07-16T10:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Bryson DeChambeau looking to snap ugly major skid at British Open",
-      "summary": "There was a time, not long ago, when Bryson DeChambeau looked like he was about to take over the golf world.",
-      "quickRead": "There was a time, not long ago, when Bryson DeChambeau looked like he was about to take over the golf world.",
+      "label": "STAR WATCH",
+      "title": "Paul McGinley suggests what Rory McIlroy needs to prove at The Open t...",
+      "summary": "Paul McGinley said Rory McIlroy now has to prove his lighter, majors-focused schedule will leave him sharp enough to win at Royal Birkdale, stressi...",
+      "quickRead": "Paul McGinley said Rory McIlroy now has to prove his lighter, majors-focused schedule will leave him sharp enough to win at Royal Birkdale, stressing, “The jury is still out…competition is important,” and that “the proof will be in the pudding” this week.  McGinley pointed to McIlroy’s recent links top-10 (7th) as useful competitive prep, but said Rory’s sporadic tournament starts between majors make The Open a real test of his new formula.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-looking-snap-ugly-020850815.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-looking-snap-ugly-020850815.html",
+      "url": "https://sports.yahoo.com/articles/paul-mcginley-suggests-rory-mcilroy-083000727.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/paul-mcginley-suggests-rory-mcilroy-083000727.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-07-16T02:08:50.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-16T08:30:00.000Z"
     }
   ],
   "checking": {
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-16T13:39:33.094Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-16T13:02:33.094Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,67 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T13:39:50.470Z",
-      "approvedAt": "2026-07-16T13:39:50.470Z",
+      "timestamp": "2026-07-16T15:29:28.106Z",
+      "approvedAt": "2026-07-16T15:29:28.106Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads The Open Championship at -4",
-      "summary": "Sungjae Im is -4 today and -4 overall through F. Closest chasers: Dan Brown (-4), Thomas Detry (-3), Robert MacIntyre (-3).",
-      "quickRead": "Alex Smalley is the early first-round leader at The Open Championship at Royal Birkdale, sitting at 5-under through 17 holes, with Sungjae Im and Dan Brown tied for second after matching 66s (4-under).  Thomas Detry, Robert MacIntyre and Francesco Molinari are one back at 3-under, while Scottie Scheffler is also 3-under through 15 as the opening round continues.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Sungjae Im",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Dan Brown",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Thomas Detry",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Robert MacIntyre",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Francesco Molinari",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T13:39:50.470Z",
-      "approvedAt": "2026-07-16T13:39:50.470Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Chan Kim leads Corales Puntacana Championship at -6",
-      "summary": "Chan Kim is -6 today and -6 overall through 11. Closest chasers: Joel Girrbach (-4), Beau Hossler (-4), Brandon Robinson Thompson (-4).",
-      "quickRead": "Chan Kim is -6 today and -6 overall through 11. Closest chasers: Joel Girrbach (-4), Beau Hossler (-4), Brandon Robinson Thompson (-4).",
+      "title": "Todd Clements leads Corales Puntacana Championship at -8",
+      "summary": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
+      "quickRead": "Todd Clements is -8 today and -8 overall through 15. Closest chasers: Chan Kim (-6), Austin Eckroat (-6), Alejandro Del Rey (-5).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -408,33 +389,33 @@
       "leaders": [
         {
           "pos": "1",
+          "name": "Todd Clements",
+          "score": "-8",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
           "name": "Chan Kim",
           "score": "-6",
-          "thru": "11"
+          "thru": "17"
         },
         {
           "pos": "T2",
+          "name": "Austin Eckroat",
+          "score": "-6",
+          "thru": "15"
+        },
+        {
+          "pos": "4",
+          "name": "Alejandro Del Rey",
+          "score": "-5",
+          "thru": "13*"
+        },
+        {
+          "pos": "T5",
           "name": "Joel Girrbach",
           "score": "-4",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Beau Hossler",
-          "score": "-4",
-          "thru": "10"
-        },
-        {
-          "pos": "T2",
-          "name": "Brandon Robinson Thompson",
-          "score": "-4",
-          "thru": "10"
-        },
-        {
-          "pos": "T2",
-          "name": "Renato Paratore",
-          "score": "-4",
-          "thru": "8"
+          "thru": "17"
         }
       ]
     }
