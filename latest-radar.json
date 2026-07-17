@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T15:10:11.405Z",
+  "updatedAt": "2026-07-17T15:10:12.587Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T15:10:07.897Z",
-      "approvedAt": "2026-07-17T15:10:07.897Z",
+      "timestamp": "2026-07-17T15:10:12.457Z",
+      "approvedAt": "2026-07-17T15:10:12.457Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,6 +416,59 @@
           "name": "Matt Wallace",
           "score": "-4",
           "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-17T15:10:12.457Z",
+      "approvedAt": "2026-07-17T15:10:12.457Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Johannes Veerman leads Corales Puntacana Championship at -10",
+      "summary": "Johannes Veerman is -4 today and -10 overall through 15*. Closest chasers: Stefano Mazzoli (-8), Jacob Skov Olesen (-8), Ben James (-8).",
+      "quickRead": "Johannes Veerman is -4 today and -10 overall through 15*. Closest chasers: Stefano Mazzoli (-8), Jacob Skov Olesen (-8), Ben James (-8).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Johannes Veerman",
+          "score": "-10",
+          "thru": "15*"
+        },
+        {
+          "pos": "T2",
+          "name": "Stefano Mazzoli",
+          "score": "-8",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Jacob Skov Olesen",
+          "score": "-8",
+          "thru": "13"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-8",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Gordon Sargent",
+          "score": "-8",
+          "thru": "8*"
         }
       ]
     }
