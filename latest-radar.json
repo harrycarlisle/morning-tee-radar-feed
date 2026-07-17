@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T22:43:38.227Z",
+  "updatedAt": "2026-07-17T22:43:40.019Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -259,19 +259,19 @@
       "timestamp": "2026-07-16T19:56:59.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Open Day 2: Bryson DeChambeau penalized; a pair of record-tying 62s a...",
-      "summary": "Bryson DeChambeau was hit with a two-shot penalty after Round 2 at Royal Birkdale for inadvertently improving his swing path in knee-high rough on...",
-      "quickRead": "Bryson DeChambeau was hit with a two-shot penalty after Round 2 at Royal Birkdale for inadvertently improving his swing path in knee-high rough on the par-4 5th, turning his 66 into a 68 and his bogey into a triple.  Lucas Herbert and Sam Burns each fired record-tying 62s as Herbert took the 36-hole lead at 8-under, while DeChambeau fell three back (T5) and his agent said his Saturday status was “We’ll see.",
+      "label": "STORY TO WATCH",
+      "title": "Tiger Woods helped set the precedent for Bryson DeChambeau’s behaviou...",
+      "summary": "Bryson DeChambeau shot a 3-under 67 (T4) at Royal Birkdale, then skipped TV and written media and instead did an R&A interview limited to pre-appro...",
+      "quickRead": "Bryson DeChambeau shot a 3-under 67 (T4) at Royal Birkdale, then skipped TV and written media and instead did an R&A interview limited to pre-approved questions, saying he was “delighted” to play with Scottie Scheffler as their group continues with Tyrrell Hatton.  The move echoes Tiger Woods’ 2012 Wells Fargo media workaround, and it keeps spotlight on Bryson’s media avoidance after missing the cut at the first three majors this season.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/open-day-2-bryson-dechambeau-213921762.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/open-day-2-bryson-dechambeau-213921762.html",
+      "url": "https://sports.yahoo.com/articles/tiger-woods-helped-set-precedent-173000374.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-helped-set-precedent-173000374.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-17T21:39:21.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-07-17T17:30:00.000Z"
     }
   ],
   "checking": {
@@ -334,8 +334,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T22:43:35.245Z",
-      "approvedAt": "2026-07-17T22:43:35.245Z",
+      "timestamp": "2026-07-17T22:43:39.918Z",
+      "approvedAt": "2026-07-17T22:43:39.918Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert wins The Open Championship at -8",
+      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "quickRead": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Cameron Young",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Sam Burns",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-17T22:43:39.918Z",
+      "approvedAt": "2026-07-17T22:43:39.918Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
