@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T15:10:13.700Z",
+  "updatedAt": "2026-07-17T17:06:56.820Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-17T17:06:56.817Z",
+      "approvedAt": "2026-07-17T17:06:56.817Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Johannes Veerman leads Corales Puntacana Championship at -11",
+      "summary": "Johannes Veerman is -5 today and -11 overall through F*. Closest chasers: Ben James (-11), Gordon Sargent (-11), Ivan Cantero Gutierrez (-8).",
+      "quickRead": "Johannes Veerman is -5 today and -11 overall through F*. Closest chasers: Ben James (-11), Gordon Sargent (-11), Ivan Cantero Gutierrez (-8).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Johannes Veerman",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "17"
+        },
+        {
+          "pos": "T1",
+          "name": "Gordon Sargent",
+          "score": "-11",
+          "thru": "15*"
+        },
+        {
+          "pos": "T4",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Stefano Mazzoli",
+          "score": "-8",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T15:10:07.893Z",
       "approvedAt": "2026-07-17T15:10:07.893Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "45 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-17T14:24:12.000Z",
       "approvedAt": "2026-07-17T15:10:09.311Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-17T13:00:00.000Z",
       "approvedAt": "2026-07-17T15:10:09.311Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T13:17:13.602Z",
       "approvedAt": "2026-07-17T13:17:13.603Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T12:00:00.000Z",
       "approvedAt": "2026-07-17T13:17:15.143Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T12:06:35.000Z",
       "approvedAt": "2026-07-17T13:17:15.144Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-17T10:00:00.000Z",
       "approvedAt": "2026-07-17T11:18:33.202Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-17T09:31:24.000Z",
       "approvedAt": "2026-07-17T09:52:21.431Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/open-championship-cut-line-tracker-093124180.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-07-17T05:16:15.000Z",
-      "approvedAt": "2026-07-17T06:11:22.154Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The Open Championship Friday live updates, leaderboard: Bryson DeChambeau, othe...",
-      "summary": "Jackson Suber is carrying a one-shot lead into the second round at Royal Birkdale.",
-      "quickRead": "Jackson Suber is carrying a one-shot lead into the second round at Royal Birkdale.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/live/the-open-championship-friday-live-updates-leaderboard-bryson-dechambeau-others-look-to-catch-up-to-jackson-suber-053000354.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/live/the-open-championship-friday-live-updates-leaderboard-bryson-dechambeau-others-look-to-catch-up-to-jackson-suber-053000354.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T15:09:54.391Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-17T14:32:54.391Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T15:10:12.457Z",
-      "approvedAt": "2026-07-17T15:10:12.457Z",
+      "timestamp": "2026-07-17T17:06:56.821Z",
+      "approvedAt": "2026-07-17T17:06:56.821Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Lucas Herbert wins The Open Championship at -8",
-      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Sam Burns (-5).",
-      "quickRead": "Lucas Herbert won The Open Championship at Royal Birkdale at 8-under, finishing two shots clear of runners-up Jackson Suber and Cameron Young at 6-under, with Sam Burns alone in fourth at 5-under.  Herbert’s win gives him the Claret Jug and early-season major momentum, while pre-tournament favorite Scottie Scheffler opened with 68 to sit at 2-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Herbert",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jackson Suber",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Cameron Young",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Sam Burns",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Matt Wallace",
-          "score": "-4",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-17T15:10:12.457Z",
-      "approvedAt": "2026-07-17T15:10:12.457Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Johannes Veerman leads Corales Puntacana Championship at -10",
-      "summary": "Johannes Veerman is -4 today and -10 overall through 15*. Closest chasers: Stefano Mazzoli (-8), Jacob Skov Olesen (-8), Ben James (-8).",
-      "quickRead": "Johannes Veerman is -4 today and -10 overall through 15*. Closest chasers: Stefano Mazzoli (-8), Jacob Skov Olesen (-8), Ben James (-8).",
+      "title": "Johannes Veerman leads Corales Puntacana Championship at -11",
+      "summary": "Johannes Veerman is -5 today and -11 overall through F*. Closest chasers: Ben James (-11), Gordon Sargent (-11), Ivan Cantero Gutierrez (-8).",
+      "quickRead": "Johannes Veerman is -5 today and -11 overall through F*. Closest chasers: Ben James (-11), Gordon Sargent (-11), Ivan Cantero Gutierrez (-8).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -441,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
           "name": "Johannes Veerman",
-          "score": "-10",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "17"
+        },
+        {
+          "pos": "T1",
+          "name": "Gordon Sargent",
+          "score": "-11",
           "thru": "15*"
         },
         {
-          "pos": "T2",
+          "pos": "T4",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
           "name": "Stefano Mazzoli",
           "score": "-8",
-          "thru": "15"
-        },
-        {
-          "pos": "T2",
-          "name": "Jacob Skov Olesen",
-          "score": "-8",
-          "thru": "13"
-        },
-        {
-          "pos": "T2",
-          "name": "Ben James",
-          "score": "-8",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Gordon Sargent",
-          "score": "-8",
-          "thru": "8*"
+          "thru": "F"
         }
       ]
     }
