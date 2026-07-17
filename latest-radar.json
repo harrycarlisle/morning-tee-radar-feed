@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T19:00:19.186Z",
+  "updatedAt": "2026-07-17T19:00:21.530Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "30 min ago",
+      "timestamp": "2026-07-17T18:30:00.000Z",
+      "approvedAt": "2026-07-17T19:00:21.528Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Sam Burns makes comment on Scottie Scheffler after equalling the scoring record...",
+      "summary": "Sam Burns has fired himself into contention at The Open Championship after a second-round 62 at Royal Birkdale.",
+      "quickRead": "Sam Burns said Scottie Scheffler has definitely influenced his game, praising “the way that he can control a golf ball” as “insanely impressive,” and joking that if he plays with him enough it might be an “osmosis effect. ” Burns’ comments came right after his record-tying 62 at Royal Birkdale, putting him three shots off the lead and firmly into weekend contention at The Open.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/sam-burns-makes-scottie-scheffler-183000263.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/sam-burns-makes-scottie-scheffler-183000263.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-07-17T17:06:56.817Z",
@@ -149,59 +168,6 @@
       "sourceUrl": "https://sports.yahoo.com/golf/article/the-open-championship-who-will-miss-the-cut-144540742.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-07-17T15:10:07.893Z",
-      "approvedAt": "2026-07-17T15:10:07.893Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Lucas Herbert wins The Open Championship at -8",
-      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Sam Burns (-5).",
-      "quickRead": "Lucas Herbert won The Open Championship at Royal Birkdale at 8-under, finishing two shots clear of runners-up Jackson Suber and Cameron Young at 6-under, with Sam Burns alone in fourth at 5-under.  Herbert’s win gives him the Claret Jug and early-season major momentum, while pre-tournament favorite Scottie Scheffler opened with 68 to sit at 2-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Lucas Herbert",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Jackson Suber",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Cameron Young",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Sam Burns",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Matt Wallace",
-          "score": "-4",
-          "thru": "F"
-        }
-      ]
     },
     {
       "time": "4 hours ago",
