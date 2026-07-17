@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T11:18:37.316Z",
+  "updatedAt": "2026-07-17T13:17:13.606Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-17T13:17:13.602Z",
+      "approvedAt": "2026-07-17T13:17:13.603Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 today and -8 overall through F. Closest chasers: Jackson Suber (-6), Sungjae Im (-5), Dan Brown (-5).",
+      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 9-under through 17 holes, three shots clear of Jackson Suber at 6-under (finished).  Sungjae Im and Dan Brown sit three back at 5-under, while contenders including Scottie Scheffler (2-under) and Rory McIlroy (1-under) will need a low round to keep pace as Herbert closes out his opener.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Sungjae Im",
+          "score": "-5",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Dan Brown",
+          "score": "-5",
+          "thru": "5"
+        },
+        {
+          "pos": "T5",
+          "name": "Matt Wallace",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T11:18:32.167Z",
       "approvedAt": "2026-07-17T11:18:32.167Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "13"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T10:00:00.000Z",
       "approvedAt": "2026-07-17T11:18:33.202Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T09:52:20.084Z",
       "approvedAt": "2026-07-17T09:52:20.084Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T09:31:24.000Z",
       "approvedAt": "2026-07-17T09:52:21.431Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-17T05:16:15.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-17T05:00:21.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-17T00:14:39.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-07-16T22:10:30.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fleetwood-rallies-rose-falters-english-221030642.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/justin-rose.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-07-16T21:30:00.000Z",
-      "approvedAt": "2026-07-16T22:53:15.023Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau slammed for what he did after day one of The Open, ‘not in th...",
-      "summary": "Bryson DeChambeau has proved many of his critics wrong after day one of The Open.",
-      "quickRead": "Bryson DeChambeau shot 3-under 67 at Royal Birkdale but skipped the regular post-round media scrum, choosing instead to do a private one-on-one interview with a LIV Golf presenter.  Sky Sports’ Wayne Riley blasted it as “not in the spirit of the game,” saying majors come with a “duty” to talk to the media and fans who want to see him interviewed.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-slammed-did-day-213000176.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-slammed-did-day-213000176.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T11:18:20.510Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-17T10:41:20.511Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T11:18:36.219Z",
-      "approvedAt": "2026-07-17T11:18:36.219Z",
+      "timestamp": "2026-07-17T13:17:13.606Z",
+      "approvedAt": "2026-07-17T13:17:13.606Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Lucas Herbert leads The Open Championship at -8",
-      "summary": "Lucas Herbert is -8 today and -8 overall through 12. Closest chasers: Jackson Suber (-6), Collin Morikawa (-5), Matt Wallace (-4).",
-      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 7-under par through 11 holes, one shot clear of Jackson Suber at 6-under.  Collin Morikawa and Bud Cauley sat two back at 5-under, with Matt Wallace in the next group at 4-under as the first round continued and the projected cut line started to take shape.",
+      "summary": "Lucas Herbert is -8 today and -8 overall through F. Closest chasers: Jackson Suber (-6), Sungjae Im (-5), Dan Brown (-5).",
+      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 9-under through 17 holes, three shots clear of Jackson Suber at 6-under (finished).  Sungjae Im and Dan Brown sit three back at 5-under, while contenders including Scottie Scheffler (2-under) and Rory McIlroy (1-under) will need a low round to keep pace as Herbert closes out his opener.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,84 +425,31 @@
           "pos": "1",
           "name": "Lucas Herbert",
           "score": "-8",
-          "thru": "12"
+          "thru": "F"
         },
         {
           "pos": "2",
           "name": "Jackson Suber",
           "score": "-6",
-          "thru": "17"
-        },
-        {
-          "pos": "3",
-          "name": "Collin Morikawa",
-          "score": "-5",
-          "thru": "9"
-        },
-        {
-          "pos": "T4",
-          "name": "Matt Wallace",
-          "score": "-4",
           "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Pierceson Coody",
+          "pos": "T3",
+          "name": "Sungjae Im",
+          "score": "-5",
+          "thru": "5"
+        },
+        {
+          "pos": "T3",
+          "name": "Dan Brown",
+          "score": "-5",
+          "thru": "5"
+        },
+        {
+          "pos": "T5",
+          "name": "Matt Wallace",
           "score": "-4",
-          "thru": "13"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-17T11:18:36.220Z",
-      "approvedAt": "2026-07-17T11:18:36.220Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Ivan Cantero Gutierrez leads Corales Puntacana Championship at -7",
-      "summary": "Ivan Cantero Gutierrez is E today and -7 overall through 2. Closest chasers: Todd Clements (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickRead": "Ivan Cantero Gutierrez is E today and -7 overall through 2. Closest chasers: Todd Clements (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Ivan Cantero Gutierrez",
-          "score": "-7",
-          "thru": "2"
-        },
-        {
-          "pos": "T1",
-          "name": "Todd Clements",
-          "score": "-7",
-          "thru": "10"
-        },
-        {
-          "pos": "T3",
-          "name": "Austin Eckroat",
-          "score": "-6",
-          "thru": "10"
-        },
-        {
-          "pos": "T3",
-          "name": "Alejandro Del Rey",
-          "score": "-6",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Mackenzie Hughes",
-          "score": "-6",
-          "thru": "1"
+          "thru": "F"
         }
       ]
     }
