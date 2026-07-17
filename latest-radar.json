@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T13:17:17.224Z",
+  "updatedAt": "2026-07-17T13:17:18.312Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T13:17:13.606Z",
-      "approvedAt": "2026-07-17T13:17:13.606Z",
+      "timestamp": "2026-07-17T13:17:18.191Z",
+      "approvedAt": "2026-07-17T13:17:18.192Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,6 +416,59 @@
           "name": "Matt Wallace",
           "score": "-4",
           "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-17T13:17:18.192Z",
+      "approvedAt": "2026-07-17T13:17:18.192Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ivan Cantero Gutierrez leads Corales Puntacana Championship at -8",
+      "summary": "Ivan Cantero Gutierrez is -1 today and -8 overall through 9. Closest chasers: Jacob Skov Olesen (-7), Jonathan Byrd (-7), Todd Clements (-7).",
+      "quickRead": "Ivan Cantero Gutierrez is -1 today and -8 overall through 9. Closest chasers: Jacob Skov Olesen (-7), Jonathan Byrd (-7), Todd Clements (-7).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-8",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Jacob Skov Olesen",
+          "score": "-7",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
+          "name": "Jonathan Byrd",
+          "score": "-7",
+          "thru": "6"
+        },
+        {
+          "pos": "T2",
+          "name": "Todd Clements",
+          "score": "-7",
+          "thru": "10"
+        },
+        {
+          "pos": "T5",
+          "name": "Stefano Mazzoli",
+          "score": "-6",
+          "thru": "8"
         }
       ]
     }
