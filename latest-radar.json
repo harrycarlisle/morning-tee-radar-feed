@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T02:10:27.564Z",
+  "updatedAt": "2026-07-17T06:11:20.609Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-07-17T06:11:20.605Z",
+      "approvedAt": "2026-07-17T06:11:20.605Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jackson Suber leads The Open Championship at -5",
+      "summary": "Jackson Suber is -5 overall through 1. Closest chasers: Sungjae Im (-4), Dan Brown (-4), Pierceson Coody (-3).",
+      "quickRead": "Jackson Suber is -5 overall through 1. Closest chasers: Sungjae Im (-4), Dan Brown (-4), Pierceson Coody (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jackson Suber",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-4",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Dan Brown",
+          "score": "-4",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Pierceson Coody",
+          "score": "-3",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Cameron Young",
+          "score": "-3",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-07-16T20:53:25.753Z",
       "approvedAt": "2026-07-16T20:53:25.753Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "15*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T00:14:39.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-16T22:10:30.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-rose.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-16T21:30:00.000Z",
       "approvedAt": "2026-07-16T22:53:15.023Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-16T22:05:00.000Z",
       "approvedAt": "2026-07-16T22:53:15.025Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-16T19:52:10.000Z",
       "approvedAt": "2026-07-16T20:53:27.517Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-16T20:01:42.000Z",
       "approvedAt": "2026-07-16T20:53:27.518Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-07-16T18:06:58.000Z",
       "approvedAt": "2026-07-16T20:53:27.518Z",
       "status": "Confirmed",
@@ -206,59 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-subtly-claps-back-180658959.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-07-16T19:02:42.423Z",
-      "approvedAt": "2026-07-16T19:02:42.423Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jackson Suber wins The Open Championship at -5",
-      "summary": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
-      "quickRead": "Jackson Suber won the Open Championship at Royal Birkdale at 5-under, finishing one shot clear of Sungjae Im and Dan Brown (both -4), with Thomas Detry next at -3.  The win came off a closing 65, while top names like Scottie Scheffler (68, -2) and Bryson DeChambeau (67, -3) finished a few back.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Jackson Suber",
-          "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Sungjae Im",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Dan Brown",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Thomas Detry",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Robert MacIntyre",
-          "score": "-3",
-          "thru": "F"
-        }
-      ]
     }
   ],
   "weekRadar": [
@@ -326,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-07-17T02:10:09.133Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-17T01:33:09.134Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-16T20:53:33.027Z",
-      "approvedAt": "2026-07-16T20:53:33.027Z",
+      "timestamp": "2026-07-17T06:11:20.609Z",
+      "approvedAt": "2026-07-17T06:11:20.609Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Suber wins The Open Championship at -5",
-      "summary": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
-      "quickRead": "Jackson Suber wins The Open Championship at -5. Nearest finishers: Sungjae Im (-4), Dan Brown (-4), Thomas Detry (-3).",
+      "title": "Jackson Suber leads The Open Championship at -5",
+      "summary": "Jackson Suber is -5 overall through 1. Closest chasers: Sungjae Im (-4), Dan Brown (-4), Pierceson Coody (-3).",
+      "quickRead": "Jackson Suber is -5 overall through 1. Closest chasers: Sungjae Im (-4), Dan Brown (-4), Pierceson Coody (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,84 +391,31 @@
           "pos": "1",
           "name": "Jackson Suber",
           "score": "-5",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sungjae Im",
           "score": "-4",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Dan Brown",
           "score": "-4",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
-          "name": "Thomas Detry",
+          "name": "Pierceson Coody",
           "score": "-3",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
-          "name": "Robert MacIntyre",
+          "name": "Cameron Young",
           "score": "-3",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-16T20:53:33.027Z",
-      "approvedAt": "2026-07-16T20:53:33.027Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements leads Corales Puntacana Championship at -7",
-      "summary": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickRead": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Todd Clements",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Ivan Cantero Gutierrez",
-          "score": "-7",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Austin Eckroat",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Alejandro Del Rey",
-          "score": "-6",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Nick Dunlap",
-          "score": "-6",
-          "thru": "15*"
+          "thru": "1"
         }
       ]
     }
