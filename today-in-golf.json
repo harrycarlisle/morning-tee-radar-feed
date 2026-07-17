@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-16T04:25:46.889Z",
+  "lastUpdated": "2026-07-17T04:25:19.710Z",
   "edition": "evening",
   "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Bryson DeChambeau's Struggles",
-      "text": "Bryson DeChambeau faces missing the cut in all four majors this year, turning down the PGA Tour's return offer from LIV Golf amid LIV's financial collapse, and risking becoming the only under-40 multi-major leader to miss every major cut in 2026."
+      "headline": "Todd Clements Leads Corales Puntacana",
+      "text": "Todd Clements is tied for the lead at -7 after finishing his round, alongside Ivan Cantero Gutierrez, with Austin Eckroat and Alejandro Del Rey close behind at -6."
     },
     {
-      "headline": "2026 Open Championship Changes",
-      "text": "The Open at Royal Birkdale features major course changes including a new par-3 15th and a 600-yard par-5 14th, challenging contenders as defending leader Scottie Scheffler seeks redemption after missing a cut for the first time since 2022."
+      "headline": "Jackson Suber Leads The Open Championship",
+      "text": "Jackson Suber holds the solo lead at -5 after completing his round at The Open Championship, with Sungjae Im and Dan Brown trailing one shot behind."
+    },
+    {
+      "headline": "Bryson DeChambeau Challenges Nick Faldo",
+      "text": "After opening The Open with a 3-under 67, Bryson DeChambeau defended his strategic play against Nick Faldo's criticism, putting him just one shot off the lead and back in contention."
     }
   ],
-  "itemsLastUpdated": "2026-07-16T04:25:46.889Z",
+  "itemsLastUpdated": "2026-07-17T04:25:19.710Z",
   "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-16T04:25:46.889Z",
+  "lastSuccessfulStoryUpdate": "2026-07-17T04:25:19.710Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 12,
+  "sourceItemsLoaded": 14,
   "candidateItemsSelected": 10,
   "openaiAttempted": true,
-  "openaiOutputLength": 999,
+  "openaiOutputLength": 816,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_95dd977ae55b420cb3acd6c13615483b",
+  "openaiRequestId": "req_b2f69142037741e1a9d16631cf3e0670",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: scheffler",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-07-16T04:25:46.888Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-07-17T04:25:19.710Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
