@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T09:52:25.985Z",
+  "updatedAt": "2026-07-17T11:18:32.170Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-17T11:18:32.167Z",
+      "approvedAt": "2026-07-17T11:18:32.167Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 today and -8 overall through 12. Closest chasers: Jackson Suber (-6), Collin Morikawa (-5), Matt Wallace (-4).",
+      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 7-under par through 11 holes, one shot clear of Jackson Suber at 6-under.  Collin Morikawa and Bud Cauley sat two back at 5-under, with Matt Wallace in the next group at 4-under as the first round continued and the projected cut line started to take shape.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "12"
+        },
+        {
+          "pos": "2",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "17"
+        },
+        {
+          "pos": "3",
+          "name": "Collin Morikawa",
+          "score": "-5",
+          "thru": "9"
+        },
+        {
+          "pos": "T4",
+          "name": "Matt Wallace",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Pierceson Coody",
+          "score": "-4",
+          "thru": "13"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T09:52:20.084Z",
       "approvedAt": "2026-07-17T09:52:20.084Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "6"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "20 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T09:31:24.000Z",
       "approvedAt": "2026-07-17T09:52:21.431Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T06:11:20.605Z",
       "approvedAt": "2026-07-17T06:11:20.605Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-17T05:16:15.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-17T05:00:21.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-17T00:14:39.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-16T22:10:30.000Z",
       "approvedAt": "2026-07-17T02:10:24.333Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-rose.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-16T21:30:00.000Z",
       "approvedAt": "2026-07-16T22:53:15.023Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-slammed-did-day-213000176.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-slammed-did-day-213000176.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-07-16T22:05:00.000Z",
-      "approvedAt": "2026-07-16T22:53:15.025Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau’s New Career Move Away From Golf Goes Against PGA Tour",
-      "summary": "Bryson DeChambeau’s career off the course is experiencing a growth spurt.",
-      "quickRead": "Bryson DeChambeau signed a new deal with Google Health to use and promote the Fitbit Air for tracking health and recovery stats—putting him behind a direct competitor to the PGA Tour’s official wearable partner, Whoop.  It’s a notable off-course move as the Tour’s Whoop deal runs through 2028, and DeChambeau is also leaning into tech experimentation (including 3D-printed irons) while competing in majors.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-career-move-away-220500362.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-career-move-away-220500362.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T09:52:07.643Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-17T09:15:07.643Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T09:52:24.798Z",
-      "approvedAt": "2026-07-17T09:52:24.798Z",
+      "timestamp": "2026-07-17T11:18:32.170Z",
+      "approvedAt": "2026-07-17T11:18:32.170Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Shaun Norris leads The Open Championship at -5",
-      "summary": "Shaun Norris is -4 today and -5 overall through 12. Closest chasers: Jackson Suber (-5), Matt Wallace (-4), Pierceson Coody (-4).",
-      "quickRead": "Shaun Norris is tied for the lead at Royal Birkdale at 5-under par through 12 holes of his opening round, matched by Jackson Suber at -5, with Matt Wallace and Pierceson Coody one shot back at -4.  With big names like Collin Morikawa and Cameron Young sitting at -3 and Scottie Scheffler at -2, the early leaderboard is crowded and the afternoon wave could reshuffle everything quickly.",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 today and -8 overall through 12. Closest chasers: Jackson Suber (-6), Collin Morikawa (-5), Matt Wallace (-4).",
+      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 7-under par through 11 holes, one shot clear of Jackson Suber at 6-under.  Collin Morikawa and Bud Cauley sat two back at 5-under, with Matt Wallace in the next group at 4-under as the first round continued and the projected cut line started to take shape.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,87 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
-          "name": "Shaun Norris",
-          "score": "-5",
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
           "thru": "12"
         },
         {
-          "pos": "T1",
+          "pos": "2",
           "name": "Jackson Suber",
-          "score": "-5",
-          "thru": "12"
+          "score": "-6",
+          "thru": "17"
         },
         {
-          "pos": "T3",
+          "pos": "3",
+          "name": "Collin Morikawa",
+          "score": "-5",
+          "thru": "9"
+        },
+        {
+          "pos": "T4",
           "name": "Matt Wallace",
           "score": "-4",
-          "thru": "16"
+          "thru": "F"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Pierceson Coody",
           "score": "-4",
-          "thru": "8"
-        },
-        {
-          "pos": "T3",
-          "name": "Bud Cauley",
-          "score": "-4",
-          "thru": "6"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-17T09:52:24.798Z",
-      "approvedAt": "2026-07-17T09:52:24.798Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements leads Corales Puntacana Championship at -7",
-      "summary": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickRead": "Todd Clements is -7 today and -7 overall through F. Closest chasers: Ivan Cantero Gutierrez (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Todd Clements",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Ivan Cantero Gutierrez",
-          "score": "-7",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Austin Eckroat",
-          "score": "-6",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Alejandro Del Rey",
-          "score": "-6",
-          "thru": "F*"
-        },
-        {
-          "pos": "T3",
-          "name": "Johannes Veerman",
-          "score": "-6",
-          "thru": "F"
+          "thru": "13"
         }
       ]
     }
