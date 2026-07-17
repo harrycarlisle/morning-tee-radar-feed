@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T13:17:19.388Z",
+  "updatedAt": "2026-07-17T15:10:07.897Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-17T15:10:07.893Z",
+      "approvedAt": "2026-07-17T15:10:07.893Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert wins The Open Championship at -8",
+      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Sam Burns (-5).",
+      "quickRead": "Lucas Herbert won The Open Championship at Royal Birkdale at 8-under, finishing two shots clear of runners-up Jackson Suber and Cameron Young at 6-under, with Sam Burns alone in fourth at 5-under.  Herbert’s win gives him the Claret Jug and early-season major momentum, while pre-tournament favorite Scottie Scheffler opened with 68 to sit at 2-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Cameron Young",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Sam Burns",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Matt Wallace",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T13:17:13.602Z",
       "approvedAt": "2026-07-17T13:17:13.603Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T12:00:00.000Z",
       "approvedAt": "2026-07-17T13:17:15.143Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T12:06:35.000Z",
       "approvedAt": "2026-07-17T13:17:15.144Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-17T11:18:32.167Z",
       "approvedAt": "2026-07-17T11:18:32.167Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T10:00:00.000Z",
       "approvedAt": "2026-07-17T11:18:33.202Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-17T09:31:24.000Z",
       "approvedAt": "2026-07-17T09:52:21.431Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-17T05:16:15.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-17T05:00:21.000Z",
       "approvedAt": "2026-07-17T06:11:22.154Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/open-championship-round-2-leaderboard-050021083.html",
       "sourceUrl": "https://sports.yahoo.com/articles/open-championship-round-2-leaderboard-050021083.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-07-17T00:14:39.000Z",
-      "approvedAt": "2026-07-17T02:10:24.333Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau Fires Back at Nick Faldo After ‘Strategic’ Open Championship...",
-      "summary": "Bryson DeChambeau let his golf do the talking Thursday at Royal Birkdale.",
-      "quickRead": "After shooting an opening-round 3-under 67 at Royal Birkdale, Bryson DeChambeau responded to Nick Faldo’s “zero clue of strategy” jab by saying, “I did a really good job today of being incredibly strategic,” adding that his “strategy was nice today. ” The 67 put DeChambeau one shot off the early lead and back in contention after missing the cut in the year’s first three majors, while Faldo later joked he “rattled his cage.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-fires-back-nick-001439265.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-fires-back-nick-001439265.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-17T13:17:03.528Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-17T12:40:03.528Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T13:17:18.191Z",
-      "approvedAt": "2026-07-17T13:17:18.192Z",
+      "timestamp": "2026-07-17T15:10:07.897Z",
+      "approvedAt": "2026-07-17T15:10:07.897Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Lucas Herbert leads The Open Championship at -8",
-      "summary": "Lucas Herbert is -8 today and -8 overall through F. Closest chasers: Jackson Suber (-6), Sungjae Im (-5), Dan Brown (-5).",
-      "quickRead": "Lucas Herbert grabbed the early lead at Royal Birkdale by reaching 9-under through 17 holes, three shots clear of Jackson Suber at 6-under (finished).  Sungjae Im and Dan Brown sit three back at 5-under, while contenders including Scottie Scheffler (2-under) and Rory McIlroy (1-under) will need a low round to keep pace as Herbert closes out his opener.",
+      "title": "Lucas Herbert wins The Open Championship at -8",
+      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Sam Burns (-5).",
+      "quickRead": "Lucas Herbert won The Open Championship at Royal Birkdale at 8-under, finishing two shots clear of runners-up Jackson Suber and Cameron Young at 6-under, with Sam Burns alone in fourth at 5-under.  Herbert’s win gives him the Claret Jug and early-season major momentum, while pre-tournament favorite Scottie Scheffler opened with 68 to sit at 2-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -394,81 +428,28 @@
           "thru": "F"
         },
         {
-          "pos": "2",
+          "pos": "T2",
           "name": "Jackson Suber",
           "score": "-6",
           "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Sungjae Im",
-          "score": "-5",
-          "thru": "5"
+          "pos": "T2",
+          "name": "Cameron Young",
+          "score": "-6",
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Dan Brown",
+          "pos": "4",
+          "name": "Sam Burns",
           "score": "-5",
-          "thru": "5"
+          "thru": "F"
         },
         {
           "pos": "T5",
           "name": "Matt Wallace",
           "score": "-4",
           "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-17T13:17:18.192Z",
-      "approvedAt": "2026-07-17T13:17:18.192Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Ivan Cantero Gutierrez leads Corales Puntacana Championship at -8",
-      "summary": "Ivan Cantero Gutierrez is -1 today and -8 overall through 9. Closest chasers: Jacob Skov Olesen (-7), Jonathan Byrd (-7), Todd Clements (-7).",
-      "quickRead": "Ivan Cantero Gutierrez is -1 today and -8 overall through 9. Closest chasers: Jacob Skov Olesen (-7), Jonathan Byrd (-7), Todd Clements (-7).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Ivan Cantero Gutierrez",
-          "score": "-8",
-          "thru": "9"
-        },
-        {
-          "pos": "T2",
-          "name": "Jacob Skov Olesen",
-          "score": "-7",
-          "thru": "7"
-        },
-        {
-          "pos": "T2",
-          "name": "Jonathan Byrd",
-          "score": "-7",
-          "thru": "6"
-        },
-        {
-          "pos": "T2",
-          "name": "Todd Clements",
-          "score": "-7",
-          "thru": "10"
-        },
-        {
-          "pos": "T5",
-          "name": "Stefano Mazzoli",
-          "score": "-6",
-          "thru": "8"
         }
       ]
     }
