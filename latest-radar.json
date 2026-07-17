@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-17T11:18:35.232Z",
+  "updatedAt": "2026-07-17T11:18:36.315Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -263,21 +263,6 @@
   ],
   "weekRadar": [
     {
-      "label": "MAJOR WATCH",
-      "title": "Fleetwood rallies late but Rose falters as English contingent makes s...",
-      "summary": "Tommy Fleetwood saved his British Open first round at Royal Birkdale with two birdies in his final four holes for a 69, while Justin Rose made seve...",
-      "quickRead": "Tommy Fleetwood saved his British Open first round at Royal Birkdale with two birdies in his final four holes for a 69, while Justin Rose made seven bogeys after a first-hole birdie and shot 75 (135th) and Matt Fitzpatrick posted a frustrated 2-over 72.  England’s best early hopes were outsider Dan Brown tied second with a 66 and Jordan Smith in the top 20 on 68, keeping the home contingent in touch despite a sluggish overall start.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/fleetwood-rallies-rose-falters-english-221030642.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/fleetwood-rallies-rose-falters-english-221030642.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-16T22:10:30.000Z"
-    },
-    {
       "label": "STORY TO WATCH",
       "title": "Bryson DeChambeau’s New Career Move Away From Golf Goes Against PGA Tour",
       "summary": "Bryson DeChambeau extended his partnership with Google Health to track recovery and health data using Google’s new Fitbit Air—directly competing wi...",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-07-16T19:56:59.000Z"
+    },
+    {
+      "label": "LIV WATCH",
+      "title": "Open Championship cut line tracker: LIVE projected cut updates",
+      "summary": "Rory McIlroy leads the pack of golfers with work to do to make the cut at the 2026 Open Championship.",
+      "quickRead": "Rory McIlroy leads the pack of golfers with work to do to make the cut at the 2026 Open Championship.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/open-championship-cut-line-tracker-093124180.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/open-championship-cut-line-tracker-093124180.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-07-17T09:31:24.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-17T11:18:32.170Z",
-      "approvedAt": "2026-07-17T11:18:32.170Z",
+      "timestamp": "2026-07-17T11:18:36.219Z",
+      "approvedAt": "2026-07-17T11:18:36.219Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -416,6 +416,59 @@
           "name": "Pierceson Coody",
           "score": "-4",
           "thru": "13"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-17T11:18:36.220Z",
+      "approvedAt": "2026-07-17T11:18:36.220Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ivan Cantero Gutierrez leads Corales Puntacana Championship at -7",
+      "summary": "Ivan Cantero Gutierrez is E today and -7 overall through 2. Closest chasers: Todd Clements (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
+      "quickRead": "Ivan Cantero Gutierrez is E today and -7 overall through 2. Closest chasers: Todd Clements (-7), Austin Eckroat (-6), Alejandro Del Rey (-6).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Ivan Cantero Gutierrez",
+          "score": "-7",
+          "thru": "2"
+        },
+        {
+          "pos": "T1",
+          "name": "Todd Clements",
+          "score": "-7",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
+          "name": "Austin Eckroat",
+          "score": "-6",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
+          "name": "Alejandro Del Rey",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Mackenzie Hughes",
+          "score": "-6",
+          "thru": "1"
         }
       ]
     }
