@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-18T20:41:15.673Z",
+  "updatedAt": "2026-07-18T20:41:16.653Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -263,21 +263,6 @@
   ],
   "weekRadar": [
     {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy rips Bryson Dechambeau for ‘performative’ British Open p...",
-      "summary": "Rory McIlroy blasted Bryson DeChambeau’s British Open rules incident as “performative” and “for attention,” saying, “To hold the tournament hostage...",
-      "quickRead": "Rory McIlroy blasted Bryson DeChambeau’s British Open rules incident as “performative” and “for attention,” saying, “To hold the tournament hostage like that… I didn’t feel like it was a great look. ” McIlroy was reacting to DeChambeau’s lengthy, heated exchange with officials after taking a two-shot penalty, a delay that backed up players and irritated fans, volunteers, and the field.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-rips-bryson-dechambeau-184823146.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-rips-bryson-dechambeau-184823146.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-18T18:48:23.000Z"
-    },
-    {
       "label": "STORY TO WATCH",
       "title": "Bryson DeChambeau’s New Career Move Away From Golf Goes Against PGA Tour",
       "summary": "Bryson DeChambeau extended his partnership with Google Health to track recovery and health data using Google’s new Fitbit Air—directly competing wi...",
@@ -291,6 +276,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-07-16T22:05:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Rory McIlroy rips Bryson Dechambeau for ‘performative’ British Open p...",
+      "summary": "Rory McIlroy blasted Bryson DeChambeau’s British Open rules incident as “performative” and “for attention,” saying, “To hold the tournament hostage...",
+      "quickRead": "Rory McIlroy blasted Bryson DeChambeau’s British Open rules incident as “performative” and “for attention,” saying, “To hold the tournament hostage like that… I didn’t feel like it was a great look. ” McIlroy was reacting to DeChambeau’s lengthy, heated exchange with officials after taking a two-shot penalty, a delay that backed up players and irritated fans, volunteers, and the field.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-rips-bryson-dechambeau-184823146.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-rips-bryson-dechambeau-184823146.html",
+      "source": "Yahoo Golf",
+      "image": "",
+      "timestamp": "2026-07-18T18:48:23.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-18T20:41:12.578Z",
-      "approvedAt": "2026-07-18T20:41:12.578Z",
+      "timestamp": "2026-07-18T20:41:16.532Z",
+      "approvedAt": "2026-07-18T20:41:16.532Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
@@ -415,6 +415,59 @@
           "pos": "T4",
           "name": "Lucas Herbert",
           "score": "-7",
+          "thru": "F"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-18T20:41:16.532Z",
+      "approvedAt": "2026-07-18T20:41:16.532Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Todd Clements wins Corales Puntacana Championship at -18",
+      "summary": "Todd Clements wins Corales Puntacana Championship at -18. Nearest finishers: Ben James (-16), Max McGreevy (-14), Stefano Mazzoli (-14).",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Todd Clements",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Ben James",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Max McGreevy",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Stefano Mazzoli",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Gordon Sargent",
+          "score": "-14",
           "thru": "F"
         }
       ]
