@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-18T18:56:17.158Z",
+  "updatedAt": "2026-07-18T20:41:12.578Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-18T20:41:12.575Z",
+      "approvedAt": "2026-07-18T20:41:12.575Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sam Burns wins The Open Championship at -10",
+      "summary": "Sam Burns wins The Open Championship at -10. Nearest finishers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
+      "quickRead": "Sam Burns wins The Open Championship at -10. Nearest finishers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sam Burns",
+          "score": "-10",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Fox",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Ryan Gerard",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Lucas Herbert",
+          "score": "-7",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-07-18T18:56:12.354Z",
       "approvedAt": "2026-07-18T18:56:12.354Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-18T18:48:23.000Z",
       "approvedAt": "2026-07-18T18:56:13.486Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T17:37:40.000Z",
       "approvedAt": "2026-07-18T18:56:13.486Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T17:27:39.000Z",
       "approvedAt": "2026-07-18T18:56:13.486Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T17:19:48.000Z",
       "approvedAt": "2026-07-18T18:56:13.487Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T16:52:07.849Z",
       "approvedAt": "2026-07-18T16:52:07.849Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-18T16:35:01.000Z",
       "approvedAt": "2026-07-18T16:52:09.298Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-18T16:23:47.000Z",
       "approvedAt": "2026-07-18T16:52:09.298Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/golf/article/rory-mcilroy-rips-bryson-dechambeau-after-penalty-performative-actions-at-the-open-championship-im-not-particularly-fond-of-him-162347768.html",
       "sourceUrl": "https://sports.yahoo.com/golf/article/rory-mcilroy-rips-bryson-dechambeau-after-penalty-performative-actions-at-the-open-championship-im-not-particularly-fond-of-him-162347768.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-07-18T16:07:54.000Z",
-      "approvedAt": "2026-07-18T16:52:09.298Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "British Open 2026: Rory McIlroy sounds off on Bryson DeChambeau, calling action...",
-      "summary": "Rory McIlroy was not a fan of Bryson DeChambeau’s Friday actions at the Open.",
-      "quickRead": "Rory McIlroy said Bryson DeChambeau’s reaction to his two-shot penalty at Royal Birkdale was “performative” and “for attention,” adding that DeChambeau “improved the line of his backswing” by trampling fescue and that “the two-shot penalty was justified for sure. ” McIlroy also criticized Bryson for “hold[ing] the tournament hostage” by threatening to withdraw and keeping players, volunteers and officials waiting late into the night.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/british-open-2026-rory-mcilroy-160754349.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/british-open-2026-rory-mcilroy-160754349.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-18T18:56:00.361Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-18T18:19:00.361Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-18T18:56:16.143Z",
-      "approvedAt": "2026-07-18T18:56:16.143Z",
+      "timestamp": "2026-07-18T20:41:12.578Z",
+      "approvedAt": "2026-07-18T20:41:12.578Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sam Burns leads The Open Championship at -10",
-      "summary": "Sam Burns is -5 today and -10 overall through F. Closest chasers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
-      "quickRead": "Sam Burns holds the lead at The Open Championship at Royal Birkdale after finishing his round at 10-under par (‑5 on the day).  Ryan Fox and Si Woo Kim are two shots back at ‑8, with Ryan Gerard next at ‑7, setting up a tight chase heading into the next wave of scoring.",
+      "title": "Sam Burns wins The Open Championship at -10",
+      "summary": "Sam Burns wins The Open Championship at -10. Nearest finishers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
+      "quickRead": "Sam Burns wins The Open Championship at -10. Nearest finishers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -409,65 +443,12 @@
           "pos": "T4",
           "name": "Ryan Gerard",
           "score": "-7",
-          "thru": "17"
+          "thru": "F"
         },
         {
           "pos": "T4",
-          "name": "Jackson Suber",
+          "name": "Lucas Herbert",
           "score": "-7",
-          "thru": "16"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-18T18:56:16.143Z",
-      "approvedAt": "2026-07-18T18:56:16.143Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements wins Corales Puntacana Championship at -18",
-      "summary": "Todd Clements wins Corales Puntacana Championship at -18. Nearest finishers: Ben James (-16), Max McGreevy (-14), Stefano Mazzoli (-14).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Todd Clements",
-          "score": "-18",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Ben James",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Max McGreevy",
-          "score": "-14",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Stefano Mazzoli",
-          "score": "-14",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Gordon Sargent",
-          "score": "-14",
           "thru": "F"
         }
       ]
