@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-18T14:47:11.270Z",
+  "updatedAt": "2026-07-18T16:52:07.852Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-07-18T16:52:07.849Z",
+      "approvedAt": "2026-07-18T16:52:07.849Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Todd Clements leads Corales Puntacana Championship at -16",
+      "summary": "Todd Clements is -3 today and -16 overall through 11. Closest chasers: Gordon Sargent (-14), Ben James (-14), Max McGreevy (-13).",
+      "quickRead": "Todd Clements is -3 today and -16 overall through 11. Closest chasers: Gordon Sargent (-14), Ben James (-14), Max McGreevy (-13).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Corales Puntacana Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Todd Clements",
+          "score": "-16",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Gordon Sargent",
+          "score": "-14",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-14",
+          "thru": "11"
+        },
+        {
+          "pos": "T4",
+          "name": "Max McGreevy",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Blades Brown",
+          "score": "-13",
+          "thru": "12"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-07-18T14:47:06.190Z",
       "approvedAt": "2026-07-18T14:47:06.190Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T13:04:48.000Z",
       "approvedAt": "2026-07-18T14:47:07.240Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T13:03:18.841Z",
       "approvedAt": "2026-07-18T13:03:18.841Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-18T11:35:36.000Z",
       "approvedAt": "2026-07-18T13:03:20.290Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-18T12:10:00.000Z",
       "approvedAt": "2026-07-18T13:03:20.290Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-18T10:30:00.000Z",
       "approvedAt": "2026-07-18T10:58:18.345Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-18T08:02:02.000Z",
       "approvedAt": "2026-07-18T09:19:27.815Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-18T06:54:41.000Z",
       "approvedAt": "2026-07-18T07:41:26.719Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/open-round-three-tee-times-065441944.html",
       "sourceUrl": "https://sports.yahoo.com/articles/open-round-three-tee-times-065441944.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-07-17T23:48:29.000Z",
-      "approvedAt": "2026-07-18T04:55:00.882Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau’s Open Penalty Became a Character Trial",
-      "summary": "The R&A took two strokes from Bryson DeChambeau on Friday night at Royal Birkdale.",
-      "quickRead": "The R&A took two strokes from Bryson DeChambeau on Friday night at Royal Birkdale.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-open-penalty-became-234829673.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-open-penalty-became-234829673.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-07-18T14:46:53.620Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-18T14:09:53.620Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,67 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-18T14:47:10.102Z",
-      "approvedAt": "2026-07-18T14:47:10.102Z",
+      "timestamp": "2026-07-18T16:52:07.852Z",
+      "approvedAt": "2026-07-18T16:52:07.852Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ryan Fox leads The Open Championship at -8",
-      "summary": "Ryan Fox is -8 today and -8 overall through F. Closest chasers: Lucas Herbert (-8), Si Woo Kim (-6), Jackson Suber (-6).",
-      "quickRead": "Ryan Fox finished his third round at Royal Birkdale with a 62 to post -8 and take the clubhouse lead at The Open Championship, tied with Lucas Herbert, who is also -8 and still on the course.  Si Woo Kim sits two back and a crowded group at -6 includes Jackson Suber, Cameron Young and Ryan Gerard, setting up a tight final-round shootout.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The Open Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Ryan Fox",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Lucas Herbert",
-          "score": "-8",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Si Woo Kim",
-          "score": "-6",
-          "thru": "2"
-        },
-        {
-          "pos": "T3",
-          "name": "Jackson Suber",
-          "score": "-6",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Cameron Young",
-          "score": "-6",
-          "thru": "1"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-18T14:47:10.102Z",
-      "approvedAt": "2026-07-18T14:47:10.102Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Gordon Sargent leads Corales Puntacana Championship at -14",
-      "summary": "Gordon Sargent is -3 today and -14 overall through 4. Closest chasers: Todd Clements (-14), Jacob Skov Olesen (-12), Ben James (-12).",
-      "quickRead": "Gordon Sargent is -3 today and -14 overall through 4. Closest chasers: Todd Clements (-14), Jacob Skov Olesen (-12), Ben James (-12).",
+      "title": "Todd Clements leads Corales Puntacana Championship at -16",
+      "summary": "Todd Clements is -3 today and -16 overall through 11. Closest chasers: Gordon Sargent (-14), Ben James (-14), Max McGreevy (-13).",
+      "quickRead": "Todd Clements is -3 today and -16 overall through 11. Closest chasers: Gordon Sargent (-14), Ben James (-14), Max McGreevy (-13).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -441,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Todd Clements",
+          "score": "-16",
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
           "name": "Gordon Sargent",
           "score": "-14",
-          "thru": "4"
+          "thru": "11"
         },
         {
-          "pos": "T1",
-          "name": "Todd Clements",
-          "score": "-14",
-          "thru": "4"
-        },
-        {
-          "pos": "T3",
-          "name": "Jacob Skov Olesen",
-          "score": "-12",
-          "thru": "5"
-        },
-        {
-          "pos": "T3",
+          "pos": "T2",
           "name": "Ben James",
-          "score": "-12",
-          "thru": "4"
+          "score": "-14",
+          "thru": "11"
         },
         {
-          "pos": "T5",
-          "name": "Jonathan Byrd",
-          "score": "-11",
-          "thru": "8"
+          "pos": "T4",
+          "name": "Max McGreevy",
+          "score": "-13",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Blades Brown",
+          "score": "-13",
+          "thru": "12"
         }
       ]
     }
