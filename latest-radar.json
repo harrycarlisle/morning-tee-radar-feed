@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-18T13:03:22.622Z",
+  "updatedAt": "2026-07-18T13:03:24.004Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -263,21 +263,6 @@
   ],
   "weekRadar": [
     {
-      "label": "LIV WATCH",
-      "title": "Open Championship LIVE leaderboard, Round 3 updates: Ryan Fox charges...",
-      "summary": "Ryan Fox surged into the lead during Saturday’s Round 3 at Royal Birkdale, while Bryson DeChambeau stayed in contention despite a two-stroke penalt...",
-      "quickRead": "Ryan Fox surged into the lead during Saturday’s Round 3 at Royal Birkdale, while Bryson DeChambeau stayed in contention despite a two-stroke penalty for stomping down long grass at the 5th to improve his lie.  With Lucas Herbert also in the mix after his record-tying 8-under 62 on Friday, the weekend is shaping up around a tight chase and whether the penalty swings the championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/open-championship-live-leaderboard-round-080202122.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/open-championship-live-leaderboard-round-080202122.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-07-18T08:02:02.000Z"
-    },
-    {
       "label": "STORY TO WATCH",
       "title": "Bryson DeChambeau’s New Career Move Away From Golf Goes Against PGA Tour",
       "summary": "Bryson DeChambeau extended his partnership with Google Health to track recovery and health data using Google’s new Fitbit Air—directly competing wi...",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-07-18T10:30:00.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "British Open 2026: Bryson's rules controversy overlooks something big...",
+      "summary": "Bryson DeChambeau’s four-under 66 at Royal Birkdale was changed to a two-under 68 after a two-stroke penalty, but he’s still just three shots off t...",
+      "quickRead": "Bryson DeChambeau’s four-under 66 at Royal Birkdale was changed to a two-under 68 after a two-stroke penalty, but he’s still just three shots off the lead after rounds of 67 and 68 with two rounds left.  More importantly, he’s now 14-under over his last five Open rounds (best in that span), a sharp reversal from being below average on links early in his career.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/british-open-2026-brysons-rules-113536669.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/british-open-2026-brysons-rules-113536669.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-07-18T11:35:36.000Z"
     }
   ],
   "checking": {
@@ -368,8 +368,61 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-18T13:03:18.844Z",
-      "approvedAt": "2026-07-18T13:03:18.844Z",
+      "timestamp": "2026-07-18T13:03:23.772Z",
+      "approvedAt": "2026-07-18T13:03:23.772Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 overall through 1. Closest chasers: Ryan Fox (-7), Jackson Suber (-6), Cameron Young (-6).",
+      "quickRead": "Lucas Herbert leads The Open Championship at Royal Birkdale at 8-under, holding a one-shot advantage over Ryan Fox (-7) with Jackson Suber, Cameron Young and Ryan Gerard one further back at -6.  Herbert’s 62 has him atop a tight board with big names like Scottie Scheffler, Jon Rahm and Tommy Fleetwood sitting at -4, setting up a crowded chase as the round continues.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Ryan Fox",
+          "score": "-7",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Cameron Young",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Ryan Gerard",
+          "score": "-6",
+          "thru": "1"
+        }
+      ]
+    },
+    {
+      "time": "Just now",
+      "timestamp": "2026-07-18T13:03:23.772Z",
+      "approvedAt": "2026-07-18T13:03:23.772Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
