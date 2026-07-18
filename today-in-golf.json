@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-17T04:25:19.710Z",
+  "lastUpdated": "2026-07-18T04:14:31.353Z",
   "edition": "evening",
   "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Todd Clements Leads Corales Puntacana",
-      "text": "Todd Clements is tied for the lead at -7 after finishing his round, alongside Ivan Cantero Gutierrez, with Austin Eckroat and Alejandro Del Rey close behind at -6."
+      "headline": "Lucas Herbert leads The Open",
+      "text": "Lucas Herbert leads the 2026 Open Championship at Royal Birkdale with a final score of 8-under par, two shots ahead of Jackson Suber, Cameron Young and Ryan Gerard at 6-under."
     },
     {
-      "headline": "Jackson Suber Leads The Open Championship",
-      "text": "Jackson Suber holds the solo lead at -5 after completing his round at The Open Championship, with Sungjae Im and Dan Brown trailing one shot behind."
+      "headline": "Bryson DeChambeau penalized at The Open",
+      "text": "Bryson DeChambeau received a two-stroke penalty for improving his lie by tamping down grass in the fescue on the par-4 5th, dropping him from one shot off the lead to three shots back and triggering a heated argument with officials."
     },
     {
-      "headline": "Bryson DeChambeau Challenges Nick Faldo",
-      "text": "After opening The Open with a 3-under 67, Bryson DeChambeau defended his strategic play against Nick Faldo's criticism, putting him just one shot off the lead and back in contention."
+      "headline": "Todd Clements tops Corales Puntacana",
+      "text": "Todd Clements finished the Corales Puntacana Championship at 13-under par, leading Johannes Veerman, Ben James, and Gordon Sargent who all finished at 11-under."
     }
   ],
-  "itemsLastUpdated": "2026-07-17T04:25:19.710Z",
+  "itemsLastUpdated": "2026-07-18T04:14:31.353Z",
   "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-17T04:25:19.710Z",
+  "lastSuccessfulStoryUpdate": "2026-07-18T04:14:31.353Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 14,
-  "candidateItemsSelected": 10,
+  "candidateItemsSelected": 13,
   "openaiAttempted": true,
-  "openaiOutputLength": 816,
+  "openaiOutputLength": 874,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_b2f69142037741e1a9d16631cf3e0670",
+  "openaiRequestId": "req_10f92b2747cb4d55a2d9da1a9700b6db",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-17T04:25:19.710Z",
+  "diagnosticUpdatedAt": "2026-07-18T04:14:31.353Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
