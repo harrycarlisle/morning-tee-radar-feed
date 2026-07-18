@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-18T04:55:05.394Z",
+  "updatedAt": "2026-07-18T07:41:25.429Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-07-18T07:41:25.425Z",
+      "approvedAt": "2026-07-18T07:41:25.425Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 overall through 1. Closest chasers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "quickRead": "Lucas Herbert is -8 overall through 1. Closest chasers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The Open Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Lucas Herbert",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Jackson Suber",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Cameron Young",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Ryan Gerard",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Sam Burns",
+          "score": "-5",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-07-17T22:43:35.241Z",
       "approvedAt": "2026-07-17T22:43:35.241Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-17T23:48:29.000Z",
       "approvedAt": "2026-07-18T04:55:00.882Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-07-18T01:00:00.000Z",
       "approvedAt": "2026-07-18T02:00:29.389Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-17T23:00:00.000Z",
       "approvedAt": "2026-07-18T02:00:29.390Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-17T21:59:25.000Z",
       "approvedAt": "2026-07-17T22:43:36.341Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-17T21:46:44.000Z",
       "approvedAt": "2026-07-17T22:43:36.342Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-07-17T21:45:38.000Z",
       "approvedAt": "2026-07-17T22:43:36.343Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-07-17T21:38:49.000Z",
       "approvedAt": "2026-07-17T22:43:36.343Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-faces-growing-backlash-213849790.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-07-17T20:34:07.000Z",
-      "approvedAt": "2026-07-17T20:49:03.845Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau under investigation at The Open and could face two-stroke pen...",
-      "summary": "Bryson DeChambeau played some superb golf on day two at The Open Championship.",
-      "quickRead": "Bryson DeChambeau is being investigated at The Open for allegedly improving his lie in the deep rough on the par-4 5th by stamping down grass behind his ball before his second shot, a breach that could bring a two-stroke penalty.  He told his team the officials “said that I have improved my lie,” then went back to the hole with R&A rules officials after signing his card, with the ruling potentially swinging his weekend chances after a second-round 66 put him one off the lead.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-under-investigation-open-203407926.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-under-investigation-open-203407926.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-07-18T04:54:45.593Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-07-18T04:17:45.593Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-18T04:55:04.366Z",
-      "approvedAt": "2026-07-18T04:55:04.366Z",
+      "timestamp": "2026-07-18T07:41:25.430Z",
+      "approvedAt": "2026-07-18T07:41:25.430Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Lucas Herbert wins The Open Championship at -8",
-      "summary": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
-      "quickRead": "Lucas Herbert wins The Open Championship at -8. Nearest finishers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "title": "Lucas Herbert leads The Open Championship at -8",
+      "summary": "Lucas Herbert is -8 overall through 1. Closest chasers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
+      "quickRead": "Lucas Herbert is -8 overall through 1. Closest chasers: Jackson Suber (-6), Cameron Young (-6), Ryan Gerard (-6).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,84 +391,31 @@
           "pos": "1",
           "name": "Lucas Herbert",
           "score": "-8",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Jackson Suber",
           "score": "-6",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Cameron Young",
           "score": "-6",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Ryan Gerard",
           "score": "-6",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T5",
           "name": "Sam Burns",
           "score": "-5",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-18T04:55:04.366Z",
-      "approvedAt": "2026-07-18T04:55:04.366Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements wins Corales Puntacana Championship at -13",
-      "summary": "Todd Clements wins Corales Puntacana Championship at -13. Nearest finishers: Johannes Veerman (-11), Ben James (-11), Gordon Sargent (-11).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Todd Clements",
-          "score": "-13",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Johannes Veerman",
-          "score": "-11",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Ben James",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Gordon Sargent",
-          "score": "-11",
-          "thru": "F*"
-        },
-        {
-          "pos": "5",
-          "name": "Alejandro Del Rey",
-          "score": "-10",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
