@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-19T14:50:54.027Z",
+  "updatedAt": "2026-07-19T14:50:55.023Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-19T13:06:11.402Z",
-      "approvedAt": "2026-07-19T13:06:11.402Z",
+      "timestamp": "2026-07-19T14:50:54.937Z",
+      "approvedAt": "2026-07-19T14:50:54.937Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sam Burns leads The Open Championship at -10",
-      "summary": "Sam Burns is -10 overall through 1. Closest chasers: Cameron Young (-8), Ryan Fox (-8), Si Woo Kim (-8).",
-      "quickRead": "Sam Burns holds the outright lead at Royal Birkdale at 10-under par through his first hole of the final round, with Ryan Fox and Si Woo Kim two back at 8-under.  Cameron Young sits at 7-under alongside Scottie Scheffler and others, setting up a crowded chase if Burns slips as the last round plays out.",
+      "title": "Si Woo Kim leads The Open Championship at -10",
+      "summary": "Si Woo Kim is -2 today and -10 overall through 7. Closest chasers: Cameron Young (-9), Ryan Fox (-9), Sam Burns (-9).",
+      "quickRead": "Si Woo Kim leads The Open Championship at Royal Birkdale at 10-under par, 2-under on his round through 6 holes, with Cameron Young, Ryan Fox and Sam Burns one back at 9-under.  Scottie Scheffler and Tommy Fleetwood sit two back at 8-under, setting up a tight finish with five players within two shots as the final round continues.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -321,33 +321,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Sam Burns",
+          "name": "Si Woo Kim",
           "score": "-10",
-          "thru": "1"
+          "thru": "7"
         },
         {
           "pos": "T2",
           "name": "Cameron Young",
-          "score": "-8",
-          "thru": "9"
+          "score": "-9",
+          "thru": "16"
         },
         {
           "pos": "T2",
           "name": "Ryan Fox",
-          "score": "-8",
-          "thru": "1"
+          "score": "-9",
+          "thru": "5"
         },
         {
           "pos": "T2",
-          "name": "Si Woo Kim",
-          "score": "-8",
-          "thru": "1"
+          "name": "Sam Burns",
+          "score": "-9",
+          "thru": "5"
         },
         {
           "pos": "T5",
           "name": "Scottie Scheffler",
           "score": "-7",
-          "thru": "5"
+          "thru": "13"
         }
       ]
     }
