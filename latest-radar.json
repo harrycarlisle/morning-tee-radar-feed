@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-19T13:06:10.227Z",
+  "updatedAt": "2026-07-19T13:06:11.622Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -195,21 +195,6 @@
   ],
   "weekRadar": [
     {
-      "label": "STAR WATCH",
-      "title": "Bryson DeChambeau skips media again, but his peers have plenty to say",
-      "summary": "Bryson DeChambeau again refused traditional media after his third-round 69 at Royal Birkdale, a day after a two-shot penalty for improving his swin...",
-      "quickRead": "Bryson DeChambeau again refused traditional media after his third-round 69 at Royal Birkdale, a day after a two-shot penalty for improving his swing path in fescue; he only posted, “Obviously disappointed… I don’t agree with it… This fires me up. ” Sam Burns said “I feel bad for him” and questioned the evidence, while Rory McIlroy said there was “no doubt” he improved his backswing line and called Bryson “performative,” with Scheffler and Lowry largely declining to pile on.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-skips-media-again-210750145.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-skips-media-again-210750145.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-07-18T21:07:50.000Z"
-    },
-    {
       "label": "LIV WATCH",
       "title": "Bryson DeChambeau has just changed his negotiating position with the...",
       "summary": "Bryson DeChambeau boosted his leverage for a new deal—either to re-up with LIV or negotiate a return to the PGA Tour—by becoming the “main characte...",
@@ -223,6 +208,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-07-19T11:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Bryson DeChambeau skips media again, but his peers have plenty to say",
+      "summary": "Bryson DeChambeau again refused traditional media after his third-round 69 at Royal Birkdale, a day after a two-shot penalty for improving his swin...",
+      "quickRead": "Bryson DeChambeau again refused traditional media after his third-round 69 at Royal Birkdale, a day after a two-shot penalty for improving his swing path in fescue; he only posted, “Obviously disappointed… I don’t agree with it… This fires me up. ” Sam Burns said “I feel bad for him” and questioned the evidence, while Rory McIlroy said there was “no doubt” he improved his backswing line and called Bryson “performative,” with Scheffler and Lowry largely declining to pile on.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-skips-media-again-210750145.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-skips-media-again-210750145.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-07-18T21:07:50.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-07-19T11:06:57.445Z",
-      "approvedAt": "2026-07-19T11:06:57.445Z",
+      "timestamp": "2026-07-19T13:06:11.402Z",
+      "approvedAt": "2026-07-19T13:06:11.402Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Sam Burns leads The Open Championship at -10",
-      "summary": "Sam Burns is -10 overall through 1. Closest chasers: Ryan Fox (-8), Si Woo Kim (-8), Ryan Gerard (-7).",
-      "quickRead": "Sam Burns leads The Open Championship at Royal Birkdale at 10-under par through the first hole of his final round, with Ryan Fox and Si Woo Kim two back at 8-under and Ryan Gerard at 7-under.  Burns’ closest pursuers are in the same late wave, so the championship is set up for a head-to-head finish with big names like Ludvig Åberg and Bryson DeChambeau lurking three back.",
+      "summary": "Sam Burns is -10 overall through 1. Closest chasers: Cameron Young (-8), Ryan Fox (-8), Si Woo Kim (-8).",
+      "quickRead": "Sam Burns holds the outright lead at Royal Birkdale at 10-under par through his first hole of the final round, with Ryan Fox and Si Woo Kim two back at 8-under.  Cameron Young sits at 7-under alongside Scottie Scheffler and others, setting up a crowded chase if Burns slips as the last round plays out.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -327,6 +327,12 @@
         },
         {
           "pos": "T2",
+          "name": "Cameron Young",
+          "score": "-8",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
           "name": "Ryan Fox",
           "score": "-8",
           "thru": "1"
@@ -338,69 +344,10 @@
           "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Ryan Gerard",
+          "pos": "T5",
+          "name": "Scottie Scheffler",
           "score": "-7",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Lucas Herbert",
-          "score": "-7",
-          "thru": "1"
-        }
-      ]
-    },
-    {
-      "time": "Just now",
-      "timestamp": "2026-07-19T11:06:57.445Z",
-      "approvedAt": "2026-07-19T11:06:57.446Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Todd Clements leads Corales Puntacana Championship at -18",
-      "summary": "Todd Clements is -18 overall through 1. Closest chasers: Ben James (-16), Max McGreevy (-14), Stefano Mazzoli (-14).",
-      "quickRead": "Todd Clements is -18 overall through 1. Closest chasers: Ben James (-16), Max McGreevy (-14), Stefano Mazzoli (-14).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Corales Puntacana Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Todd Clements",
-          "score": "-18",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Ben James",
-          "score": "-16",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Max McGreevy",
-          "score": "-14",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Stefano Mazzoli",
-          "score": "-14",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Gordon Sargent",
-          "score": "-14",
-          "thru": "1"
+          "thru": "5"
         }
       ]
     }
