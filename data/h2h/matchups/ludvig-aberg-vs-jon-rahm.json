@@ -1,6 +1,6 @@
 {
   "matchupId": "ludvig-aberg-vs-jon-rahm",
-  "updatedAt": "2026-07-13T18:02:21.338Z",
+  "updatedAt": "2026-07-20T17:31:13.118Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 14,
-    "playerAWins": 7,
+    "sharedStarts": 15,
+    "playerAWins": 8,
     "playerBWins": 6,
     "ties": 1
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 37 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

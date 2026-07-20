@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-collin-morikawa",
-  "updatedAt": "2026-07-13T17:33:41.923Z",
+  "updatedAt": "2026-07-20T17:02:40.962Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 73,
+    "sharedStarts": 74,
     "playerAWins": 46,
-    "playerBWins": 22,
+    "playerBWins": 23,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 28 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

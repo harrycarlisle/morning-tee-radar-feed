@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-collin-morikawa",
-  "updatedAt": "2026-07-13T16:24:59.734Z",
+  "updatedAt": "2026-07-20T15:54:03.774Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 108,
-    "playerAWins": 67,
+    "sharedStarts": 109,
+    "playerAWins": 68,
     "playerBWins": 31,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

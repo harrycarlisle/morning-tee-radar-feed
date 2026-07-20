@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-viktor-hovland",
-  "updatedAt": "2026-07-13T17:33:42.741Z",
+  "updatedAt": "2026-07-20T17:02:41.599Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 113,
-    "playerAWins": 66,
+    "sharedStarts": 114,
+    "playerAWins": 67,
     "playerBWins": 40,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 981 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

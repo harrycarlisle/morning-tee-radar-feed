@@ -1,6 +1,6 @@
 {
   "matchupId": "matt-fitzpatrick-vs-tommy-fleetwood",
-  "updatedAt": "2026-07-13T17:33:45.468Z",
+  "updatedAt": "2026-07-20T17:02:43.853Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2014,
-    "sharedStarts": 127,
+    "sharedStarts": 128,
     "playerAWins": 48,
-    "playerBWins": 72,
+    "playerBWins": 73,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Matt Fitzpatrick",
+        "dgId": 17646,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 995 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

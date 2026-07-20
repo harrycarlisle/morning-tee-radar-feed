@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-ludvig-aberg",
-  "updatedAt": "2026-07-13T17:33:43.663Z",
+  "updatedAt": "2026-07-20T17:02:42.312Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 46,
+    "sharedStarts": 47,
     "playerAWins": 20,
-    "playerBWins": 21,
+    "playerBWins": 22,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T9",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 9 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

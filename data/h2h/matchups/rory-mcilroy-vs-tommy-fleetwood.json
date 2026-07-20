@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-tommy-fleetwood",
-  "updatedAt": "2026-07-13T17:22:19.229Z",
+  "updatedAt": "2026-07-20T16:51:18.443Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 128,
+    "sharedStarts": 129,
     "playerAWins": 83,
-    "playerBWins": 40,
+    "playerBWins": 41,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T40",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tommy-fleetwood",
+      "edge": "Tommy by 36 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

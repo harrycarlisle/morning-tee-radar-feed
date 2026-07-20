@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-xander-schauffele",
-  "updatedAt": "2026-07-13T17:33:41.751Z",
+  "updatedAt": "2026-07-20T17:02:40.866Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 126,
+    "sharedStarts": 127,
     "playerAWins": 69,
-    "playerBWins": 51,
+    "playerBWins": 52,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 28 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

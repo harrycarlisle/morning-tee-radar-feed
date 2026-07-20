@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-hideki-matsuyama",
-  "updatedAt": "2026-07-13T17:33:44.629Z",
+  "updatedAt": "2026-07-20T17:02:43.153Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 199,
+    "sharedStarts": 200,
     "playerAWins": 90,
-    "playerBWins": 99,
+    "playerBWins": 100,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 985 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

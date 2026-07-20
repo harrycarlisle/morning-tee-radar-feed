@@ -1,6 +1,6 @@
 {
   "matchupId": "jon-rahm-vs-cameron-smith",
-  "updatedAt": "2026-07-13T18:02:22.393Z",
+  "updatedAt": "2026-07-20T17:31:13.909Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2016,
-    "sharedStarts": 103,
-    "playerAWins": 75,
+    "sharedStarts": 104,
+    "playerAWins": 76,
     "playerBWins": 24,
     "ties": 4
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jon Rahm",
+        "dgId": 19195,
+        "finish": "T46",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Cameron Smith",
+        "dgId": 15856,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jon-rahm",
+      "edge": "Jon by 953 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-21",

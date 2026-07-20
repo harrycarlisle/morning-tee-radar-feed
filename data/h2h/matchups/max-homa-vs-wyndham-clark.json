@@ -1,6 +1,6 @@
 {
   "matchupId": "max-homa-vs-wyndham-clark",
-  "updatedAt": "2026-07-13T17:33:45.005Z",
+  "updatedAt": "2026-07-20T17:02:43.516Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 107,
-    "playerAWins": 53,
+    "sharedStarts": 108,
+    "playerAWins": 54,
     "playerBWins": 42,
     "ties": 12
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "max-homa",
+      "edge": "Max by 971 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-14",

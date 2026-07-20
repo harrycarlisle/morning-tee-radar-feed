@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-justin-thomas",
-  "updatedAt": "2026-07-13T16:25:00.325Z",
+  "updatedAt": "2026-07-20T15:54:04.236Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 110,
-    "playerAWins": 73,
+    "sharedStarts": 111,
+    "playerAWins": 74,
     "playerBWins": 31,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 61 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-patrick-cantlay",
-  "updatedAt": "2026-07-13T17:33:44.511Z",
+  "updatedAt": "2026-07-20T17:02:43.042Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 139,
+    "sharedStarts": 140,
     "playerAWins": 62,
-    "playerBWins": 67,
+    "playerBWins": 68,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T65",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 37 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

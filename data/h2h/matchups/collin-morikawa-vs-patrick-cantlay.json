@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-patrick-cantlay",
-  "updatedAt": "2026-07-13T17:33:44.017Z",
+  "updatedAt": "2026-07-20T17:02:42.616Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 106,
-    "playerAWins": 43,
+    "sharedStarts": 107,
+    "playerAWins": 44,
     "playerBWins": 58,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 10 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-06-28",

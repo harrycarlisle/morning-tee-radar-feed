@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-xander-schauffele",
-  "updatedAt": "2026-07-13T16:24:59.497Z",
+  "updatedAt": "2026-07-20T15:54:03.506Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 107,
-    "playerAWins": 58,
+    "sharedStarts": 108,
+    "playerAWins": 59,
     "playerBWins": 40,
     "ties": 9
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 14 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",

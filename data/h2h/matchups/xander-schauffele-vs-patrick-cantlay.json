@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-patrick-cantlay",
-  "updatedAt": "2026-07-13T17:33:43.247Z",
+  "updatedAt": "2026-07-20T17:02:42.010Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2015,
-    "sharedStarts": 146,
-    "playerAWins": 66,
+    "sharedStarts": 147,
+    "playerAWins": 67,
     "playerBWins": 65,
     "ties": 15
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-19",
+      "eventId": 100,
+      "eventName": "The Open Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 10 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-12",
