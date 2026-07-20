@@ -22,21 +22,21 @@
     <section class="mt-latest-section" aria-labelledby="mt-latest-title">
       <div class="mt-section-head mt-section-head-latest">
         <div>
-          <div class="mt-section-kicker">Latest Around Golf</div>
-          <h2 id="mt-latest-title">Newest stories</h2>
+          <div class="mt-section-kicker">Golf stories</div>
+          <h2 id="mt-latest-title">All stories</h2>
         </div>
       </div>
 
       <div class="mt-stories-tools">
         <label class="mt-search-label">
-          <span class="mt-visually-hidden">Search latest stories</span>
-          <input id="mt-story-search" type="search" placeholder="Search latest stories by player, tour, title, or source">
+          <span class="mt-visually-hidden">Search stories</span>
+          <input id="mt-story-search" type="search" placeholder="Search stories by player, tour, title, or source">
         </label>
 
         <label class="mt-filter-label">
           <span>Filter</span>
           <select id="mt-story-filter">
-            <option value="all">All latest stories</option>
+            <option value="all">All stories</option>
             <option value="TECH">Tech</option>
             <option value="PGA TOUR">PGA Tour</option>
             <option value="LIV">LIV</option>
@@ -53,8 +53,8 @@
         <article class="mt-story-card">
           <div class="mt-card-image-empty"></div>
           <div class="mt-card-category">Loading</div>
-          <h3>Loading latest stories...</h3>
-          <p>Morning Tee radar stories will appear here.</p>
+          <h3>Loading stories...</h3>
+          <p>Morning Tee stories will appear here.</p>
         </article>
       </div>
 
@@ -625,6 +625,18 @@
     let originalsVisibleCount = originalsInitialVisibleCount;
 
     const manualArticles = [
+      {
+        title: "The Easiest Way to Lower Your Score Is Not Hitting It Farther",
+        category: "STRATEGY",
+        author: "Morning Tee",
+        readTime: "4 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        url: "https://www.morningtee.com/stories-lower-your-score-smarter-targets",
+        summary: "Most golfers chase better contact. But the fastest scoring gains usually come from choosing smarter targets.",
+        topics: ["Strategy", "Course Management", "Scoring"],
+        evergreen: true
+      },
       {
         title: "The Golf Ball Rollback, Explained For Normal People",
         category: "FEATURE",
@@ -1556,7 +1568,7 @@
           <article class="mt-story-card">
             <div class="mt-card-image-empty"></div>
             <div class="mt-card-category">No results</div>
-            <h3>No latest stories found</h3>
+            <h3>No stories found</h3>
             <p>Try a different search term or category.</p>
           </article>
         `;
@@ -1577,7 +1589,7 @@
             <div class="mt-card-category">${escapeHtml(item.category || "Golf")}</div>
             <h3>${escapeHtml(getDisplayTitle(item.title || "Untitled story"))}</h3>
             <p>${escapeHtml(truncateText(getStorySummary(item), 95))}</p>
-            <div class="mt-card-meta">${escapeHtml(index >= 6 ? getStoryDate(item) : getStoryMeta(item))}</div>
+            <div class="mt-card-meta">${escapeHtml(getStoryMeta(item))}</div>
           </a>
         `;
       }).join("");

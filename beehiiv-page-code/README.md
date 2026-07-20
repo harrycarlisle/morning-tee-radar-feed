@@ -1,28 +1,39 @@
-# Beehiiv page-code accessibility updates
+# Beehiiv page-code updates
 
-Paste these files into the matching Beehiiv custom HTML blocks:
+## Accessibility blocks (prior update)
 
 | File | Beehiiv block |
 |------|----------------|
-| `homepage-combined-block.html` | Homepage combined block (Today In Golf + Newest/Radar + Top Picks/Puzzles) |
-| `search-page-block.html` | Search / all stories page block |
-| `newsletter-email-snippet.html` | Subscribe widget or hero form (template-level; see file notes) |
+| `homepage-combined-block.html` | Homepage combined block |
+| `search-page-block.html` | Search / all stories page |
+| `PATCH-SNIPPETS.md` | Surgical accessibility edits |
 
-## Changes applied
+## Evergreen / stale-date updates (latest)
 
-### Homepage combined block
-- **A.** `aria-controls="mt-today-panel"` on Today in Golf toggle
-- **B.** Quick Read modal stores opener, focuses close button on open, returns focus on close
-- **C.** `getStoryImageAlt()` helper; radar main card images use decorative alt instead of headline
-- **D.** Mini Cup stores opener, focuses close on open, Escape closes, returns focus; hidden sheet CSS when closed
-- **E.** `:focus-visible` outlines on interactive controls
+| File | Purpose |
+|------|---------|
+| `homepage-combined-block.html` | Removes stale relative times, renames Puzzles section, features evergreen Strategy pick |
+| `search-page-block.html` | Removes visible card dates, softens “latest/newest” labels, adds evergreen article |
+| `EVERGREEN-PATCH-SNIPPETS.md` | Surgical evergreen edits |
+| `evergreen-article-draft.md` | Full article draft for Beehiiv paste |
 
-### Search page block
-- **G.** `getStoryImageAlt()` helper; story card images use decorative alt for placeholders
-- **H.** Modal stores opener, focuses close on open, returns focus to story card on close
-- **E.** `:focus-visible` outlines on search controls and cards
+Regenerate evergreen patches:
 
-### Newsletter email
-- Not in extracted hero iframe; see `newsletter-email-snippet.html` for Beehiiv subscribe widget guidance
+```bash
+node scripts/build-beehiiv-evergreen-blocks.js
+```
 
-Generated: 2026-07-14T12:50:30.549Z
+## Paste instructions
+
+1. Replace the **homepage combined block** with `homepage-combined-block.html`
+2. Replace the **search page block** with `search-page-block.html`
+3. Publish the evergreen article in Beehiiv from `evergreen-article-draft.md`
+   - Suggested slug: `stories-lower-your-score-smarter-targets`
+4. No fake publish date required on the homepage card
+
+## What stays internal (not shown)
+
+- Golf Mini `minis[].date` release scheduling
+- `publishedAt` / `date` fields in search `manualArticles`
+- Today in Golf update label (unchanged)
+- Radar feed sorting timestamps (unchanged)
