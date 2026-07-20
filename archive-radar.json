@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-07-20T21:06:47.135Z",
+  "updatedAt": "2026-07-20T22:26:33.417Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "1 hour ago",
+      "timestamp": "2026-07-20T20:29:25.002Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-07-20T22:26:33.417Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "Just now",
@@ -1877,22 +1898,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-slammed-did-day-213000176.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-07-16T22:53:15.827Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Bryson DeChambeau’s New Career Move Away From Golf Goes Against PGA Tour",
-      "summary": "Bryson DeChambeau signed a new deal with Google Health to use and promote the Fitbit Air for tracking health and recovery stats—putting him behind...",
-      "quickRead": "Bryson DeChambeau signed a new deal with Google Health to use and promote the Fitbit Air for tracking health and recovery stats—putting him behind a direct competitor to the PGA Tour’s official wearable partner, Whoop.  It’s a notable off-course move as the Tour’s Whoop deal runs through 2028, and DeChambeau is also leaning into tech experimentation (including 3D-printed irons) while competing in majors.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-career-move-away-220500362.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-career-move-away-220500362.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-07-16T22:05:00.000Z",
       "archivedAt": "2026-07-16T22:53:15.827Z"
     }
   ]
