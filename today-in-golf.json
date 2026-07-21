@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-21T04:32:11.003Z",
-  "edition": "evening",
-  "label": "Last checked at 8 p.m. ET",
+  "lastUpdated": "2026-07-21T14:23:35.374Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Dave Portnoy Backs Rory McIlroy",
-      "text": "Dave Portnoy supports Rory McIlroy's criticism of Bryson DeChambeau as \"performative\" and justifies DeChambeau's two-shot penalty at The Open for improving his backswing area."
+      "headline": "3M Open Field Finalized",
+      "text": "The 2026 3M Open will feature 144 players at TPC Twin Cities, including World No. 1 Scottie Scheffler and defending leader Kurt Kitayama, with competitors from 21 countries."
     },
     {
-      "headline": "Rory McIlroy Pauses Until FedEx St. Jude",
-      "text": "Rory McIlroy announced he will not compete again until the FedEx St. Jude Championship due to losing excitement in the PGA Tour and needing a top-30 FedExCup ranking to contend."
+      "headline": "Proposed Major Rule After Bryson Snubs",
+      "text": "A new major championship rule is proposed to require players to attend post-round media interviews or face penalties, following Bryson DeChambeau's repeated refusals to speak to reporters in 2026, including at The Open Championship."
+    },
+    {
+      "headline": "TPC Twin Cities Course Recovery",
+      "text": "TPC Twin Cities recovered from winter turf injury and is set as a demanding par-71, 7,431-yard test with water hazards on 15 holes for the upcoming 3M Open."
     }
   ],
-  "itemsLastUpdated": "2026-07-20T22:26:39.788Z",
-  "itemsEdition": "evening",
-  "usedFallback": true,
-  "fallbackReason": "generated_items_rejected",
-  "fallbackStage": "item_cleaning",
-  "lastSuccessfulStoryUpdate": "2026-07-20T22:26:39.788Z",
-  "itemsChanged": false,
+  "itemsLastUpdated": "2026-07-21T14:23:35.374Z",
+  "itemsEdition": "morning",
+  "usedFallback": false,
+  "fallbackReason": "",
+  "fallbackStage": "",
+  "lastSuccessfulStoryUpdate": "2026-07-21T14:23:35.374Z",
+  "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 9,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 775,
+  "openaiOutputLength": 859,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_eea173269784497c9a1c2bfd795dae3f",
+  "openaiRequestId": "req_9934fcf7f7b54fdeaf63206236da47d7",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 1,
-  "rejectedItemsCount": 2,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: bryson",
-      "count": 2
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-07-21T04:32:11.002Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-07-21T14:23:35.374Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
