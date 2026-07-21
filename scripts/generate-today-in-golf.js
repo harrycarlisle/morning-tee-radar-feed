@@ -33,6 +33,19 @@ const EDITION_ORDER = {
   evening: 3
 };
 
+// Eastern-time windows for each edition. Scheduled cron entries map to an
+// edition, but the run only proceeds when the current ET clock is inside the
+// matching window. This prevents EST fallback crons from firing the wrong
+// edition during daylight saving time (for example, "17 1 * * *" is 8:17 PM ET
+// in winter but 9:17 PM in summer, and 00:17 UTC is midnight ET in summer).
+const EDITION_WINDOWS = {
+  morning: { start: 8, end: 12 },
+  midday: { start: 12, end: 20 },
+  evening: { start: 20, end: 24 }
+};
+
+const GITHUB_EVENT_NAME = process.env.GITHUB_EVENT_NAME || "";
+
 let lastGenerationFailureReason = "";
 let lastGenerationFailureStage = "";
 let lastRunDiagnostics = createDiagnosticMetadata();
@@ -107,12 +120,24 @@ function getScheduledEditionDetails() {
   };
 }
 
-function getCurrentWindowEdition(date = new Date()) {
+function getEditionHourFraction(date = new Date()) {
   const et = getETParts(date);
+  return et.hour + et.minute / 60;
+}
 
-  if (et.hour >= 8 && et.hour < 12) return "morning";
-  if (et.hour >= 12 && et.hour < 20) return "midday";
-  if (et.hour >= 20 && et.hour < 24) return "evening";
+function isEditionInWindow(edition, date = new Date()) {
+  if (!isValidEdition(edition) || !EDITION_WINDOWS[edition]) return false;
+
+  const hours = getEditionHourFraction(date);
+  const window = EDITION_WINDOWS[edition];
+
+  return hours >= window.start && hours < window.end;
+}
+
+function getCurrentWindowEdition(date = new Date()) {
+  if (isEditionInWindow("morning", date)) return "morning";
+  if (isEditionInWindow("midday", date)) return "midday";
+  if (isEditionInWindow("evening", date)) return "evening";
 
   return null;
 }
@@ -136,6 +161,15 @@ function getEditionNow(currentTodayJson = null, date = new Date()) {
   const scheduledEdition = getScheduledEditionDetails().edition;
 
   if (scheduledEdition) {
+    const windowEdition = getCurrentWindowEdition(date);
+
+    if (windowEdition !== scheduledEdition) {
+      console.log(
+        `[Today In Golf] Scheduled cron maps to ${scheduledEdition}, but current ET window is ${windowEdition || "none"}. Skipping off-window scheduled run.`
+      );
+      return null;
+    }
+
     return hasRunSameOrLaterEdition(currentTodayJson, scheduledEdition, date) ? null : scheduledEdition;
   }
 
@@ -436,7 +470,12 @@ function hasRunSameOrLaterEdition(todayJson, edition, date = new Date()) {
   const nowET = getETParts(date);
   const lastET = getETParts(new Date(todayJson.lastUpdated));
 
-  return nowET.dateKey === lastET.dateKey && EDITION_ORDER[todayJson.edition] >= EDITION_ORDER[edition];
+  if (nowET.dateKey !== lastET.dateKey) return false;
+  if (EDITION_ORDER[todayJson.edition] < EDITION_ORDER[edition]) return false;
+
+  // Ignore edition metadata written outside its intended ET window. This keeps a
+  // mistaken off-window evening run from blocking the real morning edition.
+  return isEditionInWindow(todayJson.edition, new Date(todayJson.lastUpdated));
 }
 
 function hasReusableBriefingItems(todayJson) {
@@ -789,6 +828,8 @@ function updateEditionMetadataOnly(currentTodayJson, edition, reasonOrDetails) {
   console.warn(`[Today In Golf] Fallback used: ${fallbackDetails.reason}. Updated edition metadata only for ${edition}.`);
   console.warn(`[Today In Golf] Fallback stage: ${fallbackDetails.stage}.`);
   console.warn(`[Today In Golf] Items carried from ${output.itemsEdition || "unknown edition"} at ${output.itemsLastUpdated || "unknown time"}.`);
+  console.log("[Today In Golf] Output status: metadata_only");
+  console.log("[Today In Golf] Repository change expected: yes");
   console.log(JSON.stringify(output, null, 2));
 
   return true;
@@ -1342,7 +1383,10 @@ async function main() {
   const et = getETParts();
   const scheduledEditionDetails = getScheduledEditionDetails();
 
+  console.log(`[Today In Golf] Trigger: ${GITHUB_EVENT_NAME || "local"}`);
+  console.log(`[Today In Golf] UTC run time: ${new Date().toISOString()}`);
   console.log(`[Today In Golf] Current ET: ${et.dateKey} ${String(et.hour).padStart(2, "0")}:${String(et.minute).padStart(2, "0")}`);
+  console.log(`[Today In Golf] Current ET window edition: ${getCurrentWindowEdition() || "none"}`);
   console.log(`[Today In Golf] MANUAL_EDITION=${MANUAL_EDITION}`);
   console.log(`[Today In Golf] FORCE_RUN=${FORCE_RUN}`);
   console.log(`[Today In Golf] OPENAI_API_KEY present: ${OPENAI_API_KEY ? "yes" : "no"}`);
@@ -1360,11 +1404,15 @@ async function main() {
 
   if (!edition) {
     console.log("No eligible Today In Golf edition window found. Skipping.");
+    console.log("[Today In Golf] Output status: skipped");
+    console.log("[Today In Golf] Repository change expected: no");
     return;
   }
 
   if (!FORCE_RUN && hasAlreadyRun(currentTodayJson, edition)) {
     console.log(`Today In Golf already generated for ${edition} today. Skipping.`);
+    console.log("[Today In Golf] Output status: skipped_duplicate");
+    console.log("[Today In Golf] Repository change expected: no");
     return;
   }
 
@@ -1483,6 +1531,8 @@ async function main() {
 
   console.log(`Updated ${TODAY_PATH} for ${edition}`);
   console.log(`[Today In Golf] Items changed: ${itemsChanged ? "yes" : "no"}`);
+  console.log("[Today In Golf] Output status: updated");
+  console.log("[Today In Golf] Repository change expected: yes");
   console.log(JSON.stringify(output, null, 2));
 }
 

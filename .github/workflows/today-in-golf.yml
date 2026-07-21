@@ -2,14 +2,15 @@ name: Update Today in Golf
 
 on:
   schedule:
-    # Runs shortly after 8 AM, 12 PM, and 8 PM ET during daylight saving time.
+    # Runs shortly after 8 AM, 12 PM, and 8 PM ET.
     # GitHub cron uses UTC; minute 17 avoids the top-of-hour schedule spike.
+    # EDT (Mar-Nov): 12:17 UTC = 8:17 AM, 16:17 UTC = 12:17 PM, 00:17 UTC = 8:17 PM.
     - cron: "17 12 * * *"
     - cron: "17 16 * * *"
     - cron: "17 0 * * *"
 
-    # Runs shortly after 8 AM, 12 PM, and 8 PM ET during standard time.
-    # These keep the schedule correct when Eastern Time shifts.
+    # EST (Nov-Mar): 13:17 UTC = 8:17 AM, 17:17 UTC = 12:17 PM, 01:17 UTC = 8:17 PM.
+    # Off-window EST cron fires during EDT are ignored at runtime.
     - cron: "17 13 * * *"
     - cron: "17 17 * * *"
     - cron: "17 1 * * *"
@@ -57,14 +58,47 @@ jobs:
         with:
           node-version: 20
 
+      - name: Log run context
+        run: |
+          echo "Trigger type: ${{ github.event_name }}"
+          echo "UTC run time: $(date -u '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "Eastern run time: $(TZ=America/New_York date '+%Y-%m-%d %H:%M:%S %Z')"
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            echo "Cron schedule: ${{ github.event.schedule }}"
+          fi
+
       - name: Generate Today in Golf
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
           MANUAL_EDITION: ${{ github.event.inputs.edition || 'auto' }}
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_run || 'false' }}
         run: node scripts/generate-today-in-golf.js
 
+      - name: Validate Today in Golf output
+        run: |
+          node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('today-in-golf.json', 'utf8'));
+          const itemCount = Array.isArray(data.items) ? data.items.length : 0;
+
+          if (!data.active || !data.edition || itemCount < 2) {
+            console.error('Invalid today-in-golf.json', {
+              active: data.active,
+              edition: data.edition,
+              itemCount
+            });
+            process.exit(1);
+          }
+
+          console.log('Edition:', data.edition);
+          console.log('Items:', itemCount);
+          console.log('Last updated:', data.lastUpdated);
+          console.log('Used fallback:', Boolean(data.usedFallback));
+          "
+
       - name: Commit updated briefing
+        id: commit
         run: |
           if [[ -n "$(git status --porcelain today-in-golf.json)" ]]; then
             git config user.name "github-actions[bot]"
@@ -75,6 +109,16 @@ jobs:
 
             git pull --rebase origin main
             git push origin main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Log run summary
+        if: always()
+        run: |
+          echo "Trigger type: ${{ github.event_name }}"
+          echo "UTC completion time: $(date -u '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "Eastern completion time: $(TZ=America/New_York date '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "Repository change committed: ${{ steps.commit.outputs.changed || 'not reached' }}"
