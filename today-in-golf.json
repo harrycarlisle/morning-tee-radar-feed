@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-21T14:23:35.374Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-07-21T17:43:39.596Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "3M Open Field Finalized",
-      "text": "The 2026 3M Open will feature 144 players at TPC Twin Cities, including World No. 1 Scottie Scheffler and defending leader Kurt Kitayama, with competitors from 21 countries."
+      "headline": "British Open Lead",
+      "text": "Ryan Fox leads the British Open at Royal Birkdale by one shot after a clutch 175-yard 9-iron birdie on the 72nd hole, sealing a potential first major victory."
     },
     {
-      "headline": "Proposed Major Rule After Bryson Snubs",
-      "text": "A new major championship rule is proposed to require players to attend post-round media interviews or face penalties, following Bryson DeChambeau's repeated refusals to speak to reporters in 2026, including at The Open Championship."
+      "headline": "PGA Tour-Asian Tour Partnership",
+      "text": "Rory McIlroy praised the PGA Tour/DP World Tour/Asian Tour partnership through 2029 that creates new pathways and co-sanctioned events, delivering a blow to LIV Golf’s Asian Tour ties."
     },
     {
-      "headline": "TPC Twin Cities Course Recovery",
-      "text": "TPC Twin Cities recovered from winter turf injury and is set as a demanding par-71, 7,431-yard test with water hazards on 15 holes for the upcoming 3M Open."
+      "headline": "3M Open Field Set",
+      "text": "The 2026 3M Open field is finalized with 144 players at TPC Twin Cities, headlined by World No. 1 Scottie Scheffler and defending leader Kurt Kitayama."
     }
   ],
-  "itemsLastUpdated": "2026-07-21T14:23:35.374Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-07-21T17:43:39.596Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-21T14:23:35.374Z",
+  "lastSuccessfulStoryUpdate": "2026-07-21T17:43:39.596Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "candidateItemsSelected": 7,
   "openaiAttempted": true,
-  "openaiOutputLength": 859,
+  "openaiOutputLength": 766,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_9934fcf7f7b54fdeaf63206236da47d7",
+  "openaiRequestId": "req_c5fa81cb591949ee94cc4193bda69578",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-21T14:23:35.374Z",
+  "diagnosticUpdatedAt": "2026-07-21T17:43:39.596Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
