@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-21T17:43:39.596Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-07-22T03:49:23.677Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "British Open Lead",
-      "text": "Ryan Fox leads the British Open at Royal Birkdale by one shot after a clutch 175-yard 9-iron birdie on the 72nd hole, sealing a potential first major victory."
+      "headline": "2026 Major Season Recap",
+      "text": "The 2026 major championship season featured winners like Rory McIlroy, Scottie Scheffler, and Bryson DeChambeau, highlighting notable winners and losers."
     },
     {
-      "headline": "PGA Tour-Asian Tour Partnership",
-      "text": "Rory McIlroy praised the PGA Tour/DP World Tour/Asian Tour partnership through 2029 that creates new pathways and co-sanctioned events, delivering a blow to LIV Golf’s Asian Tour ties."
+      "headline": "LPGA Launches Nanea Cup",
+      "text": "The LPGA announced the inaugural $4 million Nanea Cup March 11-14 in Hawaii, mixing 95 LPGA pros with 25 top collegiate players, spotlighting future and current stars."
     },
     {
-      "headline": "3M Open Field Set",
-      "text": "The 2026 3M Open field is finalized with 144 players at TPC Twin Cities, headlined by World No. 1 Scottie Scheffler and defending leader Kurt Kitayama."
+      "headline": "McIlroy Backs New Tour Partnership",
+      "text": "Rory McIlroy supported the multi-year PGA Tour–DP World Tour–Asian Tour alliance through 2029, praising its pathways for Asian players and a blow to LIV Golf affiliations."
     }
   ],
-  "itemsLastUpdated": "2026-07-21T17:43:39.596Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-07-22T03:49:23.677Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-21T17:43:39.596Z",
+  "lastSuccessfulStoryUpdate": "2026-07-22T03:49:23.677Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 7,
+  "candidateItemsSelected": 8,
   "openaiAttempted": true,
-  "openaiOutputLength": 766,
+  "openaiOutputLength": 777,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_c5fa81cb591949ee94cc4193bda69578",
+  "openaiRequestId": "req_400762ebde1d4b81855c68e2d52a13e5",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-21T17:43:39.596Z",
+  "diagnosticUpdatedAt": "2026-07-22T03:49:23.676Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
