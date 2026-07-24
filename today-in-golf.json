@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-24T14:13:39.448Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-07-24T17:50:21.489Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Patton Kizzire Withdraws",
-      "text": "Patton Kizzire withdrew from the 3M Open after a 6-over 77 first round due to a back injury, continuing a pattern of recent withdrawals from key PGA Tour events."
+      "headline": "LIV Golf Funding Cut",
+      "text": "Saudi Arabia’s PIF will fund LIV Golf only through 2026 while the Asian Tour deepens ties with PGA and DP World Tours, threatening LIV's future."
     },
     {
-      "headline": "Bryson DeChambeau Addresses Penalty and LIV UK Start",
-      "text": "Bryson DeChambeau responded to his two-shot penalty at the Open Championship by saying he's moving past it, and opened LIV UK with an 8-under 63, aiming for a weekend duel with leader Lucas Herbert."
+      "headline": "McIlroy Critiques PGA Playoffs",
+      "text": "Rory McIlroy said he leads’t play the PGA Tour 'for a while,' criticizing the FedExCup playoffs format for reducing incentive to compete early."
     }
   ],
-  "itemsLastUpdated": "2026-07-24T14:13:39.448Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-07-24T17:50:21.489Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-24T14:13:39.448Z",
+  "lastSuccessfulStoryUpdate": "2026-07-24T17:50:21.489Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 6,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 882,
+  "openaiOutputLength": 707,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "73434155-36b5-4ab6-a6d0-f33fd0cbad55",
+  "openaiRequestId": "e8e6ae3e-9f8a-4e1b-9e24-66520c900eb8",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -41,11 +41,11 @@
   "rejectedItemsCount": 1,
   "rejectedReasons": [
     {
-      "reason": "duplicate topic: pga-tour",
+      "reason": "duplicate topic: liv",
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-07-24T14:13:39.448Z",
+  "diagnosticUpdatedAt": "2026-07-24T17:50:21.488Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
