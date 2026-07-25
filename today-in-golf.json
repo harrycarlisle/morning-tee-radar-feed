@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-25T14:03:12.263Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-07-25T17:13:16.914Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Michael Kim’s 59 at 3M Open",
-      "text": "Michael Kim shot a second-round 59 at the 3M Open, birdieing his last four holes for the PGA Tour’s 16th sub-60 round, teeing off Saturday at 1:35 p.m. with Ben Kohles."
+      "headline": "3M Open Cut Hits Big Names",
+      "text": "The 3M Open cut line hit 2-under, sending home Tony Finau, Max Homa, Sungjae Im, Nick Dunlap, and Matt Kuchar, while Patton Kizzire withdrew after a 77 opening round."
     },
     {
-      "headline": "Top Names Miss 3M Open Cut",
-      "text": "The 3M Open cut fell at 2-under, sending home Tony Finau, Max Homa, Sungjae Im, Nick Dunlap, and Matt Kuchar, while Patton Kizzire withdrew after a 77 opening round."
-    },
-    {
-      "headline": "Bryson DeChambeau’s LIV Growth",
-      "text": "Bryson DeChambeau said he is a better, more complete golfer on LIV due to learning different grasses and conditions, drawing large galleries and boosting LIV’s buzz."
+      "headline": "DeChambeau Roasts LIV Teammate",
+      "text": "Bryson DeChambeau poked fun at LIV teammate Paul Casey for leading Round 2 in driving distance at LIV Golf UK during their team competition."
     }
   ],
-  "itemsLastUpdated": "2026-07-25T14:03:12.263Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-07-25T17:13:16.914Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-25T14:03:12.263Z",
+  "lastSuccessfulStoryUpdate": "2026-07-25T17:13:16.914Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 8,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 787,
+  "openaiOutputLength": 776,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "d13abab1-a9c5-4e03-8228-559449a66dd1",
+  "openaiRequestId": "99dc620d-96ef-4f52-b230-8f7ba836243e",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-25T14:03:12.263Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-07-25T17:13:16.913Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
