@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-26T23:30:13.788Z",
+  "updatedAt": "2026-07-26T23:55:15.634Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "28 min ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-07-26T21:46:02.000Z",
+      "approvedAt": "2026-07-26T23:55:15.631Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jackson Koivun wins 3M Open in his third start as PGA Tour pro",
+      "summary": "Jackson Koivun won the 3M Open in his third pro start, setting a scoring record and beating No.",
+      "quickRead": "Jackson Koivun won the 3M Open at TPC Twin Cities in just his third PGA Tour start as a pro, shooting 25-under 259 (closing 5-under 66) to beat world No.  1 Scottie Scheffler by three.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jackson-koivun-wins-3m-open-214602210.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jackson-koivun-wins-3m-open-214602210.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "53 min ago",
       "timestamp": "2026-07-26T23:01:42.000Z",
       "approvedAt": "2026-07-26T23:30:06.760Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/koivun-wins-3m-open-3rd-230142008.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "30 min ago",
+      "time": "55 min ago",
       "timestamp": "2026-07-26T23:00:00.000Z",
       "approvedAt": "2026-07-26T23:30:09.496Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "16 min ago",
+      "time": "42 min ago",
       "timestamp": "2026-07-26T23:13:11.000Z",
       "approvedAt": "2026-07-26T23:30:09.497Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-26T21:46:33.000Z",
       "approvedAt": "2026-07-26T22:55:41.144Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-07-26T18:45:00.000Z",
       "approvedAt": "2026-07-26T22:55:43.981Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jackson-koivun-comments-scottie-scheffler-123000334.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-07-26T20:35:04.000Z",
-      "approvedAt": "2026-07-26T21:25:11.293Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Shares Personal Feelings on Beating First-Tee Nerves",
-      "summary": "Rory McIlroy has shared the mental approach that helped him overcome the first-tee nerves he experienced throughout his career, explaining that he intentionally thinks through the worst p...",
-      "quickRead": "Rory McIlroy said he beats first-tee nerves by deliberately imagining the worst-case outcome—like hitting it in the trees—then mentally playing out the recovery, telling himself, “what’s the worst that could happen? ” and “I’m not gonna die on the golf course, thankfully.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-shares-personal-feelings-203504530.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-shares-personal-feelings-203504530.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "25 min ago",
       "timestamp": "2026-07-26T23:29:55.231Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-07-26T22:52:55.231Z",
       "status": "Trending",
       "signal": "Reddit find",
