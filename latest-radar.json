@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-26T16:53:40.951Z",
+  "updatedAt": "2026-07-26T18:33:57.374Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-07-26T17:13:29.000Z",
+      "approvedAt": "2026-07-26T18:33:57.371Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "'I'm Not Gonna Die': Rory McIlroy Reveals His Struggle With First-Tee Nerves an...",
+      "summary": "Even Rory McIlroy is not impervious to first-tee nerves.",
+      "quickRead": "Rory McIlroy said his way to beat first-tee nerves is to run the “worst-case scenario” in his head—“what’s the worst that could happen?  I’m not gonna die”—then remind himself he can recover (e.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/im-not-gonna-die-rory-171329294.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/im-not-gonna-die-rory-171329294.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-07-26T14:00:00.000Z",
       "approvedAt": "2026-07-26T16:53:36.751Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/happened-jackson-koivun-last-led-140000043.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-07-25T23:35:39.000Z",
       "approvedAt": "2026-07-26T16:53:38.872Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-07-26T11:30:00.000Z",
       "approvedAt": "2026-07-26T13:09:22.000Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-26T14:23:19.000Z",
       "approvedAt": "2026-07-26T15:00:30.772Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-26T10:30:00.000Z",
       "approvedAt": "2026-07-26T11:16:10.253Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-07-26T10:03:47.000Z",
       "approvedAt": "2026-07-26T11:16:12.359Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-25T23:11:08.000Z",
       "approvedAt": "2026-07-26T02:21:33.569Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scheffler-surges-3m-open-blistering-205656037.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-07-25T15:41:01.000Z",
-      "approvedAt": "2026-07-26T09:54:50.222Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "‘How many cart paths?': Bryson DeChambeau burns LIV teammate over shocking stat",
-      "summary": "Bryson DeChambeau took a dig at one of his LIV teammates over a bizarre stat as he and his team contend for the win at the 2026 LIV U.K.",
-      "quickRead": "Bryson DeChambeau cracked on Paul Casey after hearing Casey led Round 2 in driving distance at LIV Golf U. K.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/many-cart-paths-bryson-dechambeau-154101976.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/many-cart-paths-bryson-dechambeau-154101976.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-07-26T16:53:26.434Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-07-26T16:16:26.434Z",
       "status": "Trending",
       "signal": "Reddit find",
