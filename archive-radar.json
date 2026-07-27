@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-27T02:28:39.864Z",
+  "updatedAt": "2026-07-27T06:58:19.952Z",
   "stories": [
+    {
+      "time": "6 hours ago",
+      "timestamp": "2026-07-27T00:18:02.000Z",
+      "approvedAt": "2026-07-27T06:58:18.631Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jackson Koivun’s sprint to winner’s circle stacks up against Scottie Scheffler...",
+      "summary": "Jackson Koivun won the 3M Open on Sunday, picking up his first PGA Tour win in his 13th start, faster than Scottie Scheffler and Tiger Woods",
+      "quickRead": "Jackson Koivun won the 3M Open for his first PGA Tour victory in just his 13th career start, getting to the winner’s circle faster than Tiger Woods (19 starts) and Scottie Scheffler (didn’t win until his 2022 Phoenix Open).  The pace also tops Ludvig Åberg (16), Jon Rahm (17) and Rory McIlroy (18), putting the 21-year-old’s early pro breakout in rare company.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jackson-koivun-sprint-winner-circle-001802662.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jackson-koivun-sprint-winner-circle-001802662.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-07-27T06:58:19.952Z"
+    },
     {
       "label": "LIV WATCH",
       "title": "Jackson Koivun Makes History at 3M Open After Win Over Scottie Scheffler",
@@ -1902,27 +1922,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-07-20T22:26:33.417Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
-      "timestamp": "2026-07-20T21:06:25.001Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-07-20T21:06:47.135Z"
     }
   ]
 }
