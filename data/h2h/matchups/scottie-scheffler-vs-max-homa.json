@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-max-homa",
-  "updatedAt": "2026-07-20T15:54:04.834Z",
+  "updatedAt": "2026-07-27T16:24:04.684Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 105,
-    "playerAWins": 84,
+    "sharedStarts": 106,
+    "playerAWins": 85,
     "playerBWins": 16,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-26",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 997 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

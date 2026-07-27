@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-hideki-matsuyama",
-  "updatedAt": "2026-07-20T15:54:04.615Z",
+  "updatedAt": "2026-07-27T16:24:04.519Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 106,
-    "playerAWins": 74,
+    "sharedStarts": 107,
+    "playerAWins": 75,
     "playerBWins": 27,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-07-26",
+      "eventId": 525,
+      "eventName": "3M Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "2",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 1 spot",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",
