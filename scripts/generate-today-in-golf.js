@@ -13,6 +13,7 @@ const DRY_RUN_EDITION_LABELS = process.env.DRY_RUN_EDITION_LABELS === "true";
 const DRY_RUN_TODAY_IN_GOLF_INPUTS = process.env.DRY_RUN_TODAY_IN_GOLF_INPUTS === "true";
 const DRY_RUN_OPENAI_CONFIG = process.env.DRY_RUN_OPENAI_CONFIG === "true";
 const SIMULATE_TODAY_IN_GOLF_FALLBACK = process.env.SIMULATE_TODAY_IN_GOLF_FALLBACK === "true";
+const TEST_LIVE_FINAL_CONTRADICTION = process.env.TEST_LIVE_FINAL_CONTRADICTION === "true";
 
 const TODAY_IN_GOLF_TITLE = "Today In Golf";
 const TODAY_IN_GOLF_SUMMARY = "A 30-second briefing on today's biggest golf stories.";
@@ -906,31 +907,6 @@ function simplifyStoryForPrompt(item) {
 function cleanGeneratedText(value) {
   let text = String(value || "");
 
-  const nowET = getETParts();
-  const safeToSayWon = false;
-
-  if (!safeToSayWon) {
-    text = text
-      .replace(/\bwins\b/gi, "leads")
-      .replace(/\bwon\b/gi, "leads")
-      .replace(/\bwinner\b/gi, "leader")
-      .replace(/\bchampion\b/gi, "leader")
-      .replace(/\bcaptured\b/gi, "leads")
-      .replace(/\bsecured victory\b/gi, "moved into position")
-      .replace(/\bsecured the victory\b/gi, "moved into position")
-      .replace(/\bclaimed victory\b/gi, "moved into position")
-      .replace(/\bclaimed the title\b/gi, "moved into the lead")
-      .replace(/\bclaims the title\b/gi, "moves into the lead")
-      .replace(/\bwinner\b/gi, "leader")
-      .replace(/\bchampion\b/gi, "leader")
-      .replace(/\bclaimed the title\b/gi, "moved into the lead")
-      .replace(/\bclaims the title\b/gi, "moves into the lead")
-      .replace(/\bfinishing five strokes ahead\b/gi, "sitting five strokes ahead")
-      .replace(/\bfinishing five shots clear\b/gi, "sitting five shots clear")
-      .replace(/\bfinished five strokes ahead\b/gi, "sits five strokes ahead")
-      .replace(/\bfinished five shots clear\b/gi, "sits five shots clear");
-  }
-
   return text
     .replace(/\bshare the lead\b/gi, "move near the lead")
     .replace(/\bshares the lead\b/gi, "moves near the lead")
@@ -942,6 +918,54 @@ function cleanGeneratedText(value) {
     .replace(/\s+/g, " ")
     .replace(/\s+([,.!?;:])/g, "$1")
     .trim();
+}
+
+function hasFinalResultSignal(value) {
+  const text = String(value || "").toLowerCase();
+  return /\b(wins?|won|victory|winner|champion|title|final result|final leaderboard|final round|official result|completed?|concluded)\b/i.test(text);
+}
+
+function hasExplicitWinSignal(value) {
+  const text = String(value || "").toLowerCase();
+  return /\b(wins?|won|victory|winner|champion|title)\b/i.test(text);
+}
+
+function hasLiveTournamentWording(value) {
+  const text = String(value || "").toLowerCase();
+  return /\b(leads?|leading|holds? the lead|holds? lead|takes? the lead|takes? lead|sits atop|currently|live|projected|through \d+ holes?|after round [123])\b/i.test(text);
+}
+
+function hasLiveFinalContradiction(item) {
+  const text = `${item?.headline || ""} ${item?.text || ""}`;
+  return hasLiveTournamentWording(text) && hasFinalResultSignal(text);
+}
+
+function replaceFinalResultLiveWording(value, combinedText) {
+  if (!hasExplicitWinSignal(combinedText)) return String(value || "");
+
+  return String(value || "")
+    .replace(/\btakes the lead\b/gi, "wins")
+    .replace(/\btakes lead\b/gi, "wins")
+    .replace(/\btook the lead\b/gi, "won")
+    .replace(/\bholds the lead\b/gi, "wins")
+    .replace(/\bholds lead\b/gi, "wins")
+    .replace(/\bheld the lead\b/gi, "won")
+    .replace(/\bheld lead\b/gi, "won")
+    .replace(/\bleads\b/gi, "wins")
+    .replace(/\bleading\b/gi, "winning");
+}
+
+function sanitizeLiveFinalContradiction(item) {
+  const combinedText = `${item?.headline || ""} ${item?.text || ""}`;
+  if (!hasLiveFinalContradiction(item)) return item;
+  if (!hasExplicitWinSignal(combinedText)) return null;
+
+  const cleanedItem = {
+    headline: cleanGeneratedText(replaceFinalResultLiveWording(item.headline, combinedText)),
+    text: cleanGeneratedText(replaceFinalResultLiveWording(item.text, combinedText))
+  };
+
+  return hasLiveFinalContradiction(cleanedItem) ? null : cleanedItem;
 }
 
 function isLowValueBriefingItem(item) {
@@ -1033,10 +1057,24 @@ function analyzeGeneratedItems(items) {
       return;
     }
 
-    const cleanedItem = {
+    let cleanedItem = {
       headline: cleanGeneratedText(item.headline),
       text: cleanGeneratedText(item.text)
     };
+
+    if (hasLiveFinalContradiction(cleanedItem)) {
+      const sanitizedItem = sanitizeLiveFinalContradiction(cleanedItem);
+
+      if (!sanitizedItem) {
+        rejectedItems.push({
+          reason: "live_final_contradiction",
+          item: cleanedItem
+        });
+        return;
+      }
+
+      cleanedItem = sanitizedItem;
+    }
 
     const topicKey = getBriefingTopicKey(cleanedItem);
     if (topicKey && usedTopics.has(topicKey)) {
@@ -1067,6 +1105,37 @@ function analyzeGeneratedItems(items) {
 
 function cleanGeneratedItems(items) {
   return analyzeGeneratedItems(items).cleanedItems;
+}
+
+function runLiveFinalContradictionTest() {
+  const generatedItems = [
+    {
+      headline: "Koivun leads 3M Open",
+      text: "Jackson Koivun leads the 3M Open with a tournament record 25-under par, shooting 5-under 66 on Sunday for his first PGA Tour victory in just his 13th start."
+    }
+  ];
+  const analysis = analyzeGeneratedItems(generatedItems);
+  const cleanedItem = analysis.cleanedItems[0];
+  const combinedText = `${cleanedItem?.headline || ""} ${cleanedItem?.text || ""}`.toLowerCase();
+
+  console.log(JSON.stringify({
+    cleanedItems: analysis.cleanedItems,
+    rejectedItems: analysis.rejectedItems
+  }, null, 2));
+
+  if (!cleanedItem) {
+    throw new Error("Expected Koivun contradiction item to be safely cleaned.");
+  }
+
+  if (/\bleads?\b|\bleading\b/.test(combinedText)) {
+    throw new Error("Expected cleaned Koivun item to avoid live lead wording.");
+  }
+
+  if (!/\bwins?\b|\bwon\b|\bvictory\b/.test(combinedText)) {
+    throw new Error("Expected cleaned Koivun item to keep final-result wording.");
+  }
+
+  console.log("[Today In Golf] live/final contradiction test passed.");
 }
 
 async function generateBriefing(stories, edition) {
@@ -1173,6 +1242,11 @@ Critical accuracy rule:
 - If it is Thursday, Friday, or Saturday, rewrite winner language as "leads," "finished the round at," or "sits at."
 - If unsure, use "leads" instead of "wins."
 - On Monday, yesterday’s completed PGA Tour result may be written as “won” only when the source story clearly describes a Sunday final result, victory, final round, held-off finish, or completed title.
+- Do not use live or in-progress phrasing for completed tournaments.
+- If a source says someone won, do not write that they "lead."
+- If the story contains "victory," "wins," "won," "champion," "title," or "final," use final-result language instead of live-leader language.
+- Avoid contradictions like "leads" plus "victory" in the same item.
+- Prefer concise final-result headlines for completed tournaments, such as "Koivun wins 3M Open" or "Koivun claims first PGA Tour win," only when the source clearly supports the win.
 
 Leaderboard consistency rule:
 - Use currentTournamentStates as the source of truth for the current leaderboard.
@@ -1373,6 +1447,11 @@ ${TODAY_IN_GOLF_CTA}
 }
 
 async function main() {
+  if (TEST_LIVE_FINAL_CONTRADICTION) {
+    runLiveFinalContradictionTest();
+    return;
+  }
+
   if (DRY_RUN_EDITION_LABELS) {
     runEditionLabelDryRun();
     return;
