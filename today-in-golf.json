@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-27T17:54:44.837Z",
-  "edition": "midday",
-  "label": "Last checked at 12 p.m. ET",
+  "lastUpdated": "2026-07-28T03:39:05.282Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Koivun leads 3M Open",
-      "text": "Jackson Koivun leads the 3M Open with a tournament record 25-under par, shooting 5-under 66 on Sunday for his first PGA Tour victory in just his 13th start."
+      "headline": "Jason Day Withdraws",
+      "text": "Jason Day withdrew from the 2026 Rocket Classic due to a persistent back injury, marking his second straight pre-tournament withdrawal and putting his FedExCup playoff chances at risk as he sits 74th with two weeks left."
     },
     {
-      "headline": "Faldo blasts LIV Golf",
-      "text": "Nick Faldo criticized LIV Golf as \"a mess,\" calling shotgun starts a \"television nightmare\" and warning the league could collapse due to a fail-free guaranteed-money setup."
+      "headline": "Travelers Joins Tour’s Top Tier",
+      "text": "The Travelers Championship will be part of the PGA TOUR’s new top-tier Championship Series starting in 2028, solidifying TPC River Highlands as a premier event with the biggest fields and purses on the schedule."
+    },
+    {
+      "headline": "LIV Golf’s Future Uncertain",
+      "text": "LIV Golf may lose key national-open markets and Official World Golf Ranking points after the PGA Tour’s new partnership with the Asian Tour, potentially hitting its investor appeal as CEO Scott O’Neil seeks new funding."
     }
   ],
-  "itemsLastUpdated": "2026-07-27T15:14:24.793Z",
-  "itemsEdition": "morning",
-  "usedFallback": true,
-  "fallbackReason": "generated_items_rejected",
-  "fallbackStage": "item_cleaning",
-  "lastSuccessfulStoryUpdate": "2026-07-27T15:14:24.793Z",
-  "itemsChanged": false,
+  "itemsLastUpdated": "2026-07-28T03:39:05.282Z",
+  "itemsEdition": "evening",
+  "usedFallback": false,
+  "fallbackReason": "",
+  "fallbackStage": "",
+  "lastSuccessfulStoryUpdate": "2026-07-28T03:39:05.282Z",
+  "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 1,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 626,
+  "openaiOutputLength": 933,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "e294bf7f-b74d-48de-bb9e-11d9e4e177e3",
+  "openaiRequestId": "ccc0d18f-34d5-402b-a268-1daef66ae9db",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 1,
-  "rejectedItemsCount": 2,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 2
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-07-27T17:54:44.836Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-07-28T03:39:05.281Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
