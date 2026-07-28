@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-28T03:39:05.282Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-07-28T14:38:48.068Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Jason Day Withdraws",
-      "text": "Jason Day withdrew from the 2026 Rocket Classic due to a persistent back injury, marking his second straight pre-tournament withdrawal and putting his FedExCup playoff chances at risk as he sits 74th with two weeks left."
+      "headline": "Jackson Koivun's Pro Debut",
+      "text": "Jackson Koivun leads the 3M Open in his third professional start with a final-round 65, breaking the tournament scoring record after delaying turning pro to ready himself mentally."
     },
     {
-      "headline": "Travelers Joins Tour’s Top Tier",
-      "text": "The Travelers Championship will be part of the PGA TOUR’s new top-tier Championship Series starting in 2028, solidifying TPC River Highlands as a premier event with the biggest fields and purses on the schedule."
+      "headline": "Rocket Classic's Rooftop Par 3",
+      "text": "The Rocket Classic introduced its unique 'Par 3 in the D' rooftop challenge ahead of its final PGA Tour event at Detroit Golf Club."
     },
     {
-      "headline": "LIV Golf’s Future Uncertain",
-      "text": "LIV Golf may lose key national-open markets and Official World Golf Ranking points after the PGA Tour’s new partnership with the Asian Tour, potentially hitting its investor appeal as CEO Scott O’Neil seeks new funding."
+      "headline": "Major leader Withdraws from Rocket Classic",
+      "text": "A major leader withdrew from the Rocket Classic due to a back injury, impacting the field just before the FedExCup Playoffs."
     }
   ],
-  "itemsLastUpdated": "2026-07-28T03:39:05.282Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-07-28T14:38:48.068Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-28T03:39:05.282Z",
+  "lastSuccessfulStoryUpdate": "2026-07-28T14:38:48.068Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 933,
+  "openaiOutputLength": 741,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "ccc0d18f-34d5-402b-a268-1daef66ae9db",
+  "openaiRequestId": "2a2695ef-3dd8-43dd-83d3-b71d7c35aee3",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-28T03:39:05.281Z",
+  "diagnosticUpdatedAt": "2026-07-28T14:38:48.067Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
