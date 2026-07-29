@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-29T14:32:32.064Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-07-29T17:36:33.774Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Georgia Hall on Motherhood",
-      "text": "Georgia Hall has returned to competitive golf 12 weeks after giving birth but expects to regain full strength by October due to lingering knee issues and muscle loss from pregnancy."
+      "headline": "Clark on Detroit Course",
+      "text": "Wyndham Clark called the Detroit Golf Club redesign one of the best renovations he's seen but is sad the PGA Tour leads't return there next year."
     },
     {
-      "headline": "Ernie Els Redesigns Portugal Course",
-      "text": "Ernie Els revamped Portugal's Dom Pedro Victoria into The Els Club Vilamoura for the inaugural PGA Tour Champions Portugal Invitational, the senior tour's first event in Portugal and Europe."
+      "headline": "Georgia Hall's Comeback",
+      "text": "Georgia Hall returned to compete 12 weeks post-birth despite knee issues and muscle loss, aiming to prove mothers can keep improving in golf."
     }
   ],
-  "itemsLastUpdated": "2026-07-29T14:32:32.064Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-07-29T17:36:33.774Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-29T14:32:32.064Z",
+  "lastSuccessfulStoryUpdate": "2026-07-29T17:36:33.774Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 3,
+  "candidateItemsSelected": 2,
   "openaiAttempted": true,
-  "openaiOutputLength": 854,
+  "openaiOutputLength": 510,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +33,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_630edbb88c774be68b62cc2e2474fa0a",
+  "openaiRequestId": "req_d1078ba8afc9478f9501977072c32d3e",
   "openaiRetryable": null,
   "openaiFailureAt": "",
-  "generatedItemsCount": 3,
+  "generatedItemsCount": 2,
   "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: pga-tour",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-07-29T14:32:32.064Z",
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-07-29T17:36:33.774Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
