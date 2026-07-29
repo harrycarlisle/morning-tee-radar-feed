@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-29T20:50:12.437Z",
+  "updatedAt": "2026-07-29T22:57:23.937Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-07-29T21:00:35.000Z",
+      "approvedAt": "2026-07-29T22:57:22.796Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "PGA Tour piloting announcer-free stream during upcoming tournament",
+      "summary": "The PGA Tour might finally be giving sports fans what they’ve been clamoring for across all leagues and networks.",
+      "quickRead": "The PGA Tour might finally be giving sports fans what they’ve been clamoring for across all leagues and networks.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/pga-tour-piloting-announcer-free-210035995.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-piloting-announcer-free-210035995.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-07-29T22:57:23.937Z"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-07-29T18:34:14.000Z",
@@ -1903,26 +1923,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "archivedAt": "2026-07-23T02:14:23.164Z"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-07-22T21:30:00.000Z",
-      "approvedAt": "2026-07-23T02:14:20.260Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The new rule the R&A and USGA should introduce after Wyndham Clark and Bryson D...",
-      "summary": "The last two majors of 2026 have not passed without controversy, with Wyndham Clark and Bryson DeChambeau both involved in contentious incidents that have divided opinion.",
-      "quickRead": "Introduce a rule banning practice swings and club-grounding when a ball is in the rough—plus “lock in” a player’s club choice once they begin addressing the ball and make any contact with the long grass.  The idea is to remove the gray area exposed when Wyndham Clark avoided a penalty at Shinnecock while Bryson DeChambeau got two shots at Royal Birkdale for improving his lie, making rough shots riskier and rulings clearer.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rule-r-usga-introduce-wyndham-213000391.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rule-r-usga-introduce-wyndham-213000391.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-07-23T02:14:21.320Z"
     }
   ]
 }
