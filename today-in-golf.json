@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-07-28T17:44:47.689Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-07-29T03:43:02.024Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "PGA Tour Money List",
-      "text": "Tiger Woods remains the PGA Tour career money leader as Rory McIlroy and Scottie Scheffler chase his top spot."
+      "headline": "PGA Tour Schedule Shakeup",
+      "text": "The PGA Tour announced Sompo as the new title sponsor for Napa’s fall event, rebranding it the Sompo Championship and moving it to a new venue as a Championship Series event in 2028."
     },
     {
-      "headline": "No Current Tournament Updates",
-      "text": "There are no finalized or ongoing leaderboard updates requiring durable coverage today."
+      "headline": "Kisner on Tiger and Bryson",
+      "text": "Kevin Kisner credited Tiger Woods for normalizing on-course theatrical antics, saying it set the stage for Bryson DeChambeau's exaggerated swing reactions in 2026."
     }
   ],
-  "itemsLastUpdated": "2026-07-28T17:44:47.689Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-07-29T03:43:02.024Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-07-28T17:44:47.689Z",
+  "lastSuccessfulStoryUpdate": "2026-07-29T03:43:02.024Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 1,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 431,
+  "openaiOutputLength": 758,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "25d22a43-64e4-4f9c-9433-a2a305acf1a0",
+  "openaiRequestId": "e30d440f-0f6b-4dae-87a8-60c9ccf8aefb",
   "openaiRetryable": null,
   "openaiFailureAt": "",
-  "generatedItemsCount": 2,
+  "generatedItemsCount": 3,
   "cleanedItemsCount": 2,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-07-28T17:44:47.688Z",
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: pga-tour",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-07-29T03:43:02.023Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
