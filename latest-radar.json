@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-07-29T06:26:55.138Z",
+  "updatedAt": "2026-07-29T10:34:17.971Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-07-29T09:30:00.000Z",
+      "approvedAt": "2026-07-29T10:34:17.968Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Tiger Woods’ return to competitive golf said to be possible as Ernie Els reveal...",
+      "summary": "Tiger Woods’ seemingly imminent return to golf was the story of the build-up to The Masters.",
+      "quickRead": "Ernie Els said Tiger Woods has been asking him about the PGA Tour Champions and “started warming to it,” as Woods considers returning to competitive golf on the over-50 circuit rather than the main PGA Tour.  It matters because Champions Tour events allow golf carts—something Woods has said could make playing possible again as he struggles to walk courses after a fused back and a disc replacement.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tiger-woods-return-competitive-golf-093000165.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-return-competitive-golf-093000165.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-07-28T19:36:36.000Z",
       "approvedAt": "2026-07-28T21:03:02.521Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/kevin-kisner-claims-tiger-woods-193636422.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-07-28T22:35:17.000Z",
       "approvedAt": "2026-07-29T02:06:46.001Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-07-28T21:04:21.000Z",
       "approvedAt": "2026-07-28T22:54:38.935Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-28T17:00:35.000Z",
       "approvedAt": "2026-07-28T22:54:38.937Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-28T18:10:11.000Z",
       "approvedAt": "2026-07-28T21:03:04.818Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-07-28T13:33:14.000Z",
       "approvedAt": "2026-07-28T19:15:41.554Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "15 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-07-28T11:00:57.000Z",
       "approvedAt": "2026-07-28T13:53:25.131Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-career-money-leaders-110057039.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-07-28T09:30:00.000Z",
-      "approvedAt": "2026-07-28T10:29:31.707Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The decision Jackson Koivun made before turning professional shows exactly why...",
-      "summary": "Jackson Koivun looked poised beyond his years at the 3M Open.",
-      "quickRead": "Jackson Koivun turned down the chance to go pro last year, choosing one more season of college golf because he “didn’t feel mentally ready” for the strain of the PGA Tour.  That self-awareness paid off at the 3M Open, where the 21-year-old shot a final-round 65, broke the tournament scoring record and held off Scottie Scheffler to win in just his third pro start.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/decision-jackson-koivun-made-turning-093000017.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/decision-jackson-koivun-made-turning-093000017.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-07-29T06:26:46.520Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-07-29T05:49:46.520Z",
       "status": "Trending",
       "signal": "Reddit find",
