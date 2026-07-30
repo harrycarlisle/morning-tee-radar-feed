@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-07-30T01:56:40.292Z",
+  "updatedAt": "2026-07-30T08:16:32.797Z",
   "stories": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-07-30T06:13:45.000Z",
+      "approvedAt": "2026-07-30T08:16:31.305Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "2026 Rocket Classic Thursday Tee Times: Pairings, TV Schedule",
+      "summary": "The 2026 Rocket Classic Thursday tee times are in.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-rocket-classic-thursday-tee-061345918.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-rocket-classic-thursday-tee-061345918.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-07-30T08:16:32.797Z"
+    },
     {
       "time": "8 hours ago",
       "timestamp": "2026-07-29T17:35:14.000Z",
@@ -1907,26 +1927,6 @@
       "image": "",
       "timestamp": "2026-07-22T23:05:35.000Z",
       "archivedAt": "2026-07-23T06:26:36.340Z"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-07-22T21:01:08.000Z",
-      "approvedAt": "2026-07-23T06:26:31.438Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Can Scottie Scheffler repeat as PGA Player of the Year?",
-      "summary": "Scottie Scheffler leads the FedEx Cup, but major winners and multiple victors are challenging him for the top award.",
-      "quickRead": "Scottie Scheffler leads the FedEx Cup, but major winners and multiple victors are challenging him for the top award.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-repeat-pga-player-210108177.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-repeat-pga-player-210108177.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "archivedAt": "2026-07-23T06:26:32.688Z"
     }
   ]
 }
