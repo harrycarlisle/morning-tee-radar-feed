@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-01T03:52:37.961Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-01T13:56:53.707Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Arnold Palmer Invitational Upgrade",
-      "text": "The Arnold Palmer Invitational at Bay Hill will be a PGA Tour Championship Series event starting in 2028 with a $20 million purse and a 120-player field."
+      "headline": "Rocket Classic Tight Race",
+      "text": "Cameron Young, Patrick Cantlay, and Patrick Fishburn are tied for the lead at 10-under after two rounds at the Rocket Classic, with Saturday's moving day set for a tightly packed chase."
     },
     {
-      "headline": "AIG Women's Open Lead Battle",
-      "text": "Haeran Ryu leads the AIG Women's British Open at 7-under, one shot ahead of Shiho Kuwaki, with contenders Nelly Korda and Charley Hull within striking distance."
-    },
-    {
-      "headline": "LIV Golf Bankruptcy Report",
-      "text": "Bloomberg reported that LIV Golf may file for bankruptcy under Chapter 11, posing financial uncertainty for the LIV series."
+      "headline": "Brad Dalke Struggles",
+      "text": "YouTube golfer Brad Dalke struggled with rounds of 83 and 5-over, finishing 16-over and last among finishers at the Rocket Classic; he acknowledged his poor play must improve."
     }
   ],
-  "itemsLastUpdated": "2026-08-01T03:52:37.961Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-01T13:56:53.707Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-01T03:52:37.961Z",
+  "lastSuccessfulStoryUpdate": "2026-08-01T13:56:53.707Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 6,
+  "candidateItemsSelected": 2,
   "openaiAttempted": true,
-  "openaiOutputLength": 730,
+  "openaiOutputLength": 585,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_0b41c98e946e46c99a6b95d87692bfe8",
+  "openaiRequestId": "req_979dee6a8c734dde82ecf8b03b5243e1",
   "openaiRetryable": null,
   "openaiFailureAt": "",
-  "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
+  "generatedItemsCount": 2,
+  "cleanedItemsCount": 2,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-01T03:52:37.961Z",
+  "diagnosticUpdatedAt": "2026-08-01T13:56:53.706Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
