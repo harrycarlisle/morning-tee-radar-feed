@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-01T13:07:43.139Z",
+  "updatedAt": "2026-08-01T14:55:45.130Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "10 min ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-08-01T13:00:00.000Z",
+      "approvedAt": "2026-08-01T14:55:45.127Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jack Nicklaus once revealed what he noticed about Nelly Korda when she was just...",
+      "summary": "Jack Nicklaus was immediately impressed by Nelly Korda after meeting her for the very first time 14 years ago.",
+      "quickRead": "Jack Nicklaus was immediately impressed by Nelly Korda after meeting her for the very first time 14 years ago.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jack-nicklaus-once-revealed-noticed-130000359.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jack-nicklaus-once-revealed-noticed-130000359.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-08-01T11:02:12.000Z",
       "approvedAt": "2026-08-01T11:12:55.254Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-rocket-classic-leaderboard-saturday-110212610.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-07-31T17:49:35.000Z",
       "approvedAt": "2026-08-01T02:22:39.601Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-31T22:11:38.000Z",
       "approvedAt": "2026-08-01T09:53:34.040Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-07-31T22:29:37.000Z",
       "approvedAt": "2026-08-01T02:22:42.147Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-31T19:22:49.000Z",
       "approvedAt": "2026-07-31T21:01:26.943Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-07-31T21:19:32.000Z",
       "approvedAt": "2026-07-31T22:55:24.141Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-07-31T19:34:40.000Z",
       "approvedAt": "2026-07-31T21:01:29.004Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/2026-rocket-classic-round-2-100352609.html",
       "sourceUrl": "https://sports.yahoo.com/articles/2026-rocket-classic-round-2-100352609.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-07-31T13:30:00.000Z",
-      "approvedAt": "2026-07-31T17:45:45.562Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "What Rex Hoggard heard about the new PGA Tour schedule which even surprised a t...",
-      "summary": "There are big changes coming to the PGA Tour, as CEO Brian Rolapp plans to revamp the entire schedule.",
-      "quickRead": "Rex Hoggard said the new PGA Tour’s top-tier “Championship” events are rumored to carry $33 million to $37 million purses starting in 2028, and a tournament director he called was “taken aback” and responded with a “woof! ” at the $37M figure.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rex-hoggard-heard-pga-tour-133000775.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rex-hoggard-heard-pga-tour-133000775.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-01T13:07:34.578Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-01T12:30:34.578Z",
       "status": "Trending",
       "signal": "Reddit find",
