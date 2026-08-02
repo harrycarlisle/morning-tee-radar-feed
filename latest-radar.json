@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-02T20:16:48.478Z",
+  "updatedAt": "2026-08-02T20:47:57.281Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "4 hours ago",
+      "timestamp": "2026-08-02T16:07:54.000Z",
+      "approvedAt": "2026-08-02T20:47:57.278Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "NCAA",
+      "title": "'Emotional for me': Peoria City Men's Golf Championship crowns first-time winner",
+      "summary": "A Richwoods HS graduate finished a lifelong pursuit of the prestigious Peoria City Men's Golf Championship, winning in front of family on an emotional day.",
+      "quickRead": "A Richwoods HS graduate finished a lifelong pursuit of the prestigious Peoria City Men's Golf Championship, winning in front of family on an emotional day.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/emotional-peoria-city-mens-golf-160754127.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/emotional-peoria-city-mens-golf-160754127.html",
+      "source": "Yahoo Golf",
+      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "1 hour ago",
       "timestamp": "2026-08-02T19:13:43.000Z",
       "approvedAt": "2026-08-02T20:16:45.549Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/japans-kuwaki-wins-womens-british-191343764.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-08-02T18:05:06.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-02T13:30:00.000Z",
       "approvedAt": "2026-08-02T19:03:00.598Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-02T16:43:17.000Z",
       "approvedAt": "2026-08-02T18:31:50.747Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "22 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-08-01T21:44:42.000Z",
       "approvedAt": "2026-08-02T18:31:52.500Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/2026-aig-womens-british-open-090623793.html",
       "sourceUrl": "https://sports.yahoo.com/articles/2026-aig-womens-british-open-090623793.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-08-02T14:59:11.000Z",
-      "approvedAt": "2026-08-02T16:53:36.963Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Concerning Rickie Fowler News Emerges Before the Final Round at Rocket Classic",
-      "summary": "Just hours before Rickie Fowler was set to tee off in the final round of the 2026 Rocket Classic at Detroit Golf Club, concerning news about his present health came to light.Doug Bell of ...",
-      "quickRead": "Rickie Fowler has been battling a serious sinus infection for more than two years and plans to have surgery after the 2026 season ends, according to ESPN’s Doug Bell.  The news surfaced as Fowler entered the Rocket Classic final round three shots behind Davis Riley in a tie for third at 12-under, with FedEx Cup top-30 (and a Tour Championship spot) on the line.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/concerning-rickie-fowler-news-emerges-145911122.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/concerning-rickie-fowler-news-emerges-145911122.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "31 min ago",
       "timestamp": "2026-08-02T20:16:36.689Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-02T19:39:36.689Z",
       "status": "Trending",
       "signal": "Reddit find",
