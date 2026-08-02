@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-01T17:12:51.277Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-08-02T03:55:23.253Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
+      "headline": "AIG Women's Open Major Trend",
+      "text": "Eight of the top-10 players, including leader Yealimi Noh at 7-under, chase their first major title Sunday at Royal Lytham & St Annes with five players within three shots."
+    },
+    {
+      "headline": "Davis Riley Leads Last Rocket Mortgage",
+      "text": "Davis Riley closes strong to take a 1-shot lead into the final round, aiming for his first PGA Tour win in over two years and a postseason bid."
+    },
+    {
       "headline": "Woosnam's 2001 Open Penalty",
-      "text": "Ian Woosnam received a two-stroke penalty at the 2001 Open for carrying 15 clubs, which turned his opening birdie into a bogey and left him four shots behind leader David Duval."
-    },
-    {
-      "headline": "LIV Golf Funding Fallout",
-      "text": "If LIV Golf funding ends after 2026, players like Bryson DeChambeau and Jon Rahm must be released from LIV contracts and apply for PGA Tour reinstatement under tough terms like Brooks Koepka's."
-    },
-    {
-      "headline": "Jackson Koivun's Comeback",
-      "text": "After winning the 3M Open, Jackson Koivun rallied from outside the cut line at the Rocket Classic with a second-round 67 to make the weekend and bolster his rising superstar status."
+      "text": "Ian Woosnam received a two-stroke penalty for carrying 15 clubs in 2001, turning his opening birdie into a bogey and finishing four shots behind the leader, which derailed his major hopes."
     }
   ],
-  "itemsLastUpdated": "2026-08-01T17:12:51.277Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-08-02T03:55:23.253Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-01T17:12:51.277Z",
+  "lastSuccessfulStoryUpdate": "2026-08-02T03:55:23.253Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 833,
+  "openaiOutputLength": 801,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_45c70d01635c47da8baa81d645f99e32",
+  "openaiRequestId": "req_129963cd928c499c84f8faa24642e40a",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-01T17:12:51.277Z",
+  "diagnosticUpdatedAt": "2026-08-02T03:55:23.253Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
