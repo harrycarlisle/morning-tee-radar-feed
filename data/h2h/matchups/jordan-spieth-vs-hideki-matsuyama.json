@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-hideki-matsuyama",
-  "updatedAt": "2026-07-27T17:37:36.184Z",
+  "updatedAt": "2026-08-03T17:34:18.382Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 200,
+    "sharedStarts": 201,
     "playerAWins": 90,
-    "playerBWins": 100,
+    "playerBWins": 101,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-02",
+      "eventId": 524,
+      "eventName": "Rocket Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 26 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

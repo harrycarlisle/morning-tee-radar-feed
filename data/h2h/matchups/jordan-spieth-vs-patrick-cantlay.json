@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-patrick-cantlay",
-  "updatedAt": "2026-07-27T17:37:36.287Z",
+  "updatedAt": "2026-08-03T17:34:18.486Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 142,
+    "sharedStarts": 143,
     "playerAWins": 52,
-    "playerBWins": 70,
+    "playerBWins": 71,
     "ties": 20
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-02",
+      "eventId": 524,
+      "eventName": "Rocket Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T31",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T8",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 23 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",
