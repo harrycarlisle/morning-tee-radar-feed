@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-03T22:55:54.192Z",
+  "updatedAt": "2026-08-04T02:02:17.182Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -42,6 +42,25 @@
   "alsoMoving": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-08-04T00:24:56.000Z",
+      "approvedAt": "2026-08-04T02:02:17.177Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "5 surprising golfers at risk of missing PGA Tour playoffs",
+      "summary": "A young star, a Ryder Cup captain, a returning major champ - there are plenty of big names at risk of missing this year's FedEx Cup Playoffs.",
+      "quickRead": "A young star, a Ryder Cup captain, a returning major champ - there are plenty of big names at risk of missing this year's FedEx Cup Playoffs.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/5-surprising-golfers-risk-missing-002456977.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/5-surprising-golfers-risk-missing-002456977.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-08-03T21:50:31.000Z",
       "approvedAt": "2026-08-03T22:55:50.785Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-03T20:07:44.000Z",
       "approvedAt": "2026-08-03T20:58:24.502Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-03T14:36:00.000Z",
       "approvedAt": "2026-08-03T17:46:33.413Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-03T14:30:00.000Z",
       "approvedAt": "2026-08-03T17:46:33.414Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-08-03T13:44:20.000Z",
       "approvedAt": "2026-08-03T14:27:55.960Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-03T09:30:00.000Z",
       "approvedAt": "2026-08-03T11:17:25.022Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/michael-thorbjornsen-issues-verdict-rocket-093000943.html",
       "sourceUrl": "https://sports.yahoo.com/articles/michael-thorbjornsen-issues-verdict-rocket-093000943.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-08-03T04:44:29.000Z",
-      "approvedAt": "2026-08-03T06:56:41.731Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tour Confidential: 2028 schedule news, playoff bubble players and more",
-      "summary": "In the latest Tour Confidential, GOLF's writers discuss 2028 PGA Tour schedule news, Tour playoff bubble players and more.",
-      "quickRead": "The PGA Tour’s first announced “Championship Series” events for the 2028 schedule are the Travelers Championship, the newly created Sompo Championship (replacing the current Napa stop, with a 2028 site still TBD), the Sentry and the Arnold Palmer Invitational.  The big takeaway is the Tour landed a new sponsor for a $20 million top-tier event, with a rumored move to the Seattle area (courses like Sahalee or Chambers Bay mentioned) now the key thing to watch.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tour-confidential-2028-schedule-news-044429424.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tour-confidential-2028-schedule-news-044429424.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -210,19 +210,19 @@
       "timestamp": "2026-08-01T14:01:01.000Z"
     },
     {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy’s claim about Michael Thorbjornsen proven correct wins o...",
-      "summary": "Michael Thorbjornsen validated Rory McIlroy’s hype by winning his first PGA Tour title at the Rocket Classic, closing with a brilliant back nine at...",
-      "quickRead": "Michael Thorbjornsen validated Rory McIlroy’s hype by winning his first PGA Tour title at the Rocket Classic, closing with a brilliant back nine at Detroit Golf Club to finish two shots ahead of Xander Schauffele.  It backs up McIlroy’s 2025 prediction that Thorbjornsen was “ready to play at the top level” and turns a former two-time runner-up into a proven closer going forward.",
+      "label": "MAJOR WATCH",
+      "title": "5 surprising golfers at risk of missing PGA Tour playoffs",
+      "summary": "A young star, a Ryder Cup captain, a returning major champ - there are plenty of big names at risk of missing this year's FedEx Cup Playoffs.",
+      "quickRead": "A young star, a Ryder Cup captain, a returning major champ - there are plenty of big names at risk of missing this year's FedEx Cup Playoffs.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-claim-michael-thorbjornsen-133000352.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-claim-michael-thorbjornsen-133000352.html",
+      "url": "https://sports.yahoo.com/articles/5-surprising-golfers-risk-missing-002456977.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/5-surprising-golfers-risk-missing-002456977.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-03T13:30:00.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-04T00:24:56.000Z"
     },
     {
       "label": "MAJOR WATCH",
