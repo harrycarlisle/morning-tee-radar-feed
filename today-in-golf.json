@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-04T03:40:09.288Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-04T14:40:00.133Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Big Names At Risk",
-      "text": "Five prominent golfers—including a young star, Ryder Cup captain, and returning major champ—are surprisingly at risk of missing this year's FedEx Cup Playoffs."
+      "headline": "Trump's 43rd Title Controversy",
+      "text": "Donald Trump claimed leads in both Senior and Super Senior divisions at his 43rd club championship with a 70 at Trump National Bedminster, sparking renewed cheating accusations due to the tournament being held at his own course."
     },
     {
-      "headline": "Cantlay Withdraws from Wyndham",
-      "text": "Patrick Cantlay withdrew late from the Wyndham Championship, continuing his limited presence at this PGA Tour event."
+      "headline": "Schauffele Joins $100M Club",
+      "text": "Xander Schauffele moved to No. 9 on the PGA Tour career money list, joining Tiger Woods, Rory McIlroy, and Scottie Scheffler as the only players with over $100 million in earnings."
     }
   ],
-  "itemsLastUpdated": "2026-08-04T03:40:09.288Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-04T14:40:00.133Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-04T03:40:09.288Z",
+  "lastSuccessfulStoryUpdate": "2026-08-04T14:40:00.133Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 682,
+  "openaiOutputLength": 879,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_12f69e07c1d14c36966b4cce4e32f00f",
+  "openaiRequestId": "req_de234dd8c3a847d284586796db7b5f94",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-08-04T03:40:09.288Z",
+  "diagnosticUpdatedAt": "2026-08-04T14:40:00.133Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
