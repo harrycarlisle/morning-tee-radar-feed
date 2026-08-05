@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-05T06:23:16.946Z",
+  "updatedAt": "2026-08-05T10:29:40.133Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-08-05T08:13:08.000Z",
+      "approvedAt": "2026-08-05T10:29:40.130Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau’s LIV Golf meeting came with ‘no updates’ on league’s future",
+      "summary": "Bryson DeChambeau led a meeting with all LIV Golf members at the Trump National Bedminster Golf Club for over 90 minutes.",
+      "quickRead": "Bryson DeChambeau led a meeting with all LIV Golf members at the Trump National Bedminster Golf Club for over 90 minutes.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-golf-meeting-081308446.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-golf-meeting-081308446.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-08-05T04:43:13.000Z",
       "approvedAt": "2026-08-05T06:23:11.789Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-turmoil-continues-bryson-044313790.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-04T13:01:15.000Z",
       "approvedAt": "2026-08-05T06:23:14.430Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-05T00:09:49.000Z",
       "approvedAt": "2026-08-05T02:01:40.457Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-04T22:30:00.000Z",
       "approvedAt": "2026-08-04T22:58:25.563Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-04T19:30:00.000Z",
       "approvedAt": "2026-08-04T21:06:08.848Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-04T15:10:31.000Z",
       "approvedAt": "2026-08-04T16:13:36.514Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-performs-best-majors-151031034.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-08-04T15:00:00.000Z",
-      "approvedAt": "2026-08-04T16:13:36.514Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Cam Smith confirms if he’ll ever play on the PGA Tour again if LIV Golf does fold",
-      "summary": "Cam Smith has suggested that he would look to return to the PGA Tour if LIV Golf did end up folding in the coming years.",
-      "quickRead": "Cam Smith has suggested that he would look to return to the PGA Tour if LIV Golf did end up folding in the coming years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/cam-smith-confirms-ll-ever-150000162.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/cam-smith-confirms-ll-ever-150000162.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm-bryson-dechambeau-cam-smith.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-08-05T06:23:02.004Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-05T05:46:02.004Z",
       "status": "Trending",
       "signal": "Reddit find",
