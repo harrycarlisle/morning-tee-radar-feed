@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-05T06:23:13.192Z",
+  "updatedAt": "2026-08-05T10:29:41.045Z",
   "stories": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-08-05T08:13:08.000Z",
+      "approvedAt": "2026-08-05T10:29:40.130Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau’s LIV Golf meeting came with ‘no updates’ on league’s future",
+      "summary": "Bryson DeChambeau led a meeting with all LIV Golf members at the Trump National Bedminster Golf Club for over 90 minutes.",
+      "quickRead": "Bryson DeChambeau led a meeting with all LIV Golf members at the Trump National Bedminster Golf Club for over 90 minutes.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-golf-meeting-081308446.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-golf-meeting-081308446.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "archivedAt": "2026-08-05T10:29:41.045Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-05T04:43:13.000Z",
@@ -1882,27 +1902,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-07-27T06:58:25.402Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "4 hours ago",
-      "timestamp": "2026-07-27T02:28:31.318Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-07-27T06:58:22.589Z"
     }
   ]
 }
