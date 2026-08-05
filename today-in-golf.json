@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-04T18:02:24.428Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-08-05T03:35:08.688Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Nelly Korda’s Majors Award",
-      "text": "Nelly Korda leads the first two majors and earned an LPGA award for the best performance in majors this season."
+      "headline": "LIV Golf Funding Uncertain",
+      "text": "Bryson DeChambeau led a LIV Golf players-only meeting at Trump Bedminster amid unclear league survival without new funding after 2026."
     },
     {
-      "headline": "Cam Smith Eyes PGA Return",
-      "text": "Cam Smith said he would consider returning to the PGA Tour if LIV Golf folds in the coming years."
+      "headline": "Scottie Scheffler's Strange Season",
+      "text": "Golf analyst Brandel Chamblee highlighted Scottie Scheffler's unusual 2026 PGA Tour season, suggesting he merits PGA Tour Player of the Year consideration."
     },
     {
-      "headline": "Xander Schauffele's $100M Milestone",
-      "text": "Xander Schauffele reached No. 9 on the PGA Tour career money list, joining Tiger Woods, Rory McIlroy, and Scottie Scheffler with over $100 million earned."
+      "headline": "Nelly Korda Best in Majors",
+      "text": "Nelly Korda leads the first two majors and received the LPGA award for the best performance in the majors this season."
     }
   ],
-  "itemsLastUpdated": "2026-08-04T18:02:24.428Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-08-05T03:35:08.688Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-04T18:02:24.428Z",
+  "lastSuccessfulStoryUpdate": "2026-08-05T03:35:08.688Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 7,
   "openaiAttempted": true,
-  "openaiOutputLength": 652,
+  "openaiOutputLength": 697,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_0ced779fd1bd4146b19beaa6b83681ba",
+  "openaiRequestId": "req_30c672e8a83a46ca9d3258e42ffaec14",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-04T18:02:24.428Z",
+  "diagnosticUpdatedAt": "2026-08-05T03:35:08.688Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
