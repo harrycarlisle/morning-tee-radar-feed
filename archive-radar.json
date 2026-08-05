@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-05T10:29:43.012Z",
+  "updatedAt": "2026-08-05T10:29:44.947Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "4 hours ago",
+      "timestamp": "2026-08-05T05:46:02.004Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-08-05T10:29:44.947Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "4 hours ago",
@@ -1886,22 +1907,6 @@
       "image": "",
       "timestamp": "2026-07-27T12:30:00.000Z",
       "archivedAt": "2026-07-27T14:21:09.262Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Scottie Scheffler remains money in the bank on the PGA Tour earnings...",
-      "summary": "Scottie Scheffler added to his already healthy lead on the PGA Tour money list with another second place, at the 3M Open.",
-      "quickRead": "Scottie Scheffler added to his already healthy lead on the PGA Tour money list with another second place, at the 3M Open.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-remains-money-bank-091051560.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-remains-money-bank-091051560.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "timestamp": "2026-07-27T09:10:51.000Z",
-      "archivedAt": "2026-07-27T11:14:54.808Z"
     }
   ]
 }
