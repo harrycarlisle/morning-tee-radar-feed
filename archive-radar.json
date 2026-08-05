@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-05T10:29:41.045Z",
+  "updatedAt": "2026-08-05T10:29:43.012Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "time": "4 hours ago",
+      "timestamp": "2026-08-05T06:23:02.004Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "Is this the world’s biggest bunker?",
+      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
+      "archivedAt": "2026-08-05T10:29:43.012Z"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-08-05T08:13:08.000Z",
@@ -1881,27 +1902,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-07-27T09:10:51.000Z",
       "archivedAt": "2026-07-27T11:14:54.808Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "5 hours ago",
-      "timestamp": "2026-07-27T01:51:31.318Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "A golf course hot dog built for the internet",
-      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
-      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
-      "archivedAt": "2026-07-27T06:58:25.402Z"
     }
   ]
 }
