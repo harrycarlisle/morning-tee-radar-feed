@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-06T02:05:10.353Z",
+  "updatedAt": "2026-08-06T06:25:43.832Z",
   "stories": [
+    {
+      "time": "3 hours ago",
+      "timestamp": "2026-08-06T02:29:42.000Z",
+      "approvedAt": "2026-08-06T06:25:42.685Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Wyndham Championship: Tee Times & Featured Groups",
+      "summary": "The final regular-season event before the FedExCup playoffs is here.",
+      "quickRead": "The final regular-season event before the FedExCup playoffs is here.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/wyndham-championship-tee-times-featured-022942123.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/wyndham-championship-tee-times-featured-022942123.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-08-06T06:25:43.832Z"
+    },
     {
       "time": "9 hours ago",
       "timestamp": "2026-08-05T16:32:39.000Z",
@@ -1899,22 +1919,6 @@
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
       "archivedAt": "2026-07-28T19:15:43.037Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "PGA Tour career money leaders: Will Rory or Scottie catch Tiger first?",
-      "summary": "These players have earned the most cash on the the PGA Tour over their careers.",
-      "quickRead": "These players have earned the most cash on the the PGA Tour over their careers.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-career-money-leaders-110057039.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-career-money-leaders-110057039.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-07-28T11:00:57.000Z",
-      "archivedAt": "2026-07-28T13:53:26.294Z"
     }
   ]
 }
