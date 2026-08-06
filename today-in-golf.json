@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-06T03:41:37.923Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-06T14:35:45.465Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "LIV Golf Funding Secured",
-      "text": "LIV Golf CEO Scott O’Neil confirmed a signed deal with an unnamed lead investor to fund the league beyond 2026 and shift player incentives to majority equity ownership as Saudi PIF support ends."
+      "headline": "Rahm's PGA Tour Return Doubt",
+      "text": "Jon Rahm is warned he likely leads't get the same terms as Brooks Koepka if returning to the PGA Tour after leaving LIV Golf."
     },
     {
-      "headline": "LPGA Returns To Western New York",
-      "text": "The Corning Classic returns to the LPGA schedule in 2027 as “The Classic” with a $5 million purse, scheduled for May 27-30, marking one of the highest non-major paydays."
+      "headline": "Wyndham Championship Begins",
+      "text": "The final regular-season PGA Tour event before the FedExCup playoffs, the Wyndham Championship, starts with tee times released today."
     }
   ],
-  "itemsLastUpdated": "2026-08-06T03:41:37.923Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-06T14:35:45.465Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-06T03:41:37.923Z",
+  "lastSuccessfulStoryUpdate": "2026-08-06T14:35:45.465Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 8,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 801,
+  "openaiOutputLength": 674,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_9c20dc641e014bb8912a0cc74da4b4e0",
+  "openaiRequestId": "req_cc15a6cce12649ae8f3ce1609eda0107",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-08-06T03:41:37.923Z",
+  "diagnosticUpdatedAt": "2026-08-06T14:35:45.464Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
