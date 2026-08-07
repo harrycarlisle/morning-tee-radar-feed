@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-07T22:29:20.376Z",
+  "updatedAt": "2026-08-07T22:29:21.290Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -274,7 +274,7 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-actions-120000850.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-actions-120000850.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-08-07T12:00:00.000Z"
     },
     {
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-07T20:35:25.592Z",
-      "approvedAt": "2026-08-07T20:35:25.592Z",
+      "timestamp": "2026-08-07T22:29:21.199Z",
+      "approvedAt": "2026-08-07T22:29:21.199Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Ben James leads Wyndham Championship at -11",
-      "summary": "Ben James is -3 today and -11 overall through F*. Closest chasers: Jordan Smith (-11), Beau Hossler (-10), Doug Ghim (-9).",
-      "quickRead": "Ben James is tied for the Wyndham Championship lead at 11-under after 36 holes, posting rounds of 62 and 67 to sit at -11, with Jordan Smith also at -11 and Beau Hossler one back at -10.  With the cut line at -3 and several contenders still on the course, the lead could change quickly as James tries to convert his fast start into a weekend win at Sedgefield.",
+      "summary": "Ben James is -3 today and -11 overall through F*. Closest chasers: Jordan Smith (-11), Beau Hossler (-11), Doug Ghim (-9).",
+      "quickRead": "Ben James is tied for the Wyndham Championship lead at 11-under after 36 holes, posting rounds of 62-67 (129) to match Jordan Smith (65-64) at Sedgefield.  Beau Hossler also reached -11 while still on the course, with Doug Ghim and several others two back at -9, setting up a crowded weekend leaderboard.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -397,13 +397,13 @@
           "pos": "T1",
           "name": "Jordan Smith",
           "score": "-11",
-          "thru": "16*"
+          "thru": "F*"
         },
         {
-          "pos": "3",
+          "pos": "T1",
           "name": "Beau Hossler",
-          "score": "-10",
-          "thru": "10*"
+          "score": "-11",
+          "thru": "15*"
         },
         {
           "pos": "T4",
