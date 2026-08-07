@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-07T16:48:57.219Z",
+  "updatedAt": "2026-08-07T18:47:38.179Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-08-07T18:47:38.176Z",
+      "approvedAt": "2026-08-07T18:47:38.176Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben James wins Wyndham Championship at -11",
+      "summary": "Ben James wins Wyndham Championship at -11. Nearest finishers: Doug Ghim (-9), Max Greyserman (-9), Sahith Theegala (-9).",
+      "quickRead": "Ben James wins Wyndham Championship at -11. Nearest finishers: Doug Ghim (-9), Max Greyserman (-9), Sahith Theegala (-9).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Doug Ghim",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Max Greyserman",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Sahith Theegala",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Noren",
+          "score": "-9",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-08-07T12:00:00.000Z",
       "approvedAt": "2026-08-07T12:51:53.738Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-actions-120000850.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-07T11:30:43.000Z",
       "approvedAt": "2026-08-07T12:51:55.856Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-07T10:30:00.000Z",
       "approvedAt": "2026-08-07T10:47:13.095Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-07T09:31:22.000Z",
       "approvedAt": "2026-08-07T10:47:15.072Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-06T18:42:14.000Z",
       "approvedAt": "2026-08-07T05:36:35.343Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-07T01:04:47.000Z",
       "approvedAt": "2026-08-07T02:25:10.167Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-06T17:30:00.000Z",
       "approvedAt": "2026-08-06T23:53:40.393Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-08-06T19:48:38.000Z",
       "approvedAt": "2026-08-06T23:53:42.132Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/billy-horschel-jokes-wife-might-194838875.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-08-06T20:45:11.000Z",
-      "approvedAt": "2026-08-06T23:53:42.132Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm Warned Over PGA Tour Return as Brooks Koepka Comparison Emerges",
-      "summary": "Jon Rahm’s future in professional golf has become one of the sport’s biggest storylines as questions continue to surround LIV Golf’s long-term direction.",
-      "quickRead": "Jon Rahm’s future in professional golf has become one of the sport’s biggest storylines as questions continue to surround LIV Golf’s long-term direction.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-warned-over-pga-204511396.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-warned-over-pga-204511396.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-07T16:48:42.461Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-07T16:11:42.461Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -297,5 +331,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-08-07T18:47:38.179Z",
+      "approvedAt": "2026-08-07T18:47:38.179Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben James wins Wyndham Championship at -11",
+      "summary": "Ben James wins Wyndham Championship at -11. Nearest finishers: Doug Ghim (-9), Max Greyserman (-9), Sahith Theegala (-9).",
+      "quickRead": "Ben James wins Wyndham Championship at -11. Nearest finishers: Doug Ghim (-9), Max Greyserman (-9), Sahith Theegala (-9).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Doug Ghim",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Max Greyserman",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Sahith Theegala",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Noren",
+          "score": "-9",
+          "thru": "F"
+        }
+      ]
+    }
+  ]
 }
