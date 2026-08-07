@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-07T03:17:13.610Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-07T13:40:13.295Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Corning Classic Returns",
-      "text": "The Corning Classic returns to the LPGA schedule after an 18-year absence, offering a $5 million purse among the richest outside the majors."
+      "headline": "Bryson’s LIV Struggles",
+      "text": "Bryson DeChambeau endured a nightmare opening round at LIV Golf New York on Thursday, facing multiple problems during his play."
     },
     {
-      "headline": "Rahm's Future Uncertain",
-      "text": "Jon Rahm faces warnings regarding his future on the PGA Tour amid ongoing questions about LIV Golf's long-term direction."
-    },
-    {
-      "headline": "Aspiring Pro's Injury Setback",
-      "text": "James Nicholas suffered bone bruises in both heels from a high-jump injury, forcing him to crawl for seven days and delaying his PGA Tour aspirations."
+      "headline": "Spieth’s Rough Tee Off",
+      "text": "Jordan Spieth started the Wyndham Championship with an iron shot out of bounds on the first tee, risking his positioning in the PGA Tour’s regular-season finale."
     }
   ],
-  "itemsLastUpdated": "2026-08-07T03:17:13.610Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-07T13:40:13.295Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-07T03:17:13.610Z",
+  "lastSuccessfulStoryUpdate": "2026-08-07T13:40:13.295Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 6,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 692,
+  "openaiOutputLength": 708,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_aca71f49cb4b42419fbecfff4f576269",
+  "openaiRequestId": "req_fbba8ca07eb64b5a9af3b5cd532852e6",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-07T03:17:13.610Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-08-07T13:40:13.295Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
