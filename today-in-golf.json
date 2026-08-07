@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-06T14:35:45.465Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-08-07T03:17:13.610Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Rahm's PGA Tour Return Doubt",
-      "text": "Jon Rahm is warned he likely leads't get the same terms as Brooks Koepka if returning to the PGA Tour after leaving LIV Golf."
+      "headline": "Corning Classic Returns",
+      "text": "The Corning Classic returns to the LPGA schedule after an 18-year absence, offering a $5 million purse among the richest outside the majors."
     },
     {
-      "headline": "Wyndham Championship Begins",
-      "text": "The final regular-season PGA Tour event before the FedExCup playoffs, the Wyndham Championship, starts with tee times released today."
+      "headline": "Rahm's Future Uncertain",
+      "text": "Jon Rahm faces warnings regarding his future on the PGA Tour amid ongoing questions about LIV Golf's long-term direction."
+    },
+    {
+      "headline": "Aspiring Pro's Injury Setback",
+      "text": "James Nicholas suffered bone bruises in both heels from a high-jump injury, forcing him to crawl for seven days and delaying his PGA Tour aspirations."
     }
   ],
-  "itemsLastUpdated": "2026-08-06T14:35:45.465Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-08-07T03:17:13.610Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-06T14:35:45.465Z",
+  "lastSuccessfulStoryUpdate": "2026-08-07T03:17:13.610Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 674,
+  "openaiOutputLength": 692,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_cc15a6cce12649ae8f3ce1609eda0107",
+  "openaiRequestId": "req_aca71f49cb4b42419fbecfff4f576269",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-08-06T14:35:45.464Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-08-07T03:17:13.610Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
