@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-07T20:35:24.388Z",
+  "updatedAt": "2026-08-07T22:29:19.462Z",
   "stories": [
+    {
+      "time": "8 hours ago",
+      "timestamp": "2026-08-07T14:17:12.000Z",
+      "approvedAt": "2026-08-07T22:29:18.577Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Tiger Woods' 21.7% Win Rate Reveals the Harsh Reality of PGA Tour Success",
+      "summary": "Woods won 21.7% of his PGA Tour starts.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tiger-woods-21-7-win-141712208.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-21-7-win-141712208.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
+      "archivedAt": "2026-08-07T22:29:19.462Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "Rory McIlroy commits to FedExCup Playoffs opener in Memphis",
@@ -1887,26 +1907,6 @@
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
       "archivedAt": "2026-07-30T11:48:06.118Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-07-30T10:05:13.000Z",
-      "approvedAt": "2026-07-30T11:48:00.714Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Rocket Classic leaderboard, Thursday tee times, live updates from Detroit...",
-      "summary": "Get all the Thursday first-round live updates from the 2026 Rocket Classic from Detroit Golf Club.",
-      "quickRead": "Get all the Thursday first-round live updates from the 2026 Rocket Classic from Detroit Golf Club.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-rocket-classic-leaderboard-thursday-100513121.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-rocket-classic-leaderboard-thursday-100513121.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-07-30T11:48:02.103Z"
     }
   ]
 }
