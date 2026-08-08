@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T16:26:24.532Z",
+  "updatedAt": "2026-08-08T16:26:27.468Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -278,19 +278,19 @@
       "timestamp": "2026-08-08T08:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
-      "quickRead": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
+      "label": "STAR WATCH",
+      "title": "Rory McIlroy Doesn't Repeat $20M PGA Tour Playoff Decision After Spar...",
+      "summary": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
+      "quickRead": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-07T22:44:15.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-07T20:14:07.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-08T14:26:57.370Z",
-      "approvedAt": "2026-08-08T14:26:57.370Z",
+      "timestamp": "2026-08-08T16:26:27.266Z",
+      "approvedAt": "2026-08-08T16:26:27.266Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Beau Hossler leads Wyndham Championship at -12",
-      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
-      "quickRead": "Beau Hossler holds the Wyndham Championship lead at 12-under after two rounds, posting 61-67 for 128, with Ben James and Jordan Smith one back at 11-under.  A nine-way tie at 9-under (including Sahith Theegala, Billy Horschel and Alex Noren) keeps the leaderboard crowded heading into Round 3 at Sedgefield.",
+      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Nico Echavarria (-11), Ben James (-11), Jordan Smith (-11).",
+      "quickRead": "Beau Hossler is leading the Wyndham Championship at 12-under after two rounds, sitting one shot clear of Nico Echavarria, Ben James, and Jordan Smith at 11-under.  With a packed leaderboard close behind, the weekend at Sedgefield is shaping up as a tight race that could swing quickly with one low round.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -395,6 +395,12 @@
         },
         {
           "pos": "T2",
+          "name": "Nico Echavarria",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
           "name": "Ben James",
           "score": "-11",
           "thru": "1"
@@ -406,16 +412,10 @@
           "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Doug Ghim",
-          "score": "-9",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Max Greyserman",
-          "score": "-9",
-          "thru": "1"
+          "pos": "5",
+          "name": "Andrew Novak",
+          "score": "-10",
+          "thru": "13"
         }
       ]
     }
