@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T20:22:23.620Z",
+  "updatedAt": "2026-08-08T22:22:39.091Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-08T22:22:39.087Z",
+      "approvedAt": "2026-08-08T22:22:39.088Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -16",
+      "summary": "Michael Brennan is -7 today and -16 overall through F. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
+      "quickRead": "Michael Brennan shot 63 (7-under) to reach 16-under total and is tied for the Wyndham Championship lead with Beau Hossler.  Tom Kim is one back at 15-under and Alex Smalley sits two back at 14-under as lightning suspended play, setting up a tight finish once Round 3 resumes at Sedgefield.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Brennan",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Beau Hossler",
+          "score": "-16",
+          "thru": "16"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Smalley",
+          "score": "-14",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Noren",
+          "score": "-14",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T20:22:16.300Z",
       "approvedAt": "2026-08-08T20:22:16.300Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "52 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T19:30:00.000Z",
       "approvedAt": "2026-08-08T20:22:17.743Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-08T18:29:52.082Z",
       "approvedAt": "2026-08-08T18:29:52.082Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-08T16:30:00.000Z",
       "approvedAt": "2026-08-08T18:29:53.188Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-08T16:02:29.000Z",
       "approvedAt": "2026-08-08T18:29:53.189Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-08-07T22:44:15.000Z",
       "approvedAt": "2026-08-08T18:29:53.190Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-08T13:47:45.000Z",
       "approvedAt": "2026-08-08T16:26:20.660Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-08T11:01:37.000Z",
       "approvedAt": "2026-08-08T12:36:50.194Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-110137918.html",
       "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-110137918.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-08-07T17:57:25.000Z",
-      "approvedAt": "2026-08-08T12:36:50.195Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Famed Golf Coach Pronounced Dead Twice Issues Emotional Health Update: 'It Was...",
-      "summary": "Jim McLean spent nearly four decades as golf’s legendary coach.",
-      "quickRead": "Jim McLean spent nearly four decades as golf’s legendary coach.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T20:22:07.624Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T19:45:07.624Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-08T20:22:20.829Z",
-      "approvedAt": "2026-08-08T20:22:20.829Z",
+      "timestamp": "2026-08-08T22:22:39.091Z",
+      "approvedAt": "2026-08-08T22:22:39.091Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Wyndham Championship at -15",
-      "summary": "Tom Kim is -7 today and -15 overall through F. Closest chasers: Beau Hossler (-15), Michael Brennan (-14), Alex Noren (-14).",
-      "quickRead": "Tom Kim is -7 today and -15 overall through F. Closest chasers: Beau Hossler (-15), Michael Brennan (-14), Alex Noren (-14).",
+      "title": "Michael Brennan leads Wyndham Championship at -16",
+      "summary": "Michael Brennan is -7 today and -16 overall through F. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
+      "quickRead": "Michael Brennan shot 63 (7-under) to reach 16-under total and is tied for the Wyndham Championship lead with Beau Hossler.  Tom Kim is one back at 15-under and Alex Smalley sits two back at 14-under as lightning suspended play, setting up a tight finish once Round 3 resumes at Sedgefield.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "Tom Kim",
-          "score": "-15",
+          "name": "Michael Brennan",
+          "score": "-16",
           "thru": "F"
         },
         {
           "pos": "T1",
           "name": "Beau Hossler",
+          "score": "-16",
+          "thru": "16"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
           "score": "-15",
-          "thru": "10"
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Michael Brennan",
+          "pos": "T4",
+          "name": "Alex Smalley",
           "score": "-14",
-          "thru": "14"
+          "thru": "F"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Alex Noren",
           "score": "-14",
-          "thru": "13"
-        },
-        {
-          "pos": "5",
-          "name": "Davis Thompson",
-          "score": "-13",
-          "thru": "16"
+          "thru": "F"
         }
       ]
     }
