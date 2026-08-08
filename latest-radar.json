@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T14:26:53.027Z",
+  "updatedAt": "2026-08-08T14:26:54.263Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,25 +74,6 @@
     }
   ],
   "alsoMoving": [
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-08-07T22:44:15.000Z",
-      "approvedAt": "2026-08-08T14:26:53.025Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
-      "quickRead": "Rory McIlroy confirmed he will play next week’s FedEx St.  Jude Championship in Memphis, reversing last year’s choice to skip the playoff opener after criticizing the FedEx Cup format.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-08T11:01:37.000Z",
@@ -259,6 +240,25 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    },
+    {
+      "time": "15 hours ago",
+      "timestamp": "2026-08-07T22:59:22.000Z",
+      "approvedAt": "2026-08-08T03:20:26.593Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau Has On-Course Meltdown as LIV Golf Shares Major Investor News",
+      "summary": "Bryson DeChambeau's frustration boiled over after a nightmare opening round at LIV Golf New York.",
+      "quickRead": "Bryson DeChambeau's frustration boiled over after a nightmare opening round at LIV Golf New York.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-course-meltdown-liv-225922433.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-course-meltdown-liv-225922433.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -278,22 +278,7 @@
       "timestamp": "2026-08-08T08:30:00.000Z"
     },
     {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy confirmed he will play next week’s FedEx St.",
-      "quickRead": "Rory McIlroy confirmed he will play next week’s FedEx St.  Jude Championship in Memphis, reversing last year’s choice to skip the playoff opener after criticizing the FedEx Cup format.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-07T22:44:15.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
+      "label": "LPGA WATCH",
       "title": "Famed Golf Coach Pronounced Dead Twice Issues Emotional Health Update...",
       "summary": "Jim McLean spent nearly four decades as golf’s legendary coach.",
       "quickRead": "Jim McLean spent nearly four decades as golf’s legendary coach.",
@@ -304,8 +289,23 @@
       "url": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
       "sourceUrl": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "image": "",
       "timestamp": "2026-08-07T17:57:25.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
+      "summary": "Rory McIlroy confirmed he will play next week’s FedEx St.",
+      "quickRead": "Rory McIlroy confirmed he will play next week’s FedEx St.  Jude Championship in Memphis, reversing last year’s choice to skip the playoff opener after criticizing the FedEx Cup format.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
+      "source": "Yahoo Golf",
+      "image": "",
+      "timestamp": "2026-08-07T22:44:15.000Z"
     }
   ],
   "checking": {
