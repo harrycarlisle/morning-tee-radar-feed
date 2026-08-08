@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T16:26:23.146Z",
+  "updatedAt": "2026-08-08T16:26:24.532Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,44 +40,6 @@
     }
   ],
   "alsoMoving": [
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-08-07T22:44:15.000Z",
-      "approvedAt": "2026-08-08T16:26:23.145Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
-      "quickRead": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-08-07T22:59:22.000Z",
-      "approvedAt": "2026-08-08T16:26:23.145Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Bryson DeChambeau Has On-Course Meltdown as LIV Golf Shares Major Investor News",
-      "summary": "Bryson DeChambeau's frustration boiled over after a nightmare opening round at LIV Golf New York.",
-      "quickRead": "Bryson DeChambeau's frustration boiled over after a nightmare opening round at LIV Golf New York.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-course-meltdown-liv-225922433.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-course-meltdown-liv-225922433.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-08T12:36:48.919Z",
@@ -225,6 +187,78 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-pro-admits-ceos-162814077.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
+    {
+      "time": "15 hours ago",
+      "timestamp": "2026-08-08T01:12:30.255Z",
+      "approvedAt": "2026-08-08T01:12:30.255Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Beau Hossler wins Wyndham Championship at -12",
+      "summary": "Beau Hossler wins Wyndham Championship at -12. Nearest finishers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
+      "quickRead": "Beau Hossler won the Wyndham Championship at 12-under par, finishing one shot clear of Ben James and Jordan Smith, who tied for second at -11, with Doug Ghim next at -9.  Hossler’s win at Sedgefield delivers the title by the narrowest margin and leaves James and Smith just short despite matching him with final-round 67s.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Jordan Smith",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Doug Ghim",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Max Greyserman",
+          "score": "-9",
+          "thru": "F*"
+        }
+      ]
+    },
+    {
+      "time": "20 hours ago",
+      "timestamp": "2026-08-07T20:14:07.000Z",
+      "approvedAt": "2026-08-08T04:51:29.562Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Doesn't Repeat $20M PGA Tour Playoff Decision After Sparking Contr...",
+      "summary": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
+      "quickRead": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -244,7 +278,7 @@
       "timestamp": "2026-08-08T08:30:00.000Z"
     },
     {
-      "label": "STAR WATCH",
+      "label": "MAJOR WATCH",
       "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
       "summary": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
       "quickRead": "Rory McIlroy is not “enthused” about playing on the PGA Tour and the FedEx Cup playoffs.",
@@ -255,7 +289,7 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "image": "",
       "timestamp": "2026-08-07T22:44:15.000Z"
     },
     {
