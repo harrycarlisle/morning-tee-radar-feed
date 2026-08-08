@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T20:22:16.302Z",
+  "updatedAt": "2026-08-08T20:22:17.745Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,6 +74,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "52 min ago",
+      "timestamp": "2026-08-08T19:30:00.000Z",
+      "approvedAt": "2026-08-08T20:22:17.743Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "What Bryson DeChambeau said back to a fan who made a joke about Rory McIlroy du...",
+      "summary": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
+      "quickRead": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-08T18:29:52.082Z",
@@ -204,59 +223,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-08T12:36:48.919Z",
-      "approvedAt": "2026-08-08T12:36:48.919Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Beau Hossler leads Wyndham Championship at -12",
-      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
-      "quickRead": "Beau Hossler leads the Wyndham Championship at 12-under after rounds of 61 and 67 (128 total), one shot ahead of Ben James and Jordan Smith at 11-under.  A big pack sits three back at 9-under—including Doug Ghim, Sahith Theegala, Alex Noren and Billy Horschel—so Hossler’s margin is thin heading into the next round at Sedgefield.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Wyndham Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Beau Hossler",
-          "score": "-12",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Ben James",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jordan Smith",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Doug Ghim",
-          "score": "-9",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Max Greyserman",
-          "score": "-9",
-          "thru": "1"
-        }
-      ]
-    },
-    {
       "time": "9 hours ago",
       "timestamp": "2026-08-08T11:01:37.000Z",
       "approvedAt": "2026-08-08T12:36:50.194Z",
@@ -298,6 +264,21 @@
   "weekRadar": [
     {
       "label": "LIV WATCH",
+      "title": "What Bryson DeChambeau said back to a fan who made a joke about Rory...",
+      "summary": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
+      "quickRead": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-08-08T19:30:00.000Z"
+    },
+    {
+      "label": "LIV WATCH",
       "title": "Bryson keeps the PGA Tour return question alive",
       "summary": "Bryson DeChambeau’s future with LIV Golf remains up in the air right now.",
       "quickRead": "Bryson DeChambeau’s future with LIV Golf remains up in the air right now.",
@@ -310,21 +291,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-08-08T08:30:00.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy confirmed he will play next week’s FedEx St.",
-      "quickRead": "Rory McIlroy confirmed he will play next week’s FedEx St.  Jude Championship, reversing last year’s decision when he skipped the FedEx Cup playoff opener after saying he wasn’t “enthused” about the postseason format.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-07T22:44:15.000Z"
     },
     {
       "label": "STORY TO WATCH",
