@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T16:26:28.717Z",
+  "updatedAt": "2026-08-08T18:29:52.085Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-08-08T18:29:52.082Z",
+      "approvedAt": "2026-08-08T18:29:52.082Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Davis Thompson leads Wyndham Championship at -13",
+      "summary": "Davis Thompson is -5 today and -13 overall through 9. Closest chasers: Tom Kim (-12), Beau Hossler (-12), Nico Echavarria (-11).",
+      "quickRead": "Davis Thompson grabbed the Wyndham Championship lead at 13-under, going 5-under on his round through nine holes (thru 9), with Tom Kim tied for second at 12-under (thru 9) and Beau Hossler also at 12-under (thru 2).  Nico Echavarria sits one back at 11-under after a third-round 62, keeping the chase tight as the leaders turn for the back nine at Sedgefield.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Davis Thompson",
+          "score": "-13",
+          "thru": "9"
+        },
+        {
+          "pos": "T2",
+          "name": "Tom Kim",
+          "score": "-12",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "2"
+        },
+        {
+          "pos": "T4",
+          "name": "Nico Echavarria",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Harry Hall",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-08-08T13:47:45.000Z",
       "approvedAt": "2026-08-08T16:26:20.660Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-wishes-play-pga-134745905.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-08T12:36:48.919Z",
       "approvedAt": "2026-08-08T12:36:48.919Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-08T11:01:37.000Z",
       "approvedAt": "2026-08-08T12:36:50.194Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-07T17:57:25.000Z",
       "approvedAt": "2026-08-08T12:36:50.195Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-08T08:30:00.000Z",
       "approvedAt": "2026-08-08T10:26:06.662Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-08T04:00:42.000Z",
       "approvedAt": "2026-08-08T08:34:13.497Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-07T16:28:14.000Z",
       "approvedAt": "2026-08-08T08:34:15.413Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-08T01:12:30.255Z",
       "approvedAt": "2026-08-08T01:12:30.255Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "F*"
         }
       ]
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-08-07T20:14:07.000Z",
-      "approvedAt": "2026-08-08T04:51:29.562Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Doesn't Repeat $20M PGA Tour Playoff Decision After Sparking Contr...",
-      "summary": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
-      "quickRead": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T16:26:13.374Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T15:49:13.374Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-08T16:26:27.266Z",
-      "approvedAt": "2026-08-08T16:26:27.266Z",
+      "timestamp": "2026-08-08T18:29:52.085Z",
+      "approvedAt": "2026-08-08T18:29:52.085Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Beau Hossler leads Wyndham Championship at -12",
-      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Nico Echavarria (-11), Ben James (-11), Jordan Smith (-11).",
-      "quickRead": "Beau Hossler is leading the Wyndham Championship at 12-under after two rounds, sitting one shot clear of Nico Echavarria, Ben James, and Jordan Smith at 11-under.  With a packed leaderboard close behind, the weekend at Sedgefield is shaping up as a tight race that could swing quickly with one low round.",
+      "title": "Davis Thompson leads Wyndham Championship at -13",
+      "summary": "Davis Thompson is -5 today and -13 overall through 9. Closest chasers: Tom Kim (-12), Beau Hossler (-12), Nico Echavarria (-11).",
+      "quickRead": "Davis Thompson grabbed the Wyndham Championship lead at 13-under, going 5-under on his round through nine holes (thru 9), with Tom Kim tied for second at 12-under (thru 9) and Beau Hossler also at 12-under (thru 2).  Nico Echavarria sits one back at 11-under after a third-round 62, keeping the chase tight as the leaders turn for the back nine at Sedgefield.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Beau Hossler",
-          "score": "-12",
-          "thru": "1"
+          "name": "Davis Thompson",
+          "score": "-13",
+          "thru": "9"
         },
         {
           "pos": "T2",
+          "name": "Tom Kim",
+          "score": "-12",
+          "thru": "10"
+        },
+        {
+          "pos": "T2",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "2"
+        },
+        {
+          "pos": "T4",
           "name": "Nico Echavarria",
           "score": "-11",
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Ben James",
+          "pos": "T4",
+          "name": "Harry Hall",
           "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jordan Smith",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "5",
-          "name": "Andrew Novak",
-          "score": "-10",
-          "thru": "13"
+          "thru": "F"
         }
       ]
     }
