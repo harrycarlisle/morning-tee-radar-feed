@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-07T22:29:22.232Z",
+  "updatedAt": "2026-08-08T01:12:30.258Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-08-08T01:12:30.255Z",
+      "approvedAt": "2026-08-08T01:12:30.255Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Beau Hossler wins Wyndham Championship at -12",
+      "summary": "Beau Hossler wins Wyndham Championship at -12. Nearest finishers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
+      "quickRead": "Beau Hossler won the Wyndham Championship at 12-under par, finishing one shot clear of Ben James and Jordan Smith, who tied for second at -11, with Doug Ghim next at -9.  Hossler’s win at Sedgefield delivers the title by the narrowest margin and leaves James and Smith just short despite matching him with final-round 67s.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
+          "name": "Jordan Smith",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Doug Ghim",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Max Greyserman",
+          "score": "-9",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-08-07T20:35:19.383Z",
       "approvedAt": "2026-08-07T20:35:19.383Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-07T14:17:12.000Z",
       "approvedAt": "2026-08-07T22:29:18.577Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-07T16:28:14.000Z",
       "approvedAt": "2026-08-07T20:35:20.984Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-07T18:47:38.176Z",
       "approvedAt": "2026-08-07T18:47:38.176Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-07T18:00:00.000Z",
       "approvedAt": "2026-08-07T18:47:39.334Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-07T12:00:00.000Z",
       "approvedAt": "2026-08-07T12:51:53.738Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-07T11:30:43.000Z",
       "approvedAt": "2026-08-07T12:51:55.856Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-u-womens-amateur-live-113043516.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "11 hours ago",
-      "timestamp": "2026-08-07T10:30:00.000Z",
-      "approvedAt": "2026-08-07T10:47:13.095Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Bryson DeChambeau endures nightmare at LIV Golf New York on day one as angry fo...",
-      "summary": "Bryson DeChambeau experienced all sorts of problems during his opening round at LIV Golf New York on Thursday.",
-      "quickRead": "Bryson DeChambeau experienced all sorts of problems during his opening round at LIV Golf New York on Thursday.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-endures-nightmare-liv-103000640.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-endures-nightmare-liv-103000640.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-07T22:29:05.987Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-07T21:52:05.987Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-07T22:29:21.199Z",
-      "approvedAt": "2026-08-07T22:29:21.199Z",
+      "timestamp": "2026-08-08T01:12:30.258Z",
+      "approvedAt": "2026-08-08T01:12:30.258Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ben James leads Wyndham Championship at -11",
-      "summary": "Ben James is -3 today and -11 overall through F*. Closest chasers: Jordan Smith (-11), Beau Hossler (-11), Doug Ghim (-9).",
-      "quickRead": "Ben James is tied for the Wyndham Championship lead at 11-under after 36 holes, posting rounds of 62-67 (129) to match Jordan Smith (65-64) at Sedgefield.  Beau Hossler also reached -11 while still on the course, with Doug Ghim and several others two back at -9, setting up a crowded weekend leaderboard.",
+      "title": "Beau Hossler wins Wyndham Championship at -12",
+      "summary": "Beau Hossler wins Wyndham Championship at -12. Nearest finishers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
+      "quickRead": "Beau Hossler won the Wyndham Championship at 12-under par, finishing one shot clear of Ben James and Jordan Smith, who tied for second at -11, with Doug Ghim next at -9.  Hossler’s win at Sedgefield delivers the title by the narrowest margin and leaves James and Smith just short despite matching him with final-round 67s.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,22 +422,22 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "F*"
+        },
+        {
+          "pos": "T2",
           "name": "Ben James",
           "score": "-11",
           "thru": "F*"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Jordan Smith",
           "score": "-11",
           "thru": "F*"
-        },
-        {
-          "pos": "T1",
-          "name": "Beau Hossler",
-          "score": "-11",
-          "thru": "15*"
         },
         {
           "pos": "T4",
