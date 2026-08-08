@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-08T10:26:11.394Z",
+  "updatedAt": "2026-08-08T12:36:48.923Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-08-08T12:36:48.919Z",
+      "approvedAt": "2026-08-08T12:36:48.919Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Beau Hossler leads Wyndham Championship at -12",
+      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
+      "quickRead": "Beau Hossler leads the Wyndham Championship at 12-under after rounds of 61 and 67 (128 total), one shot ahead of Ben James and Jordan Smith at 11-under.  A big pack sits three back at 9-under—including Doug Ghim, Sahith Theegala, Alex Noren and Billy Horschel—so Hossler’s margin is thin heading into the next round at Sedgefield.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Beau Hossler",
+          "score": "-12",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-11",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Jordan Smith",
+          "score": "-11",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Doug Ghim",
+          "score": "-9",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Max Greyserman",
+          "score": "-9",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-08-08T08:30:00.000Z",
       "approvedAt": "2026-08-08T10:26:06.662Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-makes-pga-tour-083000113.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-08T04:00:42.000Z",
       "approvedAt": "2026-08-08T08:34:13.497Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-08-07T16:28:14.000Z",
       "approvedAt": "2026-08-08T08:34:15.413Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-08T01:12:30.255Z",
       "approvedAt": "2026-08-08T01:12:30.255Z",
       "status": "Live",
@@ -132,7 +185,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-07T20:14:07.000Z",
       "approvedAt": "2026-08-08T04:51:29.562Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-07T22:59:22.000Z",
       "approvedAt": "2026-08-08T03:20:26.593Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-08-08T00:21:54.000Z",
       "approvedAt": "2026-08-08T01:12:31.492Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-07T22:44:15.000Z",
       "approvedAt": "2026-08-08T01:12:31.492Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-08-07T17:57:25.000Z",
-      "approvedAt": "2026-08-08T01:12:31.492Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Famed Golf Coach Pronounced Dead Twice Issues Emotional Health Update: 'It Was...",
-      "summary": "Jim McLean spent nearly four decades as golf’s legendary coach.",
-      "quickRead": "Jim McLean spent nearly four decades as golf’s legendary coach.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/famed-golf-coach-pronounced-dead-175725739.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -245,18 +279,18 @@
     },
     {
       "label": "STAR WATCH",
-      "title": "Rory McIlroy Announces Career Decision Ahead of the FedEx Cup Playoffs",
-      "summary": "Rory McIlroy confirmed he will play next week’s FedEx St.",
-      "quickRead": "Rory McIlroy confirmed he will play next week’s FedEx St.  Jude Championship in Memphis, returning to the FedEx Cup Playoffs after skipping the playoff opener last year.",
+      "title": "Rory McIlroy Doesn't Repeat $20M PGA Tour Playoff Decision After Spar...",
+      "summary": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
+      "quickRead": "August marks a loud start of the FedEx Cup Playoffs, with the FedEx St.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-career-decision-224415823.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-doesnt-repeat-20m-201407904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-07T22:44:15.000Z"
+      "timestamp": "2026-08-07T20:14:07.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T10:25:58.663Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-08T09:48:58.663Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-08T10:26:10.186Z",
-      "approvedAt": "2026-08-08T10:26:10.186Z",
+      "timestamp": "2026-08-08T12:36:48.923Z",
+      "approvedAt": "2026-08-08T12:36:48.924Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Beau Hossler wins Wyndham Championship at -12",
-      "summary": "Beau Hossler wins Wyndham Championship at -12. Nearest finishers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
-      "quickRead": "Beau Hossler won the 2026 Wyndham Championship at Sedgefield Country Club, finishing at 12-under (61-67) to edge Ben James and Jordan Smith by one shot at 11-under.  The win caps the regular-season finale and boosts Hossler’s FedExCup position heading into the playoffs, while James and Smith’s runner-up finishes still bank big points and momentum.",
+      "title": "Beau Hossler leads Wyndham Championship at -12",
+      "summary": "Beau Hossler is -12 overall through 1. Closest chasers: Ben James (-11), Jordan Smith (-11), Doug Ghim (-9).",
+      "quickRead": "Beau Hossler leads the Wyndham Championship at 12-under after rounds of 61 and 67 (128 total), one shot ahead of Ben James and Jordan Smith at 11-under.  A big pack sits three back at 9-under—including Doug Ghim, Sahith Theegala, Alex Noren and Billy Horschel—so Hossler’s margin is thin heading into the next round at Sedgefield.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,31 +391,31 @@
           "pos": "1",
           "name": "Beau Hossler",
           "score": "-12",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Ben James",
           "score": "-11",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Jordan Smith",
           "score": "-11",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Doug Ghim",
           "score": "-9",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Max Greyserman",
           "score": "-9",
-          "thru": "F*"
+          "thru": "1"
         }
       ]
     }
