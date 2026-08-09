@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-09T02:30:38.312Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-09T13:15:49.798Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Wyndham Championship Leaders",
-      "text": "Michael Brennan and Beau Hossler are tied for the lead at 16-under after round 3, followed by Tom Kim at 15-under and Alex Smalley and Alex Noren at 14-under heading into Sunday’s final round."
+      "headline": "Michael Brennan leads Wyndham",
+      "text": "Michael Brennan and Beau Hossler move near the lead at 16-under in the final round of the Wyndham Championship, with Tom Kim close behind at 15-under."
     },
     {
-      "headline": "Bryson DeChambeau PGA Tour Future",
-      "text": "Bryson DeChambeau wants to play PGA Tour events again, but PGA Tour CEO Brian Rolapp confirmed there are no merger talks with LIV Golf, keeping DeChambeau and LIV players outside regular Tour access."
+      "headline": "Brooks Koepka FedEx Cup Risk",
+      "text": "Brooks Koepka needs to move into the FedEx Cup top 70 at the Wyndham Championship to qualify for the FedEx St. Jude Championship next week."
     },
     {
-      "headline": "Rory McIlroy FedEx Cup Plans",
-      "text": "Rory McIlroy reversed last year’s decision by confirming he will play next week’s FedEx St. Jude Championship, despite not being \"enthused\" about the FedEx Cup playoffs format."
+      "headline": "Scheffler Skips Wyndham",
+      "text": "Scottie Scheffler is skipping the Wyndham Championship after a solid 2026 season, preparing for the upcoming FedEx Cup Playoffs."
     }
   ],
-  "itemsLastUpdated": "2026-08-09T02:30:38.312Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-09T13:15:49.798Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-09T02:30:38.312Z",
+  "lastSuccessfulStoryUpdate": "2026-08-09T13:15:49.798Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 7,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 864,
+  "openaiOutputLength": 699,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_9e4ac5a15af143bfa3f79a22011dbb52",
+  "openaiRequestId": "req_abbe561742844070bb3956fbccc65f6a",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-09T02:30:38.311Z",
+  "diagnosticUpdatedAt": "2026-08-09T13:15:49.797Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
