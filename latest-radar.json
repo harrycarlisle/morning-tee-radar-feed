@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T19:19:01.040Z",
+  "updatedAt": "2026-08-09T19:55:50.838Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-09T19:55:50.835Z",
+      "approvedAt": "2026-08-09T19:55:50.835Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -21",
+      "summary": "Michael Brennan is -5 today and -21 overall through 9. Closest chasers: Beau Hossler (-18), Ben James (-17), Tom Kim (-17).",
+      "quickRead": "Michael Brennan leads the Wyndham Championship at 21-under par, going 5-under on his final round through nine holes at Sedgefield.  He’s three shots clear of Beau Hossler (-18), with Ben James and Tom Kim tied for third at -17, setting up a back-nine chase as Brennan tries to close out the tournament.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Michael Brennan",
+          "score": "-21",
+          "thru": "9"
+        },
+        {
+          "pos": "2",
+          "name": "Beau Hossler",
+          "score": "-18",
+          "thru": "9"
+        },
+        {
+          "pos": "T3",
+          "name": "Ben James",
+          "score": "-17",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "10"
+        },
+        {
+          "pos": "5",
+          "name": "Kevin Yu",
+          "score": "-16",
+          "thru": "11"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "36 min ago",
       "timestamp": "2026-08-09T19:18:57.171Z",
       "approvedAt": "2026-08-09T19:18:57.171Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "21 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-08-08T21:25:08.000Z",
       "approvedAt": "2026-08-09T19:18:58.146Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "46 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T18:32:19.109Z",
       "approvedAt": "2026-08-09T18:32:19.109Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T15:21:03.000Z",
       "approvedAt": "2026-08-09T18:00:26.065Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T15:30:00.000Z",
       "approvedAt": "2026-08-09T16:27:58.620Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-08T19:30:00.000Z",
       "approvedAt": "2026-08-09T16:28:01.541Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-08-09T12:30:00.000Z",
-      "approvedAt": "2026-08-09T14:29:16.092Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Lee Westwood admits if he truly believes that Joaquin Niemann is one of the bes...",
-      "summary": "Lee Westwood finds himself in contention for the title at LIV Golf New York, which Joaquin Niemann leads heading into the final round.",
-      "quickRead": "Lee Westwood finds himself in contention for the title at LIV Golf New York, which Joaquin Niemann leads heading into the final round.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/lee-westwood-admits-truly-believes-123000962.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/lee-westwood-admits-truly-believes-123000962.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "36 min ago",
       "timestamp": "2026-08-09T19:18:51.811Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T18:41:51.811Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T19:18:59.988Z",
-      "approvedAt": "2026-08-09T19:18:59.988Z",
+      "timestamp": "2026-08-09T19:55:50.838Z",
+      "approvedAt": "2026-08-09T19:55:50.838Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Brennan leads Wyndham Championship at -19",
-      "summary": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
-      "quickRead": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
+      "title": "Michael Brennan leads Wyndham Championship at -21",
+      "summary": "Michael Brennan is -5 today and -21 overall through 9. Closest chasers: Beau Hossler (-18), Ben James (-17), Tom Kim (-17).",
+      "quickRead": "Michael Brennan leads the Wyndham Championship at 21-under par, going 5-under on his final round through nine holes at Sedgefield.  He’s three shots clear of Beau Hossler (-18), with Ben James and Tom Kim tied for third at -17, setting up a back-nine chase as Brennan tries to close out the tournament.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
           "name": "Michael Brennan",
-          "score": "-19",
-          "thru": "6"
+          "score": "-21",
+          "thru": "9"
         },
         {
-          "pos": "T1",
+          "pos": "2",
           "name": "Beau Hossler",
-          "score": "-19",
-          "thru": "6"
+          "score": "-18",
+          "thru": "9"
         },
         {
-          "pos": "3",
+          "pos": "T3",
+          "name": "Ben James",
+          "score": "-17",
+          "thru": "16"
+        },
+        {
+          "pos": "T3",
           "name": "Tom Kim",
           "score": "-17",
-          "thru": "7"
-        },
-        {
-          "pos": "T4",
-          "name": "Ben James",
-          "score": "-15",
-          "thru": "13"
-        },
-        {
-          "pos": "T4",
-          "name": "Hideki Matsuyama",
-          "score": "-15",
           "thru": "10"
+        },
+        {
+          "pos": "5",
+          "name": "Kevin Yu",
+          "score": "-16",
+          "thru": "11"
         }
       ]
     }
