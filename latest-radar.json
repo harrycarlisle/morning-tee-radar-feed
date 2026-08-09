@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T18:33:06.389Z",
+  "updatedAt": "2026-08-09T19:18:57.174Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-09T19:18:57.171Z",
+      "approvedAt": "2026-08-09T19:18:57.171Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -19",
+      "summary": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
+      "quickRead": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Brennan",
+          "score": "-19",
+          "thru": "6"
+        },
+        {
+          "pos": "T1",
+          "name": "Beau Hossler",
+          "score": "-19",
+          "thru": "6"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "7"
+        },
+        {
+          "pos": "T4",
+          "name": "Ben James",
+          "score": "-15",
+          "thru": "13"
+        },
+        {
+          "pos": "T4",
+          "name": "Hideki Matsuyama",
+          "score": "-15",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "46 min ago",
       "timestamp": "2026-08-09T18:32:19.109Z",
       "approvedAt": "2026-08-09T18:32:19.109Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "8"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "20 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-08T22:15:00.000Z",
       "approvedAt": "2026-08-09T18:33:02.090Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-09T00:09:51.000Z",
       "approvedAt": "2026-08-09T18:32:20.677Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-09T12:38:50.487Z",
       "approvedAt": "2026-08-09T12:38:50.487Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "1"
         }
       ]
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-08-09T10:01:58.000Z",
-      "approvedAt": "2026-08-09T10:28:33.178Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Wyndham Championship leaderboard, final-round live updates, tee times, scores",
-      "summary": "Get all the final-round updates from Golfweek as the 2026 Wyndham Championship concludes Sunday at Sedgefield Country Club.",
-      "quickRead": "Get all the final-round updates from Golfweek as the 2026 Wyndham Championship concludes Sunday at Sedgefield Country Club.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-final-100158239.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-final-100158239.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "46 min ago",
       "timestamp": "2026-08-09T18:32:56.337Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T17:55:56.337Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T18:33:04.911Z",
-      "approvedAt": "2026-08-09T18:33:04.911Z",
+      "timestamp": "2026-08-09T19:18:57.174Z",
+      "approvedAt": "2026-08-09T19:18:57.175Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tom Kim leads Wyndham Championship at -16",
-      "summary": "Tom Kim is -1 today and -16 overall through 3. Closest chasers: Michael Brennan (-16), Beau Hossler (-16), Ben James (-14).",
-      "quickRead": "Tom Kim is tied for the Wyndham Championship lead at 16-under, sitting at -1 for the day through three holes in the final round, alongside Michael Brennan and Beau Hossler at -16.  Ben James is the next closest at -14, meaning the tournament is currently a three-man logjam with the leaders still early in their closing nine at Sedgefield.",
+      "title": "Michael Brennan leads Wyndham Championship at -19",
+      "summary": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
+      "quickRead": "Michael Brennan is -3 today and -19 overall through 6. Closest chasers: Beau Hossler (-19), Tom Kim (-17), Ben James (-15).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "T1",
-          "name": "Tom Kim",
-          "score": "-16",
-          "thru": "3"
-        },
-        {
-          "pos": "T1",
           "name": "Michael Brennan",
-          "score": "-16",
-          "thru": "2"
+          "score": "-19",
+          "thru": "6"
         },
         {
           "pos": "T1",
           "name": "Beau Hossler",
-          "score": "-16",
-          "thru": "2"
+          "score": "-19",
+          "thru": "6"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-17",
+          "thru": "7"
         },
         {
           "pos": "T4",
           "name": "Ben James",
-          "score": "-14",
-          "thru": "10"
+          "score": "-15",
+          "thru": "13"
         },
         {
           "pos": "T4",
-          "name": "David Skinns",
-          "score": "-14",
-          "thru": "8"
+          "name": "Hideki Matsuyama",
+          "score": "-15",
+          "thru": "10"
         }
       ]
     }
