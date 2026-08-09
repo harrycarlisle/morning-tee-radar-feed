@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T22:24:30.859Z",
+  "updatedAt": "2026-08-09T22:24:32.295Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -75,6 +75,25 @@
   ],
   "alsoMoving": [
     {
+      "time": "29 min ago",
+      "timestamp": "2026-08-09T21:55:09.000Z",
+      "approvedAt": "2026-08-09T22:24:32.293Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Joaquin Niemann wins LIV-New York; Jon Rahm captures third-straight season title",
+      "summary": "Joaquin Niemann closed with a 2-under 69 Sunday for a three-shot victory in LIV Golf New York.",
+      "quickRead": "Joaquin Niemann went wire-to-wire at Trump National Bedminster, closing with a 2-under 69 to win LIV Golf New York by three shots at 16-under 268, while Jon Rahm shot 76 (T-41) but still clinched the LIV season points title for a third straight year.  Niemann pulled away with a birdie on 13 and an eagle on the par-5 15th, and Rahm’s title is now locked with one tournament left as LIV heads next to Indiana.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/joaquin-niemann-wins-liv-york-215509860.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-wins-liv-york-215509860.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    },
+    {
       "time": "37 min ago",
       "timestamp": "2026-08-09T21:46:34.410Z",
       "approvedAt": "2026-08-09T21:46:34.411Z",
@@ -124,59 +143,6 @@
           "name": "Harry Hall",
           "score": "-15",
           "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-09T21:02:56.049Z",
-      "approvedAt": "2026-08-09T21:02:56.049Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Michael Brennan leads Wyndham Championship at -21",
-      "summary": "Michael Brennan is -5 today and -21 overall through 13. Closest chasers: Ben James (-18), Beau Hossler (-17), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan holds the Wyndham Championship lead at 21-under after playing 13 holes of his final round in 5-under, sitting three clear of Ben James (-18) and four ahead of Beau Hossler (-17).  With Brennan still on the course and chasers posting low numbers, the closing stretch at Sedgefield will decide whether he converts a big lead into the win or gets run down.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Wyndham Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Michael Brennan",
-          "score": "-21",
-          "thru": "13"
-        },
-        {
-          "pos": "2",
-          "name": "Ben James",
-          "score": "-18",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Beau Hossler",
-          "score": "-17",
-          "thru": "13"
-        },
-        {
-          "pos": "4",
-          "name": "Kevin Yu",
-          "score": "-16",
-          "thru": "16"
-        },
-        {
-          "pos": "5",
-          "name": "Harry Hall",
-          "score": "-15",
-          "thru": "17"
         }
       ]
     },
@@ -236,59 +202,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/beau-hossler-girlfriend-ashley-haight-202237593.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-09T20:25:35.094Z",
-      "approvedAt": "2026-08-09T20:25:35.094Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Michael Brennan leads Wyndham Championship at -20",
-      "summary": "Michael Brennan is -4 today and -20 overall through 11. Closest chasers: Ben James (-18), Beau Hossler (-18), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan has the outright lead at the Wyndham Championship at 20-under par, 4-under on his final round through 11 holes at Sedgefield.  He’s two shots clear of Ben James and Beau Hossler at 18-under, with Kevin Yu next at 16-under as Brennan tries to close out a PGA TOUR win with the back nine still to play.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Wyndham Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Michael Brennan",
-          "score": "-20",
-          "thru": "11"
-        },
-        {
-          "pos": "T2",
-          "name": "Ben James",
-          "score": "-18",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Beau Hossler",
-          "score": "-18",
-          "thru": "11"
-        },
-        {
-          "pos": "4",
-          "name": "Kevin Yu",
-          "score": "-16",
-          "thru": "13"
-        },
-        {
-          "pos": "5",
-          "name": "Tom Kim",
-          "score": "-15",
-          "thru": "12"
-        }
-      ]
     },
     {
       "time": "6 hours ago",
