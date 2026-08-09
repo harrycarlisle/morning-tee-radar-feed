@@ -1,0 +1,1726 @@
+<html>
+    <head>
+      <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+      <script>
+        function beehiiv_sendHeight(reason) {
+          return function () {
+            const height = document.body.scrollHeight;
+            parent.postMessage({ type: "beehiiv:iframe_height", height, reason, embedId: "_R_7tah4l5_" }, "*");
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", beehiiv_sendHeight("DOMContentLoaded"));
+        window.addEventListener("resize", beehiiv_sendHeight("resize"));
+
+        // Capture user interactions that could alter content height
+        document.addEventListener("input", beehiiv_sendHeight("input"));
+        document.addEventListener("change", beehiiv_sendHeight("change"));
+      </script>
+    </head>
+    <body><section class="mt-stories-page" id="mt-stories-page">
+  <div class="mt-stories-wrap">
+    <section class="mt-latest-section" aria-labelledby="mt-latest-title">
+      <div class="mt-section-head mt-section-head-latest">
+        <div>
+          <div class="mt-section-kicker">Golf stories</div>
+          <h2 id="mt-latest-title">All stories</h2>
+        </div>
+      </div>
+
+      <div class="mt-stories-tools">
+        <label class="mt-search-label">
+          <span class="mt-visually-hidden">Search stories</span>
+          <input id="mt-story-search" type="search" placeholder="Search stories by player, tour, title, or source">
+        </label>
+
+        <label class="mt-filter-label">
+          <span>Filter</span>
+          <select id="mt-story-filter">
+            <option value="all">All stories</option>
+            <option value="TECH">Tech</option>
+            <option value="PGA TOUR">PGA Tour</option>
+            <option value="LIV">LIV</option>
+            <option value="LPGA">LPGA</option>
+            <option value="FEATURE">Feature</option>
+            <option value="STRATEGY">Strategy</option>
+            <option value="CREATOR">Creator</option>
+            <option value="VIRAL">Viral</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="mt-story-grid" id="mt-story-grid">
+        <article class="mt-story-card">
+          <div class="mt-card-image-empty"></div>
+          <div class="mt-card-category">Loading</div>
+          <h3>Loading stories...</h3>
+          <p>Morning Tee stories will appear here.</p>
+        </article>
+      </div>
+
+      <div class="mt-load-more-wrap">
+        <button class="mt-load-more" id="mt-load-more" type="button">Show more</button>
+      </div>
+    </section>
+
+    <section class="mt-originals-section" aria-labelledby="mt-originals-title">
+      <div class="mt-section-head mt-section-head-originals">
+        <div>
+          <div class="mt-section-kicker">Morning Tee Originals</div>
+          <h2 id="mt-originals-title">Original stories and explainers</h2>
+        </div>
+      </div>
+
+      <div class="mt-originals-grid" id="mt-originals-grid">
+        <article class="mt-story-card">
+          <div class="mt-card-image-empty"></div>
+          <div class="mt-card-category">Loading</div>
+          <h3>Loading Morning Tee originals...</h3>
+          <p>Your original stories will appear here.</p>
+        </article>
+      </div>
+
+      <div class="mt-originals-more-wrap" id="mt-originals-more-wrap">
+        <button class="mt-load-more mt-originals-more" id="mt-originals-more" type="button">See more originals</button>
+      </div>
+    </section>
+  </div>
+</section>
+
+<div class="mt-story-modal" id="mt-story-modal" aria-hidden="true">
+  <div class="mt-story-modal-backdrop" id="mt-story-modal-backdrop"></div>
+
+  <article class="mt-story-modal-card" role="dialog" aria-modal="true" aria-labelledby="mt-story-modal-title">
+    <button class="mt-story-modal-close" id="mt-story-modal-close" type="button" aria-label="Close story">×</button>
+
+    <div class="mt-story-modal-kicker" id="mt-story-modal-kicker"></div>
+    <h2 class="mt-story-modal-title" id="mt-story-modal-title"></h2>
+    <div class="mt-story-modal-meta" id="mt-story-modal-meta"></div>
+
+    <div class="mt-story-modal-body" id="mt-story-modal-body"></div>
+
+    <a class="mt-story-modal-link" id="mt-story-modal-link" href="#" target="_blank" rel="noopener noreferrer">
+      Read full story
+    </a>
+  </article>
+</div>
+
+<style>
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+
+  .mth-radar-open:focus-visible,
+  #mt-today-toggle:focus-visible,
+  .mt-mini-cup-card:focus-visible,
+  .mt-mini-cup-team:focus-visible,
+  .mt-story-card:focus-visible,
+  .mt-load-more:focus-visible,
+  #mt-story-search:focus-visible,
+  #mt-story-filter:focus-visible {
+    outline: 3px solid #2f6a20 !important;
+    outline-offset: 3px !important;
+  }
+
+  .mt-stories-page {
+    width: 100%;
+    background: #ffffff;
+    color: #111111;
+    font-family: Inter, Arial, sans-serif;
+    padding: 24px 0 70px;
+    overflow: visible;
+  }
+
+  .mt-stories-page * {
+    box-sizing: border-box;
+  }
+
+  .mt-stories-wrap {
+    width: min(calc(100% - 48px), 1280px);
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+  .mt-section-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 18px;
+    margin: 0 0 22px;
+  }
+
+  .mt-section-kicker {
+    margin: 0 0 8px;
+    color: #40832B;
+    font-size: 11px;
+    font-weight: 950;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .mt-section-head h2 {
+    margin: 0;
+    color: #111111;
+    font-size: clamp(30px, 4vw, 50px);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    font-weight: 820;
+  }
+
+  .mt-section-head p {
+    margin: 10px 0 0;
+    max-width: 62ch;
+    color: #5e5a52;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .mt-latest-section {
+    margin: 0 0 58px;
+  }
+
+  .mt-section-head-latest {
+    margin-bottom: 20px;
+  }
+
+  .mt-originals-section {
+    margin: 0;
+  }
+
+  .mt-section-head-originals {
+    padding-top: 30px;
+    border-top: 1px solid #ddd4c4;
+  }
+
+  .mt-originals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 44px 34px;
+    overflow: visible;
+  }
+
+  .mt-originals-more-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+  }
+
+  .mt-originals-more-wrap[hidden] {
+    display: none;
+  }
+
+  .mt-stories-tools {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    align-items: end;
+    gap: 14px;
+    margin: 0 0 34px;
+  }
+
+  .mt-search-label,
+  .mt-filter-label {
+    display: grid;
+    gap: 7px;
+  }
+
+  .mt-filter-label span {
+    color: #5e5a52;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
+
+  .mt-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .mt-search-label input,
+  .mt-filter-label select {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #9aa0a6;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #111111;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 14px;
+    outline: none;
+  }
+
+  .mt-filter-label select {
+    border-color: #ddd4c4;
+    background: #fbf8f1;
+    border-radius: 999px;
+    font-size: 14px;
+  }
+
+  .mt-search-label input:focus,
+  .mt-filter-label select:focus {
+    border-color: rgba(64, 131, 43, 0.74);
+    box-shadow: 0 0 0 3px rgba(64, 131, 43, 0.12);
+  }
+
+  .mt-story-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 44px 34px;
+    margin-top: 24px;
+    overflow: visible;
+  }
+
+  .mt-story-card {
+    display: block;
+    color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .mt-story-card:hover h3 {
+    color: #40832B;
+  }
+
+  .mt-story-card:hover .mt-card-image {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(17, 17, 17, 0.12);
+  }
+
+  .mt-card-image,
+  .mt-card-image-empty {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #F4EFE5;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .mt-card-category {
+    margin-top: 13px;
+    color: #40832B;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .mt-story-card h3 {
+    margin: 8px 0 0;
+    color: #111111;
+    font-size: clamp(20px, 2.05vw, 25px);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    font-weight: 760;
+    transition: color 0.18s ease;
+  }
+
+  .mt-story-card p {
+    margin: 9px 0 0;
+    color: #111111;
+    font-size: 14px;
+    line-height: 1.38;
+  }
+
+  .mt-card-meta {
+    margin-top: 10px;
+    color: #6d6a63;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .mt-load-more-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+  }
+
+  .mt-load-more {
+    min-width: 132px;
+    min-height: 48px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 5px;
+    background: #111111;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .mt-load-more:hover {
+    background: #40832B;
+  }
+
+  .mt-load-more[hidden] {
+    display: none;
+  }
+
+  .mt-story-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: none;
+    font-family: Inter, Arial, sans-serif;
+  }
+
+  .mt-story-modal.is-open {
+    display: block;
+  }
+
+  .mt-story-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(17, 17, 17, 0.48);
+    backdrop-filter: blur(2px);
+  }
+
+  .mt-story-modal-card {
+    position: relative;
+    z-index: 1;
+    width: min(680px, calc(100% - 32px));
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    margin: 5vh auto 0;
+    background: #fbf8f1;
+    color: #111111;
+    border: 1px solid rgba(17, 17, 17, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+    padding: 32px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mt-story-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(17, 17, 17, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.65);
+    color: #111111;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .mt-story-modal-kicker {
+    margin-right: 44px;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #40832B;
+  }
+
+  .mt-story-modal-title {
+    margin: 10px 44px 8px 0;
+    font-size: clamp(28px, 5vw, 46px);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+    color: #111111;
+  }
+
+  .mt-story-modal-meta {
+    margin: 0 0 22px;
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(17, 17, 17, 0.58);
+  }
+
+  .mt-story-modal-body {
+    color: #111111;
+    font-size: 17px;
+    line-height: 1.56;
+  }
+
+  .mt-story-modal-body p {
+    margin: 0 0 16px;
+  }
+
+  .mt-story-modal-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    min-height: 44px;
+    padding: 0 18px;
+    border-radius: 999px;
+    background: #40832B;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  body.mt-modal-open {
+    overflow: auto !important;
+  }
+
+  @media (max-width: 980px) {
+    .mt-originals-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mt-story-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    html,
+    body {
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+      height: auto !important;
+      min-height: 100% !important;
+      position: static !important;
+    }
+
+    .mt-stories-page {
+      padding: 22px 0 56px;
+      overflow: visible !important;
+    }
+
+    .mt-stories-wrap {
+      width: calc(100% - 32px);
+      overflow: visible !important;
+    }
+
+    .mt-section-head {
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    .mt-section-head h2 {
+      font-size: 34px;
+    }
+
+    .mt-latest-section {
+      margin-bottom: 44px;
+    }
+
+    .mt-originals-section {
+      margin-bottom: 0;
+    }
+
+    .mt-originals-grid,
+    .mt-story-grid {
+      grid-template-columns: 1fr;
+      gap: 34px;
+      overflow: visible !important;
+    }
+
+    .mt-stories-tools {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .mt-story-card h3 {
+      font-size: 24px;
+    }
+
+    .mt-story-modal {
+      position: absolute !important;
+      top: var(--mt-modal-top, 0px) !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: auto !important;
+      width: 100% !important;
+      min-height: 100dvh !important;
+      z-index: 999999 !important;
+      background: #fbf8f1 !important;
+      overflow: visible !important;
+    }
+
+    .mt-story-modal.is-open {
+      display: block !important;
+    }
+
+    .mt-story-modal-backdrop {
+      display: none !important;
+    }
+
+    .mt-story-modal-card {
+      position: relative !important;
+      inset: auto !important;
+      width: 100% !important;
+      max-width: none !important;
+      min-height: 100dvh !important;
+      height: auto !important;
+      max-height: none !important;
+      margin: 0 !important;
+      overflow: visible !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      padding: 64px 20px 34px !important;
+      background: #fbf8f1 !important;
+    }
+
+    .mt-story-modal-close {
+      position: sticky !important;
+      top: 14px !important;
+      z-index: 3 !important;
+      margin-left: auto !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: #ffffff !important;
+    }
+
+    .mt-story-modal-title,
+    .mt-story-modal-kicker {
+      margin-right: 0;
+    }
+
+    .mt-story-modal-link {
+      width: 100%;
+    }
+
+    body.mt-modal-open {
+      overflow: auto !important;
+      height: auto !important;
+      position: static !important;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    document.body.classList.remove("mt-modal-open");
+    document.body.style.overflow = "";
+    document.body.style.height = "";
+    document.body.style.position = "";
+    document.documentElement.style.overflow = "";
+    document.documentElement.style.height = "";
+    document.documentElement.style.position = "";
+
+    const radarUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main/latest-radar.json";
+    const feedBaseUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main";
+    const archiveUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main/archive-radar.json";
+
+    const initialVisibleCount = 6;
+    const loadMoreStep = 9;
+    const originalsInitialVisibleCount = 6;
+
+    let originalsVisibleCount = originalsInitialVisibleCount;
+
+    const manualArticles = [
+      {
+        title: "The Easiest Way to Lower Your Score Is Not Hitting It Farther",
+        category: "STRATEGY",
+        author: "Morning Tee",
+        readTime: "4 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        url: "https://www.morningtee.com/stories-lower-your-score-smarter-targets",
+        summary: "Most golfers chase better contact. But the fastest scoring gains usually come from choosing smarter targets.",
+        topics: ["Strategy", "Course Management", "Scoring"],
+        evergreen: true
+      },
+      {
+        title: "The Golf Ball Rollback, Explained For Normal People",
+        category: "FEATURE",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "4 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50defa7a-ff65-43c9-ac98-8af425085e5b/rory-mcilory-golfball-rollback-explained-for-normal-people-final1.png?t=1779034076",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50defa7a-ff65-43c9-ac98-8af425085e5b/rory-mcilory-golfball-rollback-explained-for-normal-people-final1.png?t=1779034076",
+        url: "https://www.morningtee.com/stories-golf-ball-rollback-explained-for-normal-people",
+        summary: "A simple guide to the golf ball rollback, including what is changing, when it starts, and what it means for everyday golfers.",
+        topics: ["Feature", "Equipment", "Rules", "USGA", "R&A"],
+        publishedAt: "2026-05-13T12:00:00.000Z"
+      },
+      {
+        title: "The World’s Most Expensive Golf Trip",
+        category: "FEATURE",
+        author: "Harry Carlisle",
+        date: "Apr 2026",
+        readTime: "5 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d23193d6-6f8d-42ef-8023-35a90d95213d/outstretched_hand.png?t=1777299543",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d23193d6-6f8d-42ef-8023-35a90d95213d/outstretched_hand.png?t=1777299543",
+        url: "https://www.morningtee.com/stories-the-worlds-most-expensive-golf-trip",
+        summary: "Three continents, eleven golf courses, one private jet, and one very funny catch at the end.",
+        topics: ["Feature", "Travel", "Golf Trips"],
+        publishedAt: "2026-05-16T12:00:00.000Z"
+      },
+      {
+        title: "Can AI Really Fix Your Golf Swing?",
+        category: "TECH",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "2 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/92862642-d700-417f-9814-be1b5b3dd906/can-ai-really-fix-your-golf-swing.png?t=1778553048",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/92862642-d700-417f-9814-be1b5b3dd906/can-ai-really-fix-your-golf-swing.png?t=1778553048",
+        url: "https://www.morningtee.com/stories-fix-your-golf-swing",
+        summary: "Some golfers are using AI to improve their swing, but it comes with real risks.",
+        topics: ["Tech", "AI", "Golf Swing", "Practice"],
+        publishedAt: "2026-05-15T12:00:00.000Z"
+      },
+      {
+        title: "How To Spot A BAD Golf Coach",
+        category: "TECH",
+        author: "Harry Carlisle",
+        date: "June 2026",
+        readTime: "1 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/92862642-d700-417f-9814-be1b5b3dd906/can-ai-really-fix-your-golf-swing.png?t=1778553048",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/7a275814-3f83-4a02-8153-a3290f213006/good-vs-bad-golf-coach.png?t=1781012071",
+        url: "https://www.morningtee.com/how-to-spot-a-bad-golf-coach",
+        summary: "",
+        topics: ["Strategy","Golf Swing", "Practice"],
+        publishedAt: "2026-06-07T12:00:00.000Z"
+      },
+      {
+        title: "Everything That Happens At A First Golf Lesson",
+        category: "STRATEGY",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "3 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        url: "https://www.morningtee.com/stories-everything-that-happens-at-a-first-golf-lesson",
+        summary: "Breaking down every part of a first golf lesson.",
+        topics: ["Strategy", "Golf Lessons", "Practice", "Beginners"],
+        publishedAt: "2026-05-17T12:00:00.000Z"
+      },
+      {
+        title: "How Good Was Wesley Bryan Actually?",
+        category: "PGA TOUR",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "3 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/7ac5ba45-8e8e-4d6b-93ff-20b73fa32065/Wesley-bryan.png?t=1779143250",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/7ac5ba45-8e8e-4d6b-93ff-20b73fa32065/Wesley-bryan.png?t=1779143250",
+        url: "https://www.morningtee.com/stories-how-good-was-wesley-bryan-actually",
+        summary: "Did Wesley Bryan have one of the sharpest short peaks in pro golf?",
+        topics: ["PGA Tour", "Creator Golf", "Wesley Bryan"],
+        publishedAt: "2026-05-14T12:00:00.000Z"
+      },
+      {
+        title: "How To Play Golf At Amazing Places For Cheap",
+        category: "FEATURE",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "4 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/23d662a6-5206-415b-985b-839ca5185275/How_To_Golf_At_Amazing_Places_For_Cheap.png?t=1778615727",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/23d662a6-5206-415b-985b-839ca5185275/How_To_Golf_At_Amazing_Places_For_Cheap.png?t=1778615727",
+        url: "https://www.morningtee.com/stories-how-to-play-golf-for-cheap",
+        summary: "This is the cheapest way to play amazing golf.",
+        topics: ["Feature", "Travel", "Courses", "Golf Deals"],
+        publishedAt: "2026-05-12T12:00:00.000Z"
+      },
+      {
+        title: "Cheap Golf vs Expensive Golf: What Actually Changes?",
+        category: "FEATURE",
+        author: "Harry Carlisle",
+        date: "May 2026",
+        readTime: "4 min read",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/345a993c-50b9-408b-9d02-992ab97b1584/how-to-golf-on-a-budget-1vs1000-course-3.png?t=1778603998",
+        thumbnail: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/345a993c-50b9-408b-9d02-992ab97b1584/how-to-golf-on-a-budget-1vs1000-course-3.png?t=1778603998",
+        url: "https://www.morningtee.com/stories-cheap-golf-vs-expensive-golf-round",
+        summary: "Every difference between a normal $50 round and a bucket-list round that isn’t Augusta.",
+        topics: ["Feature", "Courses", "Travel", "Golf Culture"],
+        publishedAt: "2026-05-11T12:00:00.000Z"
+      }
+    ];
+
+    const fallbackImages = [
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50858501-1822-4310-9ec7-d35ec1b4d166/golf-placeholder-image-5.png?t=1779141790",
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9316508f-61bb-424c-ba80-6d6fde9011d0/golf-placeholder-image-2.png?t=1779141789",
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9ecc3842-977e-4b0a-89dc-8a03ec909c54/golf-placeholder-image-4.png?t=1779141789",
+      feedBaseUrl + "/images/golf-placeholder-5.png",
+      feedBaseUrl + "/images/golf-placeholder-6.png",
+      feedBaseUrl + "/images/golf-placeholder-7.png",
+      feedBaseUrl + "/images/golf-placeholder-1.png",
+      feedBaseUrl + "/images/golf-placeholder-image-2.png",
+      feedBaseUrl + "/images/golf-placeholder-image-4.png",
+      feedBaseUrl + "/images/golf-placeholder-image-5.png",
+      "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?auto=format&fit=crop&w=900&q=80"
+    ];
+
+    const topicFallbackImages = {
+      pga: feedBaseUrl + "/images/golf-placeholder-5.png",
+      group: feedBaseUrl + "/images/golf-placeholder-6.png",
+      course: feedBaseUrl + "/images/golf-placeholder-7.png",
+      lesson: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9ecc3842-977e-4b0a-89dc-8a03ec909c54/golf-placeholder-image-4.png?t=1779141789",
+      sand: "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=900&q=80",
+      travel: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9316508f-61bb-424c-ba80-6d6fde9011d0/golf-placeholder-image-2.png?t=1779141789",
+      equipment: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9ecc3842-977e-4b0a-89dc-8a03ec909c54/golf-placeholder-image-4.png?t=1779141789",
+      rules: "https://images.unsplash.com/photo-1500932334442-8761ee4810a7?auto=format&fit=crop&w=900&q=80"
+    };
+
+    let usedImagesThisRender = new Set();
+    let allStories = [];
+    let mtStoryModalOpener = null;
+
+    function getStoryImageAlt(item) {
+      if (item && item.imageAlt !== undefined) return String(item.imageAlt || "");
+
+      const image = String(item && item.image || "").toLowerCase();
+
+      if (
+        image.includes("placeholder") ||
+        image.includes("lpga-placeholder") ||
+        image.includes("ncaa-golf-placeholder") ||
+        image.includes("golf-placeholder")
+      ) {
+        return "";
+      }
+
+      return "";
+    }
+    let filteredStories = [];
+    let visibleCount = initialVisibleCount;
+
+    function unlockPageScroll() {
+      document.body.classList.remove("mt-modal-open");
+      document.body.style.overflow = "";
+      document.body.style.height = "";
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.left = "";
+      document.body.style.right = "";
+      document.body.style.width = "";
+
+      document.documentElement.style.overflow = "";
+      document.documentElement.style.height = "";
+      document.documentElement.style.position = "";
+    }
+
+    function normalizeImageUrl(url) {
+      return String(url || "")
+        .split("?")[0]
+        .replace(/\/$/, "")
+        .toLowerCase();
+    }
+
+    function getImageIdentity(url) {
+      const normalized = normalizeImageUrl(url);
+
+      try {
+        const parsed = new URL(normalized);
+        const parts = parsed.pathname.split("/").filter(Boolean);
+        const lastPart = decodeURIComponent(parts[parts.length - 1] || normalized);
+        return lastPart
+          .replace(/\s+\(\d+\)(?=\.[a-z0-9]+$)/i, "")
+          .replace(/\s+/g, "-")
+          .toLowerCase();
+      } catch (error) {
+        const parts = normalized.split("/").filter(Boolean);
+        const lastPart = decodeURIComponent(parts[parts.length - 1] || normalized);
+        return lastPart
+          .replace(/\s+\(\d+\)(?=\.[a-z0-9]+$)/i, "")
+          .replace(/\s+/g, "-")
+          .toLowerCase();
+      }
+    }
+
+    function markImageUsed(url) {
+      if (!url) return;
+      usedImagesThisRender.add(getImageIdentity(url));
+    }
+
+    function getUniqueImageForStory(item, index) {
+      const candidates = getImageFallbacksForStory(item, index);
+
+      for (let i = 0; i < candidates.length; i += 1) {
+        const candidate = candidates[i];
+        const candidateKey = getImageIdentity(candidate);
+
+        if (candidate && !usedImagesThisRender.has(candidateKey)) {
+          markImageUsed(candidate);
+          return candidate;
+        }
+      }
+
+      for (let offset = 0; offset < fallbackImages.length; offset += 1) {
+        const fallback = fallbackImages[(index + offset) % fallbackImages.length];
+        const fallbackKey = getImageIdentity(fallback);
+
+        if (fallback && !usedImagesThisRender.has(fallbackKey)) {
+          markImageUsed(fallback);
+          return fallback;
+        }
+      }
+
+      return "";
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "<")
+        .replace(/>/g, ">")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function normalizeText(value) {
+      return String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
+    }
+
+    function truncateText(value, maxLength) {
+      const raw = String(value || "").trim();
+      if (raw.length <= maxLength) return raw;
+      return raw.slice(0, maxLength - 3).trim().replace(/[,:;.!?]+$/, "") + "...";
+    }
+
+    function getDisplayTitle(value) {
+      return truncateText(value, 78);
+    }
+
+    function getItemTimestamp(item) {
+      if (!item) return 0;
+
+      const possibleValues = [
+        item.publishedAt,
+        item.approvedAt,
+        item.detectedAt,
+        item.updatedAt,
+        item.timestamp,
+        item.date,
+        item.isoDate
+      ];
+
+      for (const value of possibleValues) {
+        if (!value) continue;
+
+        if (typeof value === "number") {
+          return value < 10000000000 ? value * 1000 : value;
+        }
+
+        const parsed = Date.parse(value);
+        if (!Number.isNaN(parsed)) return parsed;
+      }
+
+      return 0;
+    }
+
+    function cleanCategory(value) {
+      const raw = String(value || "").trim();
+      const lower = raw.toLowerCase();
+
+      if (lower.includes("liv")) return "LIV";
+      if (lower.includes("lpga")) return "LPGA";
+      if (lower.includes("pga")) return "PGA TOUR";
+      if (lower.includes("tech") || lower.includes("ai")) return "TECH";
+      if (lower.includes("strategy")) return "STRATEGY";
+      if (lower.includes("feature")) return "FEATURE";
+      if (lower.includes("viral") || lower.includes("internet") || lower.includes("reddit")) return "VIRAL";
+      if (lower.includes("creator") || lower.includes("youtube")) return "CREATOR";
+
+      return raw || "GOLF";
+    }
+
+    function inferCategory(item) {
+      if (item && item.category) return cleanCategory(item.category);
+      if (item && item.label) return cleanCategory(item.label);
+
+      const text = normalizeText([
+        item && item.title,
+        item && item.summary,
+        item && item.quickRead,
+        item && item.source,
+        item && item.signal
+      ].filter(Boolean).join(" "));
+
+      if (text.includes("liv")) return "LIV";
+      if (text.includes("lpga")) return "LPGA";
+      if (text.includes("pga") || text.includes("rory") || text.includes("scottie") || text.includes("scheffler")) return "PGA TOUR";
+      if (text.includes("youtube") || text.includes("creator")) return "CREATOR";
+      if (text.includes("viral") || text.includes("reddit") || text.includes("internet")) return "VIRAL";
+
+      return "GOLF";
+    }
+
+    function getStoryKey(item) {
+      return normalizeText(item.url || item.sourceUrl || item.title);
+    }
+
+    function getStorySummary(item) {
+      const summary = String(item.summary || item.quickRead || item.quickContext || item.modalSummary || "").trim();
+      return summary || "A Morning Tee story worth keeping on your radar.";
+    }
+
+    function getStoryMeta(item) {
+      if (item.author) return item.author;
+      if (item.authorName) return item.authorName;
+      if (item.source) return item.source;
+      return "Morning Tee";
+    }
+
+    function getStoryDate(item) {
+      const timestamp = getItemTimestamp(item);
+
+      if (!timestamp) {
+        return item.date || "";
+      }
+
+      return new Intl.DateTimeFormat("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric"
+      }).format(new Date(timestamp));
+    }
+
+    function getStoryBodyHtml(item) {
+      if (Array.isArray(item.body) && item.body.length) {
+        return item.body.map((block) => {
+          if (typeof block === "string") return `<p>${escapeHtml(block)}</p>`;
+          if (block && block.heading) return `<h3>${escapeHtml(block.heading)}</h3><p>${escapeHtml(block.text || "")}</p>`;
+          if (block && Array.isArray(block.items)) return `<ul>${block.items.map((li) => `<li>${escapeHtml(li)}</li>`).join("")}</ul>`;
+          return "";
+        }).join("");
+      }
+
+      const quickRead = String(item.quickRead || item.quickContext || item.modalSummary || item.summary || "").trim();
+      if (quickRead) return `<p>${escapeHtml(quickRead)}</p>`;
+
+      return `<p>This story is on the Morning Tee radar. Open the full story for more detail.</p>`;
+    }
+
+    const radarImageBaseUrls = [
+      "https://morningteeradarfeed.netlify.app/images",
+      feedBaseUrl + "/images"
+    ];
+
+    function buildRadarImageUrl(file, baseUrl) {
+      return String(baseUrl || "").replace(/\/$/, "") + "/" + encodeURIComponent(file).replace(/%2F/g, "/");
+    }
+
+    function buildRadarImageUrls(files) {
+      const list = Array.isArray(files) ? files : [files];
+      return list.flatMap(function (file) {
+        return radarImageBaseUrls.map(function (baseUrl) {
+          return buildRadarImageUrl(file, baseUrl);
+        });
+      });
+    }
+
+    function getStoryImageText(item) {
+      return normalizeText([
+        item && item.title,
+        item && item.summary,
+        item && item.quickRead,
+        item && item.quickContext,
+        item && item.modalSummary,
+        item && item.category,
+        item && item.label,
+        item && item.source,
+        item && item.signal,
+        ...(Array.isArray(item && item.topics) ? item.topics : [])
+      ].filter(Boolean).join(" "));
+    }
+
+    function getPlayerImageFilesForStory(item) {
+      const titleText = normalizeText(item && item.title || "");
+      const fullText = getStoryImageText(item);
+
+      const playerImages = [
+        {
+          key: "rory",
+          match: ["rory mcilroy", "rory mcilory", "mcilroy", "mcilory", "rory"],
+          files: [
+            "Rory-Mcilory-1.png",
+            "rory-mcilory-2.png",
+            "rory-mcilory-8.png",
+            "rory-toe.png",
+            "rory-shane-lowry.png",
+            "rory-mcilory-2 (2).png",
+            "Rory-Mcilory-1 (1).png",
+            "rory-mcilory-8 (1).png",
+            "rory-toe (1).png",
+            "rory-shane-lowry (1).png",
+            "rory-mcilroy-1.png",
+            "rory-mcilroy-2.png",
+            "rory-mcilroy-3.png",
+            "rory-mcilroy.png"
+          ]
+        },
+        {
+          key: "jon-rahm",
+          match: ["jon rahm", "rahm"],
+          files: [
+            "jon-rahm-12.png",
+            "jon-rahm-5.png",
+            "jon-rahm-bryson-dechambeau-cam-smith.png",
+            "jon-rahm-bryson-dechambeau-cam-smith (1).png",
+            "jon-rahm-1.png",
+            "jon-rahm.png"
+          ]
+        },
+        {
+          key: "aaron-rai",
+          match: ["aaron rai", "aaron-rai"],
+          files: ["aaron-rai-1.png", "aaron-rai-1 (1).png", "aaron-rai.png"]
+        },
+        {
+          key: "bryson",
+          match: ["bryson dechambeau", "dechambeau", "bryson"],
+          files: [
+            "bryson-dechambeau-1.png",
+            "bryson-dechambeau-4.png",
+            "bryson-dechambeau-5.png",
+            "bryson-dechambeau-1 (3).png",
+            "bryson-dechambeau-5 (1).png",
+            "bryson-dechambeau-4 (1).png",
+            "bryson-dechambeau-2.png",
+            "bryson-dechambeau-3.png",
+            "bryson-dechambeau.png"
+          ]
+        },
+        {
+          key: "scottie",
+          match: ["scottie scheffler", "scheffler", "scottie"],
+          files: ["Scottie-Scheffler-1.png", "Scottie-Scheffler-2.png", "scottie-scheffler-5.png", "scottie-scheffler-1.png", "scottie-scheffler-2.png", "scottie-scheffler-3.png", "scottie-scheffler.png", "scottie-matt-fitzpatrick (1).png"]
+        },
+        { key: "akshay", match: ["akshay bhatia", "bhatia"], files: ["akshay-bhatia-1.png"] },
+        { key: "alex-fitzpatrick", match: ["alex fitzpatrick"], files: ["alex-fitzpatrick-1.png", "alex-fitzpatrick.png", "alex-matt-fitzpatrick (1).png"] },
+        { key: "alex-smalley", match: ["alex smalley", "smalley"], files: ["alex-smalley-1.png"] },
+        { key: "brooks", match: ["brooks koepka", "koepka"], files: ["brooks-koepka.png"] },
+        { key: "cameron-young", match: ["cameron young"], files: ["cameron-young-1.png", "cameron-young-1 (1).png", "cameron-young.png"] },
+        { key: "cam-smith", match: ["cam smith", "cameron smith"], files: ["cam-smith-1.png", "cam-smith-1 (2).png", "cam-smith-1 (1).png", "jon-rahm-bryson-dechambeau-cam-smith.png"] },
+        { key: "charley-hull", match: ["charley hull", "charlie hull", "hull"], files: ["charley-hull-2.png", "charley-hull-2 (1).png", "charley-hull.png"] },
+        { key: "charlie-woods", match: ["charlie woods"], files: ["charlie-woods-1.png", "charlie-woods.png"] },
+        { key: "morikawa", match: ["collin morikawa", "colin morikawa", "morikawa"], files: ["colin-morikawa-1.png", "collin-morikawa.png"] },
+        { key: "corey", match: ["corey conners", "corey connors", "conners", "connors"], files: ["corey-connors-1.png", "corey-conners-1.png"] },
+        { key: "jordan", match: ["jordan spieth", "spieth"], files: ["jordan-spieth-12.png", "jordan-spieth.png"] },
+        { key: "justin-rose", match: ["justin rose"], files: ["justin-rose-3.png", "justin-rose-1.png", "justin-rose-1 (1).png", "justin-rose.png", "justin-rose (2).png", "justin-rose (1).png"] },
+        { key: "bradley", match: ["keegan bradley", "keaghan bradley", "bradley"], files: ["keaghan-bradley-1.png", "keegan-bradley-1.png"] },
+        { key: "reitan", match: ["kristoffer reitan", "kristoffer rietan", "reitan", "rietan"], files: ["kristoffer-rietan-1.png", "kristoffer-reitan-1.png"] },
+        { key: "lando", match: ["lando norris", "norris"], files: ["lando-norris-1.png", "lando-norris.png"] },
+        { key: "woad", match: ["loottie woad", "lottie woad", "woad"], files: ["loattie-waod.png"] },
+        { key: "ludvig", match: ["ludvig aberg", "ludvig åberg", "åberg", "aberg"], files: ["ludvig-aberg-1.png"] },
+        { key: "matt-fitz", match: ["matt fitzpatrick"], files: ["matt-fitzpatrick-1.png", "matt-fitzpatrick.png", "alex-matt-fitzpatrick (1).png", "scottie-matt-fitzpatrick (1).png"] },
+        { key: "matt-mccarty", match: ["matt mccarty", "mccarty"], files: ["matt-mccarty.png"] },
+        { key: "min-woo", match: ["min woo lee"], files: ["min-woo-lee.png", "min-woo-lee-2.png"] },
+        { key: "nelly", match: ["nelly korda", "korda"], files: ["nelly-korda-1.png", "nelly-korda-1 (3).png", "nelly-korda-versus (1).png", "nelly-korda-2.png"] },
+        { key: "nick-taylor", match: ["nick taylor"], files: ["nick-taylor.png", "nick-taylor-2.png"] },
+        { key: "nicolai", match: ["nicolai hojgaard", "nicolai højgaard", "højgaard", "hojgaard"], files: ["nicolai-højgaard-1.png"] },
+        { key: "cantlay", match: ["patrick cantlay", "cantlay"], files: ["patrick-cantlay.png", "patrick-cantlay-1.png"] },
+        { key: "phil", match: ["phil mickelson", "mickelson"], files: ["phil-mickelson-1.png", "phil-mickelson-1 (1).png", "phil-mickelson.png"] },
+        { key: "russell", match: ["russell henley", "henley"], files: ["russell-henley.png"] },
+        { key: "tiger", match: ["tiger woods", "tiger"], files: ["tiger-woods-1.png", "tiger-woods-2.png", "tiger-woods-4.png", "tiger-woods-5.png", "tiger-woods-and-coach.png"] },
+        { key: "tommy", match: ["tommy fleetwood", "fleetwood"], files: ["tommy-fleetwood.png"] },
+        { key: "xander", match: ["xander schauffele", "schauffele"], files: ["xander-schauffele-1.png"] },
+        { key: "aronimink", match: ["aronimink", "aronomink", "arominink"], files: ["aronimink-golf-club-1.png", "golf-placeholder-1.png"] },
+        { key: "tpc", match: ["tpc sawgrass", "sawgrass", "island green"], files: ["tpc-sawgrass-17.png"] }
+      ];
+
+      function findBestEntry(text) {
+        const matches = [];
+
+        playerImages.forEach(function (entry, entryIndex) {
+          entry.match.forEach(function (term) {
+            const at = text.indexOf(term);
+
+            if (at !== -1) {
+              matches.push({
+                entry,
+                at,
+                length: term.length,
+                entryIndex
+              });
+            }
+          });
+        });
+
+        if (!matches.length) return null;
+
+        matches.sort(function (a, b) {
+          if (a.at !== b.at) return a.at - b.at;
+          if (a.length !== b.length) return b.length - a.length;
+          return a.entryIndex - b.entryIndex;
+        });
+
+        return matches[0].entry;
+      }
+
+      const titleMatch = findBestEntry(titleText);
+      if (titleMatch) return titleMatch.files;
+
+      const fullMatch = findBestEntry(fullText);
+      return fullMatch ? fullMatch.files : [];
+    }
+
+    function getImageFallbacksForStory(item, index) {
+      const text = getStoryImageText(item);
+      const candidates = [];
+
+      const playerImageFiles = getPlayerImageFilesForStory(item);
+
+      if (playerImageFiles.length) {
+        candidates.push(...buildRadarImageUrls(playerImageFiles));
+      }
+
+      if (item && item.thumbnail) candidates.push(item.thumbnail);
+      if (item && item.image) candidates.push(item.image);
+
+      if (text.includes("pga championship") || text.includes("major") || text.includes("field") || text.includes("players")) {
+        candidates.push(topicFallbackImages.group);
+      }
+
+      if (text.includes("lesson") || text.includes("coach") || text.includes("practice") || text.includes("swing")) {
+        candidates.push(topicFallbackImages.lesson);
+      }
+
+      if (text.includes("sand") || text.includes("bunker") || text.includes("hazard")) {
+        candidates.push(topicFallbackImages.sand);
+      }
+
+      if (text.includes("travel") || text.includes("trip") || text.includes("course") || text.includes("resort") || text.includes("cheap") || text.includes("expensive")) {
+        candidates.push(topicFallbackImages.travel);
+      }
+
+      if (text.includes("equipment") || text.includes("clubs") || text.includes("ball") || text.includes("driver") || text.includes("rollback")) {
+        candidates.push(topicFallbackImages.equipment);
+      }
+
+      if (text.includes("rules") || text.includes("penalty")) {
+        candidates.push(topicFallbackImages.rules);
+      }
+
+      if (text.includes("golf")) {
+        candidates.push(topicFallbackImages.course);
+      }
+
+      candidates.push(...fallbackImages.slice(index % fallbackImages.length));
+      candidates.push(...fallbackImages.slice(0, index % fallbackImages.length));
+
+      const seen = new Set();
+      return candidates.filter(function (url) {
+        const key = normalizeImageUrl(url);
+        if (!url || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }
+
+    window.mtSwapBrokenImage = function (img) {
+      if (!img) return;
+
+      const rawFallbacks = img.getAttribute("data-mt-fallbacks") || "";
+      const fallbacks = rawFallbacks.split("|").filter(Boolean);
+      const currentSrc = img.currentSrc || img.src || "";
+      let startIndex = Number(img.getAttribute("data-mt-fallback-index") || "0");
+
+      for (let i = startIndex; i < fallbacks.length; i += 1) {
+        const candidate = fallbacks[i];
+        const candidateKey = getImageIdentity(candidate);
+
+        if (!candidate || getImageIdentity(currentSrc) === candidateKey) continue;
+        if (usedImagesThisRender.has(candidateKey)) continue;
+
+        img.setAttribute("data-mt-fallback-index", String(i + 1));
+        markImageUsed(candidate);
+        img.src = candidate;
+        return;
+      }
+
+      for (let i = 0; i < fallbackImages.length; i += 1) {
+        const candidate = fallbackImages[i];
+        const candidateKey = getImageIdentity(candidate);
+
+        if (!candidate || usedImagesThisRender.has(candidateKey)) continue;
+
+        img.setAttribute("data-mt-fallback-index", String(fallbacks.length + i + 1));
+        markImageUsed(candidate);
+        img.src = candidate;
+        return;
+      }
+
+      img.onerror = null;
+      img.src = fallbackImages[0] || "";
+    };
+
+    function getStorySafetyText(item) {
+      return [
+        item && item.title,
+        item && item.summary,
+        item && item.quickRead,
+        item && item.quickContext,
+        item && item.modalSummary,
+        item && item.label,
+        item && item.category,
+        item && item.signal,
+        item && item.source,
+        item && item.status,
+        item && item.roundStatus,
+        item && item.tournamentStatus,
+        item && item.leaderboardStatus,
+        item && item.scoringStatus,
+        item && item.state,
+        item && item.validation_status,
+        item && item.validationStatus,
+        item && item.validation_notes,
+        item && item.validationNotes
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function hasContradictionFlag(item) {
+      const text = getStorySafetyText(item);
+
+      const flags = [
+        "did not win",
+        "does not match",
+        "per the provided leaderboard",
+        "actually",
+        "instead",
+        "conflicting",
+        "provided data says",
+        "not the winner",
+        "incorrect",
+        "mismatch",
+        "needs review"
+      ];
+
+      return flags.some(function (flag) {
+        return text.includes(flag);
+      });
+    }
+
+    function hasBadValidationStatus(item) {
+      const status = String(
+        (item && (item.validation_status || item.validationStatus || item.validationStatusText)) || ""
+      ).toLowerCase();
+
+      return status === "invalid" || status === "needs_review" || status === "needs review";
+    }
+
+    function looksLikeWinnerClaim(item) {
+      const text = getStorySafetyText(item);
+
+      return (
+        /\bwins?\b/.test(text) ||
+        /\bwon\b/.test(text) ||
+        /\bwinner\b/.test(text) ||
+        /\bchampion\b/.test(text) ||
+        /\bcrowned\b/.test(text) ||
+        /\bclaims?\s+(the\s+)?title\b/.test(text) ||
+        /\bcaptures?\b/.test(text) ||
+        /\btakes?\s+(the\s+)?title\b/.test(text) ||
+        /\bholds off\b/.test(text)
+      );
+    }
+
+    function hasConfirmedFinalSignal(item) {
+      const text = getStorySafetyText(item);
+
+      return (
+        /\bofficial\b/.test(text) ||
+        /\bconfirmed\b/.test(text) ||
+        /\btournament complete\b/.test(text) ||
+        /\btournament completed\b/.test(text) ||
+        /\bleaderboard final\b/.test(text) ||
+        /\bfinal leaderboard\b/.test(text) ||
+        /\bfinal results?\b/.test(text) ||
+        /\bstatus:\s*final\b/.test(text) ||
+        /\bstatus:\s*complete\b/.test(text) ||
+        /\bstatus:\s*completed\b/.test(text)
+      );
+    }
+
+    function hasLiveOrInProgressSignal(item) {
+      const text = getStorySafetyText(item);
+
+      return (
+        /\blive\b/.test(text) ||
+        /\bthrough\b/.test(text) ||
+        /\bthru\b/.test(text) ||
+        /\boverall through\b/.test(text) ||
+        /\bafter\s+\d+\b/.test(text) ||
+        /\bround\s+[123]\b/.test(text) ||
+        /\bleads?\b/.test(text) ||
+        /\bleaderboard\b/.test(text) ||
+        /\bprojected\b/.test(text) ||
+        /\bcurrently\b/.test(text) ||
+        /\bin progress\b/.test(text) ||
+        /\bnot final\b/.test(text)
+      );
+    }
+
+    function isUnsafeWinnerClaim(item) {
+      if (!looksLikeWinnerClaim(item)) return false;
+      if (!hasConfirmedFinalSignal(item)) return true;
+      if (hasLiveOrInProgressSignal(item) && !hasConfirmedFinalSignal(item)) return true;
+      return false;
+    }
+
+    function isSafeRadarStory(item) {
+      if (!item || !item.title) return false;
+      if (hasBadValidationStatus(item)) return false;
+      if (hasContradictionFlag(item)) return false;
+      if (isUnsafeWinnerClaim(item)) return false;
+      return true;
+    }
+
+    function normalizeManualArticle(article, index) {
+      return {
+        ...article,
+        id: "manual-" + index,
+        source: article.source || "Morning Tee",
+        category: cleanCategory(article.category || "Feature"),
+        manual: true
+      };
+    }
+
+    function normalizeRadarItem(item, index) {
+      return {
+        ...item,
+        id: "radar-" + index,
+        title: item.title || "Untitled story",
+        category: inferCategory(item),
+        author: item.author || item.byline || item.source || "Morning Tee Radar",
+        date: item.date || "",
+        readTime: item.readTime || "Quick read",
+        url: item.sourceUrl || item.url || "#",
+        summary: getStorySummary(item),
+        manual: false
+      };
+    }
+
+    function buildStoryPool(data) {
+  const today = Array.isArray(data.today) ? data.today : [];
+  const weekRadar = Array.isArray(data.weekRadar || data.week_radar) ? (data.weekRadar || data.week_radar) : [];
+  const alsoMoving = Array.isArray(data.alsoMoving) ? data.alsoMoving : [];
+  const golfInternet = Array.isArray(data.golfInternet || data.golf_internet) ? (data.golfInternet || data.golf_internet) : [];
+  const archiveStories = Array.isArray(data.stories) ? data.stories : [];
+
+  const orderedFeed = [
+    ...today,
+    ...weekRadar,
+    ...alsoMoving,
+    ...golfInternet,
+    ...archiveStories
+  ];
+
+  const radarStories = orderedFeed
+    .filter(isSafeRadarStory)
+    .map(function (item, index) {
+      return {
+        ...normalizeRadarItem(item, index),
+        feedOrder: index
+      };
+    });
+
+  const seen = new Set();
+
+  return radarStories
+    .filter((item) => {
+      const key = getStoryKey(item);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort(function (a, b) {
+      return getItemTimestamp(b) - getItemTimestamp(a);
+    });
+}
+
+    function renderOriginalStories() {
+      const grid = document.getElementById("mt-originals-grid");
+      const moreWrap = document.getElementById("mt-originals-more-wrap");
+      const moreButton = document.getElementById("mt-originals-more");
+      if (!grid) return;
+
+      usedImagesThisRender = new Set();
+
+      const originals = manualArticles.map(normalizeManualArticle);
+      const visibleOriginals = originals.slice(0, originalsVisibleCount);
+
+      grid.innerHTML = visibleOriginals.map(function (item, index) {
+        const image = getUniqueImageForStory(item, index);
+
+        return `
+          <a class="mt-story-card" href="${escapeHtml(item.url || "#")}" target="_top" rel="noopener">
+            <img class="mt-card-image" src="${escapeHtml(image)}" alt="${escapeHtml(getStoryImageAlt(item))}" loading="${index < 3 ? "eager" : "lazy"}" data-mt-fallbacks="${escapeHtml(getImageFallbacksForStory(item, index).join("|"))}" data-mt-fallback-index="0" onerror="window.mtSwapBrokenImage && window.mtSwapBrokenImage(this)">
+            <div class="mt-card-category">${escapeHtml(item.category || "Feature")}</div>
+            <h3>${escapeHtml(getDisplayTitle(item.title || "Untitled story"))}</h3>
+            <p>${escapeHtml(truncateText(getStorySummary(item), 105))}</p>
+            <div class="mt-card-meta">${escapeHtml(getStoryMeta(item))}</div>
+          </a>
+        `;
+      }).join("");
+
+      if (moreWrap) moreWrap.hidden = originalsVisibleCount >= originals.length;
+      if (moreButton) moreButton.textContent = "See more originals";
+    }
+
+    function openStoryModal(item, openerEl) {
+      if (!item) return;
+
+      if (!isSafeRadarStory(item)) {
+        console.warn("Blocked unsafe Morning Tee radar story:", item);
+        return;
+      }
+
+      unlockPageScroll();
+
+      const modal = document.getElementById("mt-story-modal");
+      const modalCard = document.querySelector(".mt-story-modal-card");
+      const kicker = document.getElementById("mt-story-modal-kicker");
+      const title = document.getElementById("mt-story-modal-title");
+      const meta = document.getElementById("mt-story-modal-meta");
+      const body = document.getElementById("mt-story-modal-body");
+      const link = document.getElementById("mt-story-modal-link");
+
+      if (!modal) return;
+
+      kicker.textContent = item.category || "Story";
+      title.textContent = item.title || "Untitled story";
+      meta.textContent = getStoryMeta(item);
+      body.innerHTML = getStoryBodyHtml(item);
+
+      if (item.url && item.url !== "#") {
+        link.href = item.url;
+        link.textContent = "Read full story";
+        link.hidden = false;
+      } else {
+        link.hidden = true;
+      }
+
+      const isMobile = window.matchMedia("(max-width: 700px)").matches;
+
+      if (isMobile && openerEl) {
+        const pageTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+        const openerRect = openerEl.getBoundingClientRect();
+        const modalTop = Math.max(0, pageTop + openerRect.top - 18);
+
+        modal.style.setProperty("--mt-modal-top", modalTop + "px");
+      } else {
+        modal.style.removeProperty("--mt-modal-top");
+      }
+
+      mtStoryModalOpener = openerEl || document.activeElement;
+
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("mt-modal-open");
+
+      requestAnimationFrame(function () {
+        if (modalCard) modalCard.scrollTop = 0;
+
+        if (isMobile) {
+          modal.scrollIntoView({
+            behavior: "auto",
+            block: "start"
+          });
+        }
+      });
+
+      const closeButton = document.getElementById("mt-story-modal-close") || document.querySelector("[aria-label='Close quick read']");
+      if (closeButton) closeButton.focus();
+    }
+
+    function closeStoryModal() {
+      const modal = document.getElementById("mt-story-modal");
+      if (!modal) return;
+
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      modal.style.removeProperty("--mt-modal-top");
+
+      unlockPageScroll();
+
+      if (mtStoryModalOpener && typeof mtStoryModalOpener.focus === "function") {
+        mtStoryModalOpener.focus();
+      }
+      mtStoryModalOpener = null;
+    }
+
+    function renderStoryGrid() {
+      unlockPageScroll();
+
+      const grid = document.getElementById("mt-story-grid");
+      const loadMore = document.getElementById("mt-load-more");
+
+      if (!grid) return;
+
+      const visible = filteredStories.slice(0, visibleCount);
+
+      if (!visible.length) {
+        grid.innerHTML = `
+          <article class="mt-story-card">
+            <div class="mt-card-image-empty"></div>
+            <div class="mt-card-category">No results</div>
+            <h3>No stories found</h3>
+            <p>Try a different search term or category.</p>
+          </article>
+        `;
+
+        if (loadMore) loadMore.hidden = true;
+        return;
+      }
+
+      window.mtVisibleStories = visible;
+      usedImagesThisRender = new Set();
+
+      grid.innerHTML = visible.map((item, index) => {
+        const image = getUniqueImageForStory(item, index);
+
+        return `
+          <a class="mt-story-card" href="${escapeHtml(item.url || "#")}" target="_blank" rel="noopener noreferrer" data-story-index="${index}">
+            <img class="mt-card-image" src="${escapeHtml(image)}" alt="${escapeHtml(getStoryImageAlt(item))}" loading="lazy" data-mt-fallbacks="${escapeHtml(getImageFallbacksForStory(item, index).join("|"))}" data-mt-fallback-index="0" onerror="window.mtSwapBrokenImage && window.mtSwapBrokenImage(this)">
+            <div class="mt-card-category">${escapeHtml(item.category || "Golf")}</div>
+            <h3>${escapeHtml(getDisplayTitle(item.title || "Untitled story"))}</h3>
+            <p>${escapeHtml(truncateText(getStorySummary(item), 95))}</p>
+            <div class="mt-card-meta">${escapeHtml(getStoryMeta(item))}</div>
+          </a>
+        `;
+      }).join("");
+
+      grid.querySelectorAll("[data-story-index]").forEach((card) => {
+        card.addEventListener("click", function (event) {
+          const index = Number(card.getAttribute("data-story-index"));
+          const story = window.mtVisibleStories && window.mtVisibleStories[index];
+
+          if (!story) return;
+
+          event.preventDefault();
+          openStoryModal(story, card);
+        });
+      });
+
+      if (loadMore) {
+        loadMore.hidden = visibleCount >= filteredStories.length;
+      }
+    }
+
+    function applyFilters() {
+      const search = normalizeText(document.getElementById("mt-story-search")?.value || "");
+      const filter = document.getElementById("mt-story-filter")?.value || "all";
+
+      visibleCount = initialVisibleCount;
+
+      filteredStories = allStories.filter((item) => {
+        const categoryMatch = filter === "all" || normalizeText(item.category) === normalizeText(filter);
+
+        const searchText = normalizeText([
+          item.title,
+          item.summary,
+          item.quickRead,
+          item.body && JSON.stringify(item.body),
+          item.category,
+          ...(Array.isArray(item.topics) ? item.topics : []),
+          item.author,
+          item.source
+        ].filter(Boolean).join(" "));
+
+        const searchMatch = !search || searchText.includes(search);
+
+        return categoryMatch && searchMatch;
+      });
+
+      renderStoryGrid();
+    }
+
+    async function loadStories() {
+    unlockPageScroll();
+    
+    try {
+    const cacheBust = "?v=" + Date.now();
+    
+    const [latestResult, archiveResult] = await Promise.allSettled([
+    fetch(radarUrl + cacheBust, { cache: "no-store" }),
+    fetch(archiveUrl + cacheBust, { cache: "no-store" })
+    ]);
+    
+    let latestData = {};
+    let archiveData = {};
+    
+    if (latestResult.status === "fulfilled" && latestResult.value.ok) {
+    latestData = await latestResult.value.json();
+    }
+    
+    if (archiveResult.status === "fulfilled" && archiveResult.value.ok) {
+    archiveData = await archiveResult.value.json();
+    }
+    
+    const mergedData = {
+    active: true,
+    today: Array.isArray(latestData.today) ? latestData.today : [],
+    weekRadar: Array.isArray(latestData.weekRadar || latestData.week_radar) ? (latestData.weekRadar ||
+    latestData.week_radar) : [],
+    alsoMoving: Array.isArray(latestData.alsoMoving) ? latestData.alsoMoving : [],
+    golfInternet: Array.isArray(latestData.golfInternet || latestData.golf_internet) ? (latestData.golfInternet ||
+    latestData.golf_internet) : [],
+    stories: Array.isArray(archiveData.stories) ? archiveData.stories : []
+    };
+    
+    allStories = buildStoryPool(mergedData);
+    } catch (error) {
+    console.error("Morning Tee stories failed to load", error);
+    allStories = buildStoryPool({});
+    }
+    
+    filteredStories = allStories.slice();
+    renderStoryGrid();
+    }
+
+    document.getElementById("mt-story-search")?.addEventListener("input", applyFilters);
+    document.getElementById("mt-story-filter")?.addEventListener("change", applyFilters);
+
+    document.getElementById("mt-load-more")?.addEventListener("click", function () {
+      unlockPageScroll();
+      visibleCount += loadMoreStep;
+      renderStoryGrid();
+    });
+
+    document.getElementById("mt-originals-more")?.addEventListener("click", function () {
+      unlockPageScroll();
+      originalsVisibleCount += originalsInitialVisibleCount;
+      renderOriginalStories();
+    });
+
+    document.addEventListener("click", function (event) {
+      if (event.target && event.target.id === "mt-story-modal-backdrop") closeStoryModal();
+      if (event.target && event.target.id === "mt-story-modal-close") closeStoryModal();
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeStoryModal();
+    });
+
+    window.addEventListener("pageshow", unlockPageScroll);
+    window.addEventListener("resize", unlockPageScroll);
+
+    renderOriginalStories();
+    loadStories();
+  })();
+</script>
+  <script>
+    // Observe mutations to detect content changes dynamically
+    const observer = new MutationObserver(beehiiv_sendHeight("MutationObserver"));
+    try {
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+    catch (e) {
+      console.error(e)
+    }
+  </script>
+  </body></html>
