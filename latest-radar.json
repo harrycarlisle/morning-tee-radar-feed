@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T21:03:02.045Z",
+  "updatedAt": "2026-08-09T21:46:34.414Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-09T21:46:34.410Z",
+      "approvedAt": "2026-08-09T21:46:34.411Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -21",
+      "summary": "Michael Brennan is -5 today and -21 overall through 17. Closest chasers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan has the solo lead at the Wyndham Championship at 21-under, sitting at -5 for the final round and playing the 17th hole, with Beau Hossler two back at -19 and Ben James third at -18.  With Tom Kim also still on the course at -15 through 17, Brennan is two holes from closing out a win that would swing FedExCup positioning heading into the playoffs.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Michael Brennan",
+          "score": "-21",
+          "thru": "17"
+        },
+        {
+          "pos": "2",
+          "name": "Beau Hossler",
+          "score": "-19",
+          "thru": "17"
+        },
+        {
+          "pos": "3",
+          "name": "Ben James",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Kevin Yu",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Harry Hall",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "43 min ago",
       "timestamp": "2026-08-09T21:02:56.049Z",
       "approvedAt": "2026-08-09T21:02:56.049Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "23 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T20:39:05.000Z",
       "approvedAt": "2026-08-09T21:02:57.483Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 min ago",
+      "time": "49 min ago",
       "timestamp": "2026-08-09T20:56:36.000Z",
       "approvedAt": "2026-08-09T21:02:57.483Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "40 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T20:22:37.000Z",
       "approvedAt": "2026-08-09T21:02:57.484Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T20:25:35.094Z",
       "approvedAt": "2026-08-09T20:25:35.094Z",
       "status": "Live",
@@ -185,7 +238,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-09T15:30:00.000Z",
       "approvedAt": "2026-08-09T20:27:42.174Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-09T18:18:27.000Z",
       "approvedAt": "2026-08-09T20:27:42.176Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/golf/article/brooks-koepka-misses-fedexcup-playoffs-in-first-season-back-from-liv-golf-its-pretty-pathetic-195841011.html",
       "sourceUrl": "https://sports.yahoo.com/golf/article/brooks-koepka-misses-fedexcup-playoffs-in-first-season-back-from-liv-golf-its-pretty-pathetic-195841011.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-09T19:59:46.000Z",
-      "approvedAt": "2026-08-09T20:25:37.003Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka angry after missing the PGA Tour playoffs: ‘I think that’s very p...",
-      "summary": "Brooks Koepka’s return to the PGA Tour ended in disappointing fashion after he missed out on the FedEx Cup playoffs.",
-      "quickRead": "Brooks Koepka missed the FedExCup Playoffs in his first season back on the PGA Tour and called it “pretty pathetic,” after a final-round 70 at the Wyndham Championship left him tied for 68th and outside the top 70 in points.  He entered the week 86th and needed a solo fourth or better at Sedgefield, so his season ends now instead of continuing to the St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-angry-missing-pga-195946089.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-angry-missing-pga-195946089.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "43 min ago",
       "timestamp": "2026-08-09T21:02:44.262Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T20:25:44.262Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T21:03:00.722Z",
-      "approvedAt": "2026-08-09T21:03:00.722Z",
+      "timestamp": "2026-08-09T21:46:34.414Z",
+      "approvedAt": "2026-08-09T21:46:34.414Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Michael Brennan leads Wyndham Championship at -21",
-      "summary": "Michael Brennan is -5 today and -21 overall through 13. Closest chasers: Ben James (-18), Beau Hossler (-17), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan holds the Wyndham Championship lead at 21-under after playing 13 holes of his final round in 5-under, sitting three clear of Ben James (-18) and four ahead of Beau Hossler (-17).  With Brennan still on the course and chasers posting low numbers, the closing stretch at Sedgefield will decide whether he converts a big lead into the win or gets run down.",
+      "summary": "Michael Brennan is -5 today and -21 overall through 17. Closest chasers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan has the solo lead at the Wyndham Championship at 21-under, sitting at -5 for the final round and playing the 17th hole, with Beau Hossler two back at -19 and Ben James third at -18.  With Tom Kim also still on the course at -15 through 17, Brennan is two holes from closing out a win that would swing FedExCup positioning heading into the playoffs.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,31 +425,31 @@
           "pos": "1",
           "name": "Michael Brennan",
           "score": "-21",
-          "thru": "13"
+          "thru": "17"
         },
         {
           "pos": "2",
+          "name": "Beau Hossler",
+          "score": "-19",
+          "thru": "17"
+        },
+        {
+          "pos": "3",
           "name": "Ben James",
           "score": "-18",
           "thru": "F"
         },
         {
-          "pos": "3",
-          "name": "Beau Hossler",
-          "score": "-17",
-          "thru": "13"
-        },
-        {
           "pos": "4",
           "name": "Kevin Yu",
           "score": "-16",
-          "thru": "16"
+          "thru": "F"
         },
         {
-          "pos": "5",
+          "pos": "T5",
           "name": "Harry Hall",
           "score": "-15",
-          "thru": "17"
+          "thru": "F"
         }
       ]
     }
