@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T12:38:53.634Z",
+  "updatedAt": "2026-08-09T14:29:16.095Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "Just now",
+      "time": "1 hour ago",
+      "timestamp": "2026-08-09T12:30:00.000Z",
+      "approvedAt": "2026-08-09T14:29:16.092Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Lee Westwood admits if he truly believes that Joaquin Niemann is one of the bes...",
+      "summary": "Lee Westwood finds himself in contention for the title at LIV Golf New York, which Joaquin Niemann leads heading into the final round.",
+      "quickRead": "Lee Westwood finds himself in contention for the title at LIV Golf New York, which Joaquin Niemann leads heading into the final round.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/lee-westwood-admits-truly-believes-123000962.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/lee-westwood-admits-truly-believes-123000962.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T12:38:50.487Z",
       "approvedAt": "2026-08-09T12:38:50.487Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T10:01:58.000Z",
       "approvedAt": "2026-08-09T10:28:33.178Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-08T21:25:08.000Z",
       "approvedAt": "2026-08-09T06:46:57.494Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-08T22:15:00.000Z",
       "approvedAt": "2026-08-09T04:59:16.568Z",
       "status": "Confirmed",
@@ -132,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-08T22:22:39.087Z",
       "approvedAt": "2026-08-08T22:22:39.088Z",
       "status": "Live",
@@ -185,7 +204,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-09T00:09:51.000Z",
       "approvedAt": "2026-08-09T01:17:00.666Z",
       "status": "Confirmed",
@@ -204,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-08T20:22:16.300Z",
       "approvedAt": "2026-08-08T20:22:16.300Z",
       "status": "Live",
@@ -257,7 +276,7 @@
       ]
     },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-08T19:30:00.000Z",
       "approvedAt": "2026-08-08T20:22:17.743Z",
       "status": "Confirmed",
@@ -272,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-08-08T16:30:00.000Z",
-      "approvedAt": "2026-08-08T18:29:53.188Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "What Bryson DeChambeau claimed about LIV Golf’s long-term future during first e...",
-      "summary": "Bryson DeChambeau’s future with LIV Golf is completely up in the air right now.",
-      "quickRead": "Bryson DeChambeau’s future with LIV Golf is completely up in the air right now.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-liv-golf-163000593.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-liv-golf-163000593.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -360,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T12:38:45.770Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T12:01:45.770Z",
       "status": "Trending",
       "signal": "Reddit find",
