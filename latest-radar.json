@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T20:27:46.170Z",
+  "updatedAt": "2026-08-09T21:02:56.052Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "2 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-09T21:02:56.049Z",
+      "approvedAt": "2026-08-09T21:02:56.049Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -21",
+      "summary": "Michael Brennan is -5 today and -21 overall through 13. Closest chasers: Ben James (-18), Beau Hossler (-17), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan holds the Wyndham Championship lead at 21-under after playing 13 holes of his final round in 5-under, sitting three clear of Ben James (-18) and four ahead of Beau Hossler (-17).  With Brennan still on the course and chasers posting low numbers, the closing stretch at Sedgefield will decide whether he converts a big lead into the win or gets run down.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Michael Brennan",
+          "score": "-21",
+          "thru": "13"
+        },
+        {
+          "pos": "2",
+          "name": "Ben James",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Beau Hossler",
+          "score": "-17",
+          "thru": "13"
+        },
+        {
+          "pos": "4",
+          "name": "Kevin Yu",
+          "score": "-16",
+          "thru": "16"
+        },
+        {
+          "pos": "5",
+          "name": "Harry Hall",
+          "score": "-15",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "37 min ago",
       "timestamp": "2026-08-09T20:25:35.094Z",
       "approvedAt": "2026-08-09T20:25:35.094Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "12"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-09T15:30:00.000Z",
       "approvedAt": "2026-08-09T20:27:42.174Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "29 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T19:58:41.000Z",
       "approvedAt": "2026-08-09T20:25:37.001Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "27 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T19:59:46.000Z",
       "approvedAt": "2026-08-09T20:25:37.003Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "31 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T19:55:50.835Z",
       "approvedAt": "2026-08-09T19:55:50.835Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-09T12:00:00.000Z",
       "approvedAt": "2026-08-09T19:55:51.940Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-dealt-unfortunate-news-212508184.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "22 hours ago",
-      "timestamp": "2026-08-08T22:15:00.000Z",
-      "approvedAt": "2026-08-09T18:33:02.090Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Evaluating Scottie Scheffler's Mixed Results in the 2026 Golf Season",
-      "summary": "There is one reliable way to make an outstanding golf season look disappointing: ask Scottie Scheffler to follow himself.",
-      "quickRead": "Scottie Scheffler will enter the 2026 FedExCup Playoffs with 17 starts, just one win, but also five runner-up finishes plus two thirds and three fourths after sitting out the Wyndham Championship.  It’s “mixed” only because it follows his 2024 season of seven PGA Tour wins, and his pile of high finishes still has him leading the FedExCup going into the postseason.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/evaluating-scottie-schefflers-mixed-results-221500623.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/evaluating-scottie-schefflers-mixed-results-221500623.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "35 min ago",
       "timestamp": "2026-08-09T20:27:33.706Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T19:50:33.706Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T20:27:45.029Z",
-      "approvedAt": "2026-08-09T20:27:45.029Z",
+      "timestamp": "2026-08-09T21:02:56.052Z",
+      "approvedAt": "2026-08-09T21:02:56.052Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Brennan leads Wyndham Championship at -20",
-      "summary": "Michael Brennan is -4 today and -20 overall through 11. Closest chasers: Ben James (-18), Beau Hossler (-18), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan led the Wyndham Championship at 20-under par, 4-under for his round through 11 holes of the final round at Sedgefield.  Ben James and Beau Hossler were tied two back at 18-under, with Kevin Yu at 16-under and Tom Kim at 15-under, setting up a tight finish as Brennan tried to close out the tournament.",
+      "title": "Michael Brennan leads Wyndham Championship at -21",
+      "summary": "Michael Brennan is -5 today and -21 overall through 13. Closest chasers: Ben James (-18), Beau Hossler (-17), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan holds the Wyndham Championship lead at 21-under after playing 13 holes of his final round in 5-under, sitting three clear of Ben James (-18) and four ahead of Beau Hossler (-17).  With Brennan still on the course and chasers posting low numbers, the closing stretch at Sedgefield will decide whether he converts a big lead into the win or gets run down.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,32 +424,32 @@
         {
           "pos": "1",
           "name": "Michael Brennan",
-          "score": "-20",
-          "thru": "11"
+          "score": "-21",
+          "thru": "13"
         },
         {
-          "pos": "T2",
+          "pos": "2",
           "name": "Ben James",
           "score": "-18",
           "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "3",
           "name": "Beau Hossler",
-          "score": "-18",
-          "thru": "11"
+          "score": "-17",
+          "thru": "13"
         },
         {
           "pos": "4",
           "name": "Kevin Yu",
           "score": "-16",
-          "thru": "13"
+          "thru": "16"
         },
         {
           "pos": "5",
-          "name": "Tom Kim",
+          "name": "Harry Hall",
           "score": "-15",
-          "thru": "12"
+          "thru": "17"
         }
       ]
     }
