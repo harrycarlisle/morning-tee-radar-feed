@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T01:17:02.581Z",
+  "updatedAt": "2026-08-09T01:17:03.692Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -274,7 +274,7 @@
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-08-08T19:30:00.000Z"
     },
     {
@@ -293,19 +293,19 @@
       "timestamp": "2026-08-08T08:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Brooks Koepka Dealt Unfortunate News Ahead of FedEx Cup Playoffs",
-      "summary": "Brooks Koepka arrived at the Wyndham Championship ranked 86th in the FedEx Cup standings, meaning he’s outside the top 70 cutoff and needs a big fi...",
-      "quickRead": "Brooks Koepka arrived at the Wyndham Championship ranked 86th in the FedEx Cup standings, meaning he’s outside the top 70 cutoff and needs a big finish at Sedgefield to qualify for next week’s FedEx St.  Jude Championship.",
+      "label": "STORY TO WATCH",
+      "title": "Bryson DeChambeau's 'There Isn't a Fan on Planet' PGA Tour Confession...",
+      "summary": "Bryson DeChambeau has drawn backlash again, this time for his comments on an impossible vision.",
+      "quickRead": "Bryson DeChambeau has drawn backlash again, this time for his comments on an impossible vision.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/brooks-koepka-dealt-unfortunate-news-212508184.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-dealt-unfortunate-news-212508184.html",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeaus-isnt-fan-planet-160229424.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeaus-isnt-fan-planet-160229424.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-08T21:25:08.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-08-08T16:02:29.000Z"
     }
   ],
   "checking": {
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-08T22:22:42.641Z",
-      "approvedAt": "2026-08-08T22:22:42.641Z",
+      "timestamp": "2026-08-09T01:17:03.580Z",
+      "approvedAt": "2026-08-09T01:17:03.580Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Michael Brennan leads Wyndham Championship at -16",
       "summary": "Michael Brennan is -7 today and -16 overall through F. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
-      "quickRead": "Michael Brennan shot 63 (7-under) to reach 16-under total and is tied for the Wyndham Championship lead with Beau Hossler.  Tom Kim is one back at 15-under and Alex Smalley sits two back at 14-under as lightning suspended play, setting up a tight finish once Round 3 resumes at Sedgefield.",
+      "quickRead": "Michael Brennan is tied for the lead at the Wyndham Championship at 16-under after a 7-under 63 in Round 3, matching Beau Hossler (16-under) with both at 194 through 54 holes at Sedgefield.  Tom Kim is one back at 15-under after his own 63, with Alex Smalley and Alex Noren two back at 14-under heading into Sunday’s final round.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -397,7 +397,7 @@
           "pos": "T1",
           "name": "Beau Hossler",
           "score": "-16",
-          "thru": "16"
+          "thru": "F"
         },
         {
           "pos": "3",
