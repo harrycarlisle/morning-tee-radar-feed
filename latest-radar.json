@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T10:28:36.954Z",
+  "updatedAt": "2026-08-09T12:38:50.490Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "26 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-09T12:38:50.487Z",
+      "approvedAt": "2026-08-09T12:38:50.487Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Wyndham Championship at -16",
+      "summary": "Michael Brennan is -16 overall through 1. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
+      "quickRead": "Michael Brennan shares the Round 4 lead at the Wyndham Championship at 16-under par (194) with Beau Hossler, with Tom Kim one back at 15-under and Alex Smalley two back at 14-under.  With the final round still in progress at Sedgefield, Brennan is chasing his first PGA Tour win while Kim and several established names (including Hideki Matsuyama at 10-under) remain within striking distance.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Brennan",
+          "score": "-16",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Beau Hossler",
+          "score": "-16",
+          "thru": "1"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-15",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Smalley",
+          "score": "-14",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Noren",
+          "score": "-14",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T10:01:58.000Z",
       "approvedAt": "2026-08-09T10:28:33.178Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-final-100158239.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-08-08T21:25:08.000Z",
       "approvedAt": "2026-08-09T06:46:57.494Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-08T22:15:00.000Z",
       "approvedAt": "2026-08-09T04:59:16.568Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-08T22:22:39.087Z",
       "approvedAt": "2026-08-08T22:22:39.088Z",
       "status": "Live",
@@ -132,7 +185,7 @@
       ]
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-08-09T00:09:51.000Z",
       "approvedAt": "2026-08-09T01:17:00.666Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-08T20:22:16.300Z",
       "approvedAt": "2026-08-08T20:22:16.300Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-08T19:30:00.000Z",
       "approvedAt": "2026-08-08T20:22:17.743Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-08-08T16:30:00.000Z",
       "approvedAt": "2026-08-08T18:29:53.188Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-liv-golf-163000593.html",
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-claimed-liv-golf-163000593.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-08-08T16:02:29.000Z",
-      "approvedAt": "2026-08-08T18:29:53.189Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau's 'There Isn't a Fan on Planet' PGA Tour Confession Faces Rid...",
-      "summary": "Bryson DeChambeau has drawn backlash again, this time for his comments on an impossible vision.",
-      "quickRead": "Bryson DeChambeau has drawn backlash again, this time for his comments on an impossible vision.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeaus-isnt-fan-planet-160229424.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeaus-isnt-fan-planet-160229424.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T10:28:26.499Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T09:51:26.499Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T10:28:35.985Z",
-      "approvedAt": "2026-08-09T10:28:35.985Z",
+      "timestamp": "2026-08-09T12:38:50.490Z",
+      "approvedAt": "2026-08-09T12:38:50.490Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Michael Brennan leads Wyndham Championship at -16",
-      "summary": "Michael Brennan is -7 today and -16 overall through F. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
-      "quickRead": "Michael Brennan shot a third-round 63 (7-under) to reach 16-under total and share the Wyndham Championship lead with Beau Hossler, who’s also 16-under after a 66.  Tom Kim is one back at 15-under after his own 63, with Alex Smalley and Alex Noren two back at 14-under as the tournament heads to the final round at Sedgefield.",
+      "summary": "Michael Brennan is -16 overall through 1. Closest chasers: Beau Hossler (-16), Tom Kim (-15), Alex Smalley (-14).",
+      "quickRead": "Michael Brennan shares the Round 4 lead at the Wyndham Championship at 16-under par (194) with Beau Hossler, with Tom Kim one back at 15-under and Alex Smalley two back at 14-under.  With the final round still in progress at Sedgefield, Brennan is chasing his first PGA Tour win while Kim and several established names (including Hideki Matsuyama at 10-under) remain within striking distance.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,31 +425,31 @@
           "pos": "T1",
           "name": "Michael Brennan",
           "score": "-16",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Beau Hossler",
           "score": "-16",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "3",
           "name": "Tom Kim",
           "score": "-15",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Alex Smalley",
           "score": "-14",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Alex Noren",
           "score": "-14",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
