@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T21:46:38.615Z",
+  "updatedAt": "2026-08-09T22:24:30.859Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-09T22:24:30.857Z",
+      "approvedAt": "2026-08-09T22:24:30.857Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan wins Wyndham Championship at -22",
+      "summary": "Michael Brennan wins Wyndham Championship at -22. Nearest finishers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan won the Wyndham Championship at Sedgefield Country Club, finishing at 22-under-par (258) after a final-round 64 to beat Beau Hossler by three shots.  The win caps a four-day run of 66-65-63-64 and jumps Brennan up the FedExCup standings, while Hossler (-19) and Ben James (-18) settle for runner-up and third.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Wyndham Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Michael Brennan",
+          "score": "-22",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Beau Hossler",
+          "score": "-19",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Ben James",
+          "score": "-18",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Kevin Yu",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Harry Hall",
+          "score": "-15",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "37 min ago",
       "timestamp": "2026-08-09T21:46:34.410Z",
       "approvedAt": "2026-08-09T21:46:34.411Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "43 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T21:02:56.049Z",
       "approvedAt": "2026-08-09T21:02:56.049Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "49 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T20:56:36.000Z",
       "approvedAt": "2026-08-09T21:02:57.483Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T20:22:37.000Z",
       "approvedAt": "2026-08-09T21:02:57.484Z",
       "status": "Confirmed",
@@ -257,7 +310,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T18:18:27.000Z",
       "approvedAt": "2026-08-09T20:27:42.176Z",
       "status": "Confirmed",
@@ -272,25 +325,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/brooks-koepka-blasts-pathetic-results-181827557.html",
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-blasts-pathetic-results-181827557.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-09T19:58:41.000Z",
-      "approvedAt": "2026-08-09T20:25:37.001Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Brooks Koepka misses FedExCup Playoffs in first season back from LIV Golf: 'It'...",
-      "summary": "Brooks Koepka is frustrated after missing out on the PGA Tour's postseason.",
-      "quickRead": "Brooks Koepka didn’t qualify for the FedExCup Playoffs in his first season back on the PGA Tour, calling it “pretty pathetic” after arriving at the Wyndham Championship 86th in points (435) and needing a solo fourth or better to crack the top 70.  Missing the postseason ends his comeback season immediately and raises the stakes for a reset going into next year after a year where he never climbed into playoff position.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/brooks-koepka-misses-fedexcup-playoffs-in-first-season-back-from-liv-golf-its-pretty-pathetic-195841011.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/brooks-koepka-misses-fedexcup-playoffs-in-first-season-back-from-liv-golf-its-pretty-pathetic-195841011.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "38 min ago",
       "timestamp": "2026-08-09T21:46:25.994Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +414,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T21:09:25.994Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,14 +436,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T21:46:34.414Z",
-      "approvedAt": "2026-08-09T21:46:34.414Z",
+      "timestamp": "2026-08-09T22:24:30.859Z",
+      "approvedAt": "2026-08-09T22:24:30.859Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Brennan leads Wyndham Championship at -21",
-      "summary": "Michael Brennan is -5 today and -21 overall through 17. Closest chasers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan has the solo lead at the Wyndham Championship at 21-under, sitting at -5 for the final round and playing the 17th hole, with Beau Hossler two back at -19 and Ben James third at -18.  With Tom Kim also still on the course at -15 through 17, Brennan is two holes from closing out a win that would swing FedExCup positioning heading into the playoffs.",
+      "title": "Michael Brennan wins Wyndham Championship at -22",
+      "summary": "Michael Brennan wins Wyndham Championship at -22. Nearest finishers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
+      "quickRead": "Michael Brennan won the Wyndham Championship at Sedgefield Country Club, finishing at 22-under-par (258) after a final-round 64 to beat Beau Hossler by three shots.  The win caps a four-day run of 66-65-63-64 and jumps Brennan up the FedExCup standings, while Hossler (-19) and Ben James (-18) settle for runner-up and third.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -424,14 +458,14 @@
         {
           "pos": "1",
           "name": "Michael Brennan",
-          "score": "-21",
-          "thru": "17"
+          "score": "-22",
+          "thru": "F"
         },
         {
           "pos": "2",
           "name": "Beau Hossler",
           "score": "-19",
-          "thru": "17"
+          "thru": "F"
         },
         {
           "pos": "3",
