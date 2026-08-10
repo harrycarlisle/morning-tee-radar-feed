@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-jordan-spieth",
-  "updatedAt": "2026-08-03T17:34:18.082Z",
+  "updatedAt": "2026-08-10T16:21:55.500Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 189,
-    "playerAWins": 96,
+    "sharedStarts": 190,
+    "playerAWins": 97,
     "playerBWins": 78,
     "ties": 15
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-09",
+      "eventId": 13,
+      "eventName": "Wyndham Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "justin-thomas",
+      "edge": "Justin by 5 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",
