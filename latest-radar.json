@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-09T23:24:22.309Z",
+  "updatedAt": "2026-08-10T01:19:14.126Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "15 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-10T01:19:14.123Z",
+      "approvedAt": "2026-08-10T01:19:14.123Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark wins U.S. Open at -4",
+      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "U.S. Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Wyndham Clark",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Sam Burns",
+          "score": "-3",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Tom Kim",
+          "score": "-1",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Keith Mitchell",
+          "score": "E",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T23:08:49.000Z",
       "approvedAt": "2026-08-09T23:24:16.349Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/despite-worst-liv-golf-finish-230849333.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "59 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T22:24:30.857Z",
       "approvedAt": "2026-08-09T22:24:30.857Z",
       "status": "Live",
@@ -94,7 +147,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T21:01:39.000Z",
       "approvedAt": "2026-08-09T22:58:58.049Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-09T22:00:00.000Z",
       "approvedAt": "2026-08-09T22:25:21.299Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-09T21:55:09.000Z",
       "approvedAt": "2026-08-09T22:24:32.293Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-09T21:46:34.410Z",
       "approvedAt": "2026-08-09T21:46:34.411Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T20:39:05.000Z",
       "approvedAt": "2026-08-09T21:02:57.483Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-09T20:56:36.000Z",
       "approvedAt": "2026-08-09T21:02:57.483Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-wins-liv-golf-205636653.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-08-09T20:22:37.000Z",
-      "approvedAt": "2026-08-09T21:02:57.484Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Beau Hossler & Girlfriend Ashley Haight: 5 Fast Facts You Need to Know",
-      "summary": "Beau Hossler is currently chasing the biggest breakthrough of his PGA Tour career at the 2026 Wyndham Championship, where he enters the final round tied for the lead at 16-under.",
-      "quickRead": "Beau Hossler is currently chasing the biggest breakthrough of his PGA Tour career at the 2026 Wyndham Championship, where he enters the final round tied for the lead at 16-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/beau-hossler-girlfriend-ashley-haight-202237593.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/beau-hossler-girlfriend-ashley-haight-202237593.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-09T23:24:02.518Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-09T22:47:02.519Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-09T23:24:20.429Z",
-      "approvedAt": "2026-08-09T23:24:20.430Z",
+      "timestamp": "2026-08-10T01:19:14.126Z",
+      "approvedAt": "2026-08-10T01:19:14.126Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Brennan wins Wyndham Championship at -22",
-      "summary": "Michael Brennan wins Wyndham Championship at -22. Nearest finishers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan won the Wyndham Championship at 22-under (258) at Sedgefield Country Club, closing with a final-round 64 to beat Beau Hossler by three shots, with Ben James one back of Hossler at 18-under.  Brennan’s victory earned $1,530,000 and 500 FedExCup points, a major boost heading into the FedExCup Playoffs after holding off a low-scoring leaderboard.",
+      "title": "Wyndham Clark wins U.S. Open at -4",
+      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -383,38 +417,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "Wyndham Championship",
+      "tournament": "U.S. Open",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Michael Brennan",
-          "score": "-22",
+          "name": "Wyndham Clark",
+          "score": "-4",
           "thru": "F"
         },
         {
           "pos": "2",
-          "name": "Beau Hossler",
-          "score": "-19",
+          "name": "Sam Burns",
+          "score": "-3",
           "thru": "F"
         },
         {
           "pos": "3",
-          "name": "Ben James",
-          "score": "-18",
+          "name": "Tom Kim",
+          "score": "-1",
           "thru": "F"
         },
         {
-          "pos": "4",
-          "name": "Kevin Yu",
-          "score": "-16",
+          "pos": "T4",
+          "name": "J.T. Poston",
+          "score": "E",
           "thru": "F"
         },
         {
-          "pos": "T5",
-          "name": "Harry Hall",
-          "score": "-15",
+          "pos": "T4",
+          "name": "Keith Mitchell",
+          "score": "E",
           "thru": "F"
         }
       ]
