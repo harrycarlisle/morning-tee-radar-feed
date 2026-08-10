@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-09T16:52:46.024Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-08-10T02:36:03.683Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Wyndham Championship Leaders",
-      "text": "Michael Brennan and Beau Hossler move near the lead at -16 late in the Wyndham Championship final round, with Tom Kim close behind at -15 at Sedgefield."
+      "headline": "Wyndham Championship Win",
+      "text": "Michael Brennan leads the Wyndham Championship at 22-under, beating Beau Hossler by three shots and earning 500 FedExCup points and $1,530,000."
     },
     {
-      "headline": "DeChambeau on Fan Support",
-      "text": "Bryson DeChambeau claimed every golf fan wants to see him play big PGA Tour events despite his LIV Golf status, highlighting ongoing uncertainties about his Tour eligibility."
+      "headline": "Houston Open Leader",
+      "text": "Gary Woodland leads the Texas Children's Houston Open at 21-under, ahead of Nicolai Højgaard at 16-under and Johnny Keefer at 15-under."
+    },
+    {
+      "headline": "Historic 3M Open Score",
+      "text": "Jackson Koivun leads the 3M Open at 25-under, with Scottie Scheffler and Hideki Matsuyama trailing at 22-under and 20-under respectively."
     }
   ],
-  "itemsLastUpdated": "2026-08-09T16:52:46.024Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-08-10T02:36:03.683Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-09T16:52:46.024Z",
+  "lastSuccessfulStoryUpdate": "2026-08-10T02:36:03.683Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "sourceItemsLoaded": 45,
+  "candidateItemsSelected": 16,
   "openaiAttempted": true,
-  "openaiOutputLength": 719,
+  "openaiOutputLength": 684,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_82e50e79f7f14701bfcc1b2db32b239a",
+  "openaiRequestId": "req_a713a2ca67924baf804dccc4da4ec2d2",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-08-09T16:52:46.024Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-08-10T02:36:03.683Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
