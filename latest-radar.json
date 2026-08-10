@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-10T03:49:12.093Z",
+  "updatedAt": "2026-08-10T05:21:18.585Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,62 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
-      "timestamp": "2026-08-10T01:19:14.123Z",
-      "approvedAt": "2026-08-10T01:19:14.123Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark wins U.S. Open at -4",
-      "summary": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
-      "quickRead": "Wyndham Clark wins U.S. Open at -4. Nearest finishers: Sam Burns (-3), Tom Kim (-1), J.T. Poston (E).",
+      "time": "7 hours ago",
+      "timestamp": "2026-08-09T21:55:09.000Z",
+      "approvedAt": "2026-08-10T05:21:18.583Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Joaquin Niemann wins LIV-New York; Jon Rahm captures third-straight season title",
+      "summary": "Joaquin Niemann closed with a 2-under 69 Sunday for a three-shot victory in LIV Golf New York.",
+      "quickRead": "Joaquin Niemann went wire-to-wire at Trump National Bedminster, closing with a 2-under 69 to win LIV Golf New York by three shots at 16-under 268, while Jon Rahm shot 76 but still clinched the season points title for a third straight year.  Niemann beat runner-up Harold Varner III by pulling away with a birdie on 13 and an eagle on the par-5 15th, and Rahm is now uncatchable with one event left.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "U.S. Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Wyndham Clark",
-          "score": "-4",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Sam Burns",
-          "score": "-3",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Tom Kim",
-          "score": "-1",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "J.T. Poston",
-          "score": "E",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Keith Mitchell",
-          "score": "E",
-          "thru": "F"
-        }
-      ]
+      "url": "https://sports.yahoo.com/articles/joaquin-niemann-wins-liv-york-215509860.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-wins-liv-york-215509860.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "alsoMoving": [
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-09T20:56:36.000Z",
       "approvedAt": "2026-08-10T03:49:07.309Z",
       "status": "Confirmed",
@@ -94,7 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-09T23:25:29.000Z",
       "approvedAt": "2026-08-10T01:19:15.545Z",
       "status": "Confirmed",
@@ -113,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-09T23:30:00.000Z",
       "approvedAt": "2026-08-10T01:19:15.546Z",
       "status": "Confirmed",
@@ -132,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-09T23:18:08.000Z",
       "approvedAt": "2026-08-10T01:19:15.546Z",
       "status": "Confirmed",
@@ -151,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-09T23:08:49.000Z",
       "approvedAt": "2026-08-09T23:24:16.349Z",
       "status": "Confirmed",
@@ -170,60 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "5 hours ago",
-      "timestamp": "2026-08-09T22:24:30.857Z",
-      "approvedAt": "2026-08-09T22:24:30.857Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Michael Brennan wins Wyndham Championship at -22",
-      "summary": "Michael Brennan wins Wyndham Championship at -22. Nearest finishers: Beau Hossler (-19), Ben James (-18), Kevin Yu (-16).",
-      "quickRead": "Michael Brennan won the Wyndham Championship at Sedgefield Country Club, finishing at 22-under-par (258) after a final-round 64 to beat Beau Hossler by three shots.  The win caps a four-day run of 66-65-63-64 and jumps Brennan up the FedExCup standings, while Hossler (-19) and Ben James (-18) settle for runner-up and third.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Wyndham Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Michael Brennan",
-          "score": "-22",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Beau Hossler",
-          "score": "-19",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Ben James",
-          "score": "-18",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Kevin Yu",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Harry Hall",
-          "score": "-15",
-          "thru": "F"
-        }
-      ]
-    },
-    {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-09T21:01:39.000Z",
       "approvedAt": "2026-08-09T22:58:58.049Z",
       "status": "Confirmed",
@@ -242,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-09T22:00:00.000Z",
       "approvedAt": "2026-08-09T22:25:21.299Z",
       "status": "Confirmed",
@@ -326,7 +239,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-10T03:48:55.597Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +259,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-10T03:11:55.597Z",
       "status": "Trending",
       "signal": "Reddit find",
