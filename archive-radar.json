@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-12T04:01:58.774Z",
+  "updatedAt": "2026-08-12T04:02:01.057Z",
   "stories": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-08-12T01:03:41.000Z",
+      "approvedAt": "2026-08-12T04:01:59.906Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Gets Career News as PGA Tour Playoffs Begin",
+      "summary": "Rory McIlroy drew a top pairing for the start of the PGA Tour playoffs at the FedEx St.",
+      "quickRead": "Rory McIlroy drew a top pairing for the start of the PGA Tour playoffs at the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-gets-career-news-010341523.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-gets-career-news-010341523.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-08-12T04:02:01.057Z"
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-12T00:13:09.000Z",
@@ -1887,26 +1907,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-08-04T13:01:15.000Z",
       "archivedAt": "2026-08-04T13:59:15.503Z"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-08-04T02:05:24.000Z",
-      "approvedAt": "2026-08-04T10:32:22.864Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tour winner hits a shank. Then comes a WILD hot mic and 2 rules talks",
-      "summary": "PGA Tour winner Chris Kirk hit a shank during the Rocket Classic's final round.",
-      "quickRead": "PGA Tour winner Chris Kirk hit a shank during the Rocket Classic's final round.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tour-winner-hits-shank-then-020524847.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tour-winner-hits-shank-then-020524847.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-04T10:32:24.827Z"
     }
   ]
 }
