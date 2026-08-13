@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T14:52:37.604Z",
+  "updatedAt": "2026-08-13T16:51:45.369Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-13T16:51:45.366Z",
+      "approvedAt": "2026-08-13T16:51:45.367Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jordan Spieth leads FedEx St. Jude Championship at -5",
+      "summary": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
+      "quickRead": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jordan Spieth",
+          "score": "-5",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Michael Thorbjornsen",
+          "score": "-4",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "16"
+        },
+        {
+          "pos": "T4",
+          "name": "Nico Echavarria",
+          "score": "-3",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Ludvig Åberg",
+          "score": "-3",
+          "thru": "16"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-08-13T14:52:29.417Z",
       "approvedAt": "2026-08-13T14:52:29.417Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "8"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-13T09:10:35.000Z",
       "approvedAt": "2026-08-13T14:52:30.893Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-13T12:58:09.121Z",
       "approvedAt": "2026-08-13T12:58:09.121Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-13T11:01:35.000Z",
       "approvedAt": "2026-08-13T12:58:11.210Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-13T11:00:00.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-12T21:20:54.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-13T10:31:22.000Z",
       "approvedAt": "2026-08-13T10:57:40.337Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-08-12T17:22:05.000Z",
       "approvedAt": "2026-08-13T10:57:42.506Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-13T07:49:35.000Z",
-      "approvedAt": "2026-08-13T09:06:57.747Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Speaks Out on Controversial Decision Before PGA Tour Playoffs",
-      "summary": "Rory McIlroy explained his decision to play in the opening round of the PGA Tour playoffs after skipping it last year.",
-      "quickRead": "Rory McIlroy explained his decision to play in the opening round of the PGA Tour playoffs after skipping it last year.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-speaks-controversial-decision-074935517.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-speaks-controversial-decision-074935517.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-13T14:52:22.852Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T14:15:22.853Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-13T14:52:29.420Z",
-      "approvedAt": "2026-08-13T14:52:29.420Z",
+      "timestamp": "2026-08-13T16:51:45.369Z",
+      "approvedAt": "2026-08-13T16:51:45.369Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Tommy Fleetwood leads FedEx St. Jude Championship at -4",
-      "summary": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
-      "quickRead": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
+      "title": "Jordan Spieth leads FedEx St. Jude Championship at -5",
+      "summary": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
+      "quickRead": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "1",
+          "name": "Jordan Spieth",
+          "score": "-5",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Michael Thorbjornsen",
+          "score": "-4",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
           "name": "Tommy Fleetwood",
           "score": "-4",
-          "thru": "8"
-        },
-        {
-          "pos": "2",
-          "name": "Harris English",
-          "score": "-3",
-          "thru": "10"
-        },
-        {
-          "pos": "3",
-          "name": "Pierceson Coody",
-          "score": "-2",
-          "thru": "11"
+          "thru": "16"
         },
         {
           "pos": "T4",
           "name": "Nico Echavarria",
-          "score": "-1",
-          "thru": "9"
+          "score": "-3",
+          "thru": "17"
         },
         {
           "pos": "T4",
-          "name": "Michael Thorbjornsen",
-          "score": "-1",
-          "thru": "8"
+          "name": "Ludvig Åberg",
+          "score": "-3",
+          "thru": "16"
         }
       ]
     }
