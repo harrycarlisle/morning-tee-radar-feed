@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T01:27:05.518Z",
+  "updatedAt": "2026-08-13T04:06:16.889Z",
   "stories": [
+    {
+      "time": "7 hours ago",
+      "timestamp": "2026-08-12T21:05:17.000Z",
+      "approvedAt": "2026-08-13T04:06:15.944Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "DP TOUR",
+      "title": "Sergio Garcia Breaks Silence on DP World Tour Return Amid LIV Golf Uncertainty",
+      "summary": "Sergio Garcia has a Plan B in place even though LIV Golf CEO Scott O’Neil stated an unnamed lead investor would fund the league beyond 2026.",
+      "quickRead": "Sergio Garcia has a Plan B in place even though LIV Golf CEO Scott O’Neil stated an unnamed lead investor would fund the league beyond 2026.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/sergio-garcia-breaks-silence-dp-210517008.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-breaks-silence-dp-210517008.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-08-13T04:06:16.889Z"
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-08-12T19:48:26.000Z",
@@ -1890,27 +1910,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-08-05T10:29:44.947Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "4 hours ago",
-      "timestamp": "2026-08-05T06:23:02.004Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-08-05T10:29:43.012Z"
     }
   ]
 }
