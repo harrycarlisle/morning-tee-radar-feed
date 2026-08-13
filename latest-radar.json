@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T14:52:29.420Z",
+  "updatedAt": "2026-08-13T14:52:30.895Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,6 +74,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "5 hours ago",
+      "timestamp": "2026-08-13T09:10:35.000Z",
+      "approvedAt": "2026-08-13T14:52:30.893Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "FedEx St. Jude Championship live leaderboard: Scores, tee times, highlights fro...",
+      "summary": "Follow live scores, leaderboard updates, highlights and Round 1 tee times from the St.",
+      "quickRead": "Follow live scores, leaderboard updates, highlights and Round 1 tee times from the St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/fedex-st-jude-championship-tee-091035825.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-tee-091035825.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-13T12:58:09.121Z",
@@ -240,59 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-speaks-controversial-decision-074935517.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-08-13T04:06:14.880Z",
-      "approvedAt": "2026-08-13T04:06:14.880Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Jackson Koivun wins FedEx St. Jude Championship at -",
-      "summary": "Jackson Koivun wins FedEx St. Jude Championship at -. Nearest finishers: Sam Stevens (-), Pierceson Coody (-), Harris English (-).",
-      "quickRead": "Jackson Koivun wins FedEx St. Jude Championship at -. Nearest finishers: Sam Stevens (-), Pierceson Coody (-), Harris English (-).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "FedEx St. Jude Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "-",
-          "name": "Jackson Koivun",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Sam Stevens",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Pierceson Coody",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Harris English",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Maverick McNealy",
-          "score": "-",
-          "thru": "1"
-        }
-      ]
     }
   ],
   "weekRadar": [
