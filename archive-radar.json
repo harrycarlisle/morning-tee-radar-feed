@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T18:56:10.088Z",
+  "updatedAt": "2026-08-13T20:36:47.469Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-13T18:45:42.000Z",
+      "approvedAt": "2026-08-13T20:36:45.856Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy wilts to shoot 74; Scottie Scheffler cards 'patient' 68 at scorchi...",
+      "summary": "Rory McIlroy played his final three holes in 4 over par in the opening round of the FedEx St.",
+      "quickRead": "Rory McIlroy played his final three holes in 4 over par in the opening round of the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-08-13T20:36:47.469Z"
+    },
     {
       "label": "LIV WATCH",
       "title": "Jon Rahm may be preparing to leave LIV Golf with potential Ryder Cup...",
@@ -1875,26 +1895,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-08-06T13:53:57.834Z"
-    },
-    {
-      "time": "28 min ago",
-      "timestamp": "2026-08-06T10:05:34.000Z",
-      "approvedAt": "2026-08-06T10:33:44.135Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Wyndham Championship leaderboard, Round 1 live updates, tee times",
-      "summary": "The 2026 Wyndham Championship, is Aug.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-100534316.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-100534316.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-06T10:33:45.346Z"
     }
   ]
 }
