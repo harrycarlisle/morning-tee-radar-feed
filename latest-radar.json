@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T10:57:46.816Z",
+  "updatedAt": "2026-08-13T12:58:09.123Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "26 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-13T12:58:09.121Z",
+      "approvedAt": "2026-08-13T12:58:09.121Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Pierceson Coody leads FedEx St. Jude Championship at -1",
+      "summary": "Pierceson Coody is -1 today and -1 overall through 2. Closest chasers: Jackson Koivun (E), Sam Stevens (E), Harris English (E).",
+      "quickRead": "Pierceson Coody is the early clubhouse leader at the FedEx St.  Jude Championship at 1-under par through his first two holes, with Jackson Koivun, Sam Stevens, and Harris English tied for second at even par.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Pierceson Coody",
+          "score": "-1",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Jackson Koivun",
+          "score": "E",
+          "thru": "4"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Stevens",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Harris English",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Maverick McNealy",
+          "score": "E",
+          "thru": "2"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T10:31:22.000Z",
       "approvedAt": "2026-08-13T10:57:40.337Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-103122078.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-12T17:22:05.000Z",
       "approvedAt": "2026-08-13T10:57:42.506Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-13T07:49:35.000Z",
       "approvedAt": "2026-08-13T09:06:57.747Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-13T04:06:14.880Z",
       "approvedAt": "2026-08-13T04:06:14.880Z",
       "status": "Live",
@@ -132,7 +185,7 @@
       ]
     },
     {
-      "time": "13 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-08-12T21:05:17.000Z",
       "approvedAt": "2026-08-13T04:06:15.944Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-12T22:36:45.000Z",
       "approvedAt": "2026-08-13T01:27:01.579Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-12T19:48:26.000Z",
       "approvedAt": "2026-08-13T01:27:04.332Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-12T22:11:46.000Z",
       "approvedAt": "2026-08-12T22:34:58.284Z",
       "status": "Confirmed",
@@ -204,25 +257,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-old-221146166.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-old-221146166.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-08-12T21:20:54.000Z",
-      "approvedAt": "2026-08-12T22:35:00.559Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "McIlroy returns to St. Jude to launch marathon PGA playoff push",
-      "summary": "Rory McIlroy is gearing up for a golf marathon as he targets a fourth US PGA Tour FedEx Cup crown, starting with the St.",
-      "quickRead": "Rory McIlroy is back at the FedEx St.  Jude Championship in Memphis to start a three-tournament FedExCup Playoffs run as he tries to win a fourth FedEx Cup title, with Scottie Scheffler entering as the points leader.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/mcilroy-returns-st-jude-launch-212054646.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-returns-st-jude-launch-212054646.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T10:57:30.683Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T10:20:30.683Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-13T10:57:45.577Z",
-      "approvedAt": "2026-08-13T10:57:45.577Z",
+      "timestamp": "2026-08-13T12:58:09.124Z",
+      "approvedAt": "2026-08-13T12:58:09.124Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jackson Koivun wins FedEx St. Jude Championship at -",
-      "summary": "Jackson Koivun wins FedEx St. Jude Championship at -. Nearest finishers: Sam Stevens (-), Pierceson Coody (-), Harris English (-).",
-      "quickRead": "Jackson Koivun wins FedEx St. Jude Championship at -. Nearest finishers: Sam Stevens (-), Pierceson Coody (-), Harris English (-).",
+      "title": "Pierceson Coody leads FedEx St. Jude Championship at -1",
+      "summary": "Pierceson Coody is -1 today and -1 overall through 2. Closest chasers: Jackson Koivun (E), Sam Stevens (E), Harris English (E).",
+      "quickRead": "Pierceson Coody is the early clubhouse leader at the FedEx St.  Jude Championship at 1-under par through his first two holes, with Jackson Koivun, Sam Stevens, and Harris English tied for second at even par.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -354,34 +388,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "-",
-          "name": "Jackson Koivun",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Sam Stevens",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
+          "pos": "1",
           "name": "Pierceson Coody",
-          "score": "-",
-          "thru": "1"
+          "score": "-1",
+          "thru": "2"
         },
         {
-          "pos": "-",
+          "pos": "T2",
+          "name": "Jackson Koivun",
+          "score": "E",
+          "thru": "4"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Stevens",
+          "score": "E",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
           "name": "Harris English",
-          "score": "-",
-          "thru": "1"
+          "score": "E",
+          "thru": "2"
         },
         {
-          "pos": "-",
+          "pos": "T2",
           "name": "Maverick McNealy",
-          "score": "-",
-          "thru": "1"
+          "score": "E",
+          "thru": "2"
         }
       ]
     }
