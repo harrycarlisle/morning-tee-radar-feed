@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T04:06:18.798Z",
+  "updatedAt": "2026-08-13T04:06:20.861Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "3 hours ago",
+      "timestamp": "2026-08-13T00:49:49.436Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-08-13T04:06:20.861Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "2 hours ago",
@@ -1894,22 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
       "archivedAt": "2026-08-05T16:02:32.435Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "The reason Johnson Wagner thinks PGA Tour stars won’t vote for Scotti...",
-      "summary": "Johnson Wagner believes that while some will vote for Scottie Scheffler to be PGA Tour Player of the Year, the opportunity to opt for someone else...",
-      "quickRead": "Johnson Wagner believes that while some will vote for Scottie Scheffler to be PGA Tour Player of the Year, the opportunity to opt for someone else for a change will tempt many to look els...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/reason-johnson-wagner-thinks-pga-113000413.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/reason-johnson-wagner-thinks-pga-113000413.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "timestamp": "2026-08-05T11:30:00.000Z",
-      "archivedAt": "2026-08-05T13:55:57.967Z"
     }
   ]
 }
