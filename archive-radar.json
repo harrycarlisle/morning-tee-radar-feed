@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T12:58:12.510Z",
+  "updatedAt": "2026-08-13T14:52:31.879Z",
   "stories": [
+    {
+      "time": "5 hours ago",
+      "timestamp": "2026-08-13T09:10:35.000Z",
+      "approvedAt": "2026-08-13T14:52:30.893Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "FedEx St. Jude Championship live leaderboard: Scores, tee times, highlights fro...",
+      "summary": "Follow live scores, leaderboard updates, highlights and Round 1 tee times from the St.",
+      "quickRead": "Follow live scores, leaderboard updates, highlights and Round 1 tee times from the St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/fedex-st-jude-championship-tee-091035825.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-tee-091035825.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-08-13T14:52:31.879Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-13T11:01:35.000Z",
@@ -1887,26 +1907,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-08-05T22:54:12.562Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-05T19:30:00.000Z",
-      "approvedAt": "2026-08-05T21:03:44.200Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Scott O’Neil’s telling response when asked about Bryson DeChambeau and Jon Rahm...",
-      "summary": "Bryson DeChambeau and Jon Rahm are undoubtedly LIV Golf’s two biggest stars.",
-      "quickRead": "Bryson DeChambeau and Jon Rahm are undoubtedly LIV Golf’s two biggest stars.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scott-o-neil-telling-response-193000213.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scott-o-neil-telling-response-193000213.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-08-05T21:03:45.173Z"
     }
   ]
 }
