@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T20:36:47.469Z",
+  "updatedAt": "2026-08-13T20:36:49.793Z",
   "stories": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-08-13T17:47:29.000Z",
+      "approvedAt": "2026-08-13T20:36:48.742Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "2026 U.S. Amateur live updates: Round of 16 scores, tee times, highlights",
+      "summary": "Follow the Round of 16 at the 2026 U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-174729846.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-174729846.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-08-13T20:36:49.793Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-13T18:45:42.000Z",
@@ -1875,26 +1895,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
       "archivedAt": "2026-08-06T13:54:00.457Z"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-08-06T11:30:45.000Z",
-      "approvedAt": "2026-08-06T13:53:56.585Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 U.S. Women's Amateur live updates: Round of 64 scores, tee times, highlights",
-      "summary": "Follow the Round of 64 at the 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-u-womens-amateur-live-113045846.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-u-womens-amateur-live-113045846.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-06T13:53:57.834Z"
     }
   ]
 }
