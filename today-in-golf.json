@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-13T13:49:08.478Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-08-13T17:11:16.973Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Coody Leads St. Jude",
-      "text": "Pierceson Coody is the early leader at FedEx St. Jude Championship, sitting at 1-under par through 2 holes with Jackson Koivun, Sam Stevens, Harris English, and Maverick McNealy tied at even par."
+      "headline": "FedEx St. Jude Championship",
+      "text": "Jordan Spieth leads at 5-under through 16 holes, with Michael Thorbjornsen and Tommy Fleetwood one shot behind at 4-under."
     },
     {
-      "headline": "McIlroy Targets FedEx Cup",
-      "text": "Rory McIlroy returns to FedEx St. Jude Championship aiming for a fourth FedEx Cup, currently ranked 12th in standings as he starts his three-event playoff push."
+      "headline": "DP World Tour vs LIV Golf",
+      "text": "DP World Tour's acquisition moves could significantly weaken LIV Golf after it lost Saudi government funding."
     },
     {
-      "headline": "McIlroy PGA Tour Status",
-      "text": "McIlroy may fall one start short of the PGA Tour's 15-event minimum, but a potential handbook waiver for medical or extraordinary reasons could preserve his status and exempt him from limitations."
+      "headline": "McIlroy's FedEx Cup Push",
+      "text": "Rory McIlroy returns to FedEx St. Jude Championship aiming for a fourth FedEx Cup title, starting from 12th in standings."
     }
   ],
-  "itemsLastUpdated": "2026-08-13T13:49:08.478Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-08-13T17:11:16.973Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-13T13:49:08.478Z",
+  "lastSuccessfulStoryUpdate": "2026-08-13T17:11:16.973Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 8,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 825,
+  "openaiOutputLength": 634,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_b589cd14bbe045759e103dfb612b412b",
+  "openaiRequestId": "req_e52c67ea06634c4da41ea5ded3597035",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-13T13:49:08.478Z",
+  "diagnosticUpdatedAt": "2026-08-13T17:11:16.972Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
