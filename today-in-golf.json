@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-13T02:49:09.961Z",
-  "edition": "evening",
-  "label": "Last checked at 8 p.m. ET",
+  "lastUpdated": "2026-08-13T13:49:08.478Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "McIlroy on Player of Year",
-      "text": "Rory McIlroy said there is no clear PGA Tour Player of the Year yet, citing Cam Young, Wyndham Clark, Scottie Scheffler, and Matt Fitzpatrick as contenders depending on criteria."
+      "headline": "Coody Leads St. Jude",
+      "text": "Pierceson Coody is the early leader at FedEx St. Jude Championship, sitting at 1-under par through 2 holes with Jackson Koivun, Sam Stevens, Harris English, and Maverick McNealy tied at even par."
     },
     {
-      "headline": "Romero Leads McCormack Medal",
-      "text": "Kiara Romero leads the McCormack Medal for the second consecutive year as top women's amateur and must decide whether to join the LPGA this year or finish her senior year at Oregon."
+      "headline": "McIlroy Targets FedEx Cup",
+      "text": "Rory McIlroy returns to FedEx St. Jude Championship aiming for a fourth FedEx Cup, currently ranked 12th in standings as he starts his three-event playoff push."
+    },
+    {
+      "headline": "McIlroy PGA Tour Status",
+      "text": "McIlroy may fall one start short of the PGA Tour's 15-event minimum, but a potential handbook waiver for medical or extraordinary reasons could preserve his status and exempt him from limitations."
     }
   ],
-  "itemsLastUpdated": "2026-08-12T17:10:25.125Z",
-  "itemsEdition": "midday",
-  "usedFallback": true,
-  "fallbackReason": "generated_items_rejected",
-  "fallbackStage": "item_cleaning",
-  "lastSuccessfulStoryUpdate": "2026-08-12T17:10:25.125Z",
-  "itemsChanged": false,
-  "sourceItemsLoaded": 12,
+  "itemsLastUpdated": "2026-08-13T13:49:08.478Z",
+  "itemsEdition": "morning",
+  "usedFallback": false,
+  "fallbackReason": "",
+  "fallbackStage": "",
+  "lastSuccessfulStoryUpdate": "2026-08-13T13:49:08.478Z",
+  "itemsChanged": true,
+  "sourceItemsLoaded": 13,
   "candidateItemsSelected": 8,
   "openaiAttempted": true,
-  "openaiOutputLength": 821,
+  "openaiOutputLength": 825,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_89b167e5df304608ba3826dab1bd7ba0",
+  "openaiRequestId": "req_b589cd14bbe045759e103dfb612b412b",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 1,
-  "rejectedItemsCount": 2,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: pga-tour",
-      "count": 2
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-08-13T02:49:09.960Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-08-13T13:49:08.478Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
