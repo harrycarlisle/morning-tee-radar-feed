@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T12:58:17.516Z",
+  "updatedAt": "2026-08-13T14:52:29.420Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-13T14:52:29.417Z",
+      "approvedAt": "2026-08-13T14:52:29.417Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Tommy Fleetwood leads FedEx St. Jude Championship at -4",
+      "summary": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
+      "quickRead": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "8"
+        },
+        {
+          "pos": "2",
+          "name": "Harris English",
+          "score": "-3",
+          "thru": "10"
+        },
+        {
+          "pos": "3",
+          "name": "Pierceson Coody",
+          "score": "-2",
+          "thru": "11"
+        },
+        {
+          "pos": "T4",
+          "name": "Nico Echavarria",
+          "score": "-1",
+          "thru": "9"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Thorbjornsen",
+          "score": "-1",
+          "thru": "8"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-08-13T12:58:09.121Z",
       "approvedAt": "2026-08-13T12:58:09.121Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "2"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-13T11:01:35.000Z",
       "approvedAt": "2026-08-13T12:58:11.210Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-13T11:00:00.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-12T21:20:54.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-13T10:31:22.000Z",
       "approvedAt": "2026-08-13T10:57:40.337Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-12T17:22:05.000Z",
       "approvedAt": "2026-08-13T10:57:42.506Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-13T07:49:35.000Z",
       "approvedAt": "2026-08-13T09:06:57.747Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-13T04:06:14.880Z",
       "approvedAt": "2026-08-13T04:06:14.880Z",
       "status": "Live",
@@ -240,25 +293,6 @@
           "thru": "1"
         }
       ]
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-08-12T21:05:17.000Z",
-      "approvedAt": "2026-08-13T04:06:15.944Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "Sergio Garcia Breaks Silence on DP World Tour Return Amid LIV Golf Uncertainty",
-      "summary": "Sergio Garcia has a Plan B in place even though LIV Golf CEO Scott O’Neil stated an unnamed lead investor would fund the league beyond 2026.",
-      "quickRead": "Sergio Garcia has a Plan B in place even though LIV Golf CEO Scott O’Neil stated an unnamed lead investor would fund the league beyond 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/sergio-garcia-breaks-silence-dp-210517008.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-breaks-silence-dp-210517008.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-13T12:58:02.284Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T12:21:02.284Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-13T12:58:15.436Z",
-      "approvedAt": "2026-08-13T12:58:15.436Z",
+      "timestamp": "2026-08-13T14:52:29.420Z",
+      "approvedAt": "2026-08-13T14:52:29.420Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Pierceson Coody leads FedEx St. Jude Championship at -1",
-      "summary": "Pierceson Coody is -1 today and -1 overall through 2. Closest chasers: Jackson Koivun (E), Sam Stevens (E), Harris English (E).",
-      "quickRead": "Pierceson Coody is the early clubhouse leader at the FedEx St.  Jude Championship at 1-under par through his first two holes, with Jackson Koivun, Sam Stevens, and Harris English tied for second at even par.",
+      "title": "Tommy Fleetwood leads FedEx St. Jude Championship at -4",
+      "summary": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
+      "quickRead": "Tommy Fleetwood is -4 today and -4 overall through 8. Closest chasers: Harris English (-3), Pierceson Coody (-2), Nico Echavarria (-1).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Pierceson Coody",
-          "score": "-1",
-          "thru": "2"
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "8"
         },
         {
-          "pos": "T2",
-          "name": "Jackson Koivun",
-          "score": "E",
-          "thru": "4"
-        },
-        {
-          "pos": "T2",
-          "name": "Sam Stevens",
-          "score": "E",
-          "thru": "2"
-        },
-        {
-          "pos": "T2",
+          "pos": "2",
           "name": "Harris English",
-          "score": "E",
-          "thru": "2"
+          "score": "-3",
+          "thru": "10"
         },
         {
-          "pos": "T2",
-          "name": "Maverick McNealy",
-          "score": "E",
-          "thru": "2"
+          "pos": "3",
+          "name": "Pierceson Coody",
+          "score": "-2",
+          "thru": "11"
+        },
+        {
+          "pos": "T4",
+          "name": "Nico Echavarria",
+          "score": "-1",
+          "thru": "9"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Thorbjornsen",
+          "score": "-1",
+          "thru": "8"
         }
       ]
     }
