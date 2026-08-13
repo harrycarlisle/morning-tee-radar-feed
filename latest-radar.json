@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-13T16:51:53.954Z",
+  "updatedAt": "2026-08-13T18:56:07.468Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-13T18:56:07.466Z",
+      "approvedAt": "2026-08-13T18:56:07.466Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Thorbjornsen leads FedEx St. Jude Championship at -5",
+      "summary": "Michael Thorbjornsen is -5 today and -5 overall through F. Closest chasers: Jordan Spieth (-5), Kurt Kitayama (-5), Tommy Fleetwood (-4).",
+      "quickRead": "Michael Thorbjornsen is -5 today and -5 overall through F. Closest chasers: Jordan Spieth (-5), Kurt Kitayama (-5), Tommy Fleetwood (-4).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Thorbjornsen",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Jordan Spieth",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Kurt Kitayama",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-4",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Gary Woodland",
+          "score": "-4",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T16:51:45.366Z",
       "approvedAt": "2026-08-13T16:51:45.367Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "16"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "51 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T16:00:40.000Z",
       "approvedAt": "2026-08-13T16:51:47.425Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-13T14:52:29.417Z",
       "approvedAt": "2026-08-13T14:52:29.417Z",
       "status": "Live",
@@ -147,7 +200,7 @@
       ]
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-13T09:10:35.000Z",
       "approvedAt": "2026-08-13T14:52:30.893Z",
       "status": "Confirmed",
@@ -166,7 +219,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-13T11:01:35.000Z",
       "approvedAt": "2026-08-13T12:58:11.210Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-13T11:00:00.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-12T21:20:54.000Z",
       "approvedAt": "2026-08-13T12:58:11.211Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-13T10:31:22.000Z",
       "approvedAt": "2026-08-13T10:57:40.337Z",
       "status": "Confirmed",
@@ -240,43 +293,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-103122078.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-08-12T17:22:05.000Z",
-      "approvedAt": "2026-08-13T10:57:42.506Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Is Rory McIlroy's PGA Tour status in jeopardy? What can be done to circumvent e...",
-      "summary": "If McIlroy were to lose his PGA Tour status, he would be limited to seven starts on sponsor exemptions as a non-member as well as his exemptions into the four major championships.",
-      "quickRead": "Rory McIlroy is likely to come up one start short of the PGA Tour’s 15-event minimum for “home-tour” status (he’s tracking for 14), but he and commissioner/CEO Brian Rolapp are working on a handbook waiver that can reduce the requirement for “medical reasons or other extraordinary circumstances. ” If no fix is granted, McIlroy could lose PGA Tour status and be limited to seven sponsor exemptions plus his major-championship exemptions.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "MAJOR WATCH",
-      "title": "Is Rory McIlroy's PGA Tour status in jeopardy? What can be done to ci...",
-      "summary": "Rory McIlroy is likely to come up one start short of the PGA Tour’s 15-event minimum for “home-tour” status (he’s tracking for 14), but he and comm...",
-      "quickRead": "Rory McIlroy is likely to come up one start short of the PGA Tour’s 15-event minimum for “home-tour” status (he’s tracking for 14), but he and commissioner/CEO Brian Rolapp are working on a handbook waiver that can reduce the requirement for “medical reasons or other extraordinary circumstances. ” If no fix is granted, McIlroy could lose PGA Tour status and be limited to seven sponsor exemptions plus his major-championship exemptions.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-pga-tour-status-172205111.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-12T17:22:05.000Z"
-    },
     {
       "label": "LIV WATCH",
       "title": "DP World Tour could deliver fatal blow to LIV Golf with Jon Rahm repo...",
@@ -306,6 +325,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-08-13T09:05:34.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "McIlroy returns to St. Jude to launch marathon PGA playoff push",
+      "summary": "Rory McIlroy is back at the FedEx St.",
+      "quickRead": "Rory McIlroy is back at the FedEx St.  Jude Championship at TPC Southwind to start his three-event FedExCup Playoffs push, trying to climb from 12th in the standings and chase a fourth FedEx Cup title.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mcilroy-returns-st-jude-launch-212054646.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-returns-st-jude-launch-212054646.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-12T21:20:54.000Z"
     }
   ],
   "checking": {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T16:51:33.145Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-13T16:14:33.146Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-13T16:51:52.128Z",
-      "approvedAt": "2026-08-13T16:51:52.128Z",
+      "timestamp": "2026-08-13T18:56:07.468Z",
+      "approvedAt": "2026-08-13T18:56:07.468Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jordan Spieth leads FedEx St. Jude Championship at -5",
-      "summary": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
-      "quickRead": "Jordan Spieth is -5 today and -5 overall through 16. Closest chasers: Michael Thorbjornsen (-4), Tommy Fleetwood (-4), Nico Echavarria (-3).",
+      "title": "Michael Thorbjornsen leads FedEx St. Jude Championship at -5",
+      "summary": "Michael Thorbjornsen is -5 today and -5 overall through F. Closest chasers: Jordan Spieth (-5), Kurt Kitayama (-5), Tommy Fleetwood (-4).",
+      "quickRead": "Michael Thorbjornsen is -5 today and -5 overall through F. Closest chasers: Jordan Spieth (-5), Kurt Kitayama (-5), Tommy Fleetwood (-4).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Michael Thorbjornsen",
+          "score": "-5",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
           "name": "Jordan Spieth",
           "score": "-5",
-          "thru": "16"
+          "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Michael Thorbjornsen",
-          "score": "-4",
-          "thru": "17"
+          "pos": "T1",
+          "name": "Kurt Kitayama",
+          "score": "-5",
+          "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "T4",
           "name": "Tommy Fleetwood",
           "score": "-4",
-          "thru": "16"
+          "thru": "F"
         },
         {
           "pos": "T4",
-          "name": "Nico Echavarria",
-          "score": "-3",
-          "thru": "17"
-        },
-        {
-          "pos": "T4",
-          "name": "Ludvig Åberg",
-          "score": "-3",
-          "thru": "16"
+          "name": "Gary Woodland",
+          "score": "-4",
+          "thru": "F"
         }
       ]
     }
