@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T20:25:37.397Z",
+  "updatedAt": "2026-08-14T22:16:45.539Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-14T22:16:45.536Z",
+      "approvedAt": "2026-08-14T22:16:45.537Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler wins FedEx St. Jude Championship at -11",
+      "summary": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
+      "quickRead": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Viktor Hovland",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "4",
+          "name": "Ludvig Åberg",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Nico Echavarria",
+          "score": "-6",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-08-14T20:25:30.870Z",
       "approvedAt": "2026-08-14T20:25:30.870Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-14T18:43:13.000Z",
       "approvedAt": "2026-08-14T20:25:32.358Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T19:21:33.000Z",
       "approvedAt": "2026-08-14T20:25:32.359Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-14T17:54:42.000Z",
       "approvedAt": "2026-08-14T18:45:28.391Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-14T17:25:43.000Z",
       "approvedAt": "2026-08-14T18:45:30.881Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-14T14:46:17.926Z",
       "approvedAt": "2026-08-14T14:46:17.926Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-14T16:30:35.000Z",
       "approvedAt": "2026-08-14T16:49:04.423Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-14T15:11:24.000Z",
       "approvedAt": "2026-08-14T16:49:04.424Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
       "sourceUrl": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-08-14T02:09:21.000Z",
-      "approvedAt": "2026-08-14T16:49:04.424Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Galdiano leads Portland Classic, with amateur Marin a shot back",
-      "summary": "Mariel Galdiano posted a 7-under 65 in one of the first groups Thursday in The Standard Portland Classic, and watched it hold up for a one-stroke lead at Columbia-Edgewater Country Club.",
-      "quickRead": "Mariel Galdiano posted a 7-under 65 in one of the first groups Thursday in The Standard Portland Classic, and watched it hold up for a one-stroke lead at Columbia-Edgewater Country Club.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/galdiano-leads-portland-classic-amateur-020921689.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/galdiano-leads-portland-classic-amateur-020921689.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-14T20:25:22.609Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T19:48:22.609Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T20:25:35.784Z",
-      "approvedAt": "2026-08-14T20:25:35.784Z",
+      "timestamp": "2026-08-14T22:16:45.539Z",
+      "approvedAt": "2026-08-14T22:16:45.539Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -10",
-      "summary": "Scottie Scheffler is -8 today and -10 overall through 16. Closest chasers: Sungjae Im (-8), Ludvig Åberg (-7), Nico Echavarria (-6).",
-      "quickRead": "Scottie Scheffler grabbed the lead at the FedEx St.  Jude Championship, sitting at 10-under par through 16 holes with an 8-under round in progress.",
+      "title": "Scottie Scheffler wins FedEx St. Jude Championship at -11",
+      "summary": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
+      "quickRead": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,30 +424,30 @@
         {
           "pos": "1",
           "name": "Scottie Scheffler",
-          "score": "-10",
-          "thru": "16"
+          "score": "-11",
+          "thru": "F"
         },
         {
-          "pos": "2",
+          "pos": "T2",
           "name": "Sungjae Im",
           "score": "-8",
           "thru": "F"
         },
         {
-          "pos": "3",
-          "name": "Ludvig Åberg",
-          "score": "-7",
-          "thru": "17"
-        },
-        {
-          "pos": "T4",
-          "name": "Nico Echavarria",
-          "score": "-6",
+          "pos": "T2",
+          "name": "Viktor Hovland",
+          "score": "-8",
           "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Tommy Fleetwood",
+          "pos": "4",
+          "name": "Ludvig Åberg",
+          "score": "-7",
+          "thru": "F"
+        },
+        {
+          "pos": "T5",
+          "name": "Nico Echavarria",
           "score": "-6",
           "thru": "F"
         }
