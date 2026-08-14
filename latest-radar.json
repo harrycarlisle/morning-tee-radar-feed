@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T10:54:07.037Z",
+  "updatedAt": "2026-08-14T12:54:40.617Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-08-14T12:54:40.614Z",
+      "approvedAt": "2026-08-14T12:54:40.614Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -6",
+      "summary": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
+      "quickRead": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Michael Thorbjornsen",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Jordan Spieth",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Kurt Kitayama",
+          "score": "-5",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Jake Knapp",
+          "score": "-5",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-08-14T09:09:21.000Z",
       "approvedAt": "2026-08-14T10:54:01.629Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-13T18:45:42.000Z",
       "approvedAt": "2026-08-13T20:36:45.856Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-13T18:37:43.000Z",
       "approvedAt": "2026-08-14T09:02:44.592Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-14T02:09:21.000Z",
       "approvedAt": "2026-08-14T09:02:44.592Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-14T01:00:00.000Z",
       "approvedAt": "2026-08-14T07:17:04.222Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-08-14T00:06:30.000Z",
       "approvedAt": "2026-08-14T04:02:38.819Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-13T23:47:05.000Z",
       "approvedAt": "2026-08-14T01:26:32.880Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-13T19:59:58.000Z",
       "approvedAt": "2026-08-14T01:26:32.882Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/wyndham-clark-dealt-concerning-news-195958406.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-08-13T21:29:02.000Z",
-      "approvedAt": "2026-08-13T22:35:39.946Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler delivers honest verdict on the state of his game after day on...",
-      "summary": "Scottie Scheffler played alongside Rory McIlroy on day one of the FedEx St.",
-      "quickRead": "Scottie Scheffler played alongside Rory McIlroy on day one of the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-delivers-honest-verdict-212902736.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-delivers-honest-verdict-212902736.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T10:53:50.023Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T10:16:50.023Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -300,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T10:54:05.722Z",
-      "approvedAt": "2026-08-14T10:54:05.722Z",
+      "timestamp": "2026-08-14T12:54:40.618Z",
+      "approvedAt": "2026-08-14T12:54:40.618Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Thorbjornsen leads FedEx St. Jude Championship at -5",
-      "summary": "Michael Thorbjornsen is -5 today and -5 overall through F. Closest chasers: Jordan Spieth (-5), Kurt Kitayama (-5), Jake Knapp (-5).",
-      "quickRead": "Michael Thorbjornsen fired a 5-under 65 at TPC Southwind to share the first-round lead at -5 with Jordan Spieth, Kurt Kitayama, Jake Knapp, and Michael Kim at the FedEx St.  Jude Championship.",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -6",
+      "summary": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
+      "quickRead": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -320,34 +354,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-6",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
           "name": "Michael Thorbjornsen",
           "score": "-5",
-          "thru": "F"
+          "thru": "1"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Jordan Spieth",
           "score": "-5",
-          "thru": "F"
+          "thru": "1"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Kurt Kitayama",
           "score": "-5",
-          "thru": "F"
+          "thru": "1"
         },
         {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Jake Knapp",
           "score": "-5",
-          "thru": "F"
-        },
-        {
-          "pos": "T1",
-          "name": "Michael Kim",
-          "score": "-5",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
