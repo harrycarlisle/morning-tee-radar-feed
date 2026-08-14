@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T09:02:45.488Z",
+  "updatedAt": "2026-08-14T10:54:03.015Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-14T09:09:21.000Z",
+      "approvedAt": "2026-08-14T10:54:01.629Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "FedEx St. Jude Championship live leaderboard: Scores, tee times, highlights fro...",
+      "summary": "Follow Round 2 of the FedEx St.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "archivedAt": "2026-08-14T10:54:03.015Z"
+    },
     {
       "time": "6 hours ago",
       "timestamp": "2026-08-14T02:09:21.000Z",
@@ -1879,26 +1899,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png",
       "archivedAt": "2026-08-07T05:36:36.602Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-07T01:04:47.000Z",
-      "approvedAt": "2026-08-07T02:25:10.167Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 Wyndham Championship Friday tee times: Round 2 groupings",
-      "summary": "Full 2026 Wyndham Championship tee times for Friday's second round in North Carolina, featuring Brooks Koepka, Cameron Young and more.",
-      "quickRead": "Full 2026 Wyndham Championship tee times for Friday's second round in North Carolina, featuring Brooks Koepka, Cameron Young and more.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-friday-tee-010447993.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-friday-tee-010447993.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
-      "archivedAt": "2026-08-07T02:25:11.359Z"
     }
   ]
 }
