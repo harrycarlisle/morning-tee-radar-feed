@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T16:49:09.177Z",
+  "updatedAt": "2026-08-14T16:49:10.658Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -279,21 +279,6 @@
     },
     {
       "label": "MAJOR WATCH",
-      "title": "Woodford Legends Event Gave Women’s Golf Greats Their Due",
-      "summary": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were giv...",
-      "quickRead": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were given something golf does not offer nearly ...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-14T00:06:30.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
       "title": "Jon Rahm Expected to Announce Major Personal News Amid PGA Tour Rumors",
       "summary": "Jon Rahm is expected to announce personal news that could impact the PGA Tour amid LIV Golf's uncertain future.",
       "quickRead": "Jon Rahm is expected to announce personal news that could impact the PGA Tour amid LIV Golf's uncertain future.",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-08-13T15:36:44.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Woodford Legends Event Gave Women’s Golf Greats Their Due",
+      "summary": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were giv...",
+      "quickRead": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were given something golf does not offer nearly ...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-14T00:06:30.000Z"
     }
   ],
   "checking": {
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T14:46:23.992Z",
-      "approvedAt": "2026-08-14T14:46:23.992Z",
+      "timestamp": "2026-08-14T16:49:10.487Z",
+      "approvedAt": "2026-08-14T16:49:10.487Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -9",
-      "summary": "Sungjae Im is -5 today and -9 overall through 10. Closest chasers: Keith Mitchell (-6), Jake Knapp (-5), Chris Gotterup (-5).",
-      "quickRead": "Sungjae Im is leading the FedEx St.  Jude Championship at 9-under par, shooting 5-under for the day and sitting -9 through 10 holes at TPC Southwind.",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
+      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
+      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,32 +390,32 @@
         {
           "pos": "1",
           "name": "Sungjae Im",
-          "score": "-9",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Patrick Cantlay",
+          "score": "-6",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Jake Knapp",
+          "score": "-6",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Adam Scott",
+          "score": "-6",
           "thru": "10"
         },
         {
-          "pos": "2",
-          "name": "Keith Mitchell",
-          "score": "-6",
-          "thru": "9"
-        },
-        {
-          "pos": "T3",
-          "name": "Jake Knapp",
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
           "score": "-5",
-          "thru": "7"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-5",
-          "thru": "7"
-        },
-        {
-          "pos": "T3",
-          "name": "Bud Cauley",
-          "score": "-5",
-          "thru": "2"
+          "thru": "F"
         }
       ]
     }
