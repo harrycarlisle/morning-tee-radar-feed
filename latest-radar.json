@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T18:45:33.177Z",
+  "updatedAt": "2026-08-14T18:45:34.625Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -259,19 +259,19 @@
       "timestamp": "2026-08-13T15:36:44.000Z"
     },
     {
-      "label": "STORY TO WATCH",
-      "title": "After opening in 82, Robert MacIntyre withdraws before Round 2 in Mem...",
-      "summary": "Robert MacIntyre withdrew before Round 2 of the FedEx St.",
-      "quickRead": "Robert MacIntyre withdrew before Round 2 of the FedEx St.  Jude Championship at TPC Southwind after a first-round 12-over 82, citing a knee injury.",
+      "label": "MAJOR WATCH",
+      "title": "Woodford Legends Event Gave Women’s Golf Greats Their Due",
+      "summary": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were giv...",
+      "quickRead": "Last week at The Woodford Club in Versailles, Kentucky, women whose careers account for 322 LPGA Tour victories and 42 major championships were given something golf does not offer nearly ...",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
+      "url": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/woodford-legends-event-gave-women-000630088.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-14T15:11:24.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-14T00:06:30.000Z"
     }
   ],
   "checking": {
@@ -334,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T16:49:10.487Z",
-      "approvedAt": "2026-08-14T16:49:10.487Z",
+      "timestamp": "2026-08-14T18:45:34.515Z",
+      "approvedAt": "2026-08-14T18:45:34.516Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
-      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
-      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
+      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Scottie Scheffler (-7), Nico Echavarria (-6), Ludvig Åberg (-6).",
+      "quickRead": "Sungjae Im took the clubhouse lead at 8-under after a 4-under 66, edging Scottie Scheffler by one with Scheffler at 7-under through nine holes.  Nico Echavarria and Ludvig Åberg sat one back of Scheffler at 6-under, setting up a tight chase at TPC Southwind as the FedExCup Playoffs opened.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -360,28 +360,28 @@
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Patrick Cantlay",
-          "score": "-6",
-          "thru": "17"
+          "pos": "2",
+          "name": "Scottie Scheffler",
+          "score": "-7",
+          "thru": "9"
         },
         {
-          "pos": "T2",
-          "name": "Jake Knapp",
+          "pos": "T3",
+          "name": "Nico Echavarria",
           "score": "-6",
-          "thru": "16"
+          "thru": "12"
         },
         {
-          "pos": "T2",
-          "name": "Adam Scott",
+          "pos": "T3",
+          "name": "Ludvig Åberg",
           "score": "-6",
           "thru": "10"
         },
         {
-          "pos": "T5",
-          "name": "Sudarshan Yellamaraju",
-          "score": "-5",
-          "thru": "F"
+          "pos": "T3",
+          "name": "Alex Smalley",
+          "score": "-6",
+          "thru": "9"
         }
       ]
     }
