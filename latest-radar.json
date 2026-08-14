@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T09:02:49.038Z",
+  "updatedAt": "2026-08-14T10:54:01.632Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "14 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-08-14T09:09:21.000Z",
+      "approvedAt": "2026-08-14T10:54:01.629Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "FedEx St. Jude Championship live leaderboard: Scores, tee times, highlights fro...",
+      "summary": "Follow Round 2 of the FedEx St.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "16 hours ago",
       "timestamp": "2026-08-13T18:45:42.000Z",
       "approvedAt": "2026-08-13T20:36:45.856Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-13T18:37:43.000Z",
       "approvedAt": "2026-08-14T09:02:44.592Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-14T02:09:21.000Z",
       "approvedAt": "2026-08-14T09:02:44.592Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-14T01:00:00.000Z",
       "approvedAt": "2026-08-14T07:17:04.222Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-14T00:06:30.000Z",
       "approvedAt": "2026-08-14T04:02:38.819Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-13T23:47:05.000Z",
       "approvedAt": "2026-08-14T01:26:32.880Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-13T19:59:58.000Z",
       "approvedAt": "2026-08-14T01:26:32.882Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-13T21:29:02.000Z",
       "approvedAt": "2026-08-13T22:35:39.946Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-delivers-honest-verdict-212902736.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "15 hours ago",
-      "timestamp": "2026-08-13T17:47:29.000Z",
-      "approvedAt": "2026-08-13T20:36:48.742Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 U.S. Amateur live updates: Round of 16 scores, tee times, highlights",
-      "summary": "Follow the Round of 16 at the 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-174729846.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-174729846.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-14T09:02:31.100Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T08:25:31.100Z",
       "status": "Trending",
       "signal": "Reddit find",
