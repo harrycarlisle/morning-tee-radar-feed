@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T18:45:35.875Z",
+  "updatedAt": "2026-08-14T20:25:30.873Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "50 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-14T20:25:30.870Z",
+      "approvedAt": "2026-08-14T20:25:30.870Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -10",
+      "summary": "Scottie Scheffler is -8 today and -10 overall through 16. Closest chasers: Sungjae Im (-8), Ludvig Åberg (-7), Nico Echavarria (-6).",
+      "quickRead": "Scottie Scheffler grabbed the lead at the FedEx St.  Jude Championship, sitting at 10-under par through 16 holes with an 8-under round in progress.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-10",
+          "thru": "16"
+        },
+        {
+          "pos": "2",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Ludvig Åberg",
+          "score": "-7",
+          "thru": "17"
+        },
+        {
+          "pos": "T4",
+          "name": "Nico Echavarria",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-6",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T17:54:42.000Z",
       "approvedAt": "2026-08-14T18:45:28.391Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelsons-ncaa-liv-golf-175442635.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T17:25:43.000Z",
       "approvedAt": "2026-08-14T18:45:30.881Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-14T14:46:17.926Z",
       "approvedAt": "2026-08-14T14:46:17.926Z",
       "status": "Live",
@@ -113,7 +166,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-14T16:30:35.000Z",
       "approvedAt": "2026-08-14T16:49:04.423Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-14T15:11:24.000Z",
       "approvedAt": "2026-08-14T16:49:04.424Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-14T02:09:21.000Z",
       "approvedAt": "2026-08-14T16:49:04.424Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-08-14T00:06:30.000Z",
       "approvedAt": "2026-08-14T14:46:19.784Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-14T13:04:50.000Z",
       "approvedAt": "2026-08-14T14:46:19.785Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fedex-cup-playoffs-greatest-finishes-130450255.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-14T11:01:47.000Z",
-      "approvedAt": "2026-08-14T12:54:42.019Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 FedEx St. Jude Championship leaderboard, Friday live updates, tee times",
-      "summary": "For all the Friday, Aug.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110147948.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110147948.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-14T18:45:19.304Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T18:08:19.305Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T18:45:34.515Z",
-      "approvedAt": "2026-08-14T18:45:34.516Z",
+      "timestamp": "2026-08-14T20:25:30.873Z",
+      "approvedAt": "2026-08-14T20:25:30.873Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
-      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Scottie Scheffler (-7), Nico Echavarria (-6), Ludvig Åberg (-6).",
-      "quickRead": "Sungjae Im took the clubhouse lead at 8-under after a 4-under 66, edging Scottie Scheffler by one with Scheffler at 7-under through nine holes.  Nico Echavarria and Ludvig Åberg sat one back of Scheffler at 6-under, setting up a tight chase at TPC Southwind as the FedExCup Playoffs opened.",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -10",
+      "summary": "Scottie Scheffler is -8 today and -10 overall through 16. Closest chasers: Sungjae Im (-8), Ludvig Åberg (-7), Nico Echavarria (-6).",
+      "quickRead": "Scottie Scheffler grabbed the lead at the FedEx St.  Jude Championship, sitting at 10-under par through 16 holes with an 8-under round in progress.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -355,33 +389,33 @@
       "leaders": [
         {
           "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-10",
+          "thru": "16"
+        },
+        {
+          "pos": "2",
           "name": "Sungjae Im",
           "score": "-8",
           "thru": "F"
         },
         {
-          "pos": "2",
-          "name": "Scottie Scheffler",
+          "pos": "3",
+          "name": "Ludvig Åberg",
           "score": "-7",
-          "thru": "9"
+          "thru": "17"
         },
         {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Nico Echavarria",
           "score": "-6",
-          "thru": "12"
+          "thru": "F"
         },
         {
-          "pos": "T3",
-          "name": "Ludvig Åberg",
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
           "score": "-6",
-          "thru": "10"
-        },
-        {
-          "pos": "T3",
-          "name": "Alex Smalley",
-          "score": "-6",
-          "thru": "9"
+          "thru": "F"
         }
       ]
     }
