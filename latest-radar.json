@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T14:46:25.833Z",
+  "updatedAt": "2026-08-14T16:49:02.706Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-14T16:49:02.703Z",
+      "approvedAt": "2026-08-14T16:49:02.703Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
+      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
+      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Patrick Cantlay",
+          "score": "-6",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Jake Knapp",
+          "score": "-6",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Adam Scott",
+          "score": "-6",
+          "thru": "10"
+        },
+        {
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
+          "score": "-5",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T14:46:17.926Z",
       "approvedAt": "2026-08-14T14:46:17.926Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "2"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-08-14T00:06:30.000Z",
       "approvedAt": "2026-08-14T14:46:19.784Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-14T13:04:50.000Z",
       "approvedAt": "2026-08-14T14:46:19.785Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-14T12:54:40.614Z",
       "approvedAt": "2026-08-14T12:54:40.614Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-14T11:01:47.000Z",
       "approvedAt": "2026-08-14T12:54:42.019Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-13T21:29:02.000Z",
       "approvedAt": "2026-08-14T12:54:42.019Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-14T09:09:21.000Z",
       "approvedAt": "2026-08-14T10:54:01.629Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-08-13T18:45:42.000Z",
       "approvedAt": "2026-08-13T20:36:45.856Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-08-13T18:37:43.000Z",
-      "approvedAt": "2026-08-14T09:02:44.592Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "Jon Rahm may be preparing to leave LIV Golf with potential Ryder Cup decision l...",
-      "summary": "With fines and suspensions reportedly coming on the DP World Tour again, Jon Rahm may be the latest to leave LIV Golf in 2027.",
-      "quickRead": "With fines and suspensions reportedly coming on the DP World Tour again, Jon Rahm may be the latest to leave LIV Golf in 2027.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/jon-rahm-may-be-preparing-to-leave-liv-golf-with-potential-ryder-cup-decision-looming-183743851.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/jon-rahm-may-be-preparing-to-leave-liv-golf-with-potential-ryder-cup-decision-looming-183743851.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T14:46:10.385Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-14T14:09:10.385Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T14:46:23.992Z",
-      "approvedAt": "2026-08-14T14:46:23.992Z",
+      "timestamp": "2026-08-14T16:49:02.706Z",
+      "approvedAt": "2026-08-14T16:49:02.706Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -9",
-      "summary": "Sungjae Im is -5 today and -9 overall through 10. Closest chasers: Keith Mitchell (-6), Jake Knapp (-5), Chris Gotterup (-5).",
-      "quickRead": "Sungjae Im is leading the FedEx St.  Jude Championship at 9-under par, shooting 5-under for the day and sitting -9 through 10 holes at TPC Southwind.",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
+      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
+      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,32 +424,32 @@
         {
           "pos": "1",
           "name": "Sungjae Im",
-          "score": "-9",
+          "score": "-8",
+          "thru": "F"
+        },
+        {
+          "pos": "T2",
+          "name": "Patrick Cantlay",
+          "score": "-6",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Jake Knapp",
+          "score": "-6",
+          "thru": "16"
+        },
+        {
+          "pos": "T2",
+          "name": "Adam Scott",
+          "score": "-6",
           "thru": "10"
         },
         {
-          "pos": "2",
-          "name": "Keith Mitchell",
-          "score": "-6",
-          "thru": "9"
-        },
-        {
-          "pos": "T3",
-          "name": "Jake Knapp",
+          "pos": "T5",
+          "name": "Sudarshan Yellamaraju",
           "score": "-5",
-          "thru": "7"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Gotterup",
-          "score": "-5",
-          "thru": "7"
-        },
-        {
-          "pos": "T3",
-          "name": "Bud Cauley",
-          "score": "-5",
-          "thru": "2"
+          "thru": "F"
         }
       ]
     }
