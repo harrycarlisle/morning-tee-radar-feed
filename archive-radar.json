@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T18:45:29.643Z",
+  "updatedAt": "2026-08-14T18:45:32.098Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-14T17:25:43.000Z",
+      "approvedAt": "2026-08-14T18:45:30.881Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Announces Personal News at FedEx St Jude Championship",
+      "summary": "Rory McIlroy looks out of form at FedEx St Jude Championship.",
+      "quickRead": "Rory McIlroy looks out of form at FedEx St Jude Championship.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-personal-news-172543892.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-personal-news-172543892.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-08-14T18:45:32.098Z"
+    },
     {
       "time": "50 min ago",
       "timestamp": "2026-08-14T17:54:42.000Z",
@@ -1879,26 +1899,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-08-07T20:35:22.023Z"
-    },
-    {
-      "time": "47 min ago",
-      "timestamp": "2026-08-07T18:00:00.000Z",
-      "approvedAt": "2026-08-07T18:47:39.334Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Details of Bryson DeChambeau and Scott O’Neil’s meetings with LIV Golfers now d...",
-      "summary": "Bryson DeChambeau and Scott O’Neil met with LIV Golf players earlier this week separately following the announcement that the league has received new funding for the 2027 season and beyond.",
-      "quickRead": "Bryson DeChambeau and Scott O’Neil met with LIV Golf players earlier this week separately following the announcement that the league has received new funding for the 2027 season and beyond.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/details-bryson-dechambeau-scott-o-180000748.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/details-bryson-dechambeau-scott-o-180000748.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "archivedAt": "2026-08-07T18:47:40.344Z"
     }
   ]
 }
