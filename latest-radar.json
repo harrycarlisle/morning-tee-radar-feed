@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T16:49:02.706Z",
+  "updatedAt": "2026-08-14T16:49:04.427Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,61 +21,6 @@
   "today": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T16:49:02.703Z",
-      "approvedAt": "2026-08-14T16:49:02.703Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
-      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
-      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "FedEx St. Jude Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Sungjae Im",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Patrick Cantlay",
-          "score": "-6",
-          "thru": "17"
-        },
-        {
-          "pos": "T2",
-          "name": "Jake Knapp",
-          "score": "-6",
-          "thru": "16"
-        },
-        {
-          "pos": "T2",
-          "name": "Adam Scott",
-          "score": "-6",
-          "thru": "10"
-        },
-        {
-          "pos": "T5",
-          "name": "Sudarshan Yellamaraju",
-          "score": "-5",
-          "thru": "F"
-        }
-      ]
-    }
-  ],
-  "alsoMoving": [
-    {
-      "time": "2 hours ago",
       "timestamp": "2026-08-14T14:46:17.926Z",
       "approvedAt": "2026-08-14T14:46:17.926Z",
       "status": "Live",
@@ -126,6 +71,65 @@
           "thru": "2"
         }
       ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "18 min ago",
+      "timestamp": "2026-08-14T16:30:35.000Z",
+      "approvedAt": "2026-08-14T16:49:04.423Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "2026 U.S. Amateur live updates: Quarterfinal scores, tee times, highlights",
+      "summary": "Follow the quarterfinals at the 2026 U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-163035352.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-163035352.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-14T15:11:24.000Z",
+      "approvedAt": "2026-08-14T16:49:04.424Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "After opening in 82, Robert MacIntyre withdraws before Round 2 in Memphis",
+      "summary": "Robert MacIntyre withdrew before teeing off in the second round of the FedEx St.",
+      "quickRead": "Robert MacIntyre withdrew before teeing off in Round 2 of the FedEx St.  Jude Championship at TPC Southwind due to a knee injury, a day after carding a 12-over 82 that left him last in the field by eight shots.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/opening-82-robert-macintyre-withdraws-151124150.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    },
+    {
+      "time": "14 hours ago",
+      "timestamp": "2026-08-14T02:09:21.000Z",
+      "approvedAt": "2026-08-14T16:49:04.424Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Galdiano leads Portland Classic, with amateur Marin a shot back",
+      "summary": "Mariel Galdiano posted a 7-under 65 in one of the first groups Thursday in The Standard Portland Classic, and watched it hold up for a one-stroke lead at Columbia-Edgewater Country Club.",
+      "quickRead": "Mariel Galdiano posted a 7-under 65 in one of the first groups Thursday in The Standard Portland Classic, and watched it hold up for a one-stroke lead at Columbia-Edgewater Country Club.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/galdiano-leads-portland-classic-amateur-020921689.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/galdiano-leads-portland-classic-amateur-020921689.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
       "time": "16 hours ago",
@@ -255,44 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-delivers-honest-verdict-212902736.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-14T09:09:21.000Z",
-      "approvedAt": "2026-08-14T10:54:01.629Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "FedEx St. Jude Championship live leaderboard: Scores, tee times, highlights fro...",
-      "summary": "Follow Round 2 of the FedEx St.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/fedex-st-jude-championship-live-090921791.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "22 hours ago",
-      "timestamp": "2026-08-13T18:45:42.000Z",
-      "approvedAt": "2026-08-13T20:36:45.856Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy wilts to shoot 74; Scottie Scheffler cards 'patient' 68 at scorchi...",
-      "summary": "Rory McIlroy played his final three holes in 4 over par in the opening round of the FedEx St.",
-      "quickRead": "Rory McIlroy played his final three holes in 4 over par in the opening round of the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-wilts-shoot-74-184542571.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
+      "time": "Just now",
       "timestamp": "2026-08-14T14:46:10.385Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
+      "time": "37 min ago",
       "timestamp": "2026-08-14T14:09:10.385Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-14T16:49:02.706Z",
-      "approvedAt": "2026-08-14T16:49:02.706Z",
+      "timestamp": "2026-08-14T14:46:23.992Z",
+      "approvedAt": "2026-08-14T14:46:23.992Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -8",
-      "summary": "Sungjae Im is -4 today and -8 overall through F. Closest chasers: Patrick Cantlay (-6), Jake Knapp (-6), Adam Scott (-6).",
-      "quickRead": "Sungjae Im shot 66 (-4) to finish Round 1 at 8-under and take the early FedEx St.  Jude Championship lead at TPC Southwind.",
+      "title": "Sungjae Im leads FedEx St. Jude Championship at -9",
+      "summary": "Sungjae Im is -5 today and -9 overall through 10. Closest chasers: Keith Mitchell (-6), Jake Knapp (-5), Chris Gotterup (-5).",
+      "quickRead": "Sungjae Im is leading the FedEx St.  Jude Championship at 9-under par, shooting 5-under for the day and sitting -9 through 10 holes at TPC Southwind.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -424,32 +390,32 @@
         {
           "pos": "1",
           "name": "Sungjae Im",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Patrick Cantlay",
-          "score": "-6",
-          "thru": "17"
-        },
-        {
-          "pos": "T2",
-          "name": "Jake Knapp",
-          "score": "-6",
-          "thru": "16"
-        },
-        {
-          "pos": "T2",
-          "name": "Adam Scott",
-          "score": "-6",
+          "score": "-9",
           "thru": "10"
         },
         {
-          "pos": "T5",
-          "name": "Sudarshan Yellamaraju",
+          "pos": "2",
+          "name": "Keith Mitchell",
+          "score": "-6",
+          "thru": "9"
+        },
+        {
+          "pos": "T3",
+          "name": "Jake Knapp",
           "score": "-5",
-          "thru": "F"
+          "thru": "7"
+        },
+        {
+          "pos": "T3",
+          "name": "Chris Gotterup",
+          "score": "-5",
+          "thru": "7"
+        },
+        {
+          "pos": "T3",
+          "name": "Bud Cauley",
+          "score": "-5",
+          "thru": "2"
         }
       ]
     }
