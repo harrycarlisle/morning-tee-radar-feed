@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-14T18:45:28.395Z",
+  "updatedAt": "2026-08-14T18:45:30.883Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-14T17:25:43.000Z",
+      "approvedAt": "2026-08-14T18:45:30.881Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Announces Personal News at FedEx St Jude Championship",
+      "summary": "Rory McIlroy looks out of form at FedEx St Jude Championship.",
+      "quickRead": "Rory McIlroy looks out of form at FedEx St Jude Championship.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-announces-personal-news-172543892.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-announces-personal-news-172543892.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-14T14:46:17.926Z",
@@ -187,59 +206,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/fedex-cup-playoffs-greatest-finishes-130450255.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-08-14T12:54:40.614Z",
-      "approvedAt": "2026-08-14T12:54:40.614Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Sungjae Im leads FedEx St. Jude Championship at -6",
-      "summary": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
-      "quickRead": "Sungjae Im is -2 today and -6 overall through 2. Closest chasers: Michael Thorbjornsen (-5), Jordan Spieth (-5), Kurt Kitayama (-5).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "FedEx St. Jude Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Sungjae Im",
-          "score": "-6",
-          "thru": "2"
-        },
-        {
-          "pos": "T2",
-          "name": "Michael Thorbjornsen",
-          "score": "-5",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jordan Spieth",
-          "score": "-5",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Kurt Kitayama",
-          "score": "-5",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Jake Knapp",
-          "score": "-5",
-          "thru": "1"
-        }
-      ]
     },
     {
       "time": "7 hours ago",
