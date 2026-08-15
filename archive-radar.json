@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T16:17:41.438Z",
+  "updatedAt": "2026-08-15T16:17:43.616Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-15T14:30:00.000Z",
+      "approvedAt": "2026-08-15T16:17:42.539Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler’s five lowest ever PGA Tour rounds and where he finished afte...",
+      "summary": "Scottie Scheffler produced some truly scintillating golf on Friday at the FedEx St.",
+      "quickRead": "Scottie Scheffler produced some truly scintillating golf on Friday at the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-five-lowest-ever-143000855.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-five-lowest-ever-143000855.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-08-15T16:17:43.616Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-15T15:03:50.000Z",
@@ -1895,22 +1915,6 @@
       "image": "",
       "timestamp": "2026-08-08T21:25:08.000Z",
       "archivedAt": "2026-08-08T22:22:41.623Z"
-    },
-    {
-      "label": "LIV WATCH",
-      "title": "What Bryson DeChambeau said back to a fan who made a joke about Rory...",
-      "summary": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
-      "quickRead": "Bryson DeChambeau has endured a miserable time on the course at LIV Golf New York this week.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-back-fan-193000198.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-08-08T19:30:00.000Z",
-      "archivedAt": "2026-08-08T20:22:18.758Z"
     }
   ]
 }
