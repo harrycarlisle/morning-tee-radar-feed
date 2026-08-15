@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T18:20:55.904Z",
+  "updatedAt": "2026-08-15T20:16:14.440Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-08-15T20:16:14.437Z",
+      "approvedAt": "2026-08-15T20:16:14.437Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Sam Burns leads FedEx St. Jude Championship at -11",
+      "summary": "Sam Burns is -8 today and -11 overall through 17. Closest chasers: Scottie Scheffler (-11), Sungjae Im (-10), Viktor Hovland (-9).",
+      "quickRead": "Sam Burns is -8 today and -11 overall through 17. Closest chasers: Scottie Scheffler (-11), Sungjae Im (-10), Viktor Hovland (-9).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Sam Burns",
+          "score": "-11",
+          "thru": "17"
+        },
+        {
+          "pos": "T1",
+          "name": "Scottie Scheffler",
+          "score": "-11",
+          "thru": "10"
+        },
+        {
+          "pos": "3",
+          "name": "Sungjae Im",
+          "score": "-10",
+          "thru": "10"
+        },
+        {
+          "pos": "4",
+          "name": "Viktor Hovland",
+          "score": "-9",
+          "thru": "11"
+        },
+        {
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-8",
+          "thru": "12"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-08-15T15:03:50.000Z",
       "approvedAt": "2026-08-15T16:17:40.468Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-gives-honest-5-150350666.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-15T13:29:25.000Z",
       "approvedAt": "2026-08-15T18:20:50.962Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-15T11:01:28.000Z",
       "approvedAt": "2026-08-15T18:20:50.963Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-15T17:00:39.000Z",
       "approvedAt": "2026-08-15T18:20:50.964Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-15T14:30:00.000Z",
       "approvedAt": "2026-08-15T16:17:42.539Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-15T09:06:53.000Z",
       "approvedAt": "2026-08-15T10:17:26.979Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-15T10:30:00.000Z",
       "approvedAt": "2026-08-15T12:27:18.129Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-15T09:30:00.000Z",
       "approvedAt": "2026-08-15T10:17:29.114Z",
       "status": "Confirmed",
@@ -170,25 +223,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-08-14T23:13:02.000Z",
-      "approvedAt": "2026-08-15T10:17:29.114Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Who can stop Scottie Scheffler? Ranking the top contenders at St. Jude Champion...",
-      "summary": "Scottie Scheffler tied the course record in the second round of the FedEx St.",
-      "quickRead": "Scottie Scheffler tied the course record in the second round of the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/stop-scottie-scheffler-ranking-top-231302213.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/stop-scottie-scheffler-ranking-top-231302213.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-15T18:20:41.266Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-15T17:43:41.266Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -300,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-15T16:17:45.553Z",
-      "approvedAt": "2026-08-15T16:17:45.553Z",
+      "timestamp": "2026-08-15T20:16:14.440Z",
+      "approvedAt": "2026-08-15T20:16:14.440Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -11",
-      "summary": "Scottie Scheffler is -11 overall through 1. Closest chasers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
-      "quickRead": "Scottie Scheffler grabbed the early lead at the FedEx St.  Jude Championship at 11-under, with Sungjae Im and Viktor Hovland three back at 8-under and Ludvig Åberg at 7-under.",
+      "title": "Sam Burns leads FedEx St. Jude Championship at -11",
+      "summary": "Sam Burns is -8 today and -11 overall through 17. Closest chasers: Scottie Scheffler (-11), Sungjae Im (-10), Viktor Hovland (-9).",
+      "quickRead": "Sam Burns is -8 today and -11 overall through 17. Closest chasers: Scottie Scheffler (-11), Sungjae Im (-10), Viktor Hovland (-9).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -320,33 +354,33 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Sam Burns",
+          "score": "-11",
+          "thru": "17"
+        },
+        {
+          "pos": "T1",
           "name": "Scottie Scheffler",
           "score": "-11",
-          "thru": "1"
+          "thru": "10"
         },
         {
-          "pos": "T2",
+          "pos": "3",
           "name": "Sungjae Im",
-          "score": "-8",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Viktor Hovland",
-          "score": "-8",
-          "thru": "1"
+          "score": "-10",
+          "thru": "10"
         },
         {
           "pos": "4",
-          "name": "Ludvig Åberg",
-          "score": "-7",
-          "thru": "1"
+          "name": "Viktor Hovland",
+          "score": "-9",
+          "thru": "11"
         },
         {
-          "pos": "T5",
-          "name": "Tom Kim",
-          "score": "-6",
+          "pos": "5",
+          "name": "Tommy Fleetwood",
+          "score": "-8",
           "thru": "12"
         }
       ]
