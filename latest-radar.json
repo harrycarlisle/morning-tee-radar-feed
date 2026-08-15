@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T16:17:44.693Z",
+  "updatedAt": "2026-08-15T16:17:45.660Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -206,14 +206,14 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-performance-while-paired-103000143.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-performance-while-paired-103000143.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-08-15T10:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
       "title": "What Scottie Scheffler did for the first time in his PGA Tour career...",
-      "summary": "The real Scottie Scheffler returned at the FedEx St Jude with a historic second-round performance.",
-      "quickRead": "The real Scottie Scheffler returned at the FedEx St Jude with a historic second-round performance.",
+      "summary": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first course-record-tying round on the PGA Tour—to grab a three-shot l...",
+      "quickRead": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first course-record-tying round on the PGA Tour—to grab a three-shot lead at the FedEx St.  Jude Championship.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -221,11 +221,11 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-15T09:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
+      "label": "LIV WATCH",
       "title": "Rumors Spark About Bryson DeChambeau's Dating Life as Former Hockey G...",
       "summary": "Rumors that Bryson DeChambeau is dating Canadian model and former hockey goalie Mikayla Demaiter took off after she attended LIV Golf New York wear...",
       "quickRead": "Rumors that Bryson DeChambeau is dating Canadian model and former hockey goalie Mikayla Demaiter took off after she attended LIV Golf New York wearing a guest pass, then allegedly posted photos taken in front of DeChambeau’s open closet showing multiple Crushers GC caps.  Neither DeChambeau nor Demaiter has confirmed or denied a relationship, but the social-media breadcrumbs (including mutual Instagram follows) have fueled the speculation.",
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-15T14:16:43.156Z",
-      "approvedAt": "2026-08-15T14:16:43.156Z",
+      "timestamp": "2026-08-15T16:17:45.553Z",
+      "approvedAt": "2026-08-15T16:17:45.553Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -11",
       "summary": "Scottie Scheffler is -11 overall through 1. Closest chasers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
-      "quickRead": "Scottie Scheffler grabbed the early FedEx St.  Jude Championship lead at 11-under par, sitting three shots clear of Sungjae Im and Viktor Hovland at 8-under, with Ludvig Åberg next at 7-under.",
+      "quickRead": "Scottie Scheffler grabbed the early lead at the FedEx St.  Jude Championship at 11-under, with Sungjae Im and Viktor Hovland three back at 8-under and Ludvig Åberg at 7-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -345,9 +345,9 @@
         },
         {
           "pos": "T5",
-          "name": "Nico Echavarria",
+          "name": "Tom Kim",
           "score": "-6",
-          "thru": "1"
+          "thru": "12"
         }
       ]
     }
