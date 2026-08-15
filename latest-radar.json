@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T18:20:53.384Z",
+  "updatedAt": "2026-08-15T18:20:54.649Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -206,14 +206,14 @@
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-performance-while-paired-103000143.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-performance-while-paired-103000143.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-08-15T10:30:00.000Z"
     },
     {
       "label": "STAR WATCH",
       "title": "What Scottie Scheffler did for the first time in his PGA Tour career...",
-      "summary": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first time ever taking the lead at the FedEx St.",
-      "quickRead": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first time ever taking the lead at the FedEx St.  Jude Championship—highlighted by 11 birdies and three straight late birdies before a closing par.",
+      "summary": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first course-record-tying round on the PGA Tour—to grab a three-shot l...",
+      "quickRead": "Scottie Scheffler shot a course-record-tying 9-under 61 at TPC Southwind—his first course-record-tying round on the PGA Tour—to grab a three-shot lead at the FedEx St.  Jude Championship.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -221,11 +221,11 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-15T09:30:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
+      "label": "LIV WATCH",
       "title": "Rumors Suggest Bryson DeChambeau Is Dating Former Hockey Goalie",
       "summary": "Bryson DeChambeau is rumored to be dating former hockey goalie-turned-Instagram model Mikayla Demaiter after she was spotted with a LIV Golf guest...",
       "quickRead": "Bryson DeChambeau is rumored to be dating former hockey goalie-turned-Instagram model Mikayla Demaiter after she was spotted with a LIV Golf guest pass and later posted selfies that fans think were taken inside DeChambeau’s hat-and-sneaker-filled closet.  Neither has confirmed it, but the sightings and posts have fueled speculation as DeChambeau’s season and Open Championship penalty comments keep him in the spotlight.",
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-15T16:17:45.553Z",
-      "approvedAt": "2026-08-15T16:17:45.553Z",
+      "timestamp": "2026-08-15T18:20:54.494Z",
+      "approvedAt": "2026-08-15T18:20:54.494Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -11",
-      "summary": "Scottie Scheffler is -11 overall through 1. Closest chasers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
-      "quickRead": "Scottie Scheffler grabbed the early lead at the FedEx St.  Jude Championship at 11-under, with Sungjae Im and Viktor Hovland three back at 8-under and Ludvig Åberg at 7-under.",
+      "summary": "Scottie Scheffler is E today and -11 overall through 2. Closest chasers: Viktor Hovland (-9), Sungjae Im (-9), Si Woo Kim (-8).",
+      "quickRead": "Scottie Scheffler holds the FedEx St.  Jude Championship lead at 11-under par through two rounds at TPC Southwind, sitting even-par on his day as Round 2 plays out.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -323,31 +323,31 @@
           "pos": "1",
           "name": "Scottie Scheffler",
           "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
-          "name": "Sungjae Im",
-          "score": "-8",
-          "thru": "1"
+          "thru": "2"
         },
         {
           "pos": "T2",
           "name": "Viktor Hovland",
+          "score": "-9",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-9",
+          "thru": "2"
+        },
+        {
+          "pos": "T4",
+          "name": "Si Woo Kim",
           "score": "-8",
-          "thru": "1"
+          "thru": "15"
         },
         {
-          "pos": "4",
-          "name": "Ludvig Åberg",
-          "score": "-7",
-          "thru": "1"
-        },
-        {
-          "pos": "T5",
-          "name": "Tom Kim",
-          "score": "-6",
-          "thru": "12"
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "9"
         }
       ]
     }
