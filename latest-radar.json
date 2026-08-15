@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T06:29:00.418Z",
+  "updatedAt": "2026-08-15T06:29:02.997Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "9 hours ago",
+      "timestamp": "2026-08-14T20:55:24.000Z",
+      "approvedAt": "2026-08-15T06:29:02.994Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "YOUTUBE",
+      "title": "Rumors Spark About Bryson DeChambeau's Dating Life as Former Hockey Goalie Alle...",
+      "summary": "Bryson DeChambeau is in the headlines again, but not for a bomb drive, a YouTube trick-shot series, or a major championship run.",
+      "quickRead": "Rumors that Bryson DeChambeau is dating Canadian model and former hockey goalie Mikayla Demaiter took off after she attended LIV Golf New York wearing a guest pass, then allegedly posted photos posed in front of DeChambeau’s open closet with multiple Crushers GC caps visible.  Neither DeChambeau nor Demaiter has confirmed anything, but the social posts and their mutual Instagram follows have fans tying her to the Crushers captain.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.yahoo.com/entertainment/celebrity/articles/rumors-spark-bryson-dechambeaus-dating-205524788.html",
+      "sourceUrl": "https://www.yahoo.com/entertainment/celebrity/articles/rumors-spark-bryson-dechambeaus-dating-205524788.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    },
     {
       "time": "8 hours ago",
       "timestamp": "2026-08-14T22:14:31.000Z",
@@ -172,62 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-delivered-just-memphis-000027390.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "8 hours ago",
-      "timestamp": "2026-08-14T22:16:45.536Z",
-      "approvedAt": "2026-08-14T22:16:45.537Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler wins FedEx St. Jude Championship at -11",
-      "summary": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
-      "quickRead": "Scottie Scheffler wins FedEx St. Jude Championship at -11. Nearest finishers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
+      "label": "MAJOR WATCH",
+      "title": "Rumors Spark About Bryson DeChambeau's Dating Life as Former Hockey G...",
+      "summary": "Rumors that Bryson DeChambeau is dating Canadian model and former hockey goalie Mikayla Demaiter took off after she attended LIV Golf New York wear...",
+      "quickRead": "Rumors that Bryson DeChambeau is dating Canadian model and former hockey goalie Mikayla Demaiter took off after she attended LIV Golf New York wearing a guest pass, then allegedly posted photos posed in front of DeChambeau’s open closet with multiple Crushers GC caps visible.  Neither DeChambeau nor Demaiter has confirmed anything, but the social posts and their mutual Instagram follows have fans tying her to the Crushers captain.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "FedEx St. Jude Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Scottie Scheffler",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Sungjae Im",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Viktor Hovland",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "4",
-          "name": "Ludvig Åberg",
-          "score": "-7",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Nico Echavarria",
-          "score": "-6",
-          "thru": "F"
-        }
-      ]
-    }
-  ],
-  "weekRadar": [
+      "url": "https://www.yahoo.com/entertainment/celebrity/articles/rumors-spark-bryson-dechambeaus-dating-205524788.html",
+      "sourceUrl": "https://www.yahoo.com/entertainment/celebrity/articles/rumors-spark-bryson-dechambeaus-dating-205524788.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-08-14T20:55:24.000Z"
+    },
     {
       "label": "LIV WATCH",
       "title": "Scottie Scheffler delivers honest verdict on the state of his game af...",
@@ -257,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-08-13T15:36:44.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Who can stop Scottie Scheffler? Ranking the top contenders at St. Jud...",
-      "summary": "Scottie Scheffler matched the TPC Southwind course record with a 9-under 61—highlighted by 11 birdies—to take a three-shot lead after the second ro...",
-      "quickRead": "Scottie Scheffler matched the TPC Southwind course record with a 9-under 61—highlighted by 11 birdies—to take a three-shot lead after the second round of the FedEx St.  Jude Championship.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/stop-scottie-scheffler-ranking-top-231302213.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/stop-scottie-scheffler-ranking-top-231302213.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "timestamp": "2026-08-14T23:13:02.000Z"
     }
   ],
   "checking": {
