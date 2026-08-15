@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T18:20:54.649Z",
+  "updatedAt": "2026-08-15T18:20:55.904Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -258,8 +258,8 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
-      "timestamp": "2026-08-15T16:17:34.896Z",
+      "time": "Just now",
+      "timestamp": "2026-08-15T18:20:41.266Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -278,8 +278,8 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "2 hours ago",
-      "timestamp": "2026-08-15T15:40:34.897Z",
+      "time": "37 min ago",
+      "timestamp": "2026-08-15T17:43:41.266Z",
       "status": "Trending",
       "signal": "Reddit find",
       "category": "GOLF INTERNET",
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-15T18:20:54.494Z",
-      "approvedAt": "2026-08-15T18:20:54.494Z",
+      "timestamp": "2026-08-15T16:17:45.553Z",
+      "approvedAt": "2026-08-15T16:17:45.553Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -11",
-      "summary": "Scottie Scheffler is E today and -11 overall through 2. Closest chasers: Viktor Hovland (-9), Sungjae Im (-9), Si Woo Kim (-8).",
-      "quickRead": "Scottie Scheffler holds the FedEx St.  Jude Championship lead at 11-under par through two rounds at TPC Southwind, sitting even-par on his day as Round 2 plays out.",
+      "summary": "Scottie Scheffler is -11 overall through 1. Closest chasers: Sungjae Im (-8), Viktor Hovland (-8), Ludvig Åberg (-7).",
+      "quickRead": "Scottie Scheffler grabbed the early lead at the FedEx St.  Jude Championship at 11-under, with Sungjae Im and Viktor Hovland three back at 8-under and Ludvig Åberg at 7-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -323,31 +323,31 @@
           "pos": "1",
           "name": "Scottie Scheffler",
           "score": "-11",
-          "thru": "2"
-        },
-        {
-          "pos": "T2",
-          "name": "Viktor Hovland",
-          "score": "-9",
-          "thru": "2"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Sungjae Im",
-          "score": "-9",
-          "thru": "2"
+          "score": "-8",
+          "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Si Woo Kim",
+          "pos": "T2",
+          "name": "Viktor Hovland",
           "score": "-8",
-          "thru": "15"
+          "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Sam Burns",
-          "score": "-8",
-          "thru": "9"
+          "pos": "4",
+          "name": "Ludvig Åberg",
+          "score": "-7",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Tom Kim",
+          "score": "-6",
+          "thru": "12"
         }
       ]
     }
