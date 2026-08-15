@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T22:15:21.191Z",
+  "updatedAt": "2026-08-15T22:15:23.881Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -264,21 +264,6 @@
   "weekRadar": [
     {
       "label": "STAR WATCH",
-      "title": "Concerning Rory McIlroy News Emerges Before Final Round at FedEx St...",
-      "summary": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
-      "quickRead": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-15T20:15:33.000Z"
-    },
-    {
-      "label": "STAR WATCH",
       "title": "What Scottie Scheffler did for the first time in his PGA Tour career...",
       "summary": "The real Scottie Scheffler returned at the FedEx St Jude with a historic second-round performance.",
       "quickRead": "The real Scottie Scheffler returned at the FedEx St Jude with a historic second-round performance.",
@@ -289,8 +274,23 @@
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-did-first-time-093000898.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-15T09:30:00.000Z"
+    },
+    {
+      "label": "STAR WATCH",
+      "title": "Concerning Rory McIlroy News Emerges Before Final Round at FedEx St...",
+      "summary": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
+      "quickRead": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-15T20:15:33.000Z"
     },
     {
       "label": "CREATOR GOLF",
@@ -368,8 +368,8 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-15T22:15:16.941Z",
-      "approvedAt": "2026-08-15T22:15:16.941Z",
+      "timestamp": "2026-08-15T22:15:23.683Z",
+      "approvedAt": "2026-08-15T22:15:23.683Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
