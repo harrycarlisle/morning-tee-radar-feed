@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T08:21:17.115Z",
+  "updatedAt": "2026-08-15T10:17:28.078Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-15T09:06:53.000Z",
+      "approvedAt": "2026-08-15T10:17:26.979Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads St. Jude Championship: Round 3 tee times, leaderboard",
+      "summary": "Scottie Scheffler enters the weekend atop the St.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-leads-st-jude-090653379.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-leads-st-jude-090653379.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-08-15T10:17:28.078Z"
+    },
     {
       "time": "6 hours ago",
       "timestamp": "2026-08-15T01:26:00.000Z",
@@ -1895,26 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "archivedAt": "2026-08-08T16:26:21.860Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-08T11:01:37.000Z",
-      "approvedAt": "2026-08-08T12:36:50.194Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Wyndham Championship leaderboard, Round 3 live updates, tee times, scores",
-      "summary": "Get the Saturday Round 3 updates from Golfweek as the 2026 Wyndham Championship moves to the weekend at Sedgefield Country Club.",
-      "quickRead": "Get the Saturday Round 3 updates from Golfweek as the 2026 Wyndham Championship moves to the weekend at Sedgefield Country Club.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-110137918.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-round-110137918.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-08T12:36:51.374Z"
     }
   ]
 }
