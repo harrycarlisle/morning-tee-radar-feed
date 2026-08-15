@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-15T18:20:52.026Z",
+  "updatedAt": "2026-08-15T22:15:19.774Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-15T20:15:33.000Z",
+      "approvedAt": "2026-08-15T22:15:18.648Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Concerning Rory McIlroy News Emerges Before Final Round at FedEx St. Jude",
+      "summary": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
+      "quickRead": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-08-15T22:15:19.774Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-15T17:00:39.000Z",
@@ -1899,26 +1919,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-08-09T14:29:17.067Z"
-    },
-    {
-      "time": "26 min ago",
-      "timestamp": "2026-08-09T10:01:58.000Z",
-      "approvedAt": "2026-08-09T10:28:33.178Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Wyndham Championship leaderboard, final-round live updates, tee times, scores",
-      "summary": "Get all the final-round updates from Golfweek as the 2026 Wyndham Championship concludes Sunday at Sedgefield Country Club.",
-      "quickRead": "Get all the final-round updates from Golfweek as the 2026 Wyndham Championship concludes Sunday at Sedgefield Country Club.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-final-100158239.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-wyndham-championship-leaderboard-final-100158239.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-09T10:28:34.100Z"
     }
   ]
 }
