@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T20:16:21.722Z",
+  "updatedAt": "2026-08-16T20:45:44.462Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-16T20:45:44.459Z",
+      "approvedAt": "2026-08-16T20:45:44.459Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -16",
+      "summary": "Scottie Scheffler is -3 today and -16 overall through 13. Closest chasers: Si Woo Kim (-9), Alex Noren (-8), Sungjae Im (-8).",
+      "quickRead": "Scottie Scheffler holds the FedEx St.  Jude Championship lead at 16-under, 3-under on his final round through 13 holes at TPC Southwind, with Si Woo Kim second at 9-under and Alex Noren and Sungjae Im tied for third at 8-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-16",
+          "thru": "13"
+        },
+        {
+          "pos": "2",
+          "name": "Si Woo Kim",
+          "score": "-9",
+          "thru": "15"
+        },
+        {
+          "pos": "T3",
+          "name": "Alex Noren",
+          "score": "-8",
+          "thru": "15"
+        },
+        {
+          "pos": "T3",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "14"
+        },
+        {
+          "pos": "T5",
+          "name": "Wyndham Clark",
+          "score": "-7",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "30 min ago",
       "timestamp": "2026-08-16T20:15:35.066Z",
       "approvedAt": "2026-08-16T20:15:35.066Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "17"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "16 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-08-16T03:35:26.000Z",
       "approvedAt": "2026-08-16T20:16:17.265Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-16T15:30:00.000Z",
       "approvedAt": "2026-08-16T20:15:36.644Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "33 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T19:42:42.747Z",
       "approvedAt": "2026-08-16T19:42:42.747Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-16T18:33:58.000Z",
       "approvedAt": "2026-08-16T19:17:57.555Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-16T13:30:00.000Z",
       "approvedAt": "2026-08-16T19:17:57.555Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-16T16:30:00.000Z",
       "approvedAt": "2026-08-16T18:20:25.876Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-given-extra-motivation-163000399.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-08-16T17:33:35.000Z",
-      "approvedAt": "2026-08-16T17:48:24.864Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy finds encouragement in 66th-place showing; focus turns to BMW Cham...",
-      "summary": "Back-to-back bogeys to finish his week at the FedEx St.",
-      "quickRead": "Rory McIlroy finished 66th at the FedEx St.  Jude Championship after rounds of 74-70-72-72, but said he “found a feel out there that might work,” citing “five birdies coming in” as encouragement despite loose shots.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-finds-encouragement-66th-173335802.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-finds-encouragement-66th-173335802.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-08-16T20:16:07.923Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T19:39:07.923Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T20:16:19.946Z",
-      "approvedAt": "2026-08-16T20:16:19.946Z",
+      "timestamp": "2026-08-16T20:45:44.462Z",
+      "approvedAt": "2026-08-16T20:45:44.462Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -15",
-      "summary": "Scottie Scheffler is -2 today and -15 overall through 11. Closest chasers: Si Woo Kim (-9), Sungjae Im (-8), Sam Burns (-8).",
-      "quickRead": "Scottie Scheffler is leading the 2026 FedEx St.  Jude Championship at 15-under, sitting at -2 for the day through 11 holes at TPC Southwind.",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -16",
+      "summary": "Scottie Scheffler is -3 today and -16 overall through 13. Closest chasers: Si Woo Kim (-9), Alex Noren (-8), Sungjae Im (-8).",
+      "quickRead": "Scottie Scheffler holds the FedEx St.  Jude Championship lead at 16-under, 3-under on his final round through 13 holes at TPC Southwind, with Si Woo Kim second at 9-under and Alex Noren and Sungjae Im tied for third at 8-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,32 +424,32 @@
         {
           "pos": "1",
           "name": "Scottie Scheffler",
-          "score": "-15",
-          "thru": "11"
+          "score": "-16",
+          "thru": "13"
         },
         {
           "pos": "2",
           "name": "Si Woo Kim",
           "score": "-9",
-          "thru": "12"
+          "thru": "15"
+        },
+        {
+          "pos": "T3",
+          "name": "Alex Noren",
+          "score": "-8",
+          "thru": "15"
         },
         {
           "pos": "T3",
           "name": "Sungjae Im",
           "score": "-8",
-          "thru": "12"
-        },
-        {
-          "pos": "T3",
-          "name": "Sam Burns",
-          "score": "-8",
-          "thru": "11"
+          "thru": "14"
         },
         {
           "pos": "T5",
-          "name": "Matt Fitzpatrick",
+          "name": "Wyndham Clark",
           "score": "-7",
-          "thru": "17"
+          "thru": "F"
         }
       ]
     }
