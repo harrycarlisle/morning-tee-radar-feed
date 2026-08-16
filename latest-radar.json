@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T17:48:29.245Z",
+  "updatedAt": "2026-08-16T18:20:24.217Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "14 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-16T18:20:24.214Z",
+      "approvedAt": "2026-08-16T18:20:24.214Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -13",
+      "summary": "Scottie Scheffler is E today and -13 overall through 2. Closest chasers: Sungjae Im (-11), Sam Burns (-11), Tommy Fleetwood (-9).",
+      "quickRead": "Scottie Scheffler is leading the FedEx St.  Jude Championship at 13-under par, sitting even on his round through two holes with Sungjae Im and Sam Burns two shots back at 11-under and Tommy Fleetwood next at 9-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-13",
+          "thru": "2"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-11",
+          "thru": "3"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-11",
+          "thru": "2"
+        },
+        {
+          "pos": "4",
+          "name": "Tommy Fleetwood",
+          "score": "-9",
+          "thru": "4"
+        },
+        {
+          "pos": "T5",
+          "name": "Si Woo Kim",
+          "score": "-8",
+          "thru": "4"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "46 min ago",
       "timestamp": "2026-08-16T17:33:35.000Z",
       "approvedAt": "2026-08-16T17:48:24.864Z",
       "status": "Confirmed",
@@ -37,9 +92,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-finds-encouragement-66th-173335802.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-08-16T15:30:00.000Z",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-16T11:01:20.000Z",
       "approvedAt": "2026-08-16T16:17:44.129Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-16T13:48:36.000Z",
       "approvedAt": "2026-08-16T14:17:04.000Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/always-little-weird-scottie-scheffler-003251506.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-08-15T17:49:47.000Z",
-      "approvedAt": "2026-08-16T12:28:40.217Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "YOUTUBE",
-      "title": "LeBron James launches YouTube Golf channel, drops first video with former Cavs...",
-      "summary": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
-      "quickRead": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -225,19 +259,19 @@
       "timestamp": "2026-08-16T00:46:59.000Z"
     },
     {
-      "label": "CREATOR GOLF",
-      "title": "LeBron James launches YouTube Golf channel, drops first video with fo...",
-      "summary": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
-      "quickRead": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
+      "label": "LIV WATCH",
+      "title": "The top five earners on LIV Golf since it started and how much they h...",
+      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
+      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-08-15T17:49:47.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-16T13:30:00.000Z"
     }
   ],
   "checking": {
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "32 min ago",
       "timestamp": "2026-08-16T17:48:16.438Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T17:11:16.438Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -300,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T17:48:27.975Z",
-      "approvedAt": "2026-08-16T17:48:27.975Z",
+      "timestamp": "2026-08-16T18:20:24.217Z",
+      "approvedAt": "2026-08-16T18:20:24.217Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -13",
-      "summary": "Scottie Scheffler is -13 overall through 1. Closest chasers: Sungjae Im (-11), Sam Burns (-11), Tommy Fleetwood (-8).",
-      "quickRead": "Scottie Scheffler is leading the FedEx St.  Jude Championship at 13-under (197), with Sungjae Im and Sam Burns tied for second at 11-under and Tommy Fleetwood next at 8-under.",
+      "summary": "Scottie Scheffler is E today and -13 overall through 2. Closest chasers: Sungjae Im (-11), Sam Burns (-11), Tommy Fleetwood (-9).",
+      "quickRead": "Scottie Scheffler is leading the FedEx St.  Jude Championship at 13-under par, sitting even on his round through two holes with Sungjae Im and Sam Burns two shots back at 11-under and Tommy Fleetwood next at 9-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -323,31 +357,31 @@
           "pos": "1",
           "name": "Scottie Scheffler",
           "score": "-13",
-          "thru": "1"
+          "thru": "2"
         },
         {
           "pos": "T2",
           "name": "Sungjae Im",
           "score": "-11",
-          "thru": "1"
+          "thru": "3"
         },
         {
           "pos": "T2",
           "name": "Sam Burns",
           "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T4",
-          "name": "Tommy Fleetwood",
-          "score": "-8",
           "thru": "2"
         },
         {
-          "pos": "T4",
-          "name": "Jake Knapp",
+          "pos": "4",
+          "name": "Tommy Fleetwood",
+          "score": "-9",
+          "thru": "4"
+        },
+        {
+          "pos": "T5",
+          "name": "Si Woo Kim",
           "score": "-8",
-          "thru": "1"
+          "thru": "4"
         }
       ]
     }
