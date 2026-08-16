@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-16T13:01:35.331Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-08-16T16:39:48.555Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
       "headline": "Scheffler Leads FedEx St. Jude",
-      "text": "Scottie Scheffler leads the FedEx St. Jude Championship at 13-under after three rounds at TPC Southwind, holding a two-shot edge over Sam Burns and Sungjae Im (-11)."
+      "text": "Scottie Scheffler leads the FedEx St. Jude Championship at 13-under through the first hole, two shots ahead of Sam Burns and Sungjae Im at 11-under."
     },
     {
-      "headline": "Bryson DeChambeau Dating Rumored",
-      "text": "Bryson DeChambeau is reportedly dating former hockey goalie-turned-model Mikayla Demaiter amid a challenging season and a costly two-shot penalty at the Open."
+      "headline": "Scheffler Nears PGA Earnings No. 1",
+      "text": "Scottie Scheffler is set to pass Rory McIlroy and move to No. 2 on the PGA Tour’s all-time official money list, trailing Tiger Woods by $82,000."
+    },
+    {
+      "headline": "Rory McIlroy Eyes YouTube Golf Move",
+      "text": "Rory McIlroy is expected to join LeBron James in entering the YouTube golf scene following a significant career announcement."
     }
   ],
-  "itemsLastUpdated": "2026-08-16T13:01:35.331Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-08-16T16:39:48.555Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-16T13:01:35.331Z",
+  "lastSuccessfulStoryUpdate": "2026-08-16T16:39:48.555Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 9,
+  "candidateItemsSelected": 10,
   "openaiAttempted": true,
-  "openaiOutputLength": 797,
+  "openaiOutputLength": 722,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_529b5988aed04027b3eb781a37459cd5",
+  "openaiRequestId": "req_e45403f476874f8c8697862bc70beb45",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: bryson",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-08-16T13:01:35.331Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-08-16T16:39:48.555Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
