@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T19:55:33.635Z",
+  "updatedAt": "2026-08-16T20:15:35.069Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "12 min ago",
+      "time": "Just now",
+      "timestamp": "2026-08-16T20:15:35.066Z",
+      "approvedAt": "2026-08-16T20:15:35.066Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -15",
+      "summary": "Scottie Scheffler is -2 today and -15 overall through 11. Closest chasers: Si Woo Kim (-9), Sungjae Im (-8), Sam Burns (-8).",
+      "quickRead": "Scottie Scheffler is in front at the FedEx St.  Jude Championship at 15-under par, 2-under on his round and through 11 holes, with Si Woo Kim next at 9-under (also 2-under through 12).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-15",
+          "thru": "11"
+        },
+        {
+          "pos": "2",
+          "name": "Si Woo Kim",
+          "score": "-9",
+          "thru": "12"
+        },
+        {
+          "pos": "T3",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "11"
+        },
+        {
+          "pos": "T3",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "11"
+        },
+        {
+          "pos": "T5",
+          "name": "Matt Fitzpatrick",
+          "score": "-7",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "32 min ago",
       "timestamp": "2026-08-16T19:42:42.747Z",
       "approvedAt": "2026-08-16T19:42:42.747Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "37 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-08-16T19:17:56.009Z",
       "approvedAt": "2026-08-16T19:17:56.009Z",
       "status": "Live",
@@ -274,25 +327,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-finds-encouragement-66th-173335802.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-08-16T15:30:00.000Z",
-      "approvedAt": "2026-08-16T16:17:42.239Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The problem Rory McIlroy must be wary of with LIV Golf’s future beyond this sea...",
-      "summary": "In the months after Rory McIlroy won The Masters in 2025, the Northern Irishman experienced a remarkable slump as he searched for a new golfing purpose.",
-      "quickRead": "In the months after Rory McIlroy won The Masters in 2025, the Northern Irishman experienced a remarkable slump as he searched for a new golfing purpose.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/problem-rory-mcilroy-must-wary-153000956.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/problem-rory-mcilroy-must-wary-153000956.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -360,7 +394,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "20 min ago",
       "timestamp": "2026-08-16T19:55:21.299Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -380,7 +414,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-08-16T19:18:21.300Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -402,14 +436,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T19:55:32.322Z",
-      "approvedAt": "2026-08-16T19:55:32.322Z",
+      "timestamp": "2026-08-16T20:15:35.069Z",
+      "approvedAt": "2026-08-16T20:15:35.069Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -14",
-      "summary": "Scottie Scheffler is -1 today and -14 overall through 9. Closest chasers: Si Woo Kim (-9), Jake Knapp (-9), Sam Burns (-9).",
-      "quickRead": "Scottie Scheffler is leading the 2026 FedEx St.  Jude Championship at 14-under, with a five-shot cushion through nine holes of his final round (1-under on the day).",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -15",
+      "summary": "Scottie Scheffler is -2 today and -15 overall through 11. Closest chasers: Si Woo Kim (-9), Sungjae Im (-8), Sam Burns (-8).",
+      "quickRead": "Scottie Scheffler is in front at the FedEx St.  Jude Championship at 15-under par, 2-under on his round and through 11 holes, with Si Woo Kim next at 9-under (also 2-under through 12).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -424,32 +458,32 @@
         {
           "pos": "1",
           "name": "Scottie Scheffler",
-          "score": "-14",
-          "thru": "9"
-        },
-        {
-          "pos": "T2",
-          "name": "Si Woo Kim",
-          "score": "-9",
+          "score": "-15",
           "thru": "11"
         },
         {
-          "pos": "T2",
-          "name": "Jake Knapp",
+          "pos": "2",
+          "name": "Si Woo Kim",
           "score": "-9",
-          "thru": "10"
+          "thru": "12"
         },
         {
-          "pos": "T2",
+          "pos": "T3",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "11"
+        },
+        {
+          "pos": "T3",
           "name": "Sam Burns",
-          "score": "-9",
-          "thru": "9"
+          "score": "-8",
+          "thru": "11"
         },
         {
           "pos": "T5",
           "name": "Matt Fitzpatrick",
-          "score": "-8",
-          "thru": "16"
+          "score": "-7",
+          "thru": "17"
         }
       ]
     }
