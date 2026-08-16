@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T22:45:38.601Z",
+  "updatedAt": "2026-08-16T23:13:08.152Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "58 min ago",
+      "time": "32 min ago",
+      "timestamp": "2026-08-16T22:40:57.000Z",
+      "approvedAt": "2026-08-16T23:13:08.149Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler wins 2026 FedEx St. Jude Championship. Here's what it means",
+      "summary": "Scottie Scheffler got his second win of the 2026 PGA Tour at the St.",
+      "quickRead": "Scottie Scheffler won the 2026 FedEx St.  Jude Championship at TPC Southwind for his second PGA Tour victory of the season and 21st career win, taking the first event of the FedEx Cup Playoffs.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-wins-2026-fedex-224057499.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-wins-2026-fedex-224057499.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T21:47:00.000Z",
       "approvedAt": "2026-08-16T22:45:33.242Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-career-pga-tour-215000210.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "7 hours ago",
       "timestamp": "2026-08-16T15:30:00.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-16T20:58:42.000Z",
       "approvedAt": "2026-08-16T22:45:35.315Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "50 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T21:55:25.280Z",
       "approvedAt": "2026-08-16T21:55:25.280Z",
       "status": "Live",
@@ -132,7 +151,7 @@
       ]
     },
     {
-      "time": "55 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T21:49:45.000Z",
       "approvedAt": "2026-08-16T22:15:08.710Z",
       "status": "Confirmed",
@@ -189,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-16T17:53:16.000Z",
       "approvedAt": "2026-08-16T21:36:32.521Z",
       "status": "Confirmed",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-threatens-tiger-woods-175316658.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-08-16T20:30:00.000Z",
-      "approvedAt": "2026-08-16T20:45:45.988Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bubba Watson and Anthony Kim: Should the PGA Tour take them back if LIV folds?",
-      "summary": "When Brooks Koepka announced his departure from LIV Golf, the PGA Tour was put into a difficult position.",
-      "quickRead": "When Brooks Koepka announced his departure from LIV Golf, the PGA Tour was put into a difficult position.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bubba-watson-anthony-kim-pga-203000158.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bubba-watson-anthony-kim-pga-203000158.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "27 min ago",
       "timestamp": "2026-08-16T22:45:24.863Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T22:08:24.864Z",
       "status": "Trending",
       "signal": "Reddit find",
