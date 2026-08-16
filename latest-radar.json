@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T00:59:30.491Z",
+  "updatedAt": "2026-08-16T02:55:01.956Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -74,6 +74,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "9 hours ago",
+      "timestamp": "2026-08-15T17:07:49.000Z",
+      "approvedAt": "2026-08-16T02:55:01.952Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy's Major Struggle Out in the Open Consistently Fails at FedEx St. J...",
+      "summary": "Rory McIlroy teed off at TPC Southwind this week; there is no clear goal to chase.",
+      "quickRead": "Rory McIlroy teed off at TPC Southwind this week; there is no clear goal to chase.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroys-major-struggle-open-170749530.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-major-struggle-open-170749530.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    },
     {
       "time": "9 hours ago",
       "timestamp": "2026-08-15T17:49:47.000Z",
@@ -240,28 +259,24 @@
       "sourceUrl": "https://www.yahoo.com/entertainment/celebrity/articles/rumors-suggest-bryson-dechambeau-dating-132925265.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "15 hours ago",
-      "timestamp": "2026-08-15T11:01:28.000Z",
-      "approvedAt": "2026-08-15T18:20:50.963Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 FedEx St. Jude Championship leaderboard, Round 3 live updates, tee times...",
-      "summary": "Follow along with Golfweek for live updates, scores, highlights and more from Saturday's third round of the FedEx St.",
-      "quickRead": "Follow along with Golfweek for live updates, scores, highlights and more from Saturday's third round of the FedEx St.",
+      "label": "MAJOR WATCH",
+      "title": "Rory McIlroy's Major Struggle Out in the Open Consistently Fails at F...",
+      "summary": "Rory McIlroy teed off at TPC Southwind this week; there is no clear goal to chase.",
+      "quickRead": "Rory McIlroy teed off at TPC Southwind this week; there is no clear goal to chase.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110128532.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110128532.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroys-major-struggle-open-170749530.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroys-major-struggle-open-170749530.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-15T17:07:49.000Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "What Scottie Scheffler did for the first time in his PGA Tour career...",
@@ -291,21 +306,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-08-15T17:49:47.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Concerning Rory McIlroy News Emerges Before Final Round at FedEx St...",
-      "summary": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
-      "quickRead": "Rory McIlroy’s return to the FedEx Cup Playoffs has not gone as planned at the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/concerning-rory-mcilroy-news-emerges-201533344.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-15T20:15:33.000Z"
     }
   ],
   "checking": {
