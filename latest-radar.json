@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T20:16:18.380Z",
+  "updatedAt": "2026-08-16T20:16:20.134Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -278,21 +278,6 @@
       "timestamp": "2026-08-16T03:35:26.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "The top five earners on LIV Golf since it started and how much they h...",
-      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-16T13:30:00.000Z"
-    },
-    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler Threatens Tiger Woods’ Long-Standing PGA Tour Recor...",
       "summary": "Scottie Scheffler is closing in on Tiger Woods’ long-standing PGA Tour earnings record as he takes a two-shot lead into the final round.",
@@ -306,6 +291,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-16T17:53:16.000Z"
+    },
+    {
+      "label": "LIV WATCH",
+      "title": "The top five earners on LIV Golf since it started and how much they h...",
+      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-16T13:30:00.000Z"
     }
   ],
   "checking": {
@@ -368,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T20:15:39.013Z",
-      "approvedAt": "2026-08-16T20:15:39.013Z",
+      "timestamp": "2026-08-16T20:16:19.946Z",
+      "approvedAt": "2026-08-16T20:16:19.946Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -15",
       "summary": "Scottie Scheffler is -2 today and -15 overall through 11. Closest chasers: Si Woo Kim (-9), Sungjae Im (-8), Sam Burns (-8).",
-      "quickRead": "Scottie Scheffler is in front at the FedEx St.  Jude Championship at 15-under par, 2-under on his round and through 11 holes, with Si Woo Kim next at 9-under (also 2-under through 12).",
+      "quickRead": "Scottie Scheffler is leading the 2026 FedEx St.  Jude Championship at 15-under, sitting at -2 for the day through 11 holes at TPC Southwind.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -403,7 +403,7 @@
           "pos": "T3",
           "name": "Sungjae Im",
           "score": "-8",
-          "thru": "11"
+          "thru": "12"
         },
         {
           "pos": "T3",
