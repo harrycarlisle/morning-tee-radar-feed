@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T17:48:27.018Z",
+  "updatedAt": "2026-08-16T17:48:28.090Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -210,34 +210,34 @@
       "timestamp": "2026-08-16T03:35:26.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "The top five earners on LIV Golf since it started and how much they h...",
-      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "label": "STAR WATCH",
+      "title": "Scottie Scheffler Leads, but Sam Burns Changes Sunday in Memphis",
+      "summary": "Scottie Scheffler kept his lead at the FedEx St.",
+      "quickRead": "Scottie Scheffler kept his lead at the FedEx St.  Jude Championship heading into Sunday at TPC Southwind, but Sam Burns lit up moving day with a bogey-free 62 to pull within two shots.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-leads-sam-burns-004659932.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-leads-sam-burns-004659932.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-16T13:30:00.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "timestamp": "2026-08-16T00:46:59.000Z"
     },
     {
-      "label": "STAR WATCH",
-      "title": "Scottie Scheffler closing in on Tiger Woods for No. 1 in PGA Tour car...",
-      "summary": "Scottie Scheffler is set to pass Rory McIlroy for No.",
-      "quickRead": "Scottie Scheffler is set to pass Rory McIlroy for No.  2 on the PGA Tour’s official career money list after the FedEx St.",
+      "label": "CREATOR GOLF",
+      "title": "LeBron James launches YouTube Golf channel, drops first video with fo...",
+      "summary": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
+      "quickRead": "The likes of Grant Horvat and Bryson DeChambeau have some new competition in the YouTube Golf scene.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-closing-tiger-woods-033526857.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-closing-tiger-woods-033526857.html",
+      "url": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/lebron-james-launches-youtube-golf-174947745.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-16T03:35:26.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-08-15T17:49:47.000Z"
     }
   ],
   "checking": {
@@ -300,14 +300,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T16:17:46.795Z",
-      "approvedAt": "2026-08-16T16:17:46.795Z",
+      "timestamp": "2026-08-16T17:48:27.975Z",
+      "approvedAt": "2026-08-16T17:48:27.975Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -13",
-      "summary": "Scottie Scheffler is -13 overall through 1. Closest chasers: Sam Burns (-11), Sungjae Im (-11), Jake Knapp (-8).",
-      "quickRead": "Scottie Scheffler is leading the FedEx St.  Jude Championship at 13-under, two shots clear of Sam Burns and Sungjae Im at 11-under, with Jake Knapp and Tommy Fleetwood next at 8-under.",
+      "summary": "Scottie Scheffler is -13 overall through 1. Closest chasers: Sungjae Im (-11), Sam Burns (-11), Tommy Fleetwood (-8).",
+      "quickRead": "Scottie Scheffler is leading the FedEx St.  Jude Championship at 13-under (197), with Sungjae Im and Sam Burns tied for second at 11-under and Tommy Fleetwood next at 8-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -327,25 +327,25 @@
         },
         {
           "pos": "T2",
-          "name": "Sam Burns",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T2",
           "name": "Sungjae Im",
           "score": "-11",
           "thru": "1"
         },
         {
-          "pos": "T4",
-          "name": "Jake Knapp",
-          "score": "-8",
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-11",
           "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Tommy Fleetwood",
+          "score": "-8",
+          "thru": "2"
+        },
+        {
+          "pos": "T4",
+          "name": "Jake Knapp",
           "score": "-8",
           "thru": "1"
         }
