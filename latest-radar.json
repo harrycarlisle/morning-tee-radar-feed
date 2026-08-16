@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T22:15:52.779Z",
+  "updatedAt": "2026-08-16T22:45:33.245Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "20 min ago",
+      "time": "58 min ago",
+      "timestamp": "2026-08-16T21:47:00.000Z",
+      "approvedAt": "2026-08-16T22:45:33.242Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler's career PGA Tour wins: A list of Scheffler's 21 Tour titles",
+      "summary": "From the 2022 WM Phoenix Open to the 2026 FedEx St.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-schefflers-career-pga-tour-215000210.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-schefflers-career-pga-tour-215000210.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "50 min ago",
       "timestamp": "2026-08-16T21:55:25.280Z",
       "approvedAt": "2026-08-16T21:55:25.280Z",
       "status": "Live",
@@ -71,11 +92,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "26 min ago",
+      "time": "55 min ago",
       "timestamp": "2026-08-16T21:49:45.000Z",
       "approvedAt": "2026-08-16T22:15:08.710Z",
       "status": "Confirmed",
@@ -94,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-16T13:30:00.000Z",
       "approvedAt": "2026-08-16T21:55:26.993Z",
       "status": "Confirmed",
@@ -113,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "39 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T21:36:30.676Z",
       "approvedAt": "2026-08-16T21:36:30.676Z",
       "status": "Live",
@@ -166,7 +185,7 @@
       ]
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-16T19:42:21.000Z",
       "approvedAt": "2026-08-16T21:36:32.521Z",
       "status": "Confirmed",
@@ -204,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-16T20:30:00.000Z",
       "approvedAt": "2026-08-16T20:45:45.988Z",
       "status": "Confirmed",
@@ -223,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-16T03:35:26.000Z",
       "approvedAt": "2026-08-16T20:16:17.265Z",
       "status": "Confirmed",
@@ -240,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-closing-tiger-woods-033526857.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-08-16T15:30:00.000Z",
-      "approvedAt": "2026-08-16T20:15:36.644Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The problem Rory McIlroy must be wary of with LIV Golf’s future beyond this sea...",
-      "summary": "In the months after Rory McIlroy won The Masters in 2025, the Northern Irishman experienced a remarkable slump as he searched for a new golfing purpose.",
-      "quickRead": "In the months after Rory McIlroy won The Masters in 2025, the Northern Irishman experienced a remarkable slump as he searched for a new golfing purpose.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/problem-rory-mcilroy-must-wary-153000956.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/problem-rory-mcilroy-must-wary-153000956.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-08-16T22:15:41.528Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T21:38:41.528Z",
       "status": "Trending",
       "signal": "Reddit find",
