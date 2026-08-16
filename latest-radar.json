@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T19:55:31.484Z",
+  "updatedAt": "2026-08-16T19:55:32.420Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -312,21 +312,6 @@
       "timestamp": "2026-08-16T03:35:26.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "The top five earners on LIV Golf since it started and how much they h...",
-      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-16T13:30:00.000Z"
-    },
-    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler Threatens Tiger Woods’ Long-Standing PGA Tour Recor...",
       "summary": "Scottie Scheffler is closing in on Tiger Woods’ long-standing PGA Tour earnings record as he takes a two-shot lead into the final round.",
@@ -340,6 +325,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-16T17:53:16.000Z"
+    },
+    {
+      "label": "LIV WATCH",
+      "title": "The top five earners on LIV Golf since it started and how much they h...",
+      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-08-16T13:30:00.000Z"
     }
   ],
   "checking": {
@@ -402,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T19:42:45.011Z",
-      "approvedAt": "2026-08-16T19:42:45.011Z",
+      "timestamp": "2026-08-16T19:55:32.322Z",
+      "approvedAt": "2026-08-16T19:55:32.322Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -14",
-      "summary": "Scottie Scheffler is -1 today and -14 overall through 9. Closest chasers: Sungjae Im (-9), Sam Burns (-9), Tommy Fleetwood (-8).",
-      "quickRead": "Scottie Scheffler is leading the 2026 FedEx St.  Jude Championship at TPC Southwind at 14-under par through nine holes of the final round (1-under on the day).",
+      "summary": "Scottie Scheffler is -1 today and -14 overall through 9. Closest chasers: Si Woo Kim (-9), Jake Knapp (-9), Sam Burns (-9).",
+      "quickRead": "Scottie Scheffler is leading the 2026 FedEx St.  Jude Championship at 14-under, with a five-shot cushion through nine holes of his final round (1-under on the day).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -429,9 +429,15 @@
         },
         {
           "pos": "T2",
-          "name": "Sungjae Im",
+          "name": "Si Woo Kim",
           "score": "-9",
-          "thru": "9"
+          "thru": "11"
+        },
+        {
+          "pos": "T2",
+          "name": "Jake Knapp",
+          "score": "-9",
+          "thru": "10"
         },
         {
           "pos": "T2",
@@ -440,16 +446,10 @@
           "thru": "9"
         },
         {
-          "pos": "T4",
-          "name": "Tommy Fleetwood",
+          "pos": "T5",
+          "name": "Matt Fitzpatrick",
           "score": "-8",
-          "thru": "10"
-        },
-        {
-          "pos": "T4",
-          "name": "Si Woo Kim",
-          "score": "-8",
-          "thru": "10"
+          "thru": "16"
         }
       ]
     }
