@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T20:45:50.596Z",
+  "updatedAt": "2026-08-16T21:15:17.603Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-16T21:15:17.600Z",
+      "approvedAt": "2026-08-16T21:15:17.600Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -16",
+      "summary": "Scottie Scheffler is -3 today and -16 overall through 15. Closest chasers: Alex Noren (-9), Si Woo Kim (-9), Sungjae Im (-8).",
+      "quickRead": "Scottie Scheffler leads the FedEx St.  Jude Championship at 16-under, shooting 3-under Sunday to reach -16 through 15 holes at TPC Southwind.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-16",
+          "thru": "15"
+        },
+        {
+          "pos": "T2",
+          "name": "Alex Noren",
+          "score": "-9",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
+          "name": "Si Woo Kim",
+          "score": "-9",
+          "thru": "16"
+        },
+        {
+          "pos": "T4",
+          "name": "Sungjae Im",
+          "score": "-8",
+          "thru": "16"
+        },
+        {
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "15"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "29 min ago",
       "timestamp": "2026-08-16T20:45:44.459Z",
       "approvedAt": "2026-08-16T20:45:44.459Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "15 min ago",
+      "time": "45 min ago",
       "timestamp": "2026-08-16T20:30:00.000Z",
       "approvedAt": "2026-08-16T20:45:45.988Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "30 min ago",
+      "time": "59 min ago",
       "timestamp": "2026-08-16T20:15:35.066Z",
       "approvedAt": "2026-08-16T20:15:35.066Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-16T17:53:16.000Z",
       "approvedAt": "2026-08-16T18:54:26.390Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/scottie-scheffler-threatens-tiger-woods-175316658.html",
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-threatens-tiger-woods-175316658.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-08-16T16:30:00.000Z",
-      "approvedAt": "2026-08-16T18:20:25.876Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler was given extra motivation to win again on the PGA Tour after...",
-      "summary": "Scottie Scheffler has experienced a really challenging season on the PGA Tour in 2026.",
-      "quickRead": "Scottie Scheffler has experienced a really challenging season on the PGA Tour in 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-given-extra-motivation-163000399.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-given-extra-motivation-163000399.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "29 min ago",
       "timestamp": "2026-08-16T20:45:39.379Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T20:08:39.379Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T20:45:49.282Z",
-      "approvedAt": "2026-08-16T20:45:49.282Z",
+      "timestamp": "2026-08-16T21:15:17.603Z",
+      "approvedAt": "2026-08-16T21:15:17.603Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Scottie Scheffler leads FedEx St. Jude Championship at -16",
-      "summary": "Scottie Scheffler is -3 today and -16 overall through 13. Closest chasers: Si Woo Kim (-9), Alex Noren (-8), Sungjae Im (-8).",
-      "quickRead": "Scottie Scheffler holds the FedEx St.  Jude Championship lead at 16-under, 3-under on his final round through 13 holes at TPC Southwind, with Si Woo Kim second at 9-under and Alex Noren and Sungjae Im tied for third at 8-under.",
+      "summary": "Scottie Scheffler is -3 today and -16 overall through 15. Closest chasers: Alex Noren (-9), Si Woo Kim (-9), Sungjae Im (-8).",
+      "quickRead": "Scottie Scheffler leads the FedEx St.  Jude Championship at 16-under, shooting 3-under Sunday to reach -16 through 15 holes at TPC Southwind.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,31 +425,31 @@
           "pos": "1",
           "name": "Scottie Scheffler",
           "score": "-16",
-          "thru": "13"
+          "thru": "15"
         },
         {
-          "pos": "2",
+          "pos": "T2",
+          "name": "Alex Noren",
+          "score": "-9",
+          "thru": "17"
+        },
+        {
+          "pos": "T2",
           "name": "Si Woo Kim",
           "score": "-9",
-          "thru": "15"
+          "thru": "16"
         },
         {
-          "pos": "T3",
-          "name": "Alex Noren",
-          "score": "-8",
-          "thru": "15"
-        },
-        {
-          "pos": "T3",
+          "pos": "T4",
           "name": "Sungjae Im",
           "score": "-8",
-          "thru": "14"
+          "thru": "16"
         },
         {
-          "pos": "T5",
-          "name": "Wyndham Clark",
-          "score": "-7",
-          "thru": "F"
+          "pos": "T4",
+          "name": "Sam Burns",
+          "score": "-8",
+          "thru": "15"
         }
       ]
     }
