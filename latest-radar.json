@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-16T18:54:31.760Z",
+  "updatedAt": "2026-08-16T19:17:56.012Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-08-16T19:17:56.009Z",
+      "approvedAt": "2026-08-16T19:17:56.009Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -14",
+      "summary": "Scottie Scheffler is -1 today and -14 overall through 7. Closest chasers: Sungjae Im (-9), Sam Burns (-9), Tommy Fleetwood (-8).",
+      "quickRead": "Scottie Scheffler is -1 today and -14 overall through 7. Closest chasers: Sungjae Im (-9), Sam Burns (-9), Tommy Fleetwood (-8).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "FedEx St. Jude Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-14",
+          "thru": "7"
+        },
+        {
+          "pos": "T2",
+          "name": "Sungjae Im",
+          "score": "-9",
+          "thru": "8"
+        },
+        {
+          "pos": "T2",
+          "name": "Sam Burns",
+          "score": "-9",
+          "thru": "7"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-8",
+          "thru": "8"
+        },
+        {
+          "pos": "T4",
+          "name": "Si Woo Kim",
+          "score": "-8",
+          "thru": "8"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "23 min ago",
       "timestamp": "2026-08-16T18:54:24.831Z",
       "approvedAt": "2026-08-16T18:54:24.831Z",
       "status": "Live",
@@ -71,9 +126,7 @@
           "thru": "5"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-16T17:53:16.000Z",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "34 min ago",
+      "time": "57 min ago",
       "timestamp": "2026-08-16T18:20:24.214Z",
       "approvedAt": "2026-08-16T18:20:24.214Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-16T11:01:20.000Z",
       "approvedAt": "2026-08-16T16:17:44.129Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110120547.html",
       "sourceUrl": "https://sports.yahoo.com/articles/2026-fedex-st-jude-championship-110120547.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-08-16T13:30:00.000Z",
-      "approvedAt": "2026-08-16T14:17:01.704Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The top five earners on LIV Golf since it started and how much they have been g...",
-      "summary": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickRead": "When LIV Golf emerged onto the professional golf scene back in June 2022 they managed to poach numerous big-name players from the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/top-five-earners-liv-golf-133000876.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "23 min ago",
       "timestamp": "2026-08-16T18:54:17.562Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-16T18:17:17.563Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-08-16T18:54:30.209Z",
-      "approvedAt": "2026-08-16T18:54:30.209Z",
+      "timestamp": "2026-08-16T19:17:56.012Z",
+      "approvedAt": "2026-08-16T19:17:56.012Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -13",
-      "summary": "Scottie Scheffler is E today and -13 overall through 5. Closest chasers: Sungjae Im (-10), Tommy Fleetwood (-9), Si Woo Kim (-8).",
-      "quickRead": "Scottie Scheffler led the FedEx St.  Jude Championship at 13-under par, playing even-par through five holes as Sungjae Im (-10), Tommy Fleetwood (-9) and Si Woo Kim (-8) gave chase at TPC Southwind.",
+      "title": "Scottie Scheffler leads FedEx St. Jude Championship at -14",
+      "summary": "Scottie Scheffler is -1 today and -14 overall through 7. Closest chasers: Sungjae Im (-9), Sam Burns (-9), Tommy Fleetwood (-8).",
+      "quickRead": "Scottie Scheffler is -1 today and -14 overall through 7. Closest chasers: Sungjae Im (-9), Sam Burns (-9), Tommy Fleetwood (-8).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -390,32 +424,32 @@
         {
           "pos": "1",
           "name": "Scottie Scheffler",
-          "score": "-13",
-          "thru": "5"
+          "score": "-14",
+          "thru": "7"
         },
         {
-          "pos": "2",
+          "pos": "T2",
           "name": "Sungjae Im",
-          "score": "-10",
-          "thru": "5"
+          "score": "-9",
+          "thru": "8"
         },
         {
-          "pos": "3",
-          "name": "Tommy Fleetwood",
+          "pos": "T2",
+          "name": "Sam Burns",
           "score": "-9",
-          "thru": "6"
+          "thru": "7"
+        },
+        {
+          "pos": "T4",
+          "name": "Tommy Fleetwood",
+          "score": "-8",
+          "thru": "8"
         },
         {
           "pos": "T4",
           "name": "Si Woo Kim",
           "score": "-8",
-          "thru": "6"
-        },
-        {
-          "pos": "T4",
-          "name": "Jake Knapp",
-          "score": "-8",
-          "thru": "5"
+          "thru": "8"
         }
       ]
     }
