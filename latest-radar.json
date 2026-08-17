@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-17T20:20:23.542Z",
+  "updatedAt": "2026-08-17T22:19:25.270Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-08-17T20:30:00.000Z",
+      "approvedAt": "2026-08-17T22:19:25.267Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Justin Thomas outlines what’s ‘so impressive’ about Scottie Scheffler compares...",
+      "summary": "Justin Thomas is clearly a huge admirer of world number one Scottie Scheffler.",
+      "quickRead": "Justin Thomas is clearly a huge admirer of world number one Scottie Scheffler.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/justin-thomas-outlines-impressive-scottie-203000757.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-outlines-impressive-scottie-203000757.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-08-17T17:30:00.000Z",
       "approvedAt": "2026-08-17T20:20:16.862Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-done-pga-tour-173000264.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "33 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-17T19:46:25.000Z",
       "approvedAt": "2026-08-17T20:20:19.401Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-17T12:30:00.000Z",
       "approvedAt": "2026-08-17T16:20:58.424Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-17T12:25:01.000Z",
       "approvedAt": "2026-08-17T14:21:53.672Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-08-17T01:55:33.000Z",
       "approvedAt": "2026-08-17T02:54:58.515Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-17T10:28:35.000Z",
       "approvedAt": "2026-08-17T12:33:20.009Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-08-17T10:30:00.000Z",
       "approvedAt": "2026-08-17T12:33:20.010Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-17T00:55:45.000Z",
       "approvedAt": "2026-08-17T02:55:00.634Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-under-fire-career-005545360.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-08-17T00:37:50.000Z",
-      "approvedAt": "2026-08-17T02:55:00.635Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Point made! Scottie Scheffler wins 21st tour title, takes buzzsaw to FedEx St...",
-      "summary": "The World No.",
-      "quickRead": "Scottie Scheffler steamrolled the FedEx St.  Jude Championship at TPC Southwind, winning by eight shots for his 21st PGA Tour title and second victory of the 2026 season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/point-made-scottie-scheffler-wins-003750260.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/point-made-scottie-scheffler-wins-003750260.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-17T20:20:07.329Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-17T19:43:07.329Z",
       "status": "Trending",
       "signal": "Reddit find",
