@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-08-10T15:12:41.922Z",
+  "updatedAt": "2026-08-17T14:25:34.835Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 97,
-    "playerAWins": 54,
+    "sharedStarts": 98,
+    "playerAWins": 55,
     "playerBWins": 36,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 65 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-patrick-cantlay",
-  "updatedAt": "2026-08-10T15:12:43.109Z",
+  "updatedAt": "2026-08-17T14:25:36.054Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 102,
-    "playerAWins": 65,
+    "sharedStarts": 103,
+    "playerAWins": 66,
     "playerBWins": 30,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 11 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

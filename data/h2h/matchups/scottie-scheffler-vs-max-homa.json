@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-max-homa",
-  "updatedAt": "2026-08-10T15:12:43.463Z",
+  "updatedAt": "2026-08-17T14:25:36.408Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 106,
-    "playerAWins": 85,
+    "sharedStarts": 107,
+    "playerAWins": 86,
     "playerBWins": 16,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 23 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-26",

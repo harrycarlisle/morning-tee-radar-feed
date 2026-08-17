@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-patrick-cantlay",
-  "updatedAt": "2026-08-10T16:21:55.745Z",
+  "updatedAt": "2026-08-17T15:29:36.678Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 140,
+    "sharedStarts": 141,
     "playerAWins": 62,
-    "playerBWins": 68,
+    "playerBWins": 69,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 35 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

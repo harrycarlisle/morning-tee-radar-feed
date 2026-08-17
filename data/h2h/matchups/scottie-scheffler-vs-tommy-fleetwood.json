@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-tommy-fleetwood",
-  "updatedAt": "2026-08-10T15:12:42.645Z",
+  "updatedAt": "2026-08-17T14:25:35.592Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 89,
-    "playerAWins": 61,
+    "sharedStarts": 90,
+    "playerAWins": 62,
     "playerBWins": 18,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 6 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-patrick-cantlay",
-  "updatedAt": "2026-08-10T16:21:54.578Z",
+  "updatedAt": "2026-08-17T15:29:35.293Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2015,
-    "sharedStarts": 148,
-    "playerAWins": 68,
+    "sharedStarts": 149,
+    "playerAWins": 69,
     "playerBWins": 65,
     "ties": 15
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 5 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-02",

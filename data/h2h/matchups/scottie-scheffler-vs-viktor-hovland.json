@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-viktor-hovland",
-  "updatedAt": "2026-08-10T15:12:42.533Z",
+  "updatedAt": "2026-08-17T14:25:35.477Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 110,
-    "playerAWins": 67,
+    "sharedStarts": 111,
+    "playerAWins": 68,
     "playerBWins": 37,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 18 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

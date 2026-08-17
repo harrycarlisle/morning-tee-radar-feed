@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-jordan-spieth",
-  "updatedAt": "2026-08-10T16:21:55.500Z",
+  "updatedAt": "2026-08-17T15:29:36.401Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 190,
+    "sharedStarts": 191,
     "playerAWins": 97,
-    "playerBWins": 78,
+    "playerBWins": 79,
     "ties": 15
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 28 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-09",

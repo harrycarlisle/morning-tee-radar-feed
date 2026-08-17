@@ -1,6 +1,6 @@
 {
   "matchupId": "max-homa-vs-wyndham-clark",
-  "updatedAt": "2026-08-10T16:21:56.206Z",
+  "updatedAt": "2026-08-17T15:29:37.267Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 108,
+    "sharedStarts": 109,
     "playerAWins": 54,
-    "playerBWins": 42,
+    "playerBWins": 43,
     "ties": 12
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "T24",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T5",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 19 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

@@ -1,6 +1,6 @@
 {
   "matchupId": "ludvig-aberg-vs-scottie-scheffler",
-  "updatedAt": "2026-08-10T16:50:41.791Z",
+  "updatedAt": "2026-08-17T15:58:18.096Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 46,
+    "sharedStarts": 47,
     "playerAWins": 7,
-    "playerBWins": 37,
+    "playerBWins": 38,
     "ties": 2
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 6 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

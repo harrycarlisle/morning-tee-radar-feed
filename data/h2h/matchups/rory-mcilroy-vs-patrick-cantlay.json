@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-patrick-cantlay",
-  "updatedAt": "2026-08-10T16:10:24.722Z",
+  "updatedAt": "2026-08-17T15:18:00.688Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2012,
-    "sharedStarts": 120,
+    "sharedStarts": 121,
     "playerAWins": 65,
-    "playerBWins": 47,
+    "playerBWins": 48,
     "ties": 8
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Patrick Cantlay",
+        "dgId": 15466,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "patrick-cantlay",
+      "edge": "Patrick by 54 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-sam-burns",
-  "updatedAt": "2026-08-10T15:12:43.338Z",
+  "updatedAt": "2026-08-17T14:25:36.291Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 121,
-    "playerAWins": 82,
+    "sharedStarts": 122,
+    "playerAWins": 83,
     "playerBWins": 32,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 2 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

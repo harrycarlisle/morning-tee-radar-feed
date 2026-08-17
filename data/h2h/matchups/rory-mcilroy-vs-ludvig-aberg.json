@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-ludvig-aberg",
-  "updatedAt": "2026-08-10T15:58:56.376Z",
+  "updatedAt": "2026-08-17T15:06:31.956Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 43,
+    "sharedStarts": 44,
     "playerAWins": 24,
-    "playerBWins": 17,
+    "playerBWins": 18,
     "ties": 2
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T7",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 59 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",

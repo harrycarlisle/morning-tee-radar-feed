@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-viktor-hovland",
-  "updatedAt": "2026-08-10T16:21:54.795Z",
+  "updatedAt": "2026-08-17T15:29:35.569Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 118,
+    "sharedStarts": 119,
     "playerAWins": 61,
-    "playerBWins": 51,
+    "playerBWins": 52,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-16",
+      "eventId": 27,
+      "eventName": "FedEx St. Jude Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T52",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Viktor Hovland",
+        "dgId": 18841,
+        "finish": "T19",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "viktor-hovland",
+      "edge": "Viktor by 33 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-07-19",
