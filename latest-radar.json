@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-17T02:55:04.223Z",
+  "updatedAt": "2026-08-17T04:35:37.939Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -196,18 +196,18 @@
   "weekRadar": [
     {
       "label": "STAR WATCH",
-      "title": "Scottie Scheffler closing in on Tiger Woods for No. 1 in PGA Tour car...",
-      "summary": "Scottie Scheffler is $82,361 behind Rory McIlroy for No.",
-      "quickRead": "Scottie Scheffler is $82,361 behind Rory McIlroy for No.  2 on the PGA Tour’s official career money list and could jump him Sunday at the FedEx St.",
+      "title": "Scottie Scheffler Just Passed Rory McIlroy — Now Tiger Woods’ Record...",
+      "summary": "Scottie Scheffler’s FedEx St.",
+      "quickRead": "Scottie Scheffler’s FedEx St.  Jude Championship win pushed his career PGA Tour earnings past Rory McIlroy’s, putting Tiger Woods’ all-time earnings record next on his list.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-closing-tiger-woods-033526857.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-closing-tiger-woods-033526857.html",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-just-passed-rory-015533140.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-just-passed-rory-015533140.html",
       "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-16T03:35:26.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-17T01:55:33.000Z"
     },
     {
       "label": "STAR WATCH",
@@ -297,59 +297,5 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": [
-    {
-      "time": "Just now",
-      "timestamp": "2026-08-16T22:15:51.358Z",
-      "approvedAt": "2026-08-16T22:15:51.358Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler wins FedEx St. Jude Championship at -17",
-      "summary": "Scottie Scheffler wins FedEx St. Jude Championship at -17. Nearest finishers: Si Woo Kim (-9), Alex Noren (-8), Sam Burns (-8).",
-      "quickRead": "Scottie Scheffler won the 2026 FedEx St.  Jude Championship at TPC Southwind, finishing at 17-under (263) after a closing 66 to beat Si Woo Kim by eight shots, with Alex Noren and Sam Burns tied for third at 8-under.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "FedEx St. Jude Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Scottie Scheffler",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Si Woo Kim",
-          "score": "-9",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Alex Noren",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Sam Burns",
-          "score": "-8",
-          "thru": "F"
-        },
-        {
-          "pos": "T5",
-          "name": "Wyndham Clark",
-          "score": "-7",
-          "thru": "F"
-        }
-      ]
-    }
-  ]
+  "liveLeaderboards": []
 }
