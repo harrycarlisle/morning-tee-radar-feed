@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-16T16:39:48.555Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-08-17T01:56:33.721Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Scheffler Leads FedEx St. Jude",
-      "text": "Scottie Scheffler leads the FedEx St. Jude Championship at 13-under through the first hole, two shots ahead of Sam Burns and Sungjae Im at 11-under."
+      "headline": "Scheffler dominates FedEx St. Jude",
+      "text": "Scottie Scheffler leads the 2026 FedEx St. Jude Championship by eight shots at 17-under 263, marking the event’s largest margin of victory in 68 years and his 21st PGA Tour title."
     },
     {
-      "headline": "Scheffler Nears PGA Earnings No. 1",
-      "text": "Scottie Scheffler is set to pass Rory McIlroy and move to No. 2 on the PGA Tour’s all-time official money list, trailing Tiger Woods by $82,000."
-    },
-    {
-      "headline": "Rory McIlroy Eyes YouTube Golf Move",
-      "text": "Rory McIlroy is expected to join LeBron James in entering the YouTube golf scene following a significant career announcement."
+      "headline": "Rory McIlroy struggles at St. Jude",
+      "text": "Rory McIlroy finished 66th, 25 shots behind Scheffler, admitting he \"felt lost\" and worried he had \"lost\" his golf swing during the tournament."
     }
   ],
-  "itemsLastUpdated": "2026-08-16T16:39:48.555Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-08-17T01:56:33.721Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-16T16:39:48.555Z",
+  "lastSuccessfulStoryUpdate": "2026-08-17T01:56:33.721Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 10,
+  "candidateItemsSelected": 11,
   "openaiAttempted": true,
-  "openaiOutputLength": 722,
+  "openaiOutputLength": 780,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_e45403f476874f8c8697862bc70beb45",
+  "openaiRequestId": "req_5d84c8ee75ab4d6b8a3a2fdfe91c3410",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-16T16:39:48.555Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: pga-tour",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-08-17T01:56:33.721Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
