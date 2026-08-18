@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-18T20:17:56.736Z",
+  "updatedAt": "2026-08-18T22:17:18.950Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-08-18T18:55:48.000Z",
+      "approvedAt": "2026-08-18T22:17:18.947Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Justin Thomas Hopes Bryson DeChambeau's Controversial Open Penalty Starts a Muc...",
+      "summary": "Bryson DeChambeau’s controversial two-stroke penalty at The Open for improving his lie has sparked havoc 31 days later.",
+      "quickRead": "Bryson DeChambeau’s controversial two-stroke penalty at The Open for improving his lie has sparked havoc 31 days later.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/justin-thomas-hopes-bryson-dechambeaus-185548838.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-hopes-bryson-dechambeaus-185548838.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-08-18T15:08:16.000Z",
       "approvedAt": "2026-08-18T20:17:52.353Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-commits-dp-world-150816154.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-18T12:30:00.000Z",
       "approvedAt": "2026-08-18T14:27:37.393Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-18T13:00:00.000Z",
       "approvedAt": "2026-08-18T16:24:49.434Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-18T12:58:47.000Z",
       "approvedAt": "2026-08-18T14:27:40.088Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-18T13:30:00.000Z",
       "approvedAt": "2026-08-18T14:27:40.090Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-18T07:30:00.000Z",
       "approvedAt": "2026-08-18T08:29:20.930Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://www.yahoo.com/entertainment/celebrity/articles/bryson-dechambeau-linked-viral-hockey-163122817.html",
       "sourceUrl": "https://www.yahoo.com/entertainment/celebrity/articles/bryson-dechambeau-linked-viral-hockey-163122817.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "18 hours ago",
-      "timestamp": "2026-08-18T01:41:24.000Z",
-      "approvedAt": "2026-08-18T02:50:58.460Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "‘Absolutely Delighted’: Bryson DeChambeau Set for Shock DP World Tour Return as...",
-      "summary": "The 90-year-old legend Gary Player posted a video on his social media channels alongside Bryson DeChambeau and confirmed that the LIV Golf star will play the Nedbank Golf Challenge at Sun...",
-      "quickRead": "Gary Player confirmed in a social-media video with Bryson DeChambeau that DeChambeau will play the Nedbank Golf Challenge at Sun City this December, his first DP World Tour start.  It’s a notable cross-tour appearance for a LIV star and a return to South Africa, where DeChambeau recently won what he called his most emotional title of the season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/absolutely-delighted-bryson-dechambeau-set-014124920.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/absolutely-delighted-bryson-dechambeau-set-014124920.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-18T20:17:41.439Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-18T19:40:41.439Z",
       "status": "Trending",
       "signal": "Reddit find",
