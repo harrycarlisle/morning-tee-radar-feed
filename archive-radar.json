@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-18T22:17:22.835Z",
+  "updatedAt": "2026-08-19T00:56:49.096Z",
   "stories": [
+    {
+      "time": "9 hours ago",
+      "timestamp": "2026-08-18T15:10:06.000Z",
+      "approvedAt": "2026-08-19T00:56:47.468Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm to Settle $25M Fine for PGA Tour Reinstatement as LIV Golf's Failure t...",
+      "summary": "In May 2026, Jon Rahm cleared outstanding fines worth $4.",
+      "quickRead": "In May 2026, Jon Rahm cleared outstanding fines worth $4.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-settle-25m-fine-151006548.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-settle-25m-fine-151006548.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
+      "archivedAt": "2026-08-19T00:56:49.096Z"
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-08-18T16:40:28.000Z",
@@ -1894,27 +1914,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-08-13T04:06:20.861Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "2 hours ago",
-      "timestamp": "2026-08-13T01:26:49.436Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-08-13T04:06:18.798Z"
     }
   ]
 }
