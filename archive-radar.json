@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-19T00:56:54.564Z",
+  "updatedAt": "2026-08-19T04:31:36.226Z",
   "stories": [
+    {
+      "time": "5 hours ago",
+      "timestamp": "2026-08-18T23:00:56.000Z",
+      "approvedAt": "2026-08-19T04:31:34.792Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler extends his PGA Tour season money lead",
+      "summary": "These players have earned the most cash on the the PGA Tour in 2026.",
+      "quickRead": "These players have earned the most cash on the the PGA Tour in 2026.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-extends-pga-tour-230056036.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-extends-pga-tour-230056036.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-08-19T04:31:36.226Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "time": "37 min ago",
@@ -1895,26 +1915,6 @@
       "image": "",
       "timestamp": "2026-08-13T09:05:34.000Z",
       "archivedAt": "2026-08-13T10:57:44.683Z"
-    },
-    {
-      "time": "26 min ago",
-      "timestamp": "2026-08-13T10:31:22.000Z",
-      "approvedAt": "2026-08-13T10:57:40.337Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 U.S. Amateur live updates: Round of 32 scores, tee times, highlights",
-      "summary": "Follow the Round of 32 at the 2026 U.S.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-103122078.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-u-amateur-live-updates-103122078.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-13T10:57:41.473Z"
     }
   ]
 }
