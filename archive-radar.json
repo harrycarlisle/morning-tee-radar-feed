@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-19T00:56:52.085Z",
+  "updatedAt": "2026-08-19T00:56:54.564Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "37 min ago",
+      "timestamp": "2026-08-19T00:19:38.311Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-08-19T00:56:54.564Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "2 hours ago",
@@ -1894,26 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-08-13T10:57:41.473Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-13T07:49:35.000Z",
-      "approvedAt": "2026-08-13T09:06:57.747Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Speaks Out on Controversial Decision Before PGA Tour Playoffs",
-      "summary": "Rory McIlroy explained his decision to play in the opening round of the PGA Tour playoffs after skipping it last year.",
-      "quickRead": "Rory McIlroy explained his decision to play in the opening round of the PGA Tour playoffs after skipping it last year.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-speaks-controversial-decision-074935517.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-speaks-controversial-decision-074935517.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "archivedAt": "2026-08-13T09:06:59.341Z"
     }
   ]
 }
