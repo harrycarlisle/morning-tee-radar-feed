@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-19T18:26:50.408Z",
+  "updatedAt": "2026-08-19T20:20:33.453Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "28 min ago",
+      "timestamp": "2026-08-19T19:52:15.000Z",
+      "approvedAt": "2026-08-19T20:20:33.450Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler, Rory McIlroy weigh in on LIV Golf's uncertain future",
+      "summary": "Scottie Scheffler and Rory McIlroy had different views on LIV Golf's uncertain future and its best golfers potentially returning to the PGA Tour.",
+      "quickRead": "Scottie Scheffler and Rory McIlroy had different views on LIV Golf's uncertain future and its best golfers potentially returning to the PGA Tour.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-weigh-195215764.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-weigh-195215764.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-08-19T16:30:49.000Z",
       "approvedAt": "2026-08-19T18:26:43.248Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-jon-rahm-rory-163049916.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "34 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-19T17:51:52.000Z",
       "approvedAt": "2026-08-19T18:26:46.010Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-19T14:02:13.000Z",
       "approvedAt": "2026-08-19T14:27:29.890Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-19T15:30:00.000Z",
       "approvedAt": "2026-08-19T16:24:46.343Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-19T09:30:00.000Z",
       "approvedAt": "2026-08-19T10:22:24.918Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-19T01:07:34.000Z",
       "approvedAt": "2026-08-19T06:34:55.897Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-18T23:00:56.000Z",
       "approvedAt": "2026-08-19T04:31:34.792Z",
       "status": "Confirmed",
@@ -172,42 +191,23 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-extends-pga-tour-230056036.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-08-18T18:55:48.000Z",
-      "approvedAt": "2026-08-18T22:17:18.947Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Justin Thomas Hopes Bryson DeChambeau's Controversial Open Penalty Starts a Muc...",
-      "summary": "Bryson DeChambeau’s controversial two-stroke penalty at The Open for improving his lie has sparked havoc 31 days later.",
-      "quickRead": "Bryson DeChambeau’s controversial two-stroke penalty at The Open for improving his lie has sparked havoc 31 days later.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/justin-thomas-hopes-bryson-dechambeaus-185548838.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-hopes-bryson-dechambeaus-185548838.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
     {
       "label": "LIV WATCH",
-      "title": "Rory McIlroy questions what value Rahm and DeChambeau have brought to...",
-      "summary": "Rory McIlroy questioned what Jon Rahm and Bryson DeChambeau would actually add in any reunification by saying, “I mean, I’d argue have they brought...",
-      "quickRead": "Rory McIlroy questioned what Jon Rahm and Bryson DeChambeau would actually add in any reunification by saying, “I mean, I’d argue have they brought value to LIV? ” after being asked about their value to the PGA Tour.",
+      "title": "Scottie Scheffler, Rory McIlroy weigh in on LIV Golf's uncertain future",
+      "summary": "Scottie Scheffler and Rory McIlroy had different views on LIV Golf's uncertain future and its best golfers potentially returning to the PGA Tour.",
+      "quickRead": "Scottie Scheffler and Rory McIlroy had different views on LIV Golf's uncertain future and its best golfers potentially returning to the PGA Tour.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-questions-value-rahm-175152511.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-questions-value-rahm-175152511.html",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-weigh-195215764.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-rory-mcilroy-weigh-195215764.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-08-19T17:51:52.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-19T19:52:15.000Z"
     },
     {
       "label": "LIV WATCH",
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "1 hour ago",
       "timestamp": "2026-08-19T18:26:28.234Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "2 hours ago",
       "timestamp": "2026-08-19T17:49:28.235Z",
       "status": "Trending",
       "signal": "Reddit find",
