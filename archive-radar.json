@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-21T06:37:10.112Z",
+  "updatedAt": "2026-08-21T10:23:49.495Z",
   "stories": [
+    {
+      "time": "4 hours ago",
+      "timestamp": "2026-08-21T06:12:23.000Z",
+      "approvedAt": "2026-08-21T10:23:48.564Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "McIlroy and Scheffler suffer reversal of fortunes",
+      "summary": "Rory McIlroy says a bit of \"good work\" with his team helped him rediscover his form and take the lead in the first round of the BMW Championship.",
+      "quickRead": "Rory McIlroy bounced back with a bogey-free 6-under 64 at Bellerive to share the first-round lead at the BMW Championship after admitting he felt “lost” in last week’s 66th-place St.  Jude finish, saying some “good work” with his team helped him rediscover form.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mcilroy-back-form-lead-bmw-223944138.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-back-form-lead-bmw-223944138.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-08-21T10:23:49.495Z"
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-08-21T01:17:26.000Z",
@@ -1911,26 +1931,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "archivedAt": "2026-08-15T18:20:52.026Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-15T14:30:00.000Z",
-      "approvedAt": "2026-08-15T16:17:42.539Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler’s five lowest ever PGA Tour rounds and where he finished afte...",
-      "summary": "Scottie Scheffler produced some truly scintillating golf on Friday at the FedEx St.",
-      "quickRead": "Scottie Scheffler produced some truly scintillating golf on Friday at the FedEx St.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-five-lowest-ever-143000855.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-five-lowest-ever-143000855.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "archivedAt": "2026-08-15T16:17:43.616Z"
     }
   ]
 }
