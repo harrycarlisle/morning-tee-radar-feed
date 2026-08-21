@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-20T16:53:03.465Z",
-  "edition": "midday",
-  "label": "Last checked at 12 p.m. ET",
+  "lastUpdated": "2026-08-21T01:59:17.763Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "LIV Golf's Uncertain Future",
-      "text": "LIV Golf likely faces its final event this week amid growing uncertainty and weakening position against the PGA Tour."
+      "headline": "McIlroy Shares BMW Lead",
+      "text": "Rory McIlroy shot a bogey-free 6-under 64 to share a five-way lead at Thursday's opening round of the BMW Championship, part of the FedEx Cup playoffs."
     },
     {
-      "headline": "Scheffler's Dominant Season",
-      "text": "Scottie Scheffler leads the FedEx St Jude Championship by eight shots, extending his excellent 2026 season performance."
+      "headline": "Scheffler Calls for LIV Penalties",
+      "text": "Scottie Scheffler said certain LIV Golf players could add value to the PGA Tour but must face penalties before they are allowed to return."
     }
   ],
-  "itemsLastUpdated": "2026-08-20T13:13:04.396Z",
-  "itemsEdition": "morning",
-  "usedFallback": true,
-  "fallbackReason": "generated_items_rejected",
-  "fallbackStage": "item_cleaning",
-  "lastSuccessfulStoryUpdate": "2026-08-20T13:13:04.396Z",
-  "itemsChanged": false,
+  "itemsLastUpdated": "2026-08-21T01:59:17.763Z",
+  "itemsEdition": "evening",
+  "usedFallback": false,
+  "fallbackReason": "",
+  "fallbackStage": "",
+  "lastSuccessfulStoryUpdate": "2026-08-21T01:59:17.763Z",
+  "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 9,
   "openaiAttempted": true,
-  "openaiOutputLength": 816,
+  "openaiOutputLength": 743,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_94c3427846a84c1c94b5e74a9501cb37",
+  "openaiRequestId": "req_0870d315bcab4be79d5df9d7e4a52696",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 1,
-  "rejectedItemsCount": 2,
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
   "rejectedReasons": [
     {
       "reason": "duplicate topic: liv",
-      "count": 2
+      "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-08-20T16:53:03.465Z",
+  "diagnosticUpdatedAt": "2026-08-21T01:59:17.763Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
