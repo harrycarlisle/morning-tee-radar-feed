@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-21T22:18:15.944Z",
+  "updatedAt": "2026-08-22T00:56:23.002Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "4 hours ago",
+      "timestamp": "2026-08-21T20:46:02.000Z",
+      "approvedAt": "2026-08-22T00:56:22.998Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Admits Still Facing Swing Issues Despite Unexpected Comeback at $2...",
+      "summary": "Coming off a disastrous 66th-place finish at the FedEx St.",
+      "quickRead": "Coming off a disastrous 66th-place finish at the FedEx St.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-admits-still-facing-204602851.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-admits-still-facing-204602851.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-08-21T16:39:05.000Z",
       "approvedAt": "2026-08-21T22:18:11.973Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/lot-against-us-bryson-dechambeau-163905134.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "12 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-21T10:07:09.000Z",
       "approvedAt": "2026-08-21T16:26:18.831Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-21T16:56:27.000Z",
       "approvedAt": "2026-08-21T20:19:22.651Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-21T16:54:27.000Z",
       "approvedAt": "2026-08-21T18:29:08.331Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-21T17:30:00.000Z",
       "approvedAt": "2026-08-21T18:29:08.331Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-21T15:30:00.000Z",
       "approvedAt": "2026-08-21T16:26:21.847Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-21T15:09:02.000Z",
       "approvedAt": "2026-08-21T16:26:21.848Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-21T15:33:31.000Z",
       "approvedAt": "2026-08-21T16:26:21.849Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-criticized-lee-westwood-153331332.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-08-21T12:44:06.000Z",
-      "approvedAt": "2026-08-21T14:29:03.988Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson DeChambeau hits back at Rory McIlroy calls for LIV Golf to be given ‘one...",
-      "summary": "LIV Golf is yet to finalise a new investment deal ahead of the 2027 season",
-      "quickRead": "LIV Golf is yet to finalise a new investment deal ahead of the 2027 season",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-hits-back-rory-124406121.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-hits-back-rory-124406121.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-08-21T22:18:01.626Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-21T21:41:01.626Z",
       "status": "Trending",
       "signal": "Reddit find",
