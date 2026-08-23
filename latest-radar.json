@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T18:21:35.742Z",
+  "updatedAt": "2026-08-23T18:56:04.164Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "2 hours ago",
+      "timestamp": "2026-08-23T15:58:19.000Z",
+      "approvedAt": "2026-08-23T18:56:04.160Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "LIV golfer Harold Varner III asked to leave Indiana golf course for breaking ru...",
+      "summary": "Bear Slide Golf Club in Cicero, Indiana gave its side of the dispute in a social media post, saying Varner's group was asking for an exception from course rules.",
+      "quickRead": "Bear Slide Golf Club in Cicero, Indiana gave its side of the dispute in a social media post, saying Varner's group was asking for an exception from course rules.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/article/liv-golfer-harold-varner-iii-asked-to-leave-indiana-golf-course-for-breaking-rules-by-playing-in-sixsome-155819555.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/article/liv-golfer-harold-varner-iii-asked-to-leave-indiana-golf-course-for-breaking-rules-by-playing-in-sixsome-155819555.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "2 hours ago",
       "timestamp": "2026-08-23T16:05:40.000Z",
       "approvedAt": "2026-08-23T17:48:57.768Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-makes-honest-admission-160540745.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "17 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-08-23T00:35:00.000Z",
       "approvedAt": "2026-08-23T17:49:00.166Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-23T15:30:00.000Z",
       "approvedAt": "2026-08-23T16:18:10.487Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
       "timestamp": "2026-08-23T15:27:19.000Z",
       "approvedAt": "2026-08-23T16:18:10.488Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-08-22T21:32:13.000Z",
       "approvedAt": "2026-08-23T08:23:03.526Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-keeps-bmw-championship-213213189.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-keeps-bmw-championship-213213189.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-08-23T09:45:00.000Z",
-      "approvedAt": "2026-08-23T10:18:10.191Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Clark Extends BMW Lead With Dominant Saturday Surge",
-      "summary": "Wyndham Clark builds a five-shot lead at the BMW Championship after a stunning eight-hole run, while Rory McIlroy faces a steep climb to catch him.",
-      "quickRead": "Wyndham Clark shot 65 on Saturday at the BMW Championship at Bellerive, turning a blistering eight-hole run into a five-shot 54-hole lead at 17-under par over Rory McIlroy and the rest of the field.  With just 18 holes left in the FedEx Cup playoffs’ penultimate event, McIlroy likely needs a low Sunday round and help from Clark to prevent Clark from cruising to the win.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/clark-extends-bmw-lead-dominant-094500883.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/clark-extends-bmw-lead-dominant-094500883.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "34 min ago",
       "timestamp": "2026-08-23T18:21:28.183Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T17:44:28.183Z",
       "status": "Trending",
       "signal": "Reddit find",
