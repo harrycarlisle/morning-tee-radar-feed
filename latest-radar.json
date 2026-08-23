@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T22:46:44.899Z",
+  "updatedAt": "2026-08-23T23:13:41.956Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 min ago",
+      "time": "10 min ago",
+      "timestamp": "2026-08-23T23:03:29.000Z",
+      "approvedAt": "2026-08-23T23:13:41.953Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Presidents Cup 2026: Scottie Scheffler leads 6 automatic qualifiers for U.S. te...",
+      "summary": "Brandt Snedeker will lead the U.S.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/article/presidents-cup-2026-scottie-scheffler-leads-6-automatic-qualifiers-for-us-team-this-fall-230329121.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/article/presidents-cup-2026-scottie-scheffler-leads-6-automatic-qualifiers-for-us-team-this-fall-230329121.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "33 min ago",
       "timestamp": "2026-08-23T22:39:43.000Z",
       "approvedAt": "2026-08-23T22:46:40.548Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/wyndham-clark-overcomes-dumb-bogeys-223943598.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-23T14:58:59.000Z",
       "approvedAt": "2026-08-23T22:46:42.717Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "29 min ago",
+      "time": "56 min ago",
       "timestamp": "2026-08-23T22:17:05.000Z",
       "approvedAt": "2026-08-23T22:25:22.940Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-23T15:07:38.000Z",
       "approvedAt": "2026-08-23T22:25:24.866Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "51 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T21:54:49.000Z",
       "approvedAt": "2026-08-23T22:16:14.167Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "53 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T21:53:33.000Z",
       "approvedAt": "2026-08-23T21:58:32.721Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/liv-golfer-harold-varner-iii-143048833.html",
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golfer-harold-varner-iii-143048833.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-08-23T16:10:29.000Z",
-      "approvedAt": "2026-08-23T20:48:35.886Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "LIV Golf Pros Thrown Out of Indiana Course for Violating Rules & Lying to Groun...",
-      "summary": "Harold Varner III has been a fixture on LIV Golf since its launch in 2022.",
-      "quickRead": "Harold Varner III has been a fixture on LIV Golf since its launch in 2022.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-pros-thrown-indiana-161029102.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-pros-thrown-indiana-161029102.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "27 min ago",
       "timestamp": "2026-08-23T22:46:32.127Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T22:09:32.128Z",
       "status": "Trending",
       "signal": "Reddit find",
