@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-23T13:02:51.146Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-08-23T16:41:08.372Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "BMW Championship Leader",
-      "text": "Wyndham Clark leads the BMW Championship by five shots at 17-under after a 65 on Saturday driven by an eight-hole surge."
+      "headline": "BMW Championship Lead",
+      "text": "Wyndham Clark holds a five-shot lead entering Sunday at the BMW Championship with a chance to add a major milestone to his strong 2026 season."
     },
     {
-      "headline": "McIlroy's Comeback Chance",
-      "text": "Rory McIlroy plays alongside leader Wyndham Clark on Sunday, needing a low round and help from Clark to keep his title hopes alive."
+      "headline": "Tiger Woods Court Date",
+      "text": "Tiger Woods will make his first court appearance on September 8 in his DUI case related to a March rollover crash on Jupiter Island, Florida."
+    },
+    {
+      "headline": "Rory McIlroy's BMW Bounce-Back",
+      "text": "Rory McIlroy has recovered well from a poor week in Memphis and will play alongside Wyndham Clark in the final group Sunday at the BMW Championship."
     }
   ],
-  "itemsLastUpdated": "2026-08-23T13:02:51.146Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-08-23T16:41:08.372Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-23T13:02:51.146Z",
+  "lastSuccessfulStoryUpdate": "2026-08-23T16:41:08.372Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 3,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 664,
+  "openaiOutputLength": 710,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_3f7c15442ba04ff0b4f4e972800d991d",
+  "openaiRequestId": "req_7ff494bf9c254d22985e7b279cb0cbef",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-08-23T13:02:51.146Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-08-23T16:41:08.372Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
