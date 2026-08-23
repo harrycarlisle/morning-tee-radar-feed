@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T19:19:50.032Z",
+  "updatedAt": "2026-08-23T19:44:22.304Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "9 hours ago",
+      "timestamp": "2026-08-23T10:04:58.000Z",
+      "approvedAt": "2026-08-23T19:44:22.301Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "BMW Championship leaderboard, live updates as Wyndam Clark holds lead",
+      "summary": "Wyndham Clark leads entering the final round of the BMW Championship, but his five-shot lead to start the day has been whittled down.",
+      "quickRead": "Wyndham Clark takes a five-shot lead into the final round of the BMW Championship at 17-under after bouncing back from an opening-hole double bogey to shoot a 65 on Saturday.  Rory McIlroy and Patrick Cantlay are tied for second, and the chase matters because Clark’s big cushion has already shrunk from five early Sunday—putting FedEx Cup playoff positioning in play.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bmw-championship-leaderboard-final-round-100458194.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bmw-championship-leaderboard-final-round-100458194.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "3 hours ago",
       "timestamp": "2026-08-23T15:58:25.000Z",
       "approvedAt": "2026-08-23T19:19:46.790Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tour-pro-slapped-2-stroke-155825868.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-23T15:58:19.000Z",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-08-23T00:35:00.000Z",
       "approvedAt": "2026-08-23T17:49:00.166Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-23T15:30:00.000Z",
       "approvedAt": "2026-08-23T16:18:10.487Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-23T15:27:19.000Z",
       "approvedAt": "2026-08-23T16:18:10.488Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/wyndham-clark-reveals-sunday-morning-152719355.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "8 hours ago",
-      "timestamp": "2026-08-23T11:00:00.000Z",
-      "approvedAt": "2026-08-23T12:29:07.158Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy predicts the score he needs to shoot to catch Wyndham Clark on Sun...",
-      "summary": "Rory McIlroy will play alongside Wyndham Clark in the final group of the BMW Championship on Sunday.",
-      "quickRead": "Rory McIlroy will play alongside Wyndham Clark in the final group of the BMW Championship on Sunday.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-predicts-score-needs-110000222.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-predicts-score-needs-110000222.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "24 min ago",
       "timestamp": "2026-08-23T19:19:38.019Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T18:42:38.020Z",
       "status": "Trending",
       "signal": "Reddit find",
