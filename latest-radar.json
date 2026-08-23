@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T21:44:05.677Z",
+  "updatedAt": "2026-08-23T21:58:32.723Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "4 min ago",
+      "timestamp": "2026-08-23T21:53:33.000Z",
+      "approvedAt": "2026-08-23T21:58:32.721Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Wyndham Clark avoids collapse, fends off Rory McIlroy to win BMW Championship",
+      "summary": "Wyndham Clark picked up his third win of the season on Sunday after nearly letting a five-shot lead slip away.",
+      "quickRead": "Wyndham Clark won the BMW Championship after nearly blowing a five-shot final-round lead, holding off Rory McIlroy down the stretch for his third victory of the season.  The close call still earned Clark a massive FedEx Cup playoffs boost heading into the Tour Championship, while McIlroy’s runner-up finish kept him in the hunt but left him just short of stealing it at Bellerive.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/breaking-news/article/wyndham-clark-avoids-collapse-fends-off-rory-mcilroy-to-win-bmw-championship-215333648.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/breaking-news/article/wyndham-clark-avoids-collapse-fends-off-rory-mcilroy-to-win-bmw-championship-215333648.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-08-23T14:30:48.000Z",
       "approvedAt": "2026-08-23T21:16:45.767Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golfer-harold-varner-iii-143048833.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "5 hours ago",
       "timestamp": "2026-08-23T16:10:29.000Z",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T15:22:00.000Z",
       "approvedAt": "2026-08-23T20:15:53.078Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T15:30:00.000Z",
       "approvedAt": "2026-08-23T20:15:55.960Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/simple-reason-why-rory-mcilroy-153000704.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-23T14:00:00.000Z",
-      "approvedAt": "2026-08-23T19:58:22.900Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Collin Morikawa says the PGA Tour have removed a rule which he actually quite l...",
-      "summary": "Collin Morikawa has experienced somewhat of a strange season on the PGA Tour in 2026.",
-      "quickRead": "Collin Morikawa has experienced somewhat of a strange season on the PGA Tour in 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/collin-morikawa-says-pga-tour-140000781.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-says-pga-tour-140000781.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "14 min ago",
       "timestamp": "2026-08-23T21:43:56.944Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "51 min ago",
       "timestamp": "2026-08-23T21:06:56.944Z",
       "status": "Trending",
       "signal": "Reddit find",
