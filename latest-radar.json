@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T21:58:36.008Z",
+  "updatedAt": "2026-08-23T22:16:14.170Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "4 min ago",
+      "time": "21 min ago",
+      "timestamp": "2026-08-23T21:54:49.000Z",
+      "approvedAt": "2026-08-23T22:16:14.167Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler is new No. 1 on PGA Tour money leader list, eclipsing Tiger W...",
+      "summary": "Tiger Woods' streak atop the PGA Tour's list of career money leaders is over after more than a quarter of a century.",
+      "quickRead": "Tiger Woods' streak atop the PGA Tour's list of career money leaders is over after more than a quarter of a century.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-no-1-pga-215449761.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-no-1-pga-215449761.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "22 min ago",
       "timestamp": "2026-08-23T21:53:33.000Z",
       "approvedAt": "2026-08-23T21:58:32.721Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/golf/breaking-news/article/wyndham-clark-avoids-collapse-fends-off-rory-mcilroy-to-win-bmw-championship-215333648.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "7 hours ago",
       "timestamp": "2026-08-23T14:30:48.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T16:10:29.000Z",
       "approvedAt": "2026-08-23T20:48:35.886Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T16:05:40.000Z",
       "approvedAt": "2026-08-23T20:48:37.646Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-23T14:59:48.000Z",
       "approvedAt": "2026-08-23T20:26:43.369Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-23T14:58:59.000Z",
       "approvedAt": "2026-08-23T20:26:45.430Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-23T15:07:38.000Z",
       "approvedAt": "2026-08-23T20:26:45.431Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/shaun-norris-hit-two-stroke-142531084.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "6 hours ago",
-      "timestamp": "2026-08-23T15:30:00.000Z",
-      "approvedAt": "2026-08-23T20:15:55.960Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "The simple reason why Rory McIlroy may change his PGA Tour schedule in 2027 has...",
-      "summary": "Rory McIlroy has bounced back superbly well at the BMW Championship after his horror week in Memphis.",
-      "quickRead": "Rory McIlroy has bounced back superbly well at the BMW Championship after his horror week in Memphis.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/simple-reason-why-rory-mcilroy-153000704.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/simple-reason-why-rory-mcilroy-153000704.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "17 min ago",
       "timestamp": "2026-08-23T21:58:22.577Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "54 min ago",
       "timestamp": "2026-08-23T21:21:22.577Z",
       "status": "Trending",
       "signal": "Reddit find",
