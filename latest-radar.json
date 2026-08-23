@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T20:48:39.559Z",
+  "updatedAt": "2026-08-23T21:16:45.770Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "6 hours ago",
+      "timestamp": "2026-08-23T14:30:48.000Z",
+      "approvedAt": "2026-08-23T21:16:45.767Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "LIV golfer Harold Varner III asked to leave Indiana golf course after group siz...",
+      "summary": "LIV golfer Harold Varner III was kicked off an Indiana golf course after repeatedly ignoring rules about group size.",
+      "quickRead": "LIV golfer Harold Varner III was kicked off an Indiana golf course after repeatedly ignoring rules about group size.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/liv-golfer-harold-varner-iii-143048833.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/liv-golfer-harold-varner-iii-143048833.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-08-23T16:10:29.000Z",
       "approvedAt": "2026-08-23T20:48:35.886Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-pros-thrown-indiana-161029102.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-08-23T16:05:40.000Z",
       "approvedAt": "2026-08-23T20:48:37.646Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T14:59:48.000Z",
       "approvedAt": "2026-08-23T20:26:43.369Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T14:58:59.000Z",
       "approvedAt": "2026-08-23T20:26:45.430Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-23T15:07:38.000Z",
       "approvedAt": "2026-08-23T20:26:45.431Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-08-23T14:00:00.000Z",
       "approvedAt": "2026-08-23T19:58:22.900Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-says-pga-tour-140000781.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-08-23T10:04:58.000Z",
-      "approvedAt": "2026-08-23T19:44:22.301Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "BMW Championship leaderboard, live updates as Wyndam Clark holds lead",
-      "summary": "Wyndham Clark leads entering the final round of the BMW Championship, but his five-shot lead to start the day has been whittled down.",
-      "quickRead": "Wyndham Clark takes a five-shot lead into the final round of the BMW Championship at 17-under after bouncing back from an opening-hole double bogey to shoot a 65 on Saturday.  Rory McIlroy and Patrick Cantlay are tied for second, and the chase matters because Clark’s big cushion has already shrunk from five early Sunday—putting FedEx Cup playoff positioning in play.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bmw-championship-leaderboard-final-round-100458194.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bmw-championship-leaderboard-final-round-100458194.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "28 min ago",
       "timestamp": "2026-08-23T20:48:28.795Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-08-23T20:11:28.796Z",
       "status": "Trending",
       "signal": "Reddit find",
