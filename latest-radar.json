@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T19:44:25.424Z",
+  "updatedAt": "2026-08-23T19:58:22.903Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "5 hours ago",
+      "timestamp": "2026-08-23T14:00:00.000Z",
+      "approvedAt": "2026-08-23T19:58:22.900Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Collin Morikawa says the PGA Tour have removed a rule which he actually quite l...",
+      "summary": "Collin Morikawa has experienced somewhat of a strange season on the PGA Tour in 2026.",
+      "quickRead": "Collin Morikawa has experienced somewhat of a strange season on the PGA Tour in 2026.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/collin-morikawa-says-pga-tour-140000781.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-says-pga-tour-140000781.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "9 hours ago",
       "timestamp": "2026-08-23T10:04:58.000Z",
       "approvedAt": "2026-08-23T19:44:22.301Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bmw-championship-leaderboard-final-round-100458194.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "3 hours ago",
       "timestamp": "2026-08-23T15:58:25.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-23T15:58:19.000Z",
       "approvedAt": "2026-08-23T18:56:04.160Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/simple-reason-why-rory-mcilroy-153000704.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "4 hours ago",
-      "timestamp": "2026-08-23T15:27:19.000Z",
-      "approvedAt": "2026-08-23T16:18:10.488Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Wyndham Clark Reveals Sunday Morning Plans With Emily Tanner at BMW Championship",
-      "summary": "Wyndham Clark will enter Sunday’s BMW Championship with a five-shot lead and a chance to add another major milestone to an already strong 2026 season.",
-      "quickRead": "Wyndham Clark will enter Sunday’s BMW Championship with a five-shot lead and a chance to add another major milestone to an already strong 2026 season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/wyndham-clark-reveals-sunday-morning-152719355.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/wyndham-clark-reveals-sunday-morning-152719355.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "14 min ago",
       "timestamp": "2026-08-23T19:44:12.219Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "51 min ago",
       "timestamp": "2026-08-23T19:07:12.219Z",
       "status": "Trending",
       "signal": "Reddit find",
