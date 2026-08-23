@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-23T22:16:18.127Z",
+  "updatedAt": "2026-08-23T22:25:22.942Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "21 min ago",
+      "time": "8 min ago",
+      "timestamp": "2026-08-23T22:17:05.000Z",
+      "approvedAt": "2026-08-23T22:25:22.940Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Clark fends off McIlroy to win BMW Championship",
+      "summary": "A nervy Wyndham Clark birdied the final three holes to dramatically win the BMW Championship on Sunday, having earlier surrendered his five-stroke lead to Rory McIlroy.Patrick Cantlay -- ...",
+      "quickRead": "Wyndham Clark won the BMW Championship at Bellerive after blowing a five-shot lead, catching fire with birdies on the final three holes to hold off Rory McIlroy in a dramatic finish.  The victory locks up crucial FedEx Cup playoff momentum heading into next week’s Tour Championship, while Patrick Cantlay’s push for a top-30 spot briefly brought him within one before Clark closed it out.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/clark-fends-off-mcilroy-win-221705121.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/clark-fends-off-mcilroy-win-221705121.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/patrick-cantlay-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "30 min ago",
       "timestamp": "2026-08-23T21:54:49.000Z",
       "approvedAt": "2026-08-23T22:16:14.167Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-no-1-pga-215449761.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "6 hours ago",
       "timestamp": "2026-08-23T15:30:00.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "22 min ago",
+      "time": "31 min ago",
       "timestamp": "2026-08-23T21:53:33.000Z",
       "approvedAt": "2026-08-23T21:58:32.721Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-admits-amanda-balionis-145859563.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "7 hours ago",
-      "timestamp": "2026-08-23T15:07:38.000Z",
-      "approvedAt": "2026-08-23T20:26:45.431Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Tiger Woods Returns to the Public Eye to Face Legal Charges",
-      "summary": "Tiger Woods is scheduled to make his first court appearance on Sept.",
-      "quickRead": "Tiger Woods is scheduled to make his first court appearance on Sept.  8, 2026, to face legal charges stemming from his March 27, 2026 DUI arrest after a high-speed crash in which his Land Rover hit a truck and rolled over on a residential street on Jupiter Island, Florida.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-returns-public-eye-150738305.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-returns-public-eye-150738305.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "9 min ago",
       "timestamp": "2026-08-23T22:16:02.767Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "46 min ago",
       "timestamp": "2026-08-23T21:39:02.768Z",
       "status": "Trending",
       "signal": "Reddit find",
