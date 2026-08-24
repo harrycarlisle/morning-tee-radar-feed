@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-23T16:41:08.372Z",
-  "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "lastUpdated": "2026-08-24T01:58:57.062Z",
+  "edition": "evening",
+  "label": "Updated at 8 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "BMW Championship Lead",
-      "text": "Wyndham Clark holds a five-shot lead entering Sunday at the BMW Championship with a chance to add a major milestone to his strong 2026 season."
+      "headline": "Clark leads BMW Championship",
+      "text": "Wyndham Clark overcame losing a five-shot lead with three final-hole birdies to win the BMW Championship at 17 under, holding off Rory McIlroy and Patrick Cantlay and securing FedEx Cup playoff momentum."
     },
     {
-      "headline": "Tiger Woods Court Date",
-      "text": "Tiger Woods will make his first court appearance on September 8 in his DUI case related to a March rollover crash on Jupiter Island, Florida."
+      "headline": "La Sasso leads LIV Event",
+      "text": "Rookie Michael La Sasso leads LIV Golf’s season-ending Indianapolis event, edging Jon Rahm and Bryson DeChambeau as the tour canceled next week's Team Championship, casting doubt on its future."
     },
     {
-      "headline": "Rory McIlroy's BMW Bounce-Back",
-      "text": "Rory McIlroy has recovered well from a poor week in Memphis and will play alongside Wyndham Clark in the final group Sunday at the BMW Championship."
+      "headline": "Tiger Woods Court Appearance Set",
+      "text": "Tiger Woods is scheduled to appear in court on September 8 for charges stemming from a DUI arrest after a late-March high-speed rollover crash involving his Land Rover."
     }
   ],
-  "itemsLastUpdated": "2026-08-23T16:41:08.372Z",
-  "itemsEdition": "midday",
+  "itemsLastUpdated": "2026-08-24T01:58:57.062Z",
+  "itemsEdition": "evening",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-23T16:41:08.372Z",
+  "lastSuccessfulStoryUpdate": "2026-08-24T01:58:57.062Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 9,
   "openaiAttempted": true,
-  "openaiOutputLength": 710,
+  "openaiOutputLength": 850,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_7ff494bf9c254d22985e7b279cb0cbef",
+  "openaiRequestId": "req_a6ee4f91194243e4b087b242e60ee4b2",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-23T16:41:08.372Z",
+  "diagnosticUpdatedAt": "2026-08-24T01:58:57.061Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
