@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-24T01:58:57.062Z",
-  "edition": "evening",
-  "label": "Updated at 8 p.m. ET",
+  "lastUpdated": "2026-08-24T13:13:44.607Z",
+  "edition": "morning",
+  "label": "Updated at 8 a.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
       "headline": "Clark leads BMW Championship",
-      "text": "Wyndham Clark overcame losing a five-shot lead with three final-hole birdies to win the BMW Championship at 17 under, holding off Rory McIlroy and Patrick Cantlay and securing FedEx Cup playoff momentum."
+      "text": "Wyndham Clark rallied by birdying the final three holes to win the BMW Championship by three shots over Rory McIlroy, securing momentum for the Tour Championship."
     },
     {
-      "headline": "La Sasso leads LIV Event",
-      "text": "Rookie Michael La Sasso leads LIV Golf’s season-ending Indianapolis event, edging Jon Rahm and Bryson DeChambeau as the tour canceled next week's Team Championship, casting doubt on its future."
+      "headline": "La Sasso youngest LIV leader",
+      "text": "Michael La Sasso, 22, held off Jon Rahm by one shot for the LIV Golf Indianapolis victory, becoming LIV’s youngest-ever leader as the league ends its 2026 season early."
     },
     {
-      "headline": "Tiger Woods Court Appearance Set",
-      "text": "Tiger Woods is scheduled to appear in court on September 8 for charges stemming from a DUI arrest after a late-March high-speed rollover crash involving his Land Rover."
+      "headline": "Scheffler battled illness at BMW",
+      "text": "Scottie Scheffler revealed he played the BMW Championship while suffering from hand, foot and mouth disease, finishing tied for 10th despite painful blisters."
     }
   ],
-  "itemsLastUpdated": "2026-08-24T01:58:57.062Z",
-  "itemsEdition": "evening",
+  "itemsLastUpdated": "2026-08-24T13:13:44.607Z",
+  "itemsEdition": "morning",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-24T01:58:57.062Z",
+  "lastSuccessfulStoryUpdate": "2026-08-24T13:13:44.607Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 9,
+  "candidateItemsSelected": 8,
   "openaiAttempted": true,
-  "openaiOutputLength": 850,
+  "openaiOutputLength": 781,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_a6ee4f91194243e4b087b242e60ee4b2",
+  "openaiRequestId": "req_f3fa4721cbbd4d99bfbce642e2b3132f",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-24T01:58:57.061Z",
+  "diagnosticUpdatedAt": "2026-08-24T13:13:44.606Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
