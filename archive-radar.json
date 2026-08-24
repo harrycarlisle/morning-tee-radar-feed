@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-24T08:41:45.672Z",
+  "updatedAt": "2026-08-24T08:41:48.028Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "37 min ago",
+      "timestamp": "2026-08-24T08:04:31.875Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-08-24T08:41:48.028Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "1 hour ago",
@@ -1914,26 +1935,6 @@
       "image": "",
       "timestamp": "2026-08-19T01:02:36.000Z",
       "archivedAt": "2026-08-19T04:31:38.596Z"
-    },
-    {
-      "time": "5 hours ago",
-      "timestamp": "2026-08-18T23:00:56.000Z",
-      "approvedAt": "2026-08-19T04:31:34.792Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler extends his PGA Tour season money lead",
-      "summary": "These players have earned the most cash on the the PGA Tour in 2026.",
-      "quickRead": "These players have earned the most cash on the the PGA Tour in 2026.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-extends-pga-tour-230056036.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-extends-pga-tour-230056036.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "archivedAt": "2026-08-19T04:31:36.226Z"
     }
   ]
 }
