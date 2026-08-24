@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-tommy-fleetwood",
-  "updatedAt": "2026-08-17T15:18:00.273Z",
+  "updatedAt": "2026-08-24T15:27:16.435Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2010,
-    "sharedStarts": 130,
-    "playerAWins": 83,
+    "sharedStarts": 131,
+    "playerAWins": 84,
     "playerBWins": 42,
     "ties": 5
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Tommy Fleetwood",
+        "dgId": 12294,
+        "finish": "T47",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 44 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

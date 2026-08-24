@@ -1,6 +1,6 @@
 {
   "matchupId": "sam-burns-vs-sahith-theegala",
-  "updatedAt": "2026-08-17T15:29:37.132Z",
+  "updatedAt": "2026-08-24T15:44:01.916Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 95,
-    "playerAWins": 51,
+    "sharedStarts": 96,
+    "playerAWins": 52,
     "playerBWins": 40,
     "ties": 4
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sahith Theegala",
+        "dgId": 23014,
+        "finish": "T41",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "sam-burns",
+      "edge": "Sam by 13 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",
