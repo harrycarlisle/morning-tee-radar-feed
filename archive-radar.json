@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-24T08:41:48.028Z",
+  "updatedAt": "2026-08-24T10:32:18.866Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-24T09:10:52.000Z",
+      "approvedAt": "2026-08-24T10:32:17.668Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler close to another PGA Tour money title, passing Tiger Woods",
+      "summary": "Who's leading the PGA Tour money list through the BMW Championship?",
+      "quickRead": "Who's leading the PGA Tour money list through the BMW Championship?",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-close-another-pga-091052633.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-close-another-pga-091052633.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-08-24T10:32:18.866Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "time": "37 min ago",
@@ -1919,22 +1939,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "archivedAt": "2026-08-19T06:34:57.274Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "Hideki Matsuyama Hit With Sudden Caddie Blow as Trusted Bagman Suffer...",
-      "summary": "Hideki Matsuyama’s longtime caddie Shota Hayafuji has been ruled out for the rest of the season with a neck injury, and Taiga Tabuchi will continue...",
-      "quickRead": "Hideki Matsuyama’s longtime caddie Shota Hayafuji has been ruled out for the rest of the season with a neck injury, and Taiga Tabuchi will continue filling in on the bag.  The change forces Matsuyama to navigate the FedExCup stretch run without the trusted partner who’s been with him for years, including iconic moments like Hayafuji’s bow at Augusta after the 2021 Masters win.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/hideki-matsuyama-hit-sudden-caddie-010236169.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/hideki-matsuyama-hit-sudden-caddie-010236169.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-08-19T01:02:36.000Z",
-      "archivedAt": "2026-08-19T04:31:38.596Z"
     }
   ]
 }
