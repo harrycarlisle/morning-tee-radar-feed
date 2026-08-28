@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-28T03:59:12.605Z",
+  "updatedAt": "2026-08-28T16:29:12.045Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-08-28T15:26:24.000Z",
+      "approvedAt": "2026-08-28T16:29:10.464Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "J.J. Spaun Reveals Bizarre Cause of Injury That Ended His Season",
+      "summary": "J.J.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/j-j-spaun-reveals-bizarre-152624919.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/j-j-spaun-reveals-bizarre-152624919.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jj-spaun.png",
+      "archivedAt": "2026-08-28T16:29:12.045Z"
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-08-28T02:13:31.000Z",
@@ -1907,26 +1927,6 @@
       "image": "",
       "timestamp": "2026-08-21T17:30:48.000Z",
       "archivedAt": "2026-08-22T12:28:28.135Z"
-    },
-    {
-      "time": "2 hours ago",
-      "timestamp": "2026-08-22T10:04:52.000Z",
-      "approvedAt": "2026-08-22T12:28:23.709Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "BMW Championship 2026 live leaderboard, Saturday tee times, updates",
-      "summary": "The PGA Tour's FedEx Cup playoffs continue with Round 3 of the BMW Championship on Saturday, Aug.",
-      "quickRead": "The PGA Tour's FedEx Cup playoffs continue with Round 3 of the BMW Championship on Saturday, Aug.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bmw-championship-2026-live-leaderboard-100452168.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bmw-championship-2026-live-leaderboard-100452168.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-08-22T12:28:24.771Z"
     }
   ]
 }
