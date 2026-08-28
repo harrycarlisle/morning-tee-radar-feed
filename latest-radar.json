@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-28T03:59:14.605Z",
+  "updatedAt": "2026-08-28T16:29:10.467Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "1 hour ago",
+      "timestamp": "2026-08-28T15:26:24.000Z",
+      "approvedAt": "2026-08-28T16:29:10.464Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "J.J. Spaun Reveals Bizarre Cause of Injury That Ended His Season",
+      "summary": "J.J.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/j-j-spaun-reveals-bizarre-152624919.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/j-j-spaun-reveals-bizarre-152624919.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jj-spaun.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-08-28T02:05:31.000Z",
       "approvedAt": "2026-08-28T03:59:09.655Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tigers-overcome-goal-scoring-woes-020531661.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-28T01:43:52.000Z",
       "approvedAt": "2026-08-28T03:59:11.593Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-08-28T00:51:59.000Z",
       "approvedAt": "2026-08-28T03:59:11.593Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-28T01:32:52.000Z",
       "approvedAt": "2026-08-28T03:59:11.594Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-28T02:13:31.000Z",
       "approvedAt": "2026-08-28T03:59:11.594Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-27T13:45:00.000Z",
       "approvedAt": "2026-08-27T18:46:17.409Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-08-27T12:30:00.000Z",
       "approvedAt": "2026-08-27T18:46:20.251Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-08-27T17:30:00.000Z",
       "approvedAt": "2026-08-27T18:46:20.252Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-opinion-player-race-173000880.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "10 hours ago",
-      "timestamp": "2026-08-27T17:15:57.000Z",
-      "approvedAt": "2026-08-27T18:46:20.252Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "2026 Tour Championship: J.J. Spaun withdraws during Round 1 with shoulder injury",
-      "summary": "J.J.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-tour-championship-j-j-171557907.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-tour-championship-j-j-171557907.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jj-spaun.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "12 hours ago",
       "timestamp": "2026-08-28T03:59:01.371Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-28T03:22:01.371Z",
       "status": "Trending",
       "signal": "Reddit find",
