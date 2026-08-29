@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-29T14:54:10.498Z",
+  "updatedAt": "2026-08-29T19:06:09.884Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-08-29T16:09:32.000Z",
+      "approvedAt": "2026-08-29T19:06:09.881Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Source Reveals LIV Golf's $300 Million Funding Is Under Threat as Jon Rahm & Co...",
+      "summary": "With players like Patrick Reed exploring alternate options and Bryson DeChambeau not committed to staying after his contract expires in 2026, focusing on majors and his digital media bran...",
+      "quickRead": "With players like Patrick Reed exploring alternate options and Bryson DeChambeau not committed to staying after his contract expires in 2026, focusing on majors and his digital media bran...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/source-reveals-liv-golfs-300-160932302.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/source-reveals-liv-golfs-300-160932302.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-08-29T13:30:00.000Z",
       "approvedAt": "2026-08-29T14:54:05.488Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-shares-tiger-woods-133000161.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-29T10:05:13.000Z",
       "approvedAt": "2026-08-29T14:54:07.500Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-29T12:30:00.000Z",
       "approvedAt": "2026-08-29T14:54:07.500Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "24 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-29T14:30:00.000Z",
       "approvedAt": "2026-08-29T14:54:07.500Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-29T09:30:00.000Z",
       "approvedAt": "2026-08-29T14:54:07.501Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-08-29T03:22:48.000Z",
       "approvedAt": "2026-08-29T08:33:06.301Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-29T06:03:25.000Z",
       "approvedAt": "2026-08-29T08:33:08.777Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-29T05:33:57.000Z",
       "approvedAt": "2026-08-29T08:33:08.777Z",
       "status": "Confirmed",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tennis-news-roger-federer-makes-053357449.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "10 hours ago",
-      "timestamp": "2026-08-29T04:12:50.000Z",
-      "approvedAt": "2026-08-29T08:33:08.777Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "High school football scores: Tracking this week's regional Super 15 teams",
-      "summary": "With a majority of the country officially playing, see the results from this week's games for each region's Super 15 teams.",
-      "quickRead": "With a majority of the country officially playing, see the results from this week's games for each region's Super 15 teams.",
+      "label": "MAJOR WATCH",
+      "title": "Source Reveals LIV Golf's $300 Million Funding Is Under Threat as Jon...",
+      "summary": "With players like Patrick Reed exploring alternate options and Bryson DeChambeau not committed to staying after his contract expires in 2026, focus...",
+      "quickRead": "With players like Patrick Reed exploring alternate options and Bryson DeChambeau not committed to staying after his contract expires in 2026, focusing on majors and his digital media bran...",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/high-school-football-scores-tracking-041250165.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/high-school-football-scores-tracking-041250165.html",
+      "url": "https://sports.yahoo.com/articles/source-reveals-liv-golfs-300-160932302.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/source-reveals-liv-golfs-300-160932302.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-08-29T16:09:32.000Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "Rory McIlroy Makes Personal Admission Amid Scottie Scheffler’s Health...",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-26T16:56:43.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Fery into first ATP Tour final as opponent retires",
-      "summary": "Arthur Fery is into his first ATP Tour final as opponent James Duckworth retires because of injury at the Winston-Salem Open.",
-      "quickRead": "Arthur Fery is into his first ATP Tour final as opponent James Duckworth retires because of injury at the Winston-Salem Open.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/fery-first-atp-tour-final-060325962.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/fery-first-atp-tour-final-060325962.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-08-29T06:03:25.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-08-29T14:53:55.238Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-08-29T14:16:55.238Z",
       "status": "Trending",
       "signal": "Reddit find",
