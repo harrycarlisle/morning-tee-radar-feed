@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-26T16:58:03.469Z",
+  "lastUpdated": "2026-08-29T19:23:50.328Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "LIV Golf's Murky Future",
-      "text": "PGA Tour CEO Brian Rolapp says no special return path is planned for LIV players like Bryson DeChambeau and Jon Rahm, who must clear LIV contracts and follow existing PGA Tour rules to rejoin."
+      "headline": "Anna Nordqvist Retires",
+      "text": "Three-time major leader Anna Nordqvist ends her LPGA Tour career after the FM Championship to focus on health, family, and her Solheim Cup role."
     },
     {
-      "headline": "McIlroy Expands PGA Tour Role",
-      "text": "Rory McIlroy confirmed an expanded advisory role in PGA Tour policy at the Tour Championship this week."
-    },
-    {
-      "headline": "Scheffler Health Update",
-      "text": "Scottie Scheffler revealed he had hand, foot and mouth disease during the BMW Championship but continues preparing for the Tour Championship."
+      "headline": "LIV Golf Funding Uncertain",
+      "text": "LIV Golf's $300 million funding faces threats as Patrick Reed explores options and Bryson DeChambeau plans to focus on majors after his 2026 contract ends."
     }
   ],
-  "itemsLastUpdated": "2026-08-26T16:58:03.469Z",
+  "itemsLastUpdated": "2026-08-29T19:23:50.328Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-26T16:58:03.469Z",
+  "lastSuccessfulStoryUpdate": "2026-08-29T19:23:50.328Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "candidateItemsSelected": 8,
   "openaiAttempted": true,
-  "openaiOutputLength": 717,
+  "openaiOutputLength": 714,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_f2cd66c13ea84e8b85807ec5e4012bfc",
+  "openaiRequestId": "req_0e144d509c714799bef44540fdbdfcbd",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-08-26T16:58:03.469Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: pga-tour",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-08-29T19:23:50.328Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
