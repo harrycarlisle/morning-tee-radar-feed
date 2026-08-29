@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-29T08:33:12.529Z",
+  "updatedAt": "2026-08-29T14:54:05.491Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-08-29T13:30:00.000Z",
+      "approvedAt": "2026-08-29T14:54:05.488Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Collin Morikawa shares what Tiger Woods and Kevin Kisner did to help him improv...",
+      "summary": "Collin Morikawa is in contention to win the Tour Championship this weekend.",
+      "quickRead": "Collin Morikawa is in contention to win the Tour Championship this weekend.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/collin-morikawa-shares-tiger-woods-133000161.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/collin-morikawa-shares-tiger-woods-133000161.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/collin-morikawa.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "11 hours ago",
       "timestamp": "2026-08-29T03:22:48.000Z",
       "approvedAt": "2026-08-29T08:33:06.301Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-tour-championship-saturday-tee-032248291.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-08-29T06:03:25.000Z",
       "approvedAt": "2026-08-29T08:33:08.777Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-08-29T05:33:57.000Z",
       "approvedAt": "2026-08-29T08:33:08.777Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-08-29T04:12:50.000Z",
       "approvedAt": "2026-08-29T08:33:08.777Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-08-28T23:00:25.000Z",
       "approvedAt": "2026-08-29T01:23:42.401Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-29T00:30:56.000Z",
       "approvedAt": "2026-08-29T01:23:47.300Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-08-29T00:57:08.000Z",
       "approvedAt": "2026-08-29T01:23:47.300Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-08-29T00:25:41.000Z",
       "approvedAt": "2026-08-29T01:23:47.301Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tour-championship-rules-under-fire-002541978.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/viktor-hovland-3.png"
-    },
-    {
-      "time": "9 hours ago",
-      "timestamp": "2026-08-28T23:07:48.000Z",
-      "approvedAt": "2026-08-29T01:23:47.301Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Rajah Caruth Scores First Career O’Reilly Series Pole at Daytona",
-      "summary": "Rajah Caruth will lead the field to green Friday night at Daytona International Speedway after delivering a career-best qualifying performance ahead of the Winn-Dixie 250.",
-      "quickRead": "Rajah Caruth will lead the field to green Friday night at Daytona International Speedway after delivering a career-best qualifying performance ahead of the Winn-Dixie 250.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rajah-caruth-scores-first-career-230748552.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rajah-caruth-scores-first-career-230748552.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-08-29T08:32:53.526Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-08-29T07:55:53.526Z",
       "status": "Trending",
       "signal": "Reddit find",
