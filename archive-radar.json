@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-08-30T22:19:27.907Z",
+  "updatedAt": "2026-08-30T22:53:24.239Z",
   "stories": [
+    {
+      "time": "9 min ago",
+      "timestamp": "2026-08-30T22:44:00.000Z",
+      "approvedAt": "2026-08-30T22:53:22.900Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler moves past a Tiger Woods money standard that stood for nearly...",
+      "summary": "Tiger Woods was going for his seventh straight PGA Tour victory when he tied for second at Torrey Pines.",
+      "quickRead": "Scottie Scheffler passed Tiger Woods on the PGA Tour’s all-time official money list by winning the Tour Championship and FedExCup, a $10 million payday that pushed his career total to $130,390,661, topping Woods’ $120,999,166 mark.  The milestone ends a money standard that had stood since 1999 and underscores how today’s mega-purses—especially FedExCup bonuses now counted as official—are rewriting the record book.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-moves-past-tiger-224400527.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-moves-past-tiger-224400527.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
+      "archivedAt": "2026-08-30T22:53:24.239Z"
+    },
     {
       "time": "39 min ago",
       "timestamp": "2026-08-30T21:40:21.000Z",
@@ -1914,27 +1934,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-08-24T08:41:48.028Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "1 hour ago",
-      "timestamp": "2026-08-24T06:45:33.712Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-08-24T08:41:45.672Z"
     }
   ]
 }
