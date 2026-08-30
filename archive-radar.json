@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-08-30T22:53:26.913Z",
+  "updatedAt": "2026-08-30T22:53:29.964Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "37 min ago",
+      "timestamp": "2026-08-30T22:16:10.947Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-08-30T22:53:29.964Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "34 min ago",
@@ -1914,26 +1935,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-08-24T10:19:36.000Z",
       "archivedAt": "2026-08-24T10:32:21.308Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-08-24T09:10:52.000Z",
-      "approvedAt": "2026-08-24T10:32:17.668Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler close to another PGA Tour money title, passing Tiger Woods",
-      "summary": "Who's leading the PGA Tour money list through the BMW Championship?",
-      "quickRead": "Who's leading the PGA Tour money list through the BMW Championship?",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-close-another-pga-091052633.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-close-another-pga-091052633.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "archivedAt": "2026-08-24T10:32:18.866Z"
     }
   ]
 }
