@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-08-30T03:12:45.757Z",
+  "updatedAt": "2026-08-30T09:40:59.948Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "9 hours ago",
+      "timestamp": "2026-08-29T23:46:22.000Z",
+      "approvedAt": "2026-08-30T09:40:59.946Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 Tour Championship: Viktor Hovland surges to lead with slew of challengers...",
+      "summary": "Viktor Hovland and Ryan Gerard exchanged blows during the third round at East Lake as top-ranked Scottie Scheffler and Rory McIlroy also made their fair share of highlight shots.",
+      "quickRead": "Viktor Hovland shot a 5-under 65 at East Lake—capping it by making six straight putts from 7 feet or longer—to reach 15-under and take a one-shot lead over Ryan Gerard (66).  Scottie Scheffler (66), Chris Gotterup (67), Adam Scott (65) and Ludvig Åberg (65) sit three back at 12-under with $10 million and the FedExCup title on the line Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-tour-championship-viktor-hovland-234622684.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-tour-championship-viktor-hovland-234622684.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    },
     {
       "time": "8 hours ago",
       "timestamp": "2026-08-30T00:57:38.000Z",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tour-championship-news-rory-mcilroy-204008293.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "19 hours ago",
-      "timestamp": "2026-08-29T14:30:46.000Z",
-      "approvedAt": "2026-08-29T19:06:12.498Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "2026 Tour Championship leaderboard, Round 3 live updates, tee times, highlights",
-      "summary": "Follow along with Golfweek for live updates, scores, highlights and more from the third round of the 2026 Tour Championship.",
-      "quickRead": "Follow along with Golfweek for live updates, scores, highlights and more from the third round of the 2026 Tour Championship.",
+      "label": "STAR WATCH",
+      "title": "2026 Tour Championship: Viktor Hovland surges to lead with slew of ch...",
+      "summary": "Viktor Hovland shot a 5-under 65 at East Lake—capping it by making six straight putts from 7 feet or longer—to reach 15-under and take a one-shot l...",
+      "quickRead": "Viktor Hovland shot a 5-under 65 at East Lake—capping it by making six straight putts from 7 feet or longer—to reach 15-under and take a one-shot lead over Ryan Gerard (66).  Scottie Scheffler (66), Chris Gotterup (67), Adam Scott (65) and Ludvig Åberg (65) sit three back at 12-under with $10 million and the FedExCup title on the line Sunday.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-tour-championship-leaderboard-updates-143046089.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-tour-championship-leaderboard-updates-143046089.html",
+      "url": "https://sports.yahoo.com/articles/2026-tour-championship-viktor-hovland-234622684.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-tour-championship-viktor-hovland-234622684.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-08-29T23:46:22.000Z"
+    },
     {
       "label": "LPGA WATCH",
       "title": "Swede Ends Tour Career After Boston",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
       "timestamp": "2026-08-29T16:09:32.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Hovland takes solo lead as McIlroy surges at Tour Championship",
-      "summary": "Viktor Hovland shot 5-under 65 on Saturday at East Lake to grab the solo lead at 15-under, while Rory McIlroy surged with a 7-under 63 featuring ni...",
-      "quickRead": "Viktor Hovland shot 5-under 65 on Saturday at East Lake to grab the solo lead at 15-under, while Rory McIlroy surged with a 7-under 63 featuring nine birdies to climb back into contention, five shots behind.  With one round left in the FedEx Cup finale, Hovland controls his path to the $10 million prize as McIlroy needs a big Sunday and help from the leaders.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/hovland-takes-solo-lead-mcilroy-232830556.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/hovland-takes-solo-lead-mcilroy-232830556.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-08-29T23:28:30.000Z"
     }
   ],
   "checking": {
