@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-ludvig-aberg",
-  "updatedAt": "2026-08-24T15:43:59.936Z",
+  "updatedAt": "2026-08-31T21:14:03.850Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 51,
+    "sharedStarts": 52,
     "playerAWins": 25,
-    "playerBWins": 20,
+    "playerBWins": 21,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "ludvig-aberg",
+      "edge": "Ludvig by 10 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-23",

@@ -1,6 +1,6 @@
 {
   "matchupId": "rory-mcilroy-vs-ludvig-aberg",
-  "updatedAt": "2026-08-24T15:21:03.467Z",
+  "updatedAt": "2026-08-31T20:51:02.711Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2023,
-    "sharedStarts": 45,
+    "sharedStarts": 46,
     "playerAWins": 25,
     "playerBWins": 18,
-    "ties": 2
+    "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Ludvig Åberg",
+        "dgId": 23950,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "tie",
+      "edge": "Tie",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-23",

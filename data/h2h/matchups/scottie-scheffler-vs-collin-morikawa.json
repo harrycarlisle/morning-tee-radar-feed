@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-collin-morikawa",
-  "updatedAt": "2026-08-24T14:34:55.427Z",
+  "updatedAt": "2026-08-31T20:04:47.910Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,68 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 110,
-    "playerAWins": 69,
-    "playerBWins": 31,
+    "sharedStarts": 112,
+    "playerAWins": 70,
+    "playerBWins": 32,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T14",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 13 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "collin-morikawa",
+      "edge": "Collin by 8 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

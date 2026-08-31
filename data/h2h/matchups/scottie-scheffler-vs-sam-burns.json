@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-sam-burns",
-  "updatedAt": "2026-08-24T14:34:56.241Z",
+  "updatedAt": "2026-08-31T20:04:49.057Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,68 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 122,
-    "playerAWins": 83,
+    "sharedStarts": 124,
+    "playerAWins": 85,
     "playerBWins": 32,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T18",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 17 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Sam Burns",
+        "dgId": 19483,
+        "finish": "T28",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 16 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

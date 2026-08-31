@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-rory-mcilroy",
-  "updatedAt": "2026-08-24T14:34:54.868Z",
+  "updatedAt": "2026-08-31T20:04:47.216Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,68 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 98,
-    "playerAWins": 55,
-    "playerBWins": 36,
+    "sharedStarts": 100,
+    "playerAWins": 56,
+    "playerBWins": 37,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 3 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Rory McIlroy",
+        "dgId": 10091,
+        "finish": "3",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "rory-mcilroy",
+      "edge": "Rory by 9 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

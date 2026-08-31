@@ -1,6 +1,6 @@
 {
   "matchupId": "scottie-scheffler-vs-wyndham-clark",
-  "updatedAt": "2026-08-24T14:34:56.447Z",
+  "updatedAt": "2026-08-31T20:04:49.287Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,68 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 111,
-    "playerAWins": 84,
-    "playerBWins": 24,
+    "sharedStarts": 113,
+    "playerAWins": 85,
+    "playerBWins": 25,
     "ties": 3
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "eventId": 60,
+      "eventName": "TOUR Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "scottie-scheffler",
+      "edge": "Scottie by 20 spots",
+      "counted": true
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-23",
+      "eventId": 28,
+      "eventName": "BMW Championship",
+      "tour": "pga",
+      "playerA": {
+        "name": "Scottie Scheffler",
+        "dgId": 18417,
+        "finish": "T12",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "1",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "wyndham-clark",
+      "edge": "Wyndham by 11 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",
