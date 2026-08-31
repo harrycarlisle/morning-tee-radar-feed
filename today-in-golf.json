@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-08-30T19:18:16.725Z",
+  "lastUpdated": "2026-08-31T21:27:44.034Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Scheffler, McIlroy to Pass Woods",
-      "text": "Scottie Scheffler and Rory McIlroy are on track to eclipse Tiger Woods' PGA Tour career earnings record."
+      "headline": "Scheffler Tops All-Time Money List",
+      "text": "Scottie Scheffler became the PGA Tour's all-time career earnings leader with $130,390,661 after winning the Tour Championship and its $10 million prize, surpassing Tiger Woods' $120,999,166."
     },
     {
-      "headline": "Tour Championship $10M Prize",
-      "text": "Viktor Hovland leads by one shot over Ryan Gerard in the Tour Championship final round, where the leader earns $10 million of the $40 million purse."
+      "headline": "Tiger Woods' 26-Year Record Falls",
+      "text": "Scheffler ended Tiger Woods' nearly 26-year hold on golf's career money list by taking over as the all-time leader after the Tour Championship win."
     }
   ],
-  "itemsLastUpdated": "2026-08-30T19:18:16.725Z",
+  "itemsLastUpdated": "2026-08-31T21:27:44.034Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-08-30T19:18:16.725Z",
+  "lastSuccessfulStoryUpdate": "2026-08-31T21:27:44.034Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 682,
+  "openaiOutputLength": 747,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_1762d839af974b9e81f9e3b9be4931f0",
+  "openaiRequestId": "req_4ba2590a3222480ca601b41d8e75fb14",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-08-30T19:18:16.725Z",
+  "diagnosticUpdatedAt": "2026-08-31T21:27:44.033Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
