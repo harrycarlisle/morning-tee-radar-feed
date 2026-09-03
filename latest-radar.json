@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-02T22:16:53.011Z",
+  "updatedAt": "2026-09-03T02:38:32.171Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "10 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-09-03T01:18:03.000Z",
+      "approvedAt": "2026-09-03T02:38:32.168Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "Why Tiger Woods' DUI plea deal may include him no longer using golf carts",
+      "summary": "Tiger Woods’ plea deal results have repercussions not only in his personal life but may also have an effect on the green.",
+      "quickRead": "Tiger Woods’ DUI plea deal includes a five-year driver’s license suspension, and in Florida that can also bar him from driving a golf cart on public roads—meaning he may not be allowed to use carts at places like courses that require cart travel on roads.  It matters because Woods often relies on carts due to his leg injuries, so the restriction could affect his day-to-day mobility and any golf appearances that aren’t strictly walking-only.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/why-tiger-woods-dui-plea-011803046.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/why-tiger-woods-dui-plea-011803046.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "15 hours ago",
       "timestamp": "2026-09-02T11:30:00.000Z",
       "approvedAt": "2026-09-02T14:01:30.375Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/ted-scott-reveals-scottie-scheffler-113000689.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-02T20:32:06.000Z",
       "approvedAt": "2026-09-02T22:16:49.069Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-09-02T16:48:13.000Z",
       "approvedAt": "2026-09-02T19:10:09.772Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-09-02T15:30:00.000Z",
       "approvedAt": "2026-09-02T19:10:09.773Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-09-02T14:40:24.000Z",
       "approvedAt": "2026-09-02T19:10:09.773Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-09-02T12:30:00.000Z",
       "approvedAt": "2026-09-02T14:01:34.030Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-09-02T12:53:45.000Z",
       "approvedAt": "2026-09-02T14:01:34.031Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-ceo-brian-rolapp-193000094.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-01T21:32:58.000Z",
-      "approvedAt": "2026-09-02T08:19:35.871Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Tiger Woods scheduled to appear in Florida court Wednesday for DUI case",
-      "summary": "Tiger Woods is set to appear at a change-of-plea hearing in Florida on Wednesday, Sept.",
-      "quickRead": "Tiger Woods is due in Martin County (Fla. ) circuit court at 8:30 a.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-scheduled-appear-florida-213258129.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-scheduled-appear-florida-213258129.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-09-02T22:16:39.592Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-09-02T21:39:39.592Z",
       "status": "Trending",
       "signal": "Reddit find",
