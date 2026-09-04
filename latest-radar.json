@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-04T08:24:44.681Z",
+  "updatedAt": "2026-09-04T13:56:55.172Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "2 hours ago",
+      "timestamp": "2026-09-04T11:00:00.000Z",
+      "approvedAt": "2026-09-04T13:56:55.170Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "DP TOUR",
+      "title": "Jon Rahm’s Team Member Seeks DP World Tour Safety Net Amid LIV Golf Uncertainty",
+      "summary": "Caleb Surratt just celebrated Jon Rahm’s Legion XIII triumph, but LIV Golf no longer looks like a safe place to build a career.",
+      "quickRead": "Caleb Surratt just celebrated Jon Rahm’s Legion XIII triumph, but LIV Golf no longer looks like a safe place to build a career.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-team-member-seeks-110000831.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-team-member-seeks-110000831.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-09-04T05:34:35.000Z",
       "approvedAt": "2026-09-04T08:24:41.504Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/viktor-hovland-viral-bunker-video-053435131.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-09-03T17:45:00.000Z",
       "approvedAt": "2026-09-03T19:02:29.262Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-09-03T22:30:00.000Z",
       "approvedAt": "2026-09-04T02:34:49.553Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-09-03T16:23:43.000Z",
       "approvedAt": "2026-09-03T19:02:32.814Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-03T13:30:00.000Z",
       "approvedAt": "2026-09-03T14:03:47.684Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-03T12:40:44.000Z",
       "approvedAt": "2026-09-03T14:03:50.259Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-03T11:30:00.000Z",
       "approvedAt": "2026-09-03T14:03:50.260Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/reduced-charges-dont-lessen-tiger-005845985.html",
       "sourceUrl": "https://sports.yahoo.com/articles/reduced-charges-dont-lessen-tiger-005845985.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-02T21:07:54.000Z",
-      "approvedAt": "2026-09-03T08:29:07.865Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Golf real estate spotlight: This home with Vegas views on sale for $1.795 million",
-      "summary": "DragonRidge Country Club has hosted Tiger Woods' Tiger Jam III and IV charity events, along with the popular Wendy's 3-Tour Challenge.",
-      "quickRead": "A modern Henderson, Nevada home in the guard-gated MacDonald Highlands community overlooking DragonRidge Country Club and the Las Vegas Strip is listed for $1. 795 million, with 3 bedrooms, 4 bathrooms, a loft, office area and an upstairs coffee bar plus three balconies for Strip and golf-course views.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.yahoo.com/lifestyle/articles/golf-real-estate-spotlight-home-210754006.html",
-      "sourceUrl": "https://www.yahoo.com/lifestyle/articles/golf-real-estate-spotlight-home-210754006.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-09-04T08:24:33.527Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-04T07:47:33.527Z",
       "status": "Trending",
       "signal": "Reddit find",
