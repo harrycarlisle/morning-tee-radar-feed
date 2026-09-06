@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-06T08:18:05.409Z",
+  "updatedAt": "2026-09-06T13:21:20.521Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "53 min ago",
+      "time": "4 hours ago",
+      "timestamp": "2026-09-06T08:30:00.000Z",
+      "approvedAt": "2026-09-06T13:21:20.518Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Emotional Paul Casey reveals what he plans to do with his prize money at the Om...",
+      "summary": "Paul Casey leads the Omega European Masters by three strokes heading into the final round on Sunday.",
+      "quickRead": "Paul Casey leads the Omega European Masters by three strokes heading into the final round on Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/emotional-paul-casey-reveals-plans-083000095.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/emotional-paul-casey-reveals-plans-083000095.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-09-06T07:24:35.000Z",
       "approvedAt": "2026-09-06T08:18:02.140Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-walker-cup-sunday-tee-072435791.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "12 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-09-05T20:01:11.000Z",
       "approvedAt": "2026-09-05T21:51:11.786Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-09-05T21:38:15.000Z",
       "approvedAt": "2026-09-05T23:29:47.163Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-09-05T16:02:10.000Z",
       "approvedAt": "2026-09-05T17:51:59.584Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-05T11:30:00.000Z",
       "approvedAt": "2026-09-05T19:49:48.763Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-09-05T14:30:00.000Z",
       "approvedAt": "2026-09-05T17:52:01.431Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-09-05T17:00:57.000Z",
       "approvedAt": "2026-09-05T17:52:01.432Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-embarrassment-continues-dp-235214076.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-09-05T13:00:00.000Z",
-      "approvedAt": "2026-09-05T14:26:16.372Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Why Scottie Scheffler should be desperate for Jon Rahm to return to the PGA Tour",
-      "summary": "Scottie Scheffler has been the best and most consistent golfer on the planet over the past few years.",
-      "quickRead": "Scottie Scheffler has been the best and most consistent golfer on the planet over the past few years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/why-scottie-scheffler-desperate-jon-130000684.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/why-scottie-scheffler-desperate-jon-130000684.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-09-06T08:17:55.567Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-09-06T07:40:55.567Z",
       "status": "Trending",
       "signal": "Reddit find",
