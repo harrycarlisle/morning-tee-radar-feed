@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-07T19:56:27.852Z",
+  "lastUpdated": "2026-09-08T19:25:29.207Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Kai Trump Miami Debut",
-      "text": "Kai Trump made her University of Miami debut at the Golfweek Fall Challenge, shooting 7-over 78 after returning from wrist surgery, starting her freshman collegiate season."
+      "headline": "Rahm Mum on LIV Future",
+      "text": "Jon Rahm said “we’ll see” about his LIV Golf future while returning to the Irish Open at Trump International Doonbeg, where he's pursuing his third title amid LIV's uncertainty."
     },
     {
-      "headline": "Justin Thomas Presidents Cup",
-      "text": "Justin Thomas was selected to play for Team USA in the 2026 Presidents Cup, preparing for another international appearance."
-    },
-    {
-      "headline": "PGA Tour Putter Patterns",
-      "text": "The 2026 PGA Tour season ended revealing a clear pattern in the putters used by tournament winners, highlighting equipment trends."
+      "headline": "Jason Day Declines Presidents Cup Role",
+      "text": "Jason Day turned down a vice-captain position at the Presidents Cup to focus on rehabbing a back injury, leaving the International team short of one of its recent stars."
     }
   ],
-  "itemsLastUpdated": "2026-09-07T19:56:27.852Z",
+  "itemsLastUpdated": "2026-09-08T19:25:29.207Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-07T19:56:27.852Z",
+  "lastSuccessfulStoryUpdate": "2026-09-08T19:25:29.207Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "candidateItemsSelected": 7,
   "openaiAttempted": true,
-  "openaiOutputLength": 704,
+  "openaiOutputLength": 821,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_d7e0782b2af544dca6899b7bfef66134",
+  "openaiRequestId": "req_7387104d07904101b9f495b0f934fe46",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-09-07T19:56:27.852Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-09-08T19:25:29.207Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
