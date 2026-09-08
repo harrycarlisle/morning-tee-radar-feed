@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-08T08:31:08.435Z",
+  "updatedAt": "2026-09-08T14:04:12.697Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-09-08T11:00:00.000Z",
+      "approvedAt": "2026-09-08T14:04:12.694Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "What Rory McIlroy and Brooks Koepka have said about playing the 2026 Irish Open...",
+      "summary": "Rory McIlroy and Brooks Koepka are two of the marquee names in the field for this week’s Irish Open on the DP World Tour.",
+      "quickRead": "Rory McIlroy and Brooks Koepka are two of the marquee names in the field for this week’s Irish Open on the DP World Tour.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-brooks-koepka-said-110000211.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-brooks-koepka-said-110000211.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "18 hours ago",
       "timestamp": "2026-09-07T19:30:33.000Z",
       "approvedAt": "2026-09-07T22:27:31.965Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-tiger-woods-rory-193033083.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-09-07T20:12:03.000Z",
       "approvedAt": "2026-09-07T22:27:34.272Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-09-07T15:45:00.000Z",
       "approvedAt": "2026-09-07T19:32:40.758Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "10 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-07T11:30:00.000Z",
       "approvedAt": "2026-09-07T15:27:41.407Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-09-07T14:17:30.000Z",
       "approvedAt": "2026-09-07T15:27:41.408Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-07T12:45:00.000Z",
       "approvedAt": "2026-09-07T15:27:41.408Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-07T07:12:07.000Z",
       "approvedAt": "2026-09-07T08:51:09.307Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/know-2026-irish-open-065255421.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-06T21:02:31.000Z",
-      "approvedAt": "2026-09-06T21:54:35.012Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Here are the 8 scheduled Walker Cup future sites, beginning in 2028",
-      "summary": "After Lahinch, the Walker Cup heads stateside to the Oregon coast in 2028.",
-      "quickRead": "After Lahinch, the Walker Cup heads stateside to the Oregon coast in 2028.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/8-scheduled-walker-cup-future-210231936.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/8-scheduled-walker-cup-future-210231936.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-09-08T08:30:58.144Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-08T07:53:58.144Z",
       "status": "Trending",
       "signal": "Reddit find",
