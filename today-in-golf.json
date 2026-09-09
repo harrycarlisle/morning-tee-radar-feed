@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-08T19:25:29.207Z",
+  "lastUpdated": "2026-09-09T19:15:59.367Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Rahm Mum on LIV Future",
-      "text": "Jon Rahm said “we’ll see” about his LIV Golf future while returning to the Irish Open at Trump International Doonbeg, where he's pursuing his third title amid LIV's uncertainty."
+      "headline": "LIV Golf Bankruptcy Filed",
+      "text": "LIV Golf officially filed for Chapter 11 bankruptcy with up to $1 billion in liabilities, leaving stars like Jon Rahm and Bryson DeChambeau's futures uncertain."
     },
     {
-      "headline": "Jason Day Declines Presidents Cup Role",
-      "text": "Jason Day turned down a vice-captain position at the Presidents Cup to focus on rehabbing a back injury, leaving the International team short of one of its recent stars."
+      "headline": "Trump's Irish Open Visit Impact",
+      "text": "With President Donald Trump visiting the Irish Open at Trump Doonbeg, Rory McIlroy says there will be tight security, limited crowds, and an altered atmosphere, but players plan to focus on their game."
     }
   ],
-  "itemsLastUpdated": "2026-09-08T19:25:29.207Z",
+  "itemsLastUpdated": "2026-09-09T19:15:59.367Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-08T19:25:29.207Z",
+  "lastSuccessfulStoryUpdate": "2026-09-09T19:15:59.367Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 7,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 821,
+  "openaiOutputLength": 810,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_7387104d07904101b9f495b0f934fe46",
+  "openaiRequestId": "req_bf59326118664e3397fd1fd325eaf9f3",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-09-08T19:25:29.207Z",
+  "diagnosticUpdatedAt": "2026-09-09T19:15:59.366Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
