@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-09-09T19:01:04.886Z",
+  "updatedAt": "2026-09-09T19:01:06.896Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "37 min ago",
+      "timestamp": "2026-09-09T18:23:45.801Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-09-09T19:01:06.896Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "4 hours ago",
@@ -1894,26 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "archivedAt": "2026-08-31T01:01:49.751Z"
-    },
-    {
-      "time": "35 min ago",
-      "timestamp": "2026-08-31T00:26:01.000Z",
-      "approvedAt": "2026-08-31T01:01:46.345Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler Finally Breaks Tiger Woods’ $121M PGA Tour Earnings Record",
-      "summary": "World No.",
-      "quickRead": "Scottie Scheffler broke Tiger Woods’ long-standing PGA Tour career earnings mark (about $121 million) by winning the Tour Championship with a final-round 66, jumping from $608,505 behind Woods to roughly $9. 4 million ahead.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-finally-breaks-tiger-002601329.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-finally-breaks-tiger-002601329.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "archivedAt": "2026-08-31T01:01:47.446Z"
     }
   ]
 }
