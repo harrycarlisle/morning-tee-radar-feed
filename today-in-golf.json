@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-09T19:15:59.367Z",
+  "lastUpdated": "2026-09-10T19:06:53.388Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "LIV Golf Bankruptcy Filed",
-      "text": "LIV Golf officially filed for Chapter 11 bankruptcy with up to $1 billion in liabilities, leaving stars like Jon Rahm and Bryson DeChambeau's futures uncertain."
+      "headline": "McIlroy Chases Irish Open History",
+      "text": "Rory McIlroy returns as defending leader at the $6 million Amgen Irish Open, aiming to make history with his title defense."
     },
     {
-      "headline": "Trump's Irish Open Visit Impact",
-      "text": "With President Donald Trump visiting the Irish Open at Trump Doonbeg, Rory McIlroy says there will be tight security, limited crowds, and an altered atmosphere, but players plan to focus on their game."
+      "headline": "Irish Open Faces Scheduling Clash",
+      "text": "The DP World Tour’s Irish Open runs the same weekend as the 2026 Solheim Cup, a scheduling move that disappoints many including fans and players."
+    },
+    {
+      "headline": "Korn Ferry Tour Finals Underway",
+      "text": "The Simmons Bank Open starts the Korn Ferry Tour Finals with a strong field competing for PGA Tour cards and a $270,000 first prize."
     }
   ],
-  "itemsLastUpdated": "2026-09-09T19:15:59.367Z",
+  "itemsLastUpdated": "2026-09-10T19:06:53.388Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-09T19:15:59.367Z",
+  "lastSuccessfulStoryUpdate": "2026-09-10T19:06:53.388Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 810,
+  "openaiOutputLength": 703,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_bf59326118664e3397fd1fd325eaf9f3",
+  "openaiRequestId": "req_050ab94c2050407581583a9a844491a4",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-09-09T19:15:59.366Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-09-10T19:06:53.388Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
