@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-10T19:06:53.388Z",
+  "lastUpdated": "2026-09-11T19:08:56.684Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "McIlroy Chases Irish Open History",
-      "text": "Rory McIlroy returns as defending leader at the $6 million Amgen Irish Open, aiming to make history with his title defense."
+      "headline": "Tiger's $1 Billion Tech League",
+      "text": "Tiger Woods co-founded TGL, a tech-forward indoor team golf league valued near $1 billion as his DUI case ends with a five-year license suspension."
     },
     {
-      "headline": "Irish Open Faces Scheduling Clash",
-      "text": "The DP World Tour’s Irish Open runs the same weekend as the 2026 Solheim Cup, a scheduling move that disappoints many including fans and players."
+      "headline": "LIV Golf Bankruptcy Declared",
+      "text": "LIV Golf declared bankruptcy to facilitate a new tour version but faces financial turmoil after PIF funding was withdrawn in April."
     },
     {
-      "headline": "Korn Ferry Tour Finals Underway",
-      "text": "The Simmons Bank Open starts the Korn Ferry Tour Finals with a strong field competing for PGA Tour cards and a $270,000 first prize."
+      "headline": "Koepka's Return Disappoints",
+      "text": "Brooks Koepka finished 94th in FedEx Cup standings in 2026, failing to contend in majors and facing pressure to regain top form in 2027."
     }
   ],
-  "itemsLastUpdated": "2026-09-10T19:06:53.388Z",
+  "itemsLastUpdated": "2026-09-11T19:08:56.684Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-10T19:06:53.388Z",
+  "lastSuccessfulStoryUpdate": "2026-09-11T19:08:56.684Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 703,
+  "openaiOutputLength": 705,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_050ab94c2050407581583a9a844491a4",
+  "openaiRequestId": "req_99f946a4c5f94e899790d54b26905890",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-09-10T19:06:53.388Z",
+  "diagnosticUpdatedAt": "2026-09-11T19:08:56.684Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
