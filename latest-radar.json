@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-13T02:46:11.694Z",
+  "updatedAt": "2026-09-13T08:43:14.287Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-09-13T08:43:14.283Z",
+      "approvedAt": "2026-09-13T08:43:14.283Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler wins TOUR Championship at -16",
+      "summary": "Scottie Scheffler wins TOUR Championship at -16. Nearest finishers: Viktor Hovland (-13), Ryan Gerard (-12), Alex Fitzpatrick (-11).",
+      "quickRead": "Scottie Scheffler won the 2026 TOUR Championship at East Lake at 16-under (264), finishing three shots clear of Viktor Hovland (-13) and four ahead of Ryan Gerard (-12).  Scheffler sealed the $10 million winner’s payout with four rounds in the 60s (65-67-66-66), while Hovland and Gerard both closed with 72 to fall back on Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "TOUR Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Viktor Hovland",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Fitzpatrick",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Jacob Bridgeman",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "20 hours ago",
       "timestamp": "2026-09-12T12:00:00.000Z",
       "approvedAt": "2026-09-12T13:18:48.142Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-makes-brutal-push-120000728.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-09-13T00:22:01.000Z",
       "approvedAt": "2026-09-13T02:46:08.377Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-09-12T22:39:19.000Z",
       "approvedAt": "2026-09-13T02:46:08.377Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-09-12T16:30:07.000Z",
       "approvedAt": "2026-09-12T23:39:52.987Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-09-12T15:29:29.000Z",
       "approvedAt": "2026-09-12T16:41:17.179Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-09-12T13:34:38.000Z",
       "approvedAt": "2026-09-12T16:41:17.181Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-09-12T11:30:00.000Z",
       "approvedAt": "2026-09-12T13:18:50.579Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-09-12T11:30:54.000Z",
       "approvedAt": "2026-09-12T13:18:50.579Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/donald-trump-confirms-attend-2027-113054014.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-11T19:34:15.000Z",
-      "approvedAt": "2026-09-12T13:18:50.579Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "Solheim Cup Day 1 takeaways: Carlota Ciganda clutch; curious decisions; where w...",
-      "summary": "It was a long opening day in the 20th Solheim Cup, one with a phenomenal finish and lots of intrigue as we head to Day 2.",
-      "quickRead": "It was a long opening day in the 20th Solheim Cup, one with a phenomenal finish and lots of intrigue as we head to Day 2.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/solheim-cup-day-1-takeaways-193415771.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/solheim-cup-day-1-takeaways-193415771.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-09-13T02:46:03.153Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-13T02:09:03.154Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -297,5 +331,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-09-13T08:43:14.287Z",
+      "approvedAt": "2026-09-13T08:43:14.287Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler wins TOUR Championship at -16",
+      "summary": "Scottie Scheffler wins TOUR Championship at -16. Nearest finishers: Viktor Hovland (-13), Ryan Gerard (-12), Alex Fitzpatrick (-11).",
+      "quickRead": "Scottie Scheffler won the 2026 TOUR Championship at East Lake at 16-under (264), finishing three shots clear of Viktor Hovland (-13) and four ahead of Ryan Gerard (-12).  Scheffler sealed the $10 million winner’s payout with four rounds in the 60s (65-67-66-66), while Hovland and Gerard both closed with 72 to fall back on Sunday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "TOUR Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Scottie Scheffler",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Viktor Hovland",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "3",
+          "name": "Ryan Gerard",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Alex Fitzpatrick",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Jacob Bridgeman",
+          "score": "-11",
+          "thru": "F"
+        }
+      ]
+    }
+  ]
 }
