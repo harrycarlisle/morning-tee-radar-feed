@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-15T17:53:38.313Z",
+  "updatedAt": "2026-09-15T20:47:05.586Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "2 hours ago",
+      "timestamp": "2026-09-15T18:33:55.000Z",
+      "approvedAt": "2026-09-15T20:47:05.583Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "‘Why’d They Do This’: Justin Thomas Blasts Latest Changes at PGA Tour Course in...",
+      "summary": "Recent changes and restorations at Pebble Beach Golf Links aim to restore its original design, enhance strategic play, and prepare it for future major championships.",
+      "quickRead": "Recent changes and restorations at Pebble Beach Golf Links aim to restore its original design, enhance strategic play, and prepare it for future major championships.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/why-d-justin-thomas-blasts-183355938.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/why-d-justin-thomas-blasts-183355938.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
+    },
     {
       "time": "4 hours ago",
       "timestamp": "2026-09-15T16:20:16.000Z",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/biltmore-championship-field-2026-full-205705790.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "Yesterday",
-      "timestamp": "2026-09-14T19:00:49.000Z",
-      "approvedAt": "2026-09-14T21:20:11.696Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "BMW PGA Championship field is loaded with PGA Tour stars, major champions",
-      "summary": "The 2026 BMW PGA Championship has a loaded field with major champions, ex-LIV golfers, 2026 PGA Tour winners and more.",
-      "quickRead": "The 2026 BMW PGA Championship has a loaded field with major champions, ex-LIV golfers, 2026 PGA Tour winners and more.",
+      "label": "MAJOR WATCH",
+      "title": "‘Why’d They Do This’: Justin Thomas Blasts Latest Changes at PGA Tour...",
+      "summary": "Recent changes and restorations at Pebble Beach Golf Links aim to restore its original design, enhance strategic play, and prepare it for future ma...",
+      "quickRead": "Recent changes and restorations at Pebble Beach Golf Links aim to restore its original design, enhance strategic play, and prepare it for future major championships.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bmw-pga-championship-field-loaded-190049572.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bmw-pga-championship-field-loaded-190049572.html",
+      "url": "https://sports.yahoo.com/articles/why-d-justin-thomas-blasts-183355938.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/why-d-justin-thomas-blasts-183355938.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png",
+      "timestamp": "2026-09-15T18:33:55.000Z"
+    },
     {
       "label": "MAJOR WATCH",
       "title": "BMW PGA Championship field is loaded with PGA Tour stars, major champ...",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
       "timestamp": "2026-09-15T16:36:04.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Rory McIlroy calls PGA Tour Challenger Series a 'lateral move' from D...",
-      "summary": "Rory McIlroy said the PGA Tour’s new Challenger Series would be a “lateral move” for DP World Tour players, not the clear step up some might assume...",
-      "quickRead": "Rory McIlroy said the PGA Tour’s new Challenger Series would be a “lateral move” for DP World Tour players, not the clear step up some might assume, because it’s essentially a second-tier circuit rather than true PGA Tour status.  It matters because Europe-based pros weighing the new 2028 pathway may be better off staying on the DP World Tour to chase bigger events, points and visibility instead of dropping into a development-style schedule.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-calls-pga-tour-153405900.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-calls-pga-tour-153405900.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-09-15T15:34:05.000Z"
     }
   ],
   "checking": {
