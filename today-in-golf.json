@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-14T20:17:46.390Z",
+  "lastUpdated": "2026-09-15T19:41:13.580Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Justin Thomas Withdraws",
-      "text": "Justin Thomas abruptly withdrew from the inaugural Biltmore Championship in Asheville a week before the Presidents Cup, giving no reason for his withdrawal."
+      "headline": "McIlroy on Challenger Series",
+      "text": "Rory McIlroy called the PGA Tour’s new Challenger Series a lateral move for DP World Tour players, advising them to stay on the DP World Tour for bigger events and visibility."
     },
     {
-      "headline": "Brendan Valdes Returns",
-      "text": "Brendan Valdes returns to Tour-sanctioned golf at the Biltmore Championship after beating primary mediastinal lymphoma and being cancer-free since June."
+      "headline": "No Special Path for LIV Returns",
+      "text": "PGA Tour CEO Brian Rolapp confirmed there will be no fast-track or returning member program for LIV players like Bryson DeChambeau or Jon Rahm, who must re-earn status through existing pathways starting in 2027."
     }
   ],
-  "itemsLastUpdated": "2026-09-14T20:17:46.390Z",
+  "itemsLastUpdated": "2026-09-15T19:41:13.580Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-14T20:17:46.390Z",
+  "lastSuccessfulStoryUpdate": "2026-09-15T19:41:13.580Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 3,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 533,
+  "openaiOutputLength": 900,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_cff7bc8b290b49e4859862e338a2a972",
+  "openaiRequestId": "req_8e1af4ce8e7449c084057ea581475571",
   "openaiRetryable": null,
   "openaiFailureAt": "",
-  "generatedItemsCount": 2,
+  "generatedItemsCount": 3,
   "cleanedItemsCount": 2,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-09-14T20:17:46.390Z",
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: pga-tour",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-09-15T19:41:13.579Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
