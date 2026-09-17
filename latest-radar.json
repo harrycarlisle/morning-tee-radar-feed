@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-17T19:29:40.612Z",
+  "updatedAt": "2026-09-17T22:36:28.366Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-09-17T20:14:29.000Z",
+      "approvedAt": "2026-09-17T22:36:28.364Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy Reveals Encouraging Sign From BMW PGA Opener",
+      "summary": "Rory McIlroy arrived at Wentworth with the BMW PGA Championship carrying added importance in his season.",
+      "quickRead": "Rory McIlroy arrived at Wentworth with the BMW PGA Championship carrying added importance in his season.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-encouraging-sign-201429901.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-encouraging-sign-201429901.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-09-17T17:30:00.000Z",
       "approvedAt": "2026-09-17T19:29:33.543Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/greg-norman-suggests-bryson-dechambeau-173000914.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-09-17T17:57:12.000Z",
       "approvedAt": "2026-09-17T19:29:35.852Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-17T16:28:27.000Z",
       "approvedAt": "2026-09-17T19:29:35.852Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-17T16:00:00.000Z",
       "approvedAt": "2026-09-17T19:29:35.853Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-09-17T13:09:32.000Z",
       "approvedAt": "2026-09-17T14:36:29.074Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-09-17T13:55:18.000Z",
       "approvedAt": "2026-09-17T14:36:32.069Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-09-16T23:00:00.000Z",
       "approvedAt": "2026-09-17T03:02:36.978Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-09-17T03:14:58.000Z",
       "approvedAt": "2026-09-17T09:06:47.914Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/dpwt-schedule-force-fascinating-ryder-031458328.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    },
-    {
-      "time": "20 hours ago",
-      "timestamp": "2026-09-16T23:00:26.000Z",
-      "approvedAt": "2026-09-17T09:06:47.916Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "CEO Brian Rolapp’s LIV Golf Stance Leaves 3 Paths Back to PGA Tour",
-      "summary": "LIV Golf players face a complicated road back to the PGA Tour.",
-      "quickRead": "LIV Golf players face a complicated road back to the PGA Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/ceo-brian-rolapp-liv-golf-230026497.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/ceo-brian-rolapp-liv-golf-230026497.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-09-17T19:29:20.268Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-09-17T18:52:20.268Z",
       "status": "Trending",
       "signal": "Reddit find",
