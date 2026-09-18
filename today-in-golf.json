@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-17T19:43:07.662Z",
+  "lastUpdated": "2026-09-18T19:01:22.137Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "BMW PGA Championship Update",
-      "text": "Rory McIlroy birdied all four par-5s and moved near the lead early Thursday at BMW PGA, but three bogeys on the back nine left him chasing after Aaron Rai and Joakim Lagergren, who both shot 6-under 66s to lead the first round."
+      "headline": "Reed Withdraws at BMW PGA",
+      "text": "Patrick Reed withdrew from the BMW PGA Championship with a hand/wrist injury after hitting a shot off a tree root during Friday's second round, ending his Race to Dubai points lead and benefiting Rory McIlroy's bid for a record eighth title."
     },
     {
-      "headline": "Asian Tour Rejects LIV Golf",
-      "text": "At a private meeting during the Open Championship, the Asian Tour decided to turn away from LIV Golf, striking a new alliance that reshapes the men's professional golf landscape."
+      "headline": "Asian Tour Cuts Ties With LIV",
+      "text": "Asian Tour chief Cho Minn Thant revealed a secret deal made at the Open Championship that shocked LIV Golf and reshaped the global tour landscape, pivoting the Asian Tour away from LIV."
     }
   ],
-  "itemsLastUpdated": "2026-09-17T19:43:07.662Z",
+  "itemsLastUpdated": "2026-09-18T19:01:22.137Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-17T19:43:07.662Z",
+  "lastSuccessfulStoryUpdate": "2026-09-18T19:01:22.137Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 6,
+  "candidateItemsSelected": 9,
   "openaiAttempted": true,
-  "openaiOutputLength": 860,
+  "openaiOutputLength": 888,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_378b2c4b219d4465a5cc44bfa95c4766",
+  "openaiRequestId": "req_e95a797e76af4273af42fd29370ad53c",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -41,11 +41,11 @@
   "rejectedItemsCount": 1,
   "rejectedReasons": [
     {
-      "reason": "duplicate topic: liv",
+      "reason": "duplicate topic: rory",
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-09-17T19:43:07.662Z",
+  "diagnosticUpdatedAt": "2026-09-18T19:01:22.137Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
