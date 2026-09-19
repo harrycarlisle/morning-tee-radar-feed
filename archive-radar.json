@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-09-19T02:48:57.441Z",
+  "updatedAt": "2026-09-19T08:28:06.742Z",
   "stories": [
+    {
+      "time": "11 hours ago",
+      "timestamp": "2026-09-18T20:42:35.000Z",
+      "approvedAt": "2026-09-19T08:28:05.540Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy makes a comment about Patrick Reed after shooting 67 on day two at...",
+      "summary": "Rory McIlroy and Patrick Reed experienced polar opposite rounds on Friday at the BMW PGA Championship at Wentworth.",
+      "quickRead": "Rory McIlroy and Patrick Reed experienced polar opposite rounds on Friday at the BMW PGA Championship at Wentworth.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-makes-patrick-reed-204235069.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-makes-patrick-reed-204235069.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-09-19T08:28:06.742Z"
+    },
     {
       "time": "10 hours ago",
       "timestamp": "2026-09-18T16:44:00.000Z",
@@ -1902,27 +1922,6 @@
       "displayPriority": 20,
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
       "archivedAt": "2026-09-09T19:01:06.896Z"
-    },
-    {
-      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "4 hours ago",
-      "timestamp": "2026-09-09T14:06:25.616Z",
-      "status": "Trending",
-      "signal": "Reddit find",
-      "category": "GOLF INTERNET",
-      "title": "Is this the world’s biggest bunker?",
-      "summary": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "url": "https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "source": "r/golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
-      "contentTier": "light",
-      "homepageEligible": false,
-      "topSlotEligible": false,
-      "searchTopSlotEligible": false,
-      "searchPriority": -25,
-      "displayPriority": 20,
-      "quickRead": "A giant bunker on r/golf has people debating whether this is a hazard, a canyon, or just golf course architecture getting dramatic.",
-      "archivedAt": "2026-09-09T19:01:04.886Z"
     }
   ]
 }
