@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-19T15:54:14.433Z",
-  "edition": "morning",
-  "label": "Updated at 8 a.m. ET",
+  "lastUpdated": "2026-09-19T18:35:29.353Z",
+  "edition": "midday",
+  "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
       "headline": "Patrick Reed Withdraws",
-      "text": "Patrick Reed withdrew from the BMW PGA Championship during Friday's second round after injuring his wrist/hand when his club struck a tree root on the ninth hole, impacting his Race to Dubai lead and opening an opportunity for Rory McIlroy."
+      "text": "Patrick Reed withdrew from the BMW PGA Championship during Friday's second round due to a wrist/hand injury caused by his club hitting a tree root on the ninth hole, impacting his Race to Dubai lead and opening an opportunity for Rory McIlroy."
     },
     {
-      "headline": "Pebble Beach Course Changes",
-      "text": "Pebble Beach has introduced two major changes for this week's Pure Insurance Championship, which players have noticed and commented on."
+      "headline": "Pebble Beach Changes Noted",
+      "text": "At this week's Pure Insurance Championship, Pebble Beach is showcasing two significant course changes that players have noticed, potentially affecting play."
     }
   ],
-  "itemsLastUpdated": "2026-09-19T15:54:14.433Z",
-  "itemsEdition": "morning",
+  "itemsLastUpdated": "2026-09-19T18:35:29.353Z",
+  "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-19T15:54:14.433Z",
+  "lastSuccessfulStoryUpdate": "2026-09-19T18:35:29.353Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 809,
+  "openaiOutputLength": 869,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_fbf6407fe36744fc95a7ec9324f5c9ff",
+  "openaiRequestId": "req_44b67432b418469ba6c5565e8740e40e",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-09-19T15:54:14.433Z",
+  "diagnosticUpdatedAt": "2026-09-19T18:35:29.353Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
