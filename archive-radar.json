@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-09-19T08:28:09.290Z",
+  "updatedAt": "2026-09-19T08:28:11.768Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "37 min ago",
+      "timestamp": "2026-09-19T07:50:55.402Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-09-19T08:28:11.768Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "5 hours ago",
@@ -1902,26 +1923,6 @@
       "image": "",
       "timestamp": "2026-09-09T20:27:37.000Z",
       "archivedAt": "2026-09-09T22:11:12.111Z"
-    },
-    {
-      "time": "59 min ago",
-      "timestamp": "2026-09-09T21:11:35.000Z",
-      "approvedAt": "2026-09-09T22:11:08.933Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy expects LIV Golf members will leave for DP World Tour, PGA Tour af...",
-      "summary": "LIV Golf officially filed for bankruptcy on Tuesday after months of uncertainty and chaos in the league.",
-      "quickRead": "Rory McIlroy said LIV Golf’s Chapter 11 bankruptcy filing will trigger players to “leave” and try to return to the PGA Tour and DP World Tour now that contracts are expected to be voided.  It matters because it could reshape fields quickly—starting with stars in the Irish Open like Jon Rahm and Brooks Koepka—while tours decide if (and how) ex-LIV players get a pathway back.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/rory-mcilroy-expects-liv-golf-members-will-leave-for-dp-world-tour-pga-tour-after-bankruptcy-filing-211135952.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/rory-mcilroy-expects-liv-golf-members-will-leave-for-dp-world-tour-pga-tour-after-bankruptcy-filing-211135952.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "archivedAt": "2026-09-09T22:11:09.935Z"
     }
   ]
 }
