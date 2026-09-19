@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-19T16:58:51.492Z",
+  "updatedAt": "2026-09-19T19:56:33.672Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-09-19T18:00:35.000Z",
+      "approvedAt": "2026-09-19T19:56:33.669Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy’s birdie-eagle finish fires him into Wentworth mix",
+      "summary": "For Rory McIlroy in the autumn of 2025, read Rory McIlroy in the autumn of 2026.",
+      "quickRead": "Rory McIlroy finished his third round at the BMW PGA Championship with birdie on 17 and a tap-in eagle on 18 after a towering four-iron approach, moving to three shots off the lead at Wentworth heading into Sunday.  The late surge put him back in the title hunt and in position to overhaul Patrick Reed in the Race to Dubai standings with a solo second or better.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-birdie-eagle-finish-180035947.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-birdie-eagle-finish-180035947.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-09-19T10:00:00.000Z",
       "approvedAt": "2026-09-19T13:39:00.685Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/patrick-reed-injury-gives-rory-100000876.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-09-19T12:30:00.000Z",
       "approvedAt": "2026-09-19T13:39:03.208Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jj-spaun.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-18T19:07:21.000Z",
       "approvedAt": "2026-09-19T13:39:03.208Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-09-19T07:21:06.000Z",
       "approvedAt": "2026-09-19T13:39:03.208Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-18T19:13:55.000Z",
       "approvedAt": "2026-09-19T02:48:54.893Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-09-18T20:42:35.000Z",
       "approvedAt": "2026-09-19T08:28:05.540Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-09-18T20:30:49.000Z",
       "approvedAt": "2026-09-18T22:11:52.962Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-gets-tougher-everyone-203049494.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-09-18T21:24:16.000Z",
-      "approvedAt": "2026-09-18T22:11:55.506Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rahm’s BMW PGA Collapse Sparks LIV Exit Rumors",
-      "summary": "Jon Rahm's historic miss at the BMW PGA Championship fuels speculation about his future as LIV Golf faces financial turmoil.",
-      "quickRead": "Jon Rahm's historic miss at the BMW PGA Championship fuels speculation about his future as LIV Golf faces financial turmoil.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rahm-bmw-pga-collapse-sparks-212416611.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rahm-bmw-pga-collapse-sparks-212416611.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -225,19 +225,19 @@
       "timestamp": "2026-09-15T22:35:08.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "‘The golf course is going to get hurt': A shape-shifting Pebble Beach...",
-      "summary": "Pebble Beach is showcasing two major changes at this week's Pure Insurance Championship, and players have noticed them.",
-      "quickRead": "Pebble Beach is showcasing two major changes at this week's Pure Insurance Championship, and players have noticed them.",
+      "label": "STAR WATCH",
+      "title": "PGA Tour gets tougher for everyone, even Tiger Woods and Rory McIlroy...",
+      "summary": "Even the apparent winners in golf’s civil war will find aspects of the new structure unappealing.",
+      "quickRead": "Even the apparent winners in golf’s civil war will find aspects of the new structure unappealing.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/golf-course-going-hurt-shape-072106126.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/golf-course-going-hurt-shape-072106126.html",
+      "url": "https://sports.yahoo.com/articles/pga-tour-gets-tougher-everyone-203049494.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-gets-tougher-everyone-203049494.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-09-19T07:21:06.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-09-18T20:30:49.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-09-19T16:58:41.833Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-09-19T16:21:41.834Z",
       "status": "Trending",
       "signal": "Reddit find",
