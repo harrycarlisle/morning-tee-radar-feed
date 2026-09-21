@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-20T18:45:59.752Z",
+  "lastUpdated": "2026-09-21T20:24:57.894Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "McIlroy’s Wentworth Move",
-      "text": "Rory McIlroy and wife Erica moved into a renovated six-bedroom mansion steps from Wentworth Club, making the BMW PGA Championship more personal and logistically easy this week."
+      "headline": "Scott’s PGA Tour Promotion",
+      "text": "Sandy Scott shot a final-round 65 to win the Nationwide Children’s Hospital Championship, breaking the scoring record and earning his first 2027 PGA Tour card after overcoming a wrist injury."
     },
     {
-      "headline": "McIlroy’s Eagle Boost",
-      "text": "Rory McIlroy holed an eagle on the 18th to finish three-under 72, moving within two shots of the lead and keeping his hopes alive to pass Patrick Reed in DP World Tour standings with a solo second or better."
+      "headline": "Bryson DeChambeau Teases Return",
+      "text": "Bryson DeChambeau posted \"I'm coming home\" on Instagram, hinting at a return with a viral hole-in-one challenge after a period of uncertainty."
     },
     {
-      "headline": "DeChambeau Skips BMW PGA",
-      "text": "Bryson DeChambeau chose to skip the BMW PGA Championship this week, missing a key European Tour event during its final round action."
+      "headline": "McIlroy Praised for Driving",
+      "text": "Rory McIlroy is recognized as the best driver of the golf ball on the planet, setting a benchmark for what a ‘good’ golfer should achieve off the tee."
     }
   ],
-  "itemsLastUpdated": "2026-09-20T18:45:59.752Z",
+  "itemsLastUpdated": "2026-09-21T20:24:57.894Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-20T18:45:59.752Z",
+  "lastSuccessfulStoryUpdate": "2026-09-21T20:24:57.894Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 3,
   "openaiAttempted": true,
-  "openaiOutputLength": 790,
+  "openaiOutputLength": 775,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_0253dc84f569456091cdd298ba09a336",
+  "openaiRequestId": "req_fcf50e9875b144bdb8060623714ae673",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-09-20T18:45:59.752Z",
+  "diagnosticUpdatedAt": "2026-09-21T20:24:57.894Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
