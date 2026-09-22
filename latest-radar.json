@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-22T20:47:30.908Z",
+  "updatedAt": "2026-09-22T23:57:27.242Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-09-22T22:05:28.000Z",
+      "approvedAt": "2026-09-22T23:57:27.238Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler is the dominant player in golf. The Cups have been another ma...",
+      "summary": "Scottie Scheffler is the undisputed No.",
+      "quickRead": "Scottie Scheffler has been golf’s dominant No.  1, but his team-match record has lagged: he went 1-4-0 at last year’s Ryder Cup (including a singles win over Rory McIlroy) and is 3-6-3 overall in Cups.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/scottie-scheffler-dominant-player-golf-220528158.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-dominant-player-golf-220528158.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "13 hours ago",
       "timestamp": "2026-09-22T10:30:00.000Z",
       "approvedAt": "2026-09-22T13:01:27.461Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-spotted-doing-recently-103000458.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-09-22T17:45:32.000Z",
       "approvedAt": "2026-09-22T20:47:26.350Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-09-22T16:01:40.000Z",
       "approvedAt": "2026-09-22T17:53:21.746Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-21T23:15:46.000Z",
       "approvedAt": "2026-09-22T17:53:21.746Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-21T22:09:53.000Z",
       "approvedAt": "2026-09-22T00:31:07.601Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-rules-just-force-202000983.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-21T19:01:02.000Z",
-      "approvedAt": "2026-09-21T21:36:34.201Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LPGA",
-      "title": "World No 1 Korda still out of new golf league, but door not closed",
-      "summary": "The new indoor golf league features top LPGA stars but is missing world No.",
-      "quickRead": "The new indoor golf league features top LPGA stars but is missing world No.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/world-no-1-korda-still-190102997.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/world-no-1-korda-still-190102997.html",
-      "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     }
   ],
   "weekRadar": [
@@ -210,6 +210,21 @@
       "timestamp": "2026-09-21T14:28:46.000Z"
     },
     {
+      "label": "LIV WATCH",
+      "title": "The numbers that prove why the PGA Tour does not need Bryson DeChambe...",
+      "summary": "Bryson DeChambeau’s future with LIV Golf remains up in the air right now.",
+      "quickRead": "Bryson DeChambeau’s future with LIV Golf remains up in the air right now.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/numbers-prove-why-pga-tour-163000210.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/numbers-prove-why-pga-tour-163000210.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-09-21T16:30:00.000Z"
+    },
+    {
       "label": "MAJOR WATCH",
       "title": "Tiger Woods’ Path Back to PGA Tour’s Biggest Events Just Got More Com...",
       "summary": "Tiger Woods could use a major exemption to reach the PGA Tour's 2028 Championship Series, but the new rules come with a significant requirement.",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
       "timestamp": "2026-09-21T22:09:53.000Z"
-    },
-    {
-      "label": "LIV WATCH",
-      "title": "What Bryson DeChambeau was spotted doing recently could hint at LIV f...",
-      "summary": "While LIV Golf is bankrupt and its future uncertain, Bryson DeChambeau is exploring other paths.",
-      "quickRead": "While LIV Golf is bankrupt and its future uncertain, Bryson DeChambeau is exploring other paths.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-spotted-doing-recently-103000458.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-spotted-doing-recently-103000458.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-09-22T10:30:00.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-09-22T20:47:19.573Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-09-22T20:10:19.573Z",
       "status": "Trending",
       "signal": "Reddit find",
