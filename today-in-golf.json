@@ -1,31 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-22T19:43:56.971Z",
+  "lastUpdated": "2026-09-23T19:40:01.719Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Presidents Cup critique",
-      "text": "The Presidents Cup has become more of an exhibition than a competition, with the PGA Tour partially to blame."
+      "headline": "Jacob Bridgeman Enters Top 10",
+      "text": "Jacob Bridgeman jumped into the top 10 on the 2026 PGA Tour money list as Scottie Scheffler leads with over $30 million earned this season."
     },
     {
-      "headline": "Bryson's uncertain future",
-      "text": "Bryson DeChambeau, amid LIV Golf's bankruptcy, is exploring alternative career paths beyond the tour."
+      "headline": "Henley Unfazed by Scheffler Partnership",
+      "text": "Russell Henley said his long friendship with Scottie Scheffler means he does not feel extra pressure to perform for him in team golf events."
     }
   ],
-  "itemsLastUpdated": "2026-09-22T19:43:56.971Z",
+  "itemsLastUpdated": "2026-09-23T19:40:01.719Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-22T19:43:56.971Z",
+  "lastSuccessfulStoryUpdate": "2026-09-23T19:40:01.719Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 3,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 645,
+  "openaiOutputLength": 760,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,7 +33,7 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_168eae6ee4e0410ab081ef06181764f6",
+  "openaiRequestId": "req_ea6fad276b4d45738c03546a742e2b3b",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
@@ -45,7 +45,7 @@
       "count": 1
     }
   ],
-  "diagnosticUpdatedAt": "2026-09-22T19:43:56.970Z",
+  "diagnosticUpdatedAt": "2026-09-23T19:40:01.719Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
