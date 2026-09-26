@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-25T20:00:50.278Z",
+  "lastUpdated": "2026-09-26T19:12:17.806Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Scheffler's TIO Free Drop",
-      "text": "Scottie Scheffler received a free drop at the Open due to a Temporary Immovable Obstruction, raising questions about current rules favoring top players."
+      "headline": "Fitzpatrick Leads French Open",
+      "text": "Matt Fitzpatrick shot 6-under 65 Saturday at Le Golf National to gain a five-shot lead in the Open de France, chasing his fourth title of 2026."
     },
     {
-      "headline": "Trump Named Presidents Cup Chair",
-      "text": "President Donald Trump will serve as honorary chairman of the 2026 Presidents Cup at Medinah Country Club in Illinois."
+      "headline": "Fleetwood Withdraws from French Open",
+      "text": "Tommy Fleetwood withdrew from the $3.75M Open de France due to sudden illness while 6-under, removing a contender before the final round."
+    },
+    {
+      "headline": "Presidents Cup Sweeps USA",
+      "text": "After two days at Medinah, Team USA suffered a rare sweep at the Presidents Cup, marking a major turn in the competition."
     }
   ],
-  "itemsLastUpdated": "2026-09-25T20:00:50.278Z",
+  "itemsLastUpdated": "2026-09-26T19:12:17.806Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-25T20:00:50.278Z",
+  "lastSuccessfulStoryUpdate": "2026-09-26T19:12:17.806Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 7,
   "openaiAttempted": true,
-  "openaiOutputLength": 713,
+  "openaiOutputLength": 697,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_d2a00ddbbefd4bec9d1de9e78813d901",
+  "openaiRequestId": "req_14319d4c354749068d0e43e2d1195b2d",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: scheffler",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-09-25T20:00:50.278Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-09-26T19:12:17.806Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
