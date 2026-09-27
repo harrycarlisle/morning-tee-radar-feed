@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-09-26T19:12:17.806Z",
+  "lastUpdated": "2026-09-27T19:45:29.018Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Fitzpatrick Leads French Open",
-      "text": "Matt Fitzpatrick shot 6-under 65 Saturday at Le Golf National to gain a five-shot lead in the Open de France, chasing his fourth title of 2026."
+      "headline": "Patrick Reed Injury Setback",
+      "text": "Patrick Reed withdrew from the Alfred Dunhill Links Championship due to a wrist injury, risking his $2 million Race to Dubai bonus and opening the door for Rory McIlroy to close a 308-point lead."
     },
     {
-      "headline": "Fleetwood Withdraws from French Open",
-      "text": "Tommy Fleetwood withdrew from the $3.75M Open de France due to sudden illness while 6-under, removing a contender before the final round."
+      "headline": "Tommy Fleetwood Withdraws Sick",
+      "text": "Tommy Fleetwood apologized to fans after abruptly withdrawing amid illness following missed cut struggles at the BMW PGA Championship and Open de France."
     },
     {
-      "headline": "Presidents Cup Sweeps USA",
-      "text": "After two days at Medinah, Team USA suffered a rare sweep at the Presidents Cup, marking a major turn in the competition."
+      "headline": "Scottie Scheffler Revisits 2024 Incident",
+      "text": "Scottie Scheffler reflected on being detained outside Valhalla Golf Club before the 2024 PGA Championship second round, sharing his perspective on the event."
     }
   ],
-  "itemsLastUpdated": "2026-09-26T19:12:17.806Z",
+  "itemsLastUpdated": "2026-09-27T19:45:29.018Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-09-26T19:12:17.806Z",
+  "lastSuccessfulStoryUpdate": "2026-09-27T19:45:29.018Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 7,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 697,
+  "openaiOutputLength": 808,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_14319d4c354749068d0e43e2d1195b2d",
+  "openaiRequestId": "req_455c0a42ff74435e80532a644f0a5255",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-09-26T19:12:17.806Z",
+  "diagnosticUpdatedAt": "2026-09-27T19:45:29.018Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
