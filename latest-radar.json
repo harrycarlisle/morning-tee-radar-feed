@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-09-29T20:24:19.464Z",
+  "updatedAt": "2026-09-30T00:58:25.062Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-09-29T22:09:14.000Z",
+      "approvedAt": "2026-09-30T00:58:25.059Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "‘I Think Rahm Is Gone’: Alan Shipnuck Floats Shock LIV Golf Exit as 2027 Uncert...",
+      "summary": "Months after Saudi Arabia’s PIF ended its equity funding, LIV Golf was forced to file for bankruptcy so it could restructure with help from its new lead investors, London-based BC Partners.",
+      "quickRead": "Months after Saudi Arabia’s PIF ended its equity funding, LIV Golf was forced to file for bankruptcy so it could restructure with help from its new lead investors, London-based BC Partners.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/think-rahm-gone-alan-shipnuck-220914053.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/think-rahm-gone-alan-shipnuck-220914053.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "15 hours ago",
       "timestamp": "2026-09-29T09:30:00.000Z",
       "approvedAt": "2026-09-29T14:33:09.298Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-undecided-over-future-093000588.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-09-29T15:47:59.000Z",
       "approvedAt": "2026-09-29T20:24:13.806Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-09-29T10:30:00.000Z",
       "approvedAt": "2026-09-29T14:33:12.276Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-09-29T12:41:36.000Z",
       "approvedAt": "2026-09-29T14:33:12.276Z",
       "status": "Confirmed",
@@ -98,26 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "Yesterday",
-      "timestamp": "2026-09-27T22:30:16.000Z",
-      "approvedAt": "2026-09-28T03:13:08.349Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler confronts Nico Echavarria heckler at Presidents Cup — then de...",
-      "summary": "Echavarria had been down three through 13 holes against Scheffler when the Colombian teed off on the par-4 14th and a fan shouted out in his backswing.",
-      "quickRead": "Echavarria had been down three through 13 holes against Scheffler when the Colombian teed off on the par-4 14th and a fan shouted out in his backswing.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/scottie-scheffler-confronts-nico-echavarria-223016992.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/scottie-scheffler-confronts-nico-echavarria-223016992.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
-    },
-    {
-      "time": "12 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-09-29T07:30:00.000Z",
       "approvedAt": "2026-09-29T07:48:01.552Z",
       "status": "Confirmed",
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-09-29T20:24:03.781Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-09-29T19:47:03.781Z",
       "status": "Trending",
       "signal": "Reddit find",
