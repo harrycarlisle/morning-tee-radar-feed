@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-01T08:11:57.164Z",
+  "updatedAt": "2026-10-01T16:51:16.957Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "3 hours ago",
+      "timestamp": "2026-10-01T13:01:04.000Z",
+      "approvedAt": "2026-10-01T16:51:16.954Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 Bank of Utah Championship scores, live updates, tee times for Thursday's R...",
+      "summary": "Welcome to the Bank of Utah Championship, the PGA Tour event in Ivins, Utah.",
+      "quickRead": "Welcome to the Bank of Utah Championship, the PGA Tour event in Ivins, Utah.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-bank-utah-championship-scores-130104835.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-bank-utah-championship-scores-130104835.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "19 hours ago",
       "timestamp": "2026-09-30T21:44:21.000Z",
       "approvedAt": "2026-10-01T01:01:32.719Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/10-surprising-players-already-locked-214421904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-09-30T22:12:40.000Z",
       "approvedAt": "2026-10-01T01:01:35.748Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-09-30T22:30:00.000Z",
       "approvedAt": "2026-10-01T01:01:35.748Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-09-30T20:20:00.000Z",
       "approvedAt": "2026-10-01T01:01:35.748Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-09-30T19:17:49.000Z",
       "approvedAt": "2026-09-30T20:28:37.680Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-30T15:05:55.000Z",
       "approvedAt": "2026-09-30T20:28:37.681Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-09-30T13:05:53.000Z",
       "approvedAt": "2026-09-30T14:31:36.927Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/local-caddie-playing-injury-reaches-130553808.html",
       "sourceUrl": "https://sports.yahoo.com/articles/local-caddie-playing-injury-reaches-130553808.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-09-30T12:00:47.000Z",
-      "approvedAt": "2026-09-30T14:31:36.928Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "U.S. Presidents Cup Win Hides A Major Ryder Cup Warning Sign",
-      "summary": "Team USA stormed back to win the Presidents Cup, but another ugly showing in foursomes raises major concerns ahead of the 2027 Ryder Cup.",
-      "quickRead": "Team USA stormed back to win the Presidents Cup, but another ugly showing in foursomes raises major concerns ahead of the 2027 Ryder Cup.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/u-presidents-cup-win-hides-120047102.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/u-presidents-cup-win-hides-120047102.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "8 hours ago",
       "timestamp": "2026-10-01T08:11:47.520Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "9 hours ago",
       "timestamp": "2026-10-01T07:34:47.520Z",
       "status": "Trending",
       "signal": "Reddit find",
