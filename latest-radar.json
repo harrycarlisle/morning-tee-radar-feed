@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-01T22:15:40.238Z",
+  "updatedAt": "2026-10-02T03:43:45.510Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-10-02T01:30:27.000Z",
+      "approvedAt": "2026-10-02T03:43:45.507Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Andrew Bailey wins US Mid-Amateur to earn spots in the Masters and US Open next...",
+      "summary": "Andrew Bailey took the lead for good with a birdie on the 23rd hole and played his final 17 holes without a bogey to defeat Nate Smith, 5 and 4, in the U.S.",
+      "quickRead": "Andrew Bailey took the lead for good with a birdie on the 23rd hole and played his final 17 holes without a bogey to defeat Nate Smith, 5 and 4, in the U.S.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/andrew-bailey-wins-us-mid-013027337.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/andrew-bailey-wins-us-mid-013027337.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-10-01T17:11:05.000Z",
       "approvedAt": "2026-10-01T22:15:32.260Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-reps-sought-treatment-171105479.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-01T19:41:18.000Z",
       "approvedAt": "2026-10-01T22:15:35.090Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-01T13:01:04.000Z",
       "approvedAt": "2026-10-01T16:51:16.954Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-01T13:18:02.000Z",
       "approvedAt": "2026-10-01T16:51:20.572Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-10-01T14:15:33.000Z",
       "approvedAt": "2026-10-01T16:51:20.573Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-10-01T12:00:00.000Z",
       "approvedAt": "2026-10-01T16:51:20.573Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-01T16:30:00.000Z",
       "approvedAt": "2026-10-01T16:51:20.573Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/10-surprising-players-already-locked-214421904.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-09-30T22:12:40.000Z",
-      "approvedAt": "2026-10-01T01:01:35.748Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Phil Mickelson spent time at trauma and addiction clinic",
-      "summary": "Phil Mickelson has spent time in a clinic undergoing a programme for trauma and addiction.",
-      "quickRead": "Phil Mickelson voluntarily checked into a men’s addiction and trauma treatment program earlier this year for “family trauma and addiction,” and he’s reportedly no longer in the facility.  The stay helps explain why the 56-year-old LIV Golf star has barely played in 2026 and previously only cited a “private family health matter” while stepping away from competition.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/phil-mickelson-spent-time-trauma-221240623.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-spent-time-trauma-221240623.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-10-01T22:15:21.330Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-01T21:38:21.330Z",
       "status": "Trending",
       "signal": "Reddit find",
