@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-03T12:58:29.172Z",
+  "updatedAt": "2026-10-03T17:43:40.283Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "11 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-10-03T14:01:43.000Z",
+      "approvedAt": "2026-10-03T17:43:40.280Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "2026 Bank of Utah Championship scores, live updates, tee times for Saturday's R...",
+      "summary": "The Bank of Utah Championship is the PGA Tour stop in Ivins, Utah.",
+      "quickRead": "The Bank of Utah Championship is the PGA Tour stop in Ivins, Utah.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/2026-bank-utah-championship-scores-140143819.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/2026-bank-utah-championship-scores-140143819.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "Yesterday",
       "timestamp": "2026-10-02T13:21:30.000Z",
       "approvedAt": "2026-10-03T00:53:20.742Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bag-sahith-theegala-132130659.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-10-03T03:59:28.000Z",
       "approvedAt": "2026-10-03T07:29:10.366Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-10-02T22:16:48.000Z",
       "approvedAt": "2026-10-03T00:53:23.554Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-10-02T18:58:04.000Z",
       "approvedAt": "2026-10-02T21:44:19.372Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-02T16:10:04.000Z",
       "approvedAt": "2026-10-02T21:44:19.374Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-02T10:00:00.000Z",
       "approvedAt": "2026-10-02T17:18:41.599Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "16 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-02T15:01:04.000Z",
       "approvedAt": "2026-10-02T17:18:41.601Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/pga-tour-pro-famous-hitting-150104752.html",
       "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-pro-famous-hitting-150104752.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-10-02T14:00:25.000Z",
-      "approvedAt": "2026-10-02T17:18:41.601Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Striking golf course hosting Champions event in this boom-or-bust Florida region",
-      "summary": "The PGA Tour Champions is back in Flagler County after 18 years.",
-      "quickRead": "The PGA Tour Champions is back in Flagler County after 18 years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/striking-golf-course-hosting-champions-140025012.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/striking-golf-course-hosting-champions-140025012.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-10-03T12:58:22.282Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-03T12:21:22.282Z",
       "status": "Trending",
       "signal": "Reddit find",
