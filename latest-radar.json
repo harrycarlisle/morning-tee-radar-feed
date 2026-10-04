@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-04T13:37:50.804Z",
+  "updatedAt": "2026-10-04T17:57:23.011Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -40,6 +40,25 @@
     }
   ],
   "alsoMoving": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-10-04T16:17:10.000Z",
+      "approvedAt": "2026-10-04T17:57:23.009Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Watch Brooks Koepka end his season with an eagle on 18 at the Old Course",
+      "summary": "The five-time major champ was miffed at how his PGA Tour season ended and then played three times in Europe.",
+      "quickRead": "Brooks Koepka capped his season by rolling in a 40-foot eagle putt on the Old Course’s 18th hole at St.  Andrews, finishing with a final-round 66 at the Alfred Dunhill Links Championship.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/watch-brooks-koepka-end-season-161710711.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/watch-brooks-koepka-end-season-161710711.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    },
     {
       "time": "4 hours ago",
       "timestamp": "2026-10-04T13:10:00.000Z",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/2026-bank-utah-championship-scores-140143819.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "Yesterday",
-      "timestamp": "2026-10-03T14:53:26.000Z",
-      "approvedAt": "2026-10-03T17:43:42.820Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Bryson keeps the PGA Tour return question alive",
-      "summary": "When Brooks Koepka returned to the PGA Tour in January, it initially seemed like the first sign of a broader shift, with more LIV Golf players potentially following him back.",
-      "quickRead": "When Brooks Koepka returned to the PGA Tour in January, it initially seemed like the first sign of a broader shift, with more LIV Golf players potentially following him back.",
+      "label": "MAJOR WATCH",
+      "title": "Watch Brooks Koepka end his season with an eagle on 18 at the Old Course",
+      "summary": "Brooks Koepka capped his season by rolling in a 40-foot eagle putt on the Old Course’s 18th hole at St.",
+      "quickRead": "Brooks Koepka capped his season by rolling in a 40-foot eagle putt on the Old Course’s 18th hole at St.  Andrews, finishing with a final-round 66 at the Alfred Dunhill Links Championship.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeaus-pga-tour-return-145326611.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeaus-pga-tour-return-145326611.html",
+      "url": "https://sports.yahoo.com/articles/watch-brooks-koepka-end-season-161710711.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/watch-brooks-koepka-end-season-161710711.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
+      "timestamp": "2026-10-04T16:17:10.000Z"
+    },
     {
       "label": "LIV WATCH",
       "title": "Bryson keeps the PGA Tour return question alive",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "timestamp": "2026-10-03T21:06:00.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Michael Block admits how the senior players have treated him since he...",
-      "summary": "Michael Block stormed into the lead on the PGA Tour Champions on Saturday at the Jefferson Lehigh Valley Classic with a round of 63.",
-      "quickRead": "Michael Block stormed into the lead on the PGA Tour Champions on Saturday at the Jefferson Lehigh Valley Classic with a round of 63.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/michael-block-admits-senior-players-113000445.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/michael-block-admits-senior-players-113000445.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-10-04T11:30:00.000Z"
     }
   ],
   "checking": {
