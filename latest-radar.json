@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-04T20:55:32.030Z",
+  "updatedAt": "2026-10-04T23:47:24.213Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "15 min ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-10-04T20:05:47.000Z",
+      "approvedAt": "2026-10-04T23:47:24.209Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "GOLF",
+      "title": "‘They Never Fixed It’: Jordan Spieth Gets Injury Warning From Veteran Coach Ove...",
+      "summary": "Jordan Spieth’s left wrist injury dates back to May 2023, when he injured it while playing with his son.",
+      "quickRead": "Jordan Spieth’s left wrist injury dates back to May 2023, when he injured it while playing with his son.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/never-fixed-jordan-spieth-gets-200547311.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/never-fixed-jordan-spieth-gets-200547311.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-10-04T20:40:21.000Z",
       "approvedAt": "2026-10-04T20:55:27.577Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-delivers-truth-whether-204021453.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-10-04T11:30:00.000Z",
       "approvedAt": "2026-10-04T13:37:43.644Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-04T18:30:00.000Z",
       "approvedAt": "2026-10-04T20:48:23.055Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-04T16:17:10.000Z",
       "approvedAt": "2026-10-04T17:57:23.009Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-10-04T13:10:00.000Z",
       "approvedAt": "2026-10-04T13:37:46.439Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-04T11:55:00.000Z",
       "approvedAt": "2026-10-04T13:37:46.440Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-03T21:06:00.000Z",
       "approvedAt": "2026-10-04T13:37:46.441Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/hyo-joo-kim-chip-hits-195647192.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-03T20:06:08.000Z",
-      "approvedAt": "2026-10-04T07:41:16.986Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Sergio Garcia seeks LIV exit in court, eyes other Tour",
-      "summary": "Former Masters champion Sergio Garcia is seeking to \"terminate\" his LIV contract in court, opening up pathways to other career opportunities.",
-      "quickRead": "Former Masters champion Sergio Garcia is seeking to \"terminate\" his LIV contract in court, opening up pathways to other career opportunities.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/sergio-garcia-seeks-liv-exit-200608883.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-seeks-liv-exit-200608883.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -206,7 +206,7 @@
       "url": "https://sports.yahoo.com/articles/never-fixed-jordan-spieth-gets-200547311.html",
       "sourceUrl": "https://sports.yahoo.com/articles/never-fixed-jordan-spieth-gets-200547311.html",
       "source": "Yahoo Golf",
-      "image": "",
+      "image": "https://morningteeradarfeed.netlify.app/images/jordan-spieth.png",
       "timestamp": "2026-10-04T20:05:47.000Z"
     },
     {
@@ -225,19 +225,19 @@
       "timestamp": "2026-10-04T16:17:10.000Z"
     },
     {
-      "label": "JAPAN TOUR",
-      "title": "2026 Baycurrent Classic field: Tom Kim withdraws from Yokohama after...",
-      "summary": "Tom Kim withdrew from next week’s 2026 Baycurrent Classic at Yokohama Country Club after winning the 2026 Asian Games, and he’ll be replaced in the...",
-      "quickRead": "Tom Kim withdrew from next week’s 2026 Baycurrent Classic at Yokohama Country Club after winning the 2026 Asian Games, and he’ll be replaced in the 72-man field by Kris Ventura.  The $8 million, no-cut PGA Tour event offers 500 FedExCup points, with defending champion Xander Schauffele returning after last year’s one-shot win over Max Greyserman.",
+      "label": "LIV WATCH",
+      "title": "Joaquin Niemann delivers ‘the truth’ about whether he could return to...",
+      "summary": "Joaquin Niemann has been the most successful player on LIV Golf during its four-year lifespan, as far as total wins are concerned at least.",
+      "quickRead": "Joaquin Niemann has been the most successful player on LIV Golf during its four-year lifespan, as far as total wins are concerned at least.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/baycurrent-classic-2026-full-field-221648011.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/baycurrent-classic-2026-full-field-221648011.html",
+      "url": "https://sports.yahoo.com/articles/joaquin-niemann-delivers-truth-whether-204021453.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/joaquin-niemann-delivers-truth-whether-204021453.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-10-03T21:06:00.000Z"
+      "timestamp": "2026-10-04T20:40:21.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-10-04T20:55:18.986Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-04T20:18:18.986Z",
       "status": "Trending",
       "signal": "Reddit find",
