@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-10-04T19:36:18.610Z",
+  "lastUpdated": "2026-10-05T22:36:12.358Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Koepka’s Season Finale Eagle",
-      "text": "Brooks Koepka ended his PGA Tour season with a 40-foot eagle putt on the 18th hole at St. Andrews, finishing the Alfred Dunhill Links Championship with a final-round 66."
+      "headline": "Black Desert Resort Expansion",
+      "text": "Black Desert Resort is adding new courses, including potentially a Tiger Woods design, but questions whether hosting the PGA Tour is worth the cost."
     },
     {
-      "headline": "Kim Withdraws From Baycurrent Classic",
-      "text": "Tom Kim withdrew from the 2026 Baycurrent Classic in Yokohama after winning the Asian Games and receiving a military exemption; Kris Ventura replaced him in the 72-player field."
+      "headline": "Niemann Weighs Tour Options",
+      "text": "Joaquin Niemann urges the PGA Tour to 'open a door' for him as he considers returning amid LIV Golf's uncertain future and DP World Tour options."
     },
     {
-      "headline": "DP World Tour Limits LIV Returnees",
-      "text": "The DP World Tour announced strict conditions for LIV Golf players seeking to return after the tour’s bankruptcy."
+      "headline": "David Ford Returns Strong",
+      "text": "After a painful foot injury that sidelined him nearly three months, David Ford finished T3 at the Bank of Utah Championship with a final-round 64, signaling his return to form."
     }
   ],
-  "itemsLastUpdated": "2026-10-04T19:36:18.610Z",
+  "itemsLastUpdated": "2026-10-05T22:36:12.358Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-10-04T19:36:18.610Z",
+  "lastSuccessfulStoryUpdate": "2026-10-05T22:36:12.358Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 764,
+  "openaiOutputLength": 756,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_150fcd8d31cd4d1fa4b570eb97625aa5",
+  "openaiRequestId": "req_84c99cea78814ad8b461e106cf2355ad",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-10-04T19:36:18.609Z",
+  "diagnosticUpdatedAt": "2026-10-05T22:36:12.358Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
