@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-08T19:37:58.090Z",
+  "updatedAt": "2026-10-09T00:06:32.045Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-10-09T00:06:32.042Z",
+      "approvedAt": "2026-10-09T00:06:32.042Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Jacob Bridgeman leads Baycurrent Classic at -8",
+      "summary": "Jacob Bridgeman is -8 overall through 1. Closest chasers: Jordan Smith (-7), Pierceson Coody (-6), Mac Meissner (-6).",
+      "quickRead": "Jacob Bridgeman shot 63 to lead the Baycurrent Classic at Yokohama Country Club at 8-under after Round 1, one shot clear of Jordan Smith (64) with Pierceson Coody, Mac Meissner, Ricky Castillo and Max Homa tied third at 6-under (65).  With big names like Collin Morikawa and Hideki Matsuyama four back at 67 and Jordan Spieth at +1 (72), early FedExCup Fall points are up for grabs if Bridgeman keeps converting birdie chances.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Baycurrent Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Jacob Bridgeman",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Jordan Smith",
+          "score": "-7",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Pierceson Coody",
+          "score": "-6",
+          "thru": "10"
+        },
+        {
+          "pos": "T3",
+          "name": "Mac Meissner",
+          "score": "-6",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Ricky Castillo",
+          "score": "-6",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-10-08T18:05:58.000Z",
       "approvedAt": "2026-10-08T19:37:48.365Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-receives-major-praise-180558536.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-08T16:49:28.000Z",
       "approvedAt": "2026-10-08T19:37:51.170Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-08T17:24:18.000Z",
       "approvedAt": "2026-10-08T19:37:51.170Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "41 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-08T18:55:52.000Z",
       "approvedAt": "2026-10-08T19:37:51.171Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-08T17:52:20.000Z",
       "approvedAt": "2026-10-08T19:37:51.171Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-08T12:41:06.046Z",
       "approvedAt": "2026-10-08T12:41:06.046Z",
       "status": "Live",
@@ -170,7 +223,7 @@
       ]
     },
     {
-      "time": "8 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-10-08T11:30:00.000Z",
       "approvedAt": "2026-10-08T12:41:07.753Z",
       "status": "Confirmed",
@@ -189,7 +242,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-08T09:10:00.000Z",
       "approvedAt": "2026-10-08T12:41:07.753Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/always-looking-next-hero-kapil-091000736.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-10-07T20:03:17.000Z",
-      "approvedAt": "2026-10-08T05:21:05.558Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "LIV Golf Takes Another Hit After Jon Rahm Decision",
-      "summary": "The LIV Golf “LIV 2.0” reboot is already facing a major player retention problem.While the big news today was that superstar Jon Rahm’s lawyer said he will not be joining LIV 2.0, Polish ...",
-      "quickRead": "The LIV Golf “LIV 2.0” reboot is already facing a major player retention problem.While the big news today was that superstar Jon Rahm’s lawyer said he will not be joining LIV 2.0, Polish ...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-takes-another-hit-200317446.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-takes-another-hit-200317446.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-10-08T19:37:38.012Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-08T19:00:38.013Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-10-08T19:37:56.583Z",
-      "approvedAt": "2026-10-08T19:37:56.583Z",
+      "timestamp": "2026-10-09T00:06:32.045Z",
+      "approvedAt": "2026-10-09T00:06:32.045Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jacob Bridgeman wins Baycurrent Classic at -8",
-      "summary": "Jacob Bridgeman wins Baycurrent Classic at -8. Nearest finishers: Jordan Smith (-7), Pierceson Coody (-6), Mac Meissner (-6).",
-      "quickRead": "",
+      "title": "Jacob Bridgeman leads Baycurrent Classic at -8",
+      "summary": "Jacob Bridgeman is -8 overall through 1. Closest chasers: Jordan Smith (-7), Pierceson Coody (-6), Mac Meissner (-6).",
+      "quickRead": "Jacob Bridgeman shot 63 to lead the Baycurrent Classic at Yokohama Country Club at 8-under after Round 1, one shot clear of Jordan Smith (64) with Pierceson Coody, Mac Meissner, Ricky Castillo and Max Homa tied third at 6-under (65).  With big names like Collin Morikawa and Hideki Matsuyama four back at 67 and Jordan Spieth at +1 (72), early FedExCup Fall points are up for grabs if Bridgeman keeps converting birdie chances.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,31 +391,31 @@
           "pos": "1",
           "name": "Jacob Bridgeman",
           "score": "-8",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "2",
           "name": "Jordan Smith",
           "score": "-7",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Pierceson Coody",
           "score": "-6",
-          "thru": "F"
+          "thru": "10"
         },
         {
           "pos": "T3",
           "name": "Mac Meissner",
           "score": "-6",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Ricky Castillo",
           "score": "-6",
-          "thru": "F*"
+          "thru": "1"
         }
       ]
     }
