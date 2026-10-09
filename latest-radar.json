@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-09T00:06:36.188Z",
+  "updatedAt": "2026-10-09T08:22:38.003Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-10-09T08:22:38.000Z",
+      "approvedAt": "2026-10-09T08:22:38.000Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Keith Mitchell leads Baycurrent Classic at -11",
+      "summary": "Keith Mitchell is -6 today and -11 overall through F. Closest chasers: Jacob Bridgeman (-11), Max Homa (-9), Zach Bauchou (-9).",
+      "quickRead": "Keith Mitchell fired a 6-under 65 to reach 11-under 131 and finish tied for the Baycurrent Classic lead with Jacob Bridgeman, who closed with a 68.  Max Homa, Zach Bauchou, Ben Kohles and Mac Meissner sit two back at 9-under, setting up a tight chase behind the co-leaders as the tournament moves forward at Yokohama Country Club.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Baycurrent Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Keith Mitchell",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Jacob Bridgeman",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Max Homa",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Zach Bauchou",
+          "score": "-9",
+          "thru": "F*"
+        },
+        {
+          "pos": "T3",
+          "name": "Ben Kohles",
+          "score": "-9",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-10-09T00:06:32.042Z",
       "approvedAt": "2026-10-09T00:06:32.042Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "6 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-08T18:05:58.000Z",
       "approvedAt": "2026-10-08T19:37:48.365Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-10-08T16:49:28.000Z",
       "approvedAt": "2026-10-08T19:37:51.170Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-08T17:24:18.000Z",
       "approvedAt": "2026-10-08T19:37:51.170Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-10-08T18:55:52.000Z",
       "approvedAt": "2026-10-08T19:37:51.171Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-08T17:52:20.000Z",
       "approvedAt": "2026-10-08T19:37:51.171Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-10-08T12:41:06.046Z",
       "approvedAt": "2026-10-08T12:41:06.046Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       ]
     },
     {
-      "time": "12 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-10-08T11:30:00.000Z",
       "approvedAt": "2026-10-08T12:41:07.753Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-lead-commentator-reacts-113000115.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-10-08T09:10:00.000Z",
-      "approvedAt": "2026-10-08T12:41:07.753Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "‘You’re always looking for the next hero’: Kapil Dev on finding Virat Kohli’s s...",
-      "summary": "In his role as president of PGTI, Kapil Dev shares his delight in fostering the progress of Indian golf.",
-      "quickRead": "In his role as president of PGTI, Kapil Dev shares his delight in fostering the progress of Indian golf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/always-looking-next-hero-kapil-091000736.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/always-looking-next-hero-kapil-091000736.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "8 hours ago",
       "timestamp": "2026-10-09T00:06:22.686Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-08T23:29:22.686Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-10-09T00:06:34.778Z",
-      "approvedAt": "2026-10-09T00:06:34.778Z",
+      "timestamp": "2026-10-09T08:22:38.003Z",
+      "approvedAt": "2026-10-09T08:22:38.003Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Jacob Bridgeman leads Baycurrent Classic at -8",
-      "summary": "Jacob Bridgeman is -8 overall through 1. Closest chasers: Jordan Smith (-7), Pierceson Coody (-6), Mac Meissner (-6).",
-      "quickRead": "Jacob Bridgeman shot 63 to lead the Baycurrent Classic at Yokohama Country Club at 8-under after Round 1, one shot clear of Jordan Smith (64) with Pierceson Coody, Mac Meissner, Ricky Castillo and Max Homa tied third at 6-under (65).  With big names like Collin Morikawa and Hideki Matsuyama four back at 67 and Jordan Spieth at +1 (72), early FedExCup Fall points are up for grabs if Bridgeman keeps converting birdie chances.",
+      "title": "Keith Mitchell leads Baycurrent Classic at -11",
+      "summary": "Keith Mitchell is -6 today and -11 overall through F. Closest chasers: Jacob Bridgeman (-11), Max Homa (-9), Zach Bauchou (-9).",
+      "quickRead": "Keith Mitchell fired a 6-under 65 to reach 11-under 131 and finish tied for the Baycurrent Classic lead with Jacob Bridgeman, who closed with a 68.  Max Homa, Zach Bauchou, Ben Kohles and Mac Meissner sit two back at 9-under, setting up a tight chase behind the co-leaders as the tournament moves forward at Yokohama Country Club.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Keith Mitchell",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
           "name": "Jacob Bridgeman",
-          "score": "-8",
-          "thru": "1"
-        },
-        {
-          "pos": "2",
-          "name": "Jordan Smith",
-          "score": "-7",
-          "thru": "1"
+          "score": "-11",
+          "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Pierceson Coody",
-          "score": "-6",
-          "thru": "10"
+          "name": "Max Homa",
+          "score": "-9",
+          "thru": "F*"
         },
         {
           "pos": "T3",
-          "name": "Mac Meissner",
-          "score": "-6",
-          "thru": "1"
+          "name": "Zach Bauchou",
+          "score": "-9",
+          "thru": "F*"
         },
         {
           "pos": "T3",
-          "name": "Ricky Castillo",
-          "score": "-6",
-          "thru": "1"
+          "name": "Ben Kohles",
+          "score": "-9",
+          "thru": "F"
         }
       ]
     }
