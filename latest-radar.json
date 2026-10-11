@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-10T21:02:57.234Z",
+  "updatedAt": "2026-10-11T00:38:08.065Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "Just now",
+      "timestamp": "2026-10-11T00:38:08.063Z",
+      "approvedAt": "2026-10-11T00:38:08.063Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan leads Baycurrent Classic at -13",
+      "summary": "Michael Brennan is -13 overall through 1. Closest chasers: Zach Bauchou (-13), Jacob Bridgeman (-13), Adam Scott (-12).",
+      "quickRead": "Michael Brennan leads the Baycurrent Classic at 13-under par through his first hole of the final round, tied atop the leaderboard with Zach Bauchou and Jacob Bridgeman at -13.  Adam Scott sits one back at -12 alongside Jordan Smith, Justin Thomas, Stephan Jaeger and Keith Mitchell, setting up a tight finish at Yokohama Country Club.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Baycurrent Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Michael Brennan",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Zach Bauchou",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T1",
+          "name": "Jacob Bridgeman",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Adam Scott",
+          "score": "-12",
+          "thru": "1"
+        },
+        {
+          "pos": "T4",
+          "name": "Jordan Smith",
+          "score": "-12",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "4 hours ago",
       "timestamp": "2026-10-10T19:45:00.000Z",
       "approvedAt": "2026-10-10T21:02:50.691Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-highlights-career-options-194500354.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-10T17:21:19.000Z",
       "approvedAt": "2026-10-10T21:02:52.969Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-10T17:44:19.000Z",
       "approvedAt": "2026-10-10T21:02:52.969Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-10T18:33:12.000Z",
       "approvedAt": "2026-10-10T21:02:52.970Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "4 hours ago",
       "timestamp": "2026-10-10T20:00:45.000Z",
       "approvedAt": "2026-10-10T21:02:52.970Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-10-10T07:24:43.000Z",
       "approvedAt": "2026-10-10T16:50:00.934Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-10-10T10:29:33.864Z",
       "approvedAt": "2026-10-10T10:29:33.864Z",
       "status": "Live",
@@ -206,25 +259,6 @@
           "thru": "F"
         }
       ]
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-09T17:31:42.000Z",
-      "approvedAt": "2026-10-10T10:29:35.213Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Sergio Garcia Leaves Door Open to Stunning LIV Golf Return After Departure",
-      "summary": "It’s been a whirlwind week for LIV Golf as the struggling league attempts to navigate bankruptcy proceedings and prepare for its proposed LIV 2.0 relaunch.The biggest headlines have surro...",
-      "quickRead": "It’s been a whirlwind week for LIV Golf as the struggling league attempts to navigate bankruptcy proceedings and prepare for its proposed LIV 2.0 relaunch.The biggest headlines have surro...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/sergio-garcia-leaves-door-open-173142682.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-leaves-door-open-173142682.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-10-10T21:02:41.804Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-10-10T20:25:41.804Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-10-10T21:02:55.991Z",
-      "approvedAt": "2026-10-10T21:02:55.991Z",
+      "timestamp": "2026-10-11T00:38:08.065Z",
+      "approvedAt": "2026-10-11T00:38:08.065Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Michael Brennan leads Baycurrent Classic at -13",
-      "summary": "Michael Brennan is -6 today and -13 overall through F. Closest chasers: Zach Bauchou (-13), Jacob Bridgeman (-13), Adam Scott (-12).",
-      "quickRead": "Michael Brennan finished his round at 13-under par to share the Baycurrent Classic lead with Zach Bauchou and Jacob Bridgeman, with all three at -13.  Adam Scott, Jordan Smith, Justin Thomas, Stephan Jaeger and Keith Mitchell sit one shot back at -12, setting up a crowded final-round shootout at Yokohama Country Club.",
+      "summary": "Michael Brennan is -13 overall through 1. Closest chasers: Zach Bauchou (-13), Jacob Bridgeman (-13), Adam Scott (-12).",
+      "quickRead": "Michael Brennan leads the Baycurrent Classic at 13-under par through his first hole of the final round, tied atop the leaderboard with Zach Bauchou and Jacob Bridgeman at -13.  Adam Scott sits one back at -12 alongside Jordan Smith, Justin Thomas, Stephan Jaeger and Keith Mitchell, setting up a tight finish at Yokohama Country Club.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,31 +391,31 @@
           "pos": "T1",
           "name": "Michael Brennan",
           "score": "-13",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Zach Bauchou",
           "score": "-13",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T1",
           "name": "Jacob Bridgeman",
           "score": "-13",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Adam Scott",
           "score": "-12",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T4",
           "name": "Jordan Smith",
           "score": "-12",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
