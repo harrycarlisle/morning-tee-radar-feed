@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-11T21:02:52.775Z",
+  "updatedAt": "2026-10-11T21:23:43.189Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,6 +20,27 @@
   ],
   "today": [
     {
+      "time": "1 hour ago",
+      "timestamp": "2026-10-11T19:24:50.000Z",
+      "approvedAt": "2026-10-11T21:23:43.186Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Michael Brennan Opens Up on Family After Baycurrent Classic Win",
+      "summary": "Michael Brennan continued his rapid rise on the PGA Tour with another victory at the 2026 Baycurrent Classic in Japan.",
+      "quickRead": "Michael Brennan continued his rapid rise on the PGA Tour with another victory at the 2026 Baycurrent Classic in Japan.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/michael-brennan-opens-family-baycurrent-192450420.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/michael-brennan-opens-family-baycurrent-192450420.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
       "time": "7 hours ago",
       "timestamp": "2026-10-11T13:38:05.000Z",
       "approvedAt": "2026-10-11T16:06:42.279Z",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-meritocracy-rule-opens-door-133805866.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "1 hour ago",
       "timestamp": "2026-10-11T19:38:57.000Z",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-10-11T08:11:36.698Z",
       "approvedAt": "2026-10-11T08:11:36.698Z",
       "status": "Live",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-highlights-career-options-194500354.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-10T17:21:19.000Z",
-      "approvedAt": "2026-10-10T21:02:52.969Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Schauffele Reacts To Rahm’s LIV Exit With Mixed Feelings",
-      "summary": "Xander Schauffele weighs in on Jon Rahm's departure from LIV Golf, citing uncertainty about PGA Tour return windows while competing in Japan.",
-      "quickRead": "Xander Schauffele weighs in on Jon Rahm's departure from LIV Golf, citing uncertainty about PGA Tour return windows while competing in Japan.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/schauffele-reacts-rahm-liv-exit-172119115.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/schauffele-reacts-rahm-liv-exit-172119115.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "21 min ago",
       "timestamp": "2026-10-11T21:02:37.896Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "58 min ago",
       "timestamp": "2026-10-11T20:25:37.897Z",
       "status": "Trending",
       "signal": "Reddit find",
