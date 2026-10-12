@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-12T08:28:21.060Z",
+  "updatedAt": "2026-10-12T19:34:30.491Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,62 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
-      "timestamp": "2026-10-12T00:40:46.758Z",
-      "approvedAt": "2026-10-12T00:40:46.758Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Gary Woodland wins Texas Children's Houston Open at -21",
-      "summary": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
-      "quickRead": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "time": "2 hours ago",
+      "timestamp": "2026-10-12T17:07:11.000Z",
+      "approvedAt": "2026-10-12T19:34:30.489Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "DP TOUR",
+      "title": "Bryson DeChambeau’s LIV Escape Route Is Gone",
+      "summary": "The DP World Tour just slammed the door on Bryson DeChambeau.",
+      "quickRead": "The DP World Tour has ruled that LIV Golf players won’t be eligible for DP World Tour membership or events in 2027—ending Bryson DeChambeau’s path to keep LIV status while also playing the European circuit—with CEO Guy Kinnings saying, “Players need to make a choice. ” The decision also threatens Ryder Cup qualification routes tied to DP World Tour membership, forcing LIV stars to pick a side by the tour’s deadline.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Texas Children's Houston Open",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Gary Woodland",
-          "score": "-21",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Nicolai Højgaard",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Johnny Keefer",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T3",
-          "name": "Min Woo Lee",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "5",
-          "name": "Sam Stevens",
-          "score": "-14",
-          "thru": "F"
-        }
-      ]
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-escape-route-170711438.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-escape-route-170711438.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "alsoMoving": [
     {
-      "time": "7 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-10-12T01:25:14.000Z",
       "approvedAt": "2026-10-12T08:28:13.080Z",
       "status": "Confirmed",
@@ -94,7 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-10-11T21:18:27.000Z",
       "approvedAt": "2026-10-12T08:28:13.082Z",
       "status": "Confirmed",
@@ -113,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-11T18:30:00.000Z",
       "approvedAt": "2026-10-11T21:24:14.890Z",
       "status": "Confirmed",
@@ -132,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-11T19:24:50.000Z",
       "approvedAt": "2026-10-11T21:23:43.186Z",
       "status": "Confirmed",
@@ -151,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-11T13:38:05.000Z",
       "approvedAt": "2026-10-11T16:06:42.279Z",
       "status": "Confirmed",
@@ -170,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-11T19:38:57.000Z",
       "approvedAt": "2026-10-11T21:02:46.649Z",
       "status": "Confirmed",
@@ -189,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-11T19:36:44.000Z",
       "approvedAt": "2026-10-11T21:02:46.650Z",
       "status": "Confirmed",
@@ -208,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-11T12:02:00.000Z",
       "approvedAt": "2026-10-11T16:06:44.657Z",
       "status": "Confirmed",
@@ -259,19 +225,19 @@
       "timestamp": "2026-10-11T12:02:00.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "He is the one-time PGA Tour winner who shot both the first and second...",
-      "summary": "Neal Lancaster is unlikely to be a household name among many golf fans having only registered one PGA Tour victory and one top-30 finish in a major...",
-      "quickRead": "Neal Lancaster is unlikely to be a household name among many golf fans having only registered one PGA Tour victory and one top-30 finish in a major championship.",
+      "label": "STORY TO WATCH",
+      "title": "Austin Hitt wins KFT finale as 20 players secure 2027 PGA Tour cards",
+      "summary": "Under a persistent rain, on a gloomy day, futures were solidified for a field of 59 in the Korn Ferry Tour season finale.",
+      "quickRead": "Under a persistent rain, on a gloomy day, futures were solidified for a field of 59 in the Korn Ferry Tour season finale.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/one-time-pga-tour-winner-183000203.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/one-time-pga-tour-winner-183000203.html",
+      "url": "https://sports.yahoo.com/articles/austin-hitt-wins-kft-finale-193857533.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/austin-hitt-wins-kft-finale-193857533.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-10-11T18:30:00.000Z"
+      "timestamp": "2026-10-11T19:38:57.000Z"
     }
   ],
   "checking": {
@@ -292,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "11 hours ago",
       "timestamp": "2026-10-12T08:28:04.172Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-12T07:51:04.172Z",
       "status": "Trending",
       "signal": "Reddit find",
