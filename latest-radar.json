@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-11T21:24:19.577Z",
+  "updatedAt": "2026-10-12T00:40:46.761Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-10-12T00:40:46.758Z",
+      "approvedAt": "2026-10-12T00:40:46.758Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Gary Woodland wins Texas Children's Houston Open at -21",
+      "summary": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "quickRead": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Texas Children's Houston Open",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Gary Woodland",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Nicolai Højgaard",
+          "score": "-16",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Johnny Keefer",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Min Woo Lee",
+          "score": "-15",
+          "thru": "F"
+        },
+        {
+          "pos": "5",
+          "name": "Sam Stevens",
+          "score": "-14",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-10-11T18:30:00.000Z",
       "approvedAt": "2026-10-11T21:24:14.890Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/one-time-pga-tour-winner-183000203.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-11T19:24:50.000Z",
       "approvedAt": "2026-10-11T21:23:43.186Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-11T13:38:05.000Z",
       "approvedAt": "2026-10-11T16:06:42.279Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-11T19:38:57.000Z",
       "approvedAt": "2026-10-11T21:02:46.649Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-11T19:36:44.000Z",
       "approvedAt": "2026-10-11T21:02:46.650Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-10-11T12:02:00.000Z",
       "approvedAt": "2026-10-11T16:06:44.657Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-10-11T08:57:29.000Z",
       "approvedAt": "2026-10-11T16:06:44.657Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-10-11T08:11:36.698Z",
       "approvedAt": "2026-10-11T08:11:36.698Z",
       "status": "Live",
@@ -206,25 +259,6 @@
           "thru": "F"
         }
       ]
-    },
-    {
-      "time": "21 hours ago",
-      "timestamp": "2026-10-10T23:24:41.000Z",
-      "approvedAt": "2026-10-11T00:38:09.576Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Sergio Garcia, ex-LIV golfers can heed Rory McIlroy's 3-word truth",
-      "summary": "An obvious pathway back to pro golf relevance exists for Sergio Garcia and other former LIV players.",
-      "quickRead": "An obvious pathway back to pro golf relevance exists for Sergio Garcia and other former LIV players.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/sergio-garcia-ex-liv-golfers-232441154.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/sergio-garcia-ex-liv-golfers-232441154.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-10-11T21:24:08.659Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-11T20:47:08.659Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-10-11T21:24:18.375Z",
-      "approvedAt": "2026-10-11T21:24:18.375Z",
+      "timestamp": "2026-10-12T00:40:46.761Z",
+      "approvedAt": "2026-10-12T00:40:46.761Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Michael Brennan wins Baycurrent Classic at -16",
-      "summary": "Michael Brennan wins Baycurrent Classic at -16. Nearest finishers: Keith Mitchell (-15), Jacob Bridgeman (-15), Brian Harman (-13).",
-      "quickRead": "Michael Brennan won the Baycurrent Classic at Yokohama Country Club at 16-under (268), beating Keith Mitchell and Jacob Bridgeman by one shot at 15-under, with Brian Harman next at 13-under.  Brennan closed with a 68 to finish the job and collect $1,440,000, while Mitchell’s final-round 68 wasn’t enough to catch him.",
+      "title": "Gary Woodland wins Texas Children's Houston Open at -21",
+      "summary": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
+      "quickRead": "Gary Woodland wins Texas Children's Houston Open at -21. Nearest finishers: Nicolai Højgaard (-16), Johnny Keefer (-15), Min Woo Lee (-15).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -349,38 +383,38 @@
       "url": "https://www.pgatour.com/leaderboard",
       "sourceUrl": "https://www.pgatour.com/leaderboard",
       "source": "Live Golf Data",
-      "tournament": "Baycurrent Classic",
+      "tournament": "Texas Children's Houston Open",
       "liveLabel": "Live coverage",
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
           "pos": "1",
-          "name": "Michael Brennan",
+          "name": "Gary Woodland",
+          "score": "-21",
+          "thru": "F"
+        },
+        {
+          "pos": "2",
+          "name": "Nicolai Højgaard",
           "score": "-16",
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Keith Mitchell",
+          "pos": "T3",
+          "name": "Johnny Keefer",
           "score": "-15",
           "thru": "F"
         },
         {
-          "pos": "T2",
-          "name": "Jacob Bridgeman",
+          "pos": "T3",
+          "name": "Min Woo Lee",
           "score": "-15",
           "thru": "F"
         },
         {
-          "pos": "T4",
-          "name": "Brian Harman",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Xander Schauffele",
-          "score": "-13",
+          "pos": "5",
+          "name": "Sam Stevens",
+          "score": "-14",
           "thru": "F"
         }
       ]
