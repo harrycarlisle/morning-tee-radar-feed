@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-hideki-matsuyama",
-  "updatedAt": "2026-10-05T23:04:09.426Z",
+  "updatedAt": "2026-10-12T23:27:56.491Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 119,
+    "sharedStarts": 120,
     "playerAWins": 61,
-    "playerBWins": 51,
+    "playerBWins": 52,
     "ties": 7
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 12 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-30",

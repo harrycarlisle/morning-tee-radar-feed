@@ -1,6 +1,6 @@
 {
   "matchupId": "justin-thomas-vs-hideki-matsuyama",
-  "updatedAt": "2026-10-05T23:04:09.651Z",
+  "updatedAt": "2026-10-12T23:27:56.885Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 193,
+    "sharedStarts": 194,
     "playerAWins": 95,
-    "playerBWins": 82,
+    "playerBWins": 83,
     "ties": 16
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Justin Thomas",
+        "dgId": 14139,
+        "finish": "T23",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "hideki-matsuyama",
+      "edge": "Hideki by 2 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-23",

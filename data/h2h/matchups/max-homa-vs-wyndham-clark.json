@@ -1,6 +1,6 @@
 {
   "matchupId": "max-homa-vs-wyndham-clark",
-  "updatedAt": "2026-10-05T23:04:10.239Z",
+  "updatedAt": "2026-10-12T23:27:57.743Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 109,
-    "playerAWins": 54,
+    "sharedStarts": 110,
+    "playerAWins": 55,
     "playerBWins": 43,
     "ties": 12
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "T63",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "max-homa",
+      "edge": "Max by 50 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

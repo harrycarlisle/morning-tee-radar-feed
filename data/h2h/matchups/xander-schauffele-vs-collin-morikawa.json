@@ -1,6 +1,6 @@
 {
   "matchupId": "xander-schauffele-vs-collin-morikawa",
-  "updatedAt": "2026-10-05T22:58:52.786Z",
+  "updatedAt": "2026-10-12T23:22:39.183Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 122,
-    "playerAWins": 68,
+    "sharedStarts": 123,
+    "playerAWins": 69,
     "playerBWins": 46,
     "ties": 8
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Xander Schauffele",
+        "dgId": 19895,
+        "finish": "T4",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "xander-schauffele",
+      "edge": "Xander by 29 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-30",

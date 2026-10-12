@@ -1,6 +1,6 @@
 {
   "matchupId": "collin-morikawa-vs-jordan-spieth",
-  "updatedAt": "2026-10-05T23:04:09.112Z",
+  "updatedAt": "2026-10-12T23:27:56.146Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2019,
-    "sharedStarts": 110,
+    "sharedStarts": 111,
     "playerAWins": 65,
-    "playerBWins": 39,
+    "playerBWins": 40,
     "ties": 6
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Collin Morikawa",
+        "dgId": 22085,
+        "finish": "T33",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 20 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",

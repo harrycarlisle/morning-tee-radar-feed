@@ -1,6 +1,6 @@
 {
   "matchupId": "jordan-spieth-vs-hideki-matsuyama",
-  "updatedAt": "2026-10-05T23:04:09.903Z",
+  "updatedAt": "2026-10-12T23:27:57.241Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2013,
-    "sharedStarts": 203,
-    "playerAWins": 90,
+    "sharedStarts": 204,
+    "playerAWins": 91,
     "playerBWins": 103,
     "ties": 10
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-10-11",
+      "eventId": 527,
+      "eventName": "Baycurrent Classic",
+      "tour": "pga",
+      "playerA": {
+        "name": "Jordan Spieth",
+        "dgId": 14636,
+        "finish": "T13",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Hideki Matsuyama",
+        "dgId": 13562,
+        "finish": "T21",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "jordan-spieth",
+      "edge": "Jordan by 8 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-08-16",
