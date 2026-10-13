@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-10-12T22:56:17.560Z",
+  "lastUpdated": "2026-10-13T21:13:17.509Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "DP World Tour bans LIV golfers",
-      "text": "DP World Tour CEO Guy Kinnings announced that 2027 membership will be denied to golfers who stay with or sign for LIV Golf, blocking their DP World Tour starts and Ryder Cup eligibility unless they choose a side by mid-November."
+      "headline": "Rahm Exits LIV Golf",
+      "text": "Jon Rahm's decision to leave LIV Golf creates a major dilemma for PGA Tour CEO Brian Rolapp as golf's biggest stars face uncertainty ahead of 2027."
     },
     {
-      "headline": "LPGA begins Asia swing",
-      "text": "The LPGA starts its final six events with a four-tournament swing in Asia, beginning with the Buick LPGA Shanghai from October 15-18."
+      "headline": "McIlroy's Career News",
+      "text": "Rory McIlroy announced new career plans less than two weeks after TMRW Sports renewed its deal with ESPN."
     },
     {
-      "headline": "Rahm’s PGA Tour eligibility questioned",
-      "text": "Smylie Kaufman expressed discomfort over Jon Rahm’s eligibility for the PGA Tour Championship Series in 2028 if Rahm has not faced further penalties related to past issues."
+      "headline": "Spieth Ready for Return",
+      "text": "Jordan Spieth says his body is finally ready for competition after years of wrist surgery, marking a key stage in his comeback."
     }
   ],
-  "itemsLastUpdated": "2026-10-12T22:56:17.560Z",
+  "itemsLastUpdated": "2026-10-13T21:13:17.509Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-10-12T22:56:17.560Z",
+  "lastSuccessfulStoryUpdate": "2026-10-13T21:13:17.509Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 829,
+  "openaiOutputLength": 648,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_9373e68e343446f2b8dfc1cb735614ed",
+  "openaiRequestId": "req_c91b96a18a21485caf85c4c644ee17ce",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-10-12T22:56:17.559Z",
+  "diagnosticUpdatedAt": "2026-10-13T21:13:17.509Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
