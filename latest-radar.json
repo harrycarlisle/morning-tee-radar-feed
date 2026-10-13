@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-12T19:34:38.463Z",
+  "updatedAt": "2026-10-13T01:46:27.469Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "6 hours ago",
+      "timestamp": "2026-10-12T19:00:50.000Z",
+      "approvedAt": "2026-10-13T01:46:27.467Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "DP TOUR",
+      "title": "Jon Rahm Commits to DP World Tour Event for First Time Since Rejecting LIV 2.0",
+      "summary": "Jon Rahm is preparing to begin a new chapter in his professional career.",
+      "quickRead": "Jon Rahm is preparing to begin a new chapter in his professional career.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-commits-dp-world-190050191.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-commits-dp-world-190050191.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-10-12T17:07:11.000Z",
       "approvedAt": "2026-10-12T19:34:30.489Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-liv-escape-route-170711438.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-12T18:30:00.000Z",
       "approvedAt": "2026-10-12T19:34:33.752Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-12T14:29:16.000Z",
       "approvedAt": "2026-10-12T19:34:33.753Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-10-12T13:25:41.000Z",
       "approvedAt": "2026-10-12T19:34:33.753Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-12T01:25:14.000Z",
       "approvedAt": "2026-10-12T08:28:13.080Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-11T21:18:27.000Z",
       "approvedAt": "2026-10-12T08:28:13.082Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/michael-brennan-opens-family-baycurrent-192450420.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-11T13:38:05.000Z",
-      "approvedAt": "2026-10-11T16:06:42.279Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "McIlroy’s Meritocracy Rule Opens Door For LIV Golfers",
-      "summary": "Rory McIlroy's strict meritocracy stance clears a path for ex-LIV players.",
-      "quickRead": "Rory McIlroy's strict meritocracy stance clears a path for ex-LIV players.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/mcilroy-meritocracy-rule-opens-door-133805866.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-meritocracy-rule-opens-door-133805866.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-10-12T19:34:19.281Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-12T18:57:19.281Z",
       "status": "Trending",
       "signal": "Reddit find",
