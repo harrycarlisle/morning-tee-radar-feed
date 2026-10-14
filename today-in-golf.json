@@ -1,35 +1,31 @@
 {
   "active": true,
-  "lastUpdated": "2026-10-13T21:13:17.509Z",
+  "lastUpdated": "2026-10-14T20:11:06.599Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Rahm Exits LIV Golf",
-      "text": "Jon Rahm's decision to leave LIV Golf creates a major dilemma for PGA Tour CEO Brian Rolapp as golf's biggest stars face uncertainty ahead of 2027."
+      "headline": "McIlroy's New Style in India",
+      "text": "Rory McIlroy arrived in India for the DP World India Championship wearing looser, baggier golf pants inspired by Tommy Fleetwood, aiming to refresh his post-Grand Slam approach while chasing Patrick Reed in the Race to Dubai standings."
     },
     {
-      "headline": "McIlroy's Career News",
-      "text": "Rory McIlroy announced new career plans less than two weeks after TMRW Sports renewed its deal with ESPN."
-    },
-    {
-      "headline": "Spieth Ready for Return",
-      "text": "Jordan Spieth says his body is finally ready for competition after years of wrist surgery, marking a key stage in his comeback."
+      "headline": "McIlroy Defends LIV Ban",
+      "text": "Ahead of the 2026 DP World India Championship, Rory McIlroy defended the DP World Tour's new ban on LIV players during a press conference, highlighting the tour's firm stance."
     }
   ],
-  "itemsLastUpdated": "2026-10-13T21:13:17.509Z",
+  "itemsLastUpdated": "2026-10-14T20:11:06.599Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-10-13T21:13:17.509Z",
+  "lastSuccessfulStoryUpdate": "2026-10-14T20:11:06.599Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 648,
+  "openaiOutputLength": 857,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +33,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_c91b96a18a21485caf85c4c644ee17ce",
+  "openaiRequestId": "req_5f0e1579080d421f8cb12398e673e79e",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-10-13T21:13:17.509Z",
+  "cleanedItemsCount": 2,
+  "rejectedItemsCount": 1,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 1
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-10-14T20:11:06.599Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
