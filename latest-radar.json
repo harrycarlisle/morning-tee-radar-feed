@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-14T19:56:20.706Z",
+  "updatedAt": "2026-10-14T22:57:45.180Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-10-14T21:01:34.000Z",
+      "approvedAt": "2026-10-14T22:57:45.177Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "McIlroy Backs LIV Players As TGL Rosters Take Shape",
+      "summary": "Rory McIlroy supports LIV players returning to the PGA Tour while TGL confirms new 2027 rosters including Brooks Koepka and a fresh Motor City team.",
+      "quickRead": "Rory McIlroy said he’d vote “yes” to let LIV Golf players back on the PGA Tour, adding that LIV “wasted” its money and is “no longer a threat” to traditional tours.  His comments come as TGL roster-building for 2027 gets underway—highlighted by Brooks Koepka’s involvement and a new Detroit/Motor City franchise—showing how pro golf’s lines keep blurring.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/mcilroy-backs-liv-players-tgl-210134651.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-backs-liv-players-tgl-210134651.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-10-14T16:40:48.000Z",
       "approvedAt": "2026-10-14T19:56:11.471Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/liv-state-flux-rory-mcilroy-164048880.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-14T14:00:50.000Z",
       "approvedAt": "2026-10-14T19:56:15.732Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-10-14T12:48:15.000Z",
       "approvedAt": "2026-10-14T14:50:11.841Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-13T20:35:19.000Z",
       "approvedAt": "2026-10-14T14:50:14.818Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-13T21:09:35.000Z",
       "approvedAt": "2026-10-13T22:13:16.022Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-reflects-wasted-liv-210935236.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reflects-wasted-liv-210935236.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-10-13T20:51:03.000Z",
-      "approvedAt": "2026-10-13T22:13:16.022Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy would welcome LIV Golf members back to the PGA Tour, though still...",
-      "summary": "Rory McIlroy is competing in the DP World Tour's Indian Championship this week in New Delhi.",
-      "quickRead": "Rory McIlroy is competing in the DP World Tour's Indian Championship this week in New Delhi.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/article/rory-mcilroy-would-welcome-liv-golf-members-back-to-the-pga-tour-though-still-with-conditions-205103871.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/article/rory-mcilroy-would-welcome-liv-golf-members-back-to-the-pga-tour-though-still-with-conditions-205103871.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-10-14T19:56:02.664Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-14T19:19:02.664Z",
       "status": "Trending",
       "signal": "Reddit find",
