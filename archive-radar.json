@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-10-15T02:52:42.646Z",
+  "updatedAt": "2026-10-15T02:52:45.620Z",
   "stories": [
+    {
+      "time": "3 hours ago",
+      "timestamp": "2026-10-14T23:05:19.000Z",
+      "approvedAt": "2026-10-15T02:52:44.299Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau Gets His Freedom From LIV Golf Contracts",
+      "summary": "Bryson DeChambeau and other LIV stars are finally free from their contracts.",
+      "quickRead": "Bryson DeChambeau and other LIV stars are finally free from their contracts.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-gets-freedom-liv-230519023.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-gets-freedom-liv-230519023.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "archivedAt": "2026-10-15T02:52:45.620Z"
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-10-15T00:41:59.000Z",
@@ -1875,26 +1895,6 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
       "timestamp": "2026-10-04T16:17:10.000Z",
       "archivedAt": "2026-10-04T17:57:24.190Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-10-04T11:55:00.000Z",
-      "approvedAt": "2026-10-04T13:37:46.440Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Tom Kim Wins Asian Games Gold After Tiger Woods Text",
-      "summary": "Tom Kim secured Asian Games gold and a military exemption after receiving a pivotal text from Tiger Woods, detailing the pressure and final-round 64.",
-      "quickRead": "Tom Kim secured Asian Games gold and a military exemption after receiving a pivotal text from Tiger Woods, detailing the pressure and final-round 64.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tom-kim-wins-asian-games-115500978.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tom-kim-wins-asian-games-115500978.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
-      "archivedAt": "2026-10-04T13:37:47.625Z"
     }
   ]
 }
