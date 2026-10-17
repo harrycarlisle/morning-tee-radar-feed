@@ -1,0 +1,4122 @@
+<html>
+    <head>
+      <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+      <script>
+        function beehiiv_sendHeight(reason) {
+          return function () {
+            const height = document.body.scrollHeight;
+            parent.postMessage({ type: "beehiiv:iframe_height", height, reason, embedId: "_R_2tvdah4l5_" }, "*");
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", beehiiv_sendHeight("DOMContentLoaded"));
+        window.addEventListener("resize", beehiiv_sendHeight("resize"));
+
+        // Capture user interactions that could alter content height
+        document.addEventListener("input", beehiiv_sendHeight("input"));
+        document.addEventListener("change", beehiiv_sendHeight("change"));
+      </script>
+    </head>
+    <body><!-- Morning Tee homepage combined block: Today In Golf + Newest/Radar + Top Picks/Puzzles -->
+<div class="mt-home-combined-block">
+  <div class="mt-today-strip is-closed" id="mt-today-strip">
+    <button class="mt-today-strip-inner" id="mt-today-toggle" type="button" aria-expanded="false" aria-controls="mt-today-panel">
+    <div class="mt-today-copy">
+      <div class="mt-today-title-row">
+        <span class="mt-today-title">Today In Golf</span>
+        <span class="mt-today-live-dot" aria-hidden="true"></span>
+        <span class="mt-today-label" id="mt-today-label">Updated at 8 p.m. ET</span>
+      </div>
+
+      <div class="mt-today-desc" id="mt-today-desc">
+        A 30-second briefing on today's biggest golf stories.
+      </div>
+    </div>
+
+    <div class="mt-today-cta" id="mt-today-cta">Open +</div>
+  </button>
+
+    <div class="mt-today-panel" id="mt-today-panel" hidden>
+      <div class="mt-today-panel-inner">
+        <div class="mt-today-panel-list" id="mt-today-panel-list">
+          <div class="mt-today-brief-item">
+            <span class="mt-today-brief-headline">Briefing</span>
+            <span class="mt-today-brief-text">The latest briefing is loading.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .mt-today-strip,
+    .mt-today-strip * {
+      box-sizing: border-box;
+    }
+
+    .mt-today-strip {
+      width: min(calc(100% - 28px), 1280px);
+      max-width: 1280px;
+      margin: 0 auto 8px;
+      padding: 0;
+      background: transparent !important;
+      border: 0 !important;
+      box-shadow: none !important;
+      font-family: Inter, Arial, sans-serif;
+      overflow: visible !important;
+    }
+
+    .mt-today-strip::before,
+    .mt-today-strip::after {
+      display: none !important;
+      content: none !important;
+    }
+
+    .mt-today-strip-inner {
+      width: 100%;
+      min-height: 62px;
+      padding: 13px 16px;
+      border: 1px solid #ddd4c4;
+      border-radius: 12px;
+      background: #fbf8f1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: #111;
+      text-align: left;
+      cursor: pointer;
+      font-family: Inter, Arial, sans-serif;
+      box-shadow: 0 5px 14px rgba(17, 17, 17, 0.025);
+    }
+
+    .mt-today-strip-inner:hover {
+      border-color: rgba(64, 131, 43, 0.34);
+    }
+
+    .mt-today-strip-inner:hover .mt-today-cta {
+      text-decoration: underline;
+    }
+
+    #mt-today-toggle[aria-expanded="true"] {
+      border-radius: 12px 12px 0 0;
+      border-bottom: 0;
+      box-shadow: none;
+    }
+
+    .mt-today-copy {
+      min-width: 0;
+      flex: 1 1 auto;
+    }
+
+    .mt-today-title-row {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 4px;
+      flex-wrap: wrap;
+      min-width: 0;
+    }
+
+    .mt-today-title {
+      font-size: 18px;
+      line-height: 1.05;
+      font-weight: 900;
+      color: #111;
+      white-space: nowrap;
+      letter-spacing: -0.02em;
+    }
+
+    .mt-today-live-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #40832b;
+      flex: 0 0 auto;
+      position: relative;
+    }
+
+    .mt-today-label {
+      font-size: 10px;
+      line-height: 1;
+      font-weight: 850;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #40832b;
+      white-space: nowrap;
+    }
+
+    .mt-today-desc {
+      font-size: 13px;
+      line-height: 1.35;
+      color: #4b4b4b;
+    }
+
+    .mt-today-cta {
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+      color: #40832b;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      margin-left: auto;
+    }
+
+    .mt-today-panel {
+      width: 100%;
+      margin: 0;
+      overflow: visible !important;
+    }
+
+    .mt-today-panel[hidden] {
+      display: none !important;
+    }
+
+    .mt-today-panel-inner {
+      border: 1px solid #ddd4c4;
+      border-top: 0;
+      border-radius: 0 0 12px 12px;
+      background: #fbf8f1;
+      padding: 0 16px 14px;
+      box-shadow: 0 5px 14px rgba(17, 17, 17, 0.02);
+      overflow: visible !important;
+    }
+
+    .mt-today-panel-list {
+      display: grid;
+      gap: 0;
+      width: 100%;
+      max-width: none;
+      padding-top: 3px;
+    }
+
+    .mt-today-brief-item {
+      display: block;
+      padding: 9px 0;
+      border-top: 1px solid rgba(221, 212, 196, 0.75);
+    }
+
+    .mt-today-brief-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .mt-today-brief-headline {
+      display: inline;
+      color: #111;
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .mt-today-brief-headline::after {
+      content: ": ";
+    }
+
+    .mt-today-brief-text {
+      display: inline;
+      color: #4b4b4b;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .mt-today-strip.mt-today-just-updated .mt-today-live-dot::after {
+      content: "";
+      position: absolute;
+      inset: -5px;
+      border-radius: 999px;
+      background: rgba(64, 131, 43, 0.22);
+      animation: mtTodayPulse 1.8s ease-out 4;
+    }
+
+    @keyframes mtTodayPulse {
+      0% {
+        transform: scale(0.55);
+        opacity: 0.85;
+      }
+
+      70% {
+        transform: scale(1.4);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1.4);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .mt-today-strip {
+        width: calc(100% - 28px);
+      }
+
+      .mt-today-strip-inner {
+        min-height: auto;
+        padding: 13px 14px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 9px;
+      }
+
+      .mt-today-title-row {
+        flex-wrap: wrap;
+        gap: 7px;
+        margin-bottom: 6px;
+      }
+
+      .mt-today-title {
+        font-size: 18px;
+      }
+
+      .mt-today-desc {
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .mt-today-cta {
+        font-size: 13px;
+        margin-left: 0;
+      }
+
+      .mt-today-panel-inner {
+        padding: 0 14px 14px;
+      }
+
+      .mt-today-brief-headline,
+      .mt-today-brief-text {
+        font-size: 14px;
+        line-height: 1.45;
+      }
+    }
+  </style>
+
+  <script>
+    (function () {
+    const todayGolfUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main/today-in-golf.json";
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "<")
+        .replace(/>/g, ">")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function renderBriefingItems(data) {
+      const list = document.getElementById("mt-today-panel-list");
+      if (!list) return;
+
+      const items = Array.isArray(data.items) ? data.items.slice(0, 4) : [];
+
+      if (items.length) {
+        list.innerHTML = items.map(function (item) {
+          return `
+            <div class="mt-today-brief-item">
+              <span class="mt-today-brief-headline">${escapeHtml(item.headline)}</span>
+              <span class="mt-today-brief-text">${escapeHtml(item.text)}</span>
+            </div>
+          `;
+        }).join("");
+        return;
+      }
+
+      list.innerHTML = `
+        <div class="mt-today-brief-item">
+          <span class="mt-today-brief-headline">Briefing</span>
+          <span class="mt-today-brief-text">The latest briefing is loading.</span>
+        </div>
+      `;
+    }
+
+    function toggleBriefing() {
+      const panel = document.getElementById("mt-today-panel");
+      const toggle = document.getElementById("mt-today-toggle");
+      const cta = document.getElementById("mt-today-cta");
+      const strip = document.getElementById("mt-today-strip");
+
+      if (!panel || !toggle || !cta || !strip) return;
+
+      const isOpen = !panel.hasAttribute("hidden");
+
+      if (isOpen) {
+        panel.setAttribute("hidden", "");
+        strip.classList.remove("is-open");
+        strip.classList.add("is-closed");
+        toggle.setAttribute("aria-expanded", "false");
+        cta.textContent = "Open +";
+      } else {
+        panel.removeAttribute("hidden");
+        strip.classList.remove("is-closed");
+        strip.classList.add("is-open");
+        toggle.setAttribute("aria-expanded", "true");
+        cta.textContent = "Close −";
+      }
+    }
+
+    async function loadTodayInGolf() {
+      try {
+        const response = await fetch(todayGolfUrl + "?v=" + Date.now(), {
+          cache: "no-store"
+        });
+
+        if (!response.ok) throw new Error("Today In Golf failed to load");
+
+        const data = await response.json();
+
+        if (!data || data.active !== true) return;
+
+        const strip = document.getElementById("mt-today-strip");
+        const label = document.getElementById("mt-today-label");
+        const desc = document.getElementById("mt-today-desc");
+
+        if (strip && data.lastUpdated) {
+          const updatedAt = Date.parse(data.lastUpdated);
+          const minutesSinceUpdate = Number.isNaN(updatedAt)
+            ? Infinity
+            : (Date.now() - updatedAt) / 60000;
+
+          if (minutesSinceUpdate <= 10) {
+            strip.classList.add("mt-today-just-updated");
+          } else {
+            strip.classList.remove("mt-today-just-updated");
+          }
+        }
+
+        if (label && data.label) {
+          label.textContent = data.usedFallback === true
+            ? data.label.replace(/^Updated at/i, "Updated at")
+            : data.label;
+        }
+
+        if (desc) desc.textContent = data.summary || "A 30-second briefing on today's biggest golf stories.";
+
+        renderBriefingItems(data);
+      } catch (error) {
+        console.warn("Morning Tee Today In Golf section failed to load", error);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      if (event.target.closest && event.target.closest("#mt-today-toggle")) {
+        event.preventDefault();
+        toggleBriefing();
+      }
+    });
+
+    loadTodayInGolf();
+    setInterval(loadTodayInGolf, 60000);
+  })();
+  </script>
+
+  <section class="mth-radar" id="mth-radar">
+    <div class="mth-radar-wrap">
+      <div class="mth-radar-layout">
+        <article class="mth-radar-feature" id="mth-radar-main-card">
+          <div class="mth-radar-card-loading">Loading radar...</div>
+        </article>
+
+        <aside class="mth-radar-panel">
+          <div class="mth-radar-head">
+            <div class="mth-radar-title-row">
+              <h2>Newest</h2>
+              <a id="mth-radar-all-stories-link" class="mth-radar-full-link mth-radar-full-link-top"
+                href="https://www.morningtee.com/search" target="_top" rel="noopener">
+                All stories →
+              </a>
+            </div>
+
+            <p>The most popular stories in golf right now</p>
+          </div>
+
+          <div class="mth-radar-side-list" id="mth-radar-week-list">
+            <article class="mth-radar-side-card">
+              <div class="mth-radar-card-loading">Loading watch list...</div>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <div class="mth-story-modal" id="mth-story-modal" aria-hidden="true">
+    <div class="mth-story-modal-backdrop" id="mth-story-modal-backdrop"></div>
+
+    <article class="mth-story-modal-card" role="dialog" aria-modal="true" aria-labelledby="mth-story-modal-title">
+      <button class="mth-story-modal-close" id="mth-story-modal-close" type="button" aria-label="Close quick read">
+      ×
+    </button>
+
+      <div class="mth-story-modal-kicker" id="mth-story-modal-kicker"></div>
+      <h2 class="mth-story-modal-title" id="mth-story-modal-title"></h2>
+      <div class="mth-story-modal-meta" id="mth-story-modal-meta"></div>
+
+      <div class="mth-story-modal-section-label">Quick read</div>
+      <p class="mth-story-modal-quick-read" id="mth-story-modal-quick-read"></p>
+
+      <blockquote class="mth-story-modal-quote" id="mth-story-modal-quote" hidden></blockquote>
+      <div class="mth-story-modal-quote-byline" id="mth-story-modal-quote-byline" hidden></div>
+
+      <a class="mth-story-modal-link" id="mth-story-modal-link" href="#" target="_blank" rel="noopener noreferrer">
+        Read full story
+      </a>
+    </article>
+  </div>
+
+  <style>
+    .mth-radar {
+      width: 100%;
+      padding: 24px 0 38px;
+      background: transparent !important;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      overflow: visible !important;
+    }
+
+    .mth-radar * {
+      box-sizing: border-box;
+    }
+
+    .mth-radar,
+    .mth-radar *,
+    .mth-radar-wrap,
+    .mth-radar-layout,
+    .mth-radar-panel,
+    .mth-radar-side-list,
+    .mth-radar-feature,
+    .mth-radar-feature-content {
+      max-height: none !important;
+    }
+
+    .mth-radar,
+    .mth-radar-wrap,
+    .mth-radar-layout,
+    .mth-radar-panel,
+    .mth-radar-side-list {
+      overflow: visible !important;
+    }
+
+    .mth-radar {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    .mth-radar-wrap {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    .mth-radar-layout {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    .mth-radar,
+    .mth-radar *,
+    .mth-radar-wrap,
+    .mth-radar-layout,
+    .mth-radar-panel,
+    .mth-radar-side-list,
+    .mth-radar-feature,
+    .mth-radar-feature-content {
+      max-height: none !important;
+    }
+
+    .mth-radar,
+    .mth-radar-wrap,
+    .mth-radar-layout,
+    .mth-radar-panel,
+    .mth-radar-side-list {
+      overflow: visible !important;
+    }
+
+    .mth-radar {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    .mth-radar-wrap {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    .mth-radar-layout {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    body.mth-modal-open {
+      overflow: hidden !important;
+    }
+
+    .mth-radar,
+    .mth-radar-wrap,
+    .mth-radar-layout,
+    .mth-radar-panel,
+    .mth-radar-side-list {
+      overflow: visible !important;
+    }
+
+    .mth-radar-wrap {
+      width: min(calc(100% - 28px), 1280px);
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .mth-radar-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.28fr) minmax(360px, 0.9fr);
+      gap: 36px;
+      align-items: start;
+    }
+
+    .mth-radar-feature,
+    .mth-radar-side-card {
+      appearance: none;
+      text-align: left;
+      font-family: inherit;
+      cursor: pointer;
+      position: relative;
+      min-width: 0;
+    }
+
+    .mth-radar-feature {
+      display: grid;
+      grid-template-rows: auto auto;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #ddd4c4;
+      border-radius: 16px;
+      background: #ffffff;
+      box-shadow: none;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .mth-radar-feature:hover {
+      transform: translateY(-3px);
+      border-color: rgba(64, 131, 43, 0.45);
+      box-shadow: 0 14px 34px rgba(17, 17, 17, 0.10);
+    }
+
+    .mth-radar-feature-image {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      overflow: hidden;
+      border-radius: 16px 16px 0 0;
+      background: #dfe9d7;
+      border-bottom: 1px solid #ddd4c4;
+    }
+
+    .mth-radar-feature-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 0.22s ease;
+    }
+
+    .mth-radar-feature:hover .mth-radar-feature-image img {
+      transform: scale(1.025);
+    }
+
+    .mth-radar-feature-content {
+      position: relative;
+      z-index: 2;
+      padding: 20px 22px 22px;
+      background: #ffffff;
+      color: #111111;
+    }
+
+    .mth-radar-feature-meta {
+      display: inline-block;
+      color: #40832B;
+      font-size: 12px;
+      font-weight: 900;
+      margin: 0 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .mth-radar-feature h3 {
+      margin: 0 0 12px;
+      max-width: 100%;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      font-size: clamp(28px, 3.25vw, 42px);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 780;
+      text-wrap: balance;
+      white-space: normal;
+      transition: color 0.18s ease;
+    }
+
+    .mth-radar-feature:hover h3 {
+      color: #40832B;
+    }
+
+    .mth-radar-feature-dek {
+      margin: 0;
+      max-width: 58ch;
+      color: #5e5a52;
+      font-size: 15px;
+      line-height: 1.48;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .mth-radar-panel {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      background: transparent;
+    }
+
+    .mth-radar-head {
+      margin-bottom: 0;
+      padding: 0 0 12px;
+      border-bottom: 1px solid #ddd4c4;
+      background: transparent;
+    }
+
+    .mth-radar-title-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .mth-radar-head h2 {
+      margin: 0;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      font-size: clamp(22px, 2.6vw, 30px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      font-weight: 780;
+    }
+
+    .mth-radar-head p {
+      display: none;
+    }
+
+    .mth-radar-full-link {
+      display: inline-flex;
+      width: fit-content;
+      color: #111111;
+      font-size: 11px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.18s ease;
+    }
+
+    .mth-radar-full-link:hover {
+      color: #40832B;
+      text-decoration: none;
+    }
+
+    .mth-radar-side-list {
+      display: block;
+      background: transparent;
+    }
+
+    .mth-radar-side-card {
+      display: block;
+      width: 100%;
+      padding: 18px 0;
+      margin: 0;
+      border: 0;
+      border-bottom: 1px solid #ddd4c4;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+      color: #111111;
+      transition: color 0.18s ease, opacity 0.18s ease;
+    }
+
+    .mth-radar-side-card:hover {
+      transform: none;
+      opacity: 0.9;
+    }
+
+    .mth-radar-side-content {
+      position: relative;
+      z-index: 2;
+      min-width: 0;
+      padding: 0;
+    }
+
+    .mth-radar-pill {
+      display: block;
+      width: fit-content;
+      max-width: 100%;
+      margin-bottom: 8px;
+      padding: 0;
+      border-radius: 0;
+      background: transparent;
+      color: #40832B;
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .mth-radar-side-card h3 {
+      margin: 0 0 6px;
+      color: #111111;
+      font-size: clamp(17px, 1.8vw, 22px);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+      font-weight: 780;
+      transition: color 0.18s ease;
+    }
+
+    .mth-radar-side-card:hover h3 {
+      color: #40832B;
+    }
+
+    .mth-radar-side-time {
+      margin: 0;
+      color: #6d6a63;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .mth-radar-card-loading {
+      padding: 18px;
+      color: #5e5a52;
+      background: #ffffff;
+      min-height: 130px;
+      border: 1px solid #ddd4c4;
+      border-radius: 14px;
+    }
+
+    .mth-story-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 999999;
+      display: none;
+      font-family: Inter, Arial, sans-serif;
+    }
+
+    .mth-story-modal.is-open {
+      display: block;
+    }
+
+    .mth-story-modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(17, 17, 17, 0.48);
+      backdrop-filter: blur(2px);
+    }
+
+    .mth-story-modal-card {
+      position: relative;
+      z-index: 1;
+      width: min(560px, calc(100% - 32px));
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
+      margin: 7vh auto 0;
+      background: #fbf8f1;
+      color: #111111;
+      border: 1px solid rgba(17, 17, 17, 0.12);
+      border-radius: 24px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+      padding: 24px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .mth-story-modal-close {
+      position: absolute;
+      top: 16px;
+      right: 18px;
+      width: 36px;
+      height: 36px;
+      border: 1px solid rgba(17, 17, 17, 0.12);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.65);
+      color: #111111;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .mth-story-modal-kicker {
+      margin-right: 44px;
+      font-size: 12px;
+      line-height: 1.2;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 900;
+      color: #40832B;
+    }
+
+    .mth-story-modal-title {
+      margin: 10px 44px 8px 0;
+      font-size: clamp(24px, 4vw, 34px);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: #111111;
+    }
+
+    .mth-story-modal-meta {
+      margin: 0 0 22px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: rgba(17, 17, 17, 0.58);
+    }
+
+    .mth-story-modal-section-label {
+      margin-bottom: 8px;
+      font-size: 13px;
+      font-weight: 900;
+      color: #111111;
+    }
+
+    .mth-story-modal-quick-read {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.55;
+      color: rgba(17, 17, 17, 0.86);
+    }
+
+    .mth-story-modal-quote {
+      margin: 22px 0 0;
+      padding: 18px 18px 18px 20px;
+      border-left: 4px solid #40832B;
+      border-radius: 14px;
+      background: rgba(64, 131, 43, 0.08);
+      font-size: 15px;
+      line-height: 1.5;
+      color: #111111;
+    }
+
+    .mth-story-modal-quote-byline {
+      margin-top: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      color: rgba(17, 17, 17, 0.62);
+    }
+
+    .mth-story-modal-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 24px;
+      min-height: 46px;
+      padding: 0 20px;
+      border-radius: 999px;
+      background: #40832B;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+
+    .mth-radar-live-visual {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      overflow: hidden;
+      color: #111111;
+      background:
+        linear-gradient(rgba(9, 44, 16, 0.76), rgba(9, 44, 16, 0.84)),
+        radial-gradient(circle at 16% 18%, rgba(154, 206, 135, 0.24), transparent 30%),
+        radial-gradient(circle at 82% 10%, rgba(255, 255, 255, 0.14), transparent 25%),
+        linear-gradient(135deg, #123f1a 0%, #2f7d32 48%, #0d2916 100%);
+    }
+
+    .mth-radar-live-visual::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(160deg, rgba(255, 255, 255, 0.052) 0 1px, transparent 1px 38px),
+        radial-gradient(ellipse at 50% 118%, rgba(0, 0, 0, 0.34), transparent 46%);
+      pointer-events: none;
+    }
+
+    .mth-radar-live-visual-inner {
+      position: absolute;
+      inset: 18px;
+      display: flex;
+      flex-direction: column;
+      background: #fbf8f1;
+      border: 2px solid #9ace87;
+      border-radius: 17px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
+      overflow: hidden;
+    }
+
+    .mth-radar-live-visual-header {
+      display: block;
+      padding: 15px 18px 13px;
+      background: linear-gradient(135deg, #2f7d32 0%, #40832B 100%);
+      color: #ffffff;
+    }
+
+    .mth-radar-live-visual-tournament {
+      min-width: 0;
+      font-size: clamp(17px, 1.75vw, 22px);
+      line-height: 1;
+      font-weight: 950;
+      letter-spacing: -0.025em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mth-radar-live-visual-board {
+      padding: 0 20px 12px;
+    }
+
+    .mth-radar-live-visual-board-head,
+    .mth-radar-live-visual-row {
+      display: grid;
+      grid-template-columns: 48px minmax(0, 1fr) 58px 48px;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .mth-radar-live-visual-board-head {
+      color: #2f7d32;
+      font-size: 10px;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 14px 0 11px;
+      border-bottom: 1px solid #d8cfbe;
+    }
+
+    .mth-radar-live-visual-row {
+      min-height: 42px;
+      border-bottom: 1px solid #e0d8ca;
+      font-size: 15px;
+    }
+
+    .mth-radar-live-visual-pos,
+    .mth-radar-live-visual-name,
+    .mth-radar-live-visual-score,
+    .mth-radar-live-visual-thru {
+      font-weight: 950;
+    }
+
+    .mth-radar-live-visual-pos,
+    .mth-radar-live-visual-name,
+    .mth-radar-live-visual-score {
+      color: #111111;
+    }
+
+    .mth-radar-live-visual-name {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mth-radar-live-visual-score,
+    .mth-radar-live-visual-thru {
+      text-align: right;
+    }
+
+    .mth-radar-live-visual-thru {
+      color: #5e5a52;
+    }
+
+    @media (max-width: 700px) {
+      .mth-radar-live-visual {
+        min-height: 320px;
+      }
+
+      .mth-radar-live-visual-inner {
+        inset: 12px;
+        border-radius: 14px;
+      }
+
+      .mth-radar-live-visual-header {
+        padding: 12px 14px 11px;
+      }
+
+      .mth-radar-live-visual-tournament {
+        width: 100%;
+        font-size: 18px;
+      }
+
+      .mth-radar-live-visual-board {
+        padding: 0 14px 8px;
+      }
+
+      .mth-radar-live-visual-board-head,
+      .mth-radar-live-visual-row {
+        grid-template-columns: 38px minmax(0, 1fr) 46px 38px;
+        gap: 8px;
+      }
+
+      .mth-radar-live-visual-board-head {
+        font-size: 9px;
+        padding: 9px 0;
+      }
+
+      .mth-radar-live-visual-row {
+        min-height: 32px;
+        font-size: 13px;
+      }
+    }
+
+    @media (max-width: 920px) {
+      .mth-radar-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .mth-radar-feature-image {
+        aspect-ratio: 16 / 9;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .mth-radar {
+        padding: 22px 0 30px;
+      }
+
+      .mth-radar-wrap {
+        width: calc(100% - 28px);
+      }
+
+      .mth-radar-feature {
+        border-radius: 18px;
+      }
+
+      .mth-radar-feature-image {
+        aspect-ratio: 16 / 10;
+      }
+
+      .mth-radar-feature h3 {
+        font-size: 30px;
+        line-height: 0.96;
+      }
+
+      .mth-radar-feature-dek {
+        max-width: 100%;
+        font-size: 13px;
+      }
+
+      .mth-story-modal.is-open {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        overflow-y: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .mth-story-modal.is-main-story {
+        padding-top: 10vh;
+      }
+
+      .mth-story-modal.is-side-story {
+        padding-top: 20vh;
+      }
+
+      .mth-story-modal-card {
+        width: 100%;
+        max-height: min(78vh, 720px);
+        margin: 0;
+        border-radius: 24px;
+        padding: 26px 20px 24px;
+      }
+
+      .mth-story-modal-link {
+        width: 100%;
+      }
+    }
+  </style>
+
+  <script>
+    (function () {
+    function fixBeehiivWrapperScroll() {
+      try {
+        const currentScript = document.currentScript;
+        const root =
+          document.getElementById("mth-radar") ||
+          document.getElementById("mt-today-strip") ||
+      currentScript;
+
+        if (!root) return;
+
+      let node = root.parentElement;
+      let steps = 0;
+
+      while (node && steps < 8) {
+      if (node.getAttribute && node.getAttribute("data-width") === "100dvh") {
+        node.setAttribute("data-width", "100%");
+      }
+
+      if (node.style) {
+        if (node.style.width === "100dvh") node.style.width = "100%";
+        node.style.overflow = "visible";
+        node.style.maxHeight = "none";
+        node.style.height = "auto";
+      }
+
+      node = node.parentElement;
+      steps += 1;
+    }
+  } catch (error) {
+    console.warn("Morning Tee wrapper scroll fix failed", error);
+  }
+}
+
+fixBeehiivWrapperScroll();
+setTimeout(fixBeehiivWrapperScroll, 250);
+setTimeout(fixBeehiivWrapperScroll, 1000);
+    const radarUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main/latest-radar.json";
+    const feedBaseUrl = "https://morningteeradarfeed.netlify.app";
+    const rawImageBaseUrl = "https://raw.githubusercontent.com/harrycarlisle/morning-tee-radar-feed/main";
+
+    const temporaryAaronRaiImageCandidates = [
+      feedBaseUrl + "/images/aaron-rai-1.png",
+      rawImageBaseUrl + "/images/aaron-rai-1.png",
+      feedBaseUrl + "/images/aaron-rai-1%20(1).png",
+      rawImageBaseUrl + "/images/aaron-rai-1%20(1).png"
+    ];
+
+    const homepageTopPickUrls = new Set([
+      "https://www.morningtee.com/stories-can-ai-really-fix-your-golf-swing",
+      "https://www.morningtee.com/stories-the-worlds-most-expensive-golf-trip"
+    ]);
+
+    const homepageTopPickTitles = [
+      "Can AI Really Fix Your Golf Swing?",
+      "The World’s Most Expensive Golf Trip"
+    ].map(getComparableTitle);
+
+    function getFeatureTimestamp(item) {
+      if (!item || !item.publishedAt) return 0;
+
+      const parsed = Date.parse(item.publishedAt);
+      return Number.isNaN(parsed) ? 0 : parsed;
+    }
+
+    function getEasternDayInfo(date = new Date()) {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/New_York",
+        weekday: "short",
+        hour: "numeric",
+        minute: "numeric",
+        hour12: false
+      }).formatToParts(date);
+
+      const get = (type) => parts.find((part) => part.type === type)?.value || "";
+
+      return {
+        weekday: get("weekday"),
+        hour: Number(get("hour")),
+        minute: Number(get("minute"))
+      };
+    }
+
+    function isSundayAfternoonOrLaterET(date = new Date()) {
+      const info = getEasternDayInfo(date);
+
+      if (info.weekday === "Sun") {
+        return info.hour >= 15;
+      }
+
+      return ["Mon", "Tue"].includes(info.weekday);
+    }
+
+    function getStoryTextForSafety(item) {
+      return [
+        item && item.title,
+        item && item.summary,
+        item && item.quickRead,
+        item && item.quickContext,
+        item && item.modalSummary,
+        item && item.label,
+        item && item.category,
+        item && item.signal,
+        item && item.source,
+        item && item.status,
+        item && item.roundStatus,
+        item && item.tournamentStatus,
+        item && item.leaderboardStatus,
+        item && item.scoringStatus,
+        item && item.state,
+        item && item.validationStatus,
+        item && item.validation_status,
+        item && item.validationNotes,
+        item && item.validation_notes
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function getValidationStatus(item) {
+      return String(
+        item && (
+          item.validationStatus ||
+          item.validation_status ||
+          item.status ||
+          ""
+        ) || ""
+      )
+        .toLowerCase()
+        .trim();
+    }
+
+    function hasInvalidValidationStatus(item) {
+      const status = getValidationStatus(item);
+
+      return (
+        status === "invalid" ||
+        status === "needs_review" ||
+        status === "needs review" ||
+        status === "review" ||
+        status === "blocked"
+      );
+    }
+
+    function hasContradictionLanguage(item) {
+      const text = getStoryTextForSafety(item);
+
+      const contradictionPatterns = [
+        /\bdid not win\b/,
+        /\bdidn't win\b/,
+        /\bdoes not match\b/,
+        /\bdoesn't match\b/,
+        /\bper the provided leaderboard\b/,
+        /\bprovided leaderboard\b/,
+        /\bprovided data says\b/,
+        /\bprovided data\b/,
+        /\bconflicting\b/,
+        /\bconflict\b/,
+        /\bmismatch\b/,
+        /\bnot the winner\b/,
+        /\bwas not the winner\b/,
+        /\bincorrect\b/,
+        /\binstead\b/,
+        /\bactually\b/,
+        /\bwas not listed as winner\b/,
+        /\bwasn't listed as winner\b/
+      ];
+
+      return contradictionPatterns.some((pattern) => pattern.test(text));
+    }
+
+    function isInvalidStory(item) {
+      if (!item || !item.title) return true;
+      if (hasInvalidValidationStatus(item)) return true;
+      if (hasContradictionLanguage(item)) return true;
+      if (isUnsafeWinnerClaim(item)) return true;
+
+      return false;
+    }
+
+    function looksLikeWinnerClaim(item) {
+      const text = getStoryTextForSafety(item);
+
+      return (
+        /\bwins?\b/.test(text) ||
+        /\bwon\b(?!['’]t)/.test(text) ||
+        /\bwinner\b/.test(text) ||
+        /\bchampion\b/.test(text) ||
+        /\bcrowned\b/.test(text) ||
+        /\bclaims?\s+(the\s+)?title\b/.test(text) ||
+        /\bholds off\b/.test(text)
+      );
+    }
+
+    function hasConfirmedFinalSignal(item) {
+      const text = getStoryTextForSafety(item);
+
+      return (
+        /\bofficial\b/.test(text) ||
+        /\bconfirmed\b/.test(text) ||
+        /\btournament complete\b/.test(text) ||
+        /\btournament completed\b/.test(text) ||
+        /\bleaderboard final\b/.test(text) ||
+        /\bfinal leaderboard\b/.test(text) ||
+        /\bfinal results?\b/.test(text) ||
+        /\bstatus:\s*final\b/.test(text) ||
+        /\bstatus:\s*complete\b/.test(text) ||
+        /\bstatus:\s*completed\b/.test(text)
+      );
+    }
+
+    function hasLiveOrInProgressSignal(item) {
+      const text = getStoryTextForSafety(item);
+
+      return (
+        /\blive\b/.test(text) ||
+        /\bthrough\b/.test(text) ||
+        /\bthru\b/.test(text) ||
+        /\boverall through\b/.test(text) ||
+        /\bafter\s+\d+\b/.test(text) ||
+        /\bround\s+[123]\b/.test(text) ||
+        /\bleads?\b/.test(text) ||
+        /\bleaderboard\b/.test(text) ||
+        /\bprojected\b/.test(text) ||
+        /\bcurrently\b/.test(text) ||
+        /\bin progress\b/.test(text) ||
+        /\bnot final\b/.test(text)
+      );
+    }
+
+    function isUnsafeWinnerClaim(item) {
+      if (!looksLikeWinnerClaim(item)) return false;
+
+      const safeTimeWindow = isSundayAfternoonOrLaterET();
+      const finalConfirmed = hasConfirmedFinalSignal(item);
+      const liveOrInProgress = hasLiveOrInProgressSignal(item);
+
+      if (!safeTimeWindow) return true;
+      if (!finalConfirmed) return true;
+      if (liveOrInProgress && !finalConfirmed) return true;
+
+      return false;
+    }
+
+    function getActiveHomepageFeature(data) {
+      const features = Array.isArray(data.homepageFeatures) ? data.homepageFeatures : [];
+      const now = Date.now();
+      const threeDaysMs = 3 * 24 * 60 * 60 * 1000;
+
+      const activeFeatures = features.filter((item) => {
+        if (!item || !item.title) return false;
+        if (isInvalidStory(item)) return false;
+        if (!shouldShowOnHomepage(item)) return false;
+        if (String(item.status || "").toLowerCase() !== "active") return false;
+
+        const sourceUrl = String(item.sourceUrl || item.url || "").trim().toLowerCase();
+        const displayTitle = getComparableTitle(item.title);
+
+        const isAlreadyTopPick =
+          homepageTopPickUrls.has(sourceUrl) ||
+          homepageTopPickTitles.includes(displayTitle);
+
+        return !isAlreadyTopPick;
+      });
+
+      if (!activeFeatures.length) return null;
+
+      const freshOriginals = activeFeatures
+        .filter((item) => {
+          const publishedAt = getFeatureTimestamp(item);
+          return publishedAt && now - publishedAt <= threeDaysMs;
+        })
+        .sort((a, b) => {
+          const scoreA = Number(a.interestScore || 0);
+          const scoreB = Number(b.interestScore || 0);
+          return scoreB - scoreA;
+        });
+
+      if (freshOriginals.length) return freshOriginals[0];
+
+      const evergreenFeatures = activeFeatures
+        .filter((item) => item.evergreen === true)
+        .sort((a, b) => {
+          const scoreA = Number(a.interestScore || 0);
+          const scoreB = Number(b.interestScore || 0);
+          return scoreB - scoreA;
+        });
+
+      if (!evergreenFeatures.length) return activeFeatures[0];
+
+      const todayIndex = Math.floor(now / 86400000) % evergreenFeatures.length;
+      return evergreenFeatures[todayIndex];
+    }
+
+    function isWayMorePopularStory(item) {
+      if (!item) return false;
+      if (isInvalidStory(item)) return false;
+
+      const text = getText(item);
+      const score = Number(
+        item.score ||
+        item.trendingScore ||
+        item.popularityScore ||
+        item.radarScore ||
+        0
+      );
+
+      if (score >= 95) return true;
+
+      const isBreaking =
+        text.includes("breaking") ||
+        text.includes("withdraws") ||
+        text.includes("withdrawal") ||
+        text.includes("injury") ||
+        text.includes("disqualified") ||
+        text.includes("dq") ||
+        text.includes("suspended");
+
+      const isMajorResult =
+        text.includes("playoff") ||
+        text.includes("new leader") ||
+        text.includes("takes lead") ||
+        text.includes("solo leader");
+
+      const isLiveUrgent =
+        text.includes("leaderboard") &&
+        (
+          text.includes("final round") ||
+          text.includes("back nine") ||
+          text.includes("late sunday") ||
+          text.includes("playoff")
+        );
+
+      return isBreaking || isMajorResult || isLiveUrgent;
+    }
+
+    const categoryFallbackImages = {
+    ncaa:
+    "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/30843151-c38b-4dab-98ca-9c14fc78c2b0/ncaa-golf-placeholder.png?t=1780195865",
+    lpga:
+    "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
+    liv: [
+    feedBaseUrl + "/images/liv-golf-category-2.png",
+    feedBaseUrl + "/images/liv-golf-category.png"
+    ],
+    pga: feedBaseUrl + "/images/pga-tour-category.png",
+    dpWorldTour: feedBaseUrl + "/images/dp-world-tour-category.png",
+    asia: feedBaseUrl + "/images/asia-golf-category.png"
+    };
+
+    const fallbackImages = [
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50858501-1822-4310-9ec7-d35ec1b4d166/golf-placeholder-image-5.png?t=1779141790",
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9316508f-61bb-424c-ba80-6d6fde9011d0/golf-placeholder-image-2.png?t=1779141789",
+      "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9ecc3842-977e-4b0a-89dc-8a03ec909c54/golf-placeholder-image-4.png?t=1779141789",
+      feedBaseUrl + "/images/golf-placeholder-5.png",
+      feedBaseUrl + "/images/golf-placeholder-6.png",
+      feedBaseUrl + "/images/golf-placeholder-7.png",
+      feedBaseUrl + "/images/golf-placeholder-1.png",
+      feedBaseUrl + "/images/golf-placeholder-2.png",
+      feedBaseUrl + "/images/golf-placeholder-3.png",
+      feedBaseUrl + "/images/golf-placeholder-4.png",
+      feedBaseUrl + "/images/golf-placeholder-image-5.png",
+      feedBaseUrl + "/images/golf-placeholder-image-2.png",
+      feedBaseUrl + "/images/golf-placeholder-image-4.png"
+    ];
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "<")
+        .replace(/>/g, ">")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function normalizeStoryKey(item) {
+      const url = String(item && (item.sourceUrl || item.url) || "").trim().toLowerCase();
+      const title = String(item && item.title || "").trim().toLowerCase();
+      return url || title;
+    }
+
+    function getComparableTitle(value) {
+      return String(value || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function truncateText(value, maxLength) {
+      const raw = String(value || "").trim();
+      if (raw.length <= maxLength) return raw;
+      return raw.slice(0, maxLength - 3).trim().replace(/[,:;.!?]+$/, "") + "...";
+    }
+
+    function getText(item) {
+      return [
+        item && item.title,
+        item && item.summary,
+        item && item.quickRead,
+        item && item.category,
+        item && item.label,
+        item && item.signal,
+        item && item.source
+      ].filter(Boolean).join(" ").toLowerCase();
+    }
+
+    function rewriteDisplayTitle(value) {
+      const raw = String(value || "").trim();
+
+      const rewrites = [
+        {
+          test: /rory mcilroy.*shades.*bryson|rory.*bryson.*liv golfers|shades bryson/i,
+          title: "Rory McIlroy Shades Bryson DeChambeau and LIV Golfers"
+        },
+        {
+          test: /johnson wagner.*warning.*rory|warning.*rory mcilroy/i,
+          title: "Johnson Wagner has warning for every player about Rory McIlroy at the PGA Champ..."
+        },
+        {
+          test: /rory mcilroy.*limping|limping.*rory mcilroy/i,
+          title: "Rory explains the limp before the PGA Championship"
+        },
+        {
+          test: /rory mcilroy.*scottie scheffler.*rule golf|scottie scheffler.*rory mcilroy.*rule golf/i,
+          title: "Rory McIlroy and Scottie Scheffler rule golf right now. Can anyone challenge th..."
+        },
+        {
+          test: /liv.*stars.*return.*pga tour|what.*next.*liv.*stars/i,
+          title: "What’s next for LIV Golf’s stars: Return to the PGA Tour, re-signing with LIV..."
+        }
+      ];
+
+      const match = rewrites.find((item) => item.test.test(raw));
+      return match ? match.title : raw;
+    }
+
+    function cleanDisplayHeadline(value) {
+      const raw = String(value || "").trim();
+
+      return raw
+        .replace(/\s+as\s+League\s+Looks\s+Close\s+to.*$/i, "")
+        .replace(/\s+as\s+LIV\s+Golf\s+Looks\s+Close\s+to.*$/i, "")
+        .trim();
+    }
+
+    function isWeakQuickRead(value) {
+    const text = String(value || "").trim().toLowerCase();
+    
+    if (!text) return true;
+    
+    const weakPatterns = [
+    "a golf story is picking up attention across the golf news cycle",
+    "this is a golf storyline morning tee is tracking",
+    "tap for the quick version",
+    "open the original source for the full details",
+    "open the source for the full details",
+    "worth watching",
+    "made headlines",
+    "generated buzz",
+    "picked up steam"
+    ];
+    
+    return weakPatterns.some((pattern) => text.includes(pattern));
+    }
+    
+    function getStoryQuickRead(item) {
+    if (!item) return "";
+    
+    const candidates = [
+    item.quickRead,
+    item.quickContext,
+    item.modalSummary,
+    item.summary,
+    item.description,
+    item.excerpt
+    ]
+    .map((value) => String(value || "").trim())
+    .filter((value) => value && !isWeakQuickRead(value));
+    
+    if (candidates.length) return candidates[0];
+    
+    const title = cleanDisplayHeadline(item.title || "This golf story");
+    const source = item.source || item.sourceName || "the source";
+    
+  return `We’re still waiting on enough source detail for a useful quick read. Open the full story for the latest from ${source}.`;
+    }
+
+    function getStoryMeta(item) {
+      if (!item) return "Morning Tee Radar";
+
+      const source = item.source || item.sourceName || "Morning Tee Radar";
+      const author = item.author || item.byline || item.quoteByline || "";
+
+      if (author) return source + " · " + author;
+      return source;
+    }
+
+    function getStoryActionLabel(item) {
+      const category = String(item && item.category ? item.category : "").toLowerCase();
+      const source = String(item && item.source ? item.source : "").toLowerCase();
+      const signal = String(item && item.signal ? item.signal : "").toLowerCase();
+
+      if (category.includes("internet") || category.includes("reddit") || source.includes("reddit") || signal.includes("reddit")) {
+        return "Open post";
+      }
+
+      if (category.includes("leaderboard") || signal.includes("leaderboard") || source.includes("leaderboard")) {
+        return "View leaderboard";
+      }
+
+      return "Read full story";
+    }
+
+    function getStoryQuote(item) {
+      if (!item) return "";
+      return item.keyQuote || item.quote || "";
+    }
+
+    function getStoryQuoteAttribution(item) {
+      if (!item) return "";
+      return item.quoteAttribution || item.quoteByline || "";
+    }
+
+    function openStoryModal(item, placement) {
+      if (!item) return;
+
+      if (isInvalidStory(item)) {
+        console.warn("Blocked invalid or unsafe story:", item);
+        return;
+      }
+
+      const modal = document.getElementById("mth-story-modal");
+      const kicker = document.getElementById("mth-story-modal-kicker");
+      const title = document.getElementById("mth-story-modal-title");
+      const meta = document.getElementById("mth-story-modal-meta");
+      const quickRead = document.getElementById("mth-story-modal-quick-read");
+      const quote = document.getElementById("mth-story-modal-quote");
+      const quoteByline = document.getElementById("mth-story-modal-quote-byline");
+      const link = document.getElementById("mth-story-modal-link");
+
+      if (!modal) return;
+
+      const storyUrl = item.sourceUrl || item.url || "#";
+      const storyQuote = getStoryQuote(item);
+      const storyQuoteAttribution = getStoryQuoteAttribution(item);
+
+      kicker.textContent = item.label || item.category || item.signal || "Quick read";
+      title.textContent = cleanDisplayHeadline(item.title || "Untitled story");
+      meta.textContent = getStoryMeta(item);
+      quickRead.textContent = getStoryQuickRead(item);
+
+      if (storyQuote) {
+        quote.hidden = false;
+        quote.textContent = "“" + storyQuote.replace(/^“|”$/g, "") + "”";
+      } else {
+        quote.hidden = true;
+        quote.textContent = "";
+      }
+
+      if (storyQuoteAttribution) {
+        quoteByline.hidden = false;
+        quoteByline.textContent = storyQuoteAttribution;
+      } else {
+        quoteByline.hidden = true;
+        quoteByline.textContent = "";
+      }
+
+      link.href = storyUrl;
+      link.textContent = getStoryActionLabel(item);
+
+      modal.classList.remove("is-main-story", "is-side-story");
+
+      if (placement === "side") {
+        modal.classList.add("is-side-story");
+      } else {
+        modal.classList.add("is-main-story");
+      }
+
+      window.mthModalOpener = document.activeElement;
+
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("mth-modal-open");
+
+      const modalCard = modal.querySelector(".mth-story-modal-card");
+      if (modalCard) modalCard.scrollTop = 0;
+
+      const closeButton = document.getElementById("mth-story-modal-close");
+      if (closeButton) closeButton.focus();
+    }
+
+    function closeStoryModal() {
+      const modal = document.getElementById("mth-story-modal");
+      if (!modal) return;
+
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-main-story", "is-side-story");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("mth-modal-open");
+
+      const opener = window.mthModalOpener;
+      window.mthModalOpener = null;
+
+      if (opener && typeof opener.focus === "function") {
+        opener.focus();
+      }
+    }
+
+    function getItemTimestamp(item) {
+      if (!item) return null;
+
+      const possibleValues = [
+        item.timestamp,
+        item.createdAt,
+        item.created_at,
+        item.publishedAt,
+        item.published_at,
+        item.approvedAt,
+        item.approved_at,
+        item.updatedAt,
+        item.updated_at,
+        item.date,
+        item.isoDate
+      ];
+
+      for (const value of possibleValues) {
+        if (value === null || value === undefined || value === "") continue;
+
+        if (typeof value === "number") {
+          const asMs = value < 10000000000 ? value * 1000 : value;
+          if (!Number.isNaN(asMs)) return asMs;
+        }
+
+        if (typeof value === "string") {
+          const numericValue = Number(value);
+
+          if (!Number.isNaN(numericValue) && value.trim() !== "") {
+            const asMs = numericValue < 10000000000 ? numericValue * 1000 : numericValue;
+            return asMs;
+          }
+
+          const parsed = Date.parse(value);
+          if (!Number.isNaN(parsed)) return parsed;
+        }
+      }
+
+      return null;
+    }
+
+    function inferCategory(item) {
+  const text = getText(item);
+  const rawLabel = String(item && item.label || "").toLowerCase();
+  const rawCategory = String(item && item.category || "").toLowerCase();
+  const combined = `${text} ${rawLabel} ${rawCategory}`;
+
+  if (
+    combined.includes("ncaa") ||
+    combined.includes("college golf") ||
+    combined.includes("men's golf championship") ||
+    combined.includes("mens golf championship") ||
+    combined.includes("women's golf championship") ||
+    combined.includes("womens golf championship")
+  ) {
+    return "NCAA";
+  }
+
+  if (
+    combined.includes("lpga") ||
+    combined.includes("korda") ||
+    combined.includes("shoprite lpga")
+  ) {
+    return "LPGA";
+  }
+
+  if (item && item.label) return simplifyLabel(item.label);
+  if (item && item.category) return simplifyLabel(item.category);
+
+  if (combined.includes("leaderboard") || combined.includes("live coverage")) return "LIVE";
+  if (/\bliv\b/.test(combined) || combined.includes("liv golf")) return "LIV";
+  if (combined.includes("viral") || combined.includes("reddit") || combined.includes("internet") || combined.includes("faked")) return "VIRAL";
+  if (combined.includes("pga championship") || combined.includes("pga tour") || combined.includes("rory") || combined.includes("scottie") || combined.includes("scheffler")) return "PGA TOUR";
+  if (combined.includes("youtube") || combined.includes("creator")) return "CREATOR";
+  if (combined.includes("japan")) return "JAPAN";
+  if (combined.includes("breaking") || combined.includes("warn") || combined.includes("injury") || combined.includes("withdraw") || combined.includes("limp")) return "NEWS";
+
+  return "GOLF";
+}
+
+    function simplifyLabel(value) {
+  const raw = String(value || "").toLowerCase();
+
+  if (
+    raw.includes("ncaa") ||
+    raw.includes("college golf") ||
+    raw.includes("men's golf championship") ||
+    raw.includes("mens golf championship") ||
+    raw.includes("women's golf championship") ||
+    raw.includes("womens golf championship")
+  ) {
+    return "NCAA";
+  }
+
+  if (raw.includes("lpga")) return "LPGA";
+  if (raw.includes("leaderboard") || raw.includes("live")) return "LIVE";
+  if (/\bliv\b/.test(raw) || raw.includes("liv golf")) return "LIV";
+  if (raw.includes("viral") || raw.includes("internet") || raw.includes("reddit")) return "VIRAL";
+  if (raw.includes("pga") || raw.includes("major") || raw.includes("star")) return "PGA TOUR";
+  if (raw.includes("youtube") || raw.includes("creator")) return "CREATOR";
+  if (raw.includes("breaking")) return "NEWS";
+
+  return "GOLF";
+}
+
+    function getImageKey(image) {
+      const raw = String(image || "").trim().split("?")[0];
+      const filename = raw.split("/").pop() || raw;
+
+      try {
+        return decodeURIComponent(filename).toLowerCase();
+      } catch (error) {
+        return filename.toLowerCase();
+      }
+    }
+
+    function markImageUsed(image, usedImages) {
+      if (!image || !usedImages) return;
+      usedImages.add(getImageKey(image));
+    }
+
+    function hasImageBeenUsed(image, usedImages) {
+      if (!image || !usedImages) return false;
+      return usedImages.has(getImageKey(image));
+    }
+
+    function buildFeedImage(fileName) {
+      return feedBaseUrl + "/images/" + encodeURIComponent(fileName).replace(/%2F/g, "/");
+    }
+
+    function buildRawImage(fileName) {
+      return rawImageBaseUrl + "/images/" + encodeURIComponent(fileName).replace(/%2F/g, "/");
+    }
+
+    function buildImageCandidates(fileName) {
+      return [buildFeedImage(fileName), buildRawImage(fileName)];
+    }
+
+    function isGenericImage(image) {
+      const value = String(image || "").toLowerCase();
+      return (
+        value.includes("placeholder") ||
+        value.includes("unsplash") ||
+        value.includes("golf-placeholder")
+      );
+    }
+
+    function dedupeImageUrls(urls) {
+      const seen = new Set();
+      return urls.filter((url) => {
+        const clean = String(url || "").trim();
+        if (!clean) return false;
+        if (seen.has(clean)) return false;
+        seen.add(clean);
+        return true;
+      });
+    }
+
+    function getPlayerImageLibrary() {
+      return [
+        {
+          name: "Aaron Rai",
+          terms: ["aaron rai", "aaron rye", "aaron reistra", "aaron", "rai", "rye", "reistra"],
+          images: [
+            "aaron-rai-1.png",
+            "aaron-rai-1 (1).png"
+          ]
+        },
+        {
+          name: "Bryson DeChambeau",
+          terms: ["bryson dechambeau", "dechambeau", "bryson"],
+          images: [
+            "bryson-dechambeau-1.png",
+            "bryson-dechambeau-1 (3).png",
+            "bryson-dechambeau-5.png",
+            "bryson-dechambeau-5 (1).png",
+            "bryson-dechambeau-4.png",
+            "bryson-dechambeau-4 (1).png",
+            "bryson-dechambeau.png",
+            "bryson-dechambeau-2.png",
+            "bryson-dechambeau-3.png",
+            "jon-rahm-bryson-dechambeau-cam-smith.png",
+            "jon-rahm-bryson-dechambeau-cam-smith (1).png"
+          ]
+        },
+        {
+          name: "Rory McIlroy",
+          terms: ["rory mcilroy", "rory mcilory", "mcilroy", "mcilory", "rory"],
+          images: [
+            "Rory-Mcilory-1.png",
+            "Rory-Mcilory-1 (1).png",
+            "rory-mcilory-2.png",
+            "rory-mcilory-2 (2).png",
+            "rory-mcilory-8.png",
+            "rory-mcilory-8 (1).png",
+            "rory-toe.png",
+            "rory-toe (1).png",
+            "rory-shane-lowry.png",
+            "rory-shane-lowry (1).png",
+            "rory-mcilroy-1.png",
+            "rory-mcilroy-2.png",
+            "rory-mcilroy-3.png",
+            "rory-mcilroy.png"
+          ]
+        },
+        {
+          name: "Jon Rahm",
+          terms: ["jon rahm", "rahm"],
+          images: [
+            "jon-rahm-12.png",
+            "jon-rahm-5.png",
+            "jon-rahm-bryson-dechambeau-cam-smith.png",
+            "jon-rahm-bryson-dechambeau-cam-smith (1).png",
+            "jon-rahm-1.png"
+          ]
+        },
+        {
+          name: "Scottie Scheffler",
+          terms: ["scottie scheffler", "scheffler", "scottie"],
+          images: [
+            "Scottie-Scheffler-1.png",
+            "Scottie-Scheffler-2.png",
+            "scottie-scheffler-5.png",
+            "scottie-matt-fitzpatrick.png",
+            "scottie-matt-fitzpatrick (1).png",
+            "scottie-scheffler-1.png",
+            "scottie-scheffler-2.png",
+            "scottie-scheffler-3.png",
+            "scottie-scheffler.png"
+          ]
+        },
+        { name: "Akshay Bhatia", terms: ["akshay bhatia", "bhatia"], images: ["akshay-bhatia-1.png"] },
+        { name: "Alex Fitzpatrick", terms: ["alex fitzpatrick"], images: ["alex-fitzpatrick-1.png", "alex-fitzpatrick.png", "alex-matt-fitzpatrick.png", "alex-matt-fitzpatrick (1).png"] },
+        { name: "Brooks Koepka", terms: ["brooks koepka", "koepka"], images: ["brooks-koepka.png"] },
+        { name: "Cameron Young", terms: ["cameron young"], images: ["cameron-young-1.png", "cameron-young-1 (1).png", "cameron-young.png"] },
+        { name: "Charley Hull", terms: ["charley hull", "charlie hull", "hull"], images: ["charley-hull-2.png", "charley-hull-2 (1).png", "charley-hull.png"] },
+        { name: "Charlie Woods", terms: ["charlie woods"], images: ["charlie-woods-1.png", "charlie-woods.png"] },
+        { name: "Collin Morikawa", terms: ["collin morikawa", "colin morikawa", "morikawa"], images: ["colin-morikawa-1.png", "collin-morikawa.png"] },
+        { name: "Corey Conners", terms: ["corey conners", "corey connors", "conners", "connors"], images: ["corey-connors-1.png", "corey-conners-1.png"] },
+        { name: "Jordan Spieth", terms: ["jordan spieth", "spieth"], images: ["jordan-spieth-12.png", "jordan-spieth.png"] },
+        { name: "Justin Rose", terms: ["justin rose"], images: ["justin-rose-3.png", "justin-rose-1.png", "justin-rose.png", "justin-rose (1).png", "justin-rose (2).png"] },
+        { name: "Keegan Bradley", terms: ["keegan bradley", "keaghan bradley", "bradley"], images: ["keaghan-bradley-1.png"] },
+        { name: "Kristoffer Reitan", terms: ["kristoffer reitan", "kristoffer rietan", "reitan", "rietan"], images: ["kristoffer-rietan-1.png", "kristoffer-reitan-1.png"] },
+        { name: "Lando Norris", terms: ["lando norris", "norris"], images: ["lando-norris-1.png", "lando-norris.png"] },
+        { name: "Lottie Woad", terms: ["lottie woad", "loattie waod", "woad"], images: ["loattie-waod.png"] },
+        { name: "Ludvig Aberg", terms: ["ludvig aberg", "ludvig åberg", "aberg", "åberg"], images: ["ludvig-aberg-1.png"] },
+        { name: "Matt Fitzpatrick", terms: ["matt fitzpatrick"], images: ["matt-fitzpatrick-1.png", "matt-fitzpatrick.png", "alex-matt-fitzpatrick.png", "alex-matt-fitzpatrick (1).png"] },
+        { name: "Matt McCarty", terms: ["matt mccarty", "mccarty"], images: ["matt-mccarty.png"] },
+        { name: "Min Woo Lee", terms: ["min woo lee"], images: ["min-woo-lee.png", "min-woo-lee-2.png"] },
+        { name: "Nelly Korda", terms: ["nelly korda", "korda"], images: ["nelly-korda-1.png", "nelly-korda-1 (3).png", "nelly-korda-versus.png", "nelly-korda-versus (1).png"] },
+        { name: "Nick Taylor", terms: ["nick taylor"], images: ["nick-taylor.png", "nick-taylor-2.png"] },
+        { name: "Nicolai Hojgaard", terms: ["nicolai hojgaard", "nicolai højgaard", "hojgaard", "højgaard"], images: ["nicolai-højgaard-1.png", "nicolai-hojgaard-1.png"] },
+        { name: "Patrick Cantlay", terms: ["patrick cantlay", "cantlay"], images: ["patrick-cantlay.png", "patrick-cantlay-1.png"] },
+        { name: "Phil Mickelson", terms: ["phil mickelson", "mickelson"], images: ["phil-mickelson-1.png", "phil-mickelson.png"] },
+        { name: "Russell Henley", terms: ["russell henley", "henley"], images: ["russell-henley.png"] },
+        { name: "Sahith Theegala", terms: ["sahith theegala", "theegala"], images: ["sahith-theegala.png", "sahith-theegala-1.png"] },
+        { name: "Sepp Straka", terms: ["sepp straka", "straka"], images: ["sepp-straka-1.png"] },
+        { name: "Seve Ballesteros", terms: ["seve ballesteros", "ballesteros", "seve"], images: ["seve-ballesteros.png"] },
+        { name: "Sungjae Im", terms: ["sungjae im"], images: ["sungjae-im.png"] },
+        { name: "Talor Gooch", terms: ["talor gooch", "gooch"], images: ["talor-gooch-okgc.png"] },
+        { name: "Ted Scott", terms: ["ted scott"], images: ["ted-scott-1.png", "ted-scott.png"] },
+        { name: "Tiger Woods", terms: ["tiger woods", "tiger"], images: ["tiger-woods-1.png", "tiger-woods-2.png", "tiger-woods-4.png", "tiger-woods-5.png", "tiger-woods-and-coach.png"] },
+        { name: "Tommy Fleetwood", terms: ["tommy fleetwood", "fleetwood"], images: ["tommy-fleetwood.png"] },
+        { name: "Wesley Bryan", terms: ["wesley bryan", "bryan"], images: ["wesley-bryan.png"] },
+        { name: "Xander Schauffele", terms: ["xander schauffele", "schauffele"], images: ["xander-schauffele-1.png"] },
+        { name: "Yui Kawamoto", terms: ["yui kawamoto", "kawamoto"], images: ["yui-kawamoto.png"] },
+        { name: "Yurav Premlall", terms: ["yurav premlall", "premlall"], images: ["yurav-premlall-1.png"] }
+      ];
+    }
+
+    function findPlayerMatches(item) {
+      const titleText = String(item && item.title || "").toLowerCase();
+      const fullText = getText(item);
+
+      return getPlayerImageLibrary()
+        .map((player) => {
+          let titleIndex = Infinity;
+          let fullIndex = Infinity;
+
+          player.terms.forEach((term) => {
+            const termLower = term.toLowerCase();
+            const titleMatch = titleText.indexOf(termLower);
+            const fullMatch = fullText.indexOf(termLower);
+
+            if (titleMatch >= 0) titleIndex = Math.min(titleIndex, titleMatch);
+            if (fullMatch >= 0) fullIndex = Math.min(fullIndex, fullMatch);
+          });
+
+          return {
+            ...player,
+            titleIndex,
+            fullIndex,
+            matched: titleIndex !== Infinity || fullIndex !== Infinity
+          };
+        })
+        .filter((player) => player.matched)
+        .sort((a, b) => {
+          const aHasTitle = a.titleIndex !== Infinity;
+          const bHasTitle = b.titleIndex !== Infinity;
+
+          if (aHasTitle !== bHasTitle) return aHasTitle ? -1 : 1;
+          if (a.titleIndex !== b.titleIndex) return a.titleIndex - b.titleIndex;
+          return a.fullIndex - b.fullIndex;
+        });
+    }
+
+    function pickUnusedImage(candidates, usedImages) {
+      const usableCandidates = candidates.filter(Boolean);
+
+      if (!usableCandidates.length) return "";
+
+      const unused = usableCandidates.find((image) => !hasImageBeenUsed(image, usedImages));
+      const selected = unused || usableCandidates[0];
+
+      markImageUsed(selected, usedImages);
+      return selected;
+    }
+
+    function shouldUseTemporaryAaronRaiImage(item) {
+      const text = getText(item);
+      const title = String(item && item.title || "").toLowerCase();
+
+      return (
+        title.includes("aaron rai") ||
+        title.includes("aaron rye") ||
+        title.includes("aaron reistra") ||
+        (title.includes("aaron") && (text.includes("rai") || text.includes("rye") || text.includes("reistra")))
+      );
+    }
+
+    function getCandidateImagesForStory(item) {
+      const candidates = [];
+
+      if (shouldUseTemporaryAaronRaiImage(item)) {
+        candidates.push(...temporaryAaronRaiImageCandidates);
+      }
+
+      const playerMatches = findPlayerMatches(item);
+
+      playerMatches.forEach((player) => {
+        player.images.forEach((imageFile) => {
+          candidates.push(...buildImageCandidates(imageFile));
+        });
+      });
+
+      const providedImage = String(item && item.image ? item.image : "").trim();
+      const providedThumbnail = String(item && item.thumbnail ? item.thumbnail : "").trim();
+
+      if (providedImage && !isGenericImage(providedImage)) candidates.push(providedImage);
+      if (providedThumbnail && !isGenericImage(providedThumbnail)) candidates.push(providedThumbnail);
+
+      const storyText = getText(item);
+      const storyCategory = String(item && (item.category || item.label || item.signal || "") || "").toLowerCase();
+      
+      const isNcaaStory =
+      storyCategory.includes("ncaa") ||
+      storyText.includes("ncaa") ||
+      storyText.includes("college golf") ||
+      storyText.includes("men's golf championship") ||
+      storyText.includes("mens golf championship") ||
+      storyText.includes("women's golf championship") ||
+      storyText.includes("womens golf championship");
+      
+      const isLpgaStory =
+      storyCategory.includes("lpga") ||
+      storyText.includes("lpga") ||
+      storyText.includes("korda");
+      
+      const isPgaStory =
+        storyCategory.includes("pga") ||
+        storyText.includes("pga tour") ||
+        storyText.includes("pga championship") ||
+        storyText.includes("masters") ||
+        storyText.includes("u.s. open") ||
+        storyText.includes("us open") ||
+        storyText.includes("the open") ||
+        storyText.includes("charles schwab") ||
+        storyText.includes("colonial");
+
+      const isLivStory =
+        !isPgaStory &&
+        (
+          storyCategory.includes("liv") ||
+          /\bliv\b/.test(storyText) ||
+          storyText.includes("liv golf")
+        );
+
+      if (isNcaaStory) {
+      candidates.push(categoryFallbackImages.ncaa);
+      } else if (isLpgaStory) {
+      candidates.push(categoryFallbackImages.lpga);
+      } else if (isPgaStory) {
+      candidates.push(categoryFallbackImages.pga);
+      } else if (isLivStory) {
+      candidates.push(...categoryFallbackImages.liv);
+      }
+
+      if (storyText.includes("dp world") || storyText.includes("european tour")) {
+        candidates.push(categoryFallbackImages.dpWorldTour);
+      }
+
+      if (
+        storyText.includes("asia") ||
+        storyText.includes("asian tour") ||
+        storyText.includes("japan") ||
+        storyText.includes("japan tour")
+      ) {
+        candidates.push(categoryFallbackImages.asia);
+      }
+
+      candidates.push(...fallbackImages);
+
+      return dedupeImageUrls(candidates);
+    }
+
+    function getCardImage(item, usedImages, isMainCard) {
+      const candidates = getCandidateImagesForStory(item);
+      const selected = pickUnusedImage(candidates, usedImages);
+      return selected || getImageFallbackSrc();
+    }
+
+    function getImageFallbackCandidates(item, selectedImage) {
+      return getCandidateImagesForStory(item)
+        .filter((image) => image && image !== selectedImage);
+    }
+
+    function getImageFallbackSrc() {
+      return fallbackImages[0] || "";
+    }
+
+    function encodeFallbackCandidates(candidates) {
+      return escapeHtml(JSON.stringify(candidates || []));
+    }
+
+    window.mthSwapToNextImage = function (imageEl) {
+      if (!imageEl) return;
+
+      let fallbacks = [];
+      try {
+        fallbacks = JSON.parse(imageEl.getAttribute("data-mth-fallbacks") || "[]");
+      } catch (error) {
+        fallbacks = [];
+      }
+
+      const nextImage = fallbacks.shift() || getImageFallbackSrc();
+      imageEl.setAttribute("data-mth-fallbacks", JSON.stringify(fallbacks));
+
+      if (nextImage && imageEl.src !== nextImage) {
+        imageEl.src = nextImage;
+      }
+    };
+
+    function buildStoryPool(data) {
+      const today = Array.isArray(data.today) ? data.today : [];
+      const liveLeaderboards = Array.isArray(data.liveLeaderboards) ? data.liveLeaderboards : [];
+      const alsoMoving = Array.isArray(data.alsoMoving) ? data.alsoMoving : [];
+      const weekRadar = Array.isArray(data.weekRadar || data.week_radar)
+        ? (data.weekRadar || data.week_radar)
+        : [];
+
+      const pool = [
+        ...liveLeaderboards,
+        ...today,
+        ...alsoMoving,
+        ...weekRadar
+      ];
+
+      const seenKeys = new Set();
+      const seenTitles = new Set();
+
+      return pool.filter((item) => {
+        if (!item || !item.title) return false;
+        if (isInvalidStory(item)) return false;
+
+        const key = normalizeStoryKey(item);
+        const displayTitle = getComparableTitle(rewriteDisplayTitle(item.title));
+
+        const sourceUrl = String(item.sourceUrl || item.url || "").trim().toLowerCase();
+        const isAlreadyTopPick =
+          homepageTopPickUrls.has(sourceUrl) ||
+          homepageTopPickTitles.includes(displayTitle);
+
+        if (isAlreadyTopPick) return false;
+        if (seenKeys.has(key) || seenTitles.has(displayTitle)) return false;
+
+        seenKeys.add(key);
+        seenTitles.add(displayTitle);
+        return true;
+      });
+    }
+
+    function formatStoryTime(item, fallbackIndex) {
+      const timestamp = getItemTimestamp(item);
+
+      if (!timestamp) return fallbackIndex > 1 ? "Earlier" : "Earlier";
+
+      const diffMinutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60000));
+
+      if (diffMinutes < 2) return "Just now";
+      if (diffMinutes < 60) return `${diffMinutes} min ago`;
+
+      const diffHours = Math.floor(diffMinutes / 60);
+      if (diffHours === 1) return "1 hour ago";
+      if (diffHours < 24) return `${diffHours} hours ago`;
+
+      const diffDays = Math.floor(diffHours / 24);
+      if (diffDays === 1) return "Yesterday";
+      if (diffDays < 7) return `${diffDays} days ago`;
+
+      return "Earlier";
+    }
+
+    function getStoryDek(item) {
+      const quickRead = String(
+        item && (
+          item.quickRead ||
+          item.quickContext ||
+          item.modalSummary ||
+          item.summary ||
+          ""
+        ) || ""
+      ).trim();
+
+      if (!quickRead) return "Tap for the quick version of why this golf story is moving right now.";
+
+      const firstSentence = quickRead.match(/^.*?[.!?](\s|$)/);
+      const dek = firstSentence ? firstSentence[0].trim() : quickRead;
+
+      return truncateText(dek, 128);
+    }
+
+
+    function getTournamentName(item) {
+      if (!item) return "PGA TOUR";
+
+      return item.tournament ||
+        item.tournamentName ||
+        item.event ||
+        item.eventName ||
+        item.event_title ||
+        item.eventTitle ||
+        "PGA TOUR";
+    }
+
+    function isLeaderboardStory(item) {
+      if (!item) return false;
+
+      const signal = String(item.signal || item.sourceType || "").toLowerCase();
+      const status = String(item.status || "").toLowerCase();
+
+      return (
+        signal.includes("leaderboard") ||
+        status === "live" ||
+        Array.isArray(item.leaders)
+      );
+    }
+
+    function renderHomepageLeaderboardVisual(item) {
+      const tournament = escapeHtml(getTournamentName(item));
+
+      const rawLeaders = item && Array.isArray(item.leaders) && item.leaders.length
+        ? item.leaders.slice(0, 5)
+        : [];
+
+      const rows = rawLeaders.map((p) => `
+        <div class="mth-radar-live-visual-row">
+          <div class="mth-radar-live-visual-pos">${escapeHtml(p.pos || p.position || "")}</div>
+          <div class="mth-radar-live-visual-name">${escapeHtml(p.name || p.player || "")}</div>
+          <div class="mth-radar-live-visual-score">${escapeHtml(p.score || p.total || "")}</div>
+          <div class="mth-radar-live-visual-thru">${escapeHtml(p.thru || p.currentHole || "")}</div>
+        </div>
+      `).join("");
+
+      return `
+        <div class="mth-radar-live-visual" aria-label="Live tournament leaderboard">
+          <div class="mth-radar-live-visual-inner">
+            <div class="mth-radar-live-visual-header">
+              <div class="mth-radar-live-visual-tournament">${tournament}</div>
+            </div>
+
+            <div class="mth-radar-live-visual-board">
+              <div class="mth-radar-live-visual-board-head">
+                <div>Pos</div>
+                <div>Player</div>
+                <div style="text-align:right;">Score</div>
+                <div style="text-align:right;">Thru</div>
+              </div>
+              ${rows}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function shouldShowOnHomepage(item) {
+      if (!item) return false;
+      if (isLeaderboardStory(item)) return true;
+
+      const timestamp = getItemTimestamp(item);
+      if (!timestamp) return true;
+
+      const ageHours = (Date.now() - timestamp) / 3600000;
+      return ageHours <= 48;
+    }
+
+    function getStoryImageAlt(item, image) {
+      if (item && item.imageAlt !== undefined) return String(item.imageAlt || "");
+
+      const imageValue = String(image || "").toLowerCase();
+
+      if (
+        imageValue.includes("placeholder") ||
+        imageValue.includes("lpga-placeholder") ||
+        imageValue.includes("ncaa-golf-placeholder") ||
+        imageValue.includes("golf-placeholder")
+      ) {
+        return "";
+      }
+
+      return "";
+    }
+
+    function buildMainCard(item) {
+      if (!item) {
+        return `
+          <button type="button" class="mth-radar-feature">
+            <div class="mth-radar-card-loading">
+              No active radar item right now.
+            </div>
+          </button>
+        `;
+      }
+
+      const rewrittenTitle = cleanDisplayHeadline(rewriteDisplayTitle(item.title || "Golf story to watch"));
+      const displayTitle = truncateText(rewrittenTitle, 72);
+      const title = escapeHtml(displayTitle);
+      const label = escapeHtml(inferCategory(item));
+      const isLeaderboard = isLeaderboardStory(item);
+      const image = isLeaderboard ? "" : getCardImage(item, window.mthUsedRadarImages, true);
+      const imageFallbacks = isLeaderboard ? [] : getImageFallbackCandidates(item, image);
+
+      return `
+        <button type="button" class="mth-radar-feature mth-radar-open" data-mth-story="main">
+          <div class="mth-radar-feature-image">
+            ${isLeaderboard
+              ? renderHomepageLeaderboardVisual(item)
+              : `<img src="${escapeHtml(image)}" alt="${escapeHtml(getStoryImageAlt(item, image))}" data-mth-fallbacks='${encodeFallbackCandidates(imageFallbacks)}' onerror="window.mthSwapToNextImage(this);">`
+            }
+          </div>
+          <div class="mth-radar-feature-content">
+            <div class="mth-radar-feature-meta">${label}</div>
+            <h3>${title}</h3>
+            <p class="mth-radar-feature-dek">${escapeHtml(getStoryDek(item))}</p>
+          </div>
+        </button>
+      `;
+    }
+
+    function buildSideCard(item, index) {
+      const rewrittenTitle = cleanDisplayHeadline(rewriteDisplayTitle(item.title || "Story to watch"));
+      const displayTitle = truncateText(rewrittenTitle, 92);
+      const title = escapeHtml(displayTitle);
+      const label = escapeHtml(inferCategory(item));
+
+      return `
+        <button type="button" class="mth-radar-side-card mth-radar-open" data-mth-story="${index}">
+          <div class="mth-radar-side-content">
+            <div class="mth-radar-pill">${label}</div>
+            <h3>${title}</h3>
+            <div class="mth-radar-side-time">${escapeHtml(formatStoryTime(item, index))}</div>
+          </div>
+        </button>
+      `;
+    }
+
+    function renderHomepageRadar(data) {
+      const mainCard = document.getElementById("mth-radar-main-card");
+      const weekList = document.getElementById("mth-radar-week-list");
+
+      if (!mainCard || !weekList) return;
+
+      const storyPool = buildStoryPool(data)
+        .filter((item) => !isInvalidStory(item))
+        .filter((item) => shouldShowOnHomepage(item))
+        .sort((a, b) => {
+          const timeA = Date.parse(a.approvedAt || a.timestamp || a.publishedAt || a.date) || 0;
+          const timeB = Date.parse(b.approvedAt || b.timestamp || b.publishedAt || b.date) || 0;
+
+          if (timeA !== timeB) return timeB - timeA;
+
+          const scoreA = Number(
+            a.score ||
+            a.trendingScore ||
+            a.popularityScore ||
+            a.radarScore ||
+            0
+          );
+
+          const scoreB = Number(
+            b.score ||
+            b.trendingScore ||
+            b.popularityScore ||
+            b.radarScore ||
+            0
+          );
+
+          return scoreB - scoreA;
+        });
+
+      const activeLeaderboards = storyPool
+        .filter((item) => isLeaderboardStory(item))
+        .sort((a, b) => {
+          const timeA = Date.parse(a.approvedAt || a.timestamp || a.publishedAt || a.date) || 0;
+          const timeB = Date.parse(b.approvedAt || b.timestamp || b.publishedAt || b.date) || 0;
+          return timeB - timeA;
+        });
+
+      const mainStory = activeLeaderboards[0] || storyPool[0] || null;
+
+      const sideStories = storyPool
+        .filter((item) => normalizeStoryKey(item) !== normalizeStoryKey(mainStory))
+        .filter((item) => !isLeaderboardStory(item))
+        .slice(0, 3);
+
+      window.mthMainStory = mainStory;
+      window.mthWeekStories = sideStories;
+      window.mthUsedRadarImages = new Set();
+
+      mainCard.outerHTML = buildMainCard(mainStory);
+
+      if (sideStories.length) {
+        weekList.innerHTML = sideStories.map((item, index) => buildSideCard(item, index)).join("");
+      } else {
+        weekList.innerHTML = `
+          <article class="mth-radar-side-card">
+            <div class="mth-radar-card-loading">No watch-list stories loaded yet.</div>
+          </article>
+        `;
+      }
+
+      document.querySelectorAll(".mth-radar-open").forEach((card) => {
+        card.addEventListener("click", function () {
+          const key = card.getAttribute("data-mth-story");
+
+          if (key === "main") {
+            openStoryModal(window.mthMainStory, "main");
+            return;
+          }
+
+          const index = Number(key);
+          const story = window.mthWeekStories && window.mthWeekStories[index];
+
+          if (story) openStoryModal(story, "side");
+        });
+      });
+    }
+
+    async function loadHomepageRadar() {
+      try {
+        const response = await fetch(radarUrl + "?v=" + Date.now(), {
+          cache: "no-store"
+        });
+
+        if (!response.ok) throw new Error("Radar feed failed to load");
+
+        const data = await response.json();
+
+        console.log("Morning Tee radar data loaded:", data);
+
+        if (!data || data.active !== true) {
+          renderHomepageRadar({ today: [], weekRadar: [] });
+          return;
+        }
+
+        renderHomepageRadar(data);
+      } catch (error) {
+        console.error("Morning Tee homepage radar failed to load", error);
+        renderHomepageRadar({ today: [], weekRadar: [] });
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      if (event.target && event.target.id === "mth-story-modal-backdrop") closeStoryModal();
+      if (event.target && event.target.id === "mth-story-modal-close") closeStoryModal();
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeStoryModal();
+    });
+
+    function openTrendingInTopWindow(event) {
+      const link = event.target.closest && event.target.closest(".mth-radar-full-link");
+
+      if (!link) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      const destination = link.href || "https://www.morningtee.com/search";
+
+      try {
+        window.top.location.assign(destination);
+      } catch (error) {
+        window.open(destination, "_blank", "noopener");
+      }
+
+      return false;
+    }
+
+    document.addEventListener("click", openTrendingInTopWindow, true);
+
+    loadHomepageRadar();
+    setInterval(loadHomepageRadar, 60000);
+  })();
+  </script>
+
+  <section class="mt-home-editorial" id="mt-home-editorial">
+    <div class="mt-home-editorial-wrap">
+      <div class="mt-home-editorial-grid">
+        <div class="mt-home-picks">
+          <div class="mt-section-head">
+            <h2>Top Picks</h2>
+          </div>
+
+          <div class="mt-picks-grid" id="mt-picks-grid">
+            <a class="mt-pick-card" href="https://www.morningtee.com/stories-fix-your-golf-swing" target="_top">
+              <div class="mt-pick-image">
+                <img
+                src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/92862642-d700-417f-9814-be1b5b3dd906/can-ai-really-fix-your-golf-swing.png?t=1778553047"
+                alt="A golfer on a tee box while a robot scans the driver and golf ball."
+              >
+              </div>
+
+              <div class="mt-pick-content">
+                <div class="mt-pick-kicker">Tech</div>
+                <h3>Can AI Really Fix Your Golf Swing?</h3>
+                <p>Most golfers are asking AI the wrong first question.</p>
+                <div class="mt-pick-meta">Harry Carlisle</div>
+              </div>
+            </a>
+
+            <a class="mt-pick-card"
+              href="https://www.morningtee.com/stories-golf-ball-rollback-explained-for-normal-people" target="_top">
+              <div class="mt-pick-image">
+                <img
+                src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50defa7a-ff65-43c9-ac98-8af425085e5b/rory-mcilory-golfball-rollback-explained-for-normal-people-final1.png?t=1779034076"
+                alt="Rory McIlroy holding a golf ball beside a one-star review card."
+              >
+              </div>
+
+              <div class="mt-pick-content">
+                <div class="mt-pick-kicker">Equipment</div>
+                <h3>The Golf Ball Rollback, Explained for Normal People</h3>
+                <p>What the rollback actually changes, without the equipment jargon.</p>
+                <div class="mt-pick-meta">Harry Carlisle</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="mt-partner-strip">
+            <div class="mt-partner-strip-copy">
+              <span class="mt-partner-kicker">Partner with Morning Tee</span>
+              <h2>Want to work with us?</h2>
+              <p>Connect with golfers through thoughtful, high-quality golf coverage.</p>
+            </div>
+
+            <div class="mt-partner-actions">
+              <a class="mt-partner-button" href="https://www.morningtee.com/contact" target="_top">
+                Get in touch
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="mt-latest-puzzles">
+          <div class="mt-puzzles-head">
+            <h2>Latest Puzzles</h2>
+            <a href="https://www.morningtee.com/games" target="_top">All games →</a>
+          </div>
+
+          <div class="mt-puzzles-list">
+            <a class="mt-puzzle-row mt-puzzle-row-active" id="mt-latest-mini-link"
+              href="https://www.morningtee.com/golf-mini-no1" target="_top">
+              <span class="mt-puzzle-icon mt-puzzle-icon-mini mt-puzzle-icon-image" aria-hidden="true">
+              <img
+                src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/e0ddac86-a3be-4204-864b-124023a027ff/Golf-Mini-Logo-Transparent-Light.png?t=1778606571"
+                alt=""
+              >
+            </span>
+
+              <span class="mt-puzzle-copy">
+              <span class="mt-puzzle-label" id="mt-latest-mini-label">Golf crossword</span>
+              <strong id="mt-latest-mini-title">Eagle</strong>
+              </span>
+            </a>
+
+            <a class="mt-puzzle-row" href="https://www.morningtee.com/guess-the-lie" target="_top">
+              <span class="mt-puzzle-icon mt-puzzle-icon-quiz" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 16C13 10 21 10 23 16C28 14 33 18 32 24C37 25 38 33 33 36C30 39 24 38 22 34C18 38 11 36 10 30C5 27 6 19 11 16Z" fill="#CFE6F8" stroke="#111111" stroke-width="2"></path>
+                <circle cx="18" cy="23" r="1.6" fill="#111111"></circle>
+                <circle cx="26" cy="23" r="1.6" fill="#111111"></circle>
+                <path d="M18 29C21 31 25 31 28 29" stroke="#111111" stroke-width="2" stroke-linecap="round"></path>
+                <circle cx="36" cy="34" r="5" fill="#ffffff" stroke="#111111" stroke-width="2"></circle>
+              </svg>
+            </span>
+
+              <span class="mt-puzzle-copy">
+              <span class="mt-puzzle-label">Quiz</span>
+              <strong id="mt-guess-lie-title">Guess The Lie</strong>
+              </span>
+            </a>
+
+            <a class="mt-puzzle-row" href="https://www.morningtee.com/play-tpc-sawgrass-17" target="_top">
+              <span class="mt-puzzle-icon mt-puzzle-icon-play" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 34C15 27 25 27 38 32" stroke="#111111" stroke-width="4" stroke-linecap="round"></path>
+                <circle cx="15" cy="20" r="5" fill="#ffffff" stroke="#111111" stroke-width="2"></circle>
+                <path d="M31 8V34" stroke="#111111" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M33 10L44 15L33 20V10Z" fill="#ff4f5e"></path>
+              </svg>
+            </span>
+
+              <span class="mt-puzzle-copy">
+              <span class="mt-puzzle-label">Play</span>
+              <strong id="mt-play-title">TPC Sawgrass No. 17</strong>
+              </span>
+            </a>
+          </div>
+          <button class="mt-mini-cup-card" type="button" id="mt-mini-cup-open" aria-label="Open Morning Tee Mini Cup">
+          <span class="mt-mini-cup-button" aria-hidden="true">
+            <span class="mt-mini-cup-button__green">
+              <span class="mt-mini-cup-button__sparkle mt-mini-cup-button__sparkle-one"></span>
+              <span class="mt-mini-cup-button__sparkle mt-mini-cup-button__sparkle-two"></span>
+              <span class="mt-mini-cup-button__cup"></span>
+              <span class="mt-mini-cup-button__flag"></span>
+              <span class="mt-mini-cup-button__ball"></span>
+            </span>
+          </span>
+        </button>
+        </aside>
+      </div>
+    </div>
+
+    <div class="mt-mini-cup-overlay" id="mt-mini-cup-overlay" aria-hidden="true">
+      <div class="mt-mini-cup-sheet" role="dialog" aria-modal="true" aria-labelledby="mt-mini-cup-title">
+        <button class="mt-mini-cup-close" type="button" id="mt-mini-cup-close" aria-label="Close Mini Cup">×</button>
+
+        <div class="mt-mini-cup-join" id="mt-mini-cup-join">
+          <span class="mt-mini-cup-modal-kicker">Mini Cup</span>
+          <h2 id="mt-mini-cup-title">Join your team</h2>
+          <p>Pick a side, then sink as many putts as you can in 30 seconds.</p>
+
+          <div class="mt-mini-cup-team-grid">
+            <button class="mt-mini-cup-team" type="button" data-team="rory">
+            <img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/241ad24f-0175-4f27-af13-8f1a654fa171/team-rory.png?t=1779994331" alt="">
+            <strong>Team Rory</strong>
+          </button>
+
+            <button class="mt-mini-cup-team" type="button" data-team="bryson">
+            <img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/6e94dbf1-2708-4002-9ac0-7f7074181761/team-bryson.png?t=1779994329" alt="">
+            <strong>Team Bryson</strong>
+          </button>
+          </div>
+        </div>
+
+        <div class="mt-mini-cup-loading" id="mt-mini-cup-loading" aria-live="polite">
+          <span class="mt-mini-cup-modal-kicker">Mini Cup</span>
+          <h2 id="mt-mini-cup-loading-title">Joining Team Rory</h2>
+          <div class="mt-mini-cup-load-track">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .mt-home-editorial {
+      width: 100%;
+      background: #ffffff;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      padding: 38px 0 54px;
+    }
+
+    .mt-home-editorial * {
+      box-sizing: border-box;
+    }
+
+    .mt-home-editorial a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .mt-home-editorial-wrap {
+      width: min(calc(100% - 44px), 1180px);
+      margin: 0 auto;
+    }
+
+    .mt-home-editorial-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 70%) minmax(280px, 30%);
+      gap: 34px;
+      align-items: start;
+    }
+
+    .mt-section-head,
+    .mt-puzzles-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #ddd4c4;
+    }
+
+    .mt-section-head h2,
+    .mt-puzzles-head h2 {
+      margin: 0;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      font-size: clamp(22px, 2.6vw, 30px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      font-weight: 780;
+    }
+
+    .mt-picks-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 20px;
+    }
+
+    .mt-pick-card {
+      display: block;
+      overflow: hidden;
+      border: 1px solid #ddd4c4;
+      border-radius: 16px;
+      background: #ffffff;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .mt-pick-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(64, 131, 43, 0.45);
+      box-shadow: 0 16px 36px rgba(17, 17, 17, 0.10);
+    }
+
+    .mt-pick-image {
+      width: 100%;
+      height: 245px;
+      overflow: hidden;
+      background: #f4efe5;
+      border-bottom: 1px solid #ddd4c4;
+    }
+
+    .mt-pick-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.22s ease;
+    }
+
+    .mt-pick-card:hover .mt-pick-image img {
+      transform: scale(1.04);
+    }
+
+    .mt-pick-content {
+      padding: 15px 16px 17px;
+    }
+
+    .mt-pick-kicker,
+    .mt-puzzle-label {
+      display: block;
+      color: #40832B;
+      font-size: 10px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .mt-pick-content h3 {
+      margin: 7px 0 8px;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      font-size: clamp(19px, 2vw, 26px);
+      line-height: 1.04;
+      letter-spacing: -0.045em;
+      font-weight: 780;
+      transition: color 0.18s ease;
+    }
+
+    .mt-pick-card:hover h3 {
+      color: #40832B;
+    }
+
+    .mt-pick-content p {
+      margin: 0;
+      color: #5e5a52;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+
+    .mt-pick-meta {
+      margin-top: 12px;
+      color: #8a887f;
+      font-size: 11px;
+      font-weight: 850;
+      line-height: 1;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .mt-latest-puzzles {
+      width: 100%;
+      min-width: 0;
+      margin-top: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .mt-puzzles-head a {
+      color: #111111;
+      font-size: 11px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      transition: color 0.18s ease;
+    }
+
+    .mt-puzzles-head a:hover {
+      color: #40832B;
+    }
+
+    .mt-puzzles-list {
+      display: grid;
+      gap: 0;
+      margin-top: 20px;
+    }
+
+    .mt-puzzle-row {
+      display: grid;
+      grid-template-columns: 58px minmax(0, 1fr);
+      gap: 13px;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid #ddd4c4;
+      transition: transform 0.16s ease, opacity 0.16s ease;
+    }
+
+    .mt-puzzle-row:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .mt-puzzle-row:hover {
+      transform: translateX(3px);
+      opacity: 0.82;
+    }
+
+    .mt-puzzle-row:hover .mt-puzzle-copy strong {
+      color: #40832B;
+    }
+
+    .mt-puzzle-row-active {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .mt-puzzle-icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 10px;
+      background: #8fcf7a;
+      overflow: hidden;
+    }
+
+    .mt-puzzle-icon-mini {
+      width: 58px;
+      height: 58px;
+      background: transparent;
+    }
+
+    .mt-puzzle-icon-image img {
+      width: 58px;
+      height: 58px;
+      display: block;
+      object-fit: cover;
+      border-radius: 12px;
+      transform: scale(1.08);
+    }
+
+    .mt-puzzle-icon-quiz {
+      background: #F4A340;
+    }
+
+    .mt-puzzle-icon-quiz svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .mt-puzzle-icon-play {
+      background: #7EC8E3;
+    }
+
+    .mt-puzzle-icon-play svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .mt-puzzle-copy {
+      min-width: 0;
+    }
+
+    .mt-puzzle-copy strong {
+      display: block;
+      margin-top: 5px;
+      color: #111111;
+      font-size: 17px;
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+      font-weight: 780;
+      transition: color 0.18s ease;
+    }
+
+    #mt-latest-mini-title,
+    #mt-guess-lie-title,
+    #mt-play-title {
+      font-size: 20px;
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+      font-weight: 780;
+    }
+
+    .mt-partner-strip {
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      padding: 18px 20px;
+      border: 1px solid rgba(221, 212, 196, 0.78);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.68);
+    }
+
+    .mt-partner-kicker {
+      display: block;
+      margin-bottom: 6px;
+      color: #40832B;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .mt-partner-strip h2 {
+      margin: 0;
+      color: #111111;
+      font-family: Inter, Arial, sans-serif;
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+      font-weight: 780;
+    }
+
+    .mt-partner-strip p {
+      margin: 7px 0 0;
+      color: #6d6a63;
+      font-family: Inter, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.42;
+      font-weight: 500;
+    }
+
+    .mt-partner-actions {
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mt-partner-button {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(64, 131, 43, 0.35);
+      background: rgba(64, 131, 43, 0.08);
+      color: #40832B !important;
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .mt-partner-button:hover {
+      background: rgba(64, 131, 43, 0.14);
+    }
+
+    .mt-mini-cup-card {
+      width: 90px;
+      height: 90px;
+      margin-top: 34px;
+      margin-left: auto;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      border: 1px solid rgba(221, 212, 196, 0.9);
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at 82% 20%, rgba(154, 206, 135, 0.26), transparent 30%),
+        #fbf8f1;
+      box-shadow: 0 12px 28px rgba(17, 17, 17, 0.06);
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .mt-mini-cup-card:hover,
+    .mt-mini-cup-card:focus-visible {
+      transform: translateY(-3px);
+      border-color: rgba(64, 131, 43, 0.42);
+      box-shadow: 0 18px 38px rgba(17, 17, 17, 0.10);
+      outline: none;
+    }
+
+    .mt-mini-cup-button {
+      width: 66px;
+      height: 66px;
+      border-radius: 21px;
+      display: grid;
+      place-items: center;
+      position: relative;
+      background:
+        radial-gradient(circle at 42% 30%, rgba(255, 255, 255, 0.78), transparent 24%),
+        linear-gradient(150deg, #9ace87, #40832B 58%, #205b20);
+      box-shadow: 0 12px 24px rgba(17, 17, 17, 0.18);
+    }
+
+    .mt-mini-cup-button::before {
+      content: "";
+      position: absolute;
+      inset: -6px;
+      border-radius: 26px;
+      border: 2px solid rgba(64, 131, 43, 0.28);
+      animation: mtMiniCupPulse 3.8s ease-in-out infinite;
+    }
+
+    @keyframes mtMiniCupPulse {
+
+      0%,
+      100% {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+
+      38% {
+        opacity: 1;
+        transform: scale(1.02);
+      }
+
+      68% {
+        opacity: 0;
+        transform: scale(1.1);
+      }
+    }
+
+    .mt-mini-cup-button__green {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: block;
+      overflow: hidden;
+      border-radius: 21px;
+    }
+
+    .mt-mini-cup-button__cup {
+      position: absolute;
+      left: 21px;
+      top: 17px;
+      width: 25px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.56);
+      box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .mt-mini-cup-button__flag {
+      position: absolute;
+      left: 33px;
+      top: 2px;
+      width: 3px;
+      height: 22px;
+      border-radius: 4px;
+      background: #ffffff;
+    }
+
+    .mt-mini-cup-button__flag::after {
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 0;
+      width: 18px;
+      height: 12px;
+      background: #ff4f5e;
+      clip-path: polygon(0 0, 100% 30%, 0 100%);
+    }
+
+    .mt-mini-cup-button__ball {
+      position: absolute;
+      left: 24px;
+      top: 42px;
+      width: 18px;
+      height: 18px;
+      overflow: hidden;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 6px 5px, rgba(255, 255, 255, 0.95) 0 2px, transparent 3px),
+        linear-gradient(145deg, #ffffff 0%, #f7f5ee 58%, #e4ded2 100%);
+      border: 1px solid rgba(0, 0, 0, 0.13);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.22);
+    }
+
+    .mt-mini-cup-button__ball::before {
+      content: "";
+      position: absolute;
+      left: -2px;
+      top: -20px;
+      width: 22px;
+      height: 58px;
+      background:
+        radial-gradient(circle at 6px 6px, rgba(17, 17, 17, 0.11) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 15px 10px, rgba(17, 17, 17, 0.09) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 10px 18px, rgba(17, 17, 17, 0.10) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 4px 27px, rgba(17, 17, 17, 0.08) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 17px 31px, rgba(17, 17, 17, 0.10) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 9px 40px, rgba(17, 17, 17, 0.09) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 15px 49px, rgba(17, 17, 17, 0.08) 0 1px, transparent 1.5px);
+      animation: mtMiniCupBallForwardRoll 0.95s linear infinite;
+    }
+
+    .mt-mini-cup-button__ball::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background:
+        radial-gradient(circle at 6px 5px, rgba(255, 255, 255, 0.55) 0 3px, transparent 4px),
+        radial-gradient(circle at 13px 15px, rgba(0, 0, 0, 0.08), transparent 8px);
+      pointer-events: none;
+    }
+
+    @keyframes mtMiniCupBallForwardRoll {
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-18px);
+      }
+    }
+
+    .mt-mini-cup-button__sparkle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      z-index: 3;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .mt-mini-cup-button__sparkle::before,
+    .mt-mini-cup-button__sparkle::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 2px;
+      height: 8px;
+      border-radius: 999px;
+      background: #fff7b5;
+      transform: translate(-50%, -50%);
+    }
+
+    .mt-mini-cup-button__sparkle::after {
+      width: 8px;
+      height: 2px;
+    }
+
+    .mt-mini-cup-button__sparkle-one {
+      left: 10px;
+      top: 12px;
+      animation: mtMiniCupSparkle 2.8s ease-in-out infinite;
+    }
+
+    .mt-mini-cup-button__sparkle-two {
+      right: 10px;
+      bottom: 13px;
+      animation: mtMiniCupSparkle 2.8s ease-in-out 1.15s infinite;
+    }
+
+    @keyframes mtMiniCupSparkle {
+
+      0%,
+      100% {
+        opacity: 0;
+        transform: scale(0.35) rotate(0deg);
+      }
+
+      18% {
+        opacity: 1;
+        transform: scale(1) rotate(45deg);
+      }
+
+      34% {
+        opacity: 0;
+        transform: scale(0.45) rotate(90deg);
+      }
+    }
+
+    .mt-mini-cup-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: grid;
+      align-items: end;
+      justify-items: center;
+      padding: 18px;
+      background: rgba(17, 17, 17, 0.34);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease;
+    }
+
+    .mt-mini-cup-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mt-mini-cup-sheet {
+      width: min(100%, 440px);
+      position: relative;
+      border-radius: 28px;
+      border: 1px solid rgba(221, 212, 196, 0.92);
+      background: #fbf8f1;
+      box-shadow: 0 24px 70px rgba(17, 17, 17, 0.24);
+      padding: 26px 22px 22px;
+      text-align: center;
+      transform: translateY(28px);
+      transition: transform 0.24s cubic-bezier(.2, .8, .2, 1);
+    }
+
+    .mt-mini-cup-overlay.is-open .mt-mini-cup-sheet {
+      transform: translateY(0);
+    }
+
+    .mt-mini-cup-overlay:not(.is-open) .mt-mini-cup-sheet {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .mt-mini-cup-close {
+      position: absolute;
+      right: 14px;
+      top: 12px;
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(221, 212, 196, 0.9);
+      border-radius: 999px;
+      background: #ffffff;
+      color: #111111;
+      font-size: 19px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .mt-mini-cup-modal-kicker {
+      display: block;
+      margin-bottom: 8px;
+      color: #40832B;
+      font-size: 10px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .mt-mini-cup-sheet h2 {
+      margin: 0;
+      color: #111111;
+      font-size: clamp(30px, 4vw, 42px);
+      line-height: 0.95;
+      letter-spacing: -0.07em;
+      font-weight: 900;
+    }
+
+    .mt-mini-cup-sheet p {
+      margin: 12px auto 18px;
+      max-width: 310px;
+      color: #5e5a52;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 650;
+    }
+
+    .mt-mini-cup-team-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .mt-mini-cup-team {
+      min-width: 0;
+      border: 1px solid rgba(221, 212, 196, 0.94);
+      border-radius: 18px;
+      background: #ffffff;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .mt-mini-cup-team:hover,
+    .mt-mini-cup-team:focus-visible {
+      transform: translateY(-2px);
+      border-color: rgba(64, 131, 43, 0.52);
+      box-shadow: 0 12px 28px rgba(17, 17, 17, 0.09);
+      outline: none;
+    }
+
+    .mt-mini-cup-team img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      display: block;
+      object-fit: cover;
+      border-radius: 14px;
+      background: #f4efe5;
+    }
+
+    .mt-mini-cup-team strong {
+      display: block;
+      margin-top: 8px;
+      color: #111111;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: -0.035em;
+      font-weight: 950;
+    }
+
+    .mt-mini-cup-loading {
+      display: none;
+      padding: 26px 6px 10px;
+    }
+
+    .mt-mini-cup-sheet.is-loading .mt-mini-cup-join {
+      display: none;
+    }
+
+    .mt-mini-cup-sheet.is-loading .mt-mini-cup-loading {
+      display: block;
+    }
+
+    .mt-mini-cup-load-track {
+      width: min(100%, 300px);
+      height: 9px;
+      margin: 22px auto 0;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #eee3cf;
+    }
+
+    .mt-mini-cup-load-track span {
+      display: block;
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: #f6d84a;
+    }
+
+    .mt-mini-cup-sheet.is-loading .mt-mini-cup-load-track span {
+      animation: mtMiniCupLoad 780ms cubic-bezier(.18, .78, .2, 1) forwards;
+    }
+
+    @keyframes mtMiniCupLoad {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 940px) {
+      .mt-home-editorial-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .mt-pick-image {
+        height: 230px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .mt-home-editorial {
+        padding: 32px 0 44px;
+      }
+
+      .mt-home-editorial-wrap {
+        width: calc(100% - 30px);
+      }
+
+      .mt-picks-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mt-pick-image {
+        height: 220px;
+      }
+
+      .mt-puzzle-row {
+        grid-template-columns: 58px minmax(0, 1fr);
+        gap: 13px;
+        padding: 16px 0;
+      }
+
+      .mt-puzzle-icon {
+        width: 52px;
+        height: 52px;
+      }
+
+      .mt-puzzle-icon-mini {
+        width: 58px;
+        height: 58px;
+      }
+
+      .mt-puzzle-icon-image img {
+        width: 58px;
+        height: 58px;
+      }
+
+      #mt-latest-mini-title,
+      #mt-guess-lie-title,
+      #mt-play-title {
+        font-size: 21px;
+      }
+
+      .mt-partner-strip {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 18px;
+      }
+
+      .mt-partner-actions {
+        width: 100%;
+        align-items: stretch;
+      }
+
+      .mt-partner-button {
+        width: 100%;
+      }
+
+      .mt-mini-cup-card {
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: 0;
+        width: 84px;
+        height: 84px;
+      }
+
+      .mt-mini-cup-button {
+        width: 62px;
+        height: 62px;
+        border-radius: 20px;
+      }
+
+      .mt-mini-cup-button__green {
+        border-radius: 20px;
+      }
+
+      .mt-mini-cup-button__cup {
+        left: 19px;
+        top: 16px;
+      }
+
+      .mt-mini-cup-button__flag {
+        left: 31px;
+        top: 1px;
+      }
+
+      .mt-mini-cup-button__ball {
+        left: 22px;
+        top: 40px;
+      }
+
+      .mt-mini-cup-overlay {
+        align-items: end;
+        padding: 12px;
+      }
+
+      .mt-mini-cup-sheet {
+        border-radius: 24px;
+        padding: 24px 16px 18px;
+      }
+    }
+  </style>
+
+  <script>
+    (function () {
+    const topPickArticles = [
+      {
+        title: "Can AI Really Fix Your Golf Swing?",
+        kicker: "Tech",
+        author: "Harry Carlisle",
+        url: "https://www.morningtee.com/stories-fix-your-golf-swing",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/92862642-d700-417f-9814-be1b5b3dd906/can-ai-really-fix-your-golf-swing.png?t=1778553047",
+        alt: "A golfer on a tee box while a robot scans the driver and golf ball.",
+        dek: "Most golfers are asking AI the wrong first question."
+      },
+      {
+        title: "How Good Was Wesley Bryan Actually?",
+        kicker: "PGA Tour",
+        author: "Morning Tee",
+        url: "https://www.morningtee.com/stories-how-good-was-wesley-bryan-actually",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/7ac5ba45-8e8e-4d6b-93ff-20b73fa32065/Wesley-bryan.png?t=1779143250",
+        alt: "Wesley Bryan golf story.",
+        dek: "Most people know the YouTube version. The scorecard says something more interesting.",
+        availableAt: "2026-06-01T00:01:00-04:00"
+      },
+      {
+        title: "The Golf Ball Rollback, Explained for Normal People",
+        kicker: "Equipment",
+        author: "Harry Carlisle",
+        url: "https://www.morningtee.com/stories-golf-ball-rollback-explained-for-normal-people",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/50defa7a-ff65-43c9-ac98-8af425085e5b/rory-mcilory-golfball-rollback-explained-for-normal-people-final1.png?t=1779034076",
+        alt: "Rory McIlroy holding a golf ball beside a one-star review card.",
+        dek: ""
+      },
+      {
+        title: "Cheap Golf vs. Expensive Golf",
+        kicker: "Feature",
+        author: "Morning Tee",
+        url: "https://www.morningtee.com/stories-cheap-golf-vs-expensive-golf-round",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/23d662a6-5206-415b-985b-839ca5185275/How_To_Golf_At_Amazing_Places_For_Cheap.png?t=1778615727",
+        alt: "A golf course view for a cheap golf versus expensive golf story.",
+        dek: "What actually changes when a round gets more expensive."
+      },
+      {
+        title: "Everything That Happens At A First Golf Lesson",
+        kicker: "Strategy",
+        author: "Harry Carlisle",
+        url: "https://www.morningtee.com/stories-everything-that-happens-at-a-first-golf-lesson",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/859693c9-1144-410d-ae49-bd906c89345c/first-golf-lesson-final.png?t=1780600444",
+        dek: ""
+      },
+      {
+        title: "How to Save Money While Still Playing At Amazing Courses",
+        kicker: "Feature",
+        author: "Morning Tee",
+        url: "https://www.morningtee.com/stories-how-to-play-golf-for-cheap",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/23d662a6-5206-415b-985b-839ca5185275/How_To_Golf_At_Amazing_Places_For_Cheap.png?t=1778615727",
+        alt: "Golf travel and course deals story.",
+        dek: "",
+        group: "golf-travel-cost"
+      },
+      {
+        title: "The World’s Most Expensive Golf Trip",
+        kicker: "Feature",
+        author: "Morning Tee",
+        url: "https://www.morningtee.com/stories-the-worlds-most-expensive-golf-trip",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d23193d6-6f8d-42ef-8023-35a90d95213d/outstretched_hand.png?t=1777299543",
+        alt: "Luxury golf room with a putting green and desert course view.",
+        dek: "A golf trip with a private chef, a full travel team, and a private jet to seven countries.",
+        group: "golf-travel-cost"
+      },
+      {
+        title: "How To Spot A BAD Golf Coach",
+        kicker: "Practice",
+        author: "Harry Carlisle",
+        url: "https://www.morningtee.com/how-to-spot-a-bad-golf-coach",
+        image: "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/7a275814-3f83-4a02-8153-a3290f213006/good-vs-bad-golf-coach.png?t=1781012071",
+        alt: "A split image comparing a good golf coach with a bad golf coach during a lesson.",
+        dek: "A bad golf coach can be difficult to spot. Here’s how to avoid wasting time and money."
+      }
+    ];
+
+    const fixedTopPickUrl = "https://www.morningtee.com/stories-fix-your-golf-swing";
+    const secondPickFirstUrl = "https://www.morningtee.com/stories-golf-ball-rollback-explained-for-normal-people";
+    const secondPickRotationStart = "2026-05-29T00:01:00-04:00";
+
+    const minis = [
+      {
+        title: "Day One Fans",
+        url: "https://www.morningtee.com/golf-mini-dayonefans",
+        date: "2026-05-07T00:01:00-04:00"
+      },
+      {
+        title: "Eagle",
+        url: "https://www.morningtee.com/golf-mini-no1",
+        date: "2026-05-14T00:01:00-04:00"
+      },
+      {
+        title: "Clubhouse Vows",
+        url: "https://www.morningtee.com/clubhousevows",
+        date: "2026-05-18T00:01:00-04:00"
+      },
+      {
+        title: "Fore!",
+        url: "https://www.morningtee.com/golf-mini-fore",
+        date: "2026-05-21T00:01:00-04:00"
+      },
+      {
+        title: "Grass",
+        url: "https://www.morningtee.com/golf-mini-grass",
+        date: "2026-05-25T00:01:00-04:00"
+      },
+      {
+        title: "Links",
+        url: "https://www.morningtee.com/golf-mini-links",
+        date: "2026-05-28T00:01:00-04:00"
+      },
+      {
+        title: "One Word",
+        url: "https://www.morningtee.com/golf-mini-one-word",
+        date: "2026-06-01T00:01:00-04:00"
+      },
+      {
+        title: "19th Hole",
+        url: "https://www.morningtee.com/golf-mini-19th-hole",
+        date: "2026-06-04T00:01:00-04:00"
+      },
+      {
+        title: "Literary",
+        url: "https://www.morningtee.com/golf-mini-literary",
+        date: "2026-06-08T00:01:00-04:00"
+      },
+      {
+        title: "Yoga",
+        url: "https://www.morningtee.com/golf-mini-yoga",
+        date: "2026-06-11T00:01:00-04:00"
+      },
+      {
+      title: "Masked",
+      url: "https://www.morningtee.com/golf-mini-masked",
+      date: "2026-06-15T00:01:00-04:00"
+      },
+    {
+      title: "Roles",
+      url: "https://www.morningtee.com/golf-mini-roles",
+      date: "2026-06-22T00:01:00-04:00"
+    }
+
+      /*
+        Add future minis here.
+
+        Release rhythm after May 18:
+        Mondays and Thursdays at 12:01 AM Eastern.
+
+        Example:
+        ,
+        {
+          title: "New Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-new-puzzle-slug",
+          date: "2026-06-01T00:01:00-04:00"
+        },
+        {
+          title: "Next Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-next-puzzle-slug",
+          date: "2026-06-04T00:01:00-04:00"
+        },
+          {
+          title: "New Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-new-puzzle-slug",
+          date: "2026-06-01T00:01:00-04:00"
+        },
+        {
+          title: "Next Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-next-puzzle-slug",
+          date: "2026-06-04T00:01:00-04:00"
+        },
+          {
+          title: "New Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-new-puzzle-slug",
+          date: "2026-06-01T00:01:00-04:00"
+        },
+        {
+          title: "Next Puzzle Name",
+          url: "https://www.morningtee.com/golf-mini-next-puzzle-slug",
+          date: "2026-06-04T00:01:00-04:00"
+        }
+      */
+    ];
+
+    function escapePickHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "<")
+        .replace(/>/g, ">")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function getDailyTopPicks(articles, count) {
+      if (!Array.isArray(articles) || !articles.length) return [];
+
+      const now = Date.now();
+      const fixedPick = articles.find((article) => article.url === fixedTopPickUrl);
+      const firstSecondPick = articles.find((article) => article.url === secondPickFirstUrl);
+      const rotationStart = Date.parse(secondPickRotationStart);
+      const rotationWindow = 12 * 60 * 60 * 1000;
+
+      const picks = [];
+
+      if (fixedPick) {
+        picks.push(fixedPick);
+      }
+
+      if (picks.length >= count) {
+        return picks.slice(0, count);
+      }
+
+      if (firstSecondPick && now < rotationStart) {
+        picks.push(firstSecondPick);
+        return picks.slice(0, count);
+      }
+
+      const rotatingArticles = articles.filter((article) => {
+        if (!article || !article.url) return false;
+        if (article.url === fixedTopPickUrl) return false;
+        if (article.url === secondPickFirstUrl && now < rotationStart) return false;
+        if (article.availableAt && Date.parse(article.availableAt) > now) return false;
+        return true;
+      });
+
+      if (!rotatingArticles.length) {
+        if (firstSecondPick && !picks.some((article) => article.url === firstSecondPick.url)) {
+          picks.push(firstSecondPick);
+        }
+
+        return picks.slice(0, count);
+      }
+
+      const expensiveTripIndex = rotatingArticles.findIndex((article) => article.url === "https://www.morningtee.com/stories-the-worlds-most-expensive-golf-trip");
+      const startIndex = expensiveTripIndex >= 0 ? expensiveTripIndex : 0;
+      const rotationIndex = Math.max(0, Math.floor((now - rotationStart) / rotationWindow));
+      const secondPick = rotatingArticles[(startIndex + rotationIndex) % rotatingArticles.length];
+
+      if (secondPick) {
+        picks.push(secondPick);
+      }
+
+      return picks.slice(0, count);
+    }
+
+    function renderRotatingTopPicks() {
+      const grid = document.getElementById("mt-picks-grid");
+      if (!grid) return;
+
+      const picks = getDailyTopPicks(topPickArticles, 2);
+
+      if (!picks.length) return;
+
+      grid.innerHTML = picks.map((item) => `
+        <a class="mt-pick-card" href="${escapePickHtml(item.url)}" target="_top">
+          <div class="mt-pick-image">
+            <img src="${escapePickHtml(item.image)}" alt="${escapePickHtml(item.alt || item.title)}">
+          </div>
+
+          <div class="mt-pick-content">
+            <div class="mt-pick-kicker">${escapePickHtml(item.kicker)}</div>
+            <h3>${escapePickHtml(item.title)}</h3>
+            <p>${escapePickHtml(item.dek)}</p>
+            <div class="mt-pick-meta">${escapePickHtml(item.author)}</div>
+          </div>
+        </a>
+      `).join("");
+    }
+
+    function getLatestReleasedMini(minisList) {
+      const now = Date.now();
+
+      return minisList
+        .filter((mini) => Date.parse(mini.date) <= now)
+        .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))[0];
+    }
+
+    function updateLatestMini() {
+      const latestMini = getLatestReleasedMini(minis);
+
+      if (!latestMini) return;
+
+      const miniLink = document.getElementById("mt-latest-mini-link");
+      const miniTitle = document.getElementById("mt-latest-mini-title");
+      const miniLabel = document.getElementById("mt-latest-mini-label");
+
+      if (miniLink) miniLink.href = latestMini.url;
+      if (miniTitle) miniTitle.textContent = latestMini.title;
+      if (miniLabel) miniLabel.textContent = "Golf crossword";
+    }
+
+    function openEditorialLinksInTopWindow(event) {
+      if (event.target.closest && (event.target.closest(".mt-mini-cup-overlay") || event.target.closest("#mt-mini-cup-open"))) {
+        return;
+      }
+
+      const link = event.target.closest && event.target.closest(".mt-home-editorial a[href]");
+
+      if (!link) return;
+
+      const destination = link.getAttribute("href");
+      if (!destination) return;
+
+      if (destination.startsWith("mailto:") || destination.startsWith("tel:")) {
+        return;
+      }
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      try {
+        window.top.location.assign(destination);
+      } catch (error) {
+        window.open(destination, "_blank", "noopener");
+      }
+    }
+
+
+    function setupMiniCupOverlay() {
+      const openButton = document.getElementById("mt-mini-cup-open");
+      const overlay = document.getElementById("mt-mini-cup-overlay");
+      const sheet = overlay ? overlay.querySelector(".mt-mini-cup-sheet") : null;
+      const closeButton = document.getElementById("mt-mini-cup-close");
+      const loadingTitle = document.getElementById("mt-mini-cup-loading-title");
+      const miniCupUrl = "https://www.morningtee.com/mini-cup";
+
+      if (!openButton || !overlay || !sheet) return;
+
+      let miniCupOpener = null;
+
+      function openOverlay(event) {
+        if (event) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+
+        sheet.classList.remove("is-loading");
+        overlay.classList.add("is-open");
+        overlay.setAttribute("aria-hidden", "false");
+        miniCupOpener = document.activeElement;
+        if (closeButton) closeButton.focus();
+      }
+
+      function closeOverlay(event) {
+        if (event) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+
+        overlay.classList.remove("is-open");
+        overlay.setAttribute("aria-hidden", "true");
+        sheet.classList.remove("is-loading");
+
+        if (miniCupOpener && typeof miniCupOpener.focus === "function") {
+          miniCupOpener.focus();
+        }
+        miniCupOpener = null;
+      }
+
+      function redirectToGame(team) {
+        const label = team === "rory" ? "Team Rory" : "Team Bryson";
+
+        loadingTitle.textContent = "Joining " + label;
+        sheet.classList.add("is-loading");
+
+        try {
+          localStorage.setItem("mtMiniCupSelectedTeam", team);
+        } catch (error) {}
+
+        window.setTimeout(function () {
+          try {
+            window.top.location.assign(miniCupUrl + "?team=" + encodeURIComponent(team));
+          } catch (error) {
+            window.location.href = miniCupUrl + "?team=" + encodeURIComponent(team);
+          }
+        }, 850);
+      }
+
+      openButton.addEventListener("click", openOverlay);
+
+      if (closeButton) {
+        closeButton.addEventListener("click", closeOverlay);
+      }
+
+      overlay.addEventListener("click", function (event) {
+        if (event.target === overlay) {
+          closeOverlay(event);
+        }
+      });
+
+      overlay.querySelectorAll(".mt-mini-cup-team").forEach(function (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+          redirectToGame(button.getAttribute("data-team"));
+        });
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && overlay.classList.contains("is-open")) {
+          closeOverlay(event);
+        }
+      });
+    }
+
+    updateLatestMini();
+    setupMiniCupOverlay();
+    renderRotatingTopPicks();
+
+    document.addEventListener("click", openEditorialLinksInTopWindow, true);
+  })();
+  </script>
+</div>
+
+<style>
+  .mt-home-combined-block {
+    width: 100%;
+    background: #ffffff;
+    color: #111111;
+    font-family: Inter, Arial, sans-serif;
+    overflow: visible !important;
+  }
+
+  .mt-home-combined-block,
+  .mt-home-combined-block * {
+    box-sizing: border-box;
+  }
+
+  .mt-home-combined-block .mth-radar {
+    padding-top: 26px !important;
+  }
+
+
+    .mth-radar-open:focus-visible,
+    #mt-today-toggle:focus-visible,
+    .mt-mini-cup-card:focus-visible,
+    .mt-mini-cup-team:focus-visible,
+    .mt-story-card:focus-visible,
+    .mt-load-more:focus-visible,
+    #mt-story-search:focus-visible,
+    #mt-story-filter:focus-visible {
+      outline: 3px solid #2f6a20 !important;
+      outline-offset: 3px !important;
+    }
+
+  .mt-home-combined-block .mt-home-editorial {
+    padding-top: 34px !important;
+  }
+
+  html,
+  body,
+  .mt-home-combined-block,
+  .mt-home-combined-block *,
+  #mth-radar,
+  #mth-radar *,
+  #mt-home-editorial,
+  #mt-home-editorial * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar,
+  .mt-home-combined-block::-webkit-scrollbar,
+  .mt-home-combined-block *::-webkit-scrollbar,
+  #mth-radar::-webkit-scrollbar,
+  #mth-radar *::-webkit-scrollbar,
+  #mt-home-editorial::-webkit-scrollbar,
+  #mt-home-editorial *::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+
+  /* Morning Tee homepage type tune */
+  .mth-radar-feature h3,
+  .mth-radar-head h2,
+  .mth-radar-side-card h3,
+  .mt-section-head h2,
+  .mt-puzzles-head h2,
+  .mt-pick-content h3,
+  .mt-puzzle-copy strong,
+  #mt-latest-mini-title,
+  #mt-guess-lie-title,
+  #mt-play-title,
+  .mt-partner-strip h2 {
+    font-weight: 780 !important;
+  }
+
+  .mth-radar-feature h3 {
+    font-size: clamp(28px, 3.25vw, 42px) !important;
+    line-height: 1.02 !important;
+  }
+
+  .mth-radar-side-card h3 {
+    font-size: clamp(17px, 1.8vw, 22px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .mt-pick-content h3 {
+    font-size: clamp(19px, 2vw, 26px) !important;
+    line-height: 1.04 !important;
+  }
+
+  .mt-partner-strip h2 {
+    font-family: Inter, Arial, sans-serif !important;
+    font-size: clamp(18px, 2vw, 23px) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.035em !important;
+  }
+
+  .mt-partner-strip p {
+    font-family: Inter, Arial, sans-serif !important;
+    font-weight: 500 !important;
+  }
+</style>
+  <script>
+    // Observe mutations to detect content changes dynamically
+    const observer = new MutationObserver(beehiiv_sendHeight("MutationObserver"));
+    try {
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+    catch (e) {
+      console.error(e)
+    }
+  </script>
+  </body></html>
