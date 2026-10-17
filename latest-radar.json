@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-17T16:48:33.758Z",
+  "updatedAt": "2026-10-17T19:59:32.117Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "44 min ago",
+      "timestamp": "2026-10-17T19:15:00.000Z",
+      "approvedAt": "2026-10-17T19:59:32.114Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Bryson DeChambeau among 19 LIV Golf free agents amid Jon Rahm contract development",
+      "summary": "headlinephotos/Depositphotos Bryson DeChambeau gains contract freedom Bryson DeChambeau gained freedom from his existing LIV Golf contract after a federal bankruptcy judge approved contra...",
+      "quickRead": "headlinephotos/Depositphotos Bryson DeChambeau gains contract freedom Bryson DeChambeau gained freedom from his existing LIV Golf contract after a federal bankruptcy judge approved contra...",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-among-19-liv-191500868.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-among-19-liv-191500868.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-10-17T14:07:37.000Z",
       "approvedAt": "2026-10-17T16:48:26.087Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-nightmare-run-knocks-140737594.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-17T12:30:00.000Z",
       "approvedAt": "2026-10-17T16:48:28.916Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jack-nicklaus.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-10-17T10:30:00.000Z",
       "approvedAt": "2026-10-17T16:48:28.916Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-10-17T02:39:10.000Z",
       "approvedAt": "2026-10-17T08:12:24.898Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-16T17:50:14.000Z",
       "approvedAt": "2026-10-17T02:41:23.640Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-16T17:00:42.000Z",
       "approvedAt": "2026-10-17T02:41:23.640Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/dont-them-6-time-dp-144634511.html",
       "sourceUrl": "https://sports.yahoo.com/articles/dont-them-6-time-dp-144634511.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-16T16:00:57.000Z",
-      "approvedAt": "2026-10-16T19:13:36.027Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "Fresh off hostile LIV Golf comments, DP World Tour player tied for lead in India",
-      "summary": "Joost Luiten is contending in India while calling for stricter rules for LIV Golf players seeking a return.",
-      "quickRead": "Joost Luiten is contending in India while calling for stricter rules for LIV Golf players seeking a return.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/fresh-off-hostile-liv-golf-160057472.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/fresh-off-hostile-liv-golf-160057472.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "3 hours ago",
       "timestamp": "2026-10-17T16:48:17.136Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-17T16:11:17.136Z",
       "status": "Trending",
       "signal": "Reddit find",
