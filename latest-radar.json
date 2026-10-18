@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-18T17:02:45.079Z",
+  "updatedAt": "2026-10-18T19:34:30.016Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "19 min ago",
+      "timestamp": "2026-10-18T19:15:00.000Z",
+      "approvedAt": "2026-10-18T19:34:30.013Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy opens up about friendships strained by the LIV Golf split",
+      "summary": "Rory McIlroy says LIV Golf cost him friendships with former Ryder Cup teammates, a rift that still shapes the sport.",
+      "quickRead": "Rory McIlroy says LIV Golf cost him friendships with former Ryder Cup teammates, a rift that still shapes the sport.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-opens-friendships-strained-191500710.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-friendships-strained-191500710.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "3 hours ago",
       "timestamp": "2026-10-18T15:49:14.000Z",
       "approvedAt": "2026-10-18T17:02:36.031Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fires-back-kevin-154914872.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-18T16:00:02.000Z",
       "approvedAt": "2026-10-18T17:02:39.171Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-10-18T14:40:36.000Z",
       "approvedAt": "2026-10-18T17:02:39.171Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-18T08:29:40.787Z",
       "approvedAt": "2026-10-18T08:29:40.787Z",
       "status": "Live",
@@ -132,7 +151,7 @@
       ]
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-18T11:30:00.000Z",
       "approvedAt": "2026-10-18T13:43:55.308Z",
       "status": "Confirmed",
@@ -170,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-17T20:15:00.000Z",
       "approvedAt": "2026-10-17T22:07:01.323Z",
       "status": "Confirmed",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/17-million-golfer-withdraws-dp-143625636.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/seve-ballesteros.png"
-    },
-    {
-      "time": "19 hours ago",
-      "timestamp": "2026-10-17T21:35:03.000Z",
-      "approvedAt": "2026-10-17T22:07:04.414Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "‘No lawsuits anymore': Patrick Reed has earned Rory McIlroy's ‘respect' post-LI...",
-      "summary": "Rory McIlroy and Patrick Reed have had a frosty relationship over the last few years.",
-      "quickRead": "Rory McIlroy and Patrick Reed have had a frosty relationship over the last few years.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/no-lawsuits-anymore-patrick-reed-213503820.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/no-lawsuits-anymore-patrick-reed-213503820.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-10-18T17:02:26.465Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-18T16:25:26.465Z",
       "status": "Trending",
       "signal": "Reddit find",
