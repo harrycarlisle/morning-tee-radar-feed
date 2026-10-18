@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-18T19:34:37.622Z",
+  "updatedAt": "2026-10-18T19:59:27.928Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "19 min ago",
+      "time": "29 min ago",
+      "timestamp": "2026-10-18T19:30:00.000Z",
+      "approvedAt": "2026-10-18T19:59:27.924Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy exposes LIV Golf’s biggest mistake as its bankruptcy battle intens...",
+      "summary": "Rory McIlroy says LIV Golf had half a good idea and wasted much of its Saudi-backed capital as the league fights through bankruptcy court.",
+      "quickRead": "Rory McIlroy says LIV Golf had half a good idea and wasted much of its Saudi-backed capital as the league fights through bankruptcy court.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-exposes-liv-golf-193000003.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-exposes-liv-golf-193000003.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "44 min ago",
       "timestamp": "2026-10-18T19:15:00.000Z",
       "approvedAt": "2026-10-18T19:34:30.013Z",
       "status": "Confirmed",
@@ -37,9 +58,7 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-friendships-strained-191500710.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "2 hours ago",
       "timestamp": "2026-10-18T17:00:31.000Z",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "4 hours ago",
       "timestamp": "2026-10-18T15:49:14.000Z",
       "approvedAt": "2026-10-18T17:02:36.031Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-18T14:40:36.000Z",
       "approvedAt": "2026-10-18T17:02:39.171Z",
       "status": "Confirmed",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-walks-away-liv-023910192.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "23 hours ago",
-      "timestamp": "2026-10-17T20:15:00.000Z",
-      "approvedAt": "2026-10-17T22:07:01.323Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy opens door to PGA Tour comeback for certain LIV Golf players",
-      "summary": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major championships, said on October 13, 2026,...",
-      "quickRead": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major championships, said on October 13, 2026,...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "25 min ago",
       "timestamp": "2026-10-18T19:34:20.840Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "1 hour ago",
       "timestamp": "2026-10-18T18:57:20.840Z",
       "status": "Trending",
       "signal": "Reddit find",
