@@ -1,7 +1,28 @@
 {
   "active": true,
-  "updatedAt": "2026-10-18T19:59:32.148Z",
+  "updatedAt": "2026-10-18T19:59:34.944Z",
   "stories": [
+    {
+      "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "time": "1 hour ago",
+      "timestamp": "2026-10-18T18:57:20.840Z",
+      "status": "Trending",
+      "signal": "Reddit find",
+      "category": "GOLF INTERNET",
+      "title": "A golf course hot dog built for the internet",
+      "summary": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "url": "https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
+      "source": "r/golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-3.png",
+      "contentTier": "light",
+      "homepageEligible": false,
+      "topSlotEligible": false,
+      "searchTopSlotEligible": false,
+      "searchPriority": -25,
+      "displayPriority": 20,
+      "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade.",
+      "archivedAt": "2026-10-18T19:59:34.944Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
       "time": "25 min ago",
@@ -1890,26 +1911,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "archivedAt": "2026-10-08T12:41:09.148Z"
-    },
-    {
-      "time": "1 hour ago",
-      "timestamp": "2026-10-08T11:30:00.000Z",
-      "approvedAt": "2026-10-08T12:41:07.753Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "LIV Golf’s lead commentator reacts to the news Jon Rahm is leaving the league",
-      "summary": "Jon Rahm is officially leaving LIV Golf.",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-lead-commentator-reacts-113000115.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-lead-commentator-reacts-113000115.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png",
-      "archivedAt": "2026-10-08T12:41:09.147Z"
     }
   ]
 }
