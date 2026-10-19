@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-10-18T19:59:34.944Z",
+  "updatedAt": "2026-10-19T00:20:13.403Z",
   "stories": [
+    {
+      "time": "8 hours ago",
+      "timestamp": "2026-10-18T16:00:17.000Z",
+      "approvedAt": "2026-10-19T00:20:12.077Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Kevin Kisner calls out Rory McIlroy for playing in India for appearance fee; Mc...",
+      "summary": "NBC Sports lead golf analyst Kevin Kisner has a growing reputation for speaking without a filter.",
+      "quickRead": "NBC Sports lead golf analyst Kevin Kisner has a growing reputation for speaking without a filter.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/kevin-kisner-calls-rory-mcilroy-160017516.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/kevin-kisner-calls-rory-mcilroy-160017516.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "archivedAt": "2026-10-19T00:20:13.403Z"
+    },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
       "time": "1 hour ago",
@@ -1891,26 +1911,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "archivedAt": "2026-10-08T19:37:49.855Z"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-10-08T09:10:00.000Z",
-      "approvedAt": "2026-10-08T12:41:07.753Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "‘You’re always looking for the next hero’: Kapil Dev on finding Virat Kohli’s s...",
-      "summary": "In his role as president of PGTI, Kapil Dev shares his delight in fostering the progress of Indian golf.",
-      "quickRead": "In his role as president of PGTI, Kapil Dev shares his delight in fostering the progress of Indian golf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/always-looking-next-hero-kapil-091000736.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/always-looking-next-hero-kapil-091000736.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "archivedAt": "2026-10-08T12:41:09.148Z"
     }
   ]
 }
