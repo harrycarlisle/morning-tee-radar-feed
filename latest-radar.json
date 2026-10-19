@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-19T16:45:04.569Z",
+  "updatedAt": "2026-10-19T21:56:21.484Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-10-19T19:33:34.000Z",
+      "approvedAt": "2026-10-19T21:56:21.481Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Phil Mickelson and Bryson DeChambeau’s $1 Billion Golf Plan Resurfaces as LIV G...",
+      "summary": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
+      "quickRead": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "20 hours ago",
       "timestamp": "2026-10-19T01:53:15.000Z",
       "approvedAt": "2026-10-19T02:56:09.160Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tour-confidential-dp-world-tour-015315396.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T16:34:54.000Z",
       "approvedAt": "2026-10-19T16:44:58.553Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-10-19T12:52:00.000Z",
       "approvedAt": "2026-10-19T16:44:58.555Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-18T19:30:00.000Z",
       "approvedAt": "2026-10-18T19:59:27.924Z",
       "status": "Confirmed",
@@ -118,25 +137,6 @@
     },
     {
       "time": "Yesterday",
-      "timestamp": "2026-10-17T20:15:00.000Z",
-      "approvedAt": "2026-10-18T19:59:30.831Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy opens door to PGA Tour comeback for certain LIV Golf players",
-      "summary": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major championships, said on October 13, 2026,...",
-      "quickRead": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major championships, said on October 13, 2026,...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "21 hours ago",
       "timestamp": "2026-10-18T19:15:00.000Z",
       "approvedAt": "2026-10-18T19:34:30.013Z",
       "status": "Confirmed",
@@ -155,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-18T17:00:31.000Z",
       "approvedAt": "2026-10-18T19:34:33.141Z",
       "status": "Confirmed",
@@ -210,6 +210,21 @@
       "timestamp": "2026-10-17T20:15:00.000Z"
     },
     {
+      "label": "MAJOR WATCH",
+      "title": "Phil Mickelson and Bryson DeChambeau’s $1 Billion Golf Plan Resurface...",
+      "summary": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
+      "quickRead": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-10-19T19:33:34.000Z"
+    },
+    {
       "label": "STAR WATCH",
       "title": "Scottie Scheffler is daring the field to catch him",
       "summary": "Scottie Scheffler and Hideki Matsuyama lead a star-studded field for the 2026 Hero World Challenge in the Bahamas.",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
       "timestamp": "2026-10-19T16:34:54.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "2026 Charles Schwab Cup playoffs: Schedule, field, format and everyth...",
-      "summary": "The 2026 Charles Schwab Cup Playoffs are a three-tournament PGA Tour Champions postseason for the top 72 in Schwab points, with a new St.",
-      "quickRead": "The 2026 Charles Schwab Cup Playoffs are a three-tournament PGA Tour Champions postseason for the top 72 in Schwab points, with a new St.  Louis event replacing the Dominion Energy Classic in Richmond.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/2026-charles-schwab-cup-playoffs-143058779.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/2026-charles-schwab-cup-playoffs-143058779.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-10-19T14:30:58.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T16:44:51.559Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T16:07:51.560Z",
       "status": "Trending",
       "signal": "Reddit find",
