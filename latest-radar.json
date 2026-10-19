@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-19T02:56:13.409Z",
+  "updatedAt": "2026-10-19T09:31:24.828Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -297,59 +297,5 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": [
-    {
-      "time": "Just now",
-      "timestamp": "2026-10-18T17:02:43.350Z",
-      "approvedAt": "2026-10-18T17:02:43.350Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Scottie Scheffler wins TOUR Championship at -16",
-      "summary": "Scottie Scheffler wins TOUR Championship at -16. Nearest finishers: Viktor Hovland (-13), Ryan Gerard (-12), Alex Fitzpatrick (-11).",
-      "quickRead": "",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "TOUR Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Scottie Scheffler",
-          "score": "-16",
-          "thru": "F"
-        },
-        {
-          "pos": "2",
-          "name": "Viktor Hovland",
-          "score": "-13",
-          "thru": "F"
-        },
-        {
-          "pos": "3",
-          "name": "Ryan Gerard",
-          "score": "-12",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Alex Fitzpatrick",
-          "score": "-11",
-          "thru": "F"
-        },
-        {
-          "pos": "T4",
-          "name": "Jacob Bridgeman",
-          "score": "-11",
-          "thru": "F"
-        }
-      ]
-    }
-  ]
+  "liveLeaderboards": []
 }
