@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-20T13:14:03.985Z",
+  "updatedAt": "2026-10-20T18:15:45.860Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "2 hours ago",
+      "timestamp": "2026-10-20T15:55:58.000Z",
+      "approvedAt": "2026-10-20T18:15:45.856Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "TGL 2026-27 rosters: Tiger Woods, Rory McIlroy, Brooks Koepka headline expanded...",
+      "summary": "The indoor golf league co-founded by Tiger Woods is expanding to 35 players and seven teams for its third season.",
+      "quickRead": "The indoor golf league co-founded by Tiger Woods is expanding to 35 players and seven teams for its third season.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tgl-2026-27-rosters-tiger-155558107.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tgl-2026-27-rosters-tiger-155558107.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "19 hours ago",
       "timestamp": "2026-10-19T22:30:00.000Z",
       "approvedAt": "2026-10-20T00:53:51.033Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-10-19T19:33:34.000Z",
       "approvedAt": "2026-10-19T21:56:21.481Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-19T19:01:15.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-10-19T19:53:05.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T01:53:15.000Z",
       "approvedAt": "2026-10-19T02:56:09.160Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T16:34:54.000Z",
       "approvedAt": "2026-10-19T16:44:58.553Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T12:52:00.000Z",
       "approvedAt": "2026-10-19T16:44:58.555Z",
       "status": "Confirmed",
@@ -170,25 +189,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-exposes-liv-golf-193000003.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-exposes-liv-golf-193000003.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-18T16:00:17.000Z",
-      "approvedAt": "2026-10-19T00:20:12.077Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Kevin Kisner calls out Rory McIlroy for playing in India for appearance fee; Mc...",
-      "summary": "NBC Sports lead golf analyst Kevin Kisner has a growing reputation for speaking without a filter.",
-      "quickRead": "NBC Sports lead golf analyst Kevin Kisner has a growing reputation for speaking without a filter.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/kevin-kisner-calls-rory-mcilroy-160017516.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/kevin-kisner-calls-rory-mcilroy-160017516.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-10-20T13:13:53.345Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-20T12:36:53.345Z",
       "status": "Trending",
       "signal": "Reddit find",
