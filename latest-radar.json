@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-20T18:15:52.790Z",
+  "updatedAt": "2026-10-20T22:53:33.459Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-10-20T19:30:00.000Z",
+      "approvedAt": "2026-10-20T22:53:33.456Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy backs a possible PGA Tour return for select LIV Golf players",
+      "summary": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
+      "quickRead": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-10-20T15:55:58.000Z",
       "approvedAt": "2026-10-20T18:15:45.856Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tgl-2026-27-rosters-tiger-155558107.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 min ago",
+      "time": "4 hours ago",
       "timestamp": "2026-10-20T18:01:02.000Z",
       "approvedAt": "2026-10-20T18:15:48.578Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-10-20T12:59:06.000Z",
       "approvedAt": "2026-10-20T18:15:48.579Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-20T16:53:37.000Z",
       "approvedAt": "2026-10-20T18:15:48.579Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T22:30:00.000Z",
       "approvedAt": "2026-10-20T00:53:51.033Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T19:33:34.000Z",
       "approvedAt": "2026-10-19T21:56:21.481Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T19:01:15.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-19T19:53:05.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-comeback-looms-hero-195305360.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "Yesterday",
-      "timestamp": "2026-10-19T01:53:15.000Z",
-      "approvedAt": "2026-10-19T02:56:09.160Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Tour Confidential: DP World Tour fires back at LIV, Kisner calls out Rory",
-      "summary": "On this week's Tour Confidential, GOLF's writers discuss the DP World Tour banning LIV players, the Rory-Kisner back-and-forth and more.",
-      "quickRead": "On this week's Tour Confidential, GOLF's writers discuss the DP World Tour banning LIV players, the Rory-Kisner back-and-forth and more.",
+      "label": "LIV WATCH",
+      "title": "Rory McIlroy backs a possible PGA Tour return for select LIV Golf pla...",
+      "summary": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
+      "quickRead": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tour-confidential-dp-world-tour-015315396.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tour-confidential-dp-world-tour-015315396.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
+      "timestamp": "2026-10-20T19:30:00.000Z"
+    },
     {
       "label": "STAR WATCH",
       "title": "Hero World Challenge field set with three spots open; Tiger Woods cou...",
@@ -210,34 +225,19 @@
       "timestamp": "2026-10-19T19:01:15.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "Rory McIlroy reveals how LIV Golf’s rise put him and Tiger Woods at risk",
-      "summary": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
-      "quickRead": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
+      "label": "LPGA WATCH",
+      "title": "See the 16 teams of LPGA, PGA Tour stars competing at 2026 Grant Thor...",
+      "summary": "The teams have been made official for one of the most beloved events in golf's \"silly season.\"",
+      "quickRead": "The teams have been made official for one of the most beloved events in golf's \"silly season.\"",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
+      "url": "https://sports.yahoo.com/articles/see-16-teams-lpga-pga-165337956.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/see-16-teams-lpga-pga-165337956.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-10-19T22:30:00.000Z"
-    },
-    {
-      "label": "MAJOR WATCH",
-      "title": "Phil Mickelson and Bryson DeChambeau’s $1 Billion Golf Plan Resurface...",
-      "summary": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
-      "quickRead": "Phil Mickelson and Bryson DeChambeau pursued a major financial deal that could have taken professional golf in a different direction.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-10-19T19:33:34.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-10-20T16:53:37.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-10-20T18:15:35.848Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-20T17:38:35.849Z",
       "status": "Trending",
       "signal": "Reddit find",
