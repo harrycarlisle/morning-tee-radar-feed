@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-19T21:56:29.412Z",
+  "updatedAt": "2026-10-20T00:53:51.035Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "2 hours ago",
+      "timestamp": "2026-10-19T22:30:00.000Z",
+      "approvedAt": "2026-10-20T00:53:51.033Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Rory McIlroy reveals how LIV Golf’s rise put him and Tiger Woods at risk",
+      "summary": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
+      "quickRead": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T19:33:34.000Z",
       "approvedAt": "2026-10-19T21:56:21.481Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-bryson-dechambeau-1-193334234.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T19:01:15.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-19T19:53:05.000Z",
       "approvedAt": "2026-10-19T21:56:24.678Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-19T01:53:15.000Z",
       "approvedAt": "2026-10-19T02:56:09.160Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-19T16:34:54.000Z",
       "approvedAt": "2026-10-19T16:44:58.553Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-10-19T12:52:00.000Z",
       "approvedAt": "2026-10-19T16:44:58.555Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/kevin-kisner-calls-rory-mcilroy-160017516.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-18T19:15:00.000Z",
-      "approvedAt": "2026-10-18T19:34:30.013Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy opens up about friendships strained by the LIV Golf split",
-      "summary": "Rory McIlroy says LIV Golf cost him friendships with former Ryder Cup teammates, a rift that still shapes the sport.",
-      "quickRead": "Rory McIlroy says LIV Golf cost him friendships with former Ryder Cup teammates, a rift that still shapes the sport.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-opens-friendships-strained-191500710.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-friendships-strained-191500710.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -210,19 +210,19 @@
       "timestamp": "2026-10-19T19:01:15.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rory McIlroy opens door to PGA Tour comeback for certain LIV Golf pla...",
-      "summary": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major...",
-      "quickRead": "headlinephotos/Depositphotos Rory McIlroy backs LIV player returns Rory McIlroy, a professional golfer from Northern Ireland and winner of 6 major championships, said on October 13, 2026,...",
+      "label": "LIV WATCH",
+      "title": "Rory McIlroy reveals how LIV Golf’s rise put him and Tiger Woods at risk",
+      "summary": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
+      "quickRead": "Rory McIlroy explains why LIV Golf threatened his and Tiger Woods’ interests, including TGL, as the breakaway league faces an uncertain future.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-door-pga-201500340.html",
+      "url": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-reveals-liv-golf-223000583.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-10-17T20:15:00.000Z"
+      "timestamp": "2026-10-19T22:30:00.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "2 hours ago",
       "timestamp": "2026-10-19T21:56:13.228Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "3 hours ago",
       "timestamp": "2026-10-19T21:19:13.228Z",
       "status": "Trending",
       "signal": "Reddit find",
