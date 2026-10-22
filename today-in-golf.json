@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-10-21T20:07:37.804Z",
+  "lastUpdated": "2026-10-22T20:04:54.415Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Korn Ferry Tour Expansion",
-      "text": "The 2027 Korn Ferry Tour will award 40 PGA Tour cards across 25 tournaments in seven countries and 15 states, doubling the current allotment and raising stakes for rising pros."
+      "headline": "Justin Thomas Boosts LivPur",
+      "text": "Justin Thomas announced his hydration brand LivPur is now available in Target stores nationwide, expanding its reach before the 2027 PGA Tour season."
     },
     {
-      "headline": "Senior PGA Pro Championship Site",
-      "text": "Superstition Mountain Golf & Country Club in Arizona hosts the 2026 Senior PGA Professional Championship this week, featuring top senior PGA club professionals competing for senior major spots."
+      "headline": "Tiger Woods' Comeback Plans",
+      "text": "Kevin Kisner shared that Tiger Woods aims to return to competition by December at the Hero World Challenge and play a full TGL schedule in 2027."
     },
     {
-      "headline": "Tiger Woods’ Post-Lesson Tip",
-      "text": "Butch Harmon revealed Tiger Woods makes slow-motion swings after lessons to lock in changes, a technique amateurs should adopt to improve sequencing and contact."
+      "headline": "Woods' Hero World Challenge Situation",
+      "text": "Tiger Woods was left off the initial Hero World Challenge field, making his next move crucial for his comeback trajectory."
     }
   ],
-  "itemsLastUpdated": "2026-10-21T20:07:37.804Z",
+  "itemsLastUpdated": "2026-10-22T20:04:54.415Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-10-21T20:07:37.804Z",
+  "lastSuccessfulStoryUpdate": "2026-10-22T20:04:54.415Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 5,
+  "candidateItemsSelected": 6,
   "openaiAttempted": true,
-  "openaiOutputLength": 821,
+  "openaiOutputLength": 712,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_6b38e1fcf77c412c9d64d29862d1f498",
+  "openaiRequestId": "req_3cc84840a0674e13a3fe39601e98f7e3",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-10-21T20:07:37.804Z",
+  "diagnosticUpdatedAt": "2026-10-22T20:04:54.414Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
