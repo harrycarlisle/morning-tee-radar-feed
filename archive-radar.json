@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-10-23T03:03:02.523Z",
+  "updatedAt": "2026-10-23T14:35:47.078Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-10-23T13:00:00.000Z",
+      "approvedAt": "2026-10-23T14:35:45.511Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "John Daly once revealed how he truly feels about Phil Mickelson and Rory McIlroy",
+      "summary": "Phil Mickelson and Rory McIlroy are undoubtedly two of the greatest golfers ever to have graced the game.",
+      "quickRead": "Phil Mickelson and Rory McIlroy are undoubtedly two of the greatest golfers ever to have graced the game.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/john-daly-once-revealed-truly-130000173.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/john-daly-once-revealed-truly-130000173.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png",
+      "archivedAt": "2026-10-23T14:35:47.078Z"
+    },
     {
       "time": "4 hours ago",
       "timestamp": "2026-10-22T22:49:50.000Z",
@@ -1903,22 +1923,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "archivedAt": "2026-10-13T17:18:37.038Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Michael Block in the field for this week's PGA Tour Champions event...",
-      "summary": "Michael Block is leveraging sponsor exemptions to earn full status on the PGA Tour Champions for the 2027 season.",
-      "quickRead": "Michael Block is leveraging sponsor exemptions to earn full status on the PGA Tour Champions for the 2027 season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/michael-block-field-sas-championship-212527437.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/michael-block-field-sas-championship-212527437.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-10-12T21:25:27.000Z",
-      "archivedAt": "2026-10-13T08:51:37.288Z"
     }
   ]
 }
