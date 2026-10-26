@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-26T16:25:19.699Z",
+  "updatedAt": "2026-10-26T22:12:23.197Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "4 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-10-26T18:30:00.000Z",
+      "approvedAt": "2026-10-26T22:12:23.195Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "Graeme McDowell makes a decision on his future with LIV Golf",
+      "summary": "When it rains it pours, and that is very much the case for the LIV Golf league right now.",
+      "quickRead": "When it rains it pours, and that is very much the case for the LIV Golf league right now.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/graeme-mcdowell-makes-decision-future-183000052.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/graeme-mcdowell-makes-decision-future-183000052.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "17 hours ago",
       "timestamp": "2026-10-26T04:55:20.000Z",
       "approvedAt": "2026-10-26T09:35:46.292Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tour-confidential-does-bryson-dechambeau-045520786.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-10-26T14:05:00.000Z",
       "approvedAt": "2026-10-26T16:25:15.534Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "11 hours ago",
       "timestamp": "2026-10-26T10:30:00.000Z",
       "approvedAt": "2026-10-26T16:25:15.535Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-10-25T22:30:00.000Z",
       "approvedAt": "2026-10-25T22:43:30.151Z",
       "status": "Confirmed",
@@ -118,25 +137,6 @@
     },
     {
       "time": "Yesterday",
-      "timestamp": "2026-10-24T21:48:54.000Z",
-      "approvedAt": "2026-10-25T22:14:46.273Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Tiger Woods Gets Double Good News as Vanessa Trump Shares Health Update",
-      "summary": "Tiger Woods remains a presence in golf through his playing career, business ventures, and course-design work.",
-      "quickRead": "Tiger Woods got a boost off the course as his girlfriend Vanessa Trump announced she’s cancer-free—“And it came back clear, so I am finally cancer free”—and his TGR Design firm was also signed to design the first links golf course in Northern Ireland.  The news keeps Woods in the spotlight while he’s largely sidelined from competing, pairing a major business win with a personal milestone for the couple.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-gets-double-good-214854298.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-gets-double-good-214854298.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
-    },
-    {
-      "time": "22 hours ago",
       "timestamp": "2026-10-25T17:26:22.000Z",
       "approvedAt": "2026-10-25T20:18:33.105Z",
       "status": "Confirmed",
@@ -174,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-25T16:34:33.000Z",
       "approvedAt": "2026-10-25T18:40:45.043Z",
       "status": "Confirmed",
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-10-26T16:25:08.726Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-10-26T15:48:08.727Z",
       "status": "Trending",
       "signal": "Reddit find",
