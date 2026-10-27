@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-27T09:32:05.365Z",
+  "updatedAt": "2026-10-27T15:40:28.895Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -41,7 +41,26 @@
   ],
   "alsoMoving": [
     {
-      "time": "2 hours ago",
+      "time": "1 hour ago",
+      "timestamp": "2026-10-27T14:30:46.000Z",
+      "approvedAt": "2026-10-27T15:40:28.892Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Despite WD, Min Woo Lee climbs in newest Official World Golf Ranking",
+      "summary": "Scottie Scheffler holds the top spot in the latest golf rankings as Min Woo Lee climbs despite recent health issues.",
+      "quickRead": "Scottie Scheffler holds the top spot in the latest golf rankings as Min Woo Lee climbs despite recent health issues.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/despite-wd-min-woo-lee-143046744.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/despite-wd-min-woo-lee-143046744.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/min-woo-lee-2.png"
+    },
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-10-27T07:12:00.000Z",
       "approvedAt": "2026-10-27T09:32:00.392Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-10-26T23:51:22.000Z",
       "approvedAt": "2026-10-27T03:24:42.668Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-10-26T22:03:03.000Z",
       "approvedAt": "2026-10-27T03:24:42.668Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-10-26T18:30:00.000Z",
       "approvedAt": "2026-10-26T22:12:23.195Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-26T12:00:00.000Z",
       "approvedAt": "2026-10-26T22:12:26.303Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-26T14:05:00.000Z",
       "approvedAt": "2026-10-26T16:25:15.534Z",
       "status": "Confirmed",
@@ -172,28 +191,24 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-ends-pga-tour-140500781.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
+    }
+  ],
+  "weekRadar": [
     {
-      "time": "23 hours ago",
-      "timestamp": "2026-10-26T10:30:00.000Z",
-      "approvedAt": "2026-10-26T16:25:15.535Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Players left in ‘unusual’ position at latest PGA Tour event with no play on Sun...",
-      "summary": "Many PGA Tour players, including Rory McIlroy and Scottie Scheffler, know how challenging it can be to prepare for a playoff at an event when the additional holes are set to be played on ...",
-      "quickRead": "Many PGA Tour players, including Rory McIlroy and Scottie Scheffler, know how challenging it can be to prepare for a playoff at an event when the additional holes are set to be played on ...",
+      "label": "STAR WATCH",
+      "title": "Despite WD, Min Woo Lee climbs in newest Official World Golf Ranking",
+      "summary": "Scottie Scheffler holds the top spot in the latest golf rankings as Min Woo Lee climbs despite recent health issues.",
+      "quickRead": "Scottie Scheffler holds the top spot in the latest golf rankings as Min Woo Lee climbs despite recent health issues.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/players-left-unusual-position-latest-103000093.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/players-left-unusual-position-latest-103000093.html",
+      "url": "https://sports.yahoo.com/articles/despite-wd-min-woo-lee-143046744.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/despite-wd-min-woo-lee-143046744.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "weekRadar": [
+      "image": "https://morningteeradarfeed.netlify.app/images/min-woo-lee-2.png",
+      "timestamp": "2026-10-27T14:30:46.000Z"
+    },
     {
       "label": "MAJOR WATCH",
       "title": "Major Champion Makes Career Decision After Jon Rahm’s LIV Golf Exit",
@@ -223,21 +238,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-10-26T10:30:00.000Z"
-    },
-    {
-      "label": "STORY TO WATCH",
-      "title": "Tiger Woods & Son Charlie Have Career News Emerge Amid PGA Tour Offse...",
-      "summary": "Tiger Woods has a guaranteed spot reserved for him at the 2026 PNC Championship, meaning he and son Charlie can tee it up in the family event if Ti...",
-      "quickRead": "Tiger Woods has a guaranteed spot reserved for him at the 2026 PNC Championship, meaning he and son Charlie can tee it up in the family event if Tiger is healthy enough to play.  It’s notable because Woods hasn’t played a PGA Tour event since missing the cut at The Open in July 2024, and the reserved berth keeps return-to-competition rumors alive heading into the offseason.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-son-charlie-career-222436087.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-son-charlie-career-222436087.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
-      "timestamp": "2026-10-26T22:24:36.000Z"
     }
   ],
   "checking": {
