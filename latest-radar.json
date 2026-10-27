@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-26T22:12:30.483Z",
+  "updatedAt": "2026-10-27T03:24:39.600Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "5 hours ago",
+      "timestamp": "2026-10-26T22:24:36.000Z",
+      "approvedAt": "2026-10-27T03:24:39.596Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Tiger Woods & Son Charlie Have Career News Emerge Amid PGA Tour Offseason",
+      "summary": "Tiger Woods continues to face questions about when he will return to competitive golf after an extended absence from the PGA Tour.",
+      "quickRead": "Tiger Woods has a guaranteed spot reserved for him at the 2026 PNC Championship, meaning he and son Charlie can tee it up in the family event if Tiger is healthy enough to play.  It’s notable because Woods hasn’t played a PGA Tour event since missing the cut at The Open in July 2024, and the reserved berth keeps return-to-competition rumors alive heading into the offseason.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tiger-woods-son-charlie-career-222436087.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-son-charlie-career-222436087.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "8 hours ago",
       "timestamp": "2026-10-26T18:30:00.000Z",
       "approvedAt": "2026-10-26T22:12:23.195Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/graeme-mcdowell-makes-decision-future-183000052.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "10 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-10-26T12:00:00.000Z",
       "approvedAt": "2026-10-26T22:12:26.303Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-10-26T04:55:20.000Z",
       "approvedAt": "2026-10-26T09:35:46.292Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-10-26T14:05:00.000Z",
       "approvedAt": "2026-10-26T16:25:15.534Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-10-26T10:30:00.000Z",
       "approvedAt": "2026-10-26T16:25:15.535Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-said-cam-young-140000243.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-10-25T16:34:33.000Z",
-      "approvedAt": "2026-10-25T18:40:45.043Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Phil Mickelson’s 2026 Millions Revealed as LIV Golf Star Earns Big Despite Just...",
-      "summary": "When LIV Golf filed for bankruptcy in September, most of the attention went to who was owed money.",
-      "quickRead": "When LIV Golf filed for bankruptcy in September, most of the attention went to who was owed money.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/phil-mickelson-2026-millions-revealed-163433415.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/phil-mickelson-2026-millions-revealed-163433415.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-10-26T22:12:13.536Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-10-26T21:35:13.536Z",
       "status": "Trending",
       "signal": "Reddit find",
