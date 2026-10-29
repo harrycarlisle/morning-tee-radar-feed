@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-10-29T07:56:27.887Z",
+  "updatedAt": "2026-10-29T14:55:34.568Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "3 hours ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-10-29T12:05:15.000Z",
+      "approvedAt": "2026-10-29T14:55:34.565Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Haeran Ryu withdraws ahead of opening round at LPGA's Maybank Championship",
+      "summary": "Haeran Ryu, a two-time major winner this year, withdrew from the LPGA Tour’s Maybank Classic before her first round Thursday.",
+      "quickRead": "Haeran Ryu, a two-time major winner this year, withdrew from the LPGA Tour’s Maybank Classic before her first round Thursday.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/haeran-ryu-withdraws-ahead-opening-120515118.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-withdraws-ahead-opening-120515118.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "10 hours ago",
       "timestamp": "2026-10-29T03:58:41.000Z",
       "approvedAt": "2026-10-29T07:56:20.643Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-withdraws-lpgas-maybank-035841838.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "9 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-10-28T22:48:20.000Z",
       "approvedAt": "2026-10-29T07:56:23.444Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-10-28T22:30:00.000Z",
       "approvedAt": "2026-10-29T01:29:10.536Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-10-28T20:30:00.000Z",
       "approvedAt": "2026-10-29T01:29:14.226Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-10-28T18:34:29.000Z",
       "approvedAt": "2026-10-28T20:43:49.906Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/phil-mickelson.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-28T13:00:00.000Z",
       "approvedAt": "2026-10-28T14:47:19.333Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-10-28T14:30:49.000Z",
       "approvedAt": "2026-10-28T14:47:19.335Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-cameron-young-join-143049958.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-10-28T13:56:57.000Z",
-      "approvedAt": "2026-10-28T14:47:19.335Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "PGA Tour Champions announces 2027 schedule as Sony Hawaii move hints at bigger...",
-      "summary": "The 2027 PGA Tour Champions schedule is set, but could more displaced tournaments follow the Sony Championship?",
-      "quickRead": "The 2027 PGA Tour Champions schedule is set, but could more displaced tournaments follow the Sony Championship?",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/pga-tour-champions-announces-2027-135657816.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/pga-tour-champions-announces-2027-135657816.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -225,19 +225,19 @@
       "timestamp": "2026-10-27T18:09:43.000Z"
     },
     {
-      "label": "LPGA WATCH",
-      "title": "Nelly Korda, Cameron Young join Annika, Lee and Brooke in PNC field",
-      "summary": "Nelly Korda and Cameron Young were added to the 2026 PNC Championship field: Korda will play with her father, Petr, and Young will team with his fa...",
-      "quickRead": "Nelly Korda and Cameron Young were added to the 2026 PNC Championship field: Korda will play with her father, Petr, and Young will team with his father, David, joining Annika Sorenstam, Lilia Vu and Brooke Henderson as the event’s fourth female competitor.  The December parent-child event is also holding a spot for Tiger Woods and son Charlie, which could turn the week into a major comeback watch.",
+      "label": "MAJOR WATCH",
+      "title": "Haeran Ryu withdraws ahead of opening round at LPGA's Maybank Champio...",
+      "summary": "Haeran Ryu, a two-time major winner this year, withdrew from the LPGA Tour’s Maybank Classic before her first round Thursday.",
+      "quickRead": "Haeran Ryu, a two-time major winner this year, withdrew from the LPGA Tour’s Maybank Classic before her first round Thursday.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/nelly-korda-cameron-young-join-143049958.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/nelly-korda-cameron-young-join-143049958.html",
+      "url": "https://sports.yahoo.com/articles/haeran-ryu-withdraws-ahead-opening-120515118.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/haeran-ryu-withdraws-ahead-opening-120515118.html",
       "source": "Yahoo Golf",
-      "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630",
-      "timestamp": "2026-10-28T14:30:49.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-10-29T12:05:15.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-10-29T07:56:11.235Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-10-29T07:19:11.236Z",
       "status": "Trending",
       "signal": "Reddit find",
