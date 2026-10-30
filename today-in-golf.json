@@ -1,8 +1,8 @@
 {
   "active": true,
-  "lastUpdated": "2026-10-29T21:06:23.520Z",
+  "lastUpdated": "2026-10-30T20:45:25.636Z",
   "edition": "midday",
-  "label": "Updated at 12 p.m. ET",
+  "label": "Last checked at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
@@ -21,15 +21,15 @@
   ],
   "itemsLastUpdated": "2026-10-29T21:06:23.520Z",
   "itemsEdition": "midday",
-  "usedFallback": false,
-  "fallbackReason": "",
-  "fallbackStage": "",
+  "usedFallback": true,
+  "fallbackReason": "generated_items_rejected",
+  "fallbackStage": "item_cleaning",
   "lastSuccessfulStoryUpdate": "2026-10-29T21:06:23.520Z",
-  "itemsChanged": true,
+  "itemsChanged": false,
   "sourceItemsLoaded": 12,
   "candidateItemsSelected": 7,
   "openaiAttempted": true,
-  "openaiOutputLength": 730,
+  "openaiOutputLength": 859,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,19 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_34da595f799a4b12a28943a3a935598e",
+  "openaiRequestId": "req_79dbe6792a0b41a6923982dcb87dc945",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 3,
-  "rejectedItemsCount": 0,
-  "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-10-29T21:06:23.519Z",
+  "cleanedItemsCount": 1,
+  "rejectedItemsCount": 2,
+  "rejectedReasons": [
+    {
+      "reason": "duplicate topic: liv",
+      "count": 2
+    }
+  ],
+  "diagnosticUpdatedAt": "2026-10-30T20:45:25.636Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
