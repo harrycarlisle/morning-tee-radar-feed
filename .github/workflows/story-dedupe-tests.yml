@@ -1,0 +1,28 @@
+name: Story deduplication tests
+
+on:
+  push:
+    paths:
+      - reddit-checker.js
+      - story-dedupe.js
+      - tests/story-dedupe.test.js
+      - .github/workflows/story-dedupe-tests.yml
+  pull_request:
+    paths:
+      - reddit-checker.js
+      - story-dedupe.js
+      - tests/story-dedupe.test.js
+      - .github/workflows/story-dedupe-tests.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --test tests/story-dedupe.test.js
