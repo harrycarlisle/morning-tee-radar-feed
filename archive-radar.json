@@ -1,7 +1,27 @@
 {
   "active": true,
-  "updatedAt": "2026-10-31T14:13:40.766Z",
+  "updatedAt": "2026-10-31T14:13:42.999Z",
   "stories": [
+    {
+      "time": "1 hour ago",
+      "timestamp": "2026-10-31T12:30:00.000Z",
+      "approvedAt": "2026-10-31T14:13:41.843Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Brooks Koepka responds when asked if he honestly believes his best golf is stil...",
+      "summary": "Brooks Koepka endured a challenging return to the PGA Tour this year.",
+      "quickRead": "Brooks Koepka endured a challenging return to the PGA Tour this year.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/brooks-koepka-responds-asked-honestly-123000477.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-responds-asked-honestly-123000477.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png",
+      "archivedAt": "2026-10-31T14:13:42.999Z"
+    },
     {
       "time": "7 hours ago",
       "timestamp": "2026-10-31T06:58:53.000Z",
@@ -1895,26 +1915,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
       "archivedAt": "2026-10-20T22:53:38.272Z"
-    },
-    {
-      "time": "3 hours ago",
-      "timestamp": "2026-10-20T19:30:00.000Z",
-      "approvedAt": "2026-10-20T22:53:33.456Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy backs a possible PGA Tour return for select LIV Golf players",
-      "summary": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
-      "quickRead": "Rory McIlroy backs select LIV Golf players returning to the PGA Tour as financial uncertainty and eligibility rules reshape professional golf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-backs-possible-pga-193000991.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "archivedAt": "2026-10-20T22:53:35.420Z"
     }
   ]
 }
