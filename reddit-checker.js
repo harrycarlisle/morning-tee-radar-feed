@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { inferCategory, repairPublishedCategories } = require("./lib/tour-category");
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const AUTO_PUBLISH = process.env.AUTO_PUBLISH === "true";
@@ -966,61 +967,6 @@ function scoreNewsItem(item) {
   };
 }
 
-function inferCategory(item) {
-  const text = `${item.title} ${item.summary || ""} ${item.sourceName || ""}`.toLowerCase();
-
-  if (item.sourceType === "Leaderboard") return "PGA TOUR";
-
-  if (item.sourceType === "Reddit") return "GOLF INTERNET";
-
-  if (
-  text.includes("ncaa") ||
-  text.includes("college golf") ||
-  text.includes("men's golf championship") ||
-  text.includes("mens golf championship") ||
-  text.includes("women's golf championship") ||
-  text.includes("womens golf championship")
-) {
-  return "NCAA";
-}
-
-  if (
-    text.includes("youtube") ||
-    text.includes("rick shiels") ||
-    text.includes("bob does sports") ||
-    text.includes("grant horvat")
-  ) {
-    return "YOUTUBE";
-  }
-
-  if (
-    text.includes("pga tour") ||
-    text.includes("pga championship") ||
-    text.includes("cj cup") ||
-    text.includes("byron nelson") ||
-    text.includes("colonial") ||
-    text.includes("charles schwab") ||
-    text.includes("truist") ||
-    text.includes("masters") ||
-    text.includes("u.s. open") ||
-    text.includes("us open") ||
-    text.includes("the open") ||
-    text.includes("players championship") ||
-    text.includes("rory") ||
-    text.includes("scheffler") ||
-    text.includes("brooks koepka")
-  ) {
-    return "PGA TOUR";
-  }
-
-  if (text.includes("dp world")) return "DP TOUR";
-  if (text.includes("japan")) return "JAPAN TOUR";
-  if (text.includes("lpga") || text.includes("nelly korda")) return "LPGA";
-  if (text.includes("liv")) return "LIV";
-
-  return "GOLF";
-}
-
 function morningTeeTitleRewrite(title) {
   const raw = String(title || "").trim();
 
@@ -1653,7 +1599,7 @@ function buildRadarItem(item) {
   if (item.sourceType === "Leaderboard") {
     return {
       ...radarItem,
-      tournament: item.tournament || item.tournamentName || "PGA TOUR",
+      tournament: item.tournament || item.tournamentName || inferCategory(item),
       liveLabel: "Live coverage",
       visualSubtitle: "Live coverage",
       leaders: Array.isArray(item.leaders) ? item.leaders : []
@@ -2304,7 +2250,8 @@ function buildLeaderboardItem(tournament, leaderboardData) {
       : `leaderboard:${tournament.tournId}:${leader.playerId}:${leader.total}:${leader.thru}:${leader.currentRound}`,
     sourceType: "Leaderboard",
     sourceName: "Live Golf Data",
-    tournament: tournament.name || "PGA TOUR",
+    tour: tournament.tour || tournament.tourName || leaderboardData.tour || leaderboardData.tourName,
+    tournament: tournament.name || "Golf",
     title: soloWinner
       ? `${leaderName} wins ${tournament.name} at ${leaderScore}`
       : `${leaderName} leads ${tournament.name} at ${leaderScore}`,
@@ -2349,7 +2296,8 @@ async function fetchLeaderboardItems() {
         console.log("[Leaderboard] Response keys:", Object.keys(leaderboard || {}));
         console.log(`[Leaderboard] Row count for ${tournament.name}:`, leaderboardRows.length);
 
-        const item = buildLeaderboardItem(tournament, leaderboard);
+        // This adapter requests orgId=1 (PGA Tour); carry that evidence explicitly.
+        const item = buildLeaderboardItem({ ...tournament, tour: "PGA TOUR" }, leaderboard);
 
         if (!item) {
           console.log(`[Leaderboard] No publishable leaderboard item found for ${tournament.name}.`);
@@ -2618,6 +2566,42 @@ async function getJsonFileFromGitHub(filePath, fallbackJson) {
     sha: data.sha,
     json: JSON.parse(decodeBase64Utf8(data.content))
   };
+}
+
+async function repairPublishedTourCategoriesOnGitHub() {
+  if (!AUTO_PUBLISH) return false;
+
+  let corrected = false;
+  for (const filePath of [GITHUB_RADAR_PATH, GITHUB_RADAR_ARCHIVE_PATH]) {
+    // Recompute from the latest JSON on a SHA conflict, preserving concurrent feed edits.
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const current = await getJsonFileFromGitHub(filePath, null);
+      if (!current.sha || !current.json) break;
+      const { json, corrections } = repairPublishedCategories(current.json);
+      if (!corrections) break;
+
+      const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}`;
+      const response = await fetch(url, {
+        method: "PUT",
+        headers: githubHeaders(),
+        body: JSON.stringify({
+          message: "Correct radar tour categories",
+          content: encodeBase64Utf8(JSON.stringify(json, null, 2) + "\n"),
+          sha: current.sha,
+          branch: GITHUB_BRANCH
+        })
+      });
+
+      if (response.ok) {
+        console.log(`[Categories] Corrected ${corrections} labels in ${filePath}.`);
+        corrected = true;
+        break;
+      }
+      if (response.status === 409 && attempt === 0) continue;
+      throw new Error(`Category repair failed for ${filePath}: ${response.status} ${await response.text()}`);
+    }
+  }
+  return corrected;
 }
 
 async function updateJsonFileOnGitHub(filePath, nextJson, sha, message) {
@@ -2912,7 +2896,7 @@ function buildLiveLeaderboardsFromItems(leaderboardItems) {
     const radarItem = buildRadarItem(item);
     if (!radarItem || !Array.isArray(radarItem.leaders) || !radarItem.leaders.length) return;
 
-    const tournamentKey = String(radarItem.tournament || "PGA TOUR").trim().toLowerCase();
+    const tournamentKey = String(radarItem.tournament || radarItem.category).trim().toLowerCase();
     newestByTournament.set(tournamentKey, radarItem);
   });
 
@@ -3639,7 +3623,7 @@ const nextJson = {
 
   const title = liveLeaderboards.length > 1
     ? `Update ${liveLeaderboards.length} live leaderboards`
-    : `Update live leaderboard: ${liveLeaderboards[0].tournament || "PGA TOUR"}`;
+    : `Update live leaderboard: ${liveLeaderboards[0].tournament || liveLeaderboards[0].category}`;
 
   await updateRadarFileOnGitHub(nextJson, current.sha, title);
   console.log(`[Leaderboard] Updated liveLeaderboards with ${liveLeaderboards.length} tournament(s).`);
@@ -3811,6 +3795,12 @@ let published = false;
     if (golfInternetItems.length) {
       await autoPublishGolfInternetToGitHub(golfInternetItems);
     }
+
+    try {
+      await repairPublishedTourCategoriesOnGitHub();
+    } catch (error) {
+      console.error("[Categories] Repair failed, continuing radar run.", error.message);
+    }
   }
 
   if (bestCandidate) {
@@ -3824,6 +3814,18 @@ let published = false;
     console.log("No new trending stories found.");
   }
 }
-checkRadar().catch((error) => {
-  console.error(error);
-});
+if (require.main === module) {
+  checkRadar().catch((error) => {
+    console.error(error);
+  });
+}
+
+module.exports = {
+  buildRadarItem,
+  buildCheckingItem,
+  buildLeaderboardItem,
+  buildLiveLeaderboardsFromItems,
+  fetchLeaderboardItems,
+  filterCandidates,
+  repairPublishedTourCategoriesOnGitHub
+};
