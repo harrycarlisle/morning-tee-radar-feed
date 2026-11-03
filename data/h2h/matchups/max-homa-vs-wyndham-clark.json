@@ -1,6 +1,6 @@
 {
   "matchupId": "max-homa-vs-wyndham-clark",
-  "updatedAt": "2026-10-26T20:57:51.999Z",
+  "updatedAt": "2026-11-03T00:01:23.611Z",
   "source": "DataGolf Historical Event Data plus manual player results where needed",
   "rules": {
     "mainStat": "shared-start wins",
@@ -24,12 +24,40 @@
   },
   "summary": {
     "since": 2020,
-    "sharedStarts": 110,
-    "playerAWins": 55,
+    "sharedStarts": 111,
+    "playerAWins": 56,
     "playerBWins": 43,
     "ties": 12
   },
   "events": [
+    {
+      "year": 2026,
+      "date": "2026-11-01",
+      "eventId": 540,
+      "eventName": "VidantaWorld Mexico Open",
+      "tour": "pga",
+      "playerA": {
+        "name": "Max Homa",
+        "dgId": 17538,
+        "finish": "66",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "playerB": {
+        "name": "Wyndham Clark",
+        "dgId": 23604,
+        "finish": "CUT",
+        "earnings": null,
+        "fedExCupPoints": null,
+        "dgPoints": null,
+        "manual": false
+      },
+      "h2hWinner": "max-homa",
+      "edge": "Max by 933 spots",
+      "counted": true
+    },
     {
       "year": 2026,
       "date": "2026-10-11",
