@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-03T02:00:03.118Z",
+  "updatedAt": "2026-11-03T09:20:45.868Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "5 hours ago",
+      "time": "20 min ago",
+      "timestamp": "2026-11-03T09:00:00.000Z",
+      "approvedAt": "2026-11-03T09:20:45.866Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Jon Rahm reveals if he’d take the same deal as Brooks Koepka to re-join to the...",
+      "summary": "Jon Rahm’s future is still up in the air.",
+      "quickRead": "",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-reveals-d-same-090000359.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-reveals-d-same-090000359.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "12 hours ago",
       "timestamp": "2026-11-02T20:30:00.000Z",
       "approvedAt": "2026-11-03T01:59:58.038Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tony-finau-surely-big-liv-203000509.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-02T17:25:15.000Z",
       "approvedAt": "2026-11-02T19:56:38.626Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-02T18:00:38.000Z",
       "approvedAt": "2026-11-02T19:56:41.239Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-11-02T16:30:00.000Z",
       "approvedAt": "2026-11-02T19:56:41.239Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-11-02T14:15:08.000Z",
       "approvedAt": "2026-11-02T19:56:41.239Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-11-02T13:32:15.000Z",
       "approvedAt": "2026-11-02T19:56:41.239Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-02T02:02:23.000Z",
       "approvedAt": "2026-11-02T08:45:45.950Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/brooks-koepka-may-now-answered-113000413.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-01T22:30:00.000Z",
-      "approvedAt": "2026-11-02T01:01:33.392Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "LIV",
-      "title": "Paul McGinley suggests whether he thinks Ian Poulter or Lee Westwood will ever...",
-      "summary": "Paul McGinley has revealed the reason that he does not expect to see Ian Poulter or Lee Westwood become Ryder Cup captains in the future following their moves to LIV Golf.",
-      "quickRead": "Paul McGinley has revealed the reason that he does not expect to see Ian Poulter or Lee Westwood become Ryder Cup captains in the future following their moves to LIV Golf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/paul-mcginley-suggests-whether-thinks-223000091.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/paul-mcginley-suggests-whether-thinks-223000091.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "7 hours ago",
       "timestamp": "2026-11-03T01:59:49.929Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-03T01:22:49.929Z",
       "status": "Trending",
       "signal": "Reddit find",
