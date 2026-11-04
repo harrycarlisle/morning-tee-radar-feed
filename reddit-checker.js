@@ -2768,8 +2768,8 @@ async function appendRadarArchiveOnGitHub(stories, title) {
 
 // Week Radar is a secondary selection. A story there may still be promoted to
 // Today or Also Moving; the secondary copy is then removed when the feed is built.
-function storyAlreadyOnRadar(radarJson, item) {
-  const allStories = [
+function getRadarComparisonStories(radarJson) {
+  return [
     ...(Array.isArray(radarJson.homepageFeatures) ? radarJson.homepageFeatures : []),
     ...(Array.isArray(radarJson.today) ? radarJson.today : []),
     ...(Array.isArray(radarJson.liveLeaderboards) ? radarJson.liveLeaderboards : []),
@@ -2777,8 +2777,11 @@ function storyAlreadyOnRadar(radarJson, item) {
     ...(Array.isArray(radarJson.golfInternet) ? radarJson.golfInternet : []),
     radarJson.checking
   ].filter(Boolean);
+}
 
-  return allStories.some((story) => areDuplicateStories(story, item));
+function storyAlreadyOnRadar(radarJson, item) {
+  if (!item) return false;
+  return dedupeStoryClusters([item], getRadarComparisonStories(radarJson)).length === 0;
 }
 
 function getHomepageReservedStories(radarJson) {
@@ -3114,6 +3117,7 @@ function buildWeekRadarFromStories(stories, existingWeekRadar, reservedStories =
   const picked = [];
   const usedGroups = new Set();
   const deferred = [];
+  const distinctItems = new Set(dedupeStoryClusters(scored.map((entry) => entry.item), reservedStories));
 
   const pick = (entry) => {
     if (picked.length >= 3) return;
@@ -3125,7 +3129,7 @@ function buildWeekRadarFromStories(stories, existingWeekRadar, reservedStories =
 
   // Prefer a mix of topics, then fill spare slots with distinct stories even
   // if they involve a player or topic already represented.
-  scored.forEach((entry) => {
+  scored.filter((entry) => distinctItems.has(entry.item)).forEach((entry) => {
     if (usedGroups.has(entry.groupKey)) deferred.push(entry);
     else pick(entry);
   });
@@ -3399,14 +3403,16 @@ async function autoPublishHomepageRunnerUpsToGitHub(items) {
     ? current.json.alsoMoving
     : [];
 
-  const runnerUpRadarItems = items
+  const preparedRunnerUps = items
     .filter((item) => item && item.url)
     .filter((item) => {
       const quickRead = item.quickRead || item.quickContext || item.modalSummary || item.summary || "";
       return !quickReadLooksWeak(quickRead, item);
     })
-    .map(buildRadarItem)
-    .filter((item) => !storyAlreadyOnRadar(current.json, item));
+    .map(buildRadarItem);
+  // Compare the whole eligible batch before discarding duplicate versions: a
+  // richer report can supply the statement evidence missing from a short card.
+  const runnerUpRadarItems = dedupeStoryClusters(preparedRunnerUps, getRadarComparisonStories(current.json));
 
   if (!runnerUpRadarItems.length) {
     console.log("[Homepage Runner Ups] No new runner-up stories to add.");

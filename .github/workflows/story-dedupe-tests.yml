@@ -6,12 +6,16 @@ on:
       - reddit-checker.js
       - story-dedupe.js
       - tests/story-dedupe.test.js
+      - tests/story-dedupe-statements.test.js
+      - tests/fixtures/radar-2026-11-04.json
       - .github/workflows/story-dedupe-tests.yml
   pull_request:
     paths:
       - reddit-checker.js
       - story-dedupe.js
       - tests/story-dedupe.test.js
+      - tests/story-dedupe-statements.test.js
+      - tests/fixtures/radar-2026-11-04.json
       - .github/workflows/story-dedupe-tests.yml
 
 permissions:
@@ -25,4 +29,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node --test tests/story-dedupe.test.js
+      - run: node --test tests/story-dedupe*.test.js

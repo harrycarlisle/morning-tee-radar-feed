@@ -117,6 +117,92 @@ function storyUrls(item) {
     .filter((url) => url && url !== "#");
 }
 
+function sameStoryUrl(a, b) {
+  const urlsB = storyUrls(b);
+  return storyUrls(a).some((url) => urlsB.includes(url));
+}
+
+function statementText(value) {
+  return normalize(value)
+    .replace(/\bladies european tour\b/g, "ladieseuropeantour")
+    .replace(/\bpga tour champions\b/g, "pgatourchampions")
+    .replace(/\b(?:dp world tour|european tour)\b/g, "dpworldtour")
+    .replace(/\bliv(?: golf)?\b/g, "livgolf")
+    .replace(/\blpga tour\b/g, "lpgatour")
+    .replace(/\bpga tour\b/g, "pgatour");
+}
+
+// Additional evidence for differently framed reports of a statement. Keep the
+// ordinary overlap thresholds intact. Require an explicit headline speaker, a
+// dated event, and either the same allegation or endorsement of a named source.
+// Restrict evidence to headlines focused on that statement: a background quote
+// in an article about finances, a return, etc. must not join the comment cluster.
+function statementEvidence(item) {
+  const title = String(item?.title || "");
+  const speaker = title.match(/^(?:(?:Why|How)\s+)?([A-Z][A-Za-z'’.-]+\s+[A-Z][A-Za-z'’.-]+)\b(.*)$/);
+  if (!speaker || !/^\s+(?:fully\s+)?(?:voices? support|backs?|supports?|endorses?|agrees?|accuses?|hits? out|says?|said)\b/i.test(speaker[2])) return null;
+  const date = Date.parse(item.timestamp || item.publishedAt || "");
+  if (!Number.isFinite(date) || isLeaderboard(item)) return null;
+
+  const headline = statementText(title);
+  if (/\b(?:not|never|denies|denied|rejects?|rejected|disputes?|disputed|reverses?|reversed|reversal)\b|\bno longer\b/.test(headline)) return null;
+  const text = statementText(storyText(item));
+  const organization = "(?:dpworldtour|livgolf|pgatour|lpgatour)";
+  const support = "(?:backs?|backed|supports?|supported|endorses?|endorsed|agrees?|agreed)";
+  const supportsTour = new RegExp("\\b" + support + "(?:\\s+\\w+){0,3}\\s+" + organization + "\\b").test(headline);
+  const allegation = new RegExp("\\bdestroy(?:s|ed|ing)?\\s+(?:the\\s+)?(" + organization + ")\\b", "g");
+  if (!supportsTour && !new RegExp(allegation.source).test(headline)) return null;
+
+  const organizations = [...new Set(text.match(/\b(?:dpworldtour|livgolf|pgatour|lpgatour)\b/g) || [])].sort();
+  // The second organization identifies the subject of the dispute, rather than
+  // treating every statement in support of the same tour as the same event.
+  if (organizations.length !== 2) return null;
+  const scope = organizations.join(":");
+  const anchors = new Set();
+  const negated = (index) => /\b(?:not|never|denies|denied|rejects?|rejected|disputes?|disputed)\b/.test(text.slice(Math.max(0, index - 70), index));
+  for (const match of text.matchAll(allegation)) {
+    if (!negated(match.index)) anchors.add(`claim:destroy:${match[1]}:${scope}`);
+  }
+  const endorsement = new RegExp("\\b" + support + "(?:\\s+\\w+){0,5}\\s+(" + organization + ")\\s+(?:ceo|commissioner|chairman|chairwoman)\\s+([a-z]+\\s+[a-z]+)\\s+(?:claims?|said|says)\\b", "g");
+  for (const match of text.matchAll(endorsement)) {
+    if (!negated(match.index)) anchors.add(`endorsement:${match[1]}:${match[2]}:${scope}`);
+  }
+  return anchors.size ? { speaker: normalize(speaker[1]), day: new Date(date).toISOString().slice(0, 10), anchors } : null;
+}
+
+function sameStatement(a, b) {
+  return Boolean(a && b && a.speaker === b.speaker && a.day === b.day && intersectionSize(a.anchors, b.anchors));
+}
+
+function conflictingEventDetails(a, b) {
+  const textA = storyText(a);
+  const textB = storyText(b);
+  const yearsA = eventYears(textA);
+  const yearsB = eventYears(textB);
+  if (yearsA.size && yearsB.size && !equalSets(yearsA, yearsB)) return true;
+
+  const pairingA = pairingParticipants(textA);
+  const pairingB = pairingParticipants(textB);
+  if (pairingA && pairingB && pairingA !== pairingB) return true;
+
+  const roundsA = roundNumbers(textA);
+  const roundsB = roundNumbers(textB);
+  if (roundsA.size && roundsB.size && !equalSets(roundsA, roundsB)) return true;
+
+  // Headlines about different developments can share the same people and event.
+  // Reaction wording may be omitted from one headline, so compare event actions
+  // separately from reactions when both headlines describe an action.
+  const headlineActionsA = actions(a.title);
+  const headlineActionsB = actions(b.title);
+  headlineActionsA.delete("reaction");
+  headlineActionsB.delete("reaction");
+  if (headlineActionsA.size && headlineActionsB.size && !equalSets(headlineActionsA, headlineActionsB)) return true;
+
+  const stanceA = titleStance(a.title);
+  const stanceB = titleStance(b.title);
+  return Boolean(stanceA && stanceB && stanceA !== stanceB);
+}
+
 function areDuplicateStories(a, b) {
   if (!a || !b) return false;
 
@@ -126,41 +212,16 @@ function areDuplicateStories(a, b) {
       Boolean(a.title && b.title) && a.title === b.title && a.summary === b.summary;
   }
 
-  const urlsA = storyUrls(a);
-  const urlsB = storyUrls(b);
-  if (urlsA.some((url) => urlsB.includes(url))) return true;
+  if (sameStoryUrl(a, b)) return true;
 
   const titleA = normalize(a.title);
   const titleB = normalize(b.title);
-  if (!titleA || !titleB) return false;
+  if (!titleA || !titleB || conflictingEventDetails(a, b)) return false;
+
+  if (sameStatement(statementEvidence(a), statementEvidence(b))) return true;
 
   const textA = storyText(a);
   const textB = storyText(b);
-  const yearsA = eventYears(textA);
-  const yearsB = eventYears(textB);
-  if (yearsA.size && yearsB.size && !equalSets(yearsA, yearsB)) return false;
-
-  const pairingA = pairingParticipants(textA);
-  const pairingB = pairingParticipants(textB);
-  if (pairingA && pairingB && pairingA !== pairingB) return false;
-
-  const roundsA = roundNumbers(textA);
-  const roundsB = roundNumbers(textB);
-  if (roundsA.size && roundsB.size && !equalSets(roundsA, roundsB)) return false;
-
-  // Headlines about different developments can share the same people and event.
-  // Reaction wording may be omitted from one headline, so compare event actions
-  // separately from reactions when both headlines describe an action.
-  const headlineActionsA = actions(a.title);
-  const headlineActionsB = actions(b.title);
-  headlineActionsA.delete("reaction");
-  headlineActionsB.delete("reaction");
-  if (headlineActionsA.size && headlineActionsB.size && !equalSets(headlineActionsA, headlineActionsB)) return false;
-
-  const stanceA = titleStance(a.title);
-  const stanceB = titleStance(b.title);
-  if (stanceA && stanceB && stanceA !== stanceB) return false;
-
   const tokensA = words(textA);
   const tokensB = words(textB);
   const shared = intersectionSize(tokensA, tokensB);
@@ -186,26 +247,72 @@ function areDuplicateStories(a, b) {
   return sharedActions === 1 && shared >= 9 && coverage >= 0.75;
 }
 
-function dedupeStoryClusters(items, reserved = []) {
-  const output = [];
-  const accepted = (reserved || []).filter(Boolean).slice();
-  for (const item of items || []) {
-    if (!item || accepted.some((other) => areDuplicateStories(item, other))) continue;
-    accepted.push(item);
-    output.push(item);
+function uniqueStoryIndexes(items, reserved = []) {
+  const entries = [...reserved, ...items];
+  const evidence = entries.map((item) => statementEvidence(item));
+  const parents = entries.map((_, index) => index);
+  const members = entries.map((_, index) => [index]);
+  const root = (index) => {
+    while (parents[index] !== index) {
+      parents[index] = parents[parents[index]];
+      index = parents[index];
+    }
+    return index;
+  };
+  const clustersConflict = (a, b) => members[a].some((index) =>
+    members[b].some((other) => conflictingEventDetails(entries[index], entries[other])));
+  // Only the bounded statement evidence is transitive. Ordinary fuzzy matches
+  // retain the original first-wins behavior, avoiding topic-overlap chains.
+  // Inspect all candidates before choosing representatives so a richer report
+  // can connect two sparse versions regardless of their arrival order.
+  for (let index = 0; index < entries.length; index++) {
+    for (let other = 0; other < index; other++) {
+      if (!sameStatement(evidence[index], evidence[other])) continue;
+      const a = root(index), b = root(other);
+      if (a === b || clustersConflict(a, b)) continue;
+      parents[a] = b;
+      members[b].push(...members[a]);
+    }
   }
+  const accepted = [];
+  const seen = new Set();
+  const output = [];
+  entries.forEach((item, index) => {
+    if (!item) return;
+    const cluster = root(index);
+    if (index < reserved.length) {
+      // Reserved descriptions are already published. Keep every version as
+      // comparison evidence even when two of them match one another.
+      accepted.push(index);
+      seen.add(cluster);
+      return;
+    }
+    const duplicate = seen.has(cluster) || accepted.some((other) =>
+      areDuplicateStories(item, entries[other]) &&
+      (sameStoryUrl(item, entries[other]) || !clustersConflict(cluster, root(other))));
+    seen.add(cluster);
+    if (duplicate) return;
+    accepted.push(index);
+    output.push(index - reserved.length);
+  });
   return output;
+}
+
+function dedupeStoryClusters(items = [], reserved = []) {
+  return uniqueStoryIndexes(items || [], reserved || []).map((index) => items[index]);
 }
 
 // Earlier sections have priority. Week Radar is populated from the other
 // sections and additional sources, but should not display a second copy.
 function dedupeHomepageSections(radar) {
   const result = { ...radar };
-  const accepted = [];
-  for (const section of ["homepageFeatures", "today", "alsoMoving", "golfInternet", "weekRadar"]) {
-    if (!Array.isArray(radar[section])) continue;
-    result[section] = dedupeStoryClusters(radar[section], accepted);
-    accepted.push(...result[section]);
+  const sections = ["homepageFeatures", "today", "alsoMoving", "golfInternet", "weekRadar"]
+    .filter((section) => Array.isArray(radar[section]));
+  const items = sections.flatMap((section) => radar[section]);
+  const retained = new Set(uniqueStoryIndexes(items));
+  let index = 0;
+  for (const section of sections) {
+    result[section] = radar[section].filter(() => retained.has(index++));
   }
   return result;
 }

@@ -194,7 +194,9 @@ test("cleanup retries against the latest feed after a concurrent update", async 
 test("runner-up publisher deduplicates a batch and respects stories already in Today", async () => {
   const previousFetch = global.fetch;
   const now = liveTimestamp();
-  const item = (story) => ({ ...story, sourceType: "RSS", sourceName: "Yahoo Golf", timestamp: now, quickRead: story.summary });
+  // These are approved inputs; source verification is tested independently in
+  // PR #6 and must not be bypassed with unverified RSS fixtures when combined.
+  const item = (story) => ({ ...story, sourceType: "Manual", sourceName: "Yahoo Golf", timestamp: now, quickRead: story.summary });
   const runPublisher = async (initial, items) => {
     let written = null;
     global.fetch = async (url, options = {}) => {
