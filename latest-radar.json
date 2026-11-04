@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-03T22:48:20.014Z",
+  "updatedAt": "2026-11-04T04:32:49.819Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "5 hours ago",
+      "timestamp": "2026-11-03T23:00:04.000Z",
+      "approvedAt": "2026-11-04T04:32:49.817Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Tiger Woods Eyeing Champions Tour Return As LIV Golf Debate Heats Up",
+      "summary": "Tiger Woods could shake up the PGA Tour Champions in 2027, but a growing dispute over returning LIV Golf players threatens to complicate the senior circuit's future.",
+      "quickRead": "Tiger Woods could shake up the PGA Tour Champions in 2027, but a growing dispute over returning LIV Golf players threatens to complicate the senior circuit's future.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/tiger-woods-eyeing-champions-tour-230004442.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-eyeing-champions-tour-230004442.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "12 hours ago",
       "timestamp": "2026-11-03T16:06:39.000Z",
       "approvedAt": "2026-11-03T22:48:11.641Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-open-accepting-brooks-160639763.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-11-03T18:32:31.000Z",
       "approvedAt": "2026-11-03T22:48:14.453Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-03T16:15:06.000Z",
       "approvedAt": "2026-11-03T17:30:10.646Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-03T16:29:59.000Z",
       "approvedAt": "2026-11-03T17:30:13.900Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "9 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-03T12:56:56.000Z",
       "approvedAt": "2026-11-03T17:30:13.900Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-11-03T15:01:35.000Z",
       "approvedAt": "2026-11-03T17:30:13.900Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "13 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-11-03T09:00:00.000Z",
       "approvedAt": "2026-11-03T09:20:45.866Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/tony-finau-surely-big-liv-203000509.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-02T17:25:15.000Z",
-      "approvedAt": "2026-11-02T19:56:38.626Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "YOUTUBE",
-      "title": "‘Go Do Your YouTube Thing’: Bryson DeChambeau Faces Reality Check From Golf Ana...",
-      "summary": "Bryson DeChambeau has become one of LIV Golf’s most prominent defenders as the breakaway league attempts to secure its future for 2027.",
-      "quickRead": "Bryson DeChambeau has become one of LIV Golf’s most prominent defenders as the breakaway league attempts to secure its future for 2027.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/youtube-thing-bryson-dechambeau-faces-172515694.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/youtube-thing-bryson-dechambeau-faces-172515694.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-11-03T22:48:02.130Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-03T22:11:02.130Z",
       "status": "Trending",
       "signal": "Reddit find",
