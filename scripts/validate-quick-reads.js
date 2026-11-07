@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { quickReadLooksWeak: looksWeak } = require("../lib/quick-read-quality");
 
 const RADAR_PATH = process.argv[2] || "latest-radar.json";
 
@@ -19,64 +20,6 @@ const TEXT_FIELDS = [
   "description",
   "excerpt"
 ];
-
-const WEAK_PHRASES = [
-  "a golf story is picking up attention",
-  "a golf story is picking up attention across the golf news cycle",
-  "a golf post is picking up attention",
-  "a tournament-week golf story is moving across the radar",
-  "this golf story is moving across the radar",
-  "this is a golf storyline morning tee is tracking",
-  "this is a golf storyline worth tracking",
-  "tap for the quick version",
-  "open the source for the full details",
-  "open the full story",
-  "open the full story for the latest details",
-  "open the full story for the actual details",
-  "worth watching",
-  "made headlines",
-  "generated buzz",
-  "picked up steam",
-  "one of the latest stories",
-  "available feed details are limited",
-  "more context may come from the original source"
-];
-
-function normalize(value) {
-  return String(value || "")
-    .toLowerCase()
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function repeatsHeadline(value, item) {
-  const quickRead = normalize(value)
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  const title = normalize(item?.title || item?.headline || "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  if (!quickRead || !title) return false;
-
-  const titleWords = title.split(" ").filter((word) => word.length > 3);
-  if (titleWords.length < 5) return false;
-
-  return quickRead.includes(titleWords.slice(0, 6).join(" "));
-}
-
-function looksWeak(value, item) {
-  const text = normalize(value);
-
-  if (!text) return true;
-  if (text.length < 55) return true;
-  if (repeatsHeadline(value, item)) return true;
-
-  return WEAK_PHRASES.some((phrase) => text.includes(phrase));
-}
 
 function getSectionItems(radarJson, section) {
   const value = radarJson[section];
