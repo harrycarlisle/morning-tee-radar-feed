@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-07T16:02:48.967Z",
+  "updatedAt": "2026-11-07T21:21:36.925Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "40 min ago",
+      "time": "Just now",
+      "timestamp": "2026-11-07T21:21:36.922Z",
+      "approvedAt": "2026-11-07T21:21:36.922Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben James leads World Wide Technology Championship at -18",
+      "summary": "Ben James is -3 today and -18 overall through 12. Closest chasers: Kensei Hirata (-16), Keith Mitchell (-15), Ryan Gerard (-15).",
+      "quickRead": "Ben James is leading the World Wide Technology Championship at 18-under par, 3-under on his round through 12 holes at El Cardonal at Diamante in Los Cabos.  He’s two shots clear of Kensei Hirata (-16) with Keith Mitchell and Ryan Gerard tied for third at -15, setting up a tight chase as the leaders head toward the closing holes.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "World Wide Technology Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ben James",
+          "score": "-18",
+          "thru": "12"
+        },
+        {
+          "pos": "2",
+          "name": "Kensei Hirata",
+          "score": "-16",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Keith Mitchell",
+          "score": "-15",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Ryan Gerard",
+          "score": "-15",
+          "thru": "13"
+        },
+        {
+          "pos": "T5",
+          "name": "Paul Peterson",
+          "score": "-14",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-11-07T15:22:11.000Z",
       "approvedAt": "2026-11-07T16:02:41.931Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-rues-double-bogey-152211412.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-07T15:01:33.000Z",
       "approvedAt": "2026-11-07T16:02:44.233Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-07T14:36:40.000Z",
       "approvedAt": "2026-11-07T16:02:44.233Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-11-07T00:46:29.000Z",
       "approvedAt": "2026-11-07T08:12:18.038Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-11-06T21:59:33.000Z",
       "approvedAt": "2026-11-07T08:12:20.646Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-11-07T04:09:33.000Z",
       "approvedAt": "2026-11-07T08:12:20.646Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "23 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-06T16:08:31.000Z",
       "approvedAt": "2026-11-06T20:12:31.707Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "19 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-06T20:10:40.000Z",
       "approvedAt": "2026-11-07T01:32:01.880Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/mcilroy-proves-integrity-beats-cheating-201040536.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "16 hours ago",
-      "timestamp": "2026-11-06T23:19:07.000Z",
-      "approvedAt": "2026-11-07T01:32:01.881Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Fires 63 To Chase Rahm, Hatton At Abu Dhabi Championship",
-      "summary": "Rory McIlroy storms back from a controversial penalty with a 63, moving within one shot of Jon Rahm and Tyrrell Hatton at the Abu Dhabi Championship.",
-      "quickRead": "Rory McIlroy answered his opening-round two-shot penalty by making 11 birdies in a nine-under 63 on Friday, leaving him one shot behind co-leaders Jon Rahm and Tyrrell Hatton at the Abu Dhabi Championship.  After his score was changed from 68 to 70 for a rules infringement, McIlroy’s low round vaulted him right back into the DP World Tour playoff hunt entering the weekend.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-fires-63-chase-231907190.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-fires-63-chase-231907190.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-11-07T16:02:27.200Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-11-07T15:25:27.201Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -297,5 +331,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-11-07T21:21:36.926Z",
+      "approvedAt": "2026-11-07T21:21:36.926Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Ben James leads World Wide Technology Championship at -18",
+      "summary": "Ben James is -3 today and -18 overall through 12. Closest chasers: Kensei Hirata (-16), Keith Mitchell (-15), Ryan Gerard (-15).",
+      "quickRead": "Ben James is leading the World Wide Technology Championship at 18-under par, 3-under on his round through 12 holes at El Cardonal at Diamante in Los Cabos.  He’s two shots clear of Kensei Hirata (-16) with Keith Mitchell and Ryan Gerard tied for third at -15, setting up a tight chase as the leaders head toward the closing holes.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "World Wide Technology Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Ben James",
+          "score": "-18",
+          "thru": "12"
+        },
+        {
+          "pos": "2",
+          "name": "Kensei Hirata",
+          "score": "-16",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Keith Mitchell",
+          "score": "-15",
+          "thru": "14"
+        },
+        {
+          "pos": "T3",
+          "name": "Ryan Gerard",
+          "score": "-15",
+          "thru": "13"
+        },
+        {
+          "pos": "T5",
+          "name": "Paul Peterson",
+          "score": "-14",
+          "thru": "17"
+        }
+      ]
+    }
+  ]
 }
