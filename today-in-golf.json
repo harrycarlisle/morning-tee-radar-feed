@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-06T21:28:15.694Z",
+  "lastUpdated": "2026-11-07T20:12:51.590Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "McIlroy’s 11-Birdie Comeback",
-      "text": "Rory McIlroy overcame a two-shot penalty for improving his lie to shoot a career-best 9-under 63 with 11 birdies at the Abu Dhabi Aldar Championship, moving to one shot behind the 12-under leaders."
+      "headline": "LIV Golf dissolution",
+      "text": "LIV Golf is folding and Bryson DeChambeau is still owed $5.77 million; he has been offered 2027 playing privileges by the DP World Tour as a route back to PGA Tour eligibility."
     },
     {
-      "headline": "LIV Golf Shuts Down",
-      "text": "LIV Golf ended after five years and a $5 billion spend when Saudi PIF stopped funding and a rescue deal collapsed, causing uncertain futures for stars like Jon Rahm and Bryson DeChambeau."
+      "headline": "Rahm leads Abu Dhabi",
+      "text": "Jon Rahm shot a 6-under 66 on Saturday to lead the Abu Dhabi Championship at 18-under 198, one stroke ahead of Tyrrell Hatton and Francesco Laporta."
+    },
+    {
+      "headline": "McIlroy trails by two",
+      "text": "Rory McIlroy, after eight birdies and a double-bogey on the 10th, sits two shots behind Jon Rahm going into the final round at the Abu Dhabi Championship."
     }
   ],
-  "itemsLastUpdated": "2026-11-06T21:28:15.694Z",
+  "itemsLastUpdated": "2026-11-07T20:12:51.590Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-06T21:28:15.694Z",
+  "lastSuccessfulStoryUpdate": "2026-11-07T20:12:51.590Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 9,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 823,
+  "openaiOutputLength": 745,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_b026c72a0c4245bfb68d903db4bc3867",
+  "openaiRequestId": "req_570f1ec3884c44c98ee1971b3d46f285",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-11-06T21:28:15.694Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-11-07T20:12:51.590Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
