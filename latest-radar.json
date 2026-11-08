@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-08T16:29:24.507Z",
+  "updatedAt": "2026-11-08T16:29:27.078Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -244,21 +244,6 @@
       "timestamp": "2026-11-08T04:18:33.000Z"
     },
     {
-      "label": "STORY TO WATCH",
-      "title": "Jon Rahm’s Abu Dhabi Lead Forces PGA Tour Return Talks",
-      "summary": "Jon Rahm shot 6-under 66 to reach 18-under and take a one-shot lead into Sunday at the Abu Dhabi Aldar Championship, and he said he’d “love” a PGA...",
-      "quickRead": "Jon Rahm shot 6-under 66 to reach 18-under and take a one-shot lead into Sunday at the Abu Dhabi Aldar Championship, and he said he’d “love” a PGA Tour return deal like the one Brooks Koepka received.  Rahm leads Tyrrell Hatton and Francesco Laporta by one with Rory McIlroy two back, and his comments reignite the question of what terms top ex-LIV stars might get to rejoin the Tour.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahm-abu-dhabi-lead-102353285.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-abu-dhabi-lead-102353285.html",
-      "source": "Yahoo Golf",
-      "image": "",
-      "timestamp": "2026-11-08T10:23:53.000Z"
-    },
-    {
       "label": "LIV WATCH",
       "title": "LIV Golf's end brought harsh answers to the sport's most pressing que...",
       "summary": "While Rory McIlroy and others are willing to welcome LIV defectors back to the PGA Tour, not everyone has the same feeling.",
@@ -272,6 +257,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-11-07T21:31:01.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Jon Rahm’s Abu Dhabi Lead Forces PGA Tour Return Talks",
+      "summary": "Jon Rahm shot 6-under 66 to reach 18-under and take a one-shot lead into Sunday at the Abu Dhabi Aldar Championship, and he said he’d “love” a PGA...",
+      "quickRead": "Jon Rahm shot 6-under 66 to reach 18-under and take a one-shot lead into Sunday at the Abu Dhabi Aldar Championship, and he said he’d “love” a PGA Tour return deal like the one Brooks Koepka received.  Rahm leads Tyrrell Hatton and Francesco Laporta by one with Rory McIlroy two back, and his comments reignite the question of what terms top ex-LIV stars might get to rejoin the Tour.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/jon-rahm-abu-dhabi-lead-102353285.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-abu-dhabi-lead-102353285.html",
+      "source": "Yahoo Golf",
+      "image": "",
+      "timestamp": "2026-11-08T10:23:53.000Z"
     }
   ],
   "checking": {
@@ -334,14 +334,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-08T08:29:11.673Z",
-      "approvedAt": "2026-11-08T08:29:11.673Z",
+      "timestamp": "2026-11-08T16:29:26.915Z",
+      "approvedAt": "2026-11-08T16:29:26.915Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ben James wins World Wide Technology Championship at -21",
-      "summary": "Ben James wins World Wide Technology Championship at -21. Nearest finishers: Ryan Gerard (-17), Chris Kirk (-16), Denny McCarthy (-16).",
-      "quickRead": "Ben James won the World Wide Technology Championship at El Cardonal at Diamante in Los Cabos at 21-under par, four shots clear of runner-up Ryan Gerard (-17), with Chris Kirk and Denny McCarthy tied for third at -16.  James’ -21 total (65-64-66) delivered a comfortable closing margin and capped a week where the nearest challengers never got closer than four on the final leaderboard.",
+      "title": "Ben James leads World Wide Technology Championship at -21",
+      "summary": "Ben James is -21 overall through 1. Closest chasers: Ryan Gerard (-17), Chris Kirk (-16), Denny McCarthy (-16).",
+      "quickRead": "Ben James grabbed the World Wide Technology Championship lead at 21-under (65-64-66) in Round 4 at El Cardonal at Diamante in Los Cabos, holding a four-shot edge over Ryan Gerard at 17-under, with Chris Kirk and Denny McCarthy tied third at 16-under.  With the final round in progress, James’ cushion puts him in control, while Gerard needs a big closing stretch to flip a tournament that’s starting to separate at the top.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -357,31 +357,31 @@
           "pos": "1",
           "name": "Ben James",
           "score": "-21",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "2",
           "name": "Ryan Gerard",
           "score": "-17",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Chris Kirk",
           "score": "-16",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Denny McCarthy",
           "score": "-16",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T5",
           "name": "Paul Peterson",
           "score": "-15",
-          "thru": "F"
+          "thru": "1"
         }
       ]
     }
