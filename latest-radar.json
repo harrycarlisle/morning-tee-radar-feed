@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-08T21:19:15.720Z",
+  "updatedAt": "2026-11-08T21:36:13.294Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-11-08T21:36:13.292Z",
+      "approvedAt": "2026-11-08T21:36:13.292Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Denny McCarthy leads World Wide Technology Championship at -22",
+      "summary": "Denny McCarthy is -6 today and -22 overall through 13. Closest chasers: Blades Brown (-21), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Denny McCarthy is leading the World Wide Technology Championship at 22-under, shooting 6-under on his final round through 13 holes at El Cardonal in Los Cabos.  He’s only one shot clear of Blades Brown and Ben James at 21-under, with Michael Kim at 20-under, setting up a tight finish coming home.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "World Wide Technology Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Denny McCarthy",
+          "score": "-22",
+          "thru": "13"
+        },
+        {
+          "pos": "T2",
+          "name": "Blades Brown",
+          "score": "-21",
+          "thru": "14"
+        },
+        {
+          "pos": "T2",
+          "name": "Ben James",
+          "score": "-21",
+          "thru": "12"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Kim",
+          "score": "-20",
+          "thru": "14"
+        },
+        {
+          "pos": "T4",
+          "name": "Kensei Hirata",
+          "score": "-20",
+          "thru": "14"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "17 min ago",
       "timestamp": "2026-11-08T21:19:09.414Z",
       "approvedAt": "2026-11-08T21:19:09.414Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "12"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "38 min ago",
+      "time": "55 min ago",
       "timestamp": "2026-11-08T20:40:14.000Z",
       "approvedAt": "2026-11-08T21:19:10.583Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/stubborn-dechambeau-experts-endlessly-fascinated-224652049.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-11-08T04:18:33.000Z",
-      "approvedAt": "2026-11-08T08:29:07.063Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Jon Rahm's PGA Tour audition takes an interesting turn",
-      "summary": "Jon Rahm's playing future appears mostly set, but just days after LIV announced its imminent demise, he has a chance to change the narrative.",
-      "quickRead": "Jon Rahm's playing future appears mostly set, but just days after LIV announced its imminent demise, he has a chance to change the narrative.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/jon-rahms-pga-tour-audition-041833095.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/jon-rahms-pga-tour-audition-041833095.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "17 min ago",
       "timestamp": "2026-11-08T21:19:02.304Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "54 min ago",
       "timestamp": "2026-11-08T20:42:02.304Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-08T21:19:14.588Z",
-      "approvedAt": "2026-11-08T21:19:14.588Z",
+      "timestamp": "2026-11-08T21:36:13.294Z",
+      "approvedAt": "2026-11-08T21:36:13.294Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Blades Brown leads World Wide Technology Championship at -21",
-      "summary": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
-      "quickRead": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
+      "title": "Denny McCarthy leads World Wide Technology Championship at -22",
+      "summary": "Denny McCarthy is -6 today and -22 overall through 13. Closest chasers: Blades Brown (-21), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Denny McCarthy is leading the World Wide Technology Championship at 22-under, shooting 6-under on his final round through 13 holes at El Cardonal in Los Cabos.  He’s only one shot clear of Blades Brown and Ben James at 21-under, with Michael Kim at 20-under, setting up a tight finish coming home.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -354,19 +388,19 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "T1",
+          "pos": "1",
+          "name": "Denny McCarthy",
+          "score": "-22",
+          "thru": "13"
+        },
+        {
+          "pos": "T2",
           "name": "Blades Brown",
           "score": "-21",
           "thru": "14"
         },
         {
-          "pos": "T1",
-          "name": "Denny McCarthy",
-          "score": "-21",
-          "thru": "12"
-        },
-        {
-          "pos": "T1",
+          "pos": "T2",
           "name": "Ben James",
           "score": "-21",
           "thru": "12"
@@ -379,9 +413,9 @@
         },
         {
           "pos": "T4",
-          "name": "Ryan Gerard",
+          "name": "Kensei Hirata",
           "score": "-20",
-          "thru": "12"
+          "thru": "14"
         }
       ]
     }
