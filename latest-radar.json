@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-08T08:29:12.869Z",
+  "updatedAt": "2026-11-08T16:29:19.164Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "9 hours ago",
+      "time": "2 hours ago",
+      "timestamp": "2026-11-08T13:37:20.000Z",
+      "approvedAt": "2026-11-08T16:29:19.162Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "LIV",
+      "title": "In first start post-LIV, Jon Rahm wins Abu Dhabi Aldar Championship in UAE",
+      "summary": "Jon Rahm secured the Abu Dhabi Aldar Championship title, marking his first win since leaving the folded LIV Golf.",
+      "quickRead": "Jon Rahm secured the Abu Dhabi Aldar Championship title, marking his first win since leaving the folded LIV Golf.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/first-start-post-liv-jon-133720207.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/first-start-post-liv-jon-133720207.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "17 hours ago",
       "timestamp": "2026-11-07T22:46:52.000Z",
       "approvedAt": "2026-11-08T08:29:05.681Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/stubborn-dechambeau-experts-endlessly-fascinated-224652049.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "4 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-08T04:18:33.000Z",
       "approvedAt": "2026-11-08T08:29:07.063Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-07T14:34:41.000Z",
       "approvedAt": "2026-11-08T08:29:07.064Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-07T21:31:01.000Z",
       "approvedAt": "2026-11-08T08:29:07.064Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-08T01:01:02.992Z",
       "approvedAt": "2026-11-08T01:01:02.992Z",
       "status": "Live",
@@ -151,7 +170,7 @@
       ]
     },
     {
-      "time": "13 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-07T19:15:03.000Z",
       "approvedAt": "2026-11-08T01:01:04.333Z",
       "status": "Confirmed",
@@ -170,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "16 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-07T15:44:22.000Z",
       "approvedAt": "2026-11-07T21:21:38.531Z",
       "status": "Confirmed",
@@ -189,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-07T15:22:11.000Z",
       "approvedAt": "2026-11-07T16:02:41.931Z",
       "status": "Confirmed",
@@ -206,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-rues-double-bogey-152211412.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-11-07T15:01:33.000Z",
-      "approvedAt": "2026-11-07T16:02:44.233Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "LIV Golf is dead. Bryson DeChambeau is owed $5.77 million. Now what?",
-      "summary": "Bryson DeChambeau never signed on to LIV 2.0, and now the league is folding.",
-      "quickRead": "With LIV Golf liquidating, Bryson DeChambeau is still owed $5. 77 million and now has 2027 playing privileges offered by the DP World Tour, creating a direct competitive route back toward PGA Tour eligibility.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-dead-bryson-dechambeau-150133632.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-dead-bryson-dechambeau-150133632.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "8 hours ago",
       "timestamp": "2026-11-08T08:28:52.576Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "8 hours ago",
       "timestamp": "2026-11-08T07:51:52.577Z",
       "status": "Trending",
       "signal": "Reddit find",
