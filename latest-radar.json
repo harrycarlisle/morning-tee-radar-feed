@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-08T21:36:17.479Z",
+  "updatedAt": "2026-11-08T21:36:55.670Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -19,6 +19,61 @@
     }
   ],
   "today": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-11-08T21:36:55.667Z",
+      "approvedAt": "2026-11-08T21:36:55.667Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Blades Brown leads World Wide Technology Championship at -22",
+      "summary": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "World Wide Technology Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Blades Brown",
+          "score": "-22",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
+          "name": "Denny McCarthy",
+          "score": "-22",
+          "thru": "13"
+        },
+        {
+          "pos": "3",
+          "name": "Ben James",
+          "score": "-21",
+          "thru": "12"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Kim",
+          "score": "-20",
+          "thru": "15"
+        },
+        {
+          "pos": "T4",
+          "name": "Kensei Hirata",
+          "score": "-20",
+          "thru": "14"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
     {
       "time": "Just now",
       "timestamp": "2026-11-08T21:36:13.292Z",
@@ -71,9 +126,7 @@
           "thru": "14"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
       "time": "17 min ago",
       "timestamp": "2026-11-08T21:19:09.414Z",
@@ -128,7 +181,7 @@
       ]
     },
     {
-      "time": "55 min ago",
+      "time": "56 min ago",
       "timestamp": "2026-11-08T20:40:14.000Z",
       "approvedAt": "2026-11-08T21:19:10.583Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rahm-returns-liv-absence-claim-151157267.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "22 hours ago",
-      "timestamp": "2026-11-07T22:46:52.000Z",
-      "approvedAt": "2026-11-08T08:29:05.681Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Stubborn DeChambeau Has Experts “Endlessly Fascinated” By His Next Move",
-      "summary": "One of the big questions in golf is what happens to the players who were part of the now-defunct LIV Golf.",
-      "quickRead": "One of the big questions in golf is what happens to the players who were part of the now-defunct LIV Golf.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/stubborn-dechambeau-experts-endlessly-fascinated-224652049.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/stubborn-dechambeau-experts-endlessly-fascinated-224652049.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-08T21:36:16.089Z",
-      "approvedAt": "2026-11-08T21:36:16.089Z",
+      "timestamp": "2026-11-08T21:36:55.671Z",
+      "approvedAt": "2026-11-08T21:36:55.671Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Denny McCarthy leads World Wide Technology Championship at -22",
-      "summary": "Denny McCarthy is -6 today and -22 overall through 13. Closest chasers: Blades Brown (-21), Ben James (-21), Michael Kim (-20).",
-      "quickRead": "Denny McCarthy is leading the World Wide Technology Championship at 22-under, shooting 6-under on his final round through 13 holes at El Cardonal in Los Cabos.  He’s only one shot clear of Blades Brown and Ben James at 21-under, with Michael Kim at 20-under, setting up a tight finish coming home.",
+      "title": "Blades Brown leads World Wide Technology Championship at -22",
+      "summary": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,19 +422,19 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Blades Brown",
+          "score": "-22",
+          "thru": "15"
+        },
+        {
+          "pos": "T1",
           "name": "Denny McCarthy",
           "score": "-22",
           "thru": "13"
         },
         {
-          "pos": "T2",
-          "name": "Blades Brown",
-          "score": "-21",
-          "thru": "14"
-        },
-        {
-          "pos": "T2",
+          "pos": "3",
           "name": "Ben James",
           "score": "-21",
           "thru": "12"
@@ -409,7 +443,7 @@
           "pos": "T4",
           "name": "Michael Kim",
           "score": "-20",
-          "thru": "14"
+          "thru": "15"
         },
         {
           "pos": "T4",
