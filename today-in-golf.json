@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-07T20:12:51.590Z",
+  "lastUpdated": "2026-11-08T20:27:25.183Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "LIV Golf dissolution",
-      "text": "LIV Golf is folding and Bryson DeChambeau is still owed $5.77 million; he has been offered 2027 playing privileges by the DP World Tour as a route back to PGA Tour eligibility."
+      "headline": "World Wide Tech lead",
+      "text": "Ben James leads the World Wide Technology Championship at 21-under through one hole in the final round, holding a four-shot advantage over Ryan Gerard at 17-under."
     },
     {
       "headline": "Rahm leads Abu Dhabi",
-      "text": "Jon Rahm shot a 6-under 66 on Saturday to lead the Abu Dhabi Championship at 18-under 198, one stroke ahead of Tyrrell Hatton and Francesco Laporta."
+      "text": "Jon Rahm leads the Abu Dhabi Aldar Championship with a final-round 67, finishing two shots ahead of Tyrrell Hatton in his first DP World Tour start after leaving LIV Golf."
     },
     {
-      "headline": "McIlroy trails by two",
-      "text": "Rory McIlroy, after eight birdies and a double-bogey on the 10th, sits two shots behind Jon Rahm going into the final round at the Abu Dhabi Championship."
+      "headline": "Hatton secures Dubai spot",
+      "text": "Tyrrell Hatton's runner-up finish at Abu Dhabi secured his entry into next week's DP World Tour Championship in Dubai."
     }
   ],
-  "itemsLastUpdated": "2026-11-07T20:12:51.590Z",
+  "itemsLastUpdated": "2026-11-08T20:27:25.183Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-07T20:12:51.590Z",
+  "lastSuccessfulStoryUpdate": "2026-11-08T20:27:25.183Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 4,
+  "sourceItemsLoaded": 13,
+  "candidateItemsSelected": 3,
   "openaiAttempted": true,
-  "openaiOutputLength": 745,
+  "openaiOutputLength": 720,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_570f1ec3884c44c98ee1971b3d46f285",
+  "openaiRequestId": "req_d0c7468479f5453aa1529b08db9e6101",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-11-07T20:12:51.590Z",
+  "diagnosticUpdatedAt": "2026-11-08T20:27:25.183Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
