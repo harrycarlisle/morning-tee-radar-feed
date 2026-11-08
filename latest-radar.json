@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-08T16:29:28.467Z",
+  "updatedAt": "2026-11-08T21:19:09.416Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-11-08T21:19:09.414Z",
+      "approvedAt": "2026-11-08T21:19:09.414Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Blades Brown leads World Wide Technology Championship at -21",
+      "summary": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "World Wide Technology Championship",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Blades Brown",
+          "score": "-21",
+          "thru": "14"
+        },
+        {
+          "pos": "T1",
+          "name": "Denny McCarthy",
+          "score": "-21",
+          "thru": "12"
+        },
+        {
+          "pos": "T1",
+          "name": "Ben James",
+          "score": "-21",
+          "thru": "12"
+        },
+        {
+          "pos": "T4",
+          "name": "Michael Kim",
+          "score": "-20",
+          "thru": "14"
+        },
+        {
+          "pos": "T4",
+          "name": "Ryan Gerard",
+          "score": "-20",
+          "thru": "12"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "7 hours ago",
       "timestamp": "2026-11-08T13:37:20.000Z",
       "approvedAt": "2026-11-08T16:29:19.162Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/first-start-post-liv-jon-133720207.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "1 hour ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-08T15:11:57.000Z",
       "approvedAt": "2026-11-08T16:29:21.950Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-11-07T22:46:52.000Z",
       "approvedAt": "2026-11-08T08:29:05.681Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-11-08T04:18:33.000Z",
       "approvedAt": "2026-11-08T08:29:07.063Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-11-07T21:31:01.000Z",
       "approvedAt": "2026-11-08T08:29:07.064Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-11-08T01:01:02.992Z",
       "approvedAt": "2026-11-08T01:01:02.992Z",
       "status": "Live",
@@ -189,7 +242,7 @@
       ]
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-07T19:15:03.000Z",
       "approvedAt": "2026-11-08T01:01:04.333Z",
       "status": "Confirmed",
@@ -206,25 +259,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-takes-abu-dhabi-191503578.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-07T15:44:22.000Z",
-      "approvedAt": "2026-11-07T21:21:38.531Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Drops Inside Details on PGA Tour and DP World Tour's Closed-Door D...",
-      "summary": "Rory McIlroy has revealed that during Masters week in April 2026, LIV Golf figures were going around Augusta National telling people they wanted to destroy the DP World Tour.",
-      "quickRead": "Rory McIlroy said that during Masters week in April 2026, LIV Golf representatives were “going around Augusta” telling people they wanted to “destroy the DP World Tour. ” With LIV now collapsing and its future in doubt, McIlroy’s point matters because the DP World Tour is deciding whether—and how—to readmit some of the same players LIV recruited away.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-drops-inside-details-154422588.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-drops-inside-details-154422588.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -292,7 +326,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "4 hours ago",
       "timestamp": "2026-11-08T16:29:06.632Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -312,7 +346,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "5 hours ago",
       "timestamp": "2026-11-08T15:52:06.632Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -334,14 +368,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-08T16:29:26.915Z",
-      "approvedAt": "2026-11-08T16:29:26.915Z",
+      "timestamp": "2026-11-08T21:19:09.416Z",
+      "approvedAt": "2026-11-08T21:19:09.416Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Ben James leads World Wide Technology Championship at -21",
-      "summary": "Ben James is -21 overall through 1. Closest chasers: Ryan Gerard (-17), Chris Kirk (-16), Denny McCarthy (-16).",
-      "quickRead": "Ben James grabbed the World Wide Technology Championship lead at 21-under (65-64-66) in Round 4 at El Cardonal at Diamante in Los Cabos, holding a four-shot edge over Ryan Gerard at 17-under, with Chris Kirk and Denny McCarthy tied third at 16-under.  With the final round in progress, James’ cushion puts him in control, while Gerard needs a big closing stretch to flip a tournament that’s starting to separate at the top.",
+      "title": "Blades Brown leads World Wide Technology Championship at -21",
+      "summary": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
+      "quickRead": "Blades Brown is -7 today and -21 overall through 14. Closest chasers: Denny McCarthy (-21), Ben James (-21), Michael Kim (-20).",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -354,34 +388,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
+          "pos": "T1",
+          "name": "Blades Brown",
+          "score": "-21",
+          "thru": "14"
+        },
+        {
+          "pos": "T1",
+          "name": "Denny McCarthy",
+          "score": "-21",
+          "thru": "12"
+        },
+        {
+          "pos": "T1",
           "name": "Ben James",
           "score": "-21",
-          "thru": "1"
+          "thru": "12"
         },
         {
-          "pos": "2",
+          "pos": "T4",
+          "name": "Michael Kim",
+          "score": "-20",
+          "thru": "14"
+        },
+        {
+          "pos": "T4",
           "name": "Ryan Gerard",
-          "score": "-17",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Chris Kirk",
-          "score": "-16",
-          "thru": "1"
-        },
-        {
-          "pos": "T3",
-          "name": "Denny McCarthy",
-          "score": "-16",
-          "thru": "1"
-        },
-        {
-          "pos": "T5",
-          "name": "Paul Peterson",
-          "score": "-15",
-          "thru": "1"
+          "score": "-20",
+          "thru": "12"
         }
       ]
     }
