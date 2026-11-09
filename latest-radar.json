@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-09T02:17:54.526Z",
+  "updatedAt": "2026-11-09T08:58:46.038Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,62 +20,28 @@
   ],
   "today": [
     {
-      "time": "1 hour ago",
-      "timestamp": "2026-11-09T01:13:25.442Z",
-      "approvedAt": "2026-11-09T01:13:25.442Z",
-      "status": "Live",
-      "signal": "Leaderboard",
+      "time": "9 hours ago",
+      "timestamp": "2026-11-08T23:34:02.000Z",
+      "approvedAt": "2026-11-09T08:58:46.034Z",
+      "status": "Confirmed",
+      "signal": "RSS",
       "category": "PGA TOUR",
-      "title": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17",
-      "summary": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17. Nearest finishers: Taylor Moore (-15), Shane Lowry (-15), Austin Smotherman (-15).",
-      "quickRead": "Nico Echavarria wins Cognizant Classic in The Palm Beaches at -17. Nearest finishers: Taylor Moore (-15), Shane Lowry (-15), Austin Smotherman (-15).",
+      "title": "Bryson DeChambeau breaks silence on death of LIV Golf as he addresses his future",
+      "summary": "Bryson DeChambeau has no regrets about LIV Golf, but his future in the sport — and whether an eventual return to the PGA Tour is his goal — remains unclear.",
+      "quickRead": "Bryson DeChambeau acknowledged LIV Golf’s collapse and offered no firm next-step plan, saying he has “no regrets” about joining, isn’t going to “rewrite the last four years,” and that “whatever is next” he’ll handle it with “humility and respect for the game. ” With LIV winding down after its failed post-bankruptcy reboot, DeChambeau’s future—PGA Tour return, DP World Tour, or re-qualifying elsewhere—remains the biggest domino to watch.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "Cognizant Classic in The Palm Beaches",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "1",
-          "name": "Nico Echavarria",
-          "score": "-17",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Taylor Moore",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Shane Lowry",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "T2",
-          "name": "Austin Smotherman",
-          "score": "-15",
-          "thru": "F"
-        },
-        {
-          "pos": "5",
-          "name": "Ricky Castillo",
-          "score": "-13",
-          "thru": "F"
-        }
-      ]
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-silence-death-233402212.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-silence-death-233402212.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "alsoMoving": [
     {
-      "time": "11 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-08T14:47:32.000Z",
       "approvedAt": "2026-11-09T01:13:27.064Z",
       "status": "Confirmed",
@@ -94,7 +60,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-08T20:27:46.000Z",
       "approvedAt": "2026-11-09T01:13:27.064Z",
       "status": "Confirmed",
@@ -113,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "3 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-11-08T22:41:42.000Z",
       "approvedAt": "2026-11-09T01:13:27.064Z",
       "status": "Confirmed",
@@ -132,60 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
-      "timestamp": "2026-11-08T21:36:55.667Z",
-      "approvedAt": "2026-11-08T21:36:55.667Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Blades Brown leads World Wide Technology Championship at -22",
-      "summary": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
-      "quickRead": "Blades Brown is -8 today and -22 overall through 15. Closest chasers: Denny McCarthy (-22), Ben James (-21), Michael Kim (-20).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "World Wide Technology Championship",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "T1",
-          "name": "Blades Brown",
-          "score": "-22",
-          "thru": "15"
-        },
-        {
-          "pos": "T1",
-          "name": "Denny McCarthy",
-          "score": "-22",
-          "thru": "13"
-        },
-        {
-          "pos": "3",
-          "name": "Ben James",
-          "score": "-21",
-          "thru": "12"
-        },
-        {
-          "pos": "T4",
-          "name": "Michael Kim",
-          "score": "-20",
-          "thru": "15"
-        },
-        {
-          "pos": "T4",
-          "name": "Kensei Hirata",
-          "score": "-20",
-          "thru": "14"
-        }
-      ]
-    },
-    {
-      "time": "5 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-08T20:40:14.000Z",
       "approvedAt": "2026-11-08T21:19:10.583Z",
       "status": "Confirmed",
@@ -204,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-08T20:13:30.000Z",
       "approvedAt": "2026-11-08T21:19:10.583Z",
       "status": "Confirmed",
@@ -223,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-08T17:58:33.000Z",
       "approvedAt": "2026-11-08T21:19:10.584Z",
       "status": "Confirmed",
@@ -242,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "8 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-08T17:47:00.000Z",
       "approvedAt": "2026-11-08T21:19:10.584Z",
       "status": "Confirmed",
@@ -263,6 +176,21 @@
   ],
   "weekRadar": [
     {
+      "label": "LIV WATCH",
+      "title": "Bryson DeChambeau breaks silence on death of LIV Golf as he addresses...",
+      "summary": "Bryson DeChambeau acknowledged LIV Golf’s collapse and offered no firm next-step plan, saying he has “no regrets” about joining, isn’t going to “re...",
+      "quickRead": "Bryson DeChambeau acknowledged LIV Golf’s collapse and offered no firm next-step plan, saying he has “no regrets” about joining, isn’t going to “rewrite the last four years,” and that “whatever is next” he’ll handle it with “humility and respect for the game. ” With LIV winding down after its failed post-bankruptcy reboot, DeChambeau’s future—PGA Tour return, DP World Tour, or re-qualifying elsewhere—remains the biggest domino to watch.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-silence-death-233402212.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-breaks-silence-death-233402212.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-11-08T23:34:02.000Z"
+    },
+    {
       "label": "STAR WATCH",
       "title": "Rory McIlroy Defends Scottie Scheffler's Controversial PGA Tour Schedule",
       "summary": "Rory McIlroy defended Scottie Scheffler from criticism that the world No.",
@@ -276,21 +204,6 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
       "timestamp": "2026-11-08T20:27:46.000Z"
-    },
-    {
-      "label": "LIV WATCH",
-      "title": "Bryson DeChambeau Announces Personal News After LIV Golf Shutdown",
-      "summary": "Bryson DeChambeau has addressed his future in professional golf after LIV Golf shut down, releasing his first public statement since the league ann...",
-      "quickRead": "Bryson DeChambeau has addressed his future in professional golf after LIV Golf shut down, releasing his first public statement since the league announced it would enter the liquidation ph...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-announces-personal-news-204014598.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-announces-personal-news-204014598.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-11-08T20:40:14.000Z"
     },
     {
       "label": "STORY TO WATCH",
@@ -326,7 +239,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-11-09T02:17:42.187Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +259,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-09T01:40:42.187Z",
       "status": "Trending",
       "signal": "Reddit find",
