@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-08T20:27:25.183Z",
+  "lastUpdated": "2026-11-10T00:14:06.375Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "World Wide Tech lead",
-      "text": "Ben James leads the World Wide Technology Championship at 21-under through one hole in the final round, holding a four-shot advantage over Ryan Gerard at 17-under."
+      "headline": "Blades Brown's Historic Win",
+      "text": "At 19, Blades Brown became the youngest PGA Tour leader in 95 years by winning the World Wide Technology Championship with a playoff birdie in Los Cabos after a 9-under 63 round."
     },
     {
-      "headline": "Rahm leads Abu Dhabi",
-      "text": "Jon Rahm leads the Abu Dhabi Aldar Championship with a final-round 67, finishing two shots ahead of Tyrrell Hatton in his first DP World Tour start after leaving LIV Golf."
+      "headline": "Ryann O'Toole's Million-Dollar LPGA Bonus",
+      "text": "Ryann O'Toole secured the LPGA's $1 million Aon Risk Reward Challenge prize while on maternity leave, ending her 2026 season early due to pregnancy."
     },
     {
-      "headline": "Hatton secures Dubai spot",
-      "text": "Tyrrell Hatton's runner-up finish at Abu Dhabi secured his entry into next week's DP World Tour Championship in Dubai."
+      "headline": "Tiger Woods' New Golf Project",
+      "text": "Tiger Woods launched a golf project that attracted two Cincinnati Bengals top receivers, marking a notable move off the field."
     }
   ],
-  "itemsLastUpdated": "2026-11-08T20:27:25.183Z",
+  "itemsLastUpdated": "2026-11-10T00:14:06.375Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-08T20:27:25.183Z",
+  "lastSuccessfulStoryUpdate": "2026-11-10T00:14:06.375Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 3,
+  "sourceItemsLoaded": 12,
+  "candidateItemsSelected": 4,
   "openaiAttempted": true,
-  "openaiOutputLength": 720,
+  "openaiOutputLength": 755,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_d0c7468479f5453aa1529b08db9e6101",
+  "openaiRequestId": "req_acfcec4314a04820b5db4f8f29b1c2c2",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-11-08T20:27:25.183Z",
+  "diagnosticUpdatedAt": "2026-11-10T00:14:06.375Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
