@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-12T16:30:37.570Z",
+  "updatedAt": "2026-11-12T23:07:11.512Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-11-12T23:07:11.508Z",
+      "approvedAt": "2026-11-12T23:07:11.508Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10",
+      "summary": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10. Nearest finishers: Erik van Rooyen (-8), Blades Brown (-7), Rafael Campos (-6).",
+      "quickRead": "Trace Crowe shot 62 (-10) to win the Austin Championship presented by Compliance Solutions, finishing two clear of Erik van Rooyen (-8), with Blades Brown (-7) third and Rafael Campos (-6) next.  Crowe’s closing number capped a runaway week at Omni Barton Creek’s Fazio Canyons Course and jumps him up the FedExCup Fall board as the season’s points race tightens.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Austin Championship presented by Compliance Solutions",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Trace Crowe",
+          "score": "-10",
+          "thru": "F*"
+        },
+        {
+          "pos": "2",
+          "name": "Erik van Rooyen",
+          "score": "-8",
+          "thru": "F*"
+        },
+        {
+          "pos": "3",
+          "name": "Blades Brown",
+          "score": "-7",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Rafael Campos",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Kevin Yu",
+          "score": "-6",
+          "thru": "F"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-11-12T16:30:30.478Z",
       "approvedAt": "2026-11-12T16:30:30.478Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "2 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-11-12T13:46:08.000Z",
       "approvedAt": "2026-11-12T16:30:32.189Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "8 hours ago",
       "timestamp": "2026-11-12T14:26:56.000Z",
       "approvedAt": "2026-11-12T16:30:32.190Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "9 hours ago",
       "timestamp": "2026-11-12T14:00:59.000Z",
       "approvedAt": "2026-11-12T16:30:32.190Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "8 hours ago",
       "timestamp": "2026-11-12T15:04:40.000Z",
       "approvedAt": "2026-11-12T16:30:32.190Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-11-12T06:10:22.683Z",
       "approvedAt": "2026-11-12T06:10:22.683Z",
       "status": "Live",
@@ -204,7 +257,7 @@
       ]
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-11T21:43:31.000Z",
       "approvedAt": "2026-11-12T06:10:24.026Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-12T01:31:10.000Z",
       "approvedAt": "2026-11-12T06:10:24.027Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/ex-ryder-cup-captain-warns-124114771.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-11-12T02:30:00.000Z",
-      "approvedAt": "2026-11-12T06:10:24.027Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy Draws Race to Dubai Leader Eugenio Chacarra in Round 1",
-      "summary": "They tee off in Thursday’s final group, 533.93 points apart.",
-      "quickRead": "Rory McIlroy was paired with Race to Dubai leader Eugenio Chacarra in Thursday’s final group at the DP World Tour Championship, with a 12:40 p. m.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-draws-race-dubai-023000299.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-draws-race-dubai-023000299.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -293,19 +327,19 @@
       "timestamp": "2026-11-12T14:26:56.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Patrick Reed Reveals Major PGA Tour Goal After LIV Golf Exit",
-      "summary": "Patrick Reed has revealed his major goals for 2027 after securing his return to the PGA Tour following his departure from LIV Golf.",
-      "quickRead": "Patrick Reed has revealed his major goals for 2027 after securing his return to the PGA Tour following his departure from LIV Golf.",
+      "label": "RYDER CUP",
+      "title": "Ex-Ryder Cup Captain Warns Bryson DeChambeau Against ‘Dumb’ YouTube Plan",
+      "summary": "Former Ryder Cup captain Paul McGinley calls it a dumb move for Bryson DeChambeau to skip DP World Tour membership and focus only on YouTube content.",
+      "quickRead": "Former Ryder Cup captain Paul McGinley calls it a dumb move for Bryson DeChambeau to skip DP World Tour membership and focus only on YouTube content.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/patrick-reed-reveals-major-pga-214331117.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/patrick-reed-reveals-major-pga-214331117.html",
+      "url": "https://sports.yahoo.com/articles/ex-ryder-cup-captain-warns-124114771.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/ex-ryder-cup-captain-warns-124114771.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
-      "timestamp": "2026-11-11T21:43:31.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
+      "timestamp": "2026-11-12T01:31:10.000Z"
     }
   ],
   "checking": {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-11-12T16:30:20.246Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-12T15:53:20.246Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-12T16:30:36.049Z",
-      "approvedAt": "2026-11-12T16:30:36.049Z",
+      "timestamp": "2026-11-12T23:07:11.512Z",
+      "approvedAt": "2026-11-12T23:07:11.512Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Kevin Yu leads Austin Championship presented by Compliance Solutions at -5",
-      "summary": "Kevin Yu is -5 today and -5 overall through 10. Closest chasers: Erik van Rooyen (-4), Chandler Phillips (-4), Brice Garnett (-4).",
-      "quickRead": "Kevin Yu held the early lead at the Austin Championship presented by Compliance Solutions at 5-under, sitting -5 through 10 holes in Round 1 on the Fazio Canyons Course at Omni Barton Creek.  He was being chased at -4 by Erik van Rooyen, Chandler Phillips, Brice Garnett, Blades Brown and Neal Shipley, with plenty of the field still on the course.",
+      "title": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10",
+      "summary": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10. Nearest finishers: Erik van Rooyen (-8), Blades Brown (-7), Rafael Campos (-6).",
+      "quickRead": "Trace Crowe shot 62 (-10) to win the Austin Championship presented by Compliance Solutions, finishing two clear of Erik van Rooyen (-8), with Blades Brown (-7) third and Rafael Campos (-6) next.  Crowe’s closing number capped a runaway week at Omni Barton Creek’s Fazio Canyons Course and jumps him up the FedExCup Fall board as the season’s points race tightens.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -389,33 +423,33 @@
       "leaders": [
         {
           "pos": "1",
-          "name": "Kevin Yu",
-          "score": "-5",
-          "thru": "10"
+          "name": "Trace Crowe",
+          "score": "-10",
+          "thru": "F*"
         },
         {
-          "pos": "T2",
+          "pos": "2",
           "name": "Erik van Rooyen",
-          "score": "-4",
-          "thru": "13*"
+          "score": "-8",
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Chandler Phillips",
-          "score": "-4",
-          "thru": "13*"
-        },
-        {
-          "pos": "T2",
-          "name": "Brice Garnett",
-          "score": "-4",
-          "thru": "11*"
-        },
-        {
-          "pos": "T2",
+          "pos": "3",
           "name": "Blades Brown",
-          "score": "-4",
-          "thru": "10*"
+          "score": "-7",
+          "thru": "F*"
+        },
+        {
+          "pos": "T4",
+          "name": "Rafael Campos",
+          "score": "-6",
+          "thru": "F"
+        },
+        {
+          "pos": "T4",
+          "name": "Kevin Yu",
+          "score": "-6",
+          "thru": "F"
         }
       ]
     }
