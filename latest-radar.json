@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-13T13:48:59.315Z",
+  "updatedAt": "2026-11-13T20:44:01.778Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-11-13T20:44:01.776Z",
+      "approvedAt": "2026-11-13T20:44:01.776Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Brian Harman leads Austin Championship presented by Compliance Solutions at -11",
+      "summary": "Brian Harman is -6 today and -11 overall through F*. Closest chasers: Kristoffer Ventura (-11), Erik van Rooyen (-11), Trace Crowe (-11).",
+      "quickRead": "Brian Harman is tied for the lead at 11-under par at the Austin Championship presented by Compliance Solutions after firing a 6-under 67, joining Kristoffer Ventura, Erik van Rooyen, and Trace Crowe at -11.  With the cut line projected at -3 at Fazio Canyons at Omni Barton Creek, the early logjam at the top means one low round on Friday could quickly separate the contenders.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Austin Championship presented by Compliance Solutions",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Brian Harman",
+          "score": "-11",
+          "thru": "F*"
+        },
+        {
+          "pos": "T1",
+          "name": "Kristoffer Ventura",
+          "score": "-11",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Erik van Rooyen",
+          "score": "-11",
+          "thru": "11"
+        },
+        {
+          "pos": "T1",
+          "name": "Trace Crowe",
+          "score": "-11",
+          "thru": "6"
+        },
+        {
+          "pos": "T5",
+          "name": "Jordan Smith",
+          "score": "-10",
+          "thru": "F*"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "6 hours ago",
       "timestamp": "2026-11-13T13:48:53.525Z",
       "approvedAt": "2026-11-13T13:48:53.525Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "10"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "40 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-13T13:08:14.000Z",
       "approvedAt": "2026-11-13T13:48:54.794Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "48 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-13T13:00:31.000Z",
       "approvedAt": "2026-11-13T13:48:54.795Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-12T23:07:11.508Z",
       "approvedAt": "2026-11-12T23:07:11.508Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-12T23:27:40.000Z",
       "approvedAt": "2026-11-13T04:44:33.610Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-11-13T02:59:23.000Z",
       "approvedAt": "2026-11-13T04:44:33.612Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-12T22:44:59.000Z",
       "approvedAt": "2026-11-13T04:44:33.612Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-12T16:56:01.000Z",
       "approvedAt": "2026-11-12T23:07:13.231Z",
       "status": "Confirmed",
@@ -240,25 +293,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-opens-dp-world-165601833.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "17 hours ago",
-      "timestamp": "2026-11-12T20:48:43.000Z",
-      "approvedAt": "2026-11-12T23:07:13.232Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Patrick Reed Stumbles With Huge Achievement in Reach",
-      "summary": "Patrick Reed already achieved the most important part of his decision to leave LIV Golf and play on the DP World Tour (former European Tour) this season.",
-      "quickRead": "Patrick Reed already achieved the most important part of his decision to leave LIV Golf and play on the DP World Tour (former European Tour) this season.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/patrick-reed-stumbles-huge-achievement-204843159.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/patrick-reed-stumbles-huge-achievement-204843159.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
@@ -293,19 +327,19 @@
       "timestamp": "2026-11-10T23:58:41.000Z"
     },
     {
-      "label": "MAJOR WATCH",
-      "title": "Rules official explains how Rory McIlroy could have dodged his penalt...",
-      "summary": "The six-time major champ could have avoided that two-stroke penalty if he had done this.",
-      "quickRead": "The six-time major champ could have avoided that two-stroke penalty if he had done this.",
+      "label": "LIV WATCH",
+      "title": "Erik Van Rooyen Fires Back At LIV Golf Stars After Blazing Austin Start",
+      "summary": "Erik van Rooyen shoots 64 at the Austin Championship while defending his demand that former LIV Golf players earn their way back onto the PGA Tour.",
+      "quickRead": "Erik van Rooyen shoots 64 at the Austin Championship while defending his demand that former LIV Golf players earn their way back onto the PGA Tour.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rules-official-explains-rory-mcilroy-142656175.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rules-official-explains-rory-mcilroy-142656175.html",
+      "url": "https://sports.yahoo.com/articles/erik-van-rooyen-fires-back-130031345.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/erik-van-rooyen-fires-back-130031345.html",
       "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png",
-      "timestamp": "2026-11-12T14:26:56.000Z"
+      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
+      "timestamp": "2026-11-13T13:00:31.000Z"
     }
   ],
   "checking": {
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-11-13T13:48:45.340Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-13T13:11:45.341Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-13T13:48:57.924Z",
-      "approvedAt": "2026-11-13T13:48:57.924Z",
+      "timestamp": "2026-11-13T20:44:01.778Z",
+      "approvedAt": "2026-11-13T20:44:01.778Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -10",
-      "summary": "Trace Crowe is -10 overall through 1. Closest chasers: Max Greyserman (-8), Erik van Rooyen (-8), Blades Brown (-7).",
-      "quickRead": "Trace Crowe grabbed the first-round lead at the Austin Championship presented by Compliance Solutions with a 10-under 62 on the Fazio Canyons Course at Omni Barton Creek.  Max Greyserman and Erik van Rooyen are two back at 8-under 64, with Blades Brown alone in fourth at 7-under 65 as the field chases a low early pace and a projected cut at 2-under.",
+      "title": "Brian Harman leads Austin Championship presented by Compliance Solutions at -11",
+      "summary": "Brian Harman is -6 today and -11 overall through F*. Closest chasers: Kristoffer Ventura (-11), Erik van Rooyen (-11), Trace Crowe (-11).",
+      "quickRead": "Brian Harman is tied for the lead at 11-under par at the Austin Championship presented by Compliance Solutions after firing a 6-under 67, joining Kristoffer Ventura, Erik van Rooyen, and Trace Crowe at -11.  With the cut line projected at -3 at Fazio Canyons at Omni Barton Creek, the early logjam at the top means one low round on Friday could quickly separate the contenders.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Trace Crowe",
-          "score": "-10",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Brian Harman",
+          "score": "-11",
+          "thru": "F*"
         },
         {
-          "pos": "T2",
-          "name": "Max Greyserman",
-          "score": "-8",
-          "thru": "1*"
+          "pos": "T1",
+          "name": "Kristoffer Ventura",
+          "score": "-11",
+          "thru": "F"
         },
         {
-          "pos": "T2",
+          "pos": "T1",
           "name": "Erik van Rooyen",
-          "score": "-8",
-          "thru": "1"
+          "score": "-11",
+          "thru": "11"
         },
         {
-          "pos": "4",
-          "name": "Blades Brown",
-          "score": "-7",
-          "thru": "1"
+          "pos": "T1",
+          "name": "Trace Crowe",
+          "score": "-11",
+          "thru": "6"
         },
         {
           "pos": "T5",
-          "name": "Rafael Campos",
-          "score": "-6",
-          "thru": "10"
+          "name": "Jordan Smith",
+          "score": "-10",
+          "thru": "F*"
         }
       ]
     }
