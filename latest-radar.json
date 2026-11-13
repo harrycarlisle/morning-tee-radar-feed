@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-13T04:44:38.724Z",
+  "updatedAt": "2026-11-13T13:48:53.527Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-11-13T13:48:53.525Z",
+      "approvedAt": "2026-11-13T13:48:53.525Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -10",
+      "summary": "Trace Crowe is -10 overall through 1. Closest chasers: Max Greyserman (-8), Erik van Rooyen (-8), Blades Brown (-7).",
+      "quickRead": "Trace Crowe grabbed the first-round lead at the Austin Championship presented by Compliance Solutions with a 10-under 62 on the Fazio Canyons Course at Omni Barton Creek.  Max Greyserman and Erik van Rooyen are two back at 8-under 64, with Blades Brown alone in fourth at 7-under 65 as the field chases a low early pace and a projected cut at 2-under.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Austin Championship presented by Compliance Solutions",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Trace Crowe",
+          "score": "-10",
+          "thru": "1"
+        },
+        {
+          "pos": "T2",
+          "name": "Max Greyserman",
+          "score": "-8",
+          "thru": "1*"
+        },
+        {
+          "pos": "T2",
+          "name": "Erik van Rooyen",
+          "score": "-8",
+          "thru": "1"
+        },
+        {
+          "pos": "4",
+          "name": "Blades Brown",
+          "score": "-7",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Rafael Campos",
+          "score": "-6",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-11-12T23:07:11.508Z",
       "approvedAt": "2026-11-12T23:07:11.508Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "5 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-11-12T23:27:40.000Z",
       "approvedAt": "2026-11-13T04:44:33.610Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
     },
     {
-      "time": "1 hour ago",
+      "time": "10 hours ago",
       "timestamp": "2026-11-13T02:59:23.000Z",
       "approvedAt": "2026-11-13T04:44:33.612Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/charlie-woods.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "15 hours ago",
       "timestamp": "2026-11-12T22:44:59.000Z",
       "approvedAt": "2026-11-13T04:44:33.612Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "11 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-11-12T16:56:01.000Z",
       "approvedAt": "2026-11-12T23:07:13.231Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-11-12T20:48:43.000Z",
       "approvedAt": "2026-11-12T23:07:13.232Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-12T16:30:30.478Z",
       "approvedAt": "2026-11-12T16:30:30.478Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       ]
     },
     {
-      "time": "14 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-12T13:46:08.000Z",
       "approvedAt": "2026-11-12T16:30:32.189Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/tommy-fleetwood-personal-news-emerge-134608941.html",
       "sourceUrl": "https://sports.yahoo.com/articles/tommy-fleetwood-personal-news-emerge-134608941.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-11-12T14:26:56.000Z",
-      "approvedAt": "2026-11-12T16:30:32.190Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rules official explains how Rory McIlroy could have dodged his penalty—and it w...",
-      "summary": "The six-time major champ could have avoided that two-stroke penalty if he had done this.",
-      "quickRead": "The six-time major champ could have avoided that two-stroke penalty if he had done this.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rules-official-explains-rory-mcilroy-142656175.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rules-official-explains-rory-mcilroy-142656175.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "9 hours ago",
       "timestamp": "2026-11-13T04:44:21.257Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "9 hours ago",
       "timestamp": "2026-11-13T04:07:21.258Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-13T04:44:37.277Z",
-      "approvedAt": "2026-11-13T04:44:37.277Z",
+      "timestamp": "2026-11-13T13:48:53.528Z",
+      "approvedAt": "2026-11-13T13:48:53.528Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10",
-      "summary": "Trace Crowe wins Austin Championship presented by Compliance Solutions at -10. Nearest finishers: Erik van Rooyen (-8), Max Greyserman (-8), Blades Brown (-7).",
-      "quickRead": "",
+      "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -10",
+      "summary": "Trace Crowe is -10 overall through 1. Closest chasers: Max Greyserman (-8), Erik van Rooyen (-8), Blades Brown (-7).",
+      "quickRead": "Trace Crowe grabbed the first-round lead at the Austin Championship presented by Compliance Solutions with a 10-under 62 on the Fazio Canyons Course at Omni Barton Creek.  Max Greyserman and Erik van Rooyen are two back at 8-under 64, with Blades Brown alone in fourth at 7-under 65 as the field chases a low early pace and a projected cut at 2-under.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,31 +425,31 @@
           "pos": "1",
           "name": "Trace Crowe",
           "score": "-10",
-          "thru": "F*"
-        },
-        {
-          "pos": "T2",
-          "name": "Erik van Rooyen",
-          "score": "-8",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T2",
           "name": "Max Greyserman",
           "score": "-8",
-          "thru": "F"
+          "thru": "1*"
+        },
+        {
+          "pos": "T2",
+          "name": "Erik van Rooyen",
+          "score": "-8",
+          "thru": "1"
         },
         {
           "pos": "4",
           "name": "Blades Brown",
           "score": "-7",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T5",
           "name": "Rafael Campos",
           "score": "-6",
-          "thru": "F"
+          "thru": "10"
         }
       ]
     }
