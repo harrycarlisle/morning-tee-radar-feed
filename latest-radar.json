@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-14T08:37:57.429Z",
+  "updatedAt": "2026-11-14T16:19:26.910Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-11-14T16:19:26.908Z",
+      "approvedAt": "2026-11-14T16:19:26.908Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -13",
+      "summary": "Trace Crowe is -13 overall through 1. Closest chasers: Kevin Yu (-12), Brian Harman (-11), Kristoffer Ventura (-11).",
+      "quickRead": "Trace Crowe grabbed the early lead at the Austin Championship presented by Compliance Solutions at 13-under, with Kevin Yu one back at -12 and Brian Harman and Kristoffer Ventura tied for third at -11.  After two rounds at Omni Barton Creek’s Fazio Canyons Course, Crowe’s 62-69 has him out front as the weekend begins, with a crowded chase pack at -10 and -9 keeping the leaderboard tight.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Austin Championship presented by Compliance Solutions",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "1",
+          "name": "Trace Crowe",
+          "score": "-13",
+          "thru": "1"
+        },
+        {
+          "pos": "2",
+          "name": "Kevin Yu",
+          "score": "-12",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Brian Harman",
+          "score": "-11",
+          "thru": "1"
+        },
+        {
+          "pos": "T3",
+          "name": "Kristoffer Ventura",
+          "score": "-11",
+          "thru": "1"
+        },
+        {
+          "pos": "T5",
+          "name": "Miles Russell",
+          "score": "-10",
+          "thru": "1"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-11-14T01:56:57.911Z",
       "approvedAt": "2026-11-14T01:56:57.911Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "F*"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "14 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-13T18:30:59.000Z",
       "approvedAt": "2026-11-14T08:37:52.447Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-14T03:57:09.000Z",
       "approvedAt": "2026-11-14T08:37:52.447Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-13T22:16:33.000Z",
       "approvedAt": "2026-11-14T01:56:59.499Z",
       "status": "Confirmed",
@@ -132,7 +185,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-13T21:30:00.000Z",
       "approvedAt": "2026-11-14T01:56:59.499Z",
       "status": "Confirmed",
@@ -151,7 +204,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "7 hours ago",
+      "time": "14 hours ago",
       "timestamp": "2026-11-14T01:21:07.000Z",
       "approvedAt": "2026-11-14T01:56:59.499Z",
       "status": "Confirmed",
@@ -170,7 +223,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "11 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-11-13T20:44:01.776Z",
       "approvedAt": "2026-11-13T20:44:01.776Z",
       "status": "Live",
@@ -223,7 +276,7 @@
       ]
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-13T14:29:25.000Z",
       "approvedAt": "2026-11-13T20:44:04.094Z",
       "status": "Confirmed",
@@ -238,25 +291,6 @@
       "quoteAttribution": "",
       "url": "https://sports.yahoo.com/articles/rory-mcilroy-roars-lead-tyrrell-140524625.html",
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-roars-lead-tyrrell-140524625.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "13 hours ago",
-      "timestamp": "2026-11-13T19:32:18.000Z",
-      "approvedAt": "2026-11-13T20:44:04.095Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy tied for lead at 2026 DP World Tour Championship as he chases history",
-      "summary": "Rory McIlroy is seeking a record-tying eighth career Race to Dubai title on the DP World Tour.",
-      "quickRead": "Rory McIlroy shot a second-round 70 and is tied for the 36-hole lead with Tyrrell Hatton at 5-under 139 at the DP World Tour Championship in Dubai, birdieing No.  18 after a back-nine wobble.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-tied-lead-2026-193218048.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-tied-lead-2026-193218048.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "7 hours ago",
       "timestamp": "2026-11-14T08:37:40.047Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "8 hours ago",
       "timestamp": "2026-11-14T08:00:40.048Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-14T08:37:55.977Z",
-      "approvedAt": "2026-11-14T08:37:55.977Z",
+      "timestamp": "2026-11-14T16:19:26.910Z",
+      "approvedAt": "2026-11-14T16:19:26.910Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
       "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -13",
-      "summary": "Trace Crowe is -3 today and -13 overall through 16. Closest chasers: Kevin Yu (-12), Brian Harman (-11), Kristoffer Ventura (-11).",
-      "quickRead": "Trace Crowe is -3 today and -13 overall through 16. Closest chasers: Kevin Yu (-12), Brian Harman (-11), Kristoffer Ventura (-11).",
+      "summary": "Trace Crowe is -13 overall through 1. Closest chasers: Kevin Yu (-12), Brian Harman (-11), Kristoffer Ventura (-11).",
+      "quickRead": "Trace Crowe grabbed the early lead at the Austin Championship presented by Compliance Solutions at 13-under, with Kevin Yu one back at -12 and Brian Harman and Kristoffer Ventura tied for third at -11.  After two rounds at Omni Barton Creek’s Fazio Canyons Course, Crowe’s 62-69 has him out front as the weekend begins, with a crowded chase pack at -10 and -9 keeping the leaderboard tight.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -391,31 +425,31 @@
           "pos": "1",
           "name": "Trace Crowe",
           "score": "-13",
-          "thru": "16"
+          "thru": "1"
         },
         {
           "pos": "2",
           "name": "Kevin Yu",
           "score": "-12",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Brian Harman",
           "score": "-11",
-          "thru": "F*"
+          "thru": "1"
         },
         {
           "pos": "T3",
           "name": "Kristoffer Ventura",
           "score": "-11",
-          "thru": "F"
+          "thru": "1"
         },
         {
           "pos": "T5",
-          "name": "Jordan Smith",
+          "name": "Miles Russell",
           "score": "-10",
-          "thru": "F*"
+          "thru": "1"
         }
       ]
     }
