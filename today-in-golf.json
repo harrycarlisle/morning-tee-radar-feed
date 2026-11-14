@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-13T21:57:47.460Z",
+  "lastUpdated": "2026-11-14T20:41:15.451Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Austin Championship logjam",
-      "text": "Brian Harman is tied for the lead at 11-under par at the Austin Championship presented by Compliance Solutions with Kristoffer Ventura, Erik van Rooyen, and Trace Crowe also at -11 after Round 2; the cut line is projected at -3 at Fazio Canyons at Omni Barton Creek."
+      "headline": "Austin Championship lead",
+      "text": "Trace Crowe leads the Austin Championship presented by Compliance Solutions at 13-under after two rounds, with Kevin Yu one shot behind at -12 and Brian Harman and Kristoffer Ventura tied at -11."
     },
     {
-      "headline": "McIlroy tied for DP World lead",
-      "text": "Rory McIlroy birdied the 18th hole to finish the second round tied for the 36-hole lead with Tyrrell Hatton at 5-under 139 at the DP World Tour Championship in Dubai, keeping him on track to secure a record-tying eighth Race to Dubai title if he leads on Sunday."
+      "headline": "Hatton leads Dubai event",
+      "text": "Tyrrell Hatton leads the DP World Tour Championship at 9-under after shooting 4-under 68, while Rory McIlroy slipped to 5-under and trails by four shots, denting his chances for an eighth Race to Dubai title."
     },
     {
-      "headline": "Van Rooyen backs PGA Tour stance",
-      "text": "Erik van Rooyen carded a 64 at the Austin Championship and defended his demand that former LIV Golf players must earn their way back onto the PGA Tour."
+      "headline": "Van Rooyen on LIV returns",
+      "text": "Erik van Rooyen insists former LIV players must return to the PGA Tour by going through Q-school, opposing special treatment and emphasizing fairness in the qualification process."
     }
   ],
-  "itemsLastUpdated": "2026-11-13T21:57:47.460Z",
+  "itemsLastUpdated": "2026-11-14T20:41:15.451Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-13T21:57:47.460Z",
+  "lastSuccessfulStoryUpdate": "2026-11-14T20:41:15.451Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 13,
-  "candidateItemsSelected": 8,
+  "candidateItemsSelected": 3,
   "openaiAttempted": true,
-  "openaiOutputLength": 972,
+  "openaiOutputLength": 861,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_a09384da129145038ad3964d938be44a",
+  "openaiRequestId": "req_d26fcb3654724ade9e061ba8de4138af",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-11-13T21:57:47.459Z",
+  "diagnosticUpdatedAt": "2026-11-14T20:41:15.450Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
