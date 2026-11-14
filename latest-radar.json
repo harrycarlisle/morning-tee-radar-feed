@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-14T16:19:32.979Z",
+  "updatedAt": "2026-11-14T21:54:41.248Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,61 @@
   "today": [
     {
       "time": "Just now",
+      "timestamp": "2026-11-14T21:54:41.246Z",
+      "approvedAt": "2026-11-14T21:54:41.246Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Chad Ramey leads Austin Championship presented by Compliance Solutions at -13",
+      "summary": "Chad Ramey is -5 today and -13 overall through F. Closest chasers: Sami Valimaki (-13), Max Greyserman (-12), Ben Kohles (-12).",
+      "quickRead": "Chad Ramey shot a final-round 68 to finish 13-under and tie for the lead with Sami Välimäki (also 13-under) at the Austin Championship presented by Compliance Solutions at Omni Barton Creek.  Max Greyserman and Ben Kohles posted 12-under to sit one shot back, while Erik van Rooyen and Trace Crowe were at 12-under with holes still to play, setting up a potential late swing at the top.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "Austin Championship presented by Compliance Solutions",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "T1",
+          "name": "Chad Ramey",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T1",
+          "name": "Sami Valimaki",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Max Greyserman",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Ben Kohles",
+          "score": "-12",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Erik van Rooyen",
+          "score": "-12",
+          "thru": "17"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "5 hours ago",
       "timestamp": "2026-11-14T16:19:26.908Z",
       "approvedAt": "2026-11-14T16:19:26.908Z",
       "status": "Live",
@@ -71,11 +126,9 @@
           "thru": "1"
         }
       ]
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "56 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-14T15:23:21.000Z",
       "approvedAt": "2026-11-14T16:19:28.441Z",
       "status": "Confirmed",
@@ -94,7 +147,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-11-13T22:56:41.000Z",
       "approvedAt": "2026-11-14T16:19:28.441Z",
       "status": "Confirmed",
@@ -113,7 +166,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "14 hours ago",
+      "time": "19 hours ago",
       "timestamp": "2026-11-14T01:56:57.911Z",
       "approvedAt": "2026-11-14T01:56:57.911Z",
       "status": "Live",
@@ -166,7 +219,7 @@
       ]
     },
     {
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-13T18:30:59.000Z",
       "approvedAt": "2026-11-14T08:37:52.447Z",
       "status": "Confirmed",
@@ -185,7 +238,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "17 hours ago",
       "timestamp": "2026-11-14T03:57:09.000Z",
       "approvedAt": "2026-11-14T08:37:52.447Z",
       "status": "Confirmed",
@@ -204,7 +257,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "23 hours ago",
       "timestamp": "2026-11-13T22:16:33.000Z",
       "approvedAt": "2026-11-14T01:56:59.499Z",
       "status": "Confirmed",
@@ -223,7 +276,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-13T21:30:00.000Z",
       "approvedAt": "2026-11-14T01:56:59.499Z",
       "status": "Confirmed",
@@ -240,43 +293,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/head-pro-reveals-bryson-dechambeau-213000838.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    },
-    {
-      "time": "14 hours ago",
-      "timestamp": "2026-11-14T01:21:07.000Z",
-      "approvedAt": "2026-11-14T01:56:59.499Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "LIV Golf Defector Gets Honest About Costly Career Gamble",
-      "summary": "Leaving the PGA Tour for LIV Golf came with consequences that extended beyond a change in schedules.",
-      "quickRead": "Leaving the PGA Tour for LIV Golf came with consequences that extended beyond a change in schedules.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/liv-golf-defector-gets-honest-012107282.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/liv-golf-defector-gets-honest-012107282.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     }
   ],
   "weekRadar": [
-    {
-      "label": "STORY TO WATCH",
-      "title": "Kai Trump opens up on wrist surgery, Tiger Woods and life as a Miami...",
-      "summary": "Trump had to turn down an invitation to play in this week's Annika event due to injury.",
-      "quickRead": "Trump had to turn down an invitation to play in this week's Annika event due to injury.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/kai-trump-opens-wrist-surgery-183059662.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/kai-trump-opens-wrist-surgery-183059662.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
-      "timestamp": "2026-11-13T18:30:59.000Z"
-    },
     {
       "label": "MAJOR WATCH",
       "title": "Bryson DeChambeau Makes Major Announcement About His Future in Golf",
@@ -291,6 +310,21 @@
       "source": "Yahoo Golf",
       "image": "",
       "timestamp": "2026-11-13T22:45:13.000Z"
+    },
+    {
+      "label": "STORY TO WATCH",
+      "title": "Kai Trump opens up on wrist surgery, Tiger Woods and life as a Miami...",
+      "summary": "Trump had to turn down an invitation to play in this week's Annika event due to injury.",
+      "quickRead": "Trump had to turn down an invitation to play in this week's Annika event due to injury.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/kai-trump-opens-wrist-surgery-183059662.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/kai-trump-opens-wrist-surgery-183059662.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png",
+      "timestamp": "2026-11-13T18:30:59.000Z"
     },
     {
       "label": "LIV WATCH",
@@ -326,7 +360,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "5 hours ago",
       "timestamp": "2026-11-14T16:19:17.191Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -346,7 +380,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "6 hours ago",
       "timestamp": "2026-11-14T15:42:17.191Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -368,14 +402,14 @@
   "liveLeaderboards": [
     {
       "time": "Just now",
-      "timestamp": "2026-11-14T16:19:31.738Z",
-      "approvedAt": "2026-11-14T16:19:31.738Z",
+      "timestamp": "2026-11-14T21:54:41.248Z",
+      "approvedAt": "2026-11-14T21:54:41.249Z",
       "status": "Live",
       "signal": "Leaderboard",
       "category": "PGA TOUR",
-      "title": "Trace Crowe leads Austin Championship presented by Compliance Solutions at -13",
-      "summary": "Trace Crowe is -13 overall through 1. Closest chasers: Kevin Yu (-12), Brian Harman (-11), Kristoffer Ventura (-11).",
-      "quickRead": "Trace Crowe grabbed the early lead at the Austin Championship presented by Compliance Solutions at 13-under, with Kevin Yu one back at -12 and Brian Harman and Kristoffer Ventura tied for third at -11.  After two rounds at Omni Barton Creek’s Fazio Canyons Course, Crowe’s 62-69 has him out front as the weekend begins, with a crowded chase pack at -10 and -9 keeping the leaderboard tight.",
+      "title": "Chad Ramey leads Austin Championship presented by Compliance Solutions at -13",
+      "summary": "Chad Ramey is -5 today and -13 overall through F. Closest chasers: Sami Valimaki (-13), Max Greyserman (-12), Ben Kohles (-12).",
+      "quickRead": "Chad Ramey shot a final-round 68 to finish 13-under and tie for the lead with Sami Välimäki (also 13-under) at the Austin Championship presented by Compliance Solutions at Omni Barton Creek.  Max Greyserman and Ben Kohles posted 12-under to sit one shot back, while Erik van Rooyen and Trace Crowe were at 12-under with holes still to play, setting up a potential late swing at the top.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
@@ -388,34 +422,34 @@
       "visualSubtitle": "Live coverage",
       "leaders": [
         {
-          "pos": "1",
-          "name": "Trace Crowe",
+          "pos": "T1",
+          "name": "Chad Ramey",
           "score": "-13",
-          "thru": "1"
+          "thru": "F"
         },
         {
-          "pos": "2",
-          "name": "Kevin Yu",
+          "pos": "T1",
+          "name": "Sami Valimaki",
+          "score": "-13",
+          "thru": "F"
+        },
+        {
+          "pos": "T3",
+          "name": "Max Greyserman",
           "score": "-12",
-          "thru": "1"
+          "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Brian Harman",
-          "score": "-11",
-          "thru": "1"
+          "name": "Ben Kohles",
+          "score": "-12",
+          "thru": "F"
         },
         {
           "pos": "T3",
-          "name": "Kristoffer Ventura",
-          "score": "-11",
-          "thru": "1"
-        },
-        {
-          "pos": "T5",
-          "name": "Miles Russell",
-          "score": "-10",
-          "thru": "1"
+          "name": "Erik van Rooyen",
+          "score": "-12",
+          "thru": "17"
         }
       ]
     }
