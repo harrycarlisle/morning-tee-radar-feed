@@ -1,31 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-17T23:29:18.935Z",
+  "lastUpdated": "2026-11-18T22:56:13.367Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Johnson and Smith Join DP World Tour",
-      "text": "Dustin Johnson and Cameron Smith accepted special-status agreements with the DP World Tour for 2027, securing invitations to select events after LIV Golf's collapse."
+      "headline": "Scheffler, McIlroy Dominance",
+      "text": "Scottie Scheffler and Rory McIlroy remain the best two golfers globally by a considerable margin, maintaining this status for a significant period."
     },
     {
-      "headline": "Tiger Woods to Return at Hero World Challenge",
-      "text": "Tiger Woods will make his competitive return Dec. 3-6 at the Hero World Challenge in the Bahamas, his first event since the 2024 Open Championship."
+      "headline": "Tiger Woods Returning",
+      "text": "Tiger Woods is preparing for a return to world-ranking competitive golf after more than two years away since his last competition."
+    },
+    {
+      "headline": "Koepka on Scheffler’s 2024",
+      "text": "Brooks Koepka commented on Scottie Scheffler's significant success on the PGA Tour since his first victory in February 2022."
     }
   ],
-  "itemsLastUpdated": "2026-11-17T23:29:18.935Z",
+  "itemsLastUpdated": "2026-11-18T22:56:13.367Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-17T23:29:18.935Z",
+  "lastSuccessfulStoryUpdate": "2026-11-18T22:56:13.367Z",
   "itemsChanged": true,
   "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 6,
+  "candidateItemsSelected": 3,
   "openaiAttempted": true,
-  "openaiOutputLength": 801,
+  "openaiOutputLength": 682,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -33,19 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_5819c68910d44ffeb7d3ea66511b014d",
+  "openaiRequestId": "req_8b116125fca14ff3a48b3cf1126fc03b",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
-  "cleanedItemsCount": 2,
-  "rejectedItemsCount": 1,
-  "rejectedReasons": [
-    {
-      "reason": "duplicate topic: liv",
-      "count": 1
-    }
-  ],
-  "diagnosticUpdatedAt": "2026-11-17T23:29:18.935Z",
+  "cleanedItemsCount": 3,
+  "rejectedItemsCount": 0,
+  "rejectedReasons": [],
+  "diagnosticUpdatedAt": "2026-11-18T22:56:13.366Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
