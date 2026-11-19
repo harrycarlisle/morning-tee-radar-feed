@@ -1,35 +1,35 @@
 {
   "active": true,
-  "lastUpdated": "2026-11-18T22:56:13.367Z",
+  "lastUpdated": "2026-11-19T23:01:30.038Z",
   "edition": "midday",
   "label": "Updated at 12 p.m. ET",
   "title": "Today In Golf",
   "summary": "A 30-second briefing on today's biggest golf stories.",
   "items": [
     {
-      "headline": "Scheffler, McIlroy Dominance",
-      "text": "Scottie Scheffler and Rory McIlroy remain the best two golfers globally by a considerable margin, maintaining this status for a significant period."
+      "headline": "Koepka Returns to PGA Tour",
+      "text": "Brooks Koepka has been warmly welcomed back to the PGA Tour after leaving LIV Golf 10 months ago but has yet to regain form, missing the FedEx Cup Playoffs as he aims for a 2027 Ryder Cup spot."
     },
     {
-      "headline": "Tiger Woods Returning",
-      "text": "Tiger Woods is preparing for a return to world-ranking competitive golf after more than two years away since his last competition."
+      "headline": "Tiger Woods to Play Hero World",
+      "text": "Tiger Woods announced he will play his first individual tournament in over two years at the upcoming Hero World Challenge."
     },
     {
-      "headline": "Koepka on Scheffler’s 2024",
-      "text": "Brooks Koepka commented on Scottie Scheffler's significant success on the PGA Tour since his first victory in February 2022."
+      "headline": "Horschel Withdraws from RSM Classic",
+      "text": "Billy Horschel withdrew from the RSM Classic with a rib injury, putting his full PGA Tour status for 2027 at risk due to his current No. 101 FedExCup Fall standing."
     }
   ],
-  "itemsLastUpdated": "2026-11-18T22:56:13.367Z",
+  "itemsLastUpdated": "2026-11-19T23:01:30.038Z",
   "itemsEdition": "midday",
   "usedFallback": false,
   "fallbackReason": "",
   "fallbackStage": "",
-  "lastSuccessfulStoryUpdate": "2026-11-18T22:56:13.367Z",
+  "lastSuccessfulStoryUpdate": "2026-11-19T23:01:30.038Z",
   "itemsChanged": true,
-  "sourceItemsLoaded": 12,
-  "candidateItemsSelected": 3,
+  "sourceItemsLoaded": 13,
+  "candidateItemsSelected": 5,
   "openaiAttempted": true,
-  "openaiOutputLength": 682,
+  "openaiOutputLength": 776,
   "openaiStatusCode": 200,
   "openaiErrorType": "",
   "openaiErrorCode": "",
@@ -37,14 +37,14 @@
   "openaiResponseBodyPreview": "",
   "openaiModel": "gpt-4.1-mini",
   "openaiEndpoint": "https://api.openai.com/v1/responses",
-  "openaiRequestId": "req_8b116125fca14ff3a48b3cf1126fc03b",
+  "openaiRequestId": "req_f397f7d3b17c482d926b652a1630616a",
   "openaiRetryable": null,
   "openaiFailureAt": "",
   "generatedItemsCount": 3,
   "cleanedItemsCount": 3,
   "rejectedItemsCount": 0,
   "rejectedReasons": [],
-  "diagnosticUpdatedAt": "2026-11-18T22:56:13.366Z",
+  "diagnosticUpdatedAt": "2026-11-19T23:01:30.038Z",
   "url": "https://www.morningtee.com/search",
   "cta": "See all stories ->"
 }
