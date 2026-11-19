@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-19T01:37:43.039Z",
+  "updatedAt": "2026-11-19T09:45:45.318Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,62 @@
   ],
   "today": [
     {
-      "time": "6 hours ago",
+      "time": "Just now",
+      "timestamp": "2026-11-19T09:45:45.315Z",
+      "approvedAt": "2026-11-19T09:45:45.315Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Austin Eckroat wins The RSM Classic at -",
+      "summary": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
+      "quickRead": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The RSM Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Austin Eckroat",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Zac Blair",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Rasmus Højgaard",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Robert Streb",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Patrick Rodgers",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "14 hours ago",
       "timestamp": "2026-11-18T18:57:04.000Z",
       "approvedAt": "2026-11-19T01:37:36.058Z",
       "status": "Confirmed",
@@ -37,11 +92,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-admits-liv-golf-185704841.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "8 hours ago",
+      "time": "16 hours ago",
       "timestamp": "2026-11-18T17:30:00.000Z",
       "approvedAt": "2026-11-19T01:37:38.847Z",
       "status": "Confirmed",
@@ -60,7 +113,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     },
     {
-      "time": "5 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-11-18T19:59:05.000Z",
       "approvedAt": "2026-11-19T01:37:38.848Z",
       "status": "Confirmed",
@@ -79,7 +132,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "2 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-11-18T22:54:41.000Z",
       "approvedAt": "2026-11-19T01:37:38.848Z",
       "status": "Confirmed",
@@ -98,7 +151,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "4 hours ago",
+      "time": "12 hours ago",
       "timestamp": "2026-11-18T21:06:46.000Z",
       "approvedAt": "2026-11-19T01:37:38.848Z",
       "status": "Confirmed",
@@ -117,7 +170,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-18T15:30:00.000Z",
       "approvedAt": "2026-11-18T18:35:35.454Z",
       "status": "Confirmed",
@@ -136,7 +189,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "10 hours ago",
+      "time": "18 hours ago",
       "timestamp": "2026-11-18T14:51:51.000Z",
       "approvedAt": "2026-11-18T18:35:38.719Z",
       "status": "Confirmed",
@@ -155,7 +208,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "12 hours ago",
+      "time": "20 hours ago",
       "timestamp": "2026-11-18T13:00:00.000Z",
       "approvedAt": "2026-11-18T18:35:38.720Z",
       "status": "Confirmed",
@@ -172,25 +225,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/ryan-gerard-uses-scottie-scheffler-130000749.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-17T21:47:46.000Z",
-      "approvedAt": "2026-11-18T09:39:13.936Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "DP TOUR",
-      "title": "DeChambeau Leads LIV Players Back To European Tour",
-      "summary": "Bryson DeChambeau and nine other former LIV Golf stars secure spots on the DP World Tour for 2027 as the European circuit reshapes its membership rules.",
-      "quickRead": "Bryson DeChambeau has been granted DP World Tour membership for 2027 after submitting his paperwork before the deadline, leading a group of former LIV Golf players who are also getting European status.  The move brings major-champion star power back to Europe and reshapes the DP World Tour’s membership picture, with returning names set to squeeze starts and future cards for existing regulars.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/dechambeau-leads-liv-players-back-214746818.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/dechambeau-leads-liv-players-back-214746818.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     }
   ],
   "weekRadar": [
@@ -225,19 +259,19 @@
       "timestamp": "2026-11-18T19:59:05.000Z"
     },
     {
-      "label": "LIV WATCH",
-      "title": "DeChambeau Leads LIV Players Back To European Tour",
-      "summary": "Bryson DeChambeau has been granted DP World Tour membership for 2027 after submitting his paperwork before the deadline, leading a group of former...",
-      "quickRead": "Bryson DeChambeau has been granted DP World Tour membership for 2027 after submitting his paperwork before the deadline, leading a group of former LIV Golf players who are also getting European status.  The move brings major-champion star power back to Europe and reshapes the DP World Tour’s membership picture, with returning names set to squeeze starts and future cards for existing regulars.",
+      "label": "STORY TO WATCH",
+      "title": "Bryson DeChambeau’s DP World Tour Return Creates Opportunity and Cont...",
+      "summary": "Bryson DeChambeau returns to the DP World Tour while dating rumors swirl.",
+      "quickRead": "Bryson DeChambeau returns to the DP World Tour while dating rumors swirl.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/dechambeau-leads-liv-players-back-214746818.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/dechambeau-leads-liv-players-back-214746818.html",
+      "url": "https://sports.yahoo.com/articles/bryson-dechambeau-dp-world-tour-225441778.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-dp-world-tour-225441778.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png",
-      "timestamp": "2026-11-17T21:47:46.000Z"
+      "timestamp": "2026-11-18T22:54:41.000Z"
     }
   ],
   "checking": {
@@ -258,7 +292,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "8 hours ago",
       "timestamp": "2026-11-19T01:37:24.732Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +312,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "8 hours ago",
       "timestamp": "2026-11-19T01:00:24.733Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -297,5 +331,59 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": []
+  "liveLeaderboards": [
+    {
+      "time": "Just now",
+      "timestamp": "2026-11-19T09:45:45.318Z",
+      "approvedAt": "2026-11-19T09:45:45.318Z",
+      "status": "Live",
+      "signal": "Leaderboard",
+      "category": "PGA TOUR",
+      "title": "Austin Eckroat wins The RSM Classic at -",
+      "summary": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
+      "quickRead": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://www.pgatour.com/leaderboard",
+      "sourceUrl": "https://www.pgatour.com/leaderboard",
+      "source": "Live Golf Data",
+      "tournament": "The RSM Classic",
+      "liveLabel": "Live coverage",
+      "visualSubtitle": "Live coverage",
+      "leaders": [
+        {
+          "pos": "-",
+          "name": "Austin Eckroat",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Zac Blair",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Rasmus Højgaard",
+          "score": "-",
+          "thru": "1"
+        },
+        {
+          "pos": "-",
+          "name": "Robert Streb",
+          "score": "-",
+          "thru": "10"
+        },
+        {
+          "pos": "-",
+          "name": "Patrick Rodgers",
+          "score": "-",
+          "thru": "10"
+        }
+      ]
+    }
+  ]
 }
