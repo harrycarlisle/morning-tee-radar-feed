@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { areDuplicateStories, dedupeStoryClusters, dedupeHomepageSections } = require("./story-dedupe");
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const AUTO_PUBLISH = process.env.AUTO_PUBLISH === "true";
@@ -2538,13 +2539,14 @@ async function getRadarFileFromGitHub() {
   };
 }
 
-async function updateRadarFileOnGitHub(nextJson, sha, title) {
+async function updateRadarFileOnGitHub(nextJson, sha, title, rebuildOnConflict = null) {
   requireGitHubConfig();
 
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_RADAR_PATH}`;
 
-  async function putWithSha(targetSha, attemptLabel) {
-    const content = JSON.stringify(nextJson, null, 2) + "\n";
+  async function putWithSha(targetSha, attemptLabel, value) {
+    const cleanValue = dedupeHomepageSections(value);
+    const content = JSON.stringify(cleanValue, null, 2) + "\n";
 
     const response = await fetch(url, {
       method: "PUT",
@@ -2562,7 +2564,7 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
 
   try {
     await appendRadarArchiveOnGitHub(
-      getArchivableStoriesFromRadarJson(nextJson),
+      getArchivableStoriesFromRadarJson(cleanValue),
       title
     );
   } catch (archiveError) {
@@ -2581,13 +2583,17 @@ async function updateRadarFileOnGitHub(nextJson, sha, title) {
 
       const latest = await getRadarFileFromGitHub();
 
-      return putWithSha(latest.sha, "retry");
+      // A cleanup must be reapplied to the latest feed instead of overwriting
+      // stories that were published after the initial read.
+      const retryValue = rebuildOnConflict ? rebuildOnConflict(latest.json) : value;
+      if (!retryValue) return null;
+      return putWithSha(latest.sha, "retry", retryValue);
     }
 
     throw new Error(`GitHub update failed: ${response.status} ${body}`);
   }
 
-  return putWithSha(sha, "first");
+  return putWithSha(sha, "first", nextJson);
 }
 
 async function getJsonFileFromGitHub(filePath, fallbackJson) {
@@ -2760,122 +2766,27 @@ async function appendRadarArchiveOnGitHub(stories, title) {
   return true;
 }
 
-function getStoryClusterKey(item) {
-  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
-
-  if (
-    text.includes("bryson") &&
-    text.includes("liv") &&
-    (
-      text.includes("funding") ||
-      text.includes("pif") ||
-      text.includes("investor") ||
-      text.includes("investors") ||
-      text.includes("uncertain") ||
-      text.includes("uncertainty")
-    )
-  ) {
-    return "bryson-liv-funding";
-  }
-
-  if (
-    text.includes("bryson") &&
-    text.includes("liv") &&
-    text.includes("pga tour") &&
-    (
-      text.includes("return") ||
-      text.includes("rejoin") ||
-      text.includes("re-join") ||
-      text.includes("go back") ||
-      text.includes("welcomed back") ||
-      text.includes("welcome back")
-    )
-  ) {
-    return "bryson-pga-tour-return";
-  }
-
-  const normalizedTitle = String(item.title || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
-    .split(/\s+/)
-    .filter((word) => word.length > 3)
-    .slice(0, 6)
-    .join("-");
-
-  return normalizedTitle;
-}  
-
-function dedupeStoryClusters(items) {
-  const seenUrls = new Set();
-  const seenGroups = new Set();
-  const output = [];
-
-  (items || []).forEach((item) => {
-    if (!item) return;
-
-    const url = String(item.url || item.sourceUrl || "").trim().toLowerCase();
-    const group = getStoryClusterKey(item);
-
-    if (url && seenUrls.has(url)) return;
-    if (group && seenGroups.has(group)) return;
-
-    if (url) seenUrls.add(url);
-    if (group) seenGroups.add(group);
-
-    output.push(item);
-  });
-
-  return output;
-}
-
-function storyAlreadyOnRadar(radarJson, item) {
-  const allStories = [
+// Week Radar is a secondary selection. A story there may still be promoted to
+// Today or Also Moving; the secondary copy is then removed when the feed is built.
+function getRadarComparisonStories(radarJson) {
+  return [
+    ...(Array.isArray(radarJson.homepageFeatures) ? radarJson.homepageFeatures : []),
     ...(Array.isArray(radarJson.today) ? radarJson.today : []),
     ...(Array.isArray(radarJson.liveLeaderboards) ? radarJson.liveLeaderboards : []),
     ...(Array.isArray(radarJson.alsoMoving) ? radarJson.alsoMoving : []),
     ...(Array.isArray(radarJson.golfInternet) ? radarJson.golfInternet : []),
     radarJson.checking
   ].filter(Boolean);
+}
 
-  const incomingUrl = String(item.url || item.sourceUrl || "").trim().toLowerCase();
-  const incomingTitle = String(item.title || "").toLowerCase();
+function storyAlreadyOnRadar(radarJson, item) {
+  if (!item) return false;
+  return dedupeStoryClusters([item], getRadarComparisonStories(radarJson)).length === 0;
+}
 
-  return allStories.some((story) => {
-    if (item.sourceType === "Leaderboard" && story.signal === "Leaderboard") {
-      return story.title === item.title && story.summary === item.summary;
-    }
-
-    const existingUrl = String(story.url || story.sourceUrl || "").trim().toLowerCase();
-
-    if (incomingUrl && existingUrl && incomingUrl === existingUrl) {
-      return true;
-    }
-
-    const existingTitle = String(story.title || "").toLowerCase();
-
-    if (!incomingTitle || !existingTitle) {
-      return false;
-    }
-
-    const incomingWords = incomingTitle
-      .replace(/[^a-z0-9\s]/g, "")
-      .split(/\s+/)
-      .filter((word) => word.length > 4);
-
-    const existingWords = existingTitle
-      .replace(/[^a-z0-9\s]/g, "")
-      .split(/\s+/)
-      .filter((word) => word.length > 4);
-
-    if (incomingWords.length < 5 || existingWords.length < 5) {
-      return false;
-    }
-
-    const sharedWords = incomingWords.filter((word) => existingWords.includes(word));
-    const similarity = sharedWords.length / Math.min(incomingWords.length, existingWords.length);
-
-    return similarity >= 0.75;
-  });
+function getHomepageReservedStories(radarJson) {
+  return ["homepageFeatures", "today", "alsoMoving", "golfInternet"]
+    .flatMap((section) => Array.isArray(radarJson[section]) ? radarJson[section] : []);
 }
 
 function mergeGolfInternetItems(currentItems, newItems) {
@@ -3179,7 +3090,7 @@ function buildWeekRadarItem(item) {
   };
 }
 
-function buildWeekRadarFromStories(stories, existingWeekRadar) {
+function buildWeekRadarFromStories(stories, existingWeekRadar, reservedStories = []) {
   const candidates = Array.isArray(stories) ? stories.filter(Boolean) : [];
   const existing = Array.isArray(existingWeekRadar) ? existingWeekRadar : [];
 
@@ -3205,16 +3116,26 @@ function buildWeekRadarFromStories(stories, existingWeekRadar) {
 
   const picked = [];
   const usedGroups = new Set();
+  const deferred = [];
+  const distinctItems = new Set(dedupeStoryClusters(scored.map((entry) => entry.item), reservedStories));
 
-  scored.forEach((entry) => {
+  const pick = (entry) => {
     if (picked.length >= 3) return;
-    if (usedGroups.has(entry.groupKey)) return;
-
+    if (reservedStories.some((story) => areDuplicateStories(story, entry.item))) return;
+    if (picked.some((story) => areDuplicateStories(story, entry.item))) return;
+    picked.push(entry.item);
     usedGroups.add(entry.groupKey);
-    picked.push(buildWeekRadarItem(entry.item));
-  });
+  };
 
-  return picked;
+  // Prefer a mix of topics, then fill spare slots with distinct stories even
+  // if they involve a player or topic already represented.
+  scored.filter((entry) => distinctItems.has(entry.item)).forEach((entry) => {
+    if (usedGroups.has(entry.groupKey)) deferred.push(entry);
+    else pick(entry);
+  });
+  deferred.forEach(pick);
+
+  return picked.map(buildWeekRadarItem);
 }
 
 function shouldHideOldLeaderboardStoriesNow() {
@@ -3267,7 +3188,7 @@ function buildNextRadarJson(currentJson, item) {
 
   const nextToday = addDisplayTimesToRadarArray(
     attachImagesToRadarArray(
-      dedupeStoryClusters([nextLive, ...restToday])
+      dedupeStoryClusters([nextLive, ...restToday], Array.isArray(currentJson.homepageFeatures) ? currentJson.homepageFeatures : [])
         .filter((story) => {
           const timestamp = Date.parse(story.timestamp || story.approvedAt || story.publishedAt || "");
           if (Number.isNaN(timestamp)) return true;
@@ -3288,10 +3209,13 @@ function buildNextRadarJson(currentJson, item) {
 
    const nextAlsoMoving = addDisplayTimesToRadarArray(
   removeOldLeaderboardStories(
-    attachImagesToRadarArray([
-      ...(oldLive ? [oldLive] : []),
-      ...existingAlsoMoving
-    ], imageUsage)
+    attachImagesToRadarArray(
+      dedupeStoryClusters(
+        [...(oldLive ? [oldLive] : []), ...existingAlsoMoving],
+        [...(Array.isArray(currentJson.homepageFeatures) ? currentJson.homepageFeatures : []), ...nextToday]
+      ),
+      imageUsage
+    )
   )
     .filter((story) => {
       const timestamp = Date.parse(story.timestamp || story.approvedAt || story.publishedAt || "");
@@ -3306,10 +3230,11 @@ function buildNextRadarJson(currentJson, item) {
 
   const nextWeekRadar = buildWeekRadarFromStories(
   [nextLive, ...nextToday, ...nextAlsoMoving],
-  currentJson.weekRadar || currentJson.week_radar || []
+  currentJson.weekRadar || currentJson.week_radar || [],
+  getHomepageReservedStories({ ...currentJson, today: nextToday, alsoMoving: nextAlsoMoving })
 );
 
-return {
+return dedupeHomepageSections({
   ...currentJson,
   active: true,
   updatedAt: new Date().toISOString(),
@@ -3324,7 +3249,7 @@ return {
     attachImagesToRadarArray(currentJson.golfInternet || [], imageUsage),
     90
   )
-};
+});
 }
 
 function backfillRadarImages(radarJson) {
@@ -3478,14 +3403,16 @@ async function autoPublishHomepageRunnerUpsToGitHub(items) {
     ? current.json.alsoMoving
     : [];
 
-  const runnerUpRadarItems = items
+  const preparedRunnerUps = items
     .filter((item) => item && item.url)
     .filter((item) => {
       const quickRead = item.quickRead || item.quickContext || item.modalSummary || item.summary || "";
       return !quickReadLooksWeak(quickRead, item);
     })
-    .map(buildRadarItem)
-    .filter((item) => !storyAlreadyOnRadar(current.json, item));
+    .map(buildRadarItem);
+  // Compare the whole eligible batch before discarding duplicate versions: a
+  // richer report can supply the statement evidence missing from a short card.
+  const runnerUpRadarItems = dedupeStoryClusters(preparedRunnerUps, getRadarComparisonStories(current.json));
 
   if (!runnerUpRadarItems.length) {
     console.log("[Homepage Runner Ups] No new runner-up stories to add.");
@@ -3495,10 +3422,10 @@ async function autoPublishHomepageRunnerUpsToGitHub(items) {
   const nextAlsoMoving = addDisplayTimesToRadarArray(
     removeOldLeaderboardStories(
       attachImagesToRadarArray(
-        dedupeStoryClusters([
-          ...runnerUpRadarItems,
-          ...existingAlsoMoving
-        ]),
+        dedupeStoryClusters(
+          [...runnerUpRadarItems, ...existingAlsoMoving],
+          [...(Array.isArray(current.json.homepageFeatures) ? current.json.homepageFeatures : []), ...(Array.isArray(current.json.today) ? current.json.today : [])]
+        ),
         imageUsage
       )
     )
@@ -3522,7 +3449,8 @@ async function autoPublishHomepageRunnerUpsToGitHub(items) {
       ...nextAlsoMoving,
       ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
     ],
-    current.json.weekRadar || current.json.week_radar || []
+    current.json.weekRadar || current.json.week_radar || [],
+    getHomepageReservedStories({ ...current.json, alsoMoving: nextAlsoMoving })
   );
 
   const nextJson = {
@@ -3575,7 +3503,8 @@ async function clearLiveLeaderboardsIfNeeded() {
       ...nextAlsoMoving,
       ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
     ],
-    current.json.weekRadar || current.json.week_radar || []
+    current.json.weekRadar || current.json.week_radar || [],
+    getHomepageReservedStories({ ...current.json, alsoMoving: nextAlsoMoving })
   );
 
   const liveChanged = currentLive.length > 0;
@@ -3621,7 +3550,8 @@ async function autoPublishLiveLeaderboardsToGitHub(leaderboardItems) {
     ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
     ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
   ],
-  current.json.weekRadar || current.json.week_radar || []
+  current.json.weekRadar || current.json.week_radar || [],
+  getHomepageReservedStories(current.json)
 );
 
 const nextJson = {
@@ -3672,7 +3602,8 @@ const nextWeekRadar = buildWeekRadarFromStories(
     ...(Array.isArray(current.json.alsoMoving) ? current.json.alsoMoving : []),
     ...nextGolfInternet
   ],
-  current.json.weekRadar || current.json.week_radar || []
+  current.json.weekRadar || current.json.week_radar || [],
+  getHomepageReservedStories({ ...current.json, golfInternet: nextGolfInternet })
 );
 
 const nextJson = {
@@ -3694,6 +3625,25 @@ const nextJson = {
   return true;
 } 
 
+function buildDeduplicatedHomepageJson(currentJson) {
+  const cleaned = dedupeHomepageSections(currentJson);
+  if (!radarJsonChanged(currentJson, cleaned)) return null;
+  return { ...cleaned, updatedAt: new Date().toISOString() };
+}
+
+async function cleanupDuplicateHomepageStories() {
+  const current = await getRadarFileFromGitHub();
+  const cleaned = buildDeduplicatedHomepageJson(current.json);
+  if (!cleaned) return false;
+
+  const result = await updateRadarFileOnGitHub(
+    cleaned, current.sha, "Remove duplicate homepage stories", buildDeduplicatedHomepageJson
+  );
+  if (!result) return false; // A concurrent update already removed the duplicates.
+  console.log("[Radar] Removed duplicate homepage stories.");
+  return true;
+}
+
 async function checkRadar() {
   if (!DISCORD_WEBHOOK_URL) {
     throw new Error("Missing DISCORD_WEBHOOK_URL");
@@ -3702,6 +3652,14 @@ async function checkRadar() {
   console.log(`[Radar] Run started at ${new Date().toISOString()}`);
   console.log(`[Radar] Tournament window: ${isTournamentWindow() ? "Yes" : "No"}`);
   console.log(`[Radar] Auto publish: ${AUTO_PUBLISH ? "On" : "Off"}`);
+
+  if (AUTO_PUBLISH) {
+    try {
+      await cleanupDuplicateHomepageStories();
+    } catch (error) {
+      console.error("[Radar] Duplicate cleanup failed, continuing radar run.", error.message);
+    }
+  }
 
   const seenPosts = loadSeenPosts();
 
@@ -3788,7 +3746,8 @@ let published = false;
       ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : []),
       ...weekRadarSourceItems
     ],
-    current.json.weekRadar || current.json.week_radar || []
+    current.json.weekRadar || current.json.week_radar || [],
+    getHomepageReservedStories(current.json)
   );
 
   const nextJson = {
@@ -3824,6 +3783,17 @@ let published = false;
     console.log("No new trending stories found.");
   }
 }
-checkRadar().catch((error) => {
-  console.error(error);
-});
+if (require.main === module) {
+  checkRadar().catch((error) => {
+    console.error(error);
+  });
+}
+
+module.exports = {
+  storyAlreadyOnRadar,
+  buildNextRadarJson,
+  buildWeekRadarFromStories,
+  buildDeduplicatedHomepageJson,
+  cleanupDuplicateHomepageStories,
+  autoPublishHomepageRunnerUpsToGitHub
+};
