@@ -1,4 +1,8 @@
 const fs = require("fs");
+const {
+  quickReadLooksWeak, quickReadSummary, extractSourceArticle, isAutomaticNewsItem,
+  buildQuickReadPrompt, createQuickReadService
+} = require("./lib/quick-read-quality");
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const AUTO_PUBLISH = process.env.AUTO_PUBLISH === "true";
@@ -767,49 +771,6 @@ function stripHtml(value) {
   return decodeHtml(value).replace(/<[^>]*>/g, "").trim();
 }
 
-function isGenericQuickRead(value) {
-  const text = String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
-
-  if (!text) return true;
-
-  const genericPatterns = [
-    "a golf story is picking up attention across the golf news cycle",
-    "a tournament-week golf story is moving across the radar",
-    "this golf story is moving across the radar",
-    "this is a golf storyline morning tee is tracking",
-    "open the full story for the latest details",
-    "open the full story for the actual details",
-    "we're still waiting on enough source detail",
-    "we’re still waiting on enough source detail",
-    "available feed details are limited",
-    "more context may come from the original source"
-  ];
-
-  return genericPatterns.some((pattern) => text.includes(pattern));
-}
-
-function repeatsHeadline(value, item) {
-  const quickRead = String(value || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  const title = String(item && item.title || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  if (!quickRead || !title) return false;
-
-  const titleWords = title.split(" ").filter((word) => word.length > 3);
-  if (titleWords.length < 5) return false;
-
-  const firstWords = titleWords.slice(0, 6).join(" ");
-  return firstWords && quickRead.includes(firstWords);
-}
-
 function getTag(itemXml, tagName) {
   const regex = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i");
   const match = itemXml.match(regex);
@@ -1105,45 +1066,21 @@ function cleanTitle(title) {
     .replace(/[,:;.!?]+$/, "") + "...";
 }
 
-async function fetchSourceExcerpt(url) {
-  if (!url || !/^https?:\/\//i.test(url)) {
-    return "";
-  }
-
+async function fetchSourceArticle(url) {
+  if (!url || !/^https?:\/\//i.test(url)) return null;
   try {
     const response = await fetch(url, {
-      headers: {
-        "User-Agent": "MorningTeeRadar/0.4 (+https://www.morningtee.com)"
-      }
+      headers: { "User-Agent": "MorningTeeRadar/0.4 (+https://www.morningtee.com)" },
+      signal: AbortSignal.timeout(15000)
     });
-
     if (!response.ok) {
       console.log(`[QuickRead] Could not fetch source article: ${response.status}`);
-      return "";
+      return null;
     }
-
-    const html = await response.text();
-
-    const text = html
-      .replace(/<script[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style[\s\S]*?<\/style>/gi, " ")
-      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
-      .replace(/<nav[\s\S]*?<\/nav>/gi, " ")
-      .replace(/<footer[\s\S]*?<\/footer>/gi, " ")
-      .replace(/<header[\s\S]*?<\/header>/gi, " ")
-      .replace(/<aside[\s\S]*?<\/aside>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/&nbsp;/g, " ")
-      .replace(/&amp;/g, "&")
-      .replace(/&quot;/g, "\"")
-      .replace(/&#39;/g, "'")
-      .replace(/\s+/g, " ")
-      .trim();
-
-    return text.slice(0, 5000);
+    return extractSourceArticle(await response.text());
   } catch (error) {
     console.log("[QuickRead] Source article fetch failed:", error.message);
-    return "";
+    return null;
   }
 }
 
@@ -1412,136 +1349,13 @@ function extractOpenAIText(data) {
 
 function fallbackQuickRead(item) {
   const summary = cleanSummary(item);
-
-  if (item.sourceType === "Leaderboard") {
-    return summary;
-  }
-
-  if (!summary || summary.length < 45 || isGenericQuickRead(summary) || repeatsHeadline(summary, item)) {
-    return "";
-  }
-
-  return summary;
+  if (item.sourceType === "Leaderboard") return summary;
+  // This fallback is only for the existing non-news paths. RSS never uses it.
+  return quickReadLooksWeak(summary, item) ? "" : summary;
 }
 
-function quickReadHasBrokenEnding(text) {
-  const value = String(text || "").trim();
-
-  const brokenEndingPatterns = [
-    /\bU\.\s*S\.$/i,
-    /\bU\.$/i,
-    /\bthe U\.$/i,
-    /\bincluding the U\.$/i,
-    /\bpossibly including the U\.$/i,
-    /\$\d+\.?$/i,
-    /\$\d+\.\s*$/i,
-    /\b\d+\.\s*$/i,
-    /\bNo\.\s*$/i,
-    /\bNo\.\s*\d+\s*$/i
-  ];
-
-  return brokenEndingPatterns.some((pattern) => pattern.test(value));
-}
-
-function normalizeQuickRead(value, item) {
-  const text = String(value || "").replace(/\s+/g, " ").trim();
-
-  if (!text) return fallbackQuickRead(item);
-  if (isGenericQuickRead(text)) return fallbackQuickRead(item);
-  if (repeatsHeadline(text, item)) return fallbackQuickRead(item);
-  if (quickReadHasBrokenEnding(text)) return fallbackQuickRead(item);
-
-  const sentences = text.match(/[^.!?]+[.!?]+/g);
-
-  if (sentences && sentences.length >= 2) {
-    const twoSentenceText = sentences.slice(0, 2).join(" ").trim();
-
-    if (quickReadHasBrokenEnding(twoSentenceText)) {
-      return fallbackQuickRead(item);
-    }
-
-    if (isGenericQuickRead(twoSentenceText) || repeatsHeadline(twoSentenceText, item)) {
-      return fallbackQuickRead(item);
-    }
-
-    return twoSentenceText;
-  }
-
-  if (text.length < 55) return fallbackQuickRead(item);
-
-  return text;
-}
-
-function buildQuickReadPrompt(item, sourceExcerpt) {
-  return `Write a Morning Tee quickRead for this golf story.
-
-Goal:
-Give the reader the actual answer in 10 seconds. Do not tease. Do not summarize vaguely.
-
-Most important rule:
-Answer the curiosity created by the headline.
-
-If the headline says someone "shades," "warns," "reveals," "explains why," "admits," "rips," "fires back," "confirms," or "says" something, explain what they actually said or did.
-
-If the source excerpt includes the exact quote or detail, use it. If the exact answer is not available, summarize only the confirmed details without saying the source is limited, missing, unclear, or incomplete.
-
-Rules:
-- 2 sentences only.
-- 35 to 65 words total.
-- Sentence 1 gives the actual answer, quote, result, injury, decision, or event.
-- Sentence 2 gives the best context, consequence, why it matters, or what to watch next.
-- Never use generic fallback lines like "A golf story is picking up attention across the golf news cycle."
-- Do not publish a quickRead that simply repeats the headline.
-- If there is not enough detail to write a useful quickRead, return an empty quickRead string.
-- A useful quickRead names who is involved, what happened, and why it matters.
-- Do not repeat the headline.
-- Do not say "the article says."
-
-Bad:
-McIlroy took a subtle swipe at LIV players while discussing PGA Tour negotiations.
-
-Better:
-McIlroy’s jab was aimed at LIV players who left for guaranteed money and may now benefit if the PGA Tour and Saudi PIF reach a deal. The useful context is that even if the tours reunite, Rory still sounds frustrated by how the split happened.
-
-Bad:
-A golf story is picking up attention across the golf news cycle.
-
-Bad:
-PGA Tour heads to Colonial without Scheffler and Spieth is one of the latest stories.
-
-Better:
-Scottie Scheffler and Jordan Spieth are not in the Charles Schwab Challenge field, leaving Colonial without two of its biggest Texas draws while LIV resumes in South Korea. The useful context is that the week loses some star power just as LIV gets another chance to grab attention overseas.
-
-Title:
-
-${item.title || ""}
-
-Current summary:
-${item.summary || ""}
-
-Source:
-${item.sourceName || item.source || ""}
-
-URL:
-${item.url || ""}
-
-Source excerpt:
-${sourceExcerpt || "No source excerpt available."}
-
-Return JSON only:
-{
-  "quickRead": ""
-}`;
-}
-
-async function generateQuickRead(item) {
-  if (!OPENAI_API_KEY) {
-    return fallbackQuickRead(item);
-  }
-
-  const sourceExcerpt = await fetchSourceExcerpt(item.url);
-  const prompt = buildQuickReadPrompt(item, sourceExcerpt);
-
+async function requestQuickReadJson(prompt) {
+  if (!OPENAI_API_KEY) return null;
   try {
     const response = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
@@ -1549,71 +1363,79 @@ async function generateQuickRead(item) {
         "Authorization": `Bearer ${OPENAI_API_KEY}`,
         "Content-Type": "application/json"
       },
+      signal: AbortSignal.timeout(45000),
       body: JSON.stringify({
         model: OPENAI_MODEL,
         input: prompt,
-        text: {
-          format: {
-            type: "json_object"
-          }
-        }
+        text: { format: { type: "json_object" } }
       })
     });
-
     if (!response.ok) {
-      const body = await response.text();
-      console.error(`[QuickRead] OpenAI request failed: ${response.status} ${body}`);
-      return fallbackQuickRead(item);
+      console.error(`[QuickRead] OpenAI request failed: ${response.status}`);
+      return null;
     }
-
-    const data = await response.json();
-    const rawText = extractOpenAIText(data);
-
-    if (!rawText) {
-      return fallbackQuickRead(item);
-    }
-
-    const parsed = JSON.parse(rawText);
-    return normalizeQuickRead(parsed.quickRead, item);
+    const rawText = extractOpenAIText(await response.json());
+    return rawText ? JSON.parse(rawText) : null;
   } catch (error) {
-    console.error("[QuickRead] Failed to generate quickRead.", error);
-    return fallbackQuickRead(item);
+    console.error("[QuickRead] OpenAI generation/check failed:", error.message);
+    return null;
   }
 }
 
-function quickReadLooksWeak(value, item = null) {
-  const raw = String(value || "");
-  const text = raw.toLowerCase().replace(/\s+/g, " ").trim();
+const sourceGroundedQuickReads = createQuickReadService({
+  fetchArticle: fetchSourceArticle,
+  requestJson: requestQuickReadJson,
+  enabled: Boolean(OPENAI_API_KEY),
+  log: console.log
+});
 
-  if (!text) return true;
-  if (text.length < 55) return true;
-  if (isGenericQuickRead(text)) return true;
-  if (item && repeatsHeadline(text, item)) return true;
+function getQuickReadText(item) {
+  return item && (item.quickRead || item.quickContext || item.modalSummary || item.summary) || "";
+}
 
-  const weakPhrases = [
-    "took a subtle swipe",
-    "made comments",
-    "opened up",
-    "addressed the situation",
-    "discussing",
-    "the article says",
-    "available feed details are limited",
-    "more context may come from the original source",
-    "picking up attention",
-    "on the radar because",
-    "one of the latest stories",
-    "open the full story"
-  ];
+function hasPublishableQuickRead(item) {
+  if (item?.sourceType === "Leaderboard") return true;
+  if (quickReadLooksWeak(getQuickReadText(item), item)) return false;
+  return !isAutomaticNewsItem(item) || sourceGroundedQuickReads.hasVerifiedQuickRead(item);
+}
 
-  return weakPhrases.some((phrase) => text.includes(phrase));
+function canRetainAutomaticNews(item) {
+  if (!isAutomaticNewsItem(item)) return true; // Keep manual editorial content.
+  // New source candidates must have passed verification during this run. Legacy
+  // published entries get the deterministic checks when their sections rebuild.
+  return item.sourceType === "RSS"
+    ? hasPublishableQuickRead(item)
+    : !quickReadLooksWeak(getQuickReadText(item), item);
+}
+
+function retainUsefulAutomaticNews(radarJson) {
+  const next = { ...radarJson };
+  for (const section of ["today", "alsoMoving", "weekRadar", "week_radar"]) {
+    if (Array.isArray(next[section])) next[section] = next[section].filter(canRetainAutomaticNews);
+  }
+  return next;
+}
+
+async function generateQuickRead(item) {
+  if (!OPENAI_API_KEY) return fallbackQuickRead(item);
+  const article = await fetchSourceArticle(item.url);
+  const parsed = await requestQuickReadJson(buildQuickReadPrompt({
+    headline: item.title || "",
+    sourceHeadline: article?.title || "",
+    feed: item.summary || "",
+    article: article?.text || ""
+  }));
+  const text = String(parsed?.quickRead || "").replace(/\s+/g, " ").trim();
+  return quickReadLooksWeak(text, item) ? fallbackQuickRead(item) : text;
 }
 
 async function withQuickRead(item) {
   if (!item) return item;
+  if (isAutomaticNewsItem(item)) return sourceGroundedQuickReads.withVerifiedQuickRead(item);
 
   const existingQuickRead = item.quickRead || item.quickContext || item.modalSummary || "";
 
-   if (existingQuickRead && !quickReadLooksWeak(existingQuickRead, item)) {
+  if (existingQuickRead && !quickReadLooksWeak(existingQuickRead, item)) {
     return item;
   }
 
@@ -1627,9 +1449,13 @@ async function withQuickRead(item) {
 
 function buildRadarItem(item) {
   const timestamp = getSourceTimestampIso(item, 0);
-  const summary = cleanSummary(item);
-  const quickReadCandidate = item.quickRead || item.quickContext || item.modalSummary || summary;
-  const usefulQuickRead = quickReadLooksWeak(quickReadCandidate, item) ? "" : quickReadCandidate;
+  const quickReadCandidate = item.quickRead || item.quickContext || item.modalSummary || cleanSummary(item);
+  const usefulQuickRead = (isAutomaticNewsItem(item)
+    ? hasPublishableQuickRead(item)
+    : !quickReadLooksWeak(quickReadCandidate, item)) ? quickReadCandidate : "";
+  const summary = isAutomaticNewsItem(item) && usefulQuickRead
+    ? quickReadSummary(usefulQuickRead)
+    : cleanSummary(item);
 
   const radarItem = {
   time: formatTimeLabel(timestamp),
@@ -3163,6 +2989,7 @@ function buildWeekRadarItem(item) {
   const quickRead = item.quickRead || item.quickContext || item.modalSummary || "";
 
   return {
+    ...(isAutomaticNewsItem(item) ? { signal: "RSS" } : {}),
     label: getWeekRadarLabel(item),
     title: cleanWeekRadarTitle(item),
     summary: buildWeekRadarSummary(item),
@@ -3192,7 +3019,7 @@ function buildWeekRadarFromStories(stories, existingWeekRadar) {
     timestamp: item.timestamp || item.updatedAt || item.createdAt || new Date(Date.now() - 48 * 3600000).toISOString()
   }));
 
-  const allCandidates = candidates.concat(existingAsStories);
+  const allCandidates = candidates.concat(existingAsStories).filter(canRetainAutomaticNews);
 
   const scored = allCandidates
     .map((item) => ({
@@ -3257,8 +3084,8 @@ function hasUsefulWeekRadarSummary(item) {
 function buildNextRadarJson(currentJson, item) {
   const nextLive = buildRadarItem(item);
 
-  const existingToday = Array.isArray(currentJson.today) ? currentJson.today : [];
-  const existingAlsoMoving = Array.isArray(currentJson.alsoMoving) ? currentJson.alsoMoving : [];
+  const existingToday = (Array.isArray(currentJson.today) ? currentJson.today : []).filter(canRetainAutomaticNews);
+  const existingAlsoMoving = (Array.isArray(currentJson.alsoMoving) ? currentJson.alsoMoving : []).filter(canRetainAutomaticNews);
 
   const oldLive = existingToday[0] || null;
   const restToday = existingToday.slice(1);
@@ -3353,10 +3180,15 @@ function radarJsonChanged(before, after) {
 }
 
 async function autoPublishToGitHub(item) {
+  if (!hasPublishableQuickRead(item)) {
+    console.log("[Publish] Withheld story without a verified, useful quickRead.");
+    return false;
+  }
   const current = await getRadarFileFromGitHub();
+  const usableJson = retainUsefulAutomaticNews(current.json);
 
-  if (storyAlreadyOnRadar(current.json, item)) {
-    const backfilledJson = backfillRadarImages(current.json);
+  if (storyAlreadyOnRadar(usableJson, item)) {
+    const backfilledJson = backfillRadarImages(usableJson);
 
     if (radarJsonChanged(current.json, backfilledJson)) {
       await updateRadarFileOnGitHub(backfilledJson, current.sha, "Backfill radar images");
@@ -3368,7 +3200,7 @@ async function autoPublishToGitHub(item) {
     return false;
   }
 
-  const nextJson = buildNextRadarJson(current.json, item);
+  const nextJson = buildNextRadarJson(usableJson, item);
   await updateRadarFileOnGitHub(nextJson, current.sha, item.title);
 
   console.log(`[Publish] Updated GitHub radar JSON with: ${item.title}`);
@@ -3467,25 +3299,24 @@ function getHomepageRunnerUpItems(items, bestCandidate, limit = 4) {
 }
 
 async function autoPublishHomepageRunnerUpsToGitHub(items) {
-  if (!AUTO_PUBLISH || !Array.isArray(items) || !items.length) {
+  if (!AUTO_PUBLISH || !Array.isArray(items) || !items.length) return false;
+
+  const eligibleItems = items.filter((item) => item && item.url && hasPublishableQuickRead(item));
+  if (!eligibleItems.length) {
+    console.log("[Homepage Runner Ups] Withheld stories without verified, useful quickReads.");
     return false;
   }
 
   const current = await getRadarFileFromGitHub();
+  const usableJson = retainUsefulAutomaticNews(current.json);
   const imageUsage = {};
+  const existingAlsoMoving = (Array.isArray(usableJson.alsoMoving)
+    ? usableJson.alsoMoving
+    : []);
 
-  const existingAlsoMoving = Array.isArray(current.json.alsoMoving)
-    ? current.json.alsoMoving
-    : [];
-
-  const runnerUpRadarItems = items
-    .filter((item) => item && item.url)
-    .filter((item) => {
-      const quickRead = item.quickRead || item.quickContext || item.modalSummary || item.summary || "";
-      return !quickReadLooksWeak(quickRead, item);
-    })
+  const runnerUpRadarItems = eligibleItems
     .map(buildRadarItem)
-    .filter((item) => !storyAlreadyOnRadar(current.json, item));
+    .filter((item) => !storyAlreadyOnRadar(usableJson, item));
 
   if (!runnerUpRadarItems.length) {
     console.log("[Homepage Runner Ups] No new runner-up stories to add.");
@@ -3518,15 +3349,15 @@ async function autoPublishHomepageRunnerUpsToGitHub(items) {
 
   const nextWeekRadar = buildWeekRadarFromStories(
     [
-      ...(Array.isArray(current.json.today) ? current.json.today : []),
+      ...(Array.isArray(usableJson.today) ? usableJson.today : []),
       ...nextAlsoMoving,
       ...(Array.isArray(current.json.golfInternet) ? current.json.golfInternet : [])
     ],
-    current.json.weekRadar || current.json.week_radar || []
+    usableJson.weekRadar || usableJson.week_radar || []
   );
 
   const nextJson = {
-    ...current.json,
+    ...usableJson,
     active: true,
     updatedAt: new Date().toISOString(),
     alsoMoving: nextAlsoMoving,
@@ -3732,7 +3563,7 @@ let golfInternetItems = manualGolfInternetItems.length
 if (bestCandidate) {
   bestCandidate = await withQuickRead(bestCandidate);
 
-  if (bestCandidate.sourceType !== "Leaderboard" && quickReadLooksWeak(bestCandidate.quickRead || bestCandidate.summary, bestCandidate)) {
+  if (!hasPublishableQuickRead(bestCandidate)) {
     console.log("[Radar] Best candidate skipped because it did not have a useful quickRead.");
     bestCandidate = null;
   }
@@ -3824,6 +3655,13 @@ let published = false;
     console.log("No new trending stories found.");
   }
 }
-checkRadar().catch((error) => {
-  console.error(error);
-});
+if (require.main === module) {
+  checkRadar().catch((error) => {
+    console.error(error);
+  });
+}
+
+module.exports = {
+  withQuickRead, hasPublishableQuickRead, buildRadarItem, buildWeekRadarFromStories,
+  autoPublishToGitHub, autoPublishHomepageRunnerUpsToGitHub
+};
