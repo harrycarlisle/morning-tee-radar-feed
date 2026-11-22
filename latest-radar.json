@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-22T13:56:32.680Z",
+  "updatedAt": "2026-11-22T20:34:37.493Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -21,6 +21,27 @@
   "today": [
     {
       "time": "6 hours ago",
+      "timestamp": "2026-11-22T14:29:13.000Z",
+      "approvedAt": "2026-11-22T20:34:37.491Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "$45.5M Golfer Abruptly Withdraws From Tiger Woods’ Event",
+      "summary": "Gary Woodland has experienced a significant turnaround in his PGA Tour career over the past year.",
+      "quickRead": "Gary Woodland withdrew from Tiger Woods’ Hero World Challenge after undergoing arthroscopic knee surgery in New York, saying he’d been dealing with knee discomfort before seeing doctors.  The withdrawal removes one of the event’s notable invitees from Woods’ Bahamas comeback (Dec.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/45-5m-golfer-abruptly-withdraws-142913385.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/45-5m-golfer-abruptly-withdraws-142913385.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "22 hours ago",
       "timestamp": "2026-11-21T22:01:17.000Z",
       "approvedAt": "2026-11-22T04:44:26.463Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/kim-leads-korda-charges-lpga-220117454.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/nelly-korda-versus.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-21T19:48:36.000Z",
       "approvedAt": "2026-11-22T13:56:28.737Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "21 hours ago",
       "timestamp": "2026-11-21T22:50:47.000Z",
       "approvedAt": "2026-11-22T04:44:28.789Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-21T17:39:49.000Z",
       "approvedAt": "2026-11-21T22:42:04.823Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
     },
     {
-      "time": "18 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-21T19:37:39.000Z",
       "approvedAt": "2026-11-21T22:42:07.248Z",
       "status": "Confirmed",
@@ -117,7 +136,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     },
     {
-      "time": "15 hours ago",
+      "time": "22 hours ago",
       "timestamp": "2026-11-21T21:59:25.000Z",
       "approvedAt": "2026-11-21T22:42:07.249Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "22 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-21T15:27:07.000Z",
       "approvedAt": "2026-11-21T17:03:30.205Z",
       "status": "Confirmed",
@@ -172,25 +191,6 @@
       "sourceUrl": "https://sports.yahoo.com/articles/jon-rahm-handed-major-pga-152707726.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/jon-rahm.png"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-21T05:49:00.000Z",
-      "approvedAt": "2026-11-21T17:03:30.207Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "PGA TOUR",
-      "title": "Rory McIlroy and Bob Rotella's message to a struggling NHL team? Joy",
-      "summary": "What was Rory McIlroy and Bob Rotella's message to a struggling NHL team?",
-      "quickRead": "What was Rory McIlroy and Bob Rotella's message to a struggling NHL team?",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/rory-mcilroy-bob-rotellas-message-054900622.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/rory-mcilroy-bob-rotellas-message-054900622.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/rory-mcilory-1.png"
     }
   ],
   "weekRadar": [
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-11-22T13:56:23.325Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-22T13:19:23.325Z",
       "status": "Trending",
       "signal": "Reddit find",
