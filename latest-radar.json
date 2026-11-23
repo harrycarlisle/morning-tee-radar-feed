@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-23T13:57:31.270Z",
+  "updatedAt": "2026-11-23T13:57:33.721Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -297,59 +297,5 @@
       "quickRead": "A very r/golf food discovery: one course has apparently decided the turn-dog needed a serious upgrade."
     }
   ],
-  "liveLeaderboards": [
-    {
-      "time": "Just now",
-      "timestamp": "2026-11-19T09:45:53.575Z",
-      "approvedAt": "2026-11-19T09:45:53.576Z",
-      "status": "Live",
-      "signal": "Leaderboard",
-      "category": "PGA TOUR",
-      "title": "Austin Eckroat wins The RSM Classic at -",
-      "summary": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
-      "quickRead": "Austin Eckroat wins The RSM Classic at -. Nearest finishers: Zac Blair (-), Rasmus Højgaard (-), Robert Streb (-).",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://www.pgatour.com/leaderboard",
-      "sourceUrl": "https://www.pgatour.com/leaderboard",
-      "source": "Live Golf Data",
-      "tournament": "The RSM Classic",
-      "liveLabel": "Live coverage",
-      "visualSubtitle": "Live coverage",
-      "leaders": [
-        {
-          "pos": "-",
-          "name": "Austin Eckroat",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Zac Blair",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Rasmus Højgaard",
-          "score": "-",
-          "thru": "1"
-        },
-        {
-          "pos": "-",
-          "name": "Robert Streb",
-          "score": "-",
-          "thru": "10"
-        },
-        {
-          "pos": "-",
-          "name": "Patrick Rodgers",
-          "score": "-",
-          "thru": "10"
-        }
-      ]
-    }
-  ]
+  "liveLeaderboards": []
 }
