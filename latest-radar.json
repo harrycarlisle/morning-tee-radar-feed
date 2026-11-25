@@ -1,6 +1,6 @@
 {
   "active": true,
-  "updatedAt": "2026-11-24T21:53:17.572Z",
+  "updatedAt": "2026-11-25T04:44:43.349Z",
   "homepageFeatures": [
     {
       "title": "Can AI Really Fix Your Golf Swing?",
@@ -20,7 +20,28 @@
   ],
   "today": [
     {
-      "time": "2 hours ago",
+      "time": "3 hours ago",
+      "timestamp": "2026-11-25T01:20:30.000Z",
+      "approvedAt": "2026-11-25T04:44:43.346Z",
+      "status": "Confirmed",
+      "signal": "RSS",
+      "category": "PGA TOUR",
+      "title": "Scottie Scheffler Chases Tiger Woods History as PGA Tour Reveals Award Nominees",
+      "summary": "Ten golfers are in contention for the PGA Tour’s two major year-end awards, including a pair of brothers who shared a particularly memorable victory in April.",
+      "quickRead": "Ten golfers are in contention for the PGA Tour’s two major year-end awards, including a pair of brothers who shared a particularly memorable victory in April.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/golf/articles/scottie-scheffler-chases-tiger-woods-012030089.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/articles/scottie-scheffler-chases-tiger-woods-012030089.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
+    }
+  ],
+  "alsoMoving": [
+    {
+      "time": "9 hours ago",
       "timestamp": "2026-11-24T19:07:24.000Z",
       "approvedAt": "2026-11-24T21:53:07.964Z",
       "status": "Confirmed",
@@ -37,11 +58,9 @@
       "sourceUrl": "https://sports.yahoo.com/articles/bryson-dechambeau-former-teammate-shares-190724703.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
-    }
-  ],
-  "alsoMoving": [
+    },
     {
-      "time": "3 hours ago",
+      "time": "10 hours ago",
       "timestamp": "2026-11-24T18:41:58.000Z",
       "approvedAt": "2026-11-24T21:53:11.228Z",
       "status": "Confirmed",
@@ -60,7 +79,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/brooks-koepka.png"
     },
     {
-      "time": "6 hours ago",
+      "time": "13 hours ago",
       "timestamp": "2026-11-24T15:06:49.000Z",
       "approvedAt": "2026-11-24T21:53:11.229Z",
       "status": "Confirmed",
@@ -79,7 +98,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png"
     },
     {
-      "time": "30 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-24T21:22:26.000Z",
       "approvedAt": "2026-11-24T21:53:11.229Z",
       "status": "Confirmed",
@@ -98,7 +117,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png"
     },
     {
-      "time": "52 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-24T21:00:36.000Z",
       "approvedAt": "2026-11-24T21:53:11.229Z",
       "status": "Confirmed",
@@ -136,7 +155,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/bryson-dechambeau.png"
     },
     {
-      "time": "17 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-24T04:44:09.000Z",
       "approvedAt": "2026-11-24T11:55:52.778Z",
       "status": "Confirmed",
@@ -155,7 +174,7 @@
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png"
     },
     {
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "timestamp": "2026-11-24T01:44:08.000Z",
       "approvedAt": "2026-11-24T11:55:52.779Z",
       "status": "Confirmed",
@@ -172,57 +191,23 @@
       "sourceUrl": "https://sports.yahoo.com/articles/korean-women-rule-while-liv-014408659.html",
       "source": "Yahoo Golf",
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5ce999ea-cf87-4ea0-921a-20a094dcf48b/lpga-placeholder.png?t=1780196630"
-    },
-    {
-      "time": "Yesterday",
-      "timestamp": "2026-11-23T21:32:48.000Z",
-      "approvedAt": "2026-11-24T01:29:42.999Z",
-      "status": "Confirmed",
-      "signal": "RSS",
-      "category": "GOLF",
-      "title": "Tiger Woods’ Comeback Takes Promising Turn as New Practice Details Emerge",
-      "summary": "Tiger Woods is preparing for his highly anticipated return to competitive golf, and the latest reports surrounding the 15-time major champion suggest he may be finding his form at just th...",
-      "quickRead": "Tiger Woods is preparing for his highly anticipated return to competitive golf, and the latest reports surrounding the 15-time major champion suggest he may be finding his form at just th...",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/tiger-woods-comeback-takes-promising-213248373.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/tiger-woods-comeback-takes-promising-213248373.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/tiger-woods-1.png"
     }
   ],
   "weekRadar": [
     {
       "label": "MAJOR WATCH",
-      "title": "Justin Thomas Makes Major Decision Amid PGA Tour Offseason",
-      "summary": "Justin Thomas split with caddie Matt Minister after two winless years and hired veteran caddie Michael Cromie as his full-time replacement.",
-      "quickRead": "Justin Thomas split with caddie Matt Minister after two winless years and hired veteran caddie Michael Cromie as his full-time replacement.  The move is a major offseason reset for Thomas as he tries to get back to winning form heading into the 2027 PGA Tour season after a middling 2026 campaign.",
+      "title": "Scottie Scheffler Chases Tiger Woods History as PGA Tour Reveals Awar...",
+      "summary": "Ten golfers are in contention for the PGA Tour’s two major year-end awards, including a pair of brothers who shared a particularly memorable victor...",
+      "quickRead": "Ten golfers are in contention for the PGA Tour’s two major year-end awards, including a pair of brothers who shared a particularly memorable victory in April.",
       "quickContext": "",
       "modalSummary": "",
       "keyQuote": "",
       "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/articles/justin-thomas-makes-major-decision-150649866.html",
-      "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-makes-major-decision-150649866.html",
-      "source": "Yahoo Golf",
-      "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png",
-      "timestamp": "2026-11-24T15:06:49.000Z"
-    },
-    {
-      "label": "STAR WATCH",
-      "title": "Scheffler Chases Woods’ Historic Player Of The Year Streak",
-      "summary": "Scottie Scheffler is chasing a fifth straight PGA Tour Player of the Year award, which would tie Tiger Woods’ record streak of five consecutive win...",
-      "quickRead": "Scottie Scheffler is chasing a fifth straight PGA Tour Player of the Year award, which would tie Tiger Woods’ record streak of five consecutive wins, and he’s doing it after a season that topped $30 million in on-course earnings.  He’s up against a five-man finalist group (headlined by Wyndham Clark), and winning again would further cement Scheffler’s run as the Tour’s dominant era-defining stretch.",
-      "quickContext": "",
-      "modalSummary": "",
-      "keyQuote": "",
-      "quoteAttribution": "",
-      "url": "https://sports.yahoo.com/golf/articles/scheffler-chases-woods-historic-player-212226989.html",
-      "sourceUrl": "https://sports.yahoo.com/golf/articles/scheffler-chases-woods-historic-player-212226989.html",
+      "url": "https://sports.yahoo.com/golf/articles/scottie-scheffler-chases-tiger-woods-012030089.html",
+      "sourceUrl": "https://sports.yahoo.com/golf/articles/scottie-scheffler-chases-tiger-woods-012030089.html",
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/scottie-scheffler-5.png",
-      "timestamp": "2026-11-24T21:22:26.000Z"
+      "timestamp": "2026-11-25T01:20:30.000Z"
     },
     {
       "label": "MAJOR WATCH",
@@ -238,6 +223,21 @@
       "source": "Yahoo Golf",
       "image": "https://morningteeradarfeed.netlify.app/images/golf-placeholder-1.png",
       "timestamp": "2026-11-24T21:00:36.000Z"
+    },
+    {
+      "label": "MAJOR WATCH",
+      "title": "Justin Thomas Makes Major Decision Amid PGA Tour Offseason",
+      "summary": "Justin Thomas split with caddie Matt Minister after two winless years and hired veteran caddie Michael Cromie as his full-time replacement.",
+      "quickRead": "Justin Thomas split with caddie Matt Minister after two winless years and hired veteran caddie Michael Cromie as his full-time replacement.  The move is a major offseason reset for Thomas as he tries to get back to winning form heading into the 2027 PGA Tour season after a middling 2026 campaign.",
+      "quickContext": "",
+      "modalSummary": "",
+      "keyQuote": "",
+      "quoteAttribution": "",
+      "url": "https://sports.yahoo.com/articles/justin-thomas-makes-major-decision-150649866.html",
+      "sourceUrl": "https://sports.yahoo.com/articles/justin-thomas-makes-major-decision-150649866.html",
+      "source": "Yahoo Golf",
+      "image": "https://morningteeradarfeed.netlify.app/images/justin-thomas-1.png",
+      "timestamp": "2026-11-24T15:06:49.000Z"
     }
   ],
   "checking": {
@@ -258,7 +258,7 @@
   "golfInternet": [
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t5c7ty/is_this_the_world_biggest_bunker/",
-      "time": "Just now",
+      "time": "6 hours ago",
       "timestamp": "2026-11-24T21:52:58.936Z",
       "status": "Trending",
       "signal": "Reddit find",
@@ -278,7 +278,7 @@
     },
     {
       "id": "manual-golf-internet:https://www.reddit.com/r/golf/comments/1t76o8u/this_is_the_hot_dog_my_course_has_started_selling/",
-      "time": "37 min ago",
+      "time": "7 hours ago",
       "timestamp": "2026-11-24T21:15:58.936Z",
       "status": "Trending",
       "signal": "Reddit find",
