@@ -1,0 +1,24 @@
+name: Quick-read regression tests
+
+on:
+  pull_request:
+    paths:
+      - reddit-checker.js
+      - lib/quick-read-quality.js
+      - scripts/validate-quick-reads.js
+      - tests/**
+      - .github/workflows/quick-read-tests.yml
+
+permissions:
+  contents: read
+
+jobs:
+  quick-read-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --test tests/quick-read-quality.test.js
+      - run: node --check reddit-checker.js
