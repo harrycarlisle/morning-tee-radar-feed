@@ -2,18 +2,24 @@ name: radar.yml
 
 on:
   schedule:
-    # Normal radar checks, every 2 hours
+    # Normal radar checks, every 2 hours in UTC
     - cron: "0 */2 * * *"
 
-    # Championship Sunday live window, Eastern daylight time
+    # Championship Sunday live window, America/Toronto (EST and EDT)
     # 1:30pm and 1:45pm ET
-    - cron: "30,45 17 * * 0"
+    - cron: "30,45 13 * * 0"
+      timezone: "America/Toronto"
 
-    # Every 15 minutes from 2:00pm to 6:45pm ET
-    - cron: "*/15 18-22 * * 0"
+    # 2:15pm through 6:45pm ET, excluding the top of each hour
+    - cron: "15,30,45 14-18 * * 0"
+      timezone: "America/Toronto"
 
-    # 7:00pm ET
-    - cron: "0 23 * * 0"
+    # Complete the hourly checks from 2:00pm through 7:00pm ET without
+    # overlapping the normal even-UTC-hour checks above:
+    # 19/21/23 UTC = 3/5/7pm EDT or 2/4/6pm EST.
+    # The normal Monday 00:00 UTC check supplies Sunday 7:00pm EST.
+    - cron: "0 19,21,23 * * 0"
+      timezone: "Etc/UTC"
 
   workflow_dispatch:
 
